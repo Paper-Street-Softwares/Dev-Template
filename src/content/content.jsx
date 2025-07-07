@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Paulo Druck | Advocacia Tributária em Porto Alegre - RS",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "www.paulodruckadvocacia.com.br ", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "51",
+    firstPart: "99711", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2252", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Getúlio Vargas,</p>
+      <p>nº 1184, </p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP: 90150-004</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,7 +93,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
