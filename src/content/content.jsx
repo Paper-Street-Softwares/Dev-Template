@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Paulo Druck | Advocacia Tributária em Porto Alegre - RS",
+  name: "Dr. Rômulo S Chaves",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "www.paulodruckadvocacia.com.br ", // Sem "www"
+  domain: "advromuloschaves.com.br", // Sem "www"
   phone: {
-    ddd: "51",
-    firstPart: "99711", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2252", // Apenas os 4 últimos números
+    ddd: "99",
+    firstPart: "98498", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4615", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Getúlio Vargas,</p>
-      <p>nº 1184, </p>
-      <p>Porto Alegre - RS,</p>
-      <p>CEP: 90150-004</p>
+      <p>Rua Antônio Francisco dos Reis, Sala 11,</p>
+      <p>Centro Comercial Dr. Rorício Vasconcelos,</p>
+      <p>Grajaú - MA,</p>
+      <p>CEP: 21336-253</p>
     </div>
   ),
   enderecoSecundario: (
@@ -97,7 +97,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "paulodruckadvogado", // Sem o @
+  instagramProfile: "romulosilvachaves", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -124,20 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRIBUTARISTA EM PORTO ALEGRE - RS",
+      miniTag: "ADVOGADO EM GRAJAÚ - MA",
       title: (
         <h1 className="mb-[16px]">
-          Advocacia especializada na defesa
-          <span className="text-primary"> em execuções fiscais</span>
+          Nem todo direito
+          <span className="text-primary"> é respeitado</span>
         </h1>
       ),
-      subtitle: "Não perca seu patrimônio para o fisco.",
+      subtitle:
+        "Mas existe alguém preparado pra te ouvir, entender sua dor e agir com estratégia e clareza.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com um especialista",
+      ctaButtonText: "Vamos conversar",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial com hora marcada e online para todo Brasil.",
+        text: "Atendimento presencial e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,17 +184,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Recuperação e regularização tributária",
-      subtitle:
-        "Soluções estratégicas para reduzir a carga fiscal, recuperar créditos e negociar dívidas com o Fisco.",
+      miniTag: "ESPECIALIDADES",
+      title: "Onde posso te ajudar",
+      subtitle: "Do dia a dia aos momentos decisivos — entenda como atuo.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Recuperação de créditos tributários",
-        subtitle:
-          "Identificamos tributos pagos indevidamente para compensação ou restituição.",
+        title: "Direito Tributário",
+        subtitle: "Defesa em execuções fiscais e tributos indevidos.",
         description: (
           <div>
             A_Definir
@@ -214,13 +213,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-rotate-ccw-key-icon lucide-rotate-ccw-key"
+            class="lucide lucide-banknote-icon lucide-banknote"
           >
-            <path d="m14.5 9.5 1 1" />
-            <path d="m15.5 8.5-4 4" />
-            <path d="M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-            <circle cx="10" cy="14" r="2" />
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,9 +225,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "ICMS, PIS, Cofins, IPI e Previdenciário",
-        subtitle:
-          "Recuperamos valores de impostos pagos a maior ou indevidamente pela sua empresa.",
+        title: "Direito Eleitoral",
+        subtitle: "Assessoria em campanhas e defesa de candidaturas.",
         description: (
           <div>
             A_Definir
@@ -251,14 +247,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-archive-icon lucide-file-archive"
+            class="lucide lucide-badge-check-icon lucide-badge-check"
           >
-            <path d="M10 12v-1" />
-            <path d="M10 18v-2" />
-            <path d="M10 7V6" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M15.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v16a2 2 0 0 0 .274 1.01" />
-            <circle cx="10" cy="20" r="2" />
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -266,9 +258,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Planejamento e revisão tributária",
-        subtitle:
-          "Análise completa para identificar oportunidades e evitar desperdícios fiscais.",
+        title: "Direito do Consumidor",
+        subtitle: "Soluções para compras, cobranças e contratos.",
         description: (
           <div>
             A_Definir <br />
@@ -288,14 +279,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clipboard-list-icon lucide-clipboard-list"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-            <path d="M12 11h4" />
-            <path d="M12 16h4" />
-            <path d="M8 11h.01" />
-            <path d="M8 16h.01" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,9 +291,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Transação de dívida tributária",
-        subtitle:
-          "Negociação com o Fisco para parcelar, reduzir encargos e regularizar dívidas.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -326,13 +313,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -340,8 +324,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Atuação em contratos, danos e obrigações legais.",
         description: (
           <div>
             A_Definir
@@ -362,11 +346,47 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação estratégica e preventiva em direito.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-book-user-icon lucide-book-user"
+          >
+            <path d="M15 13a3 3 0 1 0-6 0" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+            <circle cx="12" cy="8" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -402,60 +422,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. PAULO DRUCK",
+      miniTag: "QUEM É O DR. RÔMULO CHAVES",
       title: "Minha trajetória",
       subtitle:
-        "Atuação estratégica em defesa fiscal e recuperação de créditos tributários",
+        "Uma jornada feita de escuta, propósito e vontade de fazer diferente",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
-          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
-          adotadas pelo Fisco.
-          <br />
-          Busco soluções jurídicas eficazes para contestar cobranças indevidas
-          e, sempre que possível, anular ou reduzir o valor exigido.
+          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
+          solução. Cada pessoa que me procura carrega uma história única — e
+          merece ser tratada com respeito e clareza.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
-          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
-          adotadas pelo Fisco.
+          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
+          solução. Cada pessoa que me procura carrega uma história única — e
+          merece ser tratada com respeito e clareza.
           <br />
           <br />
-          Busco soluções jurídicas eficazes para contestar cobranças indevidas
-          e, sempre que possível, anular ou reduzir o valor exigido.
+          Minha atuação é próxima, acessível e focada em encontrar caminhos que
+          façam sentido para quem está do outro lado. Sem juridiquês, sem
+          barreiras, com total transparência.
           <br />
           <br />
-          Também trabalho com a recuperação de créditos tributários, analisando
-          tributos pagos a maior ou indevidamente para viabilizar pedidos de
-          compensação ou restituição.
-          <br />
-          <br />
-          Esse processo pode ocorrer tanto na esfera administrativa quanto
-          judicial, de acordo com as particularidades de cada caso.
-          <br />
-          <br />
-          Além disso, oriento e conduzo negociações por meio da transação
-          tributária, mecanismo legal que permite regularizar débitos com
-          condições facilitadas, como descontos e parcelamentos.
-          <br />
-          <br />
-          Avalio a melhor estratégia com base na legislação vigente e na
-          realidade de cada cliente.
-          <br />
-          <br />
-          Contar com o suporte jurídico adequado é essencial para lidar com as
-          complexidades fiscais.
-          <br />
-          <br />
-          Meu objetivo é oferecer um atendimento técnico, claro e comprometido
-          com os melhores resultados possíveis.
+          Sigo construindo uma jornada com propósito: fazer a diferença na vida
+          de quem confia em meu trabalho.
           <br />
           <br />
         </p>
@@ -494,9 +490,9 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-primary">Dúvidas?</span> Entre em contato
+          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-primary">estamos te esperando.</span>
+          <span className="text-bgSectionDark">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
