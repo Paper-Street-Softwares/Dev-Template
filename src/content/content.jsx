@@ -402,33 +402,60 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. PAULO DRUCK",
+      title: "Minha trajetória",
+      subtitle:
+        "Atuação estratégica em defesa fiscal e recuperação de créditos tributários",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
+          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
+          adotadas pelo Fisco.
           <br />
-          A_Definir
+          Busco soluções jurídicas eficazes para contestar cobranças indevidas
+          e, sempre que possível, anular ou reduzir o valor exigido.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
+          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
+          adotadas pelo Fisco.
           <br />
           <br />
-          A_Definir
+          Busco soluções jurídicas eficazes para contestar cobranças indevidas
+          e, sempre que possível, anular ou reduzir o valor exigido.
           <br />
           <br />
-          A_Definir
+          Também trabalho com a recuperação de créditos tributários, analisando
+          tributos pagos a maior ou indevidamente para viabilizar pedidos de
+          compensação ou restituição.
           <br />
           <br />
-          A_Definir
+          Esse processo pode ocorrer tanto na esfera administrativa quanto
+          judicial, de acordo com as particularidades de cada caso.
+          <br />
+          <br />
+          Além disso, oriento e conduzo negociações por meio da transação
+          tributária, mecanismo legal que permite regularizar débitos com
+          condições facilitadas, como descontos e parcelamentos.
+          <br />
+          <br />
+          Avalio a melhor estratégia com base na legislação vigente e na
+          realidade de cada cliente.
+          <br />
+          <br />
+          Contar com o suporte jurídico adequado é essencial para lidar com as
+          complexidades fiscais.
+          <br />
+          <br />
+          Meu objetivo é oferecer um atendimento técnico, claro e comprometido
+          com os melhores resultados possíveis.
           <br />
           <br />
         </p>
@@ -442,14 +469,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
