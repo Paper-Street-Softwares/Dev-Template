@@ -5,13 +5,13 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#45457A",
+      primary: "#058cd7",
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#45457A",
+      bgSectionDark: "#990000",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -32,6 +32,7 @@ export const theme = {
       minititleDarkLabel: "#fff", //label minitag de seções escuras
       minititleDark: "#45457A", //bg minitag de seções claras
       minititle: "#45457A", //bg minitag de seções escuras
+
       // Sombras
 
       shadowHero: "#000000",
