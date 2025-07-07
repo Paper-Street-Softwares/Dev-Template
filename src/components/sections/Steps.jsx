@@ -46,7 +46,7 @@ export default function Steps({ colorMode }) {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color={colorMode ? "light" : ""}
             type={colorMode ? "" : "article"}
-            colorMode={colorMode}
+            titleColorSet={titleColor}
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
