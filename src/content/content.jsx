@@ -422,33 +422,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. RÔMULO CHAVES",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada feita de escuta, propósito e vontade de fazer diferente",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
+          solução. Cada pessoa que me procura carrega uma história única — e
+          merece ser tratada com respeito e clareza.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
+          solução. Cada pessoa que me procura carrega uma história única — e
+          merece ser tratada com respeito e clareza.
           <br />
           <br />
-          A_Definir
+          Minha atuação é próxima, acessível e focada em encontrar caminhos que
+          façam sentido para quem está do outro lado. Sem juridiquês, sem
+          barreiras, com total transparência.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Sigo construindo uma jornada com propósito: fazer a diferença na vida
+          de quem confia em meu trabalho.
           <br />
           <br />
         </p>
@@ -462,14 +465,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
