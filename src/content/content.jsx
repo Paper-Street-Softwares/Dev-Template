@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Mayara Souza",
+  name: "Dr. Paulo Druck | Advocacia Tributária em Porto Alegre - RS",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "mayarasouzaadv.com.br", // Sem "www"
+  domain: "www.paulodruckadvocacia.com.br ", // Sem "www"
   phone: {
-    ddd: "61",
-    firstPart: "98119", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7144", // Apenas os 4 últimos números
+    ddd: "51",
+    firstPart: "99711", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2252", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Getúlio Vargas,</p>
+      <p>nº 1184, </p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP: 90150-004</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,11 +93,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "mayarasouzadasilva.ms", // Sem o @
+  instagramProfile: "paulodruckadvogado", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +124,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM CEILÂNDIA - DF",
+      miniTag: "ADVOGADO TRIBUTARISTA EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          Ignorar seus direitos
-          <span className="text-primary"> tem custo</span>
+          Advocacia especializada na defesa
+          <span className="text-primary"> em execuções fiscais</span>
         </h1>
       ),
-      subtitle:
-        "A maioria só descobre quando já é tarde. Aqui, o atendimento é claro, humano e estratégico.",
+      subtitle: "Não perca seu patrimônio para o fisco.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero entender meus direitos",
+      ctaButtonText: "Fale com um especialista",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "Atendimento presencial com hora marcada e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +183,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Atendimento jurídico em múltiplas especialidades",
+      miniTag: "ESPECIALIDADE",
+      title: "Recuperação e regularização tributária",
       subtitle:
-        "Atuação estratégica nas principais áreas do Direito para oferecer soluções completas e eficazes aos clientes.",
+        "Soluções estratégicas para reduzir a carga fiscal, recuperar créditos e negociar dívidas com o Fisco.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Civil e Contratual",
-        subtitle: "Conflitos, contratos, danos e cobranças judiciais.",
+        title: "Recuperação de créditos tributários",
+        subtitle:
+          "Identificamos tributos pagos indevidamente para compensação ou restituição.",
         description: (
           <div>
             A_Definir
@@ -213,13 +214,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-rotate-ccw-key-icon lucide-rotate-ccw-key"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="m14.5 9.5 1 1" />
+            <path d="m15.5 8.5-4 4" />
+            <path d="M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <circle cx="10" cy="14" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +228,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Divórcio, pensão, guarda, inventário e testamento.",
+        title: "ICMS, PIS, Cofins, IPI e Previdenciário",
+        subtitle:
+          "Recuperamos valores de impostos pagos a maior ou indevidamente pela sua empresa.",
         description: (
           <div>
             A_Definir
@@ -249,12 +251,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-file-archive-icon lucide-file-archive"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M10 12v-1" />
+            <path d="M10 18v-2" />
+            <path d="M10 7V6" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M15.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v16a2 2 0 0 0 .274 1.01" />
+            <circle cx="10" cy="20" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +266,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Penal e Processual Penal",
-        subtitle: "Defesa em inquéritos, processos e audiências.",
+        title: "Planejamento e revisão tributária",
+        subtitle:
+          "Análise completa para identificar oportunidades e evitar desperdícios fiscais.",
         description: (
           <div>
             A_Definir <br />
@@ -283,13 +288,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-clipboard-list-icon lucide-clipboard-list"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+            <path d="M12 11h4" />
+            <path d="M12 16h4" />
+            <path d="M8 11h.01" />
+            <path d="M8 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,8 +303,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Trabalhista e Previdenciário",
-        subtitle: "Ações trabalhistas, aposentadorias e benefícios.",
+        title: "Transação de dívida tributária",
+        subtitle:
+          "Negociação com o Fisco para parcelar, reduzir encargos e regularizar dívidas.",
         description: (
           <div>
             A_Definir
@@ -319,12 +326,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -394,51 +402,60 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. MAYARA SOUZA",
+      miniTag: "QUEM É O DR. PAULO DRUCK",
       title: "Minha trajetória",
       subtitle:
-        "Comprometida com ética, excelência e soluções jurídicas personalizadas.",
+        "Atuação estratégica em defesa fiscal e recuperação de créditos tributários",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
-          tornar o Direito mais acessível, compreensível e acolhedor para todos.
+          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
+          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
+          adotadas pelo Fisco.
           <br />
-          Com uma atuação pautada na ética, integridade e excelência, o
-          escritório se diferencia por oferecer um atendimento realmente
-          personalizado, atento às necessidades e particularidades de cada
-          cliente.
+          Busco soluções jurídicas eficazes para contestar cobranças indevidas
+          e, sempre que possível, anular ou reduzir o valor exigido.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
-          tornar o Direito mais acessível, compreensível e acolhedor para todos.
+          Atuo na defesa de contribuintes em execuções fiscais, protegendo o
+          patrimônio contra bloqueios, penhoras e outras medidas coercitivas
+          adotadas pelo Fisco.
           <br />
           <br />
-          Com uma atuação pautada na ética, integridade e excelência, o
-          escritório se diferencia por oferecer um atendimento realmente
-          personalizado, atento às necessidades e particularidades de cada
-          cliente.
+          Busco soluções jurídicas eficazes para contestar cobranças indevidas
+          e, sempre que possível, anular ou reduzir o valor exigido.
           <br />
           <br />
-          Desde o início, o foco sempre foi tratar cada caso com dedicação única
-          — não apenas buscando resultados positivos, mas também garantindo que
-          o cliente se sinta seguro, ouvido e respeitado durante todo o
-          processo.
+          Também trabalho com a recuperação de créditos tributários, analisando
+          tributos pagos a maior ou indevidamente para viabilizar pedidos de
+          compensação ou restituição.
           <br />
           <br />
-          Acreditamos que a confiança é construída com escuta, transparência e
-          responsabilidade.
+          Esse processo pode ocorrer tanto na esfera administrativa quanto
+          judicial, de acordo com as particularidades de cada caso.
           <br />
           <br />
-          Mais do que oferecer soluções jurídicas, nossa missão é caminhar lado
-          a lado com o cliente, descomplicando o acesso à Justiça e promovendo
-          um atendimento humanizado e de alta qualidade.
+          Além disso, oriento e conduzo negociações por meio da transação
+          tributária, mecanismo legal que permite regularizar débitos com
+          condições facilitadas, como descontos e parcelamentos.
+          <br />
+          <br />
+          Avalio a melhor estratégia com base na legislação vigente e na
+          realidade de cada cliente.
+          <br />
+          <br />
+          Contar com o suporte jurídico adequado é essencial para lidar com as
+          complexidades fiscais.
+          <br />
+          <br />
+          Meu objetivo é oferecer um atendimento técnico, claro e comprometido
+          com os melhores resultados possíveis.
           <br />
           <br />
         </p>
@@ -477,9 +494,9 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          <span className="text-primary">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (

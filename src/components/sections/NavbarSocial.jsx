@@ -113,10 +113,8 @@ export default function NavbarSocial({ colorMode }) {
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className={`bg-transparent max-h-[90px] ${
-                scrolling
-                  ? " rounded-md w-[50%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[60%]"
-                  : " my-[20px] w-[90%] phone2:w-[80%] phone3:w-[80%] tablet1:w-[80%] tablet2:w-[70%] desktop2:w-[90%]"
+              className={`bg-transparent ${
+                scrolling ? " w-[20%] " : "w-[35%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>
