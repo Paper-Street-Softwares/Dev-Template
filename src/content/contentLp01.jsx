@@ -1,6 +1,6 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import logo from "../assets/imgs/logo/logo.webp";
-import imagemAbout from "../assets/imgs/about/aboutImg.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import imagemAbout from "../assets/imgs/about/aboutImg.jpg";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -14,7 +14,6 @@ import { ChartNoAxesCombined } from "lucide-react";
 import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -24,12 +23,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Dr. Rafael Nascimento | Especialista em Fraude Bancária em Campinas - SP",
-    description:
-      "Foi vítima de fraude bancária? O Dr. Rafael Nascimento, advogado em Campinas - SP, atua com experiência e agilidade na área de Direito Bancário, com foco em defesa contra golpes, transferências indevidas e clonagem de cartão.",
-    keywords:
-      "Fraude Bancária, Golpe PIX, Advogado Fraude Bancária, Clonagem de Cartão, Advogado Campinas, Defesa Contra Golpes Bancários, Transferência Indevida, Direito do Consumidor Bancário, Ação Contra Banco, Recuperação de Valores, Indenização Por Fraude, Danos Morais Por Fraude Bancária, Assessoria Jurídica Campinas, Especialista em Direito Bancário, Advogado Especialista em Golpes Digitais, Consultoria Jurídica em Campinas, Direito Bancário Campinas, Processo Contra Instituições Financeiras, Dr. Rafael Nascimento, Cobrança Indevida Banco",
+    title: "A_Definir1",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
@@ -40,120 +36,41 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Foi vítima de cobrança indevida, fraude bancária ou teve o carro
-          apreendido? <span className="text-lpTitle"></span>
-          <span className="text-lpTitle"></span>
+          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
+          <span className="text-lpTitle"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Você pode ter direito à reparação. Conte com suporte jurídico especializado para defender seus direitos e reverter situações abusivas.",
-      buttonLabel: "Converse agora com um especialista",
+      subtitle: "A_Definir",
+      buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "DEFENDA SEUS DIREITOS FINANCEIROS",
-      title: "Situações em que você pode buscar indenização na Justiça",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-mail-warning-icon lucide-mail-warning"
-          >
-            <path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" />
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-            <path d="M20 14v4" />
-            <path d="M20 22v.01" />
-          </svg>
-        ),
-        title: "Cobrança indevida em faturas, boletos ou contratos",
-        description:
-          "Valores cobrados indevidamente, seja por erro ou má-fé, devem ser estornados e podem gerar direito a indenização por danos morais.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-alert-icon lucide-shield-alert"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
-          </svg>
-        ),
-        title:
-          "Golpes e fraudes bancárias: compras, PIX ou transferências não autorizadas",
-        description:
-          "Se você foi vítima de fraude, o banco é responsável pela segurança da conta. Você pode reaver os valores e receber compensação.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-car-taxi-front-icon lucide-car-taxi-front"
-          >
-            <path d="M10 2h4" />
-            <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
-            <path d="M7 14h.01" />
-            <path d="M17 14h.01" />
-            <rect width="18" height="8" x="3" y="10" rx="2" />
-            <path d="M5 18v2" />
-            <path d="M19 18v2" />
-          </svg>
-        ),
-        title: "Busca e apreensão de veículos com irregularidades",
-        description:
-          "Se o banco ou financeira agiu de forma abusiva na retomada do seu veículo, é possível contestar a ação e buscar reparação judicial.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-user-icon lucide-user"
-          >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
-          </svg>
-        ),
-        title: "Negativa de devolução ou atendimento ineficaz pelo banco",
-        description:
-          "Se a instituição financeira não prestou suporte ou negou a resolução de um problema claro, você pode exigir judicialmente seus direitos.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
@@ -172,19 +89,21 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
-      title: "Análise individualizada e adoção de medida estratégica",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     paragraph: (
       <p>
-        Se você se identifica com alguma das situações acima, pode ter direito à
-        indenização por falhas na prestação de serviços bancários ou abusos
-        cometidos por instituições financeiras.
+        A_Definir
         <br />
         <br />
+        A_Definir
+        <br />
+        <br />
+        A_Definir
       </p>
     ),
-    buttonLabel: "Converse agora com um especialista",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -214,33 +133,29 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A ESCOLHA CERTA",
-      title: "Estratégia personalizada para o seu caso",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
-        icon: <ShieldCheck width={32} height={32} />,
-        title: "Estratégia personalizada para o seu caso",
-        description:
-          "Analisamos cada detalhe da cobrança indevida, fraude bancária ou busca e apreensão para construir a melhor estratégia jurídica. Nosso foco é garantir seus direitos com suporte especializado em todas as etapas do processo.",
+        icon: <Gavel width={32} height={32} />,
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Soluções sob medida",
-        description:
-          "Cada situação exige um plano de ação exclusivo. Atuamos com rapidez e precisão para buscar a reparação que você merece. Com atenção aos detalhes, aumentam suas chances de um resultado positivo.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Compromisso total com seus direitos",
-        description:
-          "Estamos ao seu lado do início ao fim, com dedicação e responsabilidade. Defendemos seus interesses com firmeza e transparência, sempre em busca da melhor solução jurídica.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Experiência que inspira confiança",
-        description:
-          "Temos sólida experiência em casos contra bancos e financeiras. Com conhecimento técnico e atuação eficiente, garantimos segurança em cada passo e lutamos para que você receba a justiça que merece.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
@@ -254,19 +169,11 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO ESPERE MAIS",
-      title: "Garanta sua indenização agora mesmo!",
-      subtitle: (
-        <p className="opacity-80">
-          Se você foi vítima de cobrança indevida, fraude bancária ou teve seu
-          veículo apreendido de forma abusiva, pode ter direito a uma
-          indenização. Nossa equipe jurídica especializada está pronta para
-          orientar você e buscar a reparação que merece. Não deixe que o
-          prejuízo se prolongue — lute pelos seus direitos!
-        </p>
-      ),
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
