@@ -190,21 +190,31 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "Excelência em Defesa Administrativa de Trânsito",
+      title:
+        "Comprometimento real com a proteção dos seus direitos no trânsito.",
     },
     paragraph: (
       <p>
-        A_Definir
+        Atuamos com excelência em defesas jurídicas relacionadas a infrações,
+        multas, suspensão e cassação da CNH, além de outras demandas do Direito
+        de Trânsito.
         <br />
         <br />
-        A_Definir
+        Nosso atendimento é personalizado e estratégico, considerando as
+        particularidades de cada caso. Unimos conhecimento técnico, experiência
+        e soluções inovadoras para alcançar resultados justos e concretos.
         <br />
         <br />
-        A_Definir
+        Desde o início, somos reconhecidos por uma atuação firme, próxima e
+        eficiente, sempre focados na defesa dos seus direitos.
+        <br />
+        <br />
+        Se você busca um escritório que realmente entende o seu problema e luta
+        por você, está no lugar certo.
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Fale agora com um advogado",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
