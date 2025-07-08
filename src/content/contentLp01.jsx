@@ -39,12 +39,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Seus direitos <span className="text-lpTitle"> no trânsito</span>{" "}
+          <span className="text-lpTitle"> também merecem prioridade</span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Multas indevidas, CNH suspensa, acidentes ou venda mal resolvida? Atuamos para proteger você em cada detalhe do caminho.",
+      buttonLabel: "Fale com um advogado especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
