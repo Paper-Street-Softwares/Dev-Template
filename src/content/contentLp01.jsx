@@ -1,6 +1,6 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import logo from "../assets/imgs/logo/logo.png";
-import imagemAbout from "../assets/imgs/about/aboutImg.png";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
+import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -300,11 +300,18 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Seus direitos no trânsito ao seu alcance!",
+      subtitle: (
+        <p className="opacity-80">
+          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
+          qualquer questão jurídica relacionada ao trânsito. Conte com uma
+          equipe especializada para proteger sua CNH, recorrer de multas e
+          garantir seus direitos com segurança e agilidade.
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Vamos resolver seu problema",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
