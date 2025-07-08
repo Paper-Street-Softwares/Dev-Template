@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
@@ -14,7 +14,6 @@ import { ChartNoAxesCombined } from "lucide-react";
 import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -25,11 +24,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Dr. Rafael Nascimento | Especialista em Fraude Bancária em Campinas - SP",
+      "Prime Trânsito Goiás | Especialistas em Recursos - Palmeiras de Goiás",
     description:
-      "Foi vítima de fraude bancária? O Dr. Rafael Nascimento, advogado em Campinas - SP, atua com experiência e agilidade na área de Direito Bancário, com foco em defesa contra golpes, transferências indevidas e clonagem de cartão.",
+      "Especialistas em recursos de multas, CNH suspensa ou cassada. Atendimento jurídico personalizado em Palmeiras de Goiás com eficiência e agilidade.",
     keywords:
-      "Fraude Bancária, Golpe PIX, Advogado Fraude Bancária, Clonagem de Cartão, Advogado Campinas, Defesa Contra Golpes Bancários, Transferência Indevida, Direito do Consumidor Bancário, Ação Contra Banco, Recuperação de Valores, Indenização Por Fraude, Danos Morais Por Fraude Bancária, Assessoria Jurídica Campinas, Especialista em Direito Bancário, Advogado Especialista em Golpes Digitais, Consultoria Jurídica em Campinas, Direito Bancário Campinas, Processo Contra Instituições Financeiras, Dr. Rafael Nascimento, Cobrança Indevida Banco",
+      "Recurso De Multa, Recurso De CNH Suspensa, Recurso De CNH Cassada, Advogado De Trânsito, Assessoria De Trânsito, Defesa De Multa De Trânsito, Multa Por Embriaguez, Suspensão De CNH, Cassação De CNH, Direito De Trânsito, Especialista Em Trânsito, Multas De Trânsito Goiás, CNH Suspensa Palmeiras De Goiás, CNH Cassada Palmeiras De Goiás, Recurso De Multa Em Palmeiras De Goiás, Advogado Em Palmeiras De Goiás, Prime Trânsito Goiás, Assessoria Prime Trânsito, Prime Trânsito Em Palmeiras De Goiás, Recursos Administrativos De Trânsito.",
   },
   hero: {
     bgImg: bgImg,
@@ -40,22 +39,21 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Foi vítima de cobrança indevida, fraude bancária ou teve o carro
-          apreendido? <span className="text-lpTitle"></span>
-          <span className="text-lpTitle"></span>
+          Seus direitos <span className="text-lpTitle"> no trânsito</span>{" "}
+          <span className="text-lpTitle"> também merecem prioridade</span>
         </h1>
       ),
       subtitle:
-        "Você pode ter direito à reparação. Conte com suporte jurídico especializado para defender seus direitos e reverter situações abusivas.",
-      buttonLabel: "Converse agora com um especialista",
+        "Multas indevidas, CNH suspensa, acidentes ou venda mal resolvida? Atuamos para proteger você em cada detalhe do caminho.",
+      buttonLabel: "Fale com um advogado especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "DEFENDA SEUS DIREITOS FINANCEIROS",
-      title: "Situações em que você pode buscar indenização na Justiça",
+      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
+      title: "Descubra quando recorrer e como garantir seus direitos.",
     },
     cards: {
       card1: {
@@ -70,17 +68,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-mail-warning-icon lucide-mail-warning"
+            class="lucide lucide-shield-off-icon lucide-shield-off"
           >
-            <path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" />
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-            <path d="M20 14v4" />
-            <path d="M20 22v.01" />
+            <path d="m2 2 20 20" />
+            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
+            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
           </svg>
         ),
-        title: "Cobrança indevida em faturas, boletos ou contratos",
+        title: "Multas e Infrações Indevidas",
         description:
-          "Valores cobrados indevidamente, seja por erro ou má-fé, devem ser estornados e podem gerar direito a indenização por danos morais.",
+          "Conteste penalidades injustas ou aplicadas por erro administrativo.",
       },
       card2: {
         icon: (
@@ -94,17 +91,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-alert-icon lucide-shield-alert"
+            class="lucide lucide-ban-icon lucide-ban"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title:
-          "Golpes e fraudes bancárias: compras, PIX ou transferências não autorizadas",
+        title: "Suspensão e Cassação da CNH",
         description:
-          "Se você foi vítima de fraude, o banco é responsável pela segurança da conta. Você pode reaver os valores e receber compensação.",
+          "Defenda sua habilitação com estratégias administrativas e judiciais.",
       },
       card3: {
         icon: (
@@ -118,20 +113,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-taxi-front-icon lucide-car-taxi-front"
+            class="lucide lucide-car-icon lucide-car"
           >
-            <path d="M10 2h4" />
-            <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
-            <path d="M7 14h.01" />
-            <path d="M17 14h.01" />
-            <rect width="18" height="8" x="3" y="10" rx="2" />
-            <path d="M5 18v2" />
-            <path d="M19 18v2" />
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "Busca e apreensão de veículos com irregularidades",
+        title: "Acidentes e Indenizações",
         description:
-          "Se o banco ou financeira agiu de forma abusiva na retomada do seu veículo, é possível contestar a ação e buscar reparação judicial.",
+          "Busque reparação por danos materiais, morais ou corporais.",
       },
       card4: {
         icon: (
@@ -145,15 +137,41 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-icon lucide-user"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
-        title: "Negativa de devolução ou atendimento ineficaz pelo banco",
+        title: "Recursos Administrativos e Judiciais",
         description:
-          "Se a instituição financeira não prestou suporte ou negou a resolução de um problema claro, você pode exigir judicialmente seus direitos.",
+          "Atuação completa para reverter decisões do DETRAN, JARI e CETRAN.",
+      },
+      card5: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-warning-icon lucide-file-warning"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
+          </svg>
+        ),
+        title: "Venda não formalizada de veículos",
+        description:
+          "Evite multas e responsabilidades por carros que já vendeu, mas continuam no seu nome.",
       },
     },
   },
@@ -172,19 +190,31 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
-      title: "Análise individualizada e adoção de medida estratégica",
+      miniTag: "Excelência em Defesa Administrativa de Trânsito",
+      title:
+        "Comprometimento real com a proteção dos seus direitos no trânsito.",
     },
     paragraph: (
       <p>
-        Se você se identifica com alguma das situações acima, pode ter direito à
-        indenização por falhas na prestação de serviços bancários ou abusos
-        cometidos por instituições financeiras.
+        Atuamos com excelência em defesas jurídicas relacionadas a infrações,
+        multas, suspensão e cassação da CNH, além de outras demandas do Direito
+        de Trânsito.
         <br />
         <br />
+        Nosso atendimento é personalizado e estratégico, considerando as
+        particularidades de cada caso. Unimos conhecimento técnico, experiência
+        e soluções inovadoras para alcançar resultados justos e concretos.
+        <br />
+        <br />
+        Desde o início, somos reconhecidos por uma atuação firme, próxima e
+        eficiente, sempre focados na defesa dos seus direitos.
+        <br />
+        <br />
+        Se você busca um escritório que realmente entende o seu problema e luta
+        por você, está no lugar certo.
       </p>
     ),
-    buttonLabel: "Converse agora com um especialista",
+    buttonLabel: "Fale agora com um advogado",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -215,32 +245,48 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Estratégia personalizada para o seu caso",
+      title:
+        "Por que somos a melhor opção para defender seus direitos no trânsito",
     },
     cards: {
       card1: {
-        icon: <ShieldCheck width={32} height={32} />,
-        title: "Estratégia personalizada para o seu caso",
+        icon: <Gavel width={32} height={32} />,
+        title: "Especialistas em Direito de Trânsito",
         description:
-          "Analisamos cada detalhe da cobrança indevida, fraude bancária ou busca e apreensão para construir a melhor estratégia jurídica. Nosso foco é garantir seus direitos com suporte especializado em todas as etapas do processo.",
+          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Soluções sob medida",
+        title: "Experiência Comprovada e Atualizada",
         description:
-          "Cada situação exige um plano de ação exclusivo. Atuamos com rapidez e precisão para buscar a reparação que você merece. Com atenção aos detalhes, aumentam suas chances de um resultado positivo.",
+          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Compromisso total com seus direitos",
+        title: "Atuação Próxima dos Órgãos e Tribunais",
         description:
-          "Estamos ao seu lado do início ao fim, com dedicação e responsabilidade. Defendemos seus interesses com firmeza e transparência, sempre em busca da melhor solução jurídica.",
+          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
       },
       card4: {
-        icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Experiência que inspira confiança",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-square-icon lucide-message-square"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        ),
+        title: "Estratégias Personalizadas para Seu Caso",
         description:
-          "Temos sólida experiência em casos contra bancos e financeiras. Com conhecimento técnico e atuação eficiente, garantimos segurança em cada passo e lutamos para que você receba a justiça que merece.",
+          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
       },
     },
   },
@@ -254,19 +300,18 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO ESPERE MAIS",
-      title: "Garanta sua indenização agora mesmo!",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Seus direitos no trânsito ao seu alcance!",
       subtitle: (
         <p className="opacity-80">
-          Se você foi vítima de cobrança indevida, fraude bancária ou teve seu
-          veículo apreendido de forma abusiva, pode ter direito a uma
-          indenização. Nossa equipe jurídica especializada está pronta para
-          orientar você e buscar a reparação que merece. Não deixe que o
-          prejuízo se prolongue — lute pelos seus direitos!
+          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
+          qualquer questão jurídica relacionada ao trânsito. Conte com uma
+          equipe especializada para proteger sua CNH, recorrer de multas e
+          garantir seus direitos com segurança e agilidade.
         </p>
       ),
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Vamos resolver seu problema",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
