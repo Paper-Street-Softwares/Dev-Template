@@ -244,29 +244,49 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title:
+        "Por que somos a melhor opção para defender seus direitos no trânsito",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Especialistas em Direito de Trânsito",
+        description:
+          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Experiência Comprovada e Atualizada",
+        description:
+          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Atuação Próxima dos Órgãos e Tribunais",
+        description:
+          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
       },
       card4: {
-        icon: <BadgeDollarSign width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-square-icon lucide-message-square"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        ),
+        title: "Estratégias Personalizadas para Seu Caso",
+        description:
+          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
       },
     },
   },
