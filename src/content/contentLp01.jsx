@@ -1,6 +1,6 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import logo from "../assets/imgs/logo/logo.png";
-import imagemAbout from "../assets/imgs/about/aboutImg.jpg";
+import imagemAbout from "../assets/imgs/about/aboutImg.png";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
