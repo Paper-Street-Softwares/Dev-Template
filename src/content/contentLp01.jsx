@@ -23,9 +23,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Prime Trânsito Goiás | Especialistas em Recursos - Palmeiras de Goiás",
+    description:
+      "Especialistas em recursos de multas, CNH suspensa ou cassada. Atendimento jurídico personalizado em Palmeiras de Goiás com eficiência e agilidade.",
+    keywords:
+      "Recurso De Multa, Recurso De CNH Suspensa, Recurso De CNH Cassada, Advogado De Trânsito, Assessoria De Trânsito, Defesa De Multa De Trânsito, Multa Por Embriaguez, Suspensão De CNH, Cassação De CNH, Direito De Trânsito, Especialista Em Trânsito, Multas De Trânsito Goiás, CNH Suspensa Palmeiras De Goiás, CNH Cassada Palmeiras De Goiás, Recurso De Multa Em Palmeiras De Goiás, Advogado Em Palmeiras De Goiás, Prime Trânsito Goiás, Assessoria Prime Trânsito, Prime Trânsito Em Palmeiras De Goiás, Recursos Administrativos De Trânsito.",
   },
   hero: {
     bgImg: bgImg,
