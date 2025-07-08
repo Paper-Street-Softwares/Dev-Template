@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rômulo S Chaves",
+  name: "Dra. Cecilia Silva",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "advromuloschaves.com.br", // Sem "www"
+  domain: "advogadaceciliasilva.com.br", // Sem "www"
   phone: {
-    ddd: "99",
-    firstPart: "98498", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4615", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98710", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5902", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Antônio Francisco dos Reis, Sala 11,</p>
-      <p>Centro Comercial Dr. Rorício Vasconcelos,</p>
-      <p>Grajaú - MA,</p>
-      <p>CEP: 21336-253</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -97,8 +96,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "romulosilvachaves", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "advogadaceciliasilva", // Sem o @
+  facebookProfile: "advogada.ceciliasilva",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM GRAJAÚ - MA",
+      miniTag: "ADVOGADA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Nem todo direito
-          <span className="text-primary"> é respeitado</span>
+          Direito com propósito e<span className="text-primary"> ação</span>
         </h1>
       ),
       subtitle:
-        "Mas existe alguém preparado pra te ouvir, entender sua dor e agir com estratégia e clareza.",
+        "A gente não enrola: entende, age e resolve o que está travando sua vida.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Vamos conversar",
+      ctaButtonText: "Resolver meu caso",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "Atendimentos preferencialmente on-line. Presencial, apenas com horário agendado.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,157 +182,44 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Onde posso te ajudar",
-      subtitle: "Do dia a dia aos momentos decisivos — entenda como atuo.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Nossas especialidades",
+      subtitle:
+        "Atuamos em diferentes áreas para resolver o seu problema jurídico",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Tributário",
-        subtitle: "Defesa em execuções fiscais e tributos indevidos.",
+        title: "Direito Civil",
+        subtitle: "Assessoria jurídica em contratos e obrigações civis.",
         description: (
           <div>
-            A_Definir
+            - Assessoria a pessoas físicas e jurídicas
             <br />
+            - Contratos em geral
             <br />
-            A_Definir
+            - Consignações em Pagamento
+            <br />
+            - Notificações Extrajudiciais
+            <br />
+            - Negócios jurídicos em geral
+            <br />
+            - Responsabilidade civil
+            <br />
+            - Defesas em processos administrativos
+            <br />
+            - Cobranças, execuções e recuperações de créditos
+            <br />
+            - Direito das Obrigações
+            <br />
+            - Gestão de negócios: orientação jurídica pessoal e empresarial
+            <br />
+            - Indenizações
+            <br />- Pedido liminar em geral, direito à saúde, fornecimento de
+            medicamentos, realização de cirurgias e exames
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
-          >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Eleitoral",
-        subtitle: "Assessoria em campanhas e defesa de candidaturas.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-badge-check-icon lucide-badge-check"
-          >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito do Consumidor",
-        subtitle: "Soluções para compras, cobranças e contratos.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
-          >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card4: {
-        img: featuresImg4,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg4,
-        title: "Direito Cível",
-        subtitle: "Atuação em contratos, danos e obrigações legais.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -358,16 +243,134 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card6: {
-        img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação estratégica e preventiva em direito.",
+      card2: {
+        img: featuresImg2,
+        title: "Direito do Trabalho",
+        subtitle: "Defesa de direitos trabalhistas e ações indenizatórias.",
         description: (
           <div>
-            A_Definir
+            - Ausência de Registro em carteira
             <br />
+            - Insalubridade e Periculosidade
             <br />
-            A_Definir
+            - Jornadas de trabalho abusivas
+            <br />
+            - Pedidos de demissão forçados
+            <br />
+            - Não pagamento de horas extras
+            <br />
+            - Pagamento de salário por fora
+            <br />
+            - Demissão de gestante
+            <br />
+            - Demissão de doentes e acidentados
+            <br />
+            - Assédio moral
+            <br />
+            - Ação de indenização moral e material por acidente de trabalho
+            <br />
+            - Danos morais por perda de uma chance
+            <br />
+            - Equiparação salarial
+            <br />
+            - Reconhecimento de garantia de emprego
+            <br />
+            - Rescisão indireta
+            <br />
+            - Estágios fraudulentos
+            <br />
+            - Terceirizações ilegais
+            <br />
+            - Defesa de reclamações trabalhistas e dissídios individuais
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Imobiliário",
+        subtitle: "Ações e contratos relacionados a imóveis e locações.",
+        description: (
+          <div>
+            - Ações de Despejo / Reintegração de Posse
+            <br />
+            - Lei do Inquilinato / Locações em geral
+            <br />
+            - Assessoria na Compra e Venda de Imóveis
+            <br />
+            - Contrato de Venda e Compra de Imóveis
+            <br />
+            - Usucapião Judicial e Extrajudicial
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house-icon lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Direito do Consumidor",
+        subtitle: "Proteção e defesa contra abusos nas relações de consumo.",
+        description: (
+          <div>
+            - Negativação indevida
+            <br />
+            - Defesa do consumidor, fornecedor, fabricante e comerciante perante
+            o PROCON e Judiciário
+            <br />
+            - Cláusulas contratuais abusivas
+            <br />
+            - Cobranças indevidas
+            <br />
+            - Defeito/Vício no produto ou serviço
+            <br />
+            - Fraude bancária (clonagem do cartão, golpe do pix, compras
+            indevidas, dentre outros)
+            <br />
+            - Publicidade enganosa ou abusiva
+            <br />
+            - Ressarcimento de danos
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -382,11 +385,85 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-user-icon lucide-book-user"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M15 13a3 3 0 1 0-6 0" />
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-            <circle cx="12" cy="8" r="2" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "Direito de Família",
+        subtitle: "Ações familiares como divórcio, guarda e inventário.",
+        description: (
+          <div>
+            - Inventário judicial e extrajudicial (cartório)
+            <br />
+            - Divórcio consensual e litigioso
+            <br />
+            - Declaração e Dissolução de união estável consensual e litigiosa
+            <br />
+            - Investigação de paternidade
+            <br />
+            - Negatória de paternidade
+            <br />
+            - Alimentos em geral
+            <br />
+            - Ação de regulamentação de visitas
+            <br />
+            - Guarda
+            <br />
+            - Tutela/curatela
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação preventiva e estratégica para decisões legais.",
+        description: <div></div>,
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-circle-icon lucide-message-circle"
+          >
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -422,36 +499,45 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. RÔMULO CHAVES",
+      miniTag: "QUEM É A DRA. CECILIA SILVA",
       title: "Minha trajetória",
       subtitle:
-        "Uma jornada feita de escuta, propósito e vontade de fazer diferente",
+        "Atendimento ético, humanizado e soluções jurídicas personalizadas",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
-          solução. Cada pessoa que me procura carrega uma história única — e
-          merece ser tratada com respeito e clareza.
+          Com uma atuação pautada na ética, comprometimento e excelência, o
+          escritório liderado pela Dra. Cecília Silva oferece um atendimento
+          personalizado, humanizado e eficaz.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Escolhi a advocacia por acreditar que ouvir com atenção já é parte da
-          solução. Cada pessoa que me procura carrega uma história única — e
-          merece ser tratada com respeito e clareza.
+          Com uma atuação pautada na ética, comprometimento e excelência, o
+          escritório liderado pela Dra. Cecília Silva oferece um atendimento
+          personalizado, humanizado e eficaz.
           <br />
           <br />
-          Minha atuação é próxima, acessível e focada em encontrar caminhos que
-          façam sentido para quem está do outro lado. Sem juridiquês, sem
-          barreiras, com total transparência.
+          Trabalhamos com foco em soluções preventivas e na busca por
+          alternativas extrajudiciais ou judiciais para resolver conflitos com
+          agilidade e responsabilidade.
           <br />
           <br />
-          Sigo construindo uma jornada com propósito: fazer a diferença na vida
-          de quem confia em meu trabalho.
+          Contamos com um time de advogados parceiros altamente qualificados,
+          prontos para atuar nas mais diversas áreas do Direito, sempre
+          priorizando a melhor estratégia para cada caso.
+          <br />
+          <br />
+          Nosso atendimento é preferencialmente online, mas também realizamos
+          atendimentos presenciais com horário marcado, garantindo comodidade e
+          acessibilidade.
+          <br />
+          <br />
+          Um escritório moderno, acessível e comprometido com a sua causa.
           <br />
           <br />
         </p>

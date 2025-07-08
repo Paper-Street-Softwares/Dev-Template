@@ -103,7 +103,7 @@ export default function NavbarSocial({ colorMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[300px]"
+            className="cursor-pointer w-[400px]"
             spy={true}
             smooth={true}
             duration={500}
