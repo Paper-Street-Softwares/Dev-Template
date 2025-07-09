@@ -101,21 +101,21 @@ export default function SidebarSocial({ colorMode }) {
                       outlined
                       className={`${
                         colorMode
-                          ? "text-primary"
+                          ? "text-white"
                           : "h-2rem w-2rem p-[5px] text-white"
                       }`}
                     ></Button>
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-white" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
                         <ul
                           className={`${
                             colorMode
-                              ? "text-primary"
+                              ? "text-white"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
                           } list-none text-paragraph3 font-mainFont`}
                         >
