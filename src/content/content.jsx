@@ -397,33 +397,50 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. MICHEL FRANZEN",
+      title: "Minha trajetória",
+      subtitle:
+        "Mais de 20 anos de experiência com atendimento humano e linguagem acessível",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          A trajetória do escritório é fruto de mais de duas décadas de
+          dedicação e excelência em Direito Previdenciário.
           <br />
-          A_Definir
+          Desde o início, nosso crescimento foi impulsionado pelas indicações de
+          clientes satisfeitos, reflexo direto do nosso compromisso com a ética,
+          a honestidade e o atendimento humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A trajetória do escritório é fruto de mais de duas décadas de
+          dedicação e excelência em Direito Previdenciário.
           <br />
           <br />
-          A_Definir
+          Desde o início, nosso crescimento foi impulsionado pelas indicações de
+          clientes satisfeitos, reflexo direto do nosso compromisso com a ética,
+          a honestidade e o atendimento humanizado.
           <br />
           <br />
-          A_Definir
+          O Dr. Michel Franzen é especialista na área, com sólida experiência e
+          uma abordagem acessível e acolhedora.
           <br />
           <br />
-          A_Definir
+          Aqui, o cliente entende o que está acontecendo, sem termos técnicos
+          difíceis, porque acreditamos que informação clara gera confiança.
+          <br />
+          <br />
+          Nosso diferencial está na forma como cuidamos de cada caso: com
+          empatia, escuta ativa e foco absoluto em resultados concretos.
+          <br />
+          <br />
+          Atuamos com exclusividade e comprometimento para garantir o melhor
+          para quem confia em nosso trabalho.
           <br />
           <br />
         </p>
