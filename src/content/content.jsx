@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Michel Franzen",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99286", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4003", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua 222, nº 258,</p>
+      <p>sala 4, Bairro Meia Praia,</p>
+      <p>Itapema - SC,</p>
+      <p>CEP 88220-000</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,7 +93,8 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 12</p>
+      <p>14h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
