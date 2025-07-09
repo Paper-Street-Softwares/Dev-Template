@@ -22,19 +22,19 @@ export default function ListGroupSocial({ colorMode = "default" }) {
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
     if (colorMode === "dark") return "text-white";
-    return "text-black"; // default
+    return "text-white"; // default
   };
 
   const getHoverTextColor = () => {
     if (colorMode === "light") return "hover:text-black";
     if (colorMode === "dark") return "hover:text-white";
-    return "hover:text-black";
+    return "hover:text-white";
   };
 
   const getBorderColor = () => {
     if (colorMode === "light") return "bg-black";
     if (colorMode === "dark") return "bg-white";
-    return "bg-black";
+    return "bg-white";
   };
 
   const textShadow =
