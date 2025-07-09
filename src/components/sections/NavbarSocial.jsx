@@ -116,7 +116,7 @@ export default function NavbarSocial({ colorMode }) {
               className={`bg-transparent ${
                 scrolling
                   ? " w-[60%] phone3:w-[40%] tablet1:w-[50%] tablet2:w-[50%] desktop1:w-[50%] desktop2:w-[60%]"
-                  : " my-[20px] w-[80%] phone2:w-[80%] phone3:w-[80%] tablet1:w-[70%] tablet2:w-[70%] desktop2:w-[80%]"
+                  : " my-[20px] w-[80%] phone2:w-[80%] phone3:w-[80%] tablet1:w-[70%] tablet2:w-[70%] desktop2:w-[30%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>
