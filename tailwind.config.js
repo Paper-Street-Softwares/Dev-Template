@@ -97,10 +97,15 @@ export const theme = {
         "0%": { transform: "translateY(0%)", opacity: "1" },
         "100%": { transform: "translateY(-5%)", opacity: "0" },
       },
+      pulseScale: {
+        "0%, 100%": { transform: "scale(1)" },
+        "50%": { transform: "scale(1.4)" }, // mais visível
+      },
     },
     animation: {
       "slide-down": "slideDown 1s ease",
       "slide-up": "slideUp 1s ease",
+      pulseScale: "pulseScale 1s ease-in-out infinite", // mais rápido
     },
   },
 };
