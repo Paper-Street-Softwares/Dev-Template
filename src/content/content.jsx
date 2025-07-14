@@ -14,7 +14,7 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Michel Franzen",
+  name: "Dra. Amália Lima Pereira",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "limapereira.com.br", // Sem "www"
   phone: {
-    ddd: "47",
-    firstPart: "99286", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4003", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "93081", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3031", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua 222, nº 258,</p>
-      <p>sala 4, Bairro Meia Praia,</p>
-      <p>Itapema - SC,</p>
-      <p>CEP 88220-000</p>
+      <p>Av. Castelo Branco,</p>
+      <p>Santa Luiza,</p>
+      <p>Barreiras - BA,</p>
+      <p>CEP: 47800-690</p>
     </div>
   ),
   enderecoSecundario: (
@@ -93,8 +93,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 12</p>
-      <p>14h às 18h</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -125,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO PREVIDENCIÁRIO EM ITAPEMA - SC",
+      miniTag: "ADVOGADA EM BARREIRAS - BA",
       title: (
         <h1 className="mb-[16px]">
-          Especialista em Direito
-          <span className="text-primary"> Previdenciário</span>
+          Você já tentou resolver
+          <span className="text-primary"> sem brigar?</span>
         </h1>
       ),
       subtitle:
-        "Há mais de 20 anos de compromisso com você e soluções claras para seus benefícios.",
+        "Conciliação e mediação: caminhos rápidos, humanos e legais para resolver seus conflitos.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com o Dr. Michel",
+      ctaButtonText: "Descubra como funciona",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "Atendimento online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,16 +184,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Excelência em Direito Previdenciário",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
       subtitle:
-        "Atuação estratégica para garantir seus direitos previdenciários.",
+        "Atuação estratégica e personalizada nas principais áreas do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Aposentadorias",
-        subtitle: "Planejamos e requeremos sua aposentadoria.",
+        title: "Direito Cível",
+        subtitle: "Soluções para conflitos, contratos e indenizações.",
         description: (
           <div>
             A_Definir
@@ -215,12 +214,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +228,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Pensões",
-        subtitle: "Auxílio para solicitar pensão por morte.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -250,12 +250,19 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
+            class="lucide lucide-user-cog-icon lucide-user-cog"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
-            <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
-            <path d="m18 15-2-2" />
-            <path d="m15 18-2-2" />
+            <path d="M10 15H6a4 4 0 0 0-4 4v2" />
+            <path d="m14.305 16.53.923-.382" />
+            <path d="m15.228 13.852-.923-.383" />
+            <path d="m16.852 12.228-.383-.923" />
+            <path d="m16.852 17.772-.383.924" />
+            <path d="m19.148 12.228.383-.923" />
+            <path d="m19.53 18.696-.382-.924" />
+            <path d="m20.772 13.852.924-.383" />
+            <path d="m20.772 16.148.924.383" />
+            <circle cx="18" cy="15" r="3" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -263,8 +270,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Auxílios",
-        subtitle: "Pedido de auxílio-doença e maternidade.",
+        title: "Direito do Consumidor",
+        subtitle: "Defesa em compras com defeito e cobranças indevidas.",
         description: (
           <div>
             A_Definir <br />
@@ -284,14 +291,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-medical-icon lucide-briefcase-medical"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M12 11v4" />
-            <path d="M14 13h-4" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M18 6v14" />
-            <path d="M6 6v14" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -299,8 +303,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Benefícios de Prestação Continuada - BPC",
-        subtitle: "Solicitação do BPC para idosos e deficientes.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação legal preventiva para pessoas e empresas.",
         description: (
           <div>
             A_Definir
@@ -321,13 +325,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-accessibility-icon lucide-accessibility"
+            class="lucide lucide-message-circle-icon lucide-message-circle"
           >
-            <circle cx="16" cy="4" r="1" />
-            <path d="m18 19 1-7-6 1" />
-            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
-            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
-            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -397,50 +397,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. MICHEL FRANZEN",
+      miniTag: "QUEM É A DRA. AMÁLIA LIMA",
       title: "Minha trajetória",
       subtitle:
-        "Mais de 20 anos de experiência com atendimento humano e linguagem acessível",
+        "25 anos de experiência jurídica com foco em conciliação e mediação.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A trajetória do escritório é fruto de mais de duas décadas de
-          dedicação e excelência em Direito Previdenciário.
-          <br />
-          Desde o início, nosso crescimento foi impulsionado pelas indicações de
-          clientes satisfeitos, reflexo direto do nosso compromisso com a ética,
-          a honestidade e o atendimento humanizado.
+          Com mais de duas décadas de atuação na área do Direito, construí uma
+          trajetória pautada na ética, comprometimento e busca por soluções
+          eficazes para meus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A trajetória do escritório é fruto de mais de duas décadas de
-          dedicação e excelência em Direito Previdenciário.
+          Com mais de duas décadas de atuação na área do Direito, construí uma
+          trajetória pautada na ética, comprometimento e busca por soluções
+          eficazes para meus clientes.
           <br />
           <br />
-          Desde o início, nosso crescimento foi impulsionado pelas indicações de
-          clientes satisfeitos, reflexo direto do nosso compromisso com a ética,
-          a honestidade e o atendimento humanizado.
+          Sou capacitada em conciliação e mediação conforme a Resolução 125/2010
+          do CNJ, atuando para resolver conflitos de forma pacífica, ágil e com
+          foco no diálogo.
           <br />
           <br />
-          O Dr. Michel Franzen é especialista na área, com sólida experiência e
-          uma abordagem acessível e acolhedora.
-          <br />
-          <br />
-          Aqui, o cliente entende o que está acontecendo, sem termos técnicos
-          difíceis, porque acreditamos que informação clara gera confiança.
-          <br />
-          <br />
-          Nosso diferencial está na forma como cuidamos de cada caso: com
-          empatia, escuta ativa e foco absoluto em resultados concretos.
-          <br />
-          <br />
-          Atuamos com exclusividade e comprometimento para garantir o melhor
-          para quem confia em nosso trabalho.
+          Minha missão é oferecer um atendimento humano, técnico e responsável,
+          sempre prezando pela justiça e pelo equilíbrio nas relações jurídicas.
           <br />
           <br />
         </p>
