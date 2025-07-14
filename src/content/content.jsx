@@ -397,33 +397,36 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. AMÁLIA LIMA",
+      title: "Minha trajetória",
+      subtitle:
+        "25 anos de experiência jurídica com foco em conciliação e mediação.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Com mais de duas décadas de atuação na área do Direito, construí uma
+          trajetória pautada na ética, comprometimento e busca por soluções
+          eficazes para meus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com mais de duas décadas de atuação na área do Direito, construí uma
+          trajetória pautada na ética, comprometimento e busca por soluções
+          eficazes para meus clientes.
           <br />
           <br />
-          A_Definir
+          Com mais de duas décadas de atuação na área do Direito, construí uma
+          trajetória pautada na ética, comprometimento e busca por soluções
+          eficazes para meus clientes.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Minha missão é oferecer um atendimento humano, técnico e responsável,
+          sempre prezando pela justiça e pelo equilíbrio nas relações jurídicas.
           <br />
           <br />
         </p>
