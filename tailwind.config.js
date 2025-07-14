@@ -5,17 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#933341",
-      buttonColor: "#933341",
-      minititleDark: "#933341", //bg minitag de seções claras
-      minititle: "#933341", //bg minitag de seções escuras
+      primary: "#058cd7",
+      buttonColor: "#058cd7",
+      minititleDark: "#058cd7", //bg minitag de seções claras
+      minititle: "#058cd7", //bg minitag de seções escuras
 
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#532B31",
+      bgSectionDark: "#990000",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -97,15 +97,10 @@ export const theme = {
         "0%": { transform: "translateY(0%)", opacity: "1" },
         "100%": { transform: "translateY(-5%)", opacity: "0" },
       },
-      pulseScale: {
-        "0%, 100%": { transform: "scale(1)" },
-        "50%": { transform: "scale(1.4)" }, // mais visível
-      },
     },
     animation: {
       "slide-down": "slideDown 1s ease",
       "slide-up": "slideUp 1s ease",
-      pulseScale: "pulseScale 1s ease-in-out infinite", // mais rápido
     },
   },
 };
