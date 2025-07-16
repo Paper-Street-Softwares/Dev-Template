@@ -391,33 +391,37 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. CAMYLLA DOUDEMENT",
+      title: "Minha trajetória",
+      subtitle:
+        "Atuação sensível e firme para quem enfrenta desafios no direito de família.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Ao longo da minha jornada na advocacia, escolhi caminhar ao lado de
+          quem mais precisa de amparo jurídico e humano. Cada caso que chega até
+          mim carrega histórias de luta, amor e esperança.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Ao longo da minha jornada na advocacia, escolhi caminhar ao lado de
+          quem mais precisa de amparo jurídico e humano. Cada caso que chega até
+          mim carrega histórias de luta, amor e esperança.
           <br />
           <br />
-          A_Definir
+          Tenho me dedicado especialmente a apoiar mães solo que enfrentam
+          dificuldades com pensão alimentícia, oferecendo orientação e ação com
+          empatia e firmeza.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Também atuo fortemente nas execuções de pensão, seja por meio da
+          prisão civil ou da penhora, buscando garantir que os direitos dos
+          filhos sejam respeitados com responsabilidade.
           <br />
           <br />
         </p>
@@ -431,14 +435,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
