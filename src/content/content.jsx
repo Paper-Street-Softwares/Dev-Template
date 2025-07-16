@@ -14,7 +14,7 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Amália Lima Pereira",
+  name: "Dra. Camylla Doudement",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "limapereira.com.br", // Sem "www"
+  domain: "www.camylladoudementadvogada.com.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "93081", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3031", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99399", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9111", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Castelo Branco,</p>
-      <p>Santa Luiza,</p>
-      <p>Barreiras - BA,</p>
-      <p>CEP: 47800-690</p>
+      <p>Valparaíso de Goiás</p>
+      <p>Brasília - DF</p>
+      <p></p>
     </div>
   ),
   enderecoSecundario: (
@@ -97,7 +96,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "camylladoudementadv___", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -124,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM BARREIRAS - BA",
+      miniTag: "ADVOGADA DE FAMÍLIA EM BRASÍLIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          Você já tentou resolver
-          <span className="text-primary"> sem brigar?</span>
+          Você vai esperar a justiça
+          <span className="text-primary"> falhar?</span>
         </h1>
       ),
       subtitle:
-        "Conciliação e mediação: caminhos rápidos, humanos e legais para resolver seus conflitos.",
+        "Ou vai agir agora e proteger quem depende de você? O tempo não espera por decisões fáceis.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Descubra como funciona",
+      ctaButtonText: "Preciso resolver isso agora",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online para todo Brasil",
+        text: "Atendimento presencial e online para todo Brasil via Zoom.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Excelência em Direito de Família",
       subtitle:
-        "Atuação estratégica e personalizada nas principais áreas do Direito.",
+        "Soluções jurídicas com empatia, respeito e foco no que realmente importa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Soluções para conflitos, contratos e indenizações.",
+        title: "Guarda",
+        subtitle: "Defesa do melhor interesse da criança e dos pais.",
         description: (
           <div>
             A_Definir
@@ -214,13 +213,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +223,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
+        title: "Pensão",
+        subtitle: "Acordo ou revisão de valores com base na lei.",
         description: (
           <div>
             A_Definir
@@ -250,19 +245,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-cog-icon lucide-user-cog"
+            class="lucide lucide-hand-coins-icon lucide-hand-coins"
           >
-            <path d="M10 15H6a4 4 0 0 0-4 4v2" />
-            <path d="m14.305 16.53.923-.382" />
-            <path d="m15.228 13.852-.923-.383" />
-            <path d="m16.852 12.228-.383-.923" />
-            <path d="m16.852 17.772-.383.924" />
-            <path d="m19.148 12.228.383-.923" />
-            <path d="m19.53 18.696-.382-.924" />
-            <path d="m20.772 13.852.924-.383" />
-            <path d="m20.772 16.148.924.383" />
-            <circle cx="18" cy="15" r="3" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -270,8 +259,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do Consumidor",
-        subtitle: "Defesa em compras com defeito e cobranças indevidas.",
+        title: "Execução e Alimentos",
+        subtitle: "Cobrança legal de pensões não pagas corretamente.",
         description: (
           <div>
             A_Definir <br />
@@ -291,11 +280,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,8 +294,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação legal preventiva para pessoas e empresas.",
+        title: "Divórcio e Inventário",
+        subtitle: "Encerramento legal de vínculos e partilhas.",
         description: (
           <div>
             A_Definir
@@ -325,9 +316,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-message-circle-icon lucide-message-circle"
+            class="lucide lucide-split-icon lucide-split"
           >
-            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+            <path d="M16 3h5v5" />
+            <path d="M8 3H3v5" />
+            <path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3" />
+            <path d="m15 9 6-6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -397,36 +391,37 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. AMÁLIA LIMA",
+      miniTag: "QUEM É A DRA. CAMYLLA DOUDEMENT",
       title: "Minha trajetória",
       subtitle:
-        "25 anos de experiência jurídica com foco em conciliação e mediação.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Atuação sensível e firme para quem enfrenta desafios no direito de família.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Com mais de duas décadas de atuação na área do Direito, construí uma
-          trajetória pautada na ética, comprometimento e busca por soluções
-          eficazes para meus clientes.
+          Ao longo da minha jornada na advocacia, escolhi caminhar ao lado de
+          quem mais precisa de amparo jurídico e humano. Cada caso que chega até
+          mim carrega histórias de luta, amor e esperança.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de duas décadas de atuação na área do Direito, construí uma
-          trajetória pautada na ética, comprometimento e busca por soluções
-          eficazes para meus clientes.
+          Ao longo da minha jornada na advocacia, escolhi caminhar ao lado de
+          quem mais precisa de amparo jurídico e humano. Cada caso que chega até
+          mim carrega histórias de luta, amor e esperança.
           <br />
           <br />
-          Sou capacitada em conciliação e mediação conforme a Resolução 125/2010
-          do CNJ, atuando para resolver conflitos de forma pacífica, ágil e com
-          foco no diálogo.
+          Tenho me dedicado especialmente a apoiar mães solo que enfrentam
+          dificuldades com pensão alimentícia, oferecendo orientação e ação com
+          empatia e firmeza.
           <br />
           <br />
-          Minha missão é oferecer um atendimento humano, técnico e responsável,
-          sempre prezando pela justiça e pelo equilíbrio nas relações jurídicas.
+          Também atuo fortemente nas execuções de pensão, seja por meio da
+          prisão civil ou da penhora, buscando garantir que os direitos dos
+          filhos sejam respeitados com responsabilidade.
           <br />
           <br />
         </p>
@@ -440,14 +435,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -518,10 +514,10 @@ const content = {
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_Definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_Definir/",
+      blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
