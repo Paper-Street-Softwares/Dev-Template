@@ -49,8 +49,8 @@ export default function Index() {
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       <BlogPosts />
-      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
+      <Maps colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
         addresSecundario={false}
