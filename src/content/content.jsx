@@ -389,33 +389,54 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. ELIZANGELA VARA",
+      title: "Minha trajetória",
+      subtitle:
+        "Conheça a história por trás do escritório e o propósito que guia nossa atuação",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
+          de transformar um sonho em realidade. No começo, a atuação era voltada
+          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
+          tudo, respeito pelas pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
+          de transformar um sonho em realidade. No começo, a atuação era voltada
+          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
+          tudo, respeito pelas pessoas.
           <br />
           <br />
-          A_Definir
+          Com o tempo, o reconhecimento dos clientes trouxe crescimento, novas
+          áreas e uma equipe de profissionais qualificados, todos com o mesmo
+          propósito: entregar um atendimento ético, humanizado e comprometido
+          com o que realmente importa — a justiça.
           <br />
           <br />
-          A_Definir
+          Especialista em Direito Penal e Tribunal do Júri, a Dra. Elisângela
+          atua desde os primeiros momentos do processo até a execução da pena,
+          lidando com firmeza, empatia e conhecimento profundo da lei. Além da
+          defesa técnica, oferece apoio real aos familiares dos clientes, com
+          escuta ativa e orientação clara.
           <br />
           <br />
-          A_Definir
+          Hoje, o escritório atende diversas áreas do Direito com a mesma
+          seriedade, oferecendo suporte ágil, atendimento 24h para casos
+          urgentes e um compromisso verdadeiro com cada pessoa que confia em
+          nosso trabalho.
+          <br />
+          <br />
+          Com base em São Paulo e Minas Gerais, também atuamos em Brasília e
+          outros estados do país, mantendo sempre a mesma essência: lutar por
+          direitos, proteger histórias e oferecer um serviço acessível, direto e
+          humano.
           <br />
           <br />
         </p>
@@ -429,14 +450,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
