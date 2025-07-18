@@ -391,33 +391,42 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É BRITO, ROCHA & ROSSATO",
+      title: "Nossa trajetória",
+      subtitle:
+        "25 anos de advocacia com ética, empatia e compromisso com cada cliente",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Há 25 anos atuando em Sidrolândia, nossa advocacia é guiada por
+          valores sólidos como ética, responsabilidade e compromisso com o ser
+          humano. Cada cliente é acolhido com respeito e atenção, pois
+          acreditamos que ouvir é o primeiro passo para transformar realidades.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Há 25 anos atuando em Sidrolândia, nossa advocacia é guiada por
+          valores sólidos como ética, responsabilidade e compromisso com o ser
+          humano. Cada cliente é acolhido com respeito e atenção, pois
+          acreditamos que ouvir é o primeiro passo para transformar realidades.
           <br />
           <br />
-          A_Definir
+          Nossa atuação abrange diversas áreas, como Direito de Família,
+          Sucessões, Direito Imobiliário, Responsabilidade Civil, Dívidas
+          Rurais, Previdenciário e muito mais. Atendemos de forma preventiva e
+          estratégica, sempre com foco em soluções eficazes e personalizadas.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          O nosso diferencial é a transparência. Orientamos com honestidade,
+          mesmo que isso não gere uma contratação. Nosso propósito é oferecer
+          clareza e tranquilidade, para que quem nos procura saiba exatamente
+          como agir e nunca mais se sinta sozinho diante de um problema
+          jurídico.
           <br />
           <br />
         </p>
@@ -431,9 +440,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
