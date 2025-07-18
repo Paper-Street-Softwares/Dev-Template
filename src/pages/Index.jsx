@@ -30,7 +30,6 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
-      {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
         defaultFeature={true}
@@ -49,6 +48,7 @@ export default function Index() {
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />
+      <BlogPosts />
       {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
