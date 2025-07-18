@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Brito, Rocha & Rossato Advogados",
+  name: "Dra. Elizangela Vara",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "britorochaerossato.com.br", // Sem "www"
+  domain: "varaadvogadosassociados.com.br", // Sem "www"
   phone: {
-    ddd: "67",
-    firstPart: "99258", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1347", // Apenas os 4 últimos números
+    ddd: "16",
+    firstPart: "98134", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7570", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "35",
+    firstPart: "99967", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1935", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Pernambuco, nº 766,</p>
-      <p>Centro, Sidrolândia - MS,</p>
-      <p>CEP: 79170-000</p>
+      <p>Rua dos Jasmins,</p>
+      <p>940 – Jardim Flórida Franca - SP,</p>
+      <p>CEP: 14403-277</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 17h</p>
+      <p>Atendimento 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advelainebrito", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "elizangelavara", // Sem o @
+  facebookProfile: "elizangela.vara",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SIDROLÂNDIA - MS",
+      miniTag: "ADVOGADA EM FRANCA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Você merece mais que
-          <span className="text-primary"> promessas</span>
+          Na hora da dor, <span className="text-primary"> o Direito pesa</span>
         </h1>
       ),
       subtitle:
-        "25 anos resolvendo problemas reais com ética, verdade e compromisso com quem importa: você",
+        "É nos momentos difíceis que você descobre o valor de ter alguém preparado do seu lado.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Descubra como fazemos diferente",
+      ctaButtonText: "Fale com a Dra. Elizangela",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo o Brasil",
+        text: "Atendimento presencial e online 24 horas (atendimento ininterrupto)",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +182,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Experiência e dedicação nas áreas que mais importam",
-      subtitle:
-        "Atuação estratégica para proteger seus direitos e alcançar soluções eficazes.",
+      miniTag: "ESPECIALIDADES",
+      title: "Como podemos te ajudar",
+      subtitle: "Atuação nas áreas que fazem diferença na sua vida.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle: "Auxílio e aposentadoria junto ao INSS e RPPS.",
+        title: "Direito Criminal",
+        subtitle: "Defesa em processos penais e no Tribunal do Júri.",
         description: (
           <div>
             A_Definir
@@ -213,10 +211,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -224,8 +225,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Divórcios, guarda, inventários e partilhas.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, revisões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -246,12 +247,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -259,8 +258,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Servidor Público",
-        subtitle: "Defesa de direitos e benefícios do servidor.",
+        title: "Direito Cível",
+        subtitle: "Ações de família, contratos, danos e cobranças.",
         description: (
           <div>
             A_Definir <br />
@@ -280,12 +279,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -293,8 +293,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Trabalho",
-        subtitle: "Ações por verbas, demissões e reintegração.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa de direitos em causas trabalhistas diversas.",
         description: (
           <div>
             A_Definir
@@ -315,13 +315,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -380,54 +379,64 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Sidrolândia - MS",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.467270811574!2d-54.9658303!3d-20.930921799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9487a57e9263c32d%3A0x4f0edc037a796bd9!2sELAINE%20BRITO%20-%20Advogada%20em%20Sidrol%C3%A2ndia-MS!5e1!3m2!1spt-BR!2sbr!4v1752846294877!5m2!1spt-BR!2sb",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      embedsrc: "a_Definir",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É BRITO, ROCHA & ROSSATO",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É A DRA. ELIZANGELA VARA",
+      title: "Minha trajetória",
       subtitle:
-        "25 anos de advocacia com ética, empatia e compromisso com cada cliente",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Conheça a história por trás do escritório e o propósito que guia nossa atuação",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Há 25 anos atuando em Sidrolândia, nossa advocacia é guiada por
-          valores sólidos como ética, responsabilidade e compromisso com o ser
-          humano. Cada cliente é acolhido com respeito e atenção, pois
-          acreditamos que ouvir é o primeiro passo para transformar realidades.
+          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
+          de transformar um sonho em realidade. No começo, a atuação era voltada
+          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
+          tudo, respeito pelas pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Há 25 anos atuando em Sidrolândia, nossa advocacia é guiada por
-          valores sólidos como ética, responsabilidade e compromisso com o ser
-          humano. Cada cliente é acolhido com respeito e atenção, pois
-          acreditamos que ouvir é o primeiro passo para transformar realidades.
+          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
+          de transformar um sonho em realidade. No começo, a atuação era voltada
+          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
+          tudo, respeito pelas pessoas.
           <br />
           <br />
-          Nossa atuação abrange diversas áreas, como Direito de Família,
-          Sucessões, Direito Imobiliário, Responsabilidade Civil, Dívidas
-          Rurais, Previdenciário e muito mais. Atendemos de forma preventiva e
-          estratégica, sempre com foco em soluções eficazes e personalizadas.
+          Com o tempo, o reconhecimento dos clientes trouxe crescimento, novas
+          áreas e uma equipe de profissionais qualificados, todos com o mesmo
+          propósito: entregar um atendimento ético, humanizado e comprometido
+          com o que realmente importa — a justiça.
           <br />
           <br />
-          O nosso diferencial é a transparência. Orientamos com honestidade,
-          mesmo que isso não gere uma contratação. Nosso propósito é oferecer
-          clareza e tranquilidade, para que quem nos procura saiba exatamente
-          como agir e nunca mais se sinta sozinho diante de um problema
-          jurídico.
+          Especialista em Direito Penal e Tribunal do Júri, a Dra. Elisângela
+          atua desde os primeiros momentos do processo até a execução da pena,
+          lidando com firmeza, empatia e conhecimento profundo da lei. Além da
+          defesa técnica, oferece apoio real aos familiares dos clientes, com
+          escuta ativa e orientação clara.
+          <br />
+          <br />
+          Hoje, o escritório atende diversas áreas do Direito com a mesma
+          seriedade, oferecendo suporte ágil, atendimento 24h para casos
+          urgentes e um compromisso verdadeiro com cada pessoa que confia em
+          nosso trabalho.
+          <br />
+          <br />
+          Com base em São Paulo e Minas Gerais, também atuamos em Brasília e
+          outros estados do país, mantendo sempre a mesma essência: lutar por
+          direitos, proteger histórias e oferecer um serviço acessível, direto e
+          humano.
           <br />
           <br />
         </p>
@@ -446,10 +455,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -516,15 +525,14 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "Informação jurídica ao seu alcance",
-      subtitle:
-        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+      title: "A_Definir",
+      subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/britorochaerossato.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://britorochaerossato.wordpress.com/",
+      blogLink: "https://a_definir/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
