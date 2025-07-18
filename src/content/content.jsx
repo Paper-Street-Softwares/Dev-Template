@@ -123,20 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SIDROLÂNDIA - MS",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Você merece mais que
+          <span className="text-primary"> promessas</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "25 anos resolvendo problemas reais com ética, verdade e compromisso com quem importa: você",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Descubra como fazemos diferente",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial e online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
