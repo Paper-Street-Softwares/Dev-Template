@@ -115,8 +115,8 @@ export default function NavbarSocial({ colorMode }) {
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent ${
                 scrolling
-                  ? " w-[30%] phone3:w-[40%] tablet1:w-[50%] tablet2:w-[50%] desktop1:w-[30%] desktop2:w-[40%]"
-                  : " my-[20px] w-[50%] phone2:w-[50%] phone3:w-[60%] tablet1:w-[60%] tablet2:w-[60%] desktop1:w-[50%] desktop2:w-[60%]"
+                  ? " w-[50%] phone3:w-[50%] tablet1:w-[50%] tablet2:w-[50%] desktop1:w-[50%] desktop2:w-[50%]"
+                  : "my-[20px] w-[70%] phone2:w-[70%] phone3:w-[70%] tablet1:w-[70%] tablet2:w-[70%] desktop1:w-[70%] desktop2:w-[70%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>
