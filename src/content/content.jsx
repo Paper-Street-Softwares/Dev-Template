@@ -538,10 +538,10 @@ const content = {
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/advromuloschavescom.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "https://advromuloschavescom.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",

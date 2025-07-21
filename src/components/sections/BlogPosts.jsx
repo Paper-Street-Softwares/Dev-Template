@@ -19,7 +19,7 @@ function BlogPosts() {
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionDark" paddingtop={false} id="blog">
+      <SectionArea className="bg-bgSectionDark"  id="blog">
         <SectionWrapper>
           <SectionHeader
             className="text-center"
@@ -31,7 +31,7 @@ function BlogPosts() {
             subtitleColorSet="text-white"
             type=""
           />
-          {/* <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
+          <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
             {posts.slice(0, 3).map((post) => (
               <li key={post.ID}>
                 <WordPressBlogCard
@@ -61,7 +61,7 @@ function BlogPosts() {
                 />
               </li>
             ))}
-          </ul> */}
+          </ul>
           <MotionDivDownToUp>
             <Paragraphs className="text-center text-white underline transition hover:scale-110">
               <a href={content.texts.blog.blogLink} target="_blank">
