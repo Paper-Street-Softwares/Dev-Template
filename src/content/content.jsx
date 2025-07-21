@@ -118,7 +118,16 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Blog",
+        "Mapa",
+        "Sobre Nós",
+        "Perguntas Frequentes",
+      ],
+      menuId: ["home", "service", "blog", "maps", "about", "faq"],
+
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
