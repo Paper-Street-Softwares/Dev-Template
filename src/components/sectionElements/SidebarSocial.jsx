@@ -10,6 +10,7 @@ import {
   UserSearch,
   AlignJustify,
 } from "lucide-react";
+import { MapPinCheck } from "lucide-react";
 import { Link } from "react-scroll";
 import content from "../../content/content";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
@@ -123,7 +124,8 @@ export default function SidebarSocial({ colorMode }) {
                                   {index === 1 && <UserSearch />}
                                   {index === 2 && <ServerIcon />}
                                   {index === 3 && <HelpCircle />}
-                                  {index > 3 && <AlignJustify />}
+                                  {index === 4 && <AlignJustify />}
+                                  {index === 5 && <MapPinCheck />}
 
                                   <span className="ml-[8px]">
                                     <Link
