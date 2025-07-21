@@ -118,7 +118,16 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Blog",
+        "Mapa",
+        "Sobre Nós",
+        "Perguntas Frequentes",
+      ],
+      menuId: ["home", "service", "blog", "maps", "about", "faq"],
+
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -529,10 +538,10 @@ const content = {
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/a_Definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "https://a_Definir/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
