@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Elizangela Vara",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "varaadvogadosassociados.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "16",
-    firstPart: "98134", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7570", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "35",
-    firstPart: "99967", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1935", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua dos Jasmins,</p>
-      <p>940 – Jardim Flórida Franca - SP,</p>
-      <p>CEP: 14403-277</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Atendimento 24h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "elizangelavara", // Sem o @
-  facebookProfile: "elizangela.vara",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -132,20 +132,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM FRANCA - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Na hora da dor, <span className="text-primary"> o Direito pesa</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "É nos momentos difíceis que você descobre o valor de ter alguém preparado do seu lado.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com a Dra. Elizangela",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -165,7 +165,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online 24 horas (atendimento ininterrupto)",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -191,15 +191,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Como podemos te ajudar",
-      subtitle: "Atuação nas áreas que fazem diferença na sua vida.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Criminal",
-        subtitle: "Defesa em processos penais e no Tribunal do Júri.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -214,19 +214,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -234,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, revisões e benefícios do INSS.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -250,16 +242,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -267,8 +254,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Cível",
-        subtitle: "Ações de família, contratos, danos e cobranças.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -282,19 +269,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -302,8 +281,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa de direitos em causas trabalhistas diversas.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -318,18 +297,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -398,54 +370,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. ELIZANGELA VARA",
-      title: "Minha trajetória",
-      subtitle:
-        "Conheça a história por trás do escritório e o propósito que guia nossa atuação",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
-          de transformar um sonho em realidade. No começo, a atuação era voltada
-          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
-          tudo, respeito pelas pessoas.
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório Elisângela Vara – Advogados Associados nasceu da vontade
-          de transformar um sonho em realidade. No começo, a atuação era voltada
-          à advocacia criminal, sempre com firmeza, preparo técnico e, acima de
-          tudo, respeito pelas pessoas.
+          A_Definir
           <br />
           <br />
-          Com o tempo, o reconhecimento dos clientes trouxe crescimento, novas
-          áreas e uma equipe de profissionais qualificados, todos com o mesmo
-          propósito: entregar um atendimento ético, humanizado e comprometido
-          com o que realmente importa — a justiça.
+          A_Definir
           <br />
           <br />
-          Especialista em Direito Penal e Tribunal do Júri, a Dra. Elisângela
-          atua desde os primeiros momentos do processo até a execução da pena,
-          lidando com firmeza, empatia e conhecimento profundo da lei. Além da
-          defesa técnica, oferece apoio real aos familiares dos clientes, com
-          escuta ativa e orientação clara.
+          A_Definir
           <br />
           <br />
-          Hoje, o escritório atende diversas áreas do Direito com a mesma
-          seriedade, oferecendo suporte ágil, atendimento 24h para casos
-          urgentes e um compromisso verdadeiro com cada pessoa que confia em
-          nosso trabalho.
-          <br />
-          <br />
-          Com base em São Paulo e Minas Gerais, também atuamos em Brasília e
-          outros estados do país, mantendo sempre a mesma essência: lutar por
-          direitos, proteger histórias e oferecer um serviço acessível, direto e
-          humano.
+          A_Definir
           <br />
           <br />
         </p>
@@ -459,15 +410,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -538,10 +488,10 @@ const content = {
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_Definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_Definir/",
+      blogLink: "https://a_definir/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
