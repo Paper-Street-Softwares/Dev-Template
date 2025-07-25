@@ -40,12 +40,12 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram
+      {/* <AboutInstagram
         colorMode={colorMode}
         instagram={true}
         facebook={true}
         socialPrint={true}
-      />
+      /> */}
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />

@@ -433,33 +433,46 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É MARCIO GIMENEZ ADVOCACIA",
+      title: "Nossa Trajetória",
+      subtitle:
+        "Mais de 20 anos traduzindo o Direito em soluções seguras e sob medida",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Com raízes em São Paulo e atuação nacional e internacional, o
+          escritório Marcio Gimenez Advocacia surgiu da experiência de mais de
+          duas décadas de dedicação técnica e estratégica ao Direito.
           <br />
-          A_Definir
+          Desde o início, nosso foco é oferecer soluções jurídicas
+          personalizadas para clientes com demandas patrimoniais relevantes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com raízes em São Paulo e atuação nacional e internacional, o
+          escritório Marcio Gimenez Advocacia surgiu da experiência de mais de
+          duas décadas de dedicação técnica e estratégica ao Direito.
           <br />
           <br />
-          A_Definir
+          Desde o início, nosso foco é oferecer soluções jurídicas
+          personalizadas para clientes com demandas patrimoniais relevantes.
           <br />
           <br />
-          A_Definir
+          O que nos diferencia é a sofisticação intelectual aplicada a cada
+          caso. Traduzimos questões complexas em estratégias claras, eficazes e
+          seguras, com discrição, autoridade e uma abordagem adaptada a cada
+          cliente — nunca em modelos genéricos ou fórmulas prontas.
           <br />
           <br />
-          A_Definir
+          Muitos que nos procuram já enfrentaram frustrações com abordagens
+          simplistas. Aqui, cada demanda é tratada com profundidade, estratégia
+          e linguagem madura, sempre com o compromisso de proteger o patrimônio
+          e orientar decisões com inteligência e responsabilidade.
           <br />
           <br />
         </p>
