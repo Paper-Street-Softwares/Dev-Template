@@ -3,6 +3,8 @@ import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
 import "primeicons/primeicons.css";
+import { FileText } from "lucide-react";
+
 import {
   HelpCircle,
   HomeIcon,
@@ -120,12 +122,12 @@ export default function SidebarSocial({ colorMode }) {
                               <li key={id}>
                                 <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                   {/* Ícones fixos por índice, adaptáveis */}
-                                  {index === 0 && <HomeIcon />}
-                                  {index === 1 && <UserSearch />}
-                                  {index === 2 && <ServerIcon />}
-                                  {index === 3 && <HelpCircle />}
-                                  {index === 4 && <AlignJustify />}
-                                  {index === 5 && <MapPinCheck />}
+                                  {index === 0 && <HomeIcon />} {/* Ícone para o primeiro item */}
+                                  {index === 1 && <UserSearch />} {/* Ícone para o segundo item */}
+                                  {index === 2 && <ServerIcon />} {/* Ícone para o terceiro item */}
+                                  {index === 3 && <FileText />} {/* Ícone para o quarto item */}
+                                  {index === 4 && <HelpCircle />} {/* Ícone para o quinto item */}
+                                  {index === 5 && <MapPinCheck />} {/* Ícone para o sexto item */}
 
                                   <span className="ml-[8px]">
                                     <Link

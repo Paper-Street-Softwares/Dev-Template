@@ -560,14 +560,15 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/marciogimenez.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "https://marciogimenez.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
