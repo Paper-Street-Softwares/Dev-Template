@@ -96,7 +96,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -423,10 +423,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em São Paulo - SP",
+      subtitle:
+        "isite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2280.4668516957277!2d-46.6830788!3d-23.5912612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5745075e00e5%3A0x7d4ab06a613af7e3!2sAv.%20Pres.%20Juscelino%20Kubitschek%2C%201455%20-%20Vila%20Nova%20Concei%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004543-011!5e1!3m2!1spt-BR!2sbr!4v1753480438590!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
