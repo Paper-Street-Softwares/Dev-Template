@@ -53,14 +53,18 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Marcio Gimenez Advocacia | Direito Empresarial e Patrimonial em São Paulo - SP",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  emailTwo: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
+  emailThree: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
+  emailFour: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
+  emailFive: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
+
+  domain: "marciogimenez.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "96301", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0654", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +79,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Juscelino Kubitschek,</p>
+      <p>nº 1455 São Paulo - SP,</p>
+      <p>CEP: 04543-011</p>
     </div>
   ),
   enderecoSecundario: (
@@ -863,7 +867,10 @@ const content = {
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
-      emailSecundario: `${infos.emailSecundario}`,
+      emailTwo: `${infos.emailTwo}`,
+      emailThree: `${infos.emailThree}`,
+      emailFour: `${infos.emailFour}`,
+      emailFive: `${infos.emailFive}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
