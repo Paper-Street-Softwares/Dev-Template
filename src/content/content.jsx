@@ -196,15 +196,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas com profundidade e estratégia",
+      subtitle:
+        "Atuação que reflete inteligência, técnica e visão personalizada.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Empresarial",
+        subtitle: "Soluções jurídicas para negócios e gestão societária.",
         description: (
           <div>
             A_Definir
@@ -231,8 +232,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Administrativo",
+        subtitle: "Atuação estratégica em relações com o Poder Público.",
         description: (
           <div>
             A_Definir
@@ -259,8 +260,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Imobiliário",
+        subtitle: "Segurança jurídica em negócios e disputas imobiliárias.",
         description: (
           <div>
             A_Definir <br />
@@ -286,8 +287,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Gestão jurídica de conflitos e planejamento sucessório.",
         description: (
           <div>
             A_Definir
@@ -314,8 +315,42 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Trabalho",
+        subtitle: "Defesa técnica em demandas trabalhistas complexas.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Imigração e Mobilidade Internacional",
+        subtitle: "Assessoria legal para vistos e residência no exterior.",
         description: (
           <div>
             A_Definir
