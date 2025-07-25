@@ -19,7 +19,6 @@ import ExpedienteFooter from "../sectionElements/footer/ExpedienteFooter.jsx";
 import AdressSecundarioFooter from "../sectionElements/footer/AdressSecundario.jsx";
 import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter.jsx";
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
-import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFooter.jsx";
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
@@ -35,7 +34,6 @@ export default function FooterSocial({
   x,
   tiktok,
   addresSecundario,
-  emailSecundario,
   phoneSecundario,
   phoneTerciario,
   expedientesecond,
@@ -74,7 +72,6 @@ export default function FooterSocial({
               {phoneSecundario && <PhoneSecundario />}
               {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />
-              {emailSecundario && <EmailSecundarioFooter />}
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
@@ -90,7 +87,7 @@ export default function FooterSocial({
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
                     {instagram && <InstagramFooter />}
-                    {instagramSecundary && <InstagramSecundaryFooter/>}
+                    {instagramSecundary && <InstagramSecundaryFooter />}
                     {tiktok && <TikTokFooter />}
                     {facebook && <FacebookFooter />}
                     {x && <XFooter />}
