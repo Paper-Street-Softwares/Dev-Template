@@ -404,33 +404,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. CAIO DE SÁ",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada marcada pela experiência prática e pela busca por justiça real.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
+          direta na linha de frente da negociação bancária e do contencioso de
+          massa. Com experiência tanto na defesa de grandes instituições quanto
+          na proteção dos direitos dos consumidores, construímos uma base sólida
+          de conhecimento técnico e visão estratégica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
+          direta na linha de frente da negociação bancária e do contencioso de
+          massa. Com experiência tanto na defesa de grandes instituições quanto
+          na proteção dos direitos dos consumidores, construímos uma base sólida
+          de conhecimento técnico e visão estratégica.
           <br />
           <br />
-          A_Definir
+          Essa vivência nos dois lados do balcão nos permitiu desenvolver uma
+          advocacia diferenciada: personalizada, eficiente e centrada em
+          resultados. O atendimento é direto com o advogado, garantindo clareza,
+          confiança e soluções sob medida para cada cliente.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Nosso compromisso é oferecer um serviço jurídico que vai além do
+          convencional — com atuação firme, petições bem fundamentadas e
+          linguagem acessível. Atuamos com técnica, ética e proximidade,
+          buscando a verdadeira justiça em cada causa.
           <br />
           <br />
         </p>
@@ -444,14 +454,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
