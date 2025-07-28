@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,57 +53,53 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Marcio Gimenez Advocacia | Direito Empresarial e Patrimonial em São Paulo - SP",
+  name: "Dr. Caio de Sá",
   email: "contato", // Email desejado pelo cliente
-  emailTwo: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
-  emailThree: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
-  emailFour: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
-  emailFive: "financeiro@marciogimenez.com.br", // Email desejado pelo cliente
-
-  domain: "marciogimenez.com.br", // Sem "www"
+  emailSecundario: "csaadvocacia4.wordpress.com", // Email desejado pelo cliente
+  domain: "csaadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "96301", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0654", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "99790", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3833", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "csaadvocacia4.wordpress.com",
+    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "csaadvocacia4.wordpress.com",
+    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Juscelino Kubitschek,</p>
-      <p>nº 1455 São Paulo - SP,</p>
-      <p>CEP: 04543-011</p>
+      <p>Atendimento presencial na OAB - RJ:</p>
+      <p>Av. Marechal Câmara, nº 150, Centro,</p>
+      <p>Rio de Janeiro - RJ, CEP: 20020-080</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>csaadvocacia4.wordpress.com</p>
+      <p>csaadvocacia4.wordpress.com</p>
+      <p>csaadvocacia4.wordpress.com</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
+  instagramProfile: "adv.caiodesa", // Sem o @
+  facebookProfile: "csaadvocacia4.wordpress.com",
+  linkeDinProfile: "csaadvocacia4.wordpress.com",
+  x: "csaadvocacia4.wordpress.com",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -136,21 +132,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO INTERNACIONAL COM ATUAÇÃO EM SÃO PAULO - SP",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA NO RIO DE JANEIRO - RJ",
       title: (
         <h1 className="mb-[16px]">
-          Nem todo problema aceita
-          <span className="text-primary"> receita pronta</span>
+          Justiça não se
+          <span className="text-primary"> improvisa</span>
         </h1>
       ),
       subtitle:
-        "Se a sua questão exige mais do que fórmulas, talvez você precise de mais do que um escritório comum.",
+        "Experiência prática, estratégia refinada e técnica para enfrentar até os maiores adversários.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Descubra como atuamos",
+      ctaButtonText: "Ver como atuamos",
       obsHero: {
         icon: (
           <svg
@@ -170,11 +166,11 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial mediante agendamento e online, preferencialmente por videochamada.",
+        text: "Atendimento presencial na OAB-RJ e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A_Definir",
+      secondaryCta: "csaadvocacia4.wordpress.com",
       images: {
         background: bgHeroImg,
         static: {
@@ -196,22 +192,22 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas com profundidade e estratégia",
+      miniTag: "ATUAÇÃO",
+      title: "Áreas de especialização jurídica",
       subtitle:
-        "Atuação que reflete inteligência, técnica e visão personalizada.",
+        "Conheça os ramos do Direito em que oferecemos suporte jurídico com excelência e comprometimento.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Empresarial",
-        subtitle: "Soluções jurídicas para negócios e gestão societária.",
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas em conflitos civis e obrigações.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -226,12 +222,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -239,17 +236,54 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Administrativo",
-        subtitle: "Atuação estratégica em relações com o Poder Público.",
+        title: "Direito Bancário",
+        subtitle: "Defesa em cobranças abusivas e revisão de contratos.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-banknote-icon lucide-banknote"
+          >
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: (
+          <p>
+            Contratos <i>inter partes</i>
+          </p>
+        ),
+        subtitle: "Elaboração e análise de contratos entre partes.",
+        description: (
+          <div>
+            csaadvocacia4.wordpress.com <br />
+            <br />
+            csaadvocacia4.wordpress.com
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -273,48 +307,15 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Imobiliário",
-        subtitle: "Segurança jurídica em negócios e disputas imobiliárias.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-key-icon lucide-key"
-          >
-            <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4" />
-            <path d="m21 2-9.6 9.6" />
-            <circle cx="7.5" cy="15.5" r="5.5" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card4: {
         img: featuresImg4,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Gestão jurídica de conflitos e planejamento sucessório.",
+        title: "Direito do Consumidor",
+        subtitle: "Atuação em casos de abuso ou falha na prestação.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
           </div>
         ),
@@ -330,9 +331,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-icon lucide-heart"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -340,14 +343,14 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Direito do Trabalho",
-        subtitle: "Defesa técnica em demandas trabalhistas complexas.",
+        title: "csaadvocacia4.wordpress.com",
+        subtitle: "csaadvocacia4.wordpress.com",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -362,43 +365,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-check-icon lucide-user-check"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="m16 11 2 2 4-4" />
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Imigração e Mobilidade Internacional",
-        subtitle: "Assessoria legal para vistos e residência no exterior.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-plane-icon lucide-plane"
-          >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -406,75 +377,70 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
         card2: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
         card3: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em São Paulo - SP",
-      subtitle:
-        "isite nosso endereço e confira no mapa abaixo como chegar facilmente.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2280.4668516957277!2d-46.6830788!3d-23.5912612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5745075e00e5%3A0x7d4ab06a613af7e3!2sAv.%20Pres.%20Juscelino%20Kubitschek%2C%201455%20-%20Vila%20Nova%20Concei%C3%A7%C3%A3o%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004543-011!5e1!3m2!1spt-BR!2sbr!4v1753480438590!5m2!1spt-BR!2sbr",
+      minitag: "csaadvocacia4.wordpress.com",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
+      embedsrc: "csaadvocacia4.wordpress.com",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É MARCIO GIMENEZ ADVOCACIA",
-      title: "Nossa Trajetória",
+      miniTag: "QUEM É O DR. CAIO DE SÁ",
+      title: "Minha trajetória",
       subtitle:
-        "Mais de 20 anos traduzindo o Direito em soluções seguras e sob medida",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Uma jornada marcada pela experiência prática e pela busca por justiça real.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Com raízes em São Paulo e atuação nacional e internacional, o
-          escritório Marcio Gimenez Advocacia surgiu da experiência de mais de
-          duas décadas de dedicação técnica e estratégica ao Direito.
-          <br />
-          Desde o início, nosso foco é oferecer soluções jurídicas
-          personalizadas para clientes com demandas patrimoniais relevantes.
+          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
+          direta na linha de frente da negociação bancária e do contencioso de
+          massa. Com experiência tanto na defesa de grandes instituições quanto
+          na proteção dos direitos dos consumidores, construímos uma base sólida
+          de conhecimento técnico e visão estratégica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com raízes em São Paulo e atuação nacional e internacional, o
-          escritório Marcio Gimenez Advocacia surgiu da experiência de mais de
-          duas décadas de dedicação técnica e estratégica ao Direito.
+          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
+          direta na linha de frente da negociação bancária e do contencioso de
+          massa. Com experiência tanto na defesa de grandes instituições quanto
+          na proteção dos direitos dos consumidores, construímos uma base sólida
+          de conhecimento técnico e visão estratégica.
           <br />
           <br />
-          Desde o início, nosso foco é oferecer soluções jurídicas
-          personalizadas para clientes com demandas patrimoniais relevantes.
+          Essa vivência nos dois lados do balcão nos permitiu desenvolver uma
+          advocacia diferenciada: personalizada, eficiente e centrada em
+          resultados. O atendimento é direto com o advogado, garantindo clareza,
+          confiança e soluções sob medida para cada cliente.
           <br />
           <br />
-          O que nos diferencia é a sofisticação intelectual aplicada a cada
-          caso. Traduzimos questões complexas em estratégias claras, eficazes e
-          seguras, com discrição, autoridade e uma abordagem adaptada a cada
-          cliente — nunca em modelos genéricos ou fórmulas prontas.
-          <br />
-          <br />
-          Muitos que nos procuram já enfrentaram frustrações com abordagens
-          simplistas. Aqui, cada demanda é tratada com profundidade, estratégia
-          e linguagem madura, sempre com o compromisso de proteger o patrimônio
-          e orientar decisões com inteligência e responsabilidade.
+          Nosso compromisso é oferecer um serviço jurídico que vai além do
+          convencional — com atuação firme, petições bem fundamentadas e
+          linguagem acessível. Atuamos com técnica, ética e proximidade,
+          buscando a verdadeira justiça em cada causa.
           <br />
           <br />
         </p>
@@ -488,14 +454,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -512,9 +479,9 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          <span className="text-primary">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -567,10 +534,10 @@ const content = {
         "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/marciogimenez.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/csaadvocacia4.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://marciogimenez.wordpress.com/",
+      blogLink: "https://csaadvocacia4.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -610,9 +577,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "csaadvocacia4.wordpress.com",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -633,11 +600,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       trustedMore: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "csaadvocacia4.wordpress.com",
+        subtitle: "csaadvocacia4.wordpress.com",
       },
       images: {
         img1: {
@@ -657,15 +624,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A_Definir",
+      number1Description: "csaadvocacia4.wordpress.com",
       number2: 500,
-      number2Description: "A_Definir",
+      number2Description: "csaadvocacia4.wordpress.com",
       number3: 1000,
-      number3Description: "A_Definir",
+      number3Description: "csaadvocacia4.wordpress.com",
     },
     team: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       members: {
         member1: {
           img: {
@@ -942,10 +909,7 @@ const content = {
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
-      emailTwo: `${infos.emailTwo}`,
-      emailThree: `${infos.emailThree}`,
-      emailFour: `${infos.emailFour}`,
-      emailFive: `${infos.emailFive}`,
+      emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
