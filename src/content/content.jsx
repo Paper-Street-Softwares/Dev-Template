@@ -55,7 +55,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Caio de Sá",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "csaadvocacia4.wordpress.com", // Email desejado pelo cliente
   domain: "csaadvocacia.com.br", // Sem "www"
   phone: {
     ddd: "21",
@@ -63,14 +63,14 @@ export const infos = {
     secondPart: "3833", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "csaadvocacia4.wordpress.com",
+    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "csaadvocacia4.wordpress.com",
+    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -83,9 +83,9 @@ export const infos = {
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>csaadvocacia4.wordpress.com</p>
+      <p>csaadvocacia4.wordpress.com</p>
+      <p>csaadvocacia4.wordpress.com</p>
     </div>
   ),
   expediente: (
@@ -97,9 +97,9 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "adv.caiodesa", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
+  facebookProfile: "csaadvocacia4.wordpress.com",
+  linkeDinProfile: "csaadvocacia4.wordpress.com",
+  x: "csaadvocacia4.wordpress.com",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -170,7 +170,7 @@ const content = {
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A_Definir",
+      secondaryCta: "csaadvocacia4.wordpress.com",
       images: {
         background: bgHeroImg,
         static: {
@@ -204,10 +204,10 @@ const content = {
         subtitle: "Soluções jurídicas em conflitos civis e obrigações.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -240,10 +240,10 @@ const content = {
         subtitle: "Defesa em cobranças abusivas e revisão de contratos.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -278,9 +278,9 @@ const content = {
         subtitle: "Elaboração e análise de contratos entre partes.",
         description: (
           <div>
-            A_Definir <br />
+            csaadvocacia4.wordpress.com <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -313,9 +313,9 @@ const content = {
         subtitle: "Atuação em casos de abuso ou falha na prestação.",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
           </div>
         ),
@@ -343,14 +343,14 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "csaadvocacia4.wordpress.com",
+        subtitle: "csaadvocacia4.wordpress.com",
         description: (
           <div>
-            A_Definir
+            csaadvocacia4.wordpress.com
             <br />
             <br />
-            A_Definir
+            csaadvocacia4.wordpress.com
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -377,27 +377,27 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
         card2: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
         card3: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: "csaadvocacia4.wordpress.com",
+          title: "csaadvocacia4.wordpress.com",
+          subtitle: "csaadvocacia4.wordpress.com",
         },
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      minitag: "csaadvocacia4.wordpress.com",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
+      embedsrc: "csaadvocacia4.wordpress.com",
     },
     about: {
       imagem: {
@@ -529,14 +529,15 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/csaadvocacia4.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "https://csaadvocacia4.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -576,9 +577,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "csaadvocacia4.wordpress.com",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -599,11 +600,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       trustedMore: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "csaadvocacia4.wordpress.com",
+        subtitle: "csaadvocacia4.wordpress.com",
       },
       images: {
         img1: {
@@ -623,15 +624,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A_Definir",
+      number1Description: "csaadvocacia4.wordpress.com",
       number2: 500,
-      number2Description: "A_Definir",
+      number2Description: "csaadvocacia4.wordpress.com",
       number3: 1000,
-      number3Description: "A_Definir",
+      number3Description: "csaadvocacia4.wordpress.com",
     },
     team: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "csaadvocacia4.wordpress.com",
+      subtitle: "csaadvocacia4.wordpress.com",
       members: {
         member1: {
           img: {
