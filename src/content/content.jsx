@@ -401,34 +401,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA NAYARA ALMEIDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Atuação estratégica em Direito Cível com foco em fraudes e abusos bancários.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          O escritório Nayara Almeida Advogados nasceu com o propósito de
+          oferecer um atendimento jurídico moderno, estratégico e de excelência.
+          Com foco no Direito Cível, especialmente nas áreas de Direito do
+          Consumidor e Bancário, buscamos a reparação de danos e proteção dos
+          direitos dos nossos clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório Nayara Almeida Advogados nasceu com o propósito de
+          oferecer um atendimento jurídico moderno, estratégico e de excelência.
+          Com foco no Direito Cível, especialmente nas áreas de Direito do
+          Consumidor e Bancário, buscamos a reparação de danos e proteção dos
+          direitos dos nossos clientes.
           <br />
           <br />
-          A_Definir
+          Atuamos com destaque em casos de golpes e fraudes bancárias, bloqueio
+          de contas, cobranças indevidas e abusos cometidos por instituições
+          financeiras. Nosso objetivo é garantir a restituição patrimonial e
+          combater ilegalidades de forma eficiente e segura.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
+          Com uma atuação totalmente digital e em âmbito nacional, oferecemos
+          uma assessoria acessível, ágil e de alta qualidade. Trabalhamos com
+          comprometimento e transparência para garantir conforto e resultados
+          reais para quem confia no nosso trabalho.
           <br />
         </p>
       ),
@@ -441,14 +450,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
