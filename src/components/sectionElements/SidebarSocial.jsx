@@ -96,22 +96,22 @@ export default function SidebarSocial({ colorMode }) {
                       outlined
                       className={`${
                         colorMode
-                          ? "text-secondary"
-                          : "h-2rem w-2rem p-[5px] text-secondary"
+                          ? "text-primary"
+                          : "h-2rem w-2rem p-[5px] text-primary"
                       }`}
                     ></Button>
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-secondary" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
                         <ul
                           className={`${
                             colorMode
-                              ? "text-secondary"
-                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-secondary"
+                              ? "text-primary"
+                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-primary"
                           } list-none text-paragraph3 font-mainFont`}
                         >
                           {content.texts.navbar.menuItems.map((item, index) => {
