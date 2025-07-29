@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logoPaper.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHeroPaper.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServicesPaper.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImgPaper.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocialPaper.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgStepsPaper.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,53 +53,53 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Caio de Sá",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "csaadvocacia4.wordpress.com", // Email desejado pelo cliente
-  domain: "csaadvocacia.com.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "99790", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3833", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "csaadvocacia4.wordpress.com",
-    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "csaadvocacia4.wordpress.com",
-    firstPart: "csaadvocacia4.wordpress.com", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "csaadvocacia4.wordpress.com", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Atendimento presencial na OAB - RJ:</p>
-      <p>Av. Marechal Câmara, nº 150, Centro,</p>
-      <p>Rio de Janeiro - RJ, CEP: 20020-080</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>csaadvocacia4.wordpress.com</p>
-      <p>csaadvocacia4.wordpress.com</p>
-      <p>csaadvocacia4.wordpress.com</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.caiodesa", // Sem o @
-  facebookProfile: "csaadvocacia4.wordpress.com",
-  linkeDinProfile: "csaadvocacia4.wordpress.com",
-  x: "csaadvocacia4.wordpress.com",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
+  x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -132,21 +132,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA NO RIO DE JANEIRO - RJ",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Justiça não se
-          <span className="text-primary"> improvisa</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Experiência prática, estratégia refinada e técnica para enfrentar até os maiores adversários.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Ver como atuamos",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -166,11 +165,11 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial na OAB-RJ e online para todo Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "csaadvocacia4.wordpress.com",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -192,22 +191,21 @@ const content = {
       },
     },
     features: {
-      miniTag: "ATUAÇÃO",
-      title: "Áreas de especialização jurídica",
-      subtitle:
-        "Conheça os ramos do Direito em que oferecemos suporte jurídico com excelência e comprometimento.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas em conflitos civis e obrigações.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            csaadvocacia4.wordpress.com
+            A_Definir
             <br />
             <br />
-            csaadvocacia4.wordpress.com
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -216,19 +214,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -236,14 +226,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Bancário",
-        subtitle: "Defesa em cobranças abusivas e revisão de contratos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            csaadvocacia4.wordpress.com
+            A_Definir
             <br />
             <br />
-            csaadvocacia4.wordpress.com
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -252,17 +242,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -270,17 +254,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: (
-          <p>
-            Contratos <i>inter partes</i>
-          </p>
-        ),
-        subtitle: "Elaboração e análise de contratos entre partes.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            csaadvocacia4.wordpress.com <br />
+            A_Definir <br />
             <br />
-            csaadvocacia4.wordpress.com
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -289,19 +269,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -309,13 +281,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Consumidor",
-        subtitle: "Atuação em casos de abuso ou falha na prestação.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            csaadvocacia4.wordpress.com
+            A_Definir
             <br />
-            csaadvocacia4.wordpress.com
+            A_Definir
             <br />
           </div>
         ),
@@ -325,17 +297,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -343,14 +309,14 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "csaadvocacia4.wordpress.com",
-        subtitle: "csaadvocacia4.wordpress.com",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            csaadvocacia4.wordpress.com
+            A_Definir
             <br />
             <br />
-            csaadvocacia4.wordpress.com
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -377,70 +343,60 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "csaadvocacia4.wordpress.com",
-          title: "csaadvocacia4.wordpress.com",
-          subtitle: "csaadvocacia4.wordpress.com",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: "csaadvocacia4.wordpress.com",
-          title: "csaadvocacia4.wordpress.com",
-          subtitle: "csaadvocacia4.wordpress.com",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: "csaadvocacia4.wordpress.com",
-          title: "csaadvocacia4.wordpress.com",
-          subtitle: "csaadvocacia4.wordpress.com",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
     maps: {
-      minitag: "csaadvocacia4.wordpress.com",
-      title: "csaadvocacia4.wordpress.com",
-      subtitle: "csaadvocacia4.wordpress.com",
-      embedsrc: "csaadvocacia4.wordpress.com",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      embedsrc: "a_Definir",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. CAIO DE SÁ",
-      title: "Minha trajetória",
-      subtitle:
-        "Uma jornada marcada pela experiência prática e pela busca por justiça real.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
-          direta na linha de frente da negociação bancária e do contencioso de
-          massa. Com experiência tanto na defesa de grandes instituições quanto
-          na proteção dos direitos dos consumidores, construímos uma base sólida
-          de conhecimento técnico e visão estratégica.
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Caio de Sá – Advocacia e Consultoria Jurídica nasceu da atuação
-          direta na linha de frente da negociação bancária e do contencioso de
-          massa. Com experiência tanto na defesa de grandes instituições quanto
-          na proteção dos direitos dos consumidores, construímos uma base sólida
-          de conhecimento técnico e visão estratégica.
+          A_Definir
           <br />
           <br />
-          Essa vivência nos dois lados do balcão nos permitiu desenvolver uma
-          advocacia diferenciada: personalizada, eficiente e centrada em
-          resultados. O atendimento é direto com o advogado, garantindo clareza,
-          confiança e soluções sob medida para cada cliente.
+          A_Definir
           <br />
           <br />
-          Nosso compromisso é oferecer um serviço jurídico que vai além do
-          convencional — com atuação firme, petições bem fundamentadas e
-          linguagem acessível. Atuamos com técnica, ética e proximidade,
-          buscando a verdadeira justiça em cada causa.
+          A_Definir
+          <br />
+          <br />
+          A_Definir
           <br />
           <br />
         </p>
@@ -454,15 +410,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -479,9 +434,9 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-primary">Dúvidas?</span> Entre em contato
+          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-primary">estamos te esperando.</span>
+          <span className="text-bgSectionDark">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -529,15 +484,14 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "Informação jurídica ao seu alcance",
-      subtitle:
-        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+      title: "A_Definir",
+      subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/csaadvocacia4.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://csaadvocacia4.wordpress.com/",
+      blogLink: "https://a_definir/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -577,9 +531,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "csaadvocacia4.wordpress.com",
-      title: "csaadvocacia4.wordpress.com",
-      subtitle: "csaadvocacia4.wordpress.com",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -600,11 +554,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "csaadvocacia4.wordpress.com",
-      subtitle: "csaadvocacia4.wordpress.com",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: "csaadvocacia4.wordpress.com",
-        subtitle: "csaadvocacia4.wordpress.com",
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
@@ -624,15 +578,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "csaadvocacia4.wordpress.com",
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: "csaadvocacia4.wordpress.com",
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: "csaadvocacia4.wordpress.com",
+      number3Description: "A_Definir",
     },
     team: {
-      title: "csaadvocacia4.wordpress.com",
-      subtitle: "csaadvocacia4.wordpress.com",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
