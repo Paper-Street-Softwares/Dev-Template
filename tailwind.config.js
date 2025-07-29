@@ -36,7 +36,7 @@ export const theme = {
 
       // Sombras
 
-      shadowHero: "#000000",
+      shadowHero: "#0189BB",
       shadowFeatures: "#000000",
       shadowAbouts: "#000000",
       shadowSteps: "#000000",
