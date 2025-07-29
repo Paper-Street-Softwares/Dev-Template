@@ -70,7 +70,9 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 {/* Observação */}
                 <MotionDivDownToUp>
                   <div className="flex justify-center desktop1:justify-start">
-                    <div className="flex flex-col items-center desktop1:flex-row text-secondary ">
+                    <div
+                      className={`flex flex-col items-center desktop1:flex-row ${obsTextColor}`}
+                    >
                       {content.texts.hero.obsHero.icon}
 
                       <p
