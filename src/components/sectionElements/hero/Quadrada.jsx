@@ -136,8 +136,8 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     bg-cover bg-no-repeat
                     ${
                       colorMode === "light"
-                        ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/30"
-                        : "shadow-custom-opacity shadow-shadowHero"
+                        ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
+                        : "shadow-custom-opacity shadow-shadowHero/10"
                     }
                   `}
                   style={{
