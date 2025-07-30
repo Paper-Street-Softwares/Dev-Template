@@ -1,27 +1,23 @@
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
 
-export default function ListGroupSocial({ colorMode = "default" }) {
-  const [visibleSections, setVisibleSections] = useState([]);
+export default function ListGroupSocial({ colorMode = "default", option }) {
+  const navigate = useNavigate();
+  const [scrolling, setScrolling] = useState(false);
+
+  const handleScroll = () => {
+    setScrolling(window.scrollY > 0);
+  };
 
   useEffect(() => {
-    // Pega os IDs e Labels direto do content
-    const allIds = content.texts.navbar.menuId || [];
-    const allLabels = content.texts.navbar.menuItems || [];
-
-    // Cria pares {id, label} baseado nos arrays
-    const paired = allIds.map((id, index) => ({
-      id,
-      label: allLabels[index] || id, // fallback para id se label faltar
-    }));
-
-    // Filtra só os que existem no DOM
-    const filtered = paired.filter(({ id }) => !!document.getElementById(id));
-    setVisibleSections(filtered);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Cores baseadas no modo
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
     if (colorMode === "dark") return "text-white";
@@ -45,39 +41,63 @@ export default function ListGroupSocial({ colorMode = "default" }) {
       ? "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
       : "";
 
+  // Mapeamento de seções → rotas
+  const menuItems = [
+    { id: "home", path: "/" },
+    { id: "service", path: "/features" },
+    { id: "about", path: "/about" },
+    { id: "faq", path: "/faq" },
+  ];
+
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
     >
-      {visibleSections.map(({ id, label }) => (
-        <li key={id} className="transition group h-[24px]">
-          <Link
-            to={id}
-            className="relative font-semibold cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-50}
-          >
-            <span
-              className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+      {menuItems.map((item, index) => (
+        <li key={item.id} className="transition group h-[24px]">
+          {option === "index" ? (
+            // 🔹 Scroll suave no Index
+            <ScrollLink
+              to={item.id}
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+              className="relative font-semibold cursor-pointer"
             >
-              {label}
-            </span>
-            <div
-              className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
-            />
-          </Link>
+              <span
+                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+              >
+                {content.texts.navbar.menuItems[index]}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </ScrollLink>
+          ) : (
+            <RouterLink
+              to={item.id === "home" ? "/" : item.path}
+              className="relative font-semibold cursor-pointer"
+            >
+              <span
+                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+              >
+                {content.texts.navbar.menuItems[index]}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </RouterLink>
+          )}
         </li>
       ))}
 
-      {/* Botão contato */}
+      {/* Botão de contato */}
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            className=""
             textclassName="text-paragraph3"
             size="small"
             icon={

@@ -7,12 +7,12 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import { Outlet } from "react-router-dom";
 
-export default function SiteIndex() {
+export default function SiteIndex({ option }) {
   const colorMode = "";
 
   return (
     <>
-      <Navbar colorMode={colorMode} />
+      <Navbar colorMode={colorMode} option={option} />
 
       <Hero
         colorMode={colorMode}

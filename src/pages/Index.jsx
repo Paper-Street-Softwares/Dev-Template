@@ -15,13 +15,13 @@ import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
 
-export default function Index() {
+export default function Index({ option }) {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "";
 
   return (
     <>
-      <Navbar colorMode={colorMode} />
+      <Navbar colorMode={colorMode} option={option} />
 
       <Hero
         colorMode={colorMode}
@@ -64,5 +64,3 @@ export default function Index() {
     </>
   );
 }
-
-
