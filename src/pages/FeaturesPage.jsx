@@ -9,7 +9,7 @@ export default function FeaturesPage() {
   const colorMode = "default";
   return (
     <>
-      <Navbar colorMode={colorMode} />
+      <Navbar colorMode={colorMode} option="site" />
 
       <Hero
         colorMode={colorMode}
@@ -36,6 +36,7 @@ export default function FeaturesPage() {
         expedientesecond={false}
         addres={true}
         instagram={true}
+        option="site"
       />
     </>
   );

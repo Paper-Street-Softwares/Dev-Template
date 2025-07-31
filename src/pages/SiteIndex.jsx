@@ -34,6 +34,7 @@ export default function SiteIndex({ option }) {
         expedientesecond={false}
         addres={true}
         instagram={true}
+        option="site"
       />
 
       <FloatingWhatsappButton />

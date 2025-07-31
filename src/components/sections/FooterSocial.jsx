@@ -23,9 +23,12 @@ import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
 import InstagramSecundaryFooter from "../sectionElements/footer/InstagramSecundaryFooter.jsx";
+import ListGroupSite from "../sectionElements/ListGroupSite.jsx";
+import LinksNavegationFooterSite from "../sectionElements/footer/LinksFooterSite.jsx";
 
 export default function FooterSocial({
   colorMode,
+  option,
   addres,
   obs,
   instagram,
@@ -39,24 +42,33 @@ export default function FooterSocial({
   expedientesecond,
   instagramSecundary,
 }) {
-  // Define estilos com base no colorMode
+  const isSiteIndex = option === "site";
+
+  // Defina estilos baseados no colorMode e tipo de footer
   let footerBackground = "";
   let textColor = "";
 
-  switch (colorMode) {
-    case "dark":
-      footerBackground = "bg-bgFixedDark";
-      textColor = "text-white";
-      break;
-    case "light":
-      footerBackground = "bg-bgFixedLight";
-      textColor = "text-black";
-      break;
-    default:
-      footerBackground =
-        "bg-gradient-to-b from-bgSectionDark to-black bg-cover bg-center bg-no-repeat";
-      textColor = "text-white";
-      break;
+  if (isSiteIndex) {
+    // Estilos específicos para siteIndex, se quiser
+    footerBackground = colorMode === "light" ? "bg-white" : "bg-gray-900";
+    textColor = colorMode === "light" ? "text-black" : "text-white";
+  } else {
+    // Footer "social" padrão ou outro
+    switch (colorMode) {
+      case "dark":
+        footerBackground = "bg-bgFixedDark";
+        textColor = "text-white";
+        break;
+      case "light":
+        footerBackground = "bg-bgFixedLight";
+        textColor = "text-black";
+        break;
+      default:
+        footerBackground =
+          "bg-gradient-to-b from-bgSectionDark to-black bg-cover bg-center bg-no-repeat";
+        textColor = "text-white";
+        break;
+    }
   }
 
   return (
@@ -66,41 +78,90 @@ export default function FooterSocial({
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
           <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
-              <LogoFooter />
-              <PhoneFooter colorMode={colorMode} />
-              {phoneSecundario && <PhoneSecundario />}
-              {phoneTerciario && <PhoneTerciario />}
-              <EmailFooter />
-              {addres && <AdressFooter />}
-              {addresSecundario && <AdressSecundarioFooter />}
-              <ExpedienteFooter />
-              {expedientesecond && <ExpedienteSecondFooter />}
-              {obs && <ObsFooter />}
-            </div>
-
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-              <MidTextFooter />
-              <ParagrapfFooter />
-              <MotionDivDownToUp>
-                <p className="opacity-90">{content.texts.footerSocialText}</p>
-                <div className="mt-2 opacity-90">
-                  <div className="flex gap-[10px] items-center">
-                    {instagram && <InstagramFooter />}
-                    {instagramSecundary && <InstagramSecundaryFooter />}
-                    {tiktok && <TikTokFooter />}
-                    {facebook && <FacebookFooter />}
-                    {x && <XFooter />}
-                    {linkedin && <LinkedinFooter />}
-                  </div>
+            {/* Aqui pode fazer um render condicional, por exemplo */}
+            {isSiteIndex ? (
+              <>
+                {/* Footer padrão ou social */}
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+                  <LogoFooter />
+                  <PhoneFooter colorMode={colorMode} />
+                  {phoneSecundario && <PhoneSecundario />}
+                  {phoneTerciario && <PhoneTerciario />}
+                  <EmailFooter />
+                  {addres && <AdressFooter />}
+                  {addresSecundario && <AdressSecundarioFooter />}
+                  <ExpedienteFooter />
+                  {expedientesecond && <ExpedienteSecondFooter />}
+                  {obs && <ObsFooter />}
                 </div>
-              </MotionDivDownToUp>
-            </div>
 
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-              <NavegationTextFooter />
-              <LinksNavegationFooter />
-            </div>
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+                  <MidTextFooter />
+                  <ParagrapfFooter />
+                  <MotionDivDownToUp>
+                    <p className="opacity-90">
+                      {content.texts.footerSocialText}
+                    </p>
+                    <div className="mt-2 opacity-90">
+                      <div className="flex gap-[10px] items-center">
+                        {instagram && <InstagramFooter />}
+                        {instagramSecundary && <InstagramSecundaryFooter />}
+                        {tiktok && <TikTokFooter />}
+                        {facebook && <FacebookFooter />}
+                        {x && <XFooter />}
+                        {linkedin && <LinkedinFooter />}
+                      </div>
+                    </div>  
+                  </MotionDivDownToUp>
+                </div>
+
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+                  <NavegationTextFooter />
+                  <LinksNavegationFooterSite />
+                </div>
+              </>
+            ) : (
+              <>
+                {/* Footer padrão ou social */}
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+                  <LogoFooter />
+                  <PhoneFooter colorMode={colorMode} />
+                  {phoneSecundario && <PhoneSecundario />}
+                  {phoneTerciario && <PhoneTerciario />}
+                  <EmailFooter />
+                  {addres && <AdressFooter />}
+                  {addresSecundario && <AdressSecundarioFooter />}
+                  <ExpedienteFooter />
+                  {expedientesecond && <ExpedienteSecondFooter />}
+                  {obs && <ObsFooter />}
+                </div>
+
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+                  <MidTextFooter />
+                  <ParagrapfFooter />
+                  <MotionDivDownToUp>
+                    <p className="opacity-90">
+                      {content.texts.footerSocialText}
+                    </p>
+                    <div className="mt-2 opacity-90">
+                      <div className="flex gap-[10px] items-center">
+                        {instagram && <InstagramFooter />}
+                        {instagramSecundary && <InstagramSecundaryFooter />}
+                        {tiktok && <TikTokFooter />}
+                        {facebook && <FacebookFooter />}
+                        {x && <XFooter />}
+                        {linkedin && <LinkedinFooter />}
+                      </div>
+                    </div>
+                  </MotionDivDownToUp>
+                </div>
+
+                <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+                  <NavegationTextFooter />
+                  <LinksNavegationFooter />
+                </div>
+              </>
+            )}
           </div>
           <CopyrightFooter />
         </SectionWrapper>

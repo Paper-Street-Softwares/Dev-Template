@@ -9,7 +9,7 @@ export default function FaqPage() {
   const colorMode = "default";
   return (
     <>
-      <Navbar colorMode={colorMode} />
+      <Navbar colorMode={colorMode} option="site" />
 
       <Hero
         colorMode={colorMode}
@@ -28,6 +28,7 @@ export default function FaqPage() {
         expedientesecond={false}
         addres={true}
         instagram={true}
+        option="site"
       />
     </>
   );

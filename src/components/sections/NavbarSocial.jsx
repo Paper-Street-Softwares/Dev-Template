@@ -59,7 +59,7 @@ export default function NavbarSocial({ colorMode, option }) {
           {/* Logo */}
           {isSiteIndex ? (
             <div
-              onClick={() => handleNavigateToSection("home")}
+              onClick={() => navigate("/")}
               className="cursor-pointer w-[300px]"
             >
               <img
