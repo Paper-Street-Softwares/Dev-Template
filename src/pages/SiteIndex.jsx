@@ -8,7 +8,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 import { Outlet } from "react-router-dom";
 
 export default function SiteIndex({ option }) {
-  const colorMode = "";
+  const colorMode = "default"; // Altere esta constante para: 'default', 'light' ou 'dark'
 
   return (
     <>

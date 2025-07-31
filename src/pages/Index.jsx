@@ -17,7 +17,7 @@ import CtaSecondary from "../components/sections/CtaSecondary";
 
 export default function Index({ option }) {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "";
+  const colorMode = "default";
 
   return (
     <>

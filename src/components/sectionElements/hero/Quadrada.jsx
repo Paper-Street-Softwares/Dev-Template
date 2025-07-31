@@ -23,11 +23,11 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
       className={`w-full bg-center bg-repeat font-mainFont bg-gradient-to-b ${bgGradient}`}
       id="home"
     >
-      <div className="relative z-10 flex w-full items-left">
+      <div className="relative z-10 flex w-full items-left ">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[140px] phone2:h-[140px] phone3:h-[140px] tablet1:h-[150px] desktop3:h-[120px] " />{" "}
           <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px]  desktop1:pt-[68px] desktop1:pb-[96px]">
-            <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+            <div className="flex flex-col w-full desktop1:w-[50%]">
               {/* MiniTag preta */}
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4 text-labelButtons">
@@ -123,7 +123,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
             {/* Imagem principal */}
             <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
-              <MotionDivDownToUp className="relative flex justify-center w-full">
+              <MotionDivDownToUp className="relative flex justify-center desktop1:justify-end w-full">
                 <div
                   className={`bg-top mt-[20px] desktop1:mt-0 rounded-xl w-full
                     phone1:h-[300px] phone1:max-w-[300px]

@@ -14,7 +14,7 @@ export default function ListGroupSite({ colorMode }) {
   }`;
 
   return (
-    <nav className="flex gap-4 items-center justify-end h-14 my-auto">
+    <nav className="gap-4 items-center justify-end h-14 my-auto hidden desktop1:flex ">
       {siteMenuLinks.map(({ to, label }) => (
         <Link key={to} to={to} className={linkClass}>
           {label}

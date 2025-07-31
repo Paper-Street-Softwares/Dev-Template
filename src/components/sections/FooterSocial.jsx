@@ -48,28 +48,8 @@ export default function FooterSocial({
   let footerBackground = "";
   let textColor = "";
 
-  if (isSiteIndex) {
-    // Estilos específicos para siteIndex, se quiser
-    footerBackground = colorMode === "light" ? "bg-white" : "bg-gray-900";
-    textColor = colorMode === "light" ? "text-black" : "text-white";
-  } else {
-    // Footer "social" padrão ou outro
-    switch (colorMode) {
-      case "dark":
-        footerBackground = "bg-bgFixedDark";
-        textColor = "text-white";
-        break;
-      case "light":
-        footerBackground = "bg-bgFixedLight";
-        textColor = "text-black";
-        break;
-      default:
-        footerBackground =
-          "bg-gradient-to-b from-bgSectionDark to-black bg-cover bg-center bg-no-repeat";
-        textColor = "text-white";
-        break;
-    }
-  }
+  footerBackground = colorMode === "light" ? "bg-white" : "bg-black";
+  textColor = colorMode === "light" ? "text-black" : "text-white";
 
   return (
     <footer
@@ -78,7 +58,6 @@ export default function FooterSocial({
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
           <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
-            {/* Aqui pode fazer um render condicional, por exemplo */}
             {isSiteIndex ? (
               <>
                 {/* Footer padrão ou social */}
@@ -111,7 +90,7 @@ export default function FooterSocial({
                         {x && <XFooter />}
                         {linkedin && <LinkedinFooter />}
                       </div>
-                    </div>  
+                    </div>
                   </MotionDivDownToUp>
                 </div>
 
