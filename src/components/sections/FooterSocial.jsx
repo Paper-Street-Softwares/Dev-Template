@@ -38,6 +38,7 @@ export default function FooterSocial({
   phoneTerciario,
   expedientesecond,
   instagramSecundary,
+  mode,
 }) {
   // Define estilos com base no colorMode
   let footerBackground = "";
@@ -99,7 +100,7 @@ export default function FooterSocial({
 
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <NavegationTextFooter />
-              <LinksNavegationFooter />
+              <LinksNavegationFooter mode={mode} />
             </div>
           </div>
           <CopyrightFooter />
