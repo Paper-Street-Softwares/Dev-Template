@@ -131,8 +131,8 @@ const content = {
         "service", 
         "about", 
         "faq", 
-        // "blog"
-        "maps"
+        // "blog",
+        "maps",
       ], //adicionar ou remover ID
 
       ctaButtonText: "Contato",
@@ -495,10 +495,10 @@ const content = {
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/A_Definir_Blog/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "https://A_definir_Blog/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
