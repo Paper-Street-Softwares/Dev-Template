@@ -20,7 +20,7 @@ import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 
 // Altere aqui para "blog" ou "site"
-const mode = "site"; // só muda isso e o resto se adapta
+const mode = "blog"; // só muda isso e o resto se adapta
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
