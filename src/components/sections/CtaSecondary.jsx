@@ -16,7 +16,7 @@ export default function CtaSecondary({ colorMode = "default" }) {
     default: "squares",
   };
   const textClasses = {
-    dark: "text-white",
+    dark: "text-secondary",
     light: "text-black",
     default: "text-black",
   };
@@ -57,9 +57,9 @@ export default function CtaSecondary({ colorMode = "default" }) {
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.ctaSecondary.ctaButtonText}
                 animation
-                icon={<FaWhatsapp size={24} color="white" />}
+                icon={<FaWhatsapp size={24} color="2A050F" />}
                 color="bg-primary"
-                labelColor="text-white"
+                labelColor="text-secondary"
               />
             </div>
           </div>
