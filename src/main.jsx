@@ -19,12 +19,12 @@ import "./styles/shapeDivs.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 
-// Altere aqui para "blog" ou "site"
-const mode = "blog"; // só muda isso e o resto se adapta
+// Altere aqui para "LP" ou "site"
+const mode = "LP"; // só muda isso e o resto se adapta
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
-    {mode === "blog" ? (
+    {mode === "LP" ? (
       <Routes>
         <Route path="/" element={<Index mode={mode} />} />
       </Routes>
