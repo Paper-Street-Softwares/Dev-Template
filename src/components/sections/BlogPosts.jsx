@@ -11,7 +11,9 @@ function BlogPosts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch(content.texts.blog.blogApiEndpoint)
+    fetch(
+      `https://public-api.wordpress.com/rest/v1.1/sites/${content.texts.blog.blogLink}/posts/`
+    )
       .then((response) => response.json())
       .then((data) => setPosts(data.posts)) // Ajustado para pegar a chave correta
       .catch((error) => console.error("Erro ao buscar posts:", error));
@@ -19,7 +21,7 @@ function BlogPosts() {
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionDark"  id="blog">
+      <SectionArea className="bg-bgSectionDark" id="blog">
         <SectionWrapper>
           <SectionHeader
             className="text-center"
@@ -64,7 +66,7 @@ function BlogPosts() {
           </ul>
           <MotionDivDownToUp>
             <Paragraphs className="text-center text-secondary underline transition hover:scale-110">
-              <a href={content.texts.blog.blogLink} target="_blank">
+              <a href={`https://${content.texts.blog.blogLink}`} target="_blank">
                 {content.texts.blog.label}
               </a>
             </Paragraphs>

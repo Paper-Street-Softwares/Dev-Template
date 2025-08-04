@@ -1,26 +1,33 @@
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
 
-export default function ListGroupSocial({ colorMode = "default" }) {
+export default function ListGroupSocial({
+  colorMode = "default",
+  mode = "blog",
+}) {
   const [visibleSections, setVisibleSections] = useState([]);
+  const location = useLocation();
 
   useEffect(() => {
-    // Pega os IDs e Labels direto do content
     const allIds = content.texts.navbar.menuId || [];
     const allLabels = content.texts.navbar.menuItems || [];
 
-    // Cria pares {id, label} baseado nos arrays
     const paired = allIds.map((id, index) => ({
       id,
-      label: allLabels[index] || id, // fallback para id se label faltar
+      label: allLabels[index] || id,
     }));
 
-    // Filtra só os que existem no DOM
-    const filtered = paired.filter(({ id }) => !!document.getElementById(id));
-    setVisibleSections(filtered);
-  }, []);
+    // No modo site, vamos mostrar todos sem depender do DOM
+    if (mode === "site") {
+      setVisibleSections(paired);
+    } else {
+      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
+      setVisibleSections(filtered);
+    }
+  }, [mode]);
 
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
@@ -50,22 +57,42 @@ export default function ListGroupSocial({ colorMode = "default" }) {
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
     >
       {visibleSections.map(({ id, label }) => (
-        <li key={id} className="transition group h-[24px]">
-          <Link
-            to={id}
-            className="relative font-semibold cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-50}
-          >
-            <span className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}>
-              {label}
-            </span>
-            <div
-              className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
-            />
-          </Link>
+        <li key={id} className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center">
+          {mode === "blog" ? (
+            // Comportamento atual (scroll suave)
+            <ScrollLink
+              to={id}
+              className="relative font-semibold cursor-pointer"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+            >
+              <span
+                className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
+              >
+                {label}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </ScrollLink>
+          ) : (
+            // Novo comportamento (links fixos que mudam de página)
+            <RouterLink
+              to={id === "inicio" ? "/" : `/${id.toLowerCase()}`}
+              className="relative font-semibold cursor-pointer"
+            >
+              <span
+                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+              >
+                {label}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </RouterLink>
+          )}
         </li>
       ))}
 

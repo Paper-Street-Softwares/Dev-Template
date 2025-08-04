@@ -122,11 +122,18 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        "Blog",
         "Perguntas Frequentes",
+        // "Blog",
         "Mapa",
-      ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      ], //adicionar ou remover link
+      menuId: [
+        "home",
+        "service",
+        "about",
+        "faq",
+        // "blog",
+        "maps",
+      ], //adicionar ou remover ID
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -487,11 +494,9 @@ const content = {
       title: "A_Definir",
       subtitle: "",
       img: imgSteps,
-      blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "A_Definir",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",

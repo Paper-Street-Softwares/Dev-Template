@@ -17,7 +17,7 @@ import CtaSecondary from "../components/sections/CtaSecondary";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "default";
 
   return (
     <>
@@ -50,7 +50,7 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
         addresSecundario={true}

@@ -8,7 +8,7 @@ import { useState, useEffect, useRef } from "react";
 import SidebarSocial from "../sectionElements/SidebarSocial";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 
-export default function NavbarSocial({ colorMode }) {
+export default function NavbarSocial({ colorMode, mode }) {
   const navigate = useNavigate();
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
@@ -87,12 +87,12 @@ export default function NavbarSocial({ colorMode }) {
     if (colorMode === "dark") {
       return scrolling
         ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary"
-        : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
+        : "bg-gradient-to-b from-black to-bgFixedDark border-b-[1px] border-none";
     }
     // default
     return scrolling
       ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg border-b-[1px] border-primary"
-      : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
+      : "bg-gradient-to-b from-black to-bgSectionDark border-b-[1px] border-none";
   };
 
   return (
@@ -132,11 +132,13 @@ export default function NavbarSocial({ colorMode }) {
               />
             </div>
             <div className="flex items-center desktop1:hidden">
-              <SidebarSocial colorMode={colorMode} />
+              <SidebarSocial colorMode={colorMode} mode={mode} />
             </div>
           </div>
 
-          {showListGroup && <ListGroupSocial colorMode={colorMode} />}
+          {showListGroup && (
+            <ListGroupSocial colorMode={colorMode} mode={mode} />
+          )}
         </Navbar>
       </div>
     </div>
