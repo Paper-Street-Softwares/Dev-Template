@@ -397,33 +397,57 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. ENÉAS PIMENTEL",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com o Direito, a verdade e a confiança em cada atendimento",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada no Direito começou ainda na faculdade, mas o
+          envolvimento com a área veio antes mesmo da formação, atuando ao lado
+          de escritórios parceiros nas áreas trabalhista, cível, do consumidor e
+          de família.
           <br />
-          A_Definir
+          Tive também a honra de estagiar por dois anos no Tribunal de Justiça
+          do Amazonas, experiência que fortaleceu minha visão prática da
+          Justiça.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada no Direito começou ainda na faculdade, mas o
+          envolvimento com a área veio antes mesmo da formação, atuando ao lado
+          de escritórios parceiros nas áreas trabalhista, cível, do consumidor e
+          de família.
           <br />
           <br />
-          A_Definir
+          Tive também a honra de estagiar por dois anos no Tribunal de Justiça
+          do Amazonas, experiência que fortaleceu minha visão prática da
+          Justiça.
           <br />
           <br />
-          A_Definir
+          Ao longo dessa trajetória, entendi que a relação entre advogado e
+          cliente precisa ser construída com confiança e clareza. Cada caso é
+          tratado de forma personalizada, respeitando a singularidade de quem
+          busca nosso auxílio.
           <br />
           <br />
-          A_Definir
+          Nosso compromisso é entregar um atendimento transparente, técnico e
+          eficiente.
+          <br />
+          <br />
+          Muitos chegam até nós após esgotar outras alternativas. Por isso,
+          encaramos cada causa com responsabilidade e empatia.
+          <br />
+          <br />
+          Com estudo profundo e abordagem humanizada, buscamos a melhor solução
+          jurídica para restaurar direitos e trazer tranquilidade a quem nos
+          procura.
           <br />
           <br />
         </p>
@@ -437,14 +461,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se agora mesmo",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
