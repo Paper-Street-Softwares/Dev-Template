@@ -125,7 +125,7 @@ const content = {
         "Sobre Nós",
         "Blog",
         "Perguntas Frequentes",
-        "Mapa",
+        // "Mapa",
       ],
       menuId: ["home", "service", "about", "blog", "faq", "maps"],
       ctaButtonText: "Contato",
