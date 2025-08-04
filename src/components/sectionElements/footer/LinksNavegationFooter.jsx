@@ -16,8 +16,15 @@ function LinksNavegationFooter({ mode = "blog" }) {
       label: allLabels[index] || id,
     }));
 
-    setVisibleLinks(paired);
-  }, []);
+    if (mode === "site") {
+      // No modo site → sempre mostra todos os links
+      setVisibleLinks(paired);
+    } else {
+      // No modo blog → só mostra seções que existem no DOM
+      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
+      setVisibleLinks(filtered);
+    }
+  }, [mode]);
 
   // Divide os links em duas colunas
   const half = Math.ceil(visibleLinks.length / 2);
@@ -42,7 +49,6 @@ function LinksNavegationFooter({ mode = "blog" }) {
         </ScrollLink>
       );
     } else {
-      // mode site: link de página
       const to = id === "inicio" ? "/" : `/${id.toLowerCase()}`;
       return (
         <RouterLink to={to} className="cursor-pointer">

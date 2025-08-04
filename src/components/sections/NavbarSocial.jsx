@@ -132,7 +132,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               />
             </div>
             <div className="flex items-center desktop1:hidden">
-              <SidebarSocial colorMode={colorMode} />
+              <SidebarSocial colorMode={colorMode} mode={mode} />
             </div>
           </div>
 
