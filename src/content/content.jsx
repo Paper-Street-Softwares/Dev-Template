@@ -123,7 +123,7 @@ const content = {
         "Serviços",
         "Sobre Nós",
         "Perguntas Frequentes",
-        // "Blog",
+        "Blog",
         "Mapa",
       ], //adicionar ou remover link
       menuId: [
@@ -131,7 +131,7 @@ const content = {
         "service",
         "about",
         "faq",
-        // "blog",
+        "blog",
         "maps",
       ], //adicionar ou remover ID
 
@@ -496,7 +496,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir",
+      blogLink: "blogtestepaper.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
