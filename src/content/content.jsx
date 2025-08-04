@@ -127,10 +127,10 @@ const content = {
         "Mapa",
       ], //adicionar ou remover link
       menuId: [
-        "home", 
-        "service", 
-        "about", 
-        "faq", 
+        "home",
+        "service",
+        "about",
+        "faq",
         // "blog",
         "maps",
       ], //adicionar ou remover ID
@@ -494,11 +494,9 @@ const content = {
       title: "A_Definir",
       subtitle: "",
       img: imgSteps,
-      blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/A_Definir_Blog/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://A_definir_Blog/",
+      blogLink: "A_Definir",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
