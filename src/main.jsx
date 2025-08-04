@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Index mode={mode} />} />
       </Routes>
-    ) : (
+  ) : (
       <Routes>
         <Route path="/" element={<SiteLayout mode={mode} />} />
         <Route path="home" element={<SiteLayout mode={mode} />} />

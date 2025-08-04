@@ -57,7 +57,7 @@ export default function ListGroupSocial({
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
     >
       {visibleSections.map(({ id, label }) => (
-        <li key={id} className="transition group h-[24px] w-[50%] text-center">
+        <li key={id} className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center">
           {mode === "blog" ? (
             // Comportamento atual (scroll suave)
             <ScrollLink
@@ -69,7 +69,7 @@ export default function ListGroupSocial({
               offset={-50}
             >
               <span
-                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+                className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
               >
                 {label}
               </span>
