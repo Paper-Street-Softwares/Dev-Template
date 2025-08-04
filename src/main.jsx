@@ -18,6 +18,7 @@ import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
+import AboutInstagram from "./components/sections/AboutInstagram.jsx";
 
 // Altere aqui para "LP" ou "site"
 const mode = "LP"; // só muda isso e o resto se adapta
@@ -28,7 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Index mode={mode} />} />
       </Routes>
-  ) : (
+    ) : (
       <Routes>
         <Route path="/" element={<SiteLayout mode={mode} />} />
         <Route path="home" element={<SiteLayout mode={mode} />} />
@@ -43,7 +44,17 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         />
         <Route
           path="/about"
-          element={<SiteLayout mode={mode} section={<About />} />}
+          element={
+            <SiteLayout
+              mode={mode}
+              section={
+                <>
+                  <About />
+                  <AboutInstagram instagram={true} />
+                </>
+              }
+            />
+          }
         />
 
         <Route

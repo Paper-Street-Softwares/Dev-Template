@@ -12,7 +12,7 @@ export default function SiteLayout({ section, mode }) {
       <Hero defaultHero={true} colorMode={colorMode} />
       {section && <div className="">{section}</div>}
       <Cta colorMode={colorMode} />
-      <FooterSocial colorMode={colorMode} mode={mode} />
+      <FooterSocial colorMode={colorMode} mode={mode} instagram={true} />
     </>
   );
 }
