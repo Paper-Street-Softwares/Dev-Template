@@ -42,7 +42,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <ServerIcon />,
     <HelpCircle />,
     // <FileText />,
-    <MapPinCheck />,
+    // <MapPinCheck />,
   ];
 
   return (

@@ -487,11 +487,9 @@ const content = {
       title: "A_Definir",
       subtitle: "",
       img: imgSteps,
-      blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/a_definir/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://a_definir/",
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
