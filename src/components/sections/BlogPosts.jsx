@@ -29,8 +29,8 @@ function BlogPosts() {
             sectionHeaderTitle={content.texts.blog.title}
             sectionHeaderSubtitle={content.texts.blog.subtitle}
             color=""
-            titleColorSet="text-black"
-            subtitleColorSet="text-black"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
             type=""
           />
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
@@ -65,8 +65,11 @@ function BlogPosts() {
             ))}
           </ul>
           <MotionDivDownToUp>
-            <Paragraphs className="text-center text-secondary underline transition hover:scale-110">
-              <a href={`https://${content.texts.blog.blogLink}`} target="_blank">
+            <Paragraphs className="text-center text-white underline transition hover:scale-110">
+              <a
+                href={`https://${content.texts.blog.blogLink}`}
+                target="_blank"
+              >
                 {content.texts.blog.label}
               </a>
             </Paragraphs>

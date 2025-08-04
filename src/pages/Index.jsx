@@ -53,7 +53,7 @@ export default function Index() {
       <Maps colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addresSecundario={true}
+        addresSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
         addres={true}
