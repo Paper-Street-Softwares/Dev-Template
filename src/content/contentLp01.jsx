@@ -15,9 +15,9 @@ import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
 
-import img1 from "../assets/imgs/about/image1.webp";
-import img2 from "../assets/imgs/about/image2.webp";
-import img3 from "../assets/imgs/about/image3.webp";
+// import img1 from "../assets/imgs/about/image1.webp";
+// import img2 from "../assets/imgs/about/image2.webp";
+// import img3 from "../assets/imgs/about/image3.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -178,9 +178,9 @@ const contentLp01 = {
   about: {
     bgImg: bgImg,
     imagesGaleria: {
-      imagem1: img1,
-      imagem2: img2,
-      imagem3: img3,
+      // imagem1: img1,
+      // imagem2: img2,
+      // imagem3: img3,
     },
     imgAbout: {
       img: imagemAbout,

@@ -11,7 +11,6 @@ import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
