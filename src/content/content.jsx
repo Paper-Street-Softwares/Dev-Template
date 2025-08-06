@@ -1,12 +1,11 @@
 import logo from "../assets/imgs/logo/logo.webp";
-import heroImgPhone from "../assets/imgs/hero/personImg.png";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import heroImgPhone from "../assets/imgs/hero/personImg.webp";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
-import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 // import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -25,15 +24,13 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
-
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -195,7 +192,6 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "A_Definir",
@@ -280,7 +276,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -308,7 +304,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (

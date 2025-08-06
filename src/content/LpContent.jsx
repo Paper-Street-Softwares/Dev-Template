@@ -1,9 +1,8 @@
 import logo from "../assets/imgs/logo/logoLp.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImg from "../assets/imgs/hero/lawHero.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
@@ -16,15 +15,14 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -165,7 +163,6 @@ const content = {
       title: "Nossas áreas de expertise",
       subtitle: "Soluções jurídicas especializadas para cada necessidade.",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Correspondência Jurídica",
@@ -274,7 +271,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "Mais áreas de atuação",
         subtitle: "Clique abaixo para ver mais",
         description: (
