@@ -479,15 +479,6 @@ const content = {
         labelX: "Siga-me no X",
       },
     },
-    cta: {
-      backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
-    },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
       // miniTag: "FALE CONOSCO",
