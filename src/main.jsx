@@ -15,7 +15,6 @@ import Faq from "./components/sections/Faq.jsx";
 
 import "./index.css";
 import "./styles/backgrounds.css";
-import "./styles/shapeDivs.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 import AboutInstagram from "./components/sections/AboutInstagram.jsx";
