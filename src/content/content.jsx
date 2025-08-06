@@ -18,11 +18,11 @@ import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 
 import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
@@ -32,17 +32,17 @@ import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
 
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";

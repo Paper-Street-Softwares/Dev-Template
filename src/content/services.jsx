@@ -1,12 +1,12 @@
-import lawService1 from "../assets/imgs/services/lawService1.jpg";
-import lawService2 from "../assets/imgs/services/lawService2.jpg";
-import lawService3 from "../assets/imgs/services/lawService3.jpg";
-import lawService4 from "../assets/imgs/services/lawService4.jpg";
-import lawService5 from "../assets/imgs/services/lawService5.jpg";
-import lawService6 from "../assets/imgs/services/lawService6.jpg";
-import lawService7 from "../assets/imgs/services/lawService7.jpg";
-import lawService8 from "../assets/imgs/services/lawService8.jpg";
-import lawService9 from "../assets/imgs/services/lawService9.jpg";
+import lawService1 from "../assets/imgs/services/lawService1.webp";
+import lawService2 from "../assets/imgs/services/lawService2.webp";
+import lawService3 from "../assets/imgs/services/lawService3.webp";
+import lawService4 from "../assets/imgs/services/lawService4.webp";
+import lawService5 from "../assets/imgs/services/lawService5.webp";
+import lawService6 from "../assets/imgs/services/lawService6.webp";
+import lawService7 from "../assets/imgs/services/lawService7.webp";
+import lawService8 from "../assets/imgs/services/lawService8.webp";
+import lawService9 from "../assets/imgs/services/lawService9.webp";
 
 import content from "./content";
 
