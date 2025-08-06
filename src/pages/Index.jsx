@@ -1,5 +1,4 @@
 import "../styles/shapeDivs.css";
-import Cta from "../components/sections/Cta";
 import Faq from "../components/sections/Faq";
 import Hero from "../components/sections/Hero";
 import About from "../components/sections/About";
@@ -45,7 +44,6 @@ export default function Index() {
         instagram={true}
         socialPrint={true}
       />
-      {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}

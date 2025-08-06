@@ -1,7 +1,7 @@
 import Navbar from "../components/sections/NavbarSocial";
 import Hero from "../components/sections/Hero";
-import Cta from "../components/sections/Cta";
 import FooterSocial from "../components/sections/FooterSocial";
+import CtaSecondary from "../components/sections/CtaSecondary";
 
 export default function SiteLayout({ section, mode }) {
   const colorMode = "default";
@@ -11,7 +11,7 @@ export default function SiteLayout({ section, mode }) {
       <Navbar colorMode={colorMode} mode={mode} />
       <Hero defaultHero={true} colorMode={colorMode} />
       {section && <div className="">{section}</div>}
-      <Cta colorMode={colorMode} />
+      <CtaSecondary/>
       <FooterSocial colorMode={colorMode} mode={mode} instagram={true} />
     </>
   );

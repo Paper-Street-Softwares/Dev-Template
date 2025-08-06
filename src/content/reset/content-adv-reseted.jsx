@@ -1,65 +1,48 @@
-import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
-import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg"
+import logo from "../assets/imgs/logo/logo.webp";
+import heroImgPhone from "../assets/imgs/hero/personImg.webp";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
-import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
-import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
-import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
-import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+// import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
+// import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+// import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
+// import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
+// import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/edvaldo.png";
-import personImgPhone from "../assets/imgs/hero/edvaldo.png";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
-
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
-
-import teamMemberImg1 from "../assets/imgs/team/team1.webp";
-import teamMemberImg2 from "../assets/imgs/team/team2.webp";
-import teamMemberImg3 from "../assets/imgs/team/team3.webp";
-import teamMemberImg4 from "../assets/imgs/team/team4.webp";
-
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 
 const currentYear = new Date().getFullYear();
 

@@ -1,5 +1,5 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import logo from "../assets/imgs/logo/logoLp.webp";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();

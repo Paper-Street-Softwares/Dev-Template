@@ -1,12 +1,11 @@
 import logo from "../assets/imgs/logo/logo.webp";
-import heroImgPhone from "../assets/imgs/hero/personImg.png";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import heroImgPhone from "../assets/imgs/hero/personImg.webp";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
-import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
-import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 // import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -15,37 +14,35 @@ import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 // import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 // import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
-
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
@@ -53,14 +50,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Enéas Pimentel",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "eneaspimentel.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "92",
-    firstPart: "98422", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2503", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +72,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua São Hermes, 118, sala 02,</p>
-      <p>Monte das Oliveiras,</p>
-      <p>Manaus - AM,</p>
-      <p>CEP: 69093-817</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -93,11 +89,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "fh.eneas", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,37 +119,30 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        // "Blog",
+        "Blog",
         "Perguntas Frequentes",
-        // "Mapa",
+        "Mapa",
       ],
-      menuId: [
-        "home",
-        "service",
-        "about",
-        // "blog",
-        "faq",
-        // "maps"
-      ],
+      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM MANAUS - AM",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Você só lembra do
-          <span className="text-primary"> advogado na dor</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Mas quando a dor bate, é o preparo dele que decide o rumo da sua vida",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Veja como posso te ajudar",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -173,7 +162,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -199,15 +188,14 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Nossas áreas de atuação",
-      subtitle: "Estamos prontos pra te orientar onde você mais precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa dos direitos nas relações de trabalho.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -222,19 +210,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
-            <path d="m16 16 6-6" />
-            <path d="m21.5 10.5-8-8" />
-            <path d="m8 8 6-6" />
-            <path d="m8.5 7.5 8 8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -242,8 +222,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Previdenciária",
-        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -258,16 +238,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -275,8 +250,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do Consumidor",
-        subtitle: "Atuação em conflitos entre clientes e empresas.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -290,26 +265,20 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-clipboard-check-icon lucide-clipboard-check"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-            <path d="m9 14 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Separações, guarda, heranças e inventários.",
+        img: featuresImg3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -324,25 +293,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -404,57 +366,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. ENÉAS PIMENTEL",
-      title: "Minha trajetória",
-      subtitle:
-        "Compromisso com o Direito, a verdade e a confiança em cada atendimento",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Minha jornada no Direito começou ainda na faculdade, mas o
-          envolvimento com a área veio antes mesmo da formação, atuando ao lado
-          de escritórios parceiros nas áreas trabalhista, cível, do consumidor e
-          de família.
+          A_Definir
           <br />
-          Tive também a honra de estagiar por dois anos no Tribunal de Justiça
-          do Amazonas, experiência que fortaleceu minha visão prática da
-          Justiça.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no Direito começou ainda na faculdade, mas o
-          envolvimento com a área veio antes mesmo da formação, atuando ao lado
-          de escritórios parceiros nas áreas trabalhista, cível, do consumidor e
-          de família.
+          A_Definir
           <br />
           <br />
-          Tive também a honra de estagiar por dois anos no Tribunal de Justiça
-          do Amazonas, experiência que fortaleceu minha visão prática da
-          Justiça.
+          A_Definir
           <br />
           <br />
-          Ao longo dessa trajetória, entendi que a relação entre advogado e
-          cliente precisa ser construída com confiança e clareza. Cada caso é
-          tratado de forma personalizada, respeitando a singularidade de quem
-          busca nosso auxílio.
+          A_Definir
           <br />
           <br />
-          Nosso compromisso é entregar um atendimento transparente, técnico e
-          eficiente.
-          <br />
-          <br />
-          Muitos chegam até nós após esgotar outras alternativas. Por isso,
-          encaramos cada causa com responsabilidade e empatia.
-          <br />
-          <br />
-          Com estudo profundo e abordagem humanizada, buscamos a melhor solução
-          jurídica para restaurar direitos e trazer tranquilidade a quem nos
-          procura.
+          A_Definir
           <br />
           <br />
         </p>
@@ -468,15 +406,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se agora mesmo",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
