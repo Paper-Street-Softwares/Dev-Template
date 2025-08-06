@@ -11,18 +11,13 @@ import AdressFooter from "../sectionElements/footer/AdressFooter.jsx";
 import MidTextFooter from "../sectionElements/footer/MidTextFooter.jsx";
 import FacebookFooter from "../sectionElements/footer/FacebookFooter.jsx";
 import LinkedinFooter from "../sectionElements/footer/LinkedinFooter.jsx";
-import PhoneSecundario from "../sectionElements/footer/PhoneSecundario.jsx";
 import CopyrightFooter from "../sectionElements/footer/CopyrightFooter.jsx";
 import InstagramFooter from "../sectionElements/footer/InstagramFooter.jsx";
 import ParagrapfFooter from "../sectionElements/footer/ParagrapfFooter.jsx";
 import ExpedienteFooter from "../sectionElements/footer/ExpedienteFooter.jsx";
-import AdressSecundarioFooter from "../sectionElements/footer/AdressSecundario.jsx";
 import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter.jsx";
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
-import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
-import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
-import InstagramSecundaryFooter from "../sectionElements/footer/InstagramSecundaryFooter.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -33,11 +28,6 @@ export default function FooterSocial({
   linkedin,
   x,
   tiktok,
-  addresSecundario,
-  phoneSecundario,
-  phoneTerciario,
-  expedientesecond,
-  instagramSecundary,
   mode,
 }) {
   // Define estilos com base no colorMode
@@ -70,13 +60,9 @@ export default function FooterSocial({
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <LogoFooter />
               <PhoneFooter colorMode={colorMode} />
-              {phoneSecundario && <PhoneSecundario />}
-              {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />
               {addres && <AdressFooter />}
-              {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
-              {expedientesecond && <ExpedienteSecondFooter />}
               {obs && <ObsFooter />}
             </div>
 
@@ -88,7 +74,6 @@ export default function FooterSocial({
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
                     {instagram && <InstagramFooter />}
-                    {instagramSecundary && <InstagramSecundaryFooter />}
                     {tiktok && <TikTokFooter />}
                     {facebook && <FacebookFooter />}
                     {x && <XFooter />}

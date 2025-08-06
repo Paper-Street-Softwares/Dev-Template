@@ -11,9 +11,9 @@ import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import img1 from "../../assets/imgs/about/imgGaleria1.webp";
-import img2 from "../../assets/imgs/about/imgGaleria2.webp";
-import img3 from "../../assets/imgs/about/imgGaleria3.webp";
+// import img1 from "../../assets/imgs/about/imgGaleria1.webp";
+// import img2 from "../../assets/imgs/about/imgGaleria2.webp";
+// import img3 from "../../assets/imgs/about/imgGaleria3.webp";
 
 export default function About({
   modal = true,
@@ -35,20 +35,20 @@ export default function About({
   const titleColor = textClasses[colorMode] || textClasses.default;
   const subtitleColor = colorMode === "light" ? "text-black/80" : "text-white";
 
-  const images = [
-    {
-      original: img1,
-      thumbnail: img1,
-    },
-    {
-      original: img2,
-      thumbnail: img2,
-    },
-    {
-      original: img3,
-      thumbnail: img3,
-    },
-  ];
+  // const images = [
+  //   {
+  //     original: img1,
+  //     thumbnail: img1,
+  //   },
+  //   {
+  //     original: img2,
+  //     thumbnail: img2,
+  //   },
+  //   {
+  //     original: img3,
+  //     thumbnail: img3,
+  //   },
+  // ];
 
   return (
     <SectionArea

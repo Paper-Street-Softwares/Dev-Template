@@ -3,16 +3,31 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 import { MapPin } from "lucide-react";
 
-function AdressFooter() {
+function AdressFooter({ showSecond = false }) {
   return (
-    <MotionDivDownToUp>
-      <div className="flex full gap-x-[12px] items-center opacity-90">
-        <div>
-          <MapPin />
+    <>
+      {/* Endereço principal */}
+      <MotionDivDownToUp>
+        <div className="flex full gap-x-[12px] items-center opacity-90">
+          <div>
+            <MapPin />
+          </div>
+          <p>{content.texts.infos.adress}</p>
         </div>
-        <p>{content.texts.infos.adress}</p>
-      </div>
-    </MotionDivDownToUp>
+      </MotionDivDownToUp>
+
+      {/* Endereço secundário */}
+      {showSecond && (
+        <MotionDivDownToUp>
+          <div className="flex full gap-x-[12px] items-center opacity-90">
+            <div>
+              <MapPin />
+            </div>
+            <p>{content.texts.infos.adressSecundario}</p>
+          </div>
+        </MotionDivDownToUp>
+      )}
+    </>
   );
 }
 
