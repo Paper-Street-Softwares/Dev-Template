@@ -11,16 +11,7 @@ import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsA
 
 import RedesSociais from "../sectionElements/aboutInstagram/RedesSociais";
 
-export default function AboutInstagram({
-  instagram,
-  facebook,
-  x,
-  linkedin,
-  tiktok,
-  socialPrint,
-  colorMode,
-  instagramSecundary,
-}) {
+export default function AboutInstagram({ socialPrint, colorMode }) {
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
