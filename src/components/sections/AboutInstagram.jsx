@@ -2,28 +2,16 @@ import React from "react";
 import content from "../../content/content";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
-import XAbout from "../sectionElements/aboutInstagram/XAbout";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import SocialPrint from "../sectionElements/aboutInstagram/SocialPrint";
-import FacebookAbout from "../sectionElements/aboutInstagram/FacebookAbout";
-import LinkedInAbout from "../sectionElements/aboutInstagram/LinkedInAbout";
-import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
+
 import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
-import TikTokAbout from "../sectionElements/aboutInstagram/TiktokAbout";
-import InstagramSecundaryAbout from "../sectionElements/aboutInstagram/InstagramSecundaryAbout";
 
-export default function AboutInstagram({
-  instagram,
-  facebook,
-  x,
-  linkedin,
-  tiktok,
-  socialPrint,
-  colorMode,
-  instagramSecundary,
-}) {
+import RedesSociais from "../sectionElements/aboutInstagram/RedesSociais";
+
+export default function AboutInstagram({ socialPrint, colorMode }) {
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
@@ -60,13 +48,14 @@ export default function AboutInstagram({
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />
-          <div className="flex flex-col gap-4">
-            {instagram && <InstagramAbout colorMode={colorMode} />}
-            {facebook && <FacebookAbout colorMode={colorMode} />}
-            {x && <XAbout colorMode={colorMode} />}
-            {linkedin && <LinkedInAbout colorMode={colorMode} />}
-            {tiktok && <TikTokAbout />}
-            {instagramSecundary && <InstagramSecundaryAbout />}
+          <div>
+            <RedesSociais
+              instagram={true}
+              facebook={true}
+              x={true}
+              tiktok={true}
+              linkedin={true}
+            />
           </div>
         </div>
       </SectionWrapper>

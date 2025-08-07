@@ -8,7 +8,6 @@ export default function SectionArea({
   paddingtop = true,
   paddingbot = true,
   paddingTopAndBottom,
-  spaceShapeDiv,
 }) {
   SectionArea.propTypes = {
     children: PropTypes.any,

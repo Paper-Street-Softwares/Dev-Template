@@ -1,5 +1,4 @@
 import content, { infos } from "../../content/content";
-import XFooter from "../sectionElements/footer/XFooter.jsx";
 import SectionArea from "../sectionElements/SectionArea.jsx";
 import ObsFooter from "../sectionElements/footer/ObsFooter.jsx";
 import LogoFooter from "../sectionElements/footer/LogoFooter.jsx";
@@ -9,25 +8,18 @@ import PhoneFooter from "../sectionElements/footer/PhoneFooter.jsx";
 import EmailFooter from "../sectionElements/footer/EmailFooter.jsx";
 import AdressFooter from "../sectionElements/footer/AdressFooter.jsx";
 import MidTextFooter from "../sectionElements/footer/MidTextFooter.jsx";
-import FacebookFooter from "../sectionElements/footer/FacebookFooter.jsx";
-import LinkedinFooter from "../sectionElements/footer/LinkedinFooter.jsx";
 import CopyrightFooter from "../sectionElements/footer/CopyrightFooter.jsx";
-import InstagramFooter from "../sectionElements/footer/InstagramFooter.jsx";
 import ParagrapfFooter from "../sectionElements/footer/ParagrapfFooter.jsx";
 import ExpedienteFooter from "../sectionElements/footer/ExpedienteFooter.jsx";
 import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter.jsx";
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
-import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
+import FooterSocialIcons from "../sectionElements/footer/FooterSocialIcons.jsx";
 
 export default function FooterSocial({
   colorMode,
   addres,
   obs,
-  instagram,
-  facebook,
-  linkedin,
-  x,
-  tiktok,
+
   mode,
 }) {
   // Define estilos com base no colorMode
@@ -73,11 +65,13 @@ export default function FooterSocial({
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
-                    {instagram && <InstagramFooter />}
-                    {tiktok && <TikTokFooter />}
-                    {facebook && <FacebookFooter />}
-                    {x && <XFooter />}
-                    {linkedin && <LinkedinFooter />}
+                    <FooterSocialIcons
+                      instagram={true}
+                      facebook={true}
+                      linkedin={true}
+                      tiktok={true}
+                      x={true}
+                    />
                   </div>
                 </div>
               </MotionDivDownToUp>

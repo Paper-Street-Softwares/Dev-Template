@@ -8,11 +8,11 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-// import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
-// import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
-// import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
-// import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
-// import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
+// import imgAbout1 from "../assets/imgs/about/aboutImg1.webp";
+// import imgAbout2 from "../assets/imgs/about/aboutImg2.webp";
+// import imgAbout3 from "../assets/imgs/about/aboutImg3.webp";
+// import imgAbout4 from "../assets/imgs/about/aboutImg4.webp";
+// import imgAbout5 from "../assets/imgs/about/aboutImg5.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
@@ -97,6 +97,7 @@ export const infos = {
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
+  tiktokProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -409,11 +410,12 @@ const content = {
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
+        labelTikTok: "Siga-nos no Tiktok",
       },
     },
     cta: {
@@ -851,6 +853,7 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
+      tiktok: `https://www.tiktok.com/in/${infos.tiktokProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

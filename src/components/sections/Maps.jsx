@@ -12,7 +12,6 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import HowItWorksCard from "../cards/HowItWorksCard";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
 export default function Maps({ colorMode }) {
