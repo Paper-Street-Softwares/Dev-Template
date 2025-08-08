@@ -4,7 +4,7 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 
 function EmailFooter({
-  emailTwo = false,
+  emailTwo = true,
   emailThree = false,
   emailFour = false,
   emailFive = false,
@@ -24,7 +24,9 @@ function EmailFooter({
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <Mail />
 
-            <p className="text-paragraph2">{content.texts.infos.emailTwo}</p>
+            <p className="text-paragraph2">
+              herculesrocha.machado.adv@gmail.com{" "}
+            </p>
           </div>
         </MotionDivDownToUp>
       )}

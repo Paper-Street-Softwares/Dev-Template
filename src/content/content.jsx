@@ -72,9 +72,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Joana Angélica,</p>
+      <p>n. 902, Sala 505, Nazaré, </p>
+      <p>Salvador - BA,</p>
+      <p>CEP: 40040-400</p>
     </div>
   ),
   enderecoSecundario: (
@@ -89,7 +90,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
