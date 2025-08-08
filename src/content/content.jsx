@@ -97,7 +97,6 @@ export const infos = {
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
-  tiktokProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -305,7 +304,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg3,
+        img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -415,7 +414,6 @@ const content = {
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
-        labelTikTok: "Siga-nos no Tiktok",
       },
     },
     cta: {
@@ -853,7 +851,6 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
-      tiktok: `https://www.tiktok.com/in/${infos.tiktokProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
