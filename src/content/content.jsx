@@ -427,33 +427,38 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. HÉRCULES ROCHA",
+      title: "Minha trajetória",
+      subtitle: "Compromisso e empatia em cada passo da jornada jurídica",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Nossa história é feita de compromisso, ética e foco total na resolução
+          dos problemas dos nossos clientes. Acreditamos que a advocacia vai
+          além da técnica — é também sobre escuta, cuidado e proximidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Nossa história é feita de compromisso, ética e foco total na resolução
+          dos problemas dos nossos clientes. Acreditamos que a advocacia vai
+          além da técnica — é também sobre escuta, cuidado e proximidade.
           <br />
           <br />
-          A_Definir
+          À frente do escritório está o Dr. Hércules Rocha de Souza, formado
+          pela Universidade Federal da Bahia e especialista em Direito do
+          Trabalho e Previdenciário. Seu objetivo é oferecer uma advocacia
+          humanizada, com soluções eficientes e atendimento transparente.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Investimos em atualização constante e tecnologia para garantir
+          precisão e agilidade. Aqui, cada cliente é tratado com atenção e
+          respeito, porque mais do que advogar, nós cuidamos — da causa e de
+          quem confia na gente.
           <br />
           <br />
         </p>
@@ -467,14 +472,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se agora mesmo",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
