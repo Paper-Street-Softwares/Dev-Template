@@ -45,7 +45,7 @@ const RedesSociais = ({
       <Button
         key="instagram"
         label={content.texts.about.aboutSocial.labelInstagram}
-        buttonLink={content.texts.links.instagramSecundary}
+        buttonLink={content.texts.links.instagram}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"

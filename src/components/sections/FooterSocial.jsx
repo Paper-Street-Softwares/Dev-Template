@@ -65,12 +65,13 @@ export default function FooterSocial({
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
+                    {/* Redes Sociais */}
                     <FooterSocialIcons
                       instagram={true}
                       facebook={true}
-                      linkedin={true}
-                      tiktok={true}
-                      x={true}
+                      linkedin={false}
+                      tiktok={false}
+                      x={false}
                     />
                   </div>
                 </div>

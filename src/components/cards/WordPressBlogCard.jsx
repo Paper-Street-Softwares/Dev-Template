@@ -29,7 +29,7 @@ export default function WordPressBlogCard({ img, title, subtitle, link }) {
               removeAnchor={true}
               label="Ver matéria completa"
               buttonLink={link}
-              className="text-white"
+              className="text-labelButtons"
               size="small"
               icon={
                 <svg
