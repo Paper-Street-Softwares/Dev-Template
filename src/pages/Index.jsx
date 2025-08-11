@@ -30,11 +30,11 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
+        sixCards={false}
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
