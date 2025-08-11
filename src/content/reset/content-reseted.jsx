@@ -192,7 +192,6 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "A_Definir",
@@ -277,7 +276,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -305,7 +304,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg4,
+        img: featuresImg3,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
