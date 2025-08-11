@@ -434,33 +434,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. ANDRÉ LOUREIRO",
+      title: "Minha trajetória",
+      subtitle:
+        "Experiência e maturidade a serviço de uma advocacia acessível e clara",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Servidor público de carreira e professor, sempre estive ligado à
+          educação e à gestão pública. Quando atuei como subsecretário
+          municipal, percebi que o Direito era o próximo passo natural — um
+          sonho antigo que virou missão profissional.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Servidor público de carreira e professor, sempre estive ligado à
+          educação e à gestão pública. Quando atuei como subsecretário
+          municipal, percebi que o Direito era o próximo passo natural — um
+          sonho antigo que virou missão profissional.
           <br />
           <br />
-          A_Definir
+          Essa trajetória me deu algo que vai além da teoria: maturidade,
+          comunicação com autoridade e uma rede sólida de contatos. Ao unir o
+          conhecimento técnico com a experiência em políticas públicas, trago
+          mais segurança e clareza para quem me procura.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Mesmo iniciando formalmente na advocacia, ofereço um serviço próximo,
+          com postura e didática que ajudam o cliente a entender cada etapa do
+          seu processo — sem complicação, com profissionalismo e atenção real.
           <br />
           <br />
         </p>
@@ -474,14 +481,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se agora mesmo",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
