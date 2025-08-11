@@ -68,7 +68,7 @@ export default function FooterSocial({
                     {/* Redes Sociais */}
                     <FooterSocialIcons
                       instagram={true}
-                      facebook={true}
+                      facebook={false}
                       linkedin={false}
                       tiktok={false}
                       x={false}
