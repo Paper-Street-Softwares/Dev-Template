@@ -50,14 +50,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Hércules Rocha de Souza",
+  name: "Dr. André Daniel Loureiro",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "herculesrochaadvocacia.com.br", // Sem "www"
+  emailSecundario: "adcloureiro.adv@gmail.com", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "99696", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5819", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "96771", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9965", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -72,10 +72,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Joana Angélica,</p>
-      <p>n. 902, Sala 505, Nazaré, </p>
-      <p>Salvador - BA,</p>
-      <p>CEP: 40040-400</p>
+      <p>Av. Padre Anchieta,</p>
+      <p>nº 323, Sl 301, Centro,</p>
+      <p>Magé - RJ, CEP 25900-106</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,12 +89,16 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "herculesrocha.adv", // Sem o @
-  facebookProfile: "hercules.rochadesouza",
+  obs: (
+    <span className="italic">
+      A Atendimento 24h para casos de prisão em flagrante.
+    </span>
+  ),
+  instagramProfile: "adcloureiro.adv", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -120,31 +123,31 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        "Blog",
+        // "Blog",
         "Perguntas Frequentes",
-        "Mapa",
+        // "Mapa",
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["home", "service", "about", "faq"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SALVADOR - BA",
+      miniTag: "ADVOGADO EM MAGÉ - RJ",
       title: (
         <h1 className="mb-[16px]">
-          Justiça para transformar
-          <span className="text-primary"> destinos</span>
+          Você confia na sua
+          <span className="text-primary"> defesa?</span>
         </h1>
       ),
       subtitle:
-        "Convertemos um problema antigo em alívio rápido com estratégia e precisão jurídica.",
+        "Muitos só percebem a importância de um bom advogado quando já é tarde demais.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Veja como resolvemos",
+      ctaButtonText: "Quero estar preparado",
       obsHero: {
         icon: (
           <svg
@@ -164,7 +167,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial mediante agendamento e online para todo o Brasil",
+        text: "Atendimento 24h em casos de prisão em flagrante.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -191,13 +194,13 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Cuidando dos seus direitos com foco e experiência",
-      subtitle: "Veja como podemos te ajudar nas principais áreas do Direito.",
+      title: "Caminhos legais que atuo por você",
+      subtitle: "Atuação estratégica para resolver o que você mais precisa.",
       imgFeatures: imgFeatures,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa dos seus direitos nas relações de trabalho.",
+        title: "Direito Penal",
+        subtitle: "Defesa firme e estratégica em processos criminais.",
         description: (
           <div>
             A_Definir
@@ -207,6 +210,75 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
+          >
+            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
+            <path d="m16 16 6-6" />
+            <path d="m21.5 10.5-8-8" />
+            <path d="m8 8 6-6" />
+            <path d="m8.5 7.5 8 8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Atuação em Flagrantes",
+        subtitle: "Pronto atendimento em casos de prisão em flagrante.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-triangle-alert-icon lucide-triangle-alert"
+          >
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Trabalhista",
+        subtitle: "Apoio jurídico em causas trabalhistas com precisão.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -229,76 +301,10 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadoria, benefícios e revisões no INSS.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito do Consumidor",
-        subtitle: "Soluções para problemas com compras e serviços.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
-          >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card4: {
         img: featuresImg3,
-        title: "Direito Bancário",
-        subtitle: "Assessoria em dívidas, juros e contratos bancários.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação clara para decisões jurídicas seguras.",
         description: (
           <div>
             A_Definir
@@ -319,19 +325,22 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-credit-card-icon lucide-credit-card"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <rect width="20" height="14" x="2" y="5" rx="2" />
-            <line x1="2" x2="22" y1="10" y2="10" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: 3,
-        title: "Direito Civil",
-        subtitle: "Apoio em contratos, família, bens e obrigações.",
+        img: featuresImg3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -352,13 +361,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -366,8 +373,8 @@ const content = {
       },
       card6: {
         img: 3,
-        title: "Assessoria Jurídica para ILPIs",
-        subtitle: "Suporte jurídico completo para casas de idosos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -388,12 +395,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -428,38 +434,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HÉRCULES ROCHA",
+      miniTag: "QUEM É O DR. ANDRÉ LOUREIRO",
       title: "Minha trajetória",
-      subtitle: "Compromisso e empatia em cada passo da jornada jurídica",
+      subtitle:
+        "Experiência e maturidade a serviço de uma advocacia acessível e clara",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Nossa história é feita de compromisso, ética e foco total na resolução
-          dos problemas dos nossos clientes. Acreditamos que a advocacia vai
-          além da técnica — é também sobre escuta, cuidado e proximidade.
+          Servidor público de carreira e professor, sempre estive ligado à
+          educação e à gestão pública. Quando atuei como subsecretário
+          municipal, percebi que o Direito era o próximo passo natural — um
+          sonho antigo que virou missão profissional.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Nossa história é feita de compromisso, ética e foco total na resolução
-          dos problemas dos nossos clientes. Acreditamos que a advocacia vai
-          além da técnica — é também sobre escuta, cuidado e proximidade.
+          Servidor público de carreira e professor, sempre estive ligado à
+          educação e à gestão pública. Quando atuei como subsecretário
+          municipal, percebi que o Direito era o próximo passo natural — um
+          sonho antigo que virou missão profissional.
           <br />
           <br />
-          À frente do escritório está o Dr. Hércules Rocha de Souza, formado
-          pela Universidade Federal da Bahia e especialista em Direito do
-          Trabalho e Previdenciário. Seu objetivo é oferecer uma advocacia
-          humanizada, com soluções eficientes e atendimento transparente.
+          Essa trajetória me deu algo que vai além da teoria: maturidade,
+          comunicação com autoridade e uma rede sólida de contatos. Ao unir o
+          conhecimento técnico com a experiência em políticas públicas, trago
+          mais segurança e clareza para quem me procura.
           <br />
           <br />
-          Investimos em atualização constante e tecnologia para garantir
-          precisão e agilidade. Aqui, cada cliente é tratado com atenção e
-          respeito, porque mais do que advogar, nós cuidamos — da causa e de
-          quem confia na gente.
+          Mesmo iniciando formalmente na advocacia, ofereço um serviço próximo,
+          com postura e didática que ajudam o cliente a entender cada etapa do
+          seu processo — sem complicação, com profissionalismo e atenção real.
           <br />
           <br />
         </p>
@@ -548,13 +556,12 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "Informação jurídica ao seu alcance",
-      subtitle:
-        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+      title: "A_Definir",
+      subtitle: "",
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "herculesrochaadvocacia.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
