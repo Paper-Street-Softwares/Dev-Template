@@ -3,7 +3,9 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { ChevronDown } from "lucide-react";
+
 import content from "../../content/content";
 
 export default function AccordionExpandDefault() {
@@ -35,7 +37,8 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel1")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ChevronDown size={24} />
+}
           aria-controls="panel1-content"
           id="panel1-header"
         >
@@ -62,7 +65,8 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel2")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ChevronDown size={24} />
+}
           aria-controls="panel2-content"
           id="panel2-header"
         >
@@ -89,7 +93,8 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel3")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ChevronDown size={24} />
+}
           aria-controls="panel3-content"
           id="panel3-header"
         >
@@ -116,7 +121,8 @@ export default function AccordionExpandDefault() {
         style={getPanelStyle("panel4")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ChevronDown size={24} />
+}
           aria-controls="panel4-content"
           id="panel4-header"
         >
