@@ -50,19 +50,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. André Daniel Loureiro",
+  name: "Dr. Silvano Sabino",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "adcloureiro.adv@gmail.com", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "drsalvanosabino.com.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "96771", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9965", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98505", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2315", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "94929", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1541", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -72,9 +72,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Padre Anchieta,</p>
-      <p>nº 323, Sl 301, Centro,</p>
-      <p>Magé - RJ, CEP 25900-106</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -89,17 +89,13 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>Atendimento 24h online</p>
     </div>
   ),
-  obs: (
-    <span className="italic">
-      A Atendimento 24h para casos de prisão em flagrante.
-    </span>
-  ),
-  instagramProfile: "adcloureiro.adv", // Sem o @
+  obs: <span className="italic">A Definir</span>,
+  instagramProfile: "dr.silvanosabino", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  linkeDinProfile: "silvano-sabino-8924a4b4/",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -123,9 +119,7 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        // "Blog",
         "Perguntas Frequentes",
-        // "Mapa",
       ],
       menuId: ["home", "service", "about", "faq"],
 
@@ -133,21 +127,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM MAGÉ - RJ",
+      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Você confia na sua
-          <span className="text-primary"> defesa?</span>
+          E se fosse você na
+          <span className="text-primary"> linha de fogo?</span>
         </h1>
       ),
       subtitle:
-        "Muitos só percebem a importância de um bom advogado quando já é tarde demais.",
+        "A lei não espera. Cada segundo conta para proteger sua liberdade e virar o jogo a seu favor.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero estar preparado",
+      ctaButtonText: "Converse com especialista",
       obsHero: {
         icon: (
           <svg
@@ -167,7 +161,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento 24h em casos de prisão em flagrante.",
+        text: "Atendimento 24h para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -193,14 +187,14 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Caminhos legais que atuo por você",
-      subtitle: "Atuação estratégica para resolver o que você mais precisa.",
+      miniTag: "ATUAÇÃO",
+      title: "Áreas de Especialização",
+      subtitle: "Defendendo seus direitos com agilidade e precisão.",
       imgFeatures: imgFeatures,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal",
-        subtitle: "Defesa firme e estratégica em processos criminais.",
+        title: "Direito Criminal",
+        subtitle: "Proteção firme dos seus direitos perante a lei.",
         description: (
           <div>
             A_Definir
@@ -235,8 +229,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Atuação em Flagrantes",
-        subtitle: "Pronto atendimento em casos de prisão em flagrante.",
+        title: "Direito Cível",
+        subtitle: "Resolvendo conflitos e protegendo seus interesses.",
         description: (
           <div>
             A_Definir
@@ -257,11 +251,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert-icon lucide-triangle-alert"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -269,8 +265,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Apoio jurídico em causas trabalhistas com precisão.",
+        title: "Prisão em Flagrante",
+        subtitle: "Atuação rápida para preservar sua liberdade imediata.",
         description: (
           <div>
             A_Definir <br />
@@ -290,12 +286,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-user-check-icon lucide-user-check"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,8 +298,8 @@ const content = {
       },
       card4: {
         img: featuresImg3,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação clara para decisões jurídicas seguras.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa justa em questões entre empresas e empregados.",
         description: (
           <div>
             A_Definir
@@ -325,13 +320,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="lucide lucide-list-check-icon lucide-list-check"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M11 18H3" />
+            <path d="m15 18 2 2 4-4" />
+            <path d="M16 12H3" />
+            <path d="M16 6H3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -434,40 +428,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. ANDRÉ LOUREIRO",
+      miniTag: "QUEM É O DR. SILVANO SABINO",
       title: "Minha trajetória",
       subtitle:
-        "Experiência e maturidade a serviço de uma advocacia acessível e clara",
+        "Uma história dedicada a oferecer defesa e orientação com confiança e ética.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Servidor público de carreira e professor, sempre estive ligado à
-          educação e à gestão pública. Quando atuei como subsecretário
-          municipal, percebi que o Direito era o próximo passo natural — um
-          sonho antigo que virou missão profissional.
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Servidor público de carreira e professor, sempre estive ligado à
-          educação e à gestão pública. Quando atuei como subsecretário
-          municipal, percebi que o Direito era o próximo passo natural — um
-          sonho antigo que virou missão profissional.
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
           <br />
           <br />
-          Essa trajetória me deu algo que vai além da teoria: maturidade,
-          comunicação com autoridade e uma rede sólida de contatos. Ao unir o
-          conhecimento técnico com a experiência em políticas públicas, trago
-          mais segurança e clareza para quem me procura.
+          Acredito que cada caso é único e merece atenção especial, buscando
+          sempre soluções estratégicas e eficientes.
           <br />
           <br />
-          Mesmo iniciando formalmente na advocacia, ofereço um serviço próximo,
-          com postura e didática que ajudam o cliente a entender cada etapa do
-          seu processo — sem complicação, com profissionalismo e atenção real.
+          Minha missão é atuar com ética, empatia e firmeza, garantindo que cada
+          cliente se sinta amparado em todos os momentos.
           <br />
           <br />
         </p>
