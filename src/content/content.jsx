@@ -430,33 +430,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. SILVANO SABINO",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma história dedicada a oferecer defesa e orientação com confiança e ética.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
           <br />
           <br />
-          A_Definir
+          Acredito que cada caso é único e merece atenção especial, buscando
+          sempre soluções estratégicas e eficientes.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Minha missão é atuar com ética, empatia e firmeza, garantindo que cada
+          cliente se sinta amparado em todos os momentos.
           <br />
           <br />
         </p>
@@ -470,14 +470,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se agora mesmo",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
