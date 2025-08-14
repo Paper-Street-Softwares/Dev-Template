@@ -21,7 +21,7 @@ function ExpedienteFooter({ showSecond = false }) {
             <div>
               <CalendarCheck2 />
             </div>
-            <p>A_Definir</p>
+            <p>{content.texts.infos.footerexpedienteSecundario}</p>
           </div>
         </MotionDivDownToUp>
       )}

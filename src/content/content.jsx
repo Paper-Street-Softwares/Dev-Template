@@ -53,6 +53,9 @@ export const infos = {
   name: "Dr. Silvano Sabino",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailThree: "A_Definir", // Email desejado pelo cliente
+  emailFour: "A_Definir", // Email desejado pelo cliente
+  emailFive: "A_Definir", // Email desejado pelo cliente
   domain: "drsalvanosabino.com.br", // Sem "www"
   phone: {
     ddd: "11",
@@ -92,6 +95,13 @@ export const infos = {
       <p>Atendimento 24h online</p>
     </div>
   ),
+  expedienteSecudario: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>A_Definir</p>
+    </div>
+  ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "dr.silvanosabino", // Sem o @
   facebookProfile: "A_Definir",
@@ -115,12 +125,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Perguntas Frequentes",
-      ],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       menuId: ["home", "service", "about", "faq"],
 
       ctaButtonText: "Contato",
@@ -921,11 +926,15 @@ const content = {
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
+      emailThree: `${infos.emailThree}`,
+      emailFour: `${infos.emailFour}`,
+      emailFive: `${infos.emailFive}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
+      footerexpedienteSecundario: infos.expedienteSecudario,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
