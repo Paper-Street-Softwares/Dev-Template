@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+
 import { X } from "lucide-react";
 
 import SectionArea from "../../sectionElements/SectionArea";
