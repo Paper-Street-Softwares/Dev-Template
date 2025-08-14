@@ -1,18 +1,10 @@
-import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
-import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+
 import content from "../../content/content";
-import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
-import HowItWorksCard from "../cards/HowItWorksCard";
-import WhatsappForm from "../interactives/WhatsappForm";
 
 export default function Maps({ colorMode }) {
   const [visible, setVisible] = useState(false);

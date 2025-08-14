@@ -3,7 +3,8 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { ChevronDown } from "lucide-react";
+
 import content from "../../content/content";
 import services from "../../content/services";
 import ModalComponent from "./ModalComponent";
@@ -41,7 +42,7 @@ export default function AcordionModalServices() {
         style={getPanelStyle("panel1")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ChevronDown size={24} />}
           aria-controls="panel1-content"
           id="panel1-header"
         >

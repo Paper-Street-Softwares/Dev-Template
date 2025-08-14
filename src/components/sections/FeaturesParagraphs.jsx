@@ -1,7 +1,5 @@
-import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import "primereact/resources/primereact.min.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";

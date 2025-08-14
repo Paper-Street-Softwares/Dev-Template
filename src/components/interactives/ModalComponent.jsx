@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+import { X } from "lucide-react";
 
 export default function ModalComponent({ children, header, content }) {
   const [visible, setVisible] = useState(false);
@@ -19,6 +18,7 @@ export default function ModalComponent({ children, header, content }) {
       {childWithProps}
       <Dialog
         className=" font-secondFont"
+        closeIcon={<X size={20} />}
         header={header}
         visible={visible}
         onHide={() => setVisible(false)}
