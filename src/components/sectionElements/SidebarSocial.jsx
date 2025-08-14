@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
-import "primeicons/primeicons.css";
-import { FileText } from "lucide-react";
+import { X } from "lucide-react";
+
 import {
   HelpCircle,
   HomeIcon,
@@ -99,13 +99,14 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                       type="button"
                       ref={closeIconRef}
                       onClick={(e) => hide(e)}
-                      icon="pi pi-times"
                       rounded
                       outlined
                       className={`${
                         colorMode ? "text-primary" : "text-primary"
                       }`}
-                    />
+                    >
+                      <X size={32} />
+                    </Button>
                   </span>
                 </div>
 

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import { X } from "lucide-react";
+
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
@@ -123,6 +125,7 @@ export default function FeatureWithModalsLp({ modals }) {
 
       <Dialog
         className="font-secondFont"
+        closeIcon={<X size={20} />}
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}

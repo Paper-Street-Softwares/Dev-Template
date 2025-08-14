@@ -1,7 +1,5 @@
-import "primeicons/primeicons.css";
 import content from "../../content/content";
 import ServicesModal from "./ServicesModal";
-import "primereact/resources/primereact.min.css";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";

@@ -1,10 +1,10 @@
-import "primeicons/primeicons.css";
+import { X } from "lucide-react";
+
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import content from "../../content/content";
-import "primereact/resources/primereact.min.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
@@ -416,6 +416,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
       <Dialog
         className="font-secondFont"
+        closeIcon={<X size={20} />}
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}

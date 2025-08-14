@@ -1,10 +1,5 @@
-import SectionArea from "../SectionArea";
-import SectionWrapper from "../SectionWrapper";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import React, { useState } from "react";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+
 import content from "../../../content/content";
 function SocialPrint() {
   return (

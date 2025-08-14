@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
+import { X } from "lucide-react";
 import content, { abstractions } from "../../../content/content";
 import Button from "../../interactives/Button";
 import { MoveRight } from "lucide-react";
@@ -53,6 +51,7 @@ export default function AboutModal() {
       />
       <Dialog
         className="font-secondFont"
+        closeIcon={<X size={20} />}
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}

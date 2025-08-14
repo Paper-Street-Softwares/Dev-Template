@@ -1,9 +1,8 @@
 import { useState } from "react";
-import "primeicons/primeicons.css";
+import { X } from "lucide-react";
+
 import { Dialog } from "primereact/dialog";
 import content from "../../content/content";
-import "primereact/resources/primereact.min.css";
-import "primereact/resources/themes/saga-blue/theme.css";
 import SectionArea from "../sectionElements/SectionArea";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 import SectionHeader from "../sectionElements/SectionHeader";
@@ -88,6 +87,7 @@ export default function FeaturesButton({ colorMode }) {
 
       <Dialog
         className={`font-secondFont ${bgClass} ${textClass}`}
+        closeIcon={<X size={20} />}
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
