@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
-import { CiUser, CiPhone, CiMail, CiGlobe, CiChat1 } from "react-icons/ci";
+import { User, Phone, Mail, Globe, MessageCircle } from "lucide-react";
+
 import emailjs from "@emailjs/browser";
 
 const WhatsappForm = () => {
@@ -165,7 +166,7 @@ const WhatsappForm = () => {
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
-              <CiUser />
+              <User />
             </div>
             <input
               className="w-full px-1 py-2 border-0 rounded-none"
@@ -183,7 +184,7 @@ const WhatsappForm = () => {
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
-              <CiPhone />
+              <Phone />
             </div>
             <input
               className="w-full px-1 py-2 border-0 rounded-none"
@@ -201,7 +202,7 @@ const WhatsappForm = () => {
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
-              <CiMail />
+              <Mail />
             </div>
             <input
               className="w-full px-1 py-2 border-0 rounded-none"
@@ -219,7 +220,7 @@ const WhatsappForm = () => {
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
-              <CiGlobe />
+              <Globe />
             </div>
             <input
               className="w-full px-1 py-2 border-0 rounded-none"
@@ -237,7 +238,7 @@ const WhatsappForm = () => {
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
             <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight">
-              <CiChat1 className="mt-[14px]" />
+              <MessageCircle className="mt-[14px]" />
             </div>
             <textarea
               className="w-full px-1 py-2 border-0 rounded-none"
