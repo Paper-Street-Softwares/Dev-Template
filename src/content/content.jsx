@@ -52,7 +52,10 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Silvano Sabino",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "email2", // Email desejado pelo cliente
+  emailThree: "email3", // Email desejado pelo cliente
+  emailFour: "email4", // Email desejado pelo cliente
+  emailFive: "email5", // Email desejado pelo cliente
   domain: "drsalvanosabino.com.br", // Sem "www"
   phone: {
     ddd: "11",
@@ -115,12 +118,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Perguntas Frequentes",
-      ],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       menuId: ["home", "service", "about", "faq"],
 
       ctaButtonText: "Contato",
@@ -921,6 +919,9 @@ const content = {
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
+      emailThree: `${infos.emailThree}`,
+      emailFour: `${infos.emailFour}`,
+      emailFive: `${infos.emailFive}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
