@@ -40,6 +40,13 @@ export default function Index() {
         >
           Português
         </Button>
+        <Button
+          label="Espanhol"
+          size="small"
+          onClick={() => changeLanguage("es")}
+        >
+          Português
+        </Button>
       </div>
 
       <Navbar colorMode={colorMode} />

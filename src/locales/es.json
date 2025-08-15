@@ -1,0 +1,216 @@
+{
+  "infos": {
+    "name": "Dr. Silvano Sabino",
+    "email": "contacto",
+    "emailSecundario": "A_Definir",
+    "emailThree": "A_Definir",
+    "emailFour": "A_Definir",
+    "emailFive": "A_Definir",
+    "domain": "drsalvanosabino.com.br",
+    "phone": {
+      "ddd": "11",
+      "firstPart": "98505",
+      "secondPart": "2315"
+    },
+    "phoneSecundario": {
+      "ddd": "11",
+      "firstPart": "94929",
+      "secondPart": "1541"
+    },
+    "phoneTerciario": {
+      "ddd": "A_Definir",
+      "firstPart": "A_Definir",
+      "secondPart": "A_Definir"
+    },
+    "adress": "Dirección: A_Definir A_Definir A_Definir",
+    "adressSecundario": "Dirección: A_Definir A_Definir A_Definir",
+    "expediente": "Horario de atención: Lunes a Viernes, Servicio en línea 24h",
+    "expedienteSecundario": "Horario de atención: Lunes a Viernes, A_Definir",
+    "obs": "A_Definir",
+    "instagramProfile": "dr.silvanosabino",
+    "facebookProfile": "A_Definir",
+    "linkeDinProfile": "silvano-sabino-8924a4b4/",
+    "x": "A_Definir",
+    "whatsappDefaultMessage": "¡Hola! Vine a través de su sitio web y me gustaría hacer algunas preguntas.",
+    "whatsChatDefaultMessage": "¿Desea hablar con nosotros ahora mismo? Haga clic abajo 👇",
+    "slogan": ""
+  },
+  "navbar": {
+    "menuItems": {
+      "home": "Inicio",
+      "service": "Servicios",
+      "about": "Sobre Nosotros",
+      "faq": "Preguntas Frecuentes"
+    },
+    "ctaButtonText": "Contacto",
+    "ctaButtonTextResponsive": "Contacto"
+  },
+  "hero": {
+    "miniTag": "ABOGADO PENALISTA EN SÃO PAULO - SP",
+    "title": "¿Y si fueras tú en la línea de fuego?",
+    "subtitle": "La ley no espera. Cada segundo cuenta para proteger tu libertad y cambiar el juego a tu favor.",
+    "ctaButtonText": "Consulta con un especialista",
+    "obsHero": {
+      "text": "Atención 24h para todo Brasil"
+    }
+  },
+  "features": {
+    "miniTag": "ÁREAS DE PRÁCTICA",
+    "title": "Áreas de Especialización",
+    "subtitle": "Defendiendo sus derechos con rapidez y precisión.",
+    "card1": {
+      "title": "Derecho Penal",
+      "subtitle": "Protección firme de sus derechos ante la ley.",
+      "description": "Actuamos en casos penales garantizando la protección legal de nuestros clientes, con ética y eficiencia.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más"
+    },
+    "card2": {
+      "title": "Derecho Civil",
+      "subtitle": "Resolviendo conflictos y protegiendo sus intereses.",
+      "description": "Ofrecemos soluciones legales para conflictos civiles, asegurando los derechos e intereses de nuestros clientes.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más"
+    },
+    "card3": {
+      "title": "Detención en Flagrancia",
+      "subtitle": "Actuación rápida para preservar su libertad inmediata.",
+      "description": "Garantizamos asesoría inmediata en casos de detención en flagrancia, priorizando la defensa y sus derechos legales.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más"
+    },
+    "card4": {
+      "title": "Derecho Laboral",
+      "subtitle": "Defensa justa en cuestiones entre empresas y empleados.",
+      "description": "Prestamos consultoría y defensa en cuestiones laborales, protegiendo tanto empleados como empleadores.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más",
+      "servicesButton": "+"
+    },
+    "card5": {
+      "title": "Derecho Laboral",
+      "subtitle": "Defensa justa en cuestiones entre empresas y empleados.",
+      "description": "Prestamos consultoría y defensa en cuestiones laborales, protegiendo tanto empleados como empleadores.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más"
+    },
+    "card6": {
+      "title": "Derecho Laboral",
+      "subtitle": "Defensa justa en cuestiones entre empresas y empleados.",
+      "description": "Prestamos consultoría y defensa en cuestiones laborales, protegiendo tanto empleados como empleadores.",
+      "buttonLabelModal": "Contáctenos",
+      "buttonLabel": "Saber Más"
+    }
+  },
+  "maps": {
+    "minitag": "A Definir",
+    "title": "A Definir",
+    "subtitle": "A Definir",
+    "embedsrc": "A_Definir"
+  },
+  "about": {
+    "imagem": {
+      "alt": "Imagen profesional de oficina/abogado(a)"
+    },
+    "miniTag": "QUIÉN ES EL DR. SILVANO SABINO",
+    "title": "Mi trayectoria",
+    "subtitle": "Una historia dedicada a ofrecer defensa y orientación con confianza y ética.",
+    "labelInstagram": "Sígueme en Instagram",
+    "labelFacebook": "Sígueme en Facebook",
+    "labelLinkedin": "Sígueme en LinkedIn",
+    "labelX": "Sígueme en X",
+    "paragraph": "Desde el inicio de mi carrera, asumí el compromiso de defender los derechos de cada cliente con dedicación y profesionalismo.",
+    "buttonModalLabelAbout": "Continuar leyendo",
+    "modal": "Desde el inicio de mi carrera, asumí el compromiso de defender los derechos de cada cliente con dedicación y profesionalismo.\n\nCreo que cada caso es único y merece atención especial, buscando siempre soluciones estratégicas y eficaces.\n\nMi misión es actuar con ética, empatía y firmeza, garantizando que cada cliente se sienta apoyado en todo momento.",
+    "ctaButtonAriaLabel": "Botón para contactar",
+    "ctaButtonText": "Contacta ahora",
+    "aboutSocial": {
+      "miniTag": "REDES SOCIALES",
+      "title": "Conéctate ahora",
+      "subtitle": "Aprovecha nuestras redes sociales para mantener contacto y estar al tanto de actualizaciones importantes en el mundo del derecho.",
+      "labelInstagram": "Sígueme en Instagram",
+      "labelFacebook": "Sígueme en Facebook",
+      "labelLinkedin": "Sígueme en LinkedIn",
+      "labelX": "Sígueme en X"
+    }
+  },
+  "cta": {
+    "miniTag": "CONTÁCTANOS",
+    "title": "¿Enfrentando un problema legal? ¡Déjanos encargarnos de ello!",
+    "subtitle": "Converse con nuestro equipo. Estamos listos para ofrecer la orientación legal que necesita.",
+    "ctaButtonText": "Contacta vía WhatsApp"
+  },
+  "ctaSecondary": {
+    "title": "¿Dudas? Contáctanos para que podamos ayudarte, te estamos esperando.",
+    "subtitleDireita": "CONTACTA VÍA",
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Hablar ahora"
+  },
+  "steps": {
+    "miniTag": "PASO A PASO",
+    "title": "¿Cómo funciona nuestro servicio?",
+    "subtitle": "",
+    "cards": {
+      "card1": {
+        "stepNumber": 1,
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos una reunión para entender su caso y identificar sus necesidades legales."
+      },
+      "card2": {
+        "stepNumber": 2,
+        "cardTitle": "Análisis detallado",
+        "cardDescription": "Examinamos todos los aspectos de su caso, revisando documentos y evidencias para obtener una visión completa."
+      },
+      "card3": {
+        "stepNumber": 3,
+        "cardTitle": "Elaboración de la estrategia",
+        "cardDescription": "Creamos una estrategia legal personalizada para proteger sus intereses de manera eficaz."
+      },
+      "card4": {
+        "stepNumber": 4,
+        "cardTitle": "Acción legal",
+        "cardDescription": "Iniciamos y conducimos las acciones legales o el servicio contratado, buscando justicia y soluciones personalizadas según la necesidad de su caso."
+      }
+    }
+  },
+  "blog": {
+    "miniTag": "BLOG",
+    "title": "A_Definir",
+    "subtitle": "",
+    "labelCards": "Ver más",
+    "label": "Haga clic aquí para ver todas las publicaciones",
+    "blogLink": "A_Definir"
+  },
+  "faq": {
+    "miniTag": "ACLARA TUS DUDAS",
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Consulta las preguntas a continuación para aclarar tus dudas.",
+    "questions": {
+      "question1": {
+        "question": "¿Cómo puedo contratar sus servicios?",
+        "answer": "Agende su consulta con nosotros vía WhatsApp y conversaremos sobre sus necesidades y evaluaremos los costos."
+      },
+      "question2": {
+        "question": "¿Cuál es el tiempo promedio para resolver un caso?",
+        "answer": "El tiempo promedio varía según la complejidad, pero discutiremos una estimación durante la consulta inicial."
+      },
+      "question3": {
+        "question": "¿Qué documentos debo llevar a la consulta?",
+        "answer": "Traiga los documentos relevantes para su caso, como contratos, correspondencia y registros, además de documentos personales y comprobante de domicilio."
+      },
+      "question4": {
+        "question": "¿Ofrecen servicios de consultoría preventiva?",
+        "answer": "Sí, ofrecemos consultoría preventiva para evitar problemas futuros y garantizar cumplimiento legal."
+      }
+    },
+    "paragraph": "Haga clic aquí si tiene más dudas"
+  },
+  "footer": {
+    "copyrightLine": "2025 - Nombre de la Empresa - Todos los derechos reservados",
+    "footerDivulgacaoText": "¿Desea un sitio web como este? Haga clic aquí",
+    "midSectionName": "Hasta pronto",
+    "footerText": "¡Gracias por su visita! Esperamos que pronto se convierta en nuestro cliente y disfrute de todos los beneficios que ofrecemos.",
+    "footerSocialText": "Síguenos en redes sociales:",
+    "footerNavegacaoText": "NAVEGACIÓN"
+  }
+}
