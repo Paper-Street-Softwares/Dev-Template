@@ -37,13 +37,13 @@
   },
   "navbar": {
     "menuItems": {
-      "home": "Home",
-      "service": "Services",
-      "about": "About Us",
-      "faq": "FAQ"
+      "home": "Inicio",
+      "service": "Servicios",
+      "about": "Sobre Nosotros",
+      "faq": "Preguntas Frecuentes"
     },
-    "ctaButtonText": "Contact",
-    "ctaButtonTextResponsive": "Contact"
+    "ctaButtonText": "Contacto",
+    "ctaButtonTextResponsive": "Contacto"
   },
   "hero": {
     "miniTag": "A_Definir",
