@@ -25,28 +25,24 @@ export default function Index() {
   };
   return (
     <>
-      <div className="flex gap-6">
-        <Button
-          label="Inglês"
-          size="small"
-          onClick={() => changeLanguage("en")}
-        >
-          English
-        </Button>
-        <Button
-          label="Português"
-          size="small"
-          onClick={() => changeLanguage("pt")}
-        >
-          Português
-        </Button>
-        <Button
-          label="Espanhol"
-          size="small"
-          onClick={() => changeLanguage("es")}
-        >
-          Português
-        </Button>
+      <div className="fixed inset-x-0 bottom-5 flex justify-center z-50 pointer-events-none">
+        <div className="flex gap-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg pointer-events-auto">
+          <Button
+            label="English"
+            size="small"
+            onClick={() => changeLanguage("en")}
+          />
+          <Button
+            label="Português"
+            size="small"
+            onClick={() => changeLanguage("pt")}
+          />
+          <Button
+            label="Español"
+            size="small"
+            onClick={() => changeLanguage("es")}
+          />
+        </div>
       </div>
 
       <Navbar colorMode={colorMode} />
