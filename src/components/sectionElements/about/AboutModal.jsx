@@ -19,7 +19,7 @@ export default function AboutModal() {
         <p className="mb-[20px]">{t("about.subtitle")}</p>{" "}
         {/* substitui abstractions.subtitleModal */}
         {t("about.modal")}
-        <p className="mb-[20px]"> {t("about.modalCtaButton")}</p>
+        <p className="mb-[20px]"> </p>
         <div>
           <Button
             aria-label={t("about.ctaButtonAriaLabel")}
