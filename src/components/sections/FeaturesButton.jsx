@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-
 import { Dialog } from "primereact/dialog";
+import { useTranslation } from "react-i18next";
+
 import content from "../../content/content";
 import SectionArea from "../sectionElements/SectionArea";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
@@ -10,6 +11,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
 
 export default function FeaturesButton({ colorMode }) {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -22,7 +24,6 @@ export default function FeaturesButton({ colorMode }) {
     setVisible(true);
   };
 
-  // Definir classes de cor para SectionArea
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
@@ -36,45 +37,47 @@ export default function FeaturesButton({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
+  const cardNumbers = [1, 2, 3];
+
   return (
     <>
       <SectionArea
-        id={"service"}
+        id="service"
         className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`}
       >
         <SectionHeader
           className={`text-center ${textClass}`}
-          miniTitle={content.texts.features.miniTag}
-          sectionHeaderTitle={content.texts.features.title}
-          sectionHeaderSubtitle={content.texts.features.subtitle}
+          miniTitle={t("features.miniTag")}
+          sectionHeaderTitle={t("features.title")}
+          sectionHeaderSubtitle={t("features.subtitle")}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
         />
+
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
-            {[1, 2, 3].map((i) => {
+            {cardNumbers.map((i) => {
               const card = content.texts.features[`card${i}`];
               return (
                 <FeatureImgOnBgCardButton
                   key={i}
                   bgImg={card.img}
-                  title={card.title}
-                  description={card.subtitle}
-                  buttonLabel={card.buttonLabel}
+                  title={t(`features.card${i}.title`)}
+                  description={t(`features.card${i}.subtitle`)}
+                  buttonLabel={t(`features.card${i}.buttonLabel`)}
                   animation
                   onClick={() =>
                     onClick(
-                      card.title,
-                      <div>
-                        <ServiceDetailCard
-                          img={card.img}
-                          description={card.description}
-                          buttonIcon={card.icon}
-                          buttonLabel={card.buttonLabelModal}
-                          buttonLink={content.texts.links.ctaWhatsapp}
-                          bgPosition="bg-top"
-                        />
-                      </div>
+                      t(`features.card${i}.title`),
+                      t(`features.card${i}.subtitle`),
+                      <ServiceDetailCard
+                        img={card.img}
+                        description={t(`features.card${i}.description`)}
+                        buttonIcon={card.icon}
+                        buttonLabel={t(`features.card${i}.buttonLabelModal`)}
+                        buttonLink={content.texts.links.ctaWhatsapp}
+                        bgPosition="bg-top"
+                      />
                     )
                   }
                   colorMode={colorMode}

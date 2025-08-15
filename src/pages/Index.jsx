@@ -13,6 +13,7 @@ import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
 import { useTranslation } from "react-i18next";
 import "./../i18n";
+import Button from "../components/interactives/Button";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -24,8 +25,23 @@ export default function Index() {
   };
   return (
     <>
-      <button onClick={() => changeLanguage("en")}>English</button>
-      <button onClick={() => changeLanguage("pt")}>Português</button>
+      <div className="flex gap-6">
+        <Button
+          label="Inglês"
+          size="small"
+          onClick={() => changeLanguage("en")}
+        >
+          English
+        </Button>
+        <Button
+          label="Português"
+          size="small"
+          onClick={() => changeLanguage("pt")}
+        >
+          Português
+        </Button>
+      </div>
+
       <Navbar colorMode={colorMode} />
 
       <Hero
@@ -39,10 +55,10 @@ export default function Index() {
         colorMode={colorMode}
         defaultFeature={false}
         button={false}
-        modalWithCards={false}
+        modalWithCards={true}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />

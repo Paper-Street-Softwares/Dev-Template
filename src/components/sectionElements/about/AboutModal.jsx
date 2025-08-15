@@ -1,31 +1,29 @@
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import { X } from "lucide-react";
-import content, { abstractions } from "../../../content/content";
+import content from "../../../content/content";
 import Button from "../../interactives/Button";
 import { MoveRight } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-import "react-image-gallery/styles/css/image-gallery.css";
-import { color } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 export default function AboutModal() {
-  const navigate = useNavigate();
-
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(abstractions.titleModal);
+    setModalTitle(t("about.title")); // substitui abstractions.titleModal
     setModalContent(
       <p className="text-paragraph3">
-        <p className="mb-[20px]">{abstractions.subtitleModal}</p>
-        {content.texts.about.modal}
-        <p className="mb-[20px]"> {content.texts.about.modalCtaButton}</p>
+        <p className="mb-[20px]">{t("about.subtitle")}</p>{" "}
+        {/* substitui abstractions.subtitleModal */}
+        {t("about.modal")}
+        <p className="mb-[20px]"> {t("about.modalCtaButton")}</p>
         <div>
           <Button
-            aria-label={content.texts.about.ctaButtonAriaLabel}
-            label={content.texts.about.ctaButtonText}
+            aria-label={t("about.ctaButtonAriaLabel")}
+            label={t("about.ctaButtonText")}
             animation={false}
             className="hover:scale-105 bg-buttonColor text-labelButtons"
             icon={
@@ -51,7 +49,7 @@ export default function AboutModal() {
     <div>
       <Button
         className="mt-[48px] text-labelButtons"
-        label={content.texts.about.buttonModalLabelAbout}
+        label={t("about.buttonModalLabelAbout")}
         onClick={onClick}
         removeAnchor={true}
         removeTarget={true}

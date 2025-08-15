@@ -18,5 +18,244 @@
     "obsHero": {
       "text": "Atendimento 24h para todo Brasil"
     }
+  },
+  "features": {
+    "miniTag": "ATUAÇÃO",
+    "title": "Áreas de Especialização",
+    "subtitle": "Defendendo seus direitos com agilidade e precisão.",
+    "card1": {
+      "title": "Direito Criminal",
+      "subtitle": "Proteção firme dos seus direitos perante a lei.",
+      "description": "Atuamos em casos criminais garantindo a proteção legal de nossos clientes, com ética e eficiência.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais"
+    },
+    "card2": {
+      "title": "Direito Cível",
+      "subtitle": "Resolvendo conflitos e protegendo seus interesses.",
+      "description": "Oferecemos soluções jurídicas para conflitos civis, assegurando os direitos e interesses de nossos clientes.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais"
+    },
+    "card3": {
+      "title": "Prisão em Flagrante",
+      "subtitle": "Atuação rápida para preservar sua liberdade imediata.",
+      "description": "Garantimos assessoria imediata em casos de prisão em flagrante, priorizando a defesa e seus direitos legais.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais"
+    },
+    "card4": {
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa justa em questões entre empresas e empregados.",
+      "description": "Prestamos consultoria e defesa em questões trabalhistas, protegendo tanto empregados quanto empregadores.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais",
+      "servicesButton": "+"
+    },
+    "card5": {
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa justa em questões entre empresas e empregados.",
+      "description": "Prestamos consultoria e defesa em questões trabalhistas, protegendo tanto empregados quanto empregadores.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais"
+    },
+    "card6": {
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa justa em questões entre empresas e empregados.",
+      "description": "Prestamos consultoria e defesa em questões trabalhistas, protegendo tanto empregados quanto empregadores.",
+      "buttonLabelModal": "Fale Conosco",
+      "buttonLabel": "Saiba Mais"
+    }
+  },
+  "maps": {
+    "minitag": "A Definir",
+    "title": "A Definir",
+    "subtitle": "A Definir",
+    "embedsrc": "A_Definir"
+  },
+  "about": {
+    "imagem": {
+      "alt": "Imagem profissional de escritório/advogado(a)"
+    },
+    "miniTag": "QUEM É O DR. SILVANO SABINO",
+    "title": "Minha trajetória",
+    "subtitle": "Uma história dedicada a oferecer defesa e orientação com confiança e ética.",
+    "labelInstagram": "Siga-me no Instagram",
+    "labelFacebook": "Siga-me no Facebook",
+    "labelLinkedin": "Siga-me no LinkedIn",
+    "labelX": "Siga-me no X",
+    "paragraph": "Desde o início da minha carreira, assumi o compromisso de defender os direitos de cada cliente com dedicação e profissionalismo.",
+    "buttonModalLabelAbout": "Continuar lendo",
+    "modal": "Desde o início da minha carreira, assumi o compromisso de defender os direitos de cada cliente com dedicação e profissionalismo.\n\nAcredito que cada caso é único e merece atenção especial, buscando sempre soluções estratégicas e eficientes.\n\nMinha missão é atuar com ética, empatia e firmeza, garantindo que cada cliente se sinta amparado em todos os momentos.",
+    "ctaButtonAriaLabel": "Botão para entrar em contato",
+    "ctaButtonText": "Entre em contato",
+    "aboutSocial": {
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora",
+      "subtitle": "Aproveite nossas redes sociais para manter contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no LinkedIn",
+      "labelX": "Siga-me no X"
+    }
+  },
+  "cta": {
+    "miniTag": "FALE CONOSCO",
+    "title": "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+    "subtitle": "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+    "ctaButtonText": "Entre em contato pelo WhatsApp"
+  },
+  "ctaSecondary": {
+    "title": "Dúvidas? Entre em contato conosco para podermos lhe ajudar, estamos te esperando.",
+    "subtitleDireita": "ENTRE EM CONTATO VIA",
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Falar agora"
+  },
+  "steps": {
+    "miniTag": "PASSO A PASSO",
+    "title": "Como funciona nosso atendimento?",
+    "subtitle": "",
+    "cards": {
+      "card1": {
+        "stepNumber": 1,
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+      },
+      "card2": {
+        "stepNumber": 2,
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+      },
+      "card3": {
+        "stepNumber": 3,
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+      },
+      "card4": {
+        "stepNumber": 4,
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+      }
+    }
+  },
+  "blog": {
+    "miniTag": "BLOG",
+    "title": "A_Definir",
+    "subtitle": "",
+    "labelCards": "Ver mais",
+    "label": "Clique aqui para ver todas as matérias",
+    "blogLink": "A_Definir"
+  },
+  "faq": {
+    "miniTag": "TIRE SUAS DÚVIDAS",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+    "questions": {
+      "question1": {
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+      },
+      "question2": {
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+      },
+      "question3": {
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+      },
+      "question4": {
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+      }
+    },
+    "paragraph": "Clique aqui caso tenha mais dúvidas"
+  },
+  "footer": {
+    "copyrightLine": "2025 - Nome da Empresa - Todos os direitos reservados",
+    "footerDivulgacaoText": "Gostaria de ter um site como este? Clique aqui",
+    "midSectionName": "Até mais",
+    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+    "footerSocialText": "Siga a gente nas redes sociais:",
+    "footerNavegacaoText": "NAVEGAÇÃO"
+  },
+  "testimonials": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "images": [
+      { "img": "imgTestimonial1", "alt": "Imagem de feedback" },
+      { "img": "imgTestimonial2", "alt": "Imagem de feedback" },
+      { "img": "imgTestimonial3", "alt": "Imagem de feedback" },
+      { "img": "imgTestimonial4", "alt": "Imagem de feedback" }
+    ]
+  },
+  "trustedBy": {
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "trustedMore": { "title": "A_Definir", "subtitle": "A_Definir" },
+    "images": [
+      { "img": "trustedByImg1", "alt": "marca Rennova" },
+      { "img": "trustedByImg2", "alt": "marca Colgate" },
+      { "img": "trustedByImg3", "alt": "marca dental Cremer" }
+    ]
+  },
+  "numbers": {
+    "backgroundImg": "numbersImgBg",
+    "number1": 7,
+    "number1Description": "A_Definir",
+    "number2": 500,
+    "number2Description": "A_Definir",
+    "number3": 1000,
+    "number3Description": "A_Definir"
+  },
+  "team": {
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "members": [
+      {
+        "name": "Edison Matos",
+        "role": "CEO & Diretor de Desenvolvimento",
+        "img": "teamMemberImg1",
+        "alt": "Edison Matos",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/edison-matoss/",
+          "github": "https://github.com/EdisonMatos",
+          "website": "https://edisonmatos.github.io/"
+        }
+      },
+      {
+        "name": "Gabriel Adans",
+        "role": "Marketing Outsourcing",
+        "img": "teamMemberImg2",
+        "alt": "Gabriel Adans",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/gabriel-adans-2bb029227/",
+          "github": "https://github.com/GabrielAdans",
+          "instagram": "https://www.instagram.com/adansgabriel/"
+        }
+      },
+      {
+        "name": "Gabriel Souza",
+        "role": "Desenvolvedor Frontend",
+        "img": "teamMemberImg3",
+        "alt": "Gabriel Souza",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/gabriel-souza-b9945929a",
+          "github": "https://github.com/BiellSouza",
+          "instagram": "https://www.instagram.com/biel.souza.904"
+        }
+      },
+      {
+        "name": "Luiz Felipe",
+        "role": "Designer Outsourcing",
+        "img": "teamMemberImg4",
+        "alt": "Luiz Felipe",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+          "instagram": "https://www.instagram.com/luizleitedesigner/",
+          "whatsapp": "https://wa.me/+556596241854"
+        }
+      }
+    ]
   }
 }

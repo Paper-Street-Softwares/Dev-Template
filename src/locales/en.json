@@ -9,7 +9,6 @@
     "ctaButtonText": "Contact",
     "ctaButtonTextResponsive": "Contact"
   },
-
   "hero": {
     "miniTag": "CRIMINAL LAWYER IN SÃO PAULO - SP",
     "title": "What if it were you on the line of fire?",
@@ -18,5 +17,243 @@
     "obsHero": {
       "text": "24h service for all of Brazil"
     }
+  },
+  "features": {
+    "miniTag": "PRACTICE AREAS",
+    "title": "Areas of Expertise",
+    "subtitle": "Defending your rights with speed and precision.",
+    "card1": {
+      "title": "Criminal Law",
+      "subtitle": "Firm protection of your rights under the law.",
+      "description": "We handle criminal cases ensuring legal protection for our clients, with ethics and efficiency.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    },
+    "card2": {
+      "title": "Civil Law",
+      "subtitle": "Resolving disputes and protecting your interests.",
+      "description": "We provide legal solutions for civil disputes, safeguarding the rights and interests of our clients.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    },
+    "card3": {
+      "title": "Arrest in the Act",
+      "subtitle": "Quick action to preserve your immediate freedom.",
+      "description": "We provide immediate assistance in cases of arrest in the act, prioritizing defense and legal rights.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    },
+    "card4": {
+      "title": "Labor Law",
+      "subtitle": "Fair defense in issues between employers and employees.",
+      "description": "We offer consultancy and defense in labor matters, protecting both employees and employers.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    },
+    "card5": {
+      "title": "Labor Law",
+      "subtitle": "Fair defense in issues between employers and employees.",
+      "description": "We offer consultancy and defense in labor matters, protecting both employees and employers.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    },
+    "card6": {
+      "title": "Labor Law",
+      "subtitle": "Fair defense in issues between employers and employees.",
+      "description": "We offer consultancy and defense in labor matters, protecting both employees and employers.",
+      "buttonLabelModal": "Contact Us",
+      "buttonLabel": "Learn More"
+    }
+  },
+  "maps": {
+    "minitag": "To Be Defined",
+    "title": "To Be Defined",
+    "subtitle": "To Be Defined",
+    "embedsrc": "To_Be_Defined"
+  },
+  "about": {
+    "imagem": {
+      "alt": "Professional office/lawyer image"
+    },
+    "miniTag": "WHO IS DR. SILVANO SABINO",
+    "title": "My Journey",
+    "subtitle": "A story dedicated to providing defense and guidance with confidence and ethics.",
+    "labelInstagram": "Follow me on Instagram",
+    "labelFacebook": "Follow me on Facebook",
+    "labelLinkedin": "Follow me on LinkedIn",
+    "labelX": "Follow me on X",
+    "paragraph": "From the beginning of my career, I have committed to defending each client's rights with dedication and professionalism.",
+    "buttonModalLabelAbout": "Continue reading",
+    "modal": "From the beginning of my career, I have committed to defending each client's rights with dedication and professionalism.\n\nI believe each case is unique and deserves special attention, always seeking strategic and efficient solutions.\n\nMy mission is to act with ethics, empathy, and firmness, ensuring that each client feels supported at all times.",
+    "ctaButtonAriaLabel": "Button to get in touch",
+    "ctaButtonText": "Contact me",
+    "aboutSocial": {
+      "miniTag": "SOCIAL MEDIA",
+      "title": "Connect with us now",
+      "subtitle": "Take advantage of our social media to stay in touch and stay updated on important developments in the legal world.",
+      "labelInstagram": "Follow me on Instagram",
+      "labelFacebook": "Follow me on Facebook",
+      "labelLinkedin": "Follow me on LinkedIn",
+      "labelX": "Follow me on X"
+    }
+  },
+  "cta": {
+    "miniTag": "CONTACT US",
+    "title": "Facing a legal problem? Let us take care of it for you!",
+    "subtitle": "Talk to our team. We are ready to provide the legal guidance you need.",
+    "ctaButtonText": "Contact us via WhatsApp"
+  },
+  "ctaSecondary": {
+    "title": "Questions? Contact us so we can help you, we are waiting for you.",
+    "subtitleDireita": "CONTACT US VIA",
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Talk now"
+  },
+  "steps": {
+    "miniTag": "STEP BY STEP",
+    "title": "How does our service work?",
+    "subtitle": "",
+    "cards": {
+      "card1": {
+        "stepNumber": 1,
+        "cardTitle": "Initial consultation",
+        "cardDescription": "We hold a meeting to understand your case and identify your legal needs."
+      },
+      "card2": {
+        "stepNumber": 2,
+        "cardTitle": "Detailed analysis",
+        "cardDescription": "We examine all aspects of your case, reviewing documents and evidence to get a complete picture."
+      },
+      "card3": {
+        "stepNumber": 3,
+        "cardTitle": "Strategy development",
+        "cardDescription": "We create a personalized legal strategy to effectively protect your interests."
+      },
+      "card4": {
+        "stepNumber": 4,
+        "cardTitle": "Legal action",
+        "cardDescription": "We initiate and conduct legal actions or the contracted service, seeking justice and tailored solutions according to your case's needs."
+      }
+    }
+  },
+  "blog": {
+    "miniTag": "BLOG",
+    "title": "To Be Defined",
+    "subtitle": "",
+    "labelCards": "See more",
+    "label": "Click here to see all posts",
+    "blogLink": "To_Be_Defined"
+  },
+  "faq": {
+    "miniTag": "FREQUENTLY ASKED QUESTIONS",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Check the questions below to clarify your doubts.",
+    "questions": {
+      "question1": {
+        "question": "How can I hire your services?",
+        "answer": "Schedule your consultation with us via WhatsApp, and we will discuss your needs and assess the costs."
+      },
+      "question2": {
+        "question": "What is the average timeframe for resolving a case?",
+        "answer": "The average timeframe varies depending on complexity, but we will provide an estimate during the initial consultation."
+      },
+      "question3": {
+        "question": "Which documents should I bring to the consultation?",
+        "answer": "Bring documents relevant to your case, such as contracts, correspondence, and records, as well as personal documents and proof of residence."
+      },
+      "question4": {
+        "question": "Do you offer preventive consulting services?",
+        "answer": "Yes, we offer preventive consulting to avoid future problems and ensure legal compliance."
+      }
+    },
+    "paragraph": "Click here if you have more questions"
+  },
+  "footer": {
+    "copyrightLine": "2025 - Company Name - All rights reserved",
+    "footerDivulgacaoText": "Would you like to have a website like this? Click here",
+    "midSectionName": "See you",
+    "footerText": "Thank you for visiting! We hope you soon become our client and enjoy all the benefits we offer.",
+    "footerSocialText": "Follow us on social media:",
+    "footerNavegacaoText": "NAVIGATION"
+  },
+  "testimonials": {
+    "miniTag": "To Be Defined",
+    "title": "To Be Defined",
+    "subtitle": "To Be Defined",
+    "images": [
+      { "img": "imgTestimonial1", "alt": "Feedback image" },
+      { "img": "imgTestimonial2", "alt": "Feedback image" },
+      { "img": "imgTestimonial3", "alt": "Feedback image" },
+      { "img": "imgTestimonial4", "alt": "Feedback image" }
+    ]
+  },
+  "trustedBy": {
+    "title": "To Be Defined",
+    "subtitle": "To Be Defined",
+    "trustedMore": { "title": "To Be Defined", "subtitle": "To Be Defined" },
+    "images": [
+      { "img": "trustedByImg1", "alt": "Rennova brand" },
+      { "img": "trustedByImg2", "alt": "Colgate brand" },
+      { "img": "trustedByImg3", "alt": "Dental Cremer brand" }
+    ]
+  },
+  "numbers": {
+    "backgroundImg": "numbersImgBg",
+    "number1": 7,
+    "number1Description": "To Be Defined",
+    "number2": 500,
+    "number2Description": "To Be Defined",
+    "number3": 1000,
+    "number3Description": "To Be Defined"
+  },
+  "team": {
+    "title": "To Be Defined",
+    "subtitle": "To Be Defined",
+    "members": [
+      {
+        "name": "Edison Matos",
+        "role": "CEO & Development Director",
+        "img": "teamMemberImg1",
+        "alt": "Edison Matos",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/edison-matoss/",
+          "github": "https://github.com/EdisonMatos",
+          "website": "https://edisonmatos.github.io/"
+        }
+      },
+      {
+        "name": "Gabriel Adans",
+        "role": "Marketing Outsourcing",
+        "img": "teamMemberImg2",
+        "alt": "Gabriel Adans",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/gabriel-adans-2bb029227/",
+          "github": "https://github.com/GabrielAdans",
+          "instagram": "https://www.instagram.com/adansgabriel/"
+        }
+      },
+      {
+        "name": "Gabriel Souza",
+        "role": "Frontend Developer",
+        "img": "teamMemberImg3",
+        "alt": "Gabriel Souza",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/gabriel-souza-b9945929a",
+          "github": "https://github.com/BiellSouza",
+          "instagram": "https://www.instagram.com/biel.souza.904"
+        }
+      },
+      {
+        "name": "Luiz Felipe",
+        "role": "Designer Outsourcing",
+        "img": "teamMemberImg4",
+        "alt": "Luiz Felipe",
+        "socialMedia": {
+          "linkedin": "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+          "instagram": "https://www.instagram.com/luizleitedesigner/",
+          "whatsapp": "https://wa.me/+556596241854"
+        }
+      }
+    ]
   }
 }
