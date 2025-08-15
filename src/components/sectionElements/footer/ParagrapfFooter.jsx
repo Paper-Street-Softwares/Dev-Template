@@ -1,12 +1,13 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
-
+import { useTranslation } from "react-i18next";
 
 function ParagrapfFooter() {
+  const { t } = useTranslation(); // pega a função t
+
   return (
     <MotionDivDownToUp>
-      <p className="opacity-90">{content.texts.footer.footerText}</p>
+      <p className="opacity-90">{t("footer.footerText")}</p>
     </MotionDivDownToUp>
   );
 }

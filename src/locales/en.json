@@ -1,4 +1,43 @@
 {
+  "infos": {
+    "name": "Dr. Silvano Sabino",
+    "email": "contact",
+    "emailSecundario": "To_Be_Defined",
+    "emailThree": "To_Be_Defined",
+    "emailFour": "To_Be_Defined",
+    "emailFive": "To_Be_Defined",
+    "domain": "drsalvanosabino.com.br",
+    "phone": {
+      "ddd": "11",
+      "firstPart": "98505",
+      "secondPart": "2315"
+    },
+    "phoneSecundario": {
+      "ddd": "11",
+      "firstPart": "94929",
+      "secondPart": "1541"
+    },
+    "phoneTerciario": {
+      "ddd": "To_Be_Defined",
+      "firstPart": "To_Be_Defined",
+      "secondPart": "To_Be_Defined"
+    },
+    "adress": "Address: To Be Defined To Be Defined To Be Defined",
+    "adressSecundario": "Address: To Be Defined To Be Defined To Be Defined",
+
+    "expediente": "Working hours: Monday to Friday, 24h online service",
+    "expedienteSecundario": "Working hours: Monday to Friday, To Be Defined",
+
+    "obs": "To Be Defined",
+    "instagramProfile": "dr.silvanosabino",
+    "facebookProfile": "To_Be_Defined",
+    "linkeDinProfile": "silvano-sabino-8924a4b4/",
+    "x": "To_Be_Defined",
+    "whatsappDefaultMessage": "Hello! I came through your website and would like to ask some questions.",
+    "whatsChatDefaultMessage": "Would you like to talk to us right now? Click below 👇",
+    "slogan": ""
+  },
+
   "navbar": {
     "menuItems": {
       "home": "Home",

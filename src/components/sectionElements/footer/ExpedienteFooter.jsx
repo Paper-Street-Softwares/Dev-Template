@@ -1,27 +1,31 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { CalendarCheck2 } from "lucide-react";
-import content from "../../../content/content";
+import { useTranslation } from "react-i18next";
 
 function ExpedienteFooter({ showSecond = false }) {
+  const { t } = useTranslation();
+
   return (
     <>
+      {/* Expediente principal */}
       <MotionDivDownToUp>
         <div className="flex full gap-x-[12px] items-center opacity-90">
           <div>
             <CalendarCheck2 />
           </div>
-          <p>{content.texts.infos.footerexpediente}</p>
+          <p>{t("infos.expediente")}</p>
         </div>
       </MotionDivDownToUp>
 
+      {/* Expediente secundário */}
       {showSecond && (
         <MotionDivDownToUp>
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <div>
               <CalendarCheck2 />
             </div>
-            <p>{content.texts.infos.footerexpedienteSecundario}</p>
+            <p>{t("infos.expedienteSecudario")}</p>
           </div>
         </MotionDivDownToUp>
       )}

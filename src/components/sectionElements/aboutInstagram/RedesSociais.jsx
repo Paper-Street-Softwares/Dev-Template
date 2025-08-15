@@ -1,5 +1,5 @@
-// RedesSociais.jsx
 import React from "react";
+import { useTranslation } from "react-i18next";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import content from "../../../content/content";
@@ -12,13 +12,14 @@ const RedesSociais = ({
   x,
   withAnimation = true,
 }) => {
+  const { t } = useTranslation();
   const icons = [];
 
   if (facebook) {
     icons.push(
       <Button
         key="facebook"
-        label={content.texts.about.aboutSocial.labelFacebook}
+        label={t("about.aboutSocial.labelFacebook")}
         buttonLink={content.texts.links.facebook}
         icon={
           <svg
@@ -44,7 +45,7 @@ const RedesSociais = ({
     icons.push(
       <Button
         key="instagram"
-        label={content.texts.about.aboutSocial.labelInstagram}
+        label={t("about.aboutSocial.labelInstagram")}
         buttonLink={content.texts.links.instagram}
         icon={
           <svg
@@ -72,7 +73,7 @@ const RedesSociais = ({
     icons.push(
       <Button
         key="linkedin"
-        label={content.texts.about.aboutSocial.labelLinkedin}
+        label={t("about.aboutSocial.labelLinkedin")}
         buttonLink={content.texts.links.linkedin}
         icon={
           <svg
@@ -100,7 +101,7 @@ const RedesSociais = ({
     icons.push(
       <Button
         key="tiktok"
-        label={content.texts.about.aboutSocial.labelTikTok}
+        label={t("about.aboutSocial.labelTikTok")}
         buttonLink={content.texts.links.tiktokProfile}
         icon={
           <svg
@@ -121,7 +122,7 @@ const RedesSociais = ({
     icons.push(
       <Button
         key="x"
-        label={content.texts.about.aboutSocial.labelX}
+        label={t("about.aboutSocial.labelX")}
         buttonLink={content.texts.links.x}
         icon={
           <svg

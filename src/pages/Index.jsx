@@ -70,11 +70,11 @@ export default function Index() {
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
-        addresSecundario={false}
+        addresSecundario={true}
         phoneTerciario={false}
         expedientesecond={false}
-        addres={false}
-        obs={false}
+        addres={true}
+        obs={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

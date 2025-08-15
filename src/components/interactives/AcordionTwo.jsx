@@ -4,10 +4,10 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { ChevronDown } from "lucide-react";
-
-import content from "../../content/content";
+import { useTranslation } from "react-i18next";
 
 export default function AccordionExpandDefault() {
+  const { t } = useTranslation();
   const [expanded, setExpanded] = useState("panel1");
 
   const handleChange = (panel) => (_, isExpanded) => {
@@ -28,117 +28,34 @@ export default function AccordionExpandDefault() {
 
   return (
     <div>
-      {/* Accordion 1 */}
-      <Accordion
-        className="mb-[3%]"
-        expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
-        style={getPanelStyle("panel1")}
-      >
-        <AccordionSummary
-          expandIcon={<ChevronDown size={24} />
-}
-          aria-controls="panel1-content"
-          id="panel1-header"
+      {[1, 2, 3, 4].map((num) => (
+        <Accordion
+          key={`panel${num}`}
+          className="mb-[3%]"
+          expanded={expanded === `panel${num}`}
+          onChange={handleChange(`panel${num}`)}
+          style={getPanelStyle(`panel${num}`)}
         >
-          <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question1.question}
-            </h1>
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question1.answer}
-            </p>
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      {/* Accordion 2 */}
-      <Accordion
-        className="mb-[3%]"
-        expanded={expanded === "panel2"}
-        onChange={handleChange("panel2")}
-        style={getPanelStyle("panel2")}
-      >
-        <AccordionSummary
-          expandIcon={<ChevronDown size={24} />
-}
-          aria-controls="panel2-content"
-          id="panel2-header"
-        >
-          <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question2.question}
-            </h1>
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question2.answer}
-            </p>
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      {/* Accordion 3 */}
-      <Accordion
-        className="mb-[3%]"
-        expanded={expanded === "panel3"}
-        onChange={handleChange("panel3")}
-        style={getPanelStyle("panel3")}
-      >
-        <AccordionSummary
-          expandIcon={<ChevronDown size={24} />
-}
-          aria-controls="panel3-content"
-          id="panel3-header"
-        >
-          <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question3.question}
-            </h1>
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question3.answer}
-            </p>
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      {/* Accordion 4 */}
-      <Accordion
-        className="mb-[3%]"
-        expanded={expanded === "panel4"}
-        onChange={handleChange("panel4")}
-        style={getPanelStyle("panel4")}
-      >
-        <AccordionSummary
-          expandIcon={<ChevronDown size={24} />
-}
-          aria-controls="panel4-content"
-          id="panel4-header"
-        >
-          <Typography>
-            <h1 className="font-bold font-secondFont">
-              {content.texts.faq.questions.question4.question}
-            </h1>
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <p className="font-secondFont text-paragraph4 text-paragraphLight ">
-              {content.texts.faq.questions.question4.answer}
-            </p>
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
+          <AccordionSummary
+            expandIcon={<ChevronDown size={24} />}
+            aria-controls={`panel${num}-content`}
+            id={`panel${num}-header`}
+          >
+            <Typography>
+              <h1 className="font-bold font-secondFont">
+                {t(`faq.questions.question${num}.question`)}
+              </h1>
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              <p className="font-secondFont text-paragraph4 text-paragraphLight">
+                {t(`faq.questions.question${num}.answer`)}
+              </p>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+      ))}
     </div>
   );
 }
