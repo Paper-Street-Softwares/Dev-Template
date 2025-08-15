@@ -11,13 +11,21 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
+import { useTranslation } from "react-i18next";
+import "./../i18n";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
   const colorMode = "default";
+  const { t, i18n } = useTranslation();
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <>
+      <button onClick={() => changeLanguage("en")}>English</button>
+      <button onClick={() => changeLanguage("pt")}>Português</button>
       <Navbar colorMode={colorMode} />
 
       <Hero

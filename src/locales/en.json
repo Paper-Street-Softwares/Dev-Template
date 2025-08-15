@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "menuItems": {
+      "home": "Home",
+      "service": "Services",
+      "about": "About Us",
+      "faq": "FAQ"
+    },
+    "ctaButtonText": "Contact",
+    "ctaButtonTextResponsive": "Contact"
+  },
+
+  "hero": {
+    "miniTag": "CRIMINAL LAWYER IN SÃO PAULO - SP",
+    "title": "What if it were you on the line of fire?",
+    "subtitle": "The law doesn't wait. Every second counts to protect your freedom and turn the game in your favor.",
+    "ctaButtonText": "Talk to a specialist",
+    "obsHero": {
+      "text": "24h service for all of Brazil"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "menuItems": {
+      "home": "Início",
+      "service": "Serviços",
+      "about": "Sobre Nós",
+      "faq": "Perguntas Frequentes"
+    },
+    "ctaButtonText": "Contato",
+    "ctaButtonTextResponsive": "Contato"
+  },
+
+  "hero": {
+    "miniTag": "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
+    "title": "E se fosse você na linha de fogo?",
+    "subtitle": "A lei não espera. Cada segundo conta para proteger sua liberdade e virar o jogo a seu favor.",
+    "ctaButtonText": "Converse com especialista",
+    "obsHero": {
+      "text": "Atendimento 24h para todo Brasil"
+    }
+  }
+}

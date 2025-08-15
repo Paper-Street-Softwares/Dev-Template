@@ -3,11 +3,14 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
+import { useTranslation } from "react-i18next";
 
 export default function ListGroupSocial({
   colorMode = "default",
   mode = "blog",
 }) {
+  const { t } = useTranslation();
+
   const [visibleSections, setVisibleSections] = useState([]);
   const location = useLocation();
 
@@ -74,7 +77,7 @@ export default function ListGroupSocial({
               <span
                 className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
               >
-                {label}
+                {t(`navbar.menuItems.${id}`)}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
@@ -89,7 +92,7 @@ export default function ListGroupSocial({
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                {label}
+                {t(`navbar.menuItems`)}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
@@ -103,8 +106,8 @@ export default function ListGroupSocial({
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
-            aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label="Contato"
+            aria-label={t("hero.ctaButtonAriaLabel")}
+            label={t("navbar.ctaButtonTextResponsive")}
             className=""
             textclassName="text-paragraph3"
             size="small"
