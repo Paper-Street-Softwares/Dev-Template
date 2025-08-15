@@ -1,16 +1,17 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
+import { useTranslation } from "react-i18next";
 
+function NavegationTextFooter() {
+  const { t } = useTranslation();
 
-function MidTextFooter() {
   return (
     <MotionDivDownToUp>
       <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-        {content.texts.footer.midSectionName}
+        {t("footer.midSectionName")}
       </h1>
     </MotionDivDownToUp>
   );
 }
 
-export default MidTextFooter;
+export default NavegationTextFooter;

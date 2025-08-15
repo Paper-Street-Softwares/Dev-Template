@@ -1,10 +1,12 @@
 import Paragraphs from "../Paragraphs";
+import { useTranslation } from "react-i18next";
 
-import content from "../../../content/content";
 export default function ParagraphSemFading() {
+  const { t } = useTranslation();
+
   return (
     <Paragraphs className="text-colorWhite text-opacity-80">
-      {content.texts.about.paragraph}
+      {t("about.paragraph")}
     </Paragraphs>
   );
 }

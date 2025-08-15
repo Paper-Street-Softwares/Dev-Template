@@ -11,13 +11,40 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
+import { useTranslation } from "react-i18next";
+import "./../i18n";
+import Button from "../components/interactives/Button";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
   const colorMode = "default";
+  const { t, i18n } = useTranslation();
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <>
+      {/* <div className="fixed inset-x-0 bottom-5 flex justify-center z-50 pointer-events-none">
+        <div className="flex gap-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg pointer-events-auto">
+          <Button
+            label="English"
+            size="small"
+            onClick={() => changeLanguage("en")}
+          />
+          <Button
+            label="Português"
+            size="small"
+            onClick={() => changeLanguage("pt")}
+          />
+          <Button
+            label="Español"
+            size="small"
+            onClick={() => changeLanguage("es")}
+          />
+        </div>
+      </div> */}
+
       <Navbar colorMode={colorMode} />
 
       <Hero
@@ -30,11 +57,11 @@ export default function Index() {
       <Features
         colorMode={colorMode}
         defaultFeature={false}
-        button={false}
+        button={true}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />
@@ -46,11 +73,11 @@ export default function Index() {
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
-        addresSecundario={false}
+        addresSecundario={true}
         phoneTerciario={false}
         expedientesecond={false}
-        addres={false}
-        obs={false}
+        addres={true}
+        obs={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import content from "../../content/content";
 import ServicesModal from "./ServicesModal";
 import IconFeatureCard from "../cards/IconFeatureCard";
@@ -7,6 +8,8 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesModalWithCards({ colorMode }) {
+  const { t } = useTranslation();
+
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -20,13 +23,14 @@ export default function FeaturesModalWithCards({ colorMode }) {
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
+
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
         className="text-center"
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
+        miniTitle={t("features.miniTag")}
+        sectionHeaderTitle={t("features.title")}
+        sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
@@ -36,8 +40,8 @@ export default function FeaturesModalWithCards({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
-                title={content.texts.features.card1.title}
-                paragraph={content.texts.features.card1.subtitle}
+                title={t("features.card1.title")}
+                paragraph={t("features.card1.subtitle")}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                 colorMode={colorMode}
               />
@@ -45,8 +49,8 @@ export default function FeaturesModalWithCards({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card2.icon}
-                title={content.texts.features.card2.title}
-                paragraph={content.texts.features.card2.subtitle}
+                title={t("features.card2.title")}
+                paragraph={t("features.card2.subtitle")}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
@@ -60,21 +64,22 @@ export default function FeaturesModalWithCards({ colorMode }) {
               }}
             ></div>
           </MotionDivDownToUp>
+
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+            <MotionDivDownToUp className="flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
+                title={t("features.card3.title")}
+                paragraph={t("features.card3.subtitle")}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp className=" flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+            <MotionDivDownToUp className="flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
               <IconFeatureCard
                 icon={content.texts.features.card4.icon}
-                title={content.texts.features.card4.title}
-                paragraph={content.texts.features.card4.subtitle}
+                title={t("features.card4.title")}
+                paragraph={t("features.card4.subtitle")}
                 colorMode={colorMode}
               >
                 <ServicesModal />

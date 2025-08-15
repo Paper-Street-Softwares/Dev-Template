@@ -2,21 +2,21 @@ import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
-import { X } from "lucide-react";
-
 import {
-  HelpCircle,
+  X,
   HomeIcon,
-  ServerIcon,
   UserSearch,
+  ServerIcon,
+  HelpCircle,
   AlignJustify,
 } from "lucide-react";
-import { MapPinCheck } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import content from "../../content/content";
 
 export default function SidebarSocial({ colorMode, mode = "blog" }) {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrolled, setScrolled] = useState(false);
@@ -24,31 +24,25 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
   const toggleSidebar = () => setVisible(!visible);
 
   useEffect(() => {
-    const allIds = content.texts.navbar.menuId || [];
+    const menuItemsObj = t("navbar.menuItems", { returnObjects: true }) || {};
+    const allIds = Object.keys(menuItemsObj);
+    const paired = allIds.map((id) => ({
+      id,
+      label: menuItemsObj[id], // label já traduzido via t()
+    }));
 
     if (mode === "site") {
-      // Modo site → todos os links
-      setVisibleSections(allIds);
+      setVisibleSections(paired);
     } else {
-      // Modo blog → só os que existem no DOM
-      const existing = allIds.filter((id) => document.getElementById(id));
+      const existing = paired.filter(({ id }) => !!document.getElementById(id));
       setVisibleSections(existing);
     }
-  }, [mode]);
+  }, [mode, t]);
 
-  const icons = [
-    <HomeIcon />,
-    <UserSearch />,
-    <ServerIcon />,
-    // <FileText />,
-    <HelpCircle />,
-
-    // <MapPinCheck />,
-  ];
+  const icons = [<HomeIcon />, <UserSearch />, <ServerIcon />, <HelpCircle />];
 
   return (
     <div className="inset-0 z-10 flex">
-      {/* Fundo escuro ao abrir */}
       <div
         className={`${
           visible ? "block" : "hidden"
@@ -57,19 +51,13 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
       />
 
       <div className="flex justify-center card">
-        {/* Botão de menu hamburguer */}
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            colorMode
-              ? scrolled
-                ? "text-primary"
-                : "text-primary"
-              : "text-primary"
+            colorMode ? "text-primary" : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
 
-        {/* Sidebar */}
         <Sidebar
           visible={visible}
           className="w-[280px]"
@@ -85,12 +73,11 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
               style={{ width: "280px" }}
             >
               <div className="flex flex-col h-full">
-                {/* Logo e botão de fechar */}
-                <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6 ">
+                <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6">
                   <span className="inline-flex items-center gap-2">
                     <img
-                      src={content.texts.navbar.solidLogo.img}
-                      alt={content.texts.navbar.solidLogo.alt}
+                      src={content.texts.navbar.solidLogo.img} 
+                      alt={content.texts.navbar.solidLogo.alt} 
                       className="w-auto h-auto p-[5px]"
                     />
                   </span>
@@ -110,55 +97,46 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                   </span>
                 </div>
 
-                {/* Links */}
                 <div className="h-screen overflow-y-auto">
                   <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       <ul
-                        className={`${
-                          colorMode
-                            ? "text-primary"
-                            : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-primary"
-                        } list-none text-paragraph3 font-mainFont`}
+                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-primary list-none text-paragraph3 font-mainFont`}
                       >
-                        {visibleSections.map((id, index) => {
-                          const label = content.texts.navbar.menuItems[index];
-
-                          return (
-                            <li key={id}>
-                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                {icons[index]}
-                                <span className="ml-[8px]">
-                                  {mode === "site" ? (
-                                    <RouterLink
-                                      to={
-                                        id === "inicio"
-                                          ? "/"
-                                          : `/${id.toLowerCase()}`
-                                      }
-                                      className="align-text-top cursor-pointer"
-                                    >
-                                      {label}
-                                    </RouterLink>
-                                  ) : (
-                                    <ScrollLink
-                                      to={id}
-                                      spy={true}
-                                      smooth={true}
-                                      duration={500}
-                                      offset={-70}
-                                      className="align-text-top cursor-pointer"
-                                    >
-                                      {label}
-                                    </ScrollLink>
-                                  )}
-                                </span>
-                                <Ripple />
-                              </a>
-                            </li>
-                          );
-                        })}
+                        {visibleSections.map(({ id, label }, index) => (
+                          <li key={id}>
+                            <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                              {icons[index] || <HelpCircle />}
+                              <span className="ml-[8px]">
+                                {mode === "site" ? (
+                                  <RouterLink
+                                    to={
+                                      id === "inicio"
+                                        ? "/"
+                                        : `/${id.toLowerCase()}`
+                                    }
+                                    className="align-text-top cursor-pointer"
+                                  >
+                                    {label}
+                                  </RouterLink>
+                                ) : (
+                                  <ScrollLink
+                                    to={id}
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-70}
+                                    className="align-text-top cursor-pointer"
+                                  >
+                                    {label}
+                                  </ScrollLink>
+                                )}
+                              </span>
+                              <Ripple />
+                            </a>
+                          </li>
+                        ))}
                       </ul>
                     </li>
                   </ul>

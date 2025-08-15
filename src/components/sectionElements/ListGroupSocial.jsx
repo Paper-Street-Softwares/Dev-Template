@@ -1,33 +1,37 @@
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink, useLocation } from "react-router-dom";
-import content from "../../content/content";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
+import { useTranslation } from "react-i18next";
 
 export default function ListGroupSocial({
   colorMode = "default",
   mode = "blog",
 }) {
+  const { t } = useTranslation();
   const [visibleSections, setVisibleSections] = useState([]);
   const location = useLocation();
 
   useEffect(() => {
-    const allIds = content.texts.navbar.menuId || [];
-    const allLabels = content.texts.navbar.menuItems || [];
+    // IDs do menu (mesma ordem do pt.json)
+    const allIds = ["inicio", "service", "about", "faq"];
 
-    const paired = allIds.map((id, index) => ({
+    // Pega labels direto do pt.json via i18next
+    const allLabels = t("navbar.menuItems", { returnObjects: true });
+
+    // Cria array com id + label
+    const paired = allIds.map((id) => ({
       id,
-      label: allLabels[index] || id,
+      label: allLabels[id] || id, // fallback para id se não achar
     }));
 
-    // No modo site, vamos mostrar todos sem depender do DOM
     if (mode === "site") {
       setVisibleSections(paired);
     } else {
       const filtered = paired.filter(({ id }) => !!document.getElementById(id));
       setVisibleSections(filtered);
     }
-  }, [mode]);
+  }, [mode, t]);
 
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
@@ -62,7 +66,6 @@ export default function ListGroupSocial({
           className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center"
         >
           {mode === "blog" ? (
-            // Comportamento atual (scroll suave)
             <ScrollLink
               to={id}
               className="relative font-semibold cursor-pointer"
@@ -81,7 +84,6 @@ export default function ListGroupSocial({
               />
             </ScrollLink>
           ) : (
-            // Novo comportamento (links fixos que mudam de página)
             <RouterLink
               to={id === "inicio" ? "/" : `/${id.toLowerCase()}`}
               className="relative font-semibold cursor-pointer"
@@ -89,7 +91,7 @@ export default function ListGroupSocial({
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                {label}
+                {label} {/* <-- label do pt.json */}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
@@ -103,8 +105,8 @@ export default function ListGroupSocial({
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
-            aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label="Contato"
+            aria-label={t("hero.ctaButtonAriaLabel")}
+            label={t("navbar.ctaButtonTextResponsive")}
             className=""
             textclassName="text-paragraph3"
             size="small"

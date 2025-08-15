@@ -1,9 +1,11 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
 import { MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-function AdressFooter({ showSecond = false }) {
+function AdressFooter({ showSecond = true }) {
+  const { t } = useTranslation(); // <-- aqui você pega a função t
+
   return (
     <>
       {/* Endereço principal */}
@@ -12,7 +14,7 @@ function AdressFooter({ showSecond = false }) {
           <div>
             <MapPin />
           </div>
-          <p>{content.texts.infos.adress}</p>
+          <p>{t("infos.adress")}</p>
         </div>
       </MotionDivDownToUp>
 
@@ -23,7 +25,7 @@ function AdressFooter({ showSecond = false }) {
             <div>
               <MapPin />
             </div>
-            <p>{content.texts.infos.adressSecundario}</p>
+            <p>{t("infos.adressSecundario")}</p>
           </div>
         </MotionDivDownToUp>
       )}

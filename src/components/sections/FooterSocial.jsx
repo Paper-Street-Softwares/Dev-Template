@@ -15,13 +15,7 @@ import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
 import FooterSocialIcons from "../sectionElements/footer/FooterSocialIcons.jsx";
 
-export default function FooterSocial({
-  colorMode,
-  addres,
-  obs,
-
-  mode,
-}) {
+export default function FooterSocial({ colorMode, addres, obs, mode }) {
   // Define estilos com base no colorMode
   let footerBackground = "";
   let textColor = "";
@@ -49,6 +43,7 @@ export default function FooterSocial({
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
           <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
+            {/* Coluna 1 */}
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <LogoFooter />
               <PhoneFooter colorMode={colorMode} />
@@ -58,19 +53,22 @@ export default function FooterSocial({
               {obs && <ObsFooter />}
             </div>
 
+            {/* Coluna 2 */}
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MidTextFooter />
               <ParagrapfFooter />
               <MotionDivDownToUp>
-                <p className="opacity-90">{content.texts.footerSocialText}</p>
+                {/* Aqui os textos foram atualizados */}
+                <p className="opacity-90">
+                  {content.texts.footerSocialTextNew}
+                </p>
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
-                    {/* Redes Sociais */}
                     <FooterSocialIcons
                       instagram={true}
-                      facebook={false}
+                      facebook={true}
                       linkedin={true}
-                      tiktok={false}
+                      tiktok={true}
                       x={false}
                     />
                   </div>
@@ -78,6 +76,7 @@ export default function FooterSocial({
               </MotionDivDownToUp>
             </div>
 
+            {/* Coluna 3 */}
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <NavegationTextFooter />
               <LinksNavegationFooter mode={mode} />

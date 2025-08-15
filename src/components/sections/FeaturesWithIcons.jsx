@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
@@ -6,6 +7,8 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesWithIcons({ colorMode }) {
+  const { t } = useTranslation();
+
   // Define background and text colors based on colorMode
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -22,16 +25,15 @@ export default function FeaturesWithIcons({ colorMode }) {
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea id="service" className={`${bgClass} `} paddingbot={true}>
+    <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
       <SectionHeader
         className={`text-center ${textClass}`}
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
+        miniTitle={t("features.miniTag")}
+        sectionHeaderTitle={t("features.title")}
+        sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode="dark"
-        
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
@@ -39,8 +41,8 @@ export default function FeaturesWithIcons({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
-                title={content.texts.features.card1.title}
-                paragraph={content.texts.features.card1.subtitle}
+                title={t("features.card1.title")}
+                paragraph={t("features.card1.subtitle")}
                 className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
                 colorMode={colorMode}
               />
@@ -48,8 +50,8 @@ export default function FeaturesWithIcons({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card2.icon}
-                title={content.texts.features.card2.title}
-                paragraph={content.texts.features.card2.subtitle}
+                title={t("features.card2.title")}
+                paragraph={t("features.card2.subtitle")}
                 className={textClass}
                 colorMode={colorMode}
               />
@@ -69,8 +71,8 @@ export default function FeaturesWithIcons({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
+                title={t("features.card3.title")}
+                paragraph={t("features.card3.subtitle")}
                 className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
                 colorMode={colorMode}
               />
@@ -78,8 +80,8 @@ export default function FeaturesWithIcons({ colorMode }) {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card4.icon}
-                title={content.texts.features.card4.title}
-                paragraph={content.texts.features.card4.subtitle}
+                title={t("features.card4.title")}
+                paragraph={t("features.card4.subtitle")}
                 className={textClass}
                 colorMode={colorMode}
               />

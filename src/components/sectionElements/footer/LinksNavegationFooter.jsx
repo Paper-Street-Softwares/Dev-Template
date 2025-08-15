@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
+import { useTranslation } from "react-i18next";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
 function LinksNavegationFooter({ mode = "blog" }) {
+  const { t } = useTranslation();
   const [visibleLinks, setVisibleLinks] = useState([]);
 
   useEffect(() => {
-    const allIds = content.texts.navbar.menuId || [];
-    const allLabels = content.texts.navbar.menuItems || [];
+    const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
+
+    const allIds = Object.keys(menuItems); // ["home", "service", "about", "faq"]
+    const allLabels = Object.values(menuItems); // ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"]
 
     const paired = allIds.map((id, index) => ({
       id,
@@ -17,21 +20,17 @@ function LinksNavegationFooter({ mode = "blog" }) {
     }));
 
     if (mode === "site") {
-      // No modo site → sempre mostra todos os links
       setVisibleLinks(paired);
     } else {
-      // No modo blog → só mostra seções que existem no DOM
       const filtered = paired.filter(({ id }) => !!document.getElementById(id));
       setVisibleLinks(filtered);
     }
-  }, [mode]);
+  }, [mode, t]);
 
-  // Divide os links em duas colunas
   const half = Math.ceil(visibleLinks.length / 2);
   const firstHalf = visibleLinks.slice(0, half);
   const secondHalf = visibleLinks.slice(half);
 
-  // Função para renderizar o link correto conforme mode
   const renderLink = (id, label) => {
     if (mode === "blog") {
       return (
