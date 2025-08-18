@@ -57,10 +57,10 @@ export default function Index() {
       <Features
         colorMode={colorMode}
         defaultFeature={false}
-        button={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={false}
+        sixCards={true}
         paragraphsModal={false}
       />
 
@@ -71,14 +71,7 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial
-        colorMode={colorMode}
-        addresSecundario={true}
-        phoneTerciario={false}
-        expedientesecond={false}
-        addres={true}
-        obs={true}
-      />
+      <FooterSocial colorMode={colorMode} addres={false} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>

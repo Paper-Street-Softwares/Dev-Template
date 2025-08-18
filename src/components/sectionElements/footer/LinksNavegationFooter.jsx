@@ -11,7 +11,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
   useEffect(() => {
     const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
 
-    const allIds = Object.keys(menuItems); // ["home", "service", "about", "faq"]
+    const allIds = Object.keys(menuItems); // ["inicio", "service", "about", "faq"]
     const allLabels = Object.values(menuItems); // ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"]
 
     const paired = allIds.map((id, index) => ({
@@ -19,13 +19,9 @@ function LinksNavegationFooter({ mode = "blog" }) {
       label: allLabels[index] || id,
     }));
 
-    if (mode === "site") {
-      setVisibleLinks(paired);
-    } else {
-      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
-      setVisibleLinks(filtered);
-    }
-  }, [mode, t]);
+    // Agora SEM filtro -> mostra sempre todos os links
+    setVisibleLinks(paired);
+  }, [t]);
 
   const half = Math.ceil(visibleLinks.length / 2);
   const firstHalf = visibleLinks.slice(0, half);

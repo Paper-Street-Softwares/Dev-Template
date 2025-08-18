@@ -1,6 +1,6 @@
 {
   "infos": {
-    "name": "Dr. Silvano Sabino",
+    "name": "A_Definir",
     "email": "A_Definir",
     "emailSecundario": "A_Definir",
     "emailThree": "A_Definir",
@@ -46,57 +46,57 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADA EM  HORTOLÂNDIA - SP",
+    "title": "E se amanhã for <span class=\"text-primary font-bold\">tarde demais?</span>",
+    "subtitle": "Na defesa criminal, cada minuto conta. Sua liberdade pode depender da decisão que você toma agora.",
+    "ctaButtonText": "Fale agora com especialista",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial com marcação prévia e online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADE",
+    "title": "Excelência na defesa dos seus direitos",
+    "subtitle": "Atuação estratégica em cada etapa do processo criminal.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Defesa Criminal",
+      "subtitle": "Proteção estratégica contra acusações criminais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa firme e convincente perante jurados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Execução Penal",
+      "subtitle": "Acompanhamento e revisão da pena aplicada.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Prisão em Flagrante",
+      "subtitle": "Ação rápida para garantir seus direitos legais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Recursos e Revisão Criminal",
+      "subtitle": "Contestação de sentenças para mudar resultados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "<i>Habeas Corpus</i>",
+      "subtitle": "Liberdade imediata contra prisões ilegais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -112,25 +112,21 @@
     "imagem": {
       "alt": "A_Definir"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "labelInstagram": "A_Definir",
-    "labelFacebook": "A_Definir",
-    "labelLinkedin": "A_Definir",
-    "labelX": "A_Definir",
-    "paragraph": "A_Definir",
-    "buttonModalLabelAbout": "A_Definir",
-    "modal": "A_Definir",
-    "ctaButtonAriaLabel": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "QUEM É A DRA. CÍNTIA CASTRO",
+    "title": "Minha trajetória",
+    "subtitle": "Especialista em execução penal com atuação próxima e humanizada.",
+    "paragraph": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.",
+    "buttonModalLabelAbout": "Continuar lendo",
+    "modal": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.<br><br>Meu diferencial está no atendimento único, humanizado e individualizado, com foco total na garantia dos direitos e liberdade de cada cliente. Mantenho sempre clientes e familiares informados sobre o processo, de forma clara e transparente.<br><br>Na Execução Penal, estou quase diariamente dentro das unidades prisionais, fortalecendo o contato direto e resolvendo questões de forma prática e ágil, muitas vezes pela via administrativa, garantindo resultados mais rápidos.",
+    "ctaButtonAriaLabel": "",
+    "ctaButtonText": "Entre em Contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
-      "labelFacebook": "A_Definir",
-      "labelLinkedin": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito penal.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no LinkedIn",
       "labelX": "A_Definir"
     }
   },
@@ -141,35 +137,35 @@
     "ctaButtonText": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "A_Definir",
-    "subtitleDireita": "A_Definir",
-    "titleDireita": "A_Definir",
-    "ctaButtonText": "A_Definir"
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Entre em Contato"
   },
   "steps": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "PASSO A PASSO",
+    "title": "Como funciona nosso atendimento?",
+    "subtitle": "Consulta inicial",
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "A_Definir",
-        "cardDescription": "A_Definir"
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "A_Definir",
-        "cardDescription": "A_Definir"
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "A_Definir",
-        "cardDescription": "A_Definir"
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "A_Definir",
-        "cardDescription": "A_Definir"
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -182,28 +178,28 @@
     "blogLink": "A_Definir"
   },
   "faq": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "TIRE SUAS DÚVIDAS",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "A_Definir",
-        "answer": "A_Definir"
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "A_Definir",
-        "answer": "A_Definir"
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "A_Definir",
-        "answer": "A_Definir"
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "A_Definir",
-        "answer": "A_Definir"
+        "question": "Você realiza atendimento em casos de prisão em flagrante?",
+        "answer": "Sim. Atuo de forma imediata para garantir que todos os seus direitos sejam respeitados desde o primeiro momento da prisão, buscando a solução mais rápida possível."
       }
     },
-    "paragraph": "A_Definir"
+    "paragraph": "Clique aqui caso tenha mais dúvidas"
   },
   "footer": {
     "copyrightLine": "A_Definir",
