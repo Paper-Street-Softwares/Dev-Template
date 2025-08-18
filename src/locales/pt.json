@@ -10,12 +10,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "a_Definir",
-    "title": "a_Definir <span class=\"text-primary font-bold\">a_Definir</span>",
-    "subtitle": "a_Definir",
-    "ctaButtonText": "a_Definir",
+    "miniTag": "ADVOGADA CRIMINALISTA EM GUARULHOS - SP",
+    "title": "Justiça rápida, onde ninguém mais <span class=\"text-primary font-bold\">chega</span>",
+    "subtitle": "Defesa criminal estratégica, humanizada e sem barreiras, pronta para agir a qualquer momento.",
+    "ctaButtonText": "Garanta sua defesa agora",
     "obsHero": {
-      "text": "a_Definir"
+      "text": "Atendimento 24 em casos de prisão em flagrante."
     }
   },
   "features": {
