@@ -56,8 +56,8 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
-        button={true}
+        defaultFeature={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
