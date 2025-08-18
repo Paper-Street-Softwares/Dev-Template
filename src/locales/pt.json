@@ -137,10 +137,10 @@
     "ctaButtonText": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "A_Definir",
-    "subtitleDireita": "A_Definir",
-    "titleDireita": "A_Definir",
-    "ctaButtonText": "A_Definir"
+    "title": "Dúvidas? Entre em contato conosco para podermos lhe ajudar, estamos te esperando.",
+    "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
+    "titleDireita": "WhatsApp",
+    "ctaButtonText": "Entre em Contato"
   },
   "steps": {
     "miniTag": "A_Definir",
