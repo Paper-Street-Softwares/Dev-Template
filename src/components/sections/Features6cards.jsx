@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
@@ -24,6 +24,16 @@ export default function Features6cards({ colorMode }) {
 
   const cardNumbers = [1, 2, 3, 4, 5, 6];
 
+  // Função para renderizar título, usando Trans para o card6
+  const renderTitle = (i) => {
+    if (i === 6) {
+      return (
+        <Trans i18nKey={`features.card${i}.title`} components={{ i: <i /> }} />
+      );
+    }
+    return t(`features.card${i}.title`);
+  };
+
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
@@ -42,7 +52,7 @@ export default function Features6cards({ colorMode }) {
               <MotionDivDownToUp key={i}>
                 <IconFeatureCard
                   icon={content.texts.features[`card${i}`].icon}
-                  title={t(`features.card${i}.title`)}
+                  title={renderTitle(i)}
                   paragraph={t(`features.card${i}.subtitle`)}
                   className={
                     i === 1 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
@@ -68,13 +78,13 @@ export default function Features6cards({ colorMode }) {
                 key={i}
                 className={
                   i === 4
-                    ? " flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
+                    ? "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
                     : undefined
                 }
               >
                 <IconFeatureCard
                   icon={content.texts.features[`card${i}`].icon}
-                  title={t(`features.card${i}.title`)}
+                  title={renderTitle(i)}
                   paragraph={t(`features.card${i}.subtitle`)}
                   className={
                     i === 4 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
