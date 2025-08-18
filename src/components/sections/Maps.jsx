@@ -2,11 +2,13 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import content from "../../content/content";
 import SectionHeader from "../sectionElements/SectionHeader";
 
 export default function Maps({ colorMode }) {
+  const { t } = useTranslation(); // Hook de tradução
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -31,9 +33,9 @@ export default function Maps({ colorMode }) {
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
             className="text-center"
-            miniTitle={content.texts.maps.minitag}
-            sectionHeaderTitle={content.texts.maps.title}
-            sectionHeaderSubtitle={content.texts.maps.subtitle}
+            miniTitle={t("maps.minitag")}
+            sectionHeaderTitle={t("maps.title")}
+            sectionHeaderSubtitle={t("maps.subtitle")}
             color="dark"
             type=""
             titleColorSet={titleColor}
@@ -42,7 +44,7 @@ export default function Maps({ colorMode }) {
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
-                src={content.texts.maps.embedsrc}
+                src={t("maps.embedsrc")}
                 width="100%"
                 height=""
                 style={{ border: 0 }}
