@@ -17,7 +17,7 @@ import Button from "../components/interactives/Button";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "light";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -70,8 +70,8 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial colorMode={colorMode} addres={false} obs={false} />
+      <Maps colorMode={colorMode} />
+      <FooterSocial colorMode={colorMode} addres={true} obs={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>

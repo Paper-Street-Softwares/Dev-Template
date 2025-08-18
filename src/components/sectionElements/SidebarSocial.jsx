@@ -9,6 +9,7 @@ import {
   ServerIcon,
   HelpCircle,
   AlignJustify,
+  MapPin,
 } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
@@ -39,7 +40,13 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     }
   }, [mode, t]);
 
-  const icons = [<HomeIcon />, <UserSearch />, <ServerIcon />, <HelpCircle />];
+  const icons = [
+    <HomeIcon />,
+    <UserSearch />,
+    <ServerIcon />,
+    <HelpCircle />,
+    <MapPin />,
+  ];
 
   return (
     <div className="inset-0 z-10 flex">
@@ -76,8 +83,8 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                 <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6">
                   <span className="inline-flex items-center gap-2">
                     <img
-                      src={content.texts.navbar.solidLogo.img} 
-                      alt={content.texts.navbar.solidLogo.alt} 
+                      src={content.texts.navbar.solidLogo.img}
+                      alt={content.texts.navbar.solidLogo.alt}
                       className="w-auto h-auto p-[5px]"
                     />
                   </span>

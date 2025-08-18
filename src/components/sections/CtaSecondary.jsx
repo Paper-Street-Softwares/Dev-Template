@@ -97,7 +97,7 @@ export default function CtaSecondary({ colorMode = "default" }) {
                 </svg>
               }
               color="bg-primary"
-              labelColor="text-secondary"
+              labelColor="text-labelButtons"
             />
           </div>
         </div>

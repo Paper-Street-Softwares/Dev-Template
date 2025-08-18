@@ -1,6 +1,7 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
+import content from "../../../content/content";
 
 function ObsFooter() {
   const { t } = useTranslation(); // <-- pega a função t
@@ -26,7 +27,7 @@ function ObsFooter() {
           </svg>
         </div>
 
-        <p>{t("infos.obs")}</p>
+        <p>{content.texts.infos.obsFooter}</p>
       </div>
     </MotionDivDownToUp>
   );

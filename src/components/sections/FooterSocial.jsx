@@ -67,8 +67,8 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
                     <FooterSocialIcons
                       instagram={true}
                       facebook={true}
-                      linkedin={true}
-                      tiktok={false}
+                      linkedin={false}
+                      tiktok={true}
                       x={false}
                     />
                   </div>

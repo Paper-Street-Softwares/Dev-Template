@@ -1,132 +1,98 @@
 {
-  "infos": {
-    "name": "A_Definir",
-    "email": "A_Definir",
-    "emailSecundario": "A_Definir",
-    "emailThree": "A_Definir",
-    "emailFour": "A_Definir",
-    "emailFive": "A_Definir",
-    "domain": "A_Definir",
-    "phone": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "phoneSecundario": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "phoneTerciario": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "adress": "A_Definir",
-    "adressSecundario": "A_Definir",
-    "expediente": "A_Definir",
-    "expedienteSecundario": "A_Definir",
-    "obs": "A_Definir",
-    "instagramProfile": "A_Definir",
-    "facebookProfile": "A_Definir",
-    "linkeDinProfile": "A_Definir",
-    "x": "A_Definir",
-    "whatsappDefaultMessage": "A_Definir",
-    "whatsChatDefaultMessage": "A_Definir",
-    "slogan": "A_Definir"
-  },
   "navbar": {
     "menuItems": {
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes"
+      "faq": "Perguntas Frequentes",
+      "maps": "Mapa"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA EM  HORTOLÂNDIA - SP",
-    "title": "E se amanhã for <span class=\"text-primary font-bold\">tarde demais?</span>",
-    "subtitle": "Na defesa criminal, cada minuto conta. Sua liberdade pode depender da decisão que você toma agora.",
-    "ctaButtonText": "Fale agora com especialista",
+    "miniTag": "ADVOGADA CRIMINALISTA EM GUARULHOS - SP",
+    "title": "Justiça rápida, onde ninguém mais <span class=\"text-primary font-bold\">chega</span>",
+    "subtitle": "Defesa criminal estratégica, humanizada e sem barreiras, pronta para agir a qualquer momento.",
+    "ctaButtonText": "Garanta sua defesa agora",
     "obsHero": {
-      "text": "Atendimento presencial com marcação prévia e online para todo Brasil."
+      "text": "Atendimento 24 em casos de prisão em flagrante."
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADE",
-    "title": "Excelência na defesa dos seus direitos",
-    "subtitle": "Atuação estratégica em cada etapa do processo criminal.",
+    "miniTag": "ATUAÇÃO",
+    "title": "Onde a experiência encontra a justiça",
+    "subtitle": "Atuamos de forma estratégica e humana em cada caso, garantindo proteção e resultados.",
     "card1": {
-      "title": "Defesa Criminal",
-      "subtitle": "Proteção estratégica contra acusações criminais.",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa estratégica em julgamentos de grande impacto.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Tribunal do Júri",
-      "subtitle": "Defesa firme e convincente perante jurados.",
+      "title": "Violência Doméstica",
+      "subtitle": "Proteção legal e orientação em casos de abusos familiares.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Execução Penal",
-      "subtitle": "Acompanhamento e revisão da pena aplicada.",
+      "title": "Flagrantes e Audiência de Custódia",
+      "subtitle": "Acompanhamento jurídico imediato para detenções.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Prisão em Flagrante",
-      "subtitle": "Ação rápida para garantir seus direitos legais.",
+      "title": "Lei de drogas",
+      "subtitle": "Defesa especializada em processos ligados a drogas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Recursos e Revisão Criminal",
-      "subtitle": "Contestação de sentenças para mudar resultados.",
+      "title": "Grandes Operações",
+      "subtitle": "Atuação em investigações complexas e operações.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "<i>Habeas Corpus</i>",
-      "subtitle": "Liberdade imediata contra prisões ilegais.",
+      "title": "Defesa Criminal",
+      "subtitle": "Protegendo direitos em qualquer situação criminal.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "embedsrc": "A_Definir"
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Guarulhos - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "embedsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.905613461239!2d-46.545077!3d-23.4515837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5101e3876fd%3A0xc7f92e395c146cb0!2sR.%20Santo%20Cristo%2C%2048%20-%20sala%201%20-%20Vila%20Fiuza%2C%20Guarulhos%20-%20SP%2C%2007094-150!5e1!3m2!1spt-BR!2sbr!4v1755548402136!5m2!1spt-BR!2sbr"
   },
   "about": {
     "imagem": {
       "alt": "A_Definir"
     },
-    "miniTag": "QUEM É A DRA. CÍNTIA CASTRO",
+    "miniTag": "QUEM É A DRA. CLAUDIA FERREIRA",
     "title": "Minha trajetória",
-    "subtitle": "Especialista em execução penal com atuação próxima e humanizada.",
-    "paragraph": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.",
+    "subtitle": "Advogada criminal desde 1997, vencendo preconceitos e garantindo justiça.",
+    "paragraph": "Sou uma advogada preta, formada em 1997, com ampla experiência em direito criminal, especialmente em execução criminal. <br/> Ao longo da minha carreira, enfrento e supero preconceitos diariamente, sempre focando em resultados concretos e na defesa justa dos meus clientes.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "modal": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.<br><br>Meu diferencial está no atendimento único, humanizado e individualizado, com foco total na garantia dos direitos e liberdade de cada cliente. Mantenho sempre clientes e familiares informados sobre o processo, de forma clara e transparente.<br><br>Na Execução Penal, estou quase diariamente dentro das unidades prisionais, fortalecendo o contato direto e resolvendo questões de forma prática e ágil, muitas vezes pela via administrativa, garantindo resultados mais rápidos.",
+    "modal": "Sou uma advogada preta, formada em 1997, com ampla experiência em direito criminal, especialmente em execução criminal. <br/> <br/> Ao longo da minha carreira, enfrento e supero preconceitos diariamente, sempre focando em resultados concretos e na defesa justa dos meus clientes. <br/><br/> Ofereço atendimento humanizado, sigiloso e transparente, tanto presencial quanto online, em todo o Brasil. <br/><br/> Priorizo a comunicação com famílias de presos, acesso aos processos, agilidade em flagrantes e dedicação exclusiva a cada caso, garantindo suporte em todos os momentos. <br/> <br/>Atuo com rapidez em situações complexas como prisões indevidas, progressão de regime ou audiências de custódia.<br/> <br/> Acompanhamento diário pelo nosso sistema operacional, despachos com juízes e diretores de unidades, e petições objetivas garantem atenção máxima às demandas de cada cliente.   ",
     "ctaButtonAriaLabel": "",
-    "ctaButtonText": "Entre em Contato",
+    "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito penal.",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no LinkedIn",
+      "labeltiktok": "Siga-me no TikTok",
       "labelX": "A_Definir"
     }
   },
@@ -145,7 +111,7 @@
   "steps": {
     "miniTag": "PASSO A PASSO",
     "title": "Como funciona nosso atendimento?",
-    "subtitle": "Consulta inicial",
+    "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
@@ -195,18 +161,10 @@
         "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Você realiza atendimento em casos de prisão em flagrante?",
-        "answer": "Sim. Atuo de forma imediata para garantir que todos os seus direitos sejam respeitados desde o primeiro momento da prisão, buscando a solução mais rápida possível."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
-  },
-  "footer": {
-    "copyrightLine": "A_Definir",
-    "footerDivulgacaoText": "A_Definir",
-    "midSectionName": "Até mais",
-    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-    "footerSocialText": "Siga a gente nas redes sociais:",
-    "footerNavegacaoText": "NAVEGAÇÃO"
   }
 }

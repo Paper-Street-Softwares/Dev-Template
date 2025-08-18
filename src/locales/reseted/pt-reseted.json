@@ -1,6 +1,6 @@
 {
   "infos": {
-    "name": "Dr. Silvano Sabino",
+    "name": "A_Definir",
     "email": "A_Definir",
     "emailSecundario": "A_Definir",
     "emailThree": "A_Definir",
@@ -119,11 +119,10 @@
     "labelFacebook": "A_Definir",
     "labelLinkedin": "A_Definir",
     "labelX": "A_Definir",
-    "paragraph": "A_Definir",
-    "buttonModalLabelAbout": "A_Definir",
-    "modal": "A_Definir",
-    "ctaButtonAriaLabel": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "buttonModalLabelAbout": "Continuar lendo",
+    "modal": "a_Definir",
+    "ctaButtonAriaLabel": "",
+    "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "A_Definir",
       "title": "A_Definir",
@@ -204,13 +203,5 @@
       }
     },
     "paragraph": "A_Definir"
-  },
-  "footer": {
-    "copyrightLine": "A_Definir",
-    "footerDivulgacaoText": "A_Definir",
-    "midSectionName": "Até mais",
-    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-    "footerSocialText": "Siga a gente nas redes sociais:",
-    "footerNavegacaoText": "NAVEGAÇÃO"
   }
 }
