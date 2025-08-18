@@ -19,48 +19,48 @@
     }
   },
   "features": {
-    "miniTag": "a_Definir",
-    "title": "a_Definir",
-    "subtitle": "a_Definir",
+    "miniTag": "ATUAÇÃO",
+    "title": "Onde a experiência encontra a justiça",
+    "subtitle": "Atuamos de forma estratégica e humana em cada caso, garantindo proteção e resultados.",
     "card1": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa estratégica em julgamentos de grande impacto.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Violência Doméstica",
+      "subtitle": "Proteção legal e orientação em casos de abusos familiares.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Flagrantes e Audiência de Custódia",
+      "subtitle": "Acompanhamento jurídico imediato para detenções.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Lei de drogas",
+      "subtitle": "Defesa especializada em processos ligados a drogas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Grandes Operações",
+      "subtitle": "Atuação em investigações complexas e operações.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "a_Definir",
-      "subtitle": "a_Definir",
+      "title": "Defesa Criminal",
+      "subtitle": "Protegendo direitos em qualquer situação criminal.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
