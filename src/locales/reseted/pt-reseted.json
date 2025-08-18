@@ -1,6 +1,6 @@
 {
   "infos": {
-    "name": "Dr. Silvano Sabino",
+    "name": "A_Definir",
     "email": "A_Definir",
     "emailSecundario": "A_Definir",
     "emailThree": "A_Definir",
@@ -204,13 +204,5 @@
       }
     },
     "paragraph": "A_Definir"
-  },
-  "footer": {
-    "copyrightLine": "A_Definir",
-    "footerDivulgacaoText": "A_Definir",
-    "midSectionName": "Até mais",
-    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-    "footerSocialText": "Siga a gente nas redes sociais:",
-    "footerNavegacaoText": "NAVEGAÇÃO"
   }
 }

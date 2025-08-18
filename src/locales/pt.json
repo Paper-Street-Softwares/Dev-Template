@@ -1,40 +1,4 @@
 {
-  "infos": {
-    "name": "A_Definir",
-    "email": "A_Definir",
-    "emailSecundario": "A_Definir",
-    "emailThree": "A_Definir",
-    "emailFour": "A_Definir",
-    "emailFive": "A_Definir",
-    "domain": "A_Definir",
-    "phone": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "phoneSecundario": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "phoneTerciario": {
-      "ddd": "A_Definir",
-      "firstPart": "A_Definir",
-      "secondPart": "A_Definir"
-    },
-    "adress": "A_Definir",
-    "adressSecundario": "A_Definir",
-    "expediente": "A_Definir",
-    "expedienteSecundario": "A_Definir",
-    "obs": "A_Definir",
-    "instagramProfile": "A_Definir",
-    "facebookProfile": "A_Definir",
-    "linkeDinProfile": "A_Definir",
-    "x": "A_Definir",
-    "whatsappDefaultMessage": "A_Definir",
-    "whatsChatDefaultMessage": "A_Definir",
-    "slogan": "A_Definir"
-  },
   "navbar": {
     "menuItems": {
       "home": "Início",
@@ -46,57 +10,57 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA EM  HORTOLÂNDIA - SP",
-    "title": "E se amanhã for <span class=\"text-primary font-bold\">tarde demais?</span>",
-    "subtitle": "Na defesa criminal, cada minuto conta. Sua liberdade pode depender da decisão que você toma agora.",
-    "ctaButtonText": "Fale agora com especialista",
+    "miniTag": "a_Definir",
+    "title": "a_Definir <span class=\"text-primary font-bold\">a_Definir</span>",
+    "subtitle": "a_Definir",
+    "ctaButtonText": "a_Definir",
     "obsHero": {
-      "text": "Atendimento presencial com marcação prévia e online para todo Brasil."
+      "text": "a_Definir"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADE",
-    "title": "Excelência na defesa dos seus direitos",
-    "subtitle": "Atuação estratégica em cada etapa do processo criminal.",
+    "miniTag": "a_Definir",
+    "title": "a_Definir",
+    "subtitle": "a_Definir",
     "card1": {
-      "title": "Defesa Criminal",
-      "subtitle": "Proteção estratégica contra acusações criminais.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Tribunal do Júri",
-      "subtitle": "Defesa firme e convincente perante jurados.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Execução Penal",
-      "subtitle": "Acompanhamento e revisão da pena aplicada.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Prisão em Flagrante",
-      "subtitle": "Ação rápida para garantir seus direitos legais.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Recursos e Revisão Criminal",
-      "subtitle": "Contestação de sentenças para mudar resultados.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "<i>Habeas Corpus</i>",
-      "subtitle": "Liberdade imediata contra prisões ilegais.",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -112,18 +76,18 @@
     "imagem": {
       "alt": "A_Definir"
     },
-    "miniTag": "QUEM É A DRA. CÍNTIA CASTRO",
-    "title": "Minha trajetória",
-    "subtitle": "Especialista em execução penal com atuação próxima e humanizada.",
-    "paragraph": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.",
-    "buttonModalLabelAbout": "Continuar lendo",
-    "modal": "Advogo há mais de 6 anos, com pós-graduação em Direito Penal e Processual Penal, além de especialização em Execução Penal. Atualmente, também sou pós-graduanda em Tribunal do Júri.<br><br>Meu diferencial está no atendimento único, humanizado e individualizado, com foco total na garantia dos direitos e liberdade de cada cliente. Mantenho sempre clientes e familiares informados sobre o processo, de forma clara e transparente.<br><br>Na Execução Penal, estou quase diariamente dentro das unidades prisionais, fortalecendo o contato direto e resolvendo questões de forma prática e ágil, muitas vezes pela via administrativa, garantindo resultados mais rápidos.",
+    "miniTag": "a_Definir",
+    "title": "a_Definir",
+    "subtitle": "a_Definir",
+    "paragraph": "a_Definir",
+    "buttonModalLabelAbout": "a_Definir",
+    "modal": "a_Definir",
     "ctaButtonAriaLabel": "",
-    "ctaButtonText": "Entre em Contato",
+    "ctaButtonText": "a_Definir",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito penal.",
+      "miniTag": "a_Definir",
+      "title": "a_Definir",
+      "subtitle": "a_Definir",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no LinkedIn",
@@ -143,29 +107,29 @@
     "ctaButtonText": "Entre em Contato"
   },
   "steps": {
-    "miniTag": "PASSO A PASSO",
-    "title": "Como funciona nosso atendimento?",
-    "subtitle": "Consulta inicial",
+    "miniTag": "a_Definir",
+    "title": "a_Definir",
+    "subtitle": "a_Definir",
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "a_Definir",
+        "cardDescription": "a_Definir"
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "a_Definir",
+        "cardDescription": "a_Definir"
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "a_Definir",
+        "cardDescription": "a_Definir"
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "a_Definir",
+        "cardDescription": "a_Definir"
       }
     }
   },
@@ -200,13 +164,5 @@
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
-  },
-  "footer": {
-    "copyrightLine": "A_Definir",
-    "footerDivulgacaoText": "A_Definir",
-    "midSectionName": "Até mais",
-    "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-    "footerSocialText": "Siga a gente nas redes sociais:",
-    "footerNavegacaoText": "NAVEGAÇÃO"
   }
 }
