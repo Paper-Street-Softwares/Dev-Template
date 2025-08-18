@@ -71,9 +71,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Santo Cristo, nº 48, sala 1, Vila Fiuza,</p>
-      <p>ferreiraealvesadv.com.br</p>
-      <p></p>
+      <p>Rua Santo Cristo, nº 48, </p>
+      <p>sala 1, Vila Fiuza,</p>
+      <p>Guarulhos - SP, CEP: 07090-150</p>
     </div>
   ),
   enderecoSecundario: (
