@@ -55,48 +55,48 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADE",
+    "title": "Excelência na defesa dos seus direitos",
+    "subtitle": "Atuação estratégica em cada etapa do processo criminal.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Defesa Criminal",
+      "subtitle": "Proteção estratégica contra acusações criminais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa firme e convincente perante jurados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Execução Penal",
+      "subtitle": "Acompanhamento e revisão da pena aplicada.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Prisão em Flagrante",
+      "subtitle": "Ação rápida para garantir seus direitos legais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Recursos e Revisão Criminal",
+      "subtitle": "Contestação de sentenças para mudar resultados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Habeas Corpus",
+      "subtitle": "Liberdade imediata contra prisões ilegais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
