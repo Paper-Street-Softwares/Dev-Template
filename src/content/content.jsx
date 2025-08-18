@@ -50,14 +50,13 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dra. Claudia Ferreira",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "ferreiraealvesadv.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "94700", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1941", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -72,9 +71,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Santo Cristo, nº 48, sala 1, Vila Fiuza,</p>
+      <p>ferreiraealvesadv.com.br</p>
+      <p></p>
     </div>
   ),
   enderecoSecundario: (
@@ -89,14 +88,19 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 17h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  obs: (
+    <span className="italic">
+      Atendimento 24h em casos de prisões em flagrante
+    </span>
+  ),
+  instagramProfile: "draclaudiaferreira.adv", // Sem o @
+  facebookProfile: "meajudaaidra",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
+  tiktokProfile: "@meajudaaidraa",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -885,6 +889,7 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
+      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
