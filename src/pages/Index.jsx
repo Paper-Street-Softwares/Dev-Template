@@ -71,14 +71,7 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial
-        colorMode={colorMode}
-        addresSecundario={true}
-        phoneTerciario={false}
-        expedientesecond={false}
-        addres={true}
-        obs={true}
-      />
+      <FooterSocial colorMode={colorMode} addres={false} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>
