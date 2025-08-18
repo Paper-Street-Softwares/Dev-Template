@@ -121,12 +121,12 @@
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em Contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
-      "labelFacebook": "A_Definir",
-      "labelLinkedin": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito penal.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no LinkedIn",
       "labelX": "A_Definir"
     }
   },
