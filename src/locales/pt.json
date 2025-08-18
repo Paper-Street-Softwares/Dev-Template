@@ -47,7 +47,7 @@
   },
   "hero": {
     "miniTag": "ADVOGADA EM  HORTOLÂNDIA - SP",
-    "title": "E se amanhã for tarde demais?",
+    "title": "E se amanhã for <span class=\"text-primary font-bold\">tarde demais?</span>",
     "subtitle": "Na defesa criminal, cada minuto conta. Sua liberdade pode depender da decisão que você toma agora.",
     "ctaButtonText": "Fale agora com especialista",
     "obsHero": {
