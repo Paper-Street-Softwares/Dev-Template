@@ -33,7 +33,13 @@ export default function CtaSecondary({ colorMode = "default" }) {
             <SectionHeader
               colorMode="dark"
               className={`text-center desktop1:hidden ${textClass}`}
-              sectionHeaderTitle={t("ctaSecondary.title")}
+              sectionHeaderTitle={
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: t("ctaSecondary.title"),
+                  }}
+                />
+              }
               titleColorSet={textClass}
               subtitleColorSet={textClass}
               miniTitleBgColor={false}
