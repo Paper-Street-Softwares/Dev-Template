@@ -14,15 +14,23 @@ import CtaSecondary from "../components/sections/CtaSecondary";
 import { useTranslation } from "react-i18next";
 import "./../i18n";
 import Button from "../components/interactives/Button";
+import UnderConstruction from "../components/interactives/UnderConstruction";
 
 export default function Index() {
+  const showUnderConstruction = true;
+
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "default";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
+
+  if (showUnderConstruction) {
+    return <UnderConstruction />;
+  }
+
   return (
     <>
       {/* <div className="fixed inset-x-0 bottom-5 flex justify-center z-50 pointer-events-none">
@@ -54,6 +62,7 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
+
       <Features
         colorMode={colorMode}
         defaultFeature={false}
@@ -65,13 +74,13 @@ export default function Index() {
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} socialPrint={true} />
+      {/* <AboutInstagram colorMode={colorMode} socialPrint={true} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
-      <FooterSocial colorMode={colorMode} addres={true} obs={true} />
+      {/* <Maps colorMode={colorMode} /> */}
+      <FooterSocial colorMode={colorMode} addres={true} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>

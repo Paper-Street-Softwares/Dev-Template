@@ -50,18 +50,22 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Claudia Ferreira",
+  name: "Dr. Luis Ricardo Arantes",
   email: "contato", // Email desejado pelo cliente
-  domain: "ferreiraealvesadv.com.br", // Sem "www"
+  emailSecundario: "ricardoarantes@", // Email desejado pelo cliente
+  emailThree: "financeiro@", // Email desejado pelo cliente
+  emailFour: "agendamento@", // Email desejado pelo cliente
+  emailFive: "A_Definir", // Email desejado pelo cliente
+  domain: "ricardoarantes.adv.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "94700", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1941", // Apenas os 4 últimos números
+    firstPart: "98505", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2315", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "94929", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1541", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -71,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Santo Cristo, nº 48, </p>
-      <p>sala 1, Vila Fiuza,</p>
-      <p>Guarulhos - SP, CEP: 07090-150</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -88,19 +92,21 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>Atendimento 24h online</p>
     </div>
   ),
-  obs: (
-    <span className="italic">
-      Atendimento 24h em casos de prisões em flagrante
-    </span>
+  expedienteSecudario: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>A_Definir</p>
+    </div>
   ),
-  instagramProfile: "draclaudiaferreira.adv", // Sem o @
-  facebookProfile: "meajudaaidra",
-  linkeDinProfile: "A_Definir",
+  obs: <span className="italic">A Definir</span>,
+  instagramProfile: "dr.silvanosabino", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "silvano-sabino-8924a4b4/",
   x: "A_Definir",
-  tiktokProfile: "@meajudaaidraa",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -119,34 +125,28 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Blog",
-        "Perguntas Frequentes",
-        "Mapa",
-      ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuId: ["home", "service", "about", "faq"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          E se fosse você na
+          <span className="text-primary"> linha de fogo?</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "A lei não espera. Cada segundo conta para proteger sua liberdade e virar o jogo a seu favor.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Converse com especialista",
       obsHero: {
         icon: (
           <svg
@@ -166,7 +166,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento 24h para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -192,14 +192,14 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ATUAÇÃO",
+      title: "Áreas de Especialização",
+      subtitle: "Defendendo seus direitos com agilidade e precisão.",
       imgFeatures: imgFeatures,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Criminal",
+        subtitle: "Proteção firme dos seus direitos perante a lei.",
         description: (
           <div>
             A_Definir
@@ -234,8 +234,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Resolvendo conflitos e protegendo seus interesses.",
         description: (
           <div>
             A_Definir
@@ -256,9 +256,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -266,8 +270,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Prisão em Flagrante",
+        subtitle: "Atuação rápida para preservar sua liberdade imediata.",
         description: (
           <div>
             A_Definir <br />
@@ -287,10 +291,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-icon lucide-clock"
+            class="lucide lucide-user-check-icon lucide-user-check"
           >
-            <path d="M12 6v6l4 2" />
-            <circle cx="12" cy="12" r="10" />
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -298,8 +303,8 @@ const content = {
       },
       card4: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa justa em questões entre empresas e empregados.",
         description: (
           <div>
             A_Definir
@@ -320,11 +325,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-alert-icon lucide-circle-alert"
+            class="lucide lucide-list-check-icon lucide-list-check"
           >
-            <circle cx="12" cy="12" r="10" />
-            <line x1="12" x2="12" y1="8" y2="12" />
-            <line x1="12" x2="12.01" y1="16" y2="16" />
+            <path d="M11 18H3" />
+            <path d="m15 18 2 2 4-4" />
+            <path d="M16 12H3" />
+            <path d="M16 6H3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -354,12 +360,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-server-icon lucide-server"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
-            <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
-            <line x1="6" x2="6.01" y1="6" y2="6" />
-            <line x1="6" x2="6.01" y1="18" y2="18" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -389,10 +394,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -427,33 +433,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. SILVANO SABINO",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma história dedicada a oferecer defesa e orientação com confiança e ética.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde o início da minha carreira, assumi o compromisso de defender os
+          direitos de cada cliente com dedicação e profissionalismo.
           <br />
           <br />
-          A_Definir
+          Acredito que cada caso é único e merece atenção especial, buscando
+          sempre soluções estratégicas e eficientes.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Minha missão é atuar com ética, empatia e firmeza, garantindo que cada
+          cliente se sinta amparado em todos os momentos.
           <br />
           <br />
         </p>
@@ -467,9 +473,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se agora mesmo",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
@@ -912,7 +919,6 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
-      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
@@ -920,11 +926,15 @@ const content = {
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
+      emailThree: `${infos.emailThree}`,
+      emailFour: `${infos.emailFour}`,
+      emailFive: `${infos.emailFive}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
+      footerexpedienteSecundario: infos.expedienteSecudario,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",

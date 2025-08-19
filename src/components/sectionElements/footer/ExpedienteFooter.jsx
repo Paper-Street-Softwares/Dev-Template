@@ -2,9 +2,10 @@ import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { CalendarCheck2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import content from "../../../content/content";
 
 function ExpedienteFooter() {
+  const { t } = useTranslation(); // função para buscar do pt.json
+
   return (
     <>
       {/* Expediente principal */}
@@ -13,7 +14,13 @@ function ExpedienteFooter() {
           <div>
             <CalendarCheck2 />
           </div>
-          <p>{content.texts.infos.footerexpediente}</p>
+
+          {/* Interpreta tags HTML do JSON */}
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t("infos.expediente"),
+            }}
+          />
         </div>
       </MotionDivDownToUp>
     </>
