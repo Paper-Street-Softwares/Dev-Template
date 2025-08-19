@@ -111,7 +111,7 @@ const icons = {
     link: content.texts.links.x,
     aria: "X",
     svg: (
-      <svg viewBox="0 0 21.573 19.5" version="1.1" width="20" height="20">
+      <svg viewBox="0 0 21.573 19.5" version="1.1" width="20" height="20" fill="white">
         <path d="m 16.998462,0 h 3.308 l -7.227,8.26 8.502,11.24 h -6.657 l -5.2139994,-6.817 -5.966,6.817 H 0.43446256 L 8.1644626,10.665 0.00846256,0 H 6.8344626 l 4.7129994,6.231 z m -1.161,17.52 h 1.833 L 5.8384626,1.876 h -1.967 z" />
       </svg>
     ),
