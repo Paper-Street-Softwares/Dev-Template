@@ -14,7 +14,11 @@ function AdressFooter({ showSecond = false }) {
           <div>
             <MapPin />
           </div>
-          <p>{t("infos.adress")}</p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t("infos.adress"),
+            }}
+          />
         </div>
       </MotionDivDownToUp>
 

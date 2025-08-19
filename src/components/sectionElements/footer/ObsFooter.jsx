@@ -26,7 +26,12 @@ function ObsFooter() {
           </svg>
         </div>
 
-        <p>{t("infos.obs")}</p>
+        {/* Renderizando o texto com HTML interpretado */}
+        <p
+          dangerouslySetInnerHTML={{
+            __html: t("infos.obs"),
+          }}
+        />
       </div>
     </MotionDivDownToUp>
   );
