@@ -17,7 +17,7 @@ import Button from "../components/interactives/Button";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "dark";
+  const colorMode = "default";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
