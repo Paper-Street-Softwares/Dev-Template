@@ -56,8 +56,8 @@ export const infos = {
   domain: "paperstreet.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "98821", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7850", // Apenas os 4 últimos números
+    firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0977", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -93,7 +93,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "paperstreet_sites", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",

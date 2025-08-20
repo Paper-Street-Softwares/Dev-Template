@@ -104,7 +104,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                     textclassName="text-paragraph2"
                     labelColor="text-white"
                     label={card.buttonLabel}
-                    onClick={() => setActiveModal(num)}
+                    buttonLink={contentLp01.links.ctaWhatsapp}
+                    // onClick={() => setActiveModal(num)}
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
