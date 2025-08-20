@@ -5,10 +5,10 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import IconButtonFeatureCard from "../../cards/IconButtonFeatureCard";
 import { Dialog } from "primereact/dialog";
 import { X } from "lucide-react";
 import React, { useState } from "react";
+import IconButtonFeatureCardLP from "../../cards/IconButtonFeatureCardLP";
 
 export default function FeaturesParagraphs({ colorMode }) {
   const { t } = useTranslation();
@@ -70,36 +70,40 @@ export default function FeaturesParagraphs({ colorMode }) {
       <SectionHeader
         colorMode="dark"
         className="text-center"
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={contentLp01.features.sectionHeader.miniTag}
+        sectionHeaderTitle={contentLp01.features.sectionHeader.title}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
-
       <SectionWrapper>
-        <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
+        <div className="flex flex-col items-ceter w-full justify-evenly tablet1:flex-row">
           <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-            {[1, 2, 3, 4].map((num) => {
+            {[1, 2].map((num) => {
               const card = contentLp01.features.cards[`card${num}`];
               return (
                 <MotionDivDownToUp
                   key={num}
-                  className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[20%]"
+                  className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight w-[290px] tablet1:w-[268px] desktop1:w-[288px] desktop2:w-[290px]"
                 >
-                  <IconButtonFeatureCard
+                  <IconButtonFeatureCardLP
                     icon={card.icon}
-                    title={t(`features.card${num}.title`)}
-                    paragraph={t(`features.card${num}.subtitle`)}
+                    title={card.title}
+                    paragraph={card.paragraph}
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
+                  <div className="">
+                    <p className="text-center text-black/70 text-paragraph3">
+                      {card.description}
+                    </p>
+                  </div>
 
                   <Button
                     size="small"
-                    className="bg-darker"
+                    className="bg-darker mt-8 tablet1:mt-4 "
+                    textclassName="text-paragraph2"
                     labelColor="text-white"
-                    label={t(`features.card${num}.buttonLabel`)}
+                    label={card.buttonLabel}
                     onClick={() => setActiveModal(num)}
                     icon={
                       <svg
@@ -121,10 +125,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                   />
 
                   {/* Modal do card */}
-                  <Dialog
+                  {/* <Dialog
                     className="font-secondFont"
                     closeIcon={<X size={20} />}
-                    header={t(`features.card${num}.title`)}
+                    header={card.title}
                     visible={activeModal === num}
                     onHide={() => setActiveModal(null)}
                     style={{ width: "50vw" }}
@@ -135,7 +139,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                     }}
                   >
                     {modalContents[num]}
-                  </Dialog>
+                  </Dialog> */}
                 </MotionDivDownToUp>
               );
             })}

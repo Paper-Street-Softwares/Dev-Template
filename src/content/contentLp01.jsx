@@ -39,8 +39,9 @@ const contentLp01 = {
       title: (
         <h1>
           Seu negócio online começa aqui:{" "}
-          <span className="text-lpTitle"> tenha um site profissional</span>{" "}
-          <span className="text-lpTitle"> hoje!</span>
+          <span className="text-lpTitle"> tenha um </span>{" "}
+          <span className="text-lpTitle text-primary ">site profissional </span>
+          hoje!
         </h1>
       ),
       subtitle:
@@ -52,8 +53,8 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PLANOS DE SITES",
+      title: "Escolha a forma ideal de ter seu site profissional",
     },
     cards: {
       card1: {
@@ -75,8 +76,30 @@ const contentLp01 = {
             <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Plano Assinatura",
+        paragraph:
+          "Tenha seu site profissional sempre atualizado, seguro e pronto para atrair clientes, sem preocupações extras.",
+        description: (
+          <p>
+            ✔️ 1 ano de Domínio e hospedagem gratuitos
+            <br />
+            <br />
+            ✔️ Manutenção mensal inclusa
+            <br />
+            <br />
+            ✔️ Suporte 24h com nossa equipe
+            <br />
+            <br />
+            ✔️ Botão direto para o WhatsApp
+            <br />
+            <br />
+            ✔️ Links para suas redes sociais
+            <br />
+            <br />
+            ✔️ Design responsivo e otimizado para celulares
+          </p>
+        ),
+        buttonLabel: "A partir de R$69,00",
       },
       card2: {
         icon: (
@@ -96,8 +119,27 @@ const contentLp01 = {
             <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Plano Aquisição",
+        paragraph:
+          "Invista em um site profissional e tenha sua presença digital definitiva. O site será 100% seu, sem mensalidades de assinatura, pronto para representar sua marca com credibilidade.",
+        description: (
+          <p>
+            ✔️ 1 ano de Domínio e hospedagem gratuitos
+            <br />
+            <br />
+            ✔️ Botão direto para o WhatsApp
+            <br />
+            <br />
+            ✔️ Links integrados para suas redes sociais
+            <br />
+            <br />
+            ✔️ Design moderno e otimizado para celulares
+            <br />
+            <br />
+            ✔️ Entrega completa, com acesso total ao painel
+          </p>
+        ),
+        buttonLabel: "A partir de 10x de R$59,00",
       },
       card3: {
         icon: (
@@ -120,6 +162,7 @@ const contentLp01 = {
           </svg>
         ),
         title: "A_Definir",
+        paragraph: "A_Definir",
         description: "A_Definir",
       },
       card4: {
@@ -144,6 +187,7 @@ const contentLp01 = {
           </svg>
         ),
         title: "A_Definir",
+        paragraph: "A_Definir",
         description: "A_Definir",
       },
       card5: {
@@ -166,6 +210,7 @@ const contentLp01 = {
           </svg>
         ),
         title: "A_Definir",
+        paragraph: "A_Definir",
         description: "A_Definir",
       },
     },
@@ -238,13 +283,47 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Gavel width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-book-type-icon lucide-book-type"
+          >
+            <path d="M10 13h4" />
+            <path d="M12 6v7" />
+            <path d="M16 8V6H8v2" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+          </svg>
+        ),
         title: "Informações",
         description:
           "Após contratar, pedimos os dados do seu negócio. Sem material? Temos textos e imagens prontos.",
       },
       card2: {
-        icon: <ChartNoAxesCombined width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-code-icon lucide-code"
+          >
+            <path d="m16 18 6-6-6-6" />
+            <path d="m8 6-6 6 6 6" />
+          </svg>
+        ),
         title: "Criação",
         description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
       },
@@ -288,10 +367,10 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      title: "Deixa a gente cuidar da vida digital do seu negócio",
+      subtitle: <p className="opacity-80"></p>,
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Adquira agora mesmo",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
