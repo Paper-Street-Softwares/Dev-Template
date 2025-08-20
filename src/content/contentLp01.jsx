@@ -206,50 +206,53 @@ const contentLp01 = {
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
-    miniTag: "A_Definir",
-    title: "A_Definir",
-    subtitle: "A_Definir",
+    miniTag: "SEU NEGÓCIO SEM SITE?",
+    title: "Você está perdendo clientes todos os dias.",
+    subtitle: "Descubra o que acontece se você não tiver presença online:",
     alt: "A_Definir",
     cards: {
       card1: {
         stepNumber: 1,
-        cardTitle: "A_Definir",
+        cardTitle: "Clientes não encontram seu negócio no Google.",
         cardDescription: "A_Definir",
       },
       card2: {
         stepNumber: 2,
-        cardTitle: "A_Definir",
+        cardTitle: "Concorrentes conquistam quem poderia ser seu cliente.",
         cardDescription: "A_Definir",
       },
       card3: {
         stepNumber: 3,
-        cardTitle: "A_Definir",
+        cardTitle: "Sua marca passa a sensação de amadorismo ou desconfiança.",
         cardDescription: "A_Definir",
       },
-      buttonLabel: "A_Definir",
-      ariaLabel: "A_Definir",
+      buttonLabel: "Garanta seu site profissional agora",
+      ariaLabel: "Botão de contato",
     },
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title:
+        "Nossos processos foram pensados para você não ter nenhuma preocupação enquanto seu site é construído.",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Informações",
+        description:
+          "Após contratar, pedimos os dados do seu negócio. Sem material? Temos textos e imagens prontos.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Criação",
+        description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Aprovação",
+        description:
+          "Você aprova, escolhemos o nome, criamos e-mails e colocamos no ar.",
       },
       card4: {
         icon: (
@@ -268,8 +271,9 @@ const contentLp01 = {
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Suporte",
+        description:
+          "Ganha uma arte exclusiva para divulgar e dicas de como usar melhor o site.",
       },
     },
   },

@@ -1,7 +1,5 @@
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import LPFloatingWhatsappButton from "../components/interactives/LPFloatingWhatsappButton";
-import Faq from "../components/sections/Faq";
 import AboutParalaxeLP from "../components/sections/lp01/AboutParalaxeLP";
 import ContactLP from "../components/sections/lp01/ContactLP";
 import CtaLP from "../components/sections/lp01/CtaLP";
@@ -9,12 +7,11 @@ import FooterLP from "../components/sections/lp01/FooterLP";
 import HeroLP from "../components/sections/lp01/HeroLP";
 import WhyUs from "../components/sections/lp01/WhyUs";
 import FeaturesLP from "../components/sections/lp01/FeaturesLP";
-import FeatureWithModalsLp from "../components/sections/lp01/FeatureWithModalsLp";
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
 import StepsLpv from "../components/sections/lp01/StepsLpv";
-import Vídeo from "../components/sections/lp01/Vídeo";
+import FeaturesLPCards from "../components/sections/lp01/FeaturesLPCards";
 
 export default function Lp01() {
   useEffect(() => {
@@ -43,6 +40,9 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
+      <StepsLpv />
+      <FeaturesLPCards/>
+
       <FeaturesLP />
       <AboutParalaxeLP logo={true} />
       <WhyUs />
