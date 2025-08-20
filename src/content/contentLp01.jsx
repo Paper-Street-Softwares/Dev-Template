@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import logo from "../assets/imgs/logo/logo.webp";
+import bgImg from "../assets/imgs/hero/bgHeroLp.webp";
+import logo from "../assets/imgs/logo/logoLp.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -23,9 +23,10 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title: "Paper Street Desenvolvimento Web | Sites Profissionais no Brasil",
+    description:
+      "A Paper Street oferece desenvolvimento de sites modernos, responsivos e personalizados para empresas em todo o Brasil. Transforme sua presença online com design profissional, otimização para celular e funcionalidades que atraem clientes.",
+    keywords: "Paper Street, Desenvolvimento Web, Sites Profissionais, Criação de Sites, Sites Responsivos, Design para Web, Agência de Sites, Web Design Brasil, Sites para Empresas, Marketing Digital, Otimização para Celular, Sites Modernos, Desenvolvimento de Landing Pages, SEO para Sites, Sites Personalizados, Paper Street Brasil, Desenvolvimento de Sites Comerciais, Sites Profissionais Brasil, Agência de Desenvolvimento Web, Presença Online.",
   },
   hero: {
     bgImg: bgImg,
