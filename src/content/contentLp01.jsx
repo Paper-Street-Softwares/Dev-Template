@@ -26,7 +26,8 @@ const contentLp01 = {
     title: "Paper Street Desenvolvimento Web | Sites Profissionais no Brasil",
     description:
       "A Paper Street oferece desenvolvimento de sites modernos, responsivos e personalizados para empresas em todo o Brasil. Transforme sua presença online com design profissional, otimização para celular e funcionalidades que atraem clientes.",
-    keywords: "Paper Street, Desenvolvimento Web, Sites Profissionais, Criação de Sites, Sites Responsivos, Design para Web, Agência de Sites, Web Design Brasil, Sites para Empresas, Marketing Digital, Otimização para Celular, Sites Modernos, Desenvolvimento de Landing Pages, SEO para Sites, Sites Personalizados, Paper Street Brasil, Desenvolvimento de Sites Comerciais, Sites Profissionais Brasil, Agência de Desenvolvimento Web, Presença Online.",
+    keywords:
+      "Paper Street, Desenvolvimento Web, Sites Profissionais, Criação de Sites, Sites Responsivos, Design para Web, Agência de Sites, Web Design Brasil, Sites para Empresas, Marketing Digital, Otimização para Celular, Sites Modernos, Desenvolvimento de Landing Pages, SEO para Sites, Sites Personalizados, Paper Street Brasil, Desenvolvimento de Sites Comerciais, Sites Profissionais Brasil, Agência de Desenvolvimento Web, Presença Online.",
   },
   hero: {
     bgImg: bgImg,
@@ -37,12 +38,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span>{" "}
-          <span className="text-lpTitle"> A_Definir</span>
+          Seu negócio online começa aqui:{" "}
+          <span className="text-lpTitle"> tenha um site profissional</span>{" "}
+          <span className="text-lpTitle"> hoje!</span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "A_Definir",
+      subtitle:
+        "Criamos sites modernos, rápidos e otimizados para celular. Aumente sua credibilidade, conquiste clientes e fique disponível 24/7.",
+      buttonLabel: "Quero meu site profissional agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
