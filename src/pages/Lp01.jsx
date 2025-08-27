@@ -10,8 +10,12 @@ import FeaturesLP from "../components/sections/lp01/FeaturesLP";
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
-import StepsLpv from "../components/sections/lp01/StepsLpv";
+import StepsLpv from "../components/sections/lp01/Urgency";
 import FeaturesLPCards from "../components/sections/lp01/FeaturesLPCards";
+import SolutionLPV from "../components/sections/lp01/Solution";
+import NwesPosts from "../components/sections/NewsPosts";
+import Steppers from "../components/sections/lp01/Steppers";
+import Testimonial from "../components/sections/lp01/Testimonials";
 
 export default function Lp01() {
   useEffect(() => {
@@ -41,10 +45,15 @@ export default function Lp01() {
     <div>
       <HeroLP fullImg={true} />
       <StepsLpv />
+      <SolutionLPV />
+      <NwesPosts />
+      <Steppers />
+      <Testimonial />
+      <WhyUs />
       <FeaturesLPCards />
 
       {/* <AboutParalaxeLP logo={true} /> */}
-      <WhyUs />
+
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />

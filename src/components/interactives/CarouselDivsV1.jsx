@@ -1,53 +1,42 @@
 import React from "react";
 import { Carousel } from "primereact/carousel";
-import "../../index.css";
+import img1 from "../../../assets/imgs/testimonials/img1.png";
+import img2 from "../../../assets/imgs/testimonials/img2.png";
+import img3 from "../../../assets/imgs/testimonials/img3.png";
 
-export default function CarouselDivsV1({ children }) {
-  const responsiveOptions = [
-    {
-      breakpoint: "2500px",
-      numVisible: 2,
-      numScroll: 2,
-    }, // organiza em 4 por clique e passa os 4 de uma só vez
-    {
-      breakpoint: "1199px",
-      numVisible: 2,
-      numScroll: 2,
-    },
-    {
-      breakpoint: "767px",
-      numVisible: 2,
-      numScroll: 2,
-    },
-    {
-      breakpoint: "575px",
-      numVisible: 1,
-      numScroll: 1,
-    },
+export default function CarouselDivsV1() {
+  // Array de JSX (imagens ou cards)
+  const items = [
+    <img src={img1} alt="Depoimento 1" className="rounded-2xl w-full h-auto" />,
+    <img src={img2} alt="Depoimento 2" className="rounded-2xl w-full h-auto" />,
+    <img src={img3} alt="Depoimento 3" className="rounded-2xl w-full h-auto" />,
   ];
 
-  const itemTemplate = (item) => {
-    return (
-      <div className="border-1 rounded text-center py-5 px-3 h-full w-auto">
-        <div className="flex justify-center items-center h-full">{item}</div>
-      </div>
-    );
-  };
+  const responsiveOptions = [
+    { breakpoint: "2500px", numVisible: 3, numScroll: 3 },
+    { breakpoint: "1199px", numVisible: 3, numScroll: 3 },
+    { breakpoint: "767px", numVisible: 2, numScroll: 2 },
+    { breakpoint: "575px", numVisible: 1, numScroll: 1 },
+  ];
+
+  const itemTemplate = (item) => (
+    <div className="p-2" style={{ width: "100%" }}>
+      {item}
+    </div>
+  );
 
   return (
-    <div className="">
+    <div>
       <Carousel
-        value={children}
-        numVisible={1}
-        numScroll={1}
+        value={items}
+        itemTemplate={itemTemplate}
         responsiveOptions={responsiveOptions}
-        className="text-colorWhite"
         circular
         autoplayInterval={8000}
-        itemTemplate={itemTemplate}
-        showNavigators={true}
-        prevIcon={<span style={{ color: "white", fontSize: "200%" }}>❮</span>}
-        nextIcon={<span style={{ color: "white", fontSize: "200%" }}>❯</span>}
+        showNavigators
+        className="w-full"
+        prevIcon={<span style={{ color: "black", fontSize: "200%" }}>❮</span>}
+        nextIcon={<span style={{ color: "black", fontSize: "200%" }}>❯</span>}
       />
     </div>
   );

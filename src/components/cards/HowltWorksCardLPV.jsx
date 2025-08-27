@@ -34,11 +34,11 @@ export default function HowltWorksCardLPV({
       <h1 className={`text-[20px] ${textColor}`}>
         {title}
       </h1>
-      {/* <p
+      <p
         className={`text-[16px] text-center  w-full ${textColor} ${textOpacity}`}
       >
         {description}
-      </p> */}
+      </p>
     </div>
   );
 

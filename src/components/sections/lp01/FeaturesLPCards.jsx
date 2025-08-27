@@ -100,9 +100,9 @@ export default function FeaturesParagraphs({ colorMode }) {
 
                   <Button
                     size="small"
-                    className="bg-darker mt-8 tablet1:mt-4 "
+                    className="bg-buttonColor mt-8 tablet1:mt-4 "
                     textclassName="text-paragraph2"
-                    labelColor="text-white"
+                    labelColor="text-black"
                     label={card.buttonLabel}
                     buttonLink={contentLp01.links.ctaWhatsapp}
                     // onClick={() => setActiveModal(num)}
@@ -113,7 +113,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="#fff"
+                        stroke="#000"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"

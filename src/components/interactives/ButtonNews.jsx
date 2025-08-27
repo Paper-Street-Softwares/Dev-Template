@@ -2,7 +2,7 @@ import React from "react";
 import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
-export default function BlogButton({
+export default function ButtonNews({
   icon,
   label,
   buttonLink,

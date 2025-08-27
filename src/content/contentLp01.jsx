@@ -38,10 +38,12 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Seu negócio online começa aqui:{" "}
-          <span className="text-lpTitle"> tenha um </span>{" "}
-          <span className="text-lpTitle text-primary ">site profissional </span>
-          hoje!
+          Chega de perder clientes todos os dias.{" "}
+          <span className="text-lpTitle">
+            {" "}
+            Conquiste-os agora com um site jurídico{" "}
+          </span>{" "}
+          <span className="text-lpTitle text-primary ">profissional! </span>
         </h1>
       ),
       subtitle:
@@ -49,6 +51,32 @@ const contentLp01 = {
       buttonLabel: "Quero meu site profissional agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+    },
+  },
+  urgency: {
+    miniTag: "SEU ESCRITÓRIO SEM SITE?",
+    title: "Clientes estão indo para a concorrência todos os dias.",
+    subtitle:
+      "Enquanto você espera, eles escolhem outro advogado e você perde dinheiro e oportunidades que não voltam. Entenda:",
+    alt: "A_Definir",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "Clientes não te encontram.",
+        cardDescription: "A_Definir",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "Concorrentes levam seus casos.",
+        cardDescription: "A_Definir",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "Seu escritório passa desconfiança.",
+        cardDescription: "A_Definir",
+      },
+      buttonLabel: "Garanta seu site profissional agora",
+      ariaLabel: "Botão de contato",
     },
   },
   features: {
@@ -81,10 +109,13 @@ const contentLp01 = {
           "Tenha seu site profissional sempre atualizado, seguro e pronto para atrair clientes, sem preocupações extras.",
         description: (
           <p>
-            ✔️ 1 ano de Domínio e hospedagem gratuitos
+            ✔️ Domínio e hospedagem vitalícios
             <br />
             <br />
             ✔️ Manutenção mensal inclusa
+            <br />
+            <br />
+            ✔️ Cancele a qualquer momento
             <br />
             <br />
             ✔️ Suporte 24h com nossa equipe
@@ -215,67 +246,8 @@ const contentLp01 = {
       },
     },
   },
-  about: {
-    bgImg: bgImg,
-    imagesGaleria: {
-      // imagem1: img1,
-      // imagem2: img2,
-      // imagem3: img3,
-    },
-    imgAbout: {
-      img: imagemAbout,
-    },
-    logo: {
-      logoImg: logo,
-      alt: "logomarca",
-    },
-    sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-    },
-    paragraph: (
-      <p>
-        A_Definir
-        <br />
-        <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
-      </p>
-    ),
-    buttonLabel: "A_Definir",
-    ctaButtonAriaLabel: "Botão de Contato",
-  },
-  steps: {
-    miniTag: "SEU NEGÓCIO SEM SITE?",
-    title: "Você está perdendo clientes todos os dias.",
-    subtitle: "Descubra o que acontece se você não tiver presença online:",
-    alt: "A_Definir",
-    cards: {
-      card1: {
-        stepNumber: 1,
-        cardTitle: "Clientes não encontram seu negócio no Google.",
-        cardDescription: "A_Definir",
-      },
-      card2: {
-        stepNumber: 2,
-        cardTitle: "Concorrentes conquistam quem poderia ser seu cliente.",
-        cardDescription: "A_Definir",
-      },
-      card3: {
-        stepNumber: 3,
-        cardTitle: "Sua marca passa a sensação de amadorismo ou desconfiança.",
-        cardDescription: "A_Definir",
-      },
-      buttonLabel: "Garanta seu site profissional agora",
-      ariaLabel: "Botão de contato",
-    },
-  },
-  whyUs: {
+
+  steppers: {
     sectionHeader: {
       miniTag: "PASSO A PASSO",
       title:
@@ -355,6 +327,124 @@ const contentLp01 = {
           "Ganha uma arte exclusiva para divulgar e dicas de como usar melhor o site.",
       },
     },
+  },
+  whyUs: {
+    sectionHeader: {
+      miniTag: "",
+      title:
+        "Realize seus maiores sonhos com um site que trabalha por você 24/7.",
+      subtitle:
+        "Cada cliente conquistado é um passo mais próximo de transformar seus sonhos em realidade. Com um site moderno e otimizado, você atrai clientes enquanto foca no que realmente importa.",
+    },
+    cards: {
+      card1: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-book-type-icon lucide-book-type"
+          >
+            <path d="M10 13h4" />
+            <path d="M12 6v7" />
+            <path d="M16 8V6H8v2" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+          </svg>
+        ),
+        title: "Viaje para o exterior com sua família",
+        description:
+          "Imagine explorar novos destinos com quem você ama, sem se preocupar com o trabalho. Um site profissional atrai clientes enquanto você desfruta de merecidas férias.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-code-icon lucide-code"
+          >
+            <path d="m16 18 6-6-6-6" />
+            <path d="m8 6-6 6 6 6" />
+          </svg>
+        ),
+        title: "Conquiste o carro dos seus sonhos",
+        description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
+      },
+      card3: {
+        icon: <Handshake width={32} height={32} />,
+        title: "Compre a casa ideal",
+        description:
+          "Realize o sonho da casa própria, com conforto e segurança para sua família. Um site eficiente gera clientes e estabilidade financeira para alcançar esse objetivo.",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-square-icon lucide-message-square"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        ),
+        title: "Construa um escritório de sucesso",
+        description:
+          "Transforme seu escritório em uma referência no mercado jurídico. Um site profissional atrai clientes e fortalece sua autoridade, impulsionando seu crescimento.",
+      },
+    },
+  },
+  about: {
+    bgImg: bgImg,
+    imagesGaleria: {
+      // imagem1: img1,
+      // imagem2: img2,
+      // imagem3: img3,
+    },
+    imgAbout: {
+      img: imagemAbout,
+    },
+    logo: {
+      logoImg: logo,
+      alt: "logomarca",
+    },
+    sectionHeader: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+    },
+    paragraph: (
+      <p>
+        A_Definir
+        <br />
+        <br />
+        A_Definir
+        <br />
+        <br />
+        A_Definir
+        <br />
+        <br />
+        A_Definir
+      </p>
+    ),
+    buttonLabel: "A_Definir",
+    ctaButtonAriaLabel: "Botão de Contato",
   },
   video: {
     sectionHeader: {
