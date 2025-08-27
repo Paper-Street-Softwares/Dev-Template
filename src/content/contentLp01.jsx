@@ -47,8 +47,8 @@ const contentLp01 = {
         </h1>
       ),
       subtitle:
-        "Criamos sites modernos, rápidos e otimizados para celular. Aumente sua credibilidade, conquiste clientes e fique disponível 24/7.",
-      buttonLabel: "Quero meu site profissional agora",
+        "Cada cliente que não te encontra é uma causa perdida, um processo que você nunca verá e sua reputação que desmorona. Mostre que você é um advogado confiável. ",
+      buttonLabel: "Quero meu site jurídico agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -380,7 +380,8 @@ const contentLp01 = {
           </svg>
         ),
         title: "Conquiste o carro dos seus sonhos",
-        description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
+        description:
+          "Sinta a liberdade de dirigir o carro que sempre desejou. Com um fluxo constante de clientes, seu sonho se torna uma conquista real e tangível.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,

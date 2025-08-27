@@ -24,9 +24,9 @@ export default function SolutionLPV() {
           />
           <SectionHeader
             className="text-center desktop1:hidden"
-            miniTitle="A_Definir"
-            sectionHeaderTitle="A_Definir"
-            sectionHeaderSubtitle="A_Definir"
+            miniTitle="TENHA SEU SITE JURÍDICO PROFISSIONAL"
+            sectionHeaderTitle="Nunca teve um site? Não importa. Conquiste clientes e autoridade rapidamente."
+            sectionHeaderSubtitle="Criamos seu site passo a passo, garantindo profissionalismo, design moderno e ferramentas que realmente atraem clientes. São três etapas simples:"
             color=""
             type=""
             titleColorSet="text-black"

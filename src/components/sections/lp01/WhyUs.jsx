@@ -7,7 +7,7 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function WhyUs({}) {
   return (
     <>
-      <SectionArea>
+      <SectionArea paddingtop={false}>
         <SectionWrapper>
           <SectionHeader
             // miniTitle={contentLp01.whyUs.sectionHeader.miniTag}
