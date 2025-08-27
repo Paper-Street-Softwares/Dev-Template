@@ -9,7 +9,7 @@ import content from "../../../content/content";
 
 export default function Urgency() {
   return (
-    <SectionArea className="bg-neutral-100" paddingtop={true}>
+    <SectionArea className="bg-neutral-100" paddingbot={false}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-full">
           <SectionHeader
@@ -52,7 +52,7 @@ export default function Urgency() {
           </div>
 
           <p
-            className={`text-[12px] m-auto mt-[45px] desktop1:mt-[80px] text-black/50 text-center desktop1:w-[35%] }`}
+            className={`text-paragraph3 m-auto mt-[45px] desktop1:mt-[80px] text-black/50 text-center desktop1:w-[35%] }`}
           >
             Cada dia sem site é uma oportunidade que some, uma chance de fechar
             contrato que vai para outro escritório.

@@ -33,7 +33,7 @@ function NwesPosts() {
   ];
 
   return (
-    <SectionArea className="squares" id="blog" paddingbot={false}>
+    <SectionArea className="squares" id="blog" paddingbot={true}>
       <SectionWrapper>
         <SectionHeader
           className="text-center"

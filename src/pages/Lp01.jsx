@@ -10,7 +10,7 @@ import FeaturesLP from "../components/sections/lp01/FeaturesLP";
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
-import StepsLpv from "../components/sections/lp01/Urgency";
+import Urgency from "../components/sections/lp01/Urgency";
 import FeaturesLPCards from "../components/sections/lp01/FeaturesLPCards";
 import SolutionLPV from "../components/sections/lp01/Solution";
 import NwesPosts from "../components/sections/NewsPosts";
@@ -44,7 +44,7 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
-      <StepsLpv />
+      <Urgency />
       <SolutionLPV />
       <NwesPosts />
       <Steppers />

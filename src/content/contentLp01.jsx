@@ -258,8 +258,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -282,8 +282,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -309,8 +309,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -341,20 +341,17 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-type-icon lucide-book-type"
+            class="lucide lucide-plane-icon lucide-plane"
           >
-            <path d="M10 13h4" />
-            <path d="M12 6v7" />
-            <path d="M16 8V6H8v2" />
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
           </svg>
         ),
         title: "Viaje para o exterior com sua família",
@@ -365,18 +362,20 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-code-icon lucide-code"
+            class="lucide lucide-car-icon lucide-car"
           >
-            <path d="m16 18 6-6-6-6" />
-            <path d="m8 6-6 6 6 6" />
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
           </svg>
         ),
         title: "Conquiste o carro dos seus sonhos",
@@ -384,7 +383,23 @@ const contentLp01 = {
           "Sinta a liberdade de dirigir o carro que sempre desejou. Com um fluxo constante de clientes, seu sonho se torna uma conquista real e tangível.",
       },
       card3: {
-        icon: <Handshake width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house-icon lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
         title: "Compre a casa ideal",
         description:
           "Realize o sonho da casa própria, com conforto e segurança para sua família. Um site eficiente gera clientes e estabilidade financeira para alcançar esse objetivo.",
@@ -393,17 +408,27 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
+            class="lucide lucide-building-icon lucide-building"
           >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M12 6h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M16 6h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+            <path d="M8 6h.01" />
+            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+            <rect x="4" y="2" width="16" height="20" rx="2" />
           </svg>
         ),
         title: "Construa um escritório de sucesso",
