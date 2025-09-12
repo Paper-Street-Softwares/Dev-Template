@@ -9,13 +9,13 @@ function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
 
   switch (colorMode) {
     case "light":
-      iconColor = "text-black";
+      iconColor = "text-iconButtons";
       break;
     case "dark":
-      iconColor = "text-white";
+      iconColor = "text-iconButtons";
       break;
     default:
-      iconColor = "text-white";
+      iconColor = "text-iconButtons";
       break;
   }
 

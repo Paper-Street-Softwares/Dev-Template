@@ -60,7 +60,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
       <div className="flex justify-between full opacity-90">
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {firstHalf.map(({ id, label }) => (
-            <div key={id} className="h-[36px] hover:underline">
+            <div key={id} className="h-auto hover:underline">
               {renderLink(id, label)}
             </div>
           ))}
@@ -68,7 +68,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
 
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {secondHalf.map(({ id, label }) => (
-            <div key={id} className="h-[36px] hover:underline">
+            <div key={id} className="h-auto hover:underline">
               {renderLink(id, label)}
             </div>
           ))}
