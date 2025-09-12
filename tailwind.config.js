@@ -29,7 +29,7 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      iconButtons: "#fff",
+      iconButtons: "#990000",
       labelButtons: "#fff",
       minititleLightLabel: "#fff", //label das minitag de seções claras
       minititleDarkLabel: "#fff", //label minitag de seções escuras
