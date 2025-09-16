@@ -9,7 +9,7 @@ import content from "../../../content/content";
 
 export default function SolutionLPV() {
   return (
-    <SectionArea className="bg-neutral-100" paddingtop={true}>
+    <SectionArea className="bg-secondary" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-full">
           <SectionHeader
@@ -19,8 +19,8 @@ export default function SolutionLPV() {
             sectionHeaderSubtitle="Criamos seu site passo a passo, garantindo profissionalismo, design moderno e ferramentas que realmente atraem clientes. São três etapas simples:"
             color=""
             type=""
-            titleColorSet="text-black"
-            subtitleColorSet="text-black"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -29,8 +29,8 @@ export default function SolutionLPV() {
             sectionHeaderSubtitle="Criamos seu site passo a passo, garantindo profissionalismo, design moderno e ferramentas que realmente atraem clientes. São três etapas simples:"
             color=""
             type=""
-            titleColorSet="text-black"
-            subtitleColorSet="text-black"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
 
           <div className="flex flex-col desktop1:flex-row items-center w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
@@ -38,24 +38,27 @@ export default function SolutionLPV() {
               number="1"
               title="PLANO DE CONCEPÇÃO"
               description="Definimos objetivos, público-alvo e tudo que precisamos para seu site vender por você."
-              animation
+              colorMode="dark"
+              animation={false}
             />
             <HowltWorksCardLPV
               number="2"
               title="DESENVOLVIMENTO"
               description="Construímos o site com design moderno, integração com WhatsApp e redes sociais, 100% otimizado para celular."
-              animation
+              animation={false}
+              colorMode="dark"
             />
             <HowltWorksCardLPV
               number="3"
               title="LANÇAMENTO E SUPORTE"
               description="Colocamos seu site no ar, configuramos e-mails profissionais e entregamos material de divulgação para atrair clientes."
-              animation
+              animation={false}
+              colorMode="dark"
             />
           </div>
 
           <p
-            className={`text-[12px] m-auto mt-[45px] desktop1:mt-[80px] text-black/50 text-center desktop1:w-[35%] }`}
+            className={`text-[12px] m-auto mt-[45px] desktop1:mt-[80px] text-white/50 text-center desktop1:w-[35%] }`}
           >
             Chega de perder clientes e autoridade: tenha um site completo,
             moderno e pronto para atrair e fechar clientes 24/7, sem

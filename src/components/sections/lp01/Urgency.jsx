@@ -9,7 +9,7 @@ import content from "../../../content/content";
 
 export default function Urgency() {
   return (
-    <SectionArea className="bg-neutral-100" paddingbot={false}>
+    <SectionArea className="bg-white" paddingbot={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-full">
           <SectionHeader
@@ -35,24 +35,24 @@ export default function Urgency() {
 
           <div className="flex flex-col desktop1:flex-row items-center w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
             <HowltWorksCardLPV
-              number={contentLp01.urgency.cards.card1.stepNumber}
+              icon={contentLp01.urgency.cards.card1.stepNumber}
               title={contentLp01.urgency.cards.card1.cardTitle}
               animation
             />
             <HowltWorksCardLPV
-              number={contentLp01.urgency.cards.card2.stepNumber}
+              icon={contentLp01.urgency.cards.card2.stepNumber}
               title={contentLp01.urgency.cards.card2.cardTitle}
               animation
             />
             <HowltWorksCardLPV
-              number={contentLp01.urgency.cards.card3.stepNumber}
+              icon={contentLp01.urgency.cards.card3.stepNumber}
               title={contentLp01.urgency.cards.card3.cardTitle}
               animation
             />
           </div>
 
           <p
-            className={`text-paragraph3 m-auto mt-[45px] desktop1:mt-[80px] text-black/50 text-center desktop1:w-[35%] }`}
+            className={`text-paragraph3 m-auto  font-mainFont text-center desktop1:w-[35%] }`}
           >
             Cada dia sem site é uma oportunidade que some, uma chance de fechar
             contrato que vai para outro escritório.

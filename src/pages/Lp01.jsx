@@ -46,12 +46,14 @@ export default function Lp01() {
       {/* <div className="bg-green-300 text-black dark:bg-green-300 dark:text-black h-screen flex items-center justify-center">
         <h1 className="text-4xl font-bold">Teste Darkmode</h1>
       </div> */}
-      <HeroLP fullImg={true} />
+      <HeroLP fullImg={false} />
       <Urgency />
+      <Testimonial />
+      <Steppers />
+
       <SolutionLPV />
       <NwesPosts />
-      <Steppers />
-      <Testimonial />
+
       <WhyUs />
       <FeaturesLPCards />
 

@@ -38,12 +38,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Chega de perder clientes todos os dias.{" "}
+          <span className="text-primary ">
+            Chega de perder clientes todos os dias.
+          </span>{" "}
           <span className="text-lpTitle">
             {" "}
             Conquiste-os agora com um site jurídico{" "}
           </span>{" "}
-          <span className="text-lpTitle text-primary ">profissional! </span>
+          <span className="text-lpTitle">profissional! </span>
         </h1>
       ),
       subtitle:
@@ -61,17 +63,71 @@ const contentLp01 = {
     alt: "A_Definir",
     cards: {
       card1: {
-        stepNumber: 1,
+        stepNumber: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search-x-icon lucide-search-x"
+          >
+            <path d="m13.5 8.5-5 5" />
+            <path d="m8.5 8.5 5 5" />
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        ),
         cardTitle: "Clientes não te encontram.",
         cardDescription: "A_Definir",
       },
       card2: {
-        stepNumber: 2,
+        stepNumber: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins-icon lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
         cardTitle: "Concorrentes levam seus casos.",
         cardDescription: "A_Definir",
       },
       card3: {
-        stepNumber: 3,
+        stepNumber: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-alert-icon lucide-shield-alert"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
+          </svg>
+        ),
         cardTitle: "Seu escritório passa desconfiança.",
         cardDescription: "A_Definir",
       },
@@ -255,73 +311,24 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-book-type-icon lucide-book-type"
-          >
-            <path d="M10 13h4" />
-            <path d="M12 6v7" />
-            <path d="M16 8V6H8v2" />
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-          </svg>
-        ),
+        icon: 1,
         title: "Informações",
         description:
           "Após contratar, pedimos os dados do seu negócio. Sem material? Temos textos e imagens prontos.",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-code-icon lucide-code"
-          >
-            <path d="m16 18 6-6-6-6" />
-            <path d="m8 6-6 6 6 6" />
-          </svg>
-        ),
+        icon: 2,
         title: "Criação",
         description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
       },
       card3: {
-        icon: <Handshake width={32} height={32} />,
+        icon: 3,
         title: "Aprovação",
         description:
           "Você aprova, escolhemos o nome, criamos e-mails e colocamos no ar.",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
-          >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-          </svg>
-        ),
+        icon: 4,
         title: "Suporte",
         description:
           "Ganha uma arte exclusiva para divulgar e dicas de como usar melhor o site.",
@@ -341,8 +348,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -362,8 +369,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -386,8 +393,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -408,8 +415,8 @@ const contentLp01 = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"

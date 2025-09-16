@@ -31,7 +31,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <SectionArea className="bg-neutral-100" paddingtop={true}>
+    <SectionArea className="bg-secondary" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-full">
           <SectionHeader
@@ -39,8 +39,8 @@ export default function Testimonial() {
             miniTitle="ADVOGADOS QUE JÁ NÃO PERDEM MAIS CLIENTES"
             sectionHeaderTitle="Veja como outros escritórios conquistaram clientes e autoridade com um site profissional."
             sectionHeaderSubtitle="Sites modernos, rápidos e otimizados que captam clientes 24/7."
-            titleColorSet="text-black"
-            subtitleColorSet="text-black"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
 
           <div className="flex flex-col desktop1:flex-row items-center w-full justify-center gap-[32px] desktop1:mt-0">
@@ -54,10 +54,11 @@ export default function Testimonial() {
               showIndicators={false}
               className="w-full custom-carousel"
               prevIcon={
-                <span style={{ color: "#FACC15", fontSize: "200%" }}>❮</span>
+                // <span style={{ color: "#FACC15", fontSize: "200%" }}>❮</span>
+                <span style={{ color: "#000000", fontSize: "200%" }}>❮</span>
               }
               nextIcon={
-                <span style={{ color: "#FACC15", fontSize: "200%" }}>❯</span>
+                <span style={{ color: "#000000", fontSize: "200%" }}>❯</span>
               }
             />
           </div>

@@ -7,33 +7,33 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function Steppers({}) {
   return (
     <>
-      <SectionArea>
+      <SectionArea className="bg-white">
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.steppers.sectionHeader.miniTag}
             className="text-center"
             sectionHeaderTitle={contentLp01.steppers.sectionHeader.title}
             color=""
-            titleColorSet="text-secondary"
+            titleColorSet="text-black"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP
-              icon={contentLp01.steppers.cards.card1.icon}
+              number={contentLp01.steppers.cards.card1.icon}
               title={contentLp01.steppers.cards.card1.title}
               description={contentLp01.steppers.cards.card1.description}
             />
             <FeatureCardLP
-              icon={contentLp01.steppers.cards.card2.icon}
+              number={contentLp01.steppers.cards.card2.icon}
               title={contentLp01.steppers.cards.card2.title}
               description={contentLp01.steppers.cards.card2.description}
             />
             <FeatureCardLP
-              icon={contentLp01.steppers.cards.card3.icon}
+              number={contentLp01.steppers.cards.card3.icon}
               title={contentLp01.steppers.cards.card3.title}
               description={contentLp01.steppers.cards.card3.description}
             />
             <FeatureCardLP
-              icon={contentLp01.steppers.cards.card4.icon}
+              number={contentLp01.steppers.cards.card4.icon}
               title={contentLp01.steppers.cards.card4.title}
               description={contentLp01.steppers.cards.card4.description}
             />
