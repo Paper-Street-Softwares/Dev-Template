@@ -11,8 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
@@ -88,7 +87,7 @@
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph":"A_Definir",
+    "paragraph": "A_Definir",
     "modal": "a_Definir",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",

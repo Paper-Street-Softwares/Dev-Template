@@ -61,5 +61,6 @@ export default function HowltWorksCardLPV({
     <MotionDivDownToUp className="tablet1:w-[45%]">
       {StaticContent}
     </MotionDivDownToUp>
+
   );
 }
