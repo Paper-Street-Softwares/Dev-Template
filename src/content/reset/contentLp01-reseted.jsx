@@ -15,15 +15,15 @@ import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
 
-import img1 from "../assets/imgs/about/image1.webp";
-import img2 from "../assets/imgs/about/image2.webp";
-import img3 from "../assets/imgs/about/image3.webp";
+// import img1 from "../assets/imgs/about/image1.webp";
+// import img2 from "../assets/imgs/about/image2.webp";
+// import img3 from "../assets/imgs/about/image3.webp";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
+    title: "A_Definir",
     description: "A_Definir",
     keywords: "A_Definir",
   },
@@ -36,12 +36,12 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
+          A_Definir <span className="text-lpTitle"> A_Definir</span>{" "}
           <span className="text-lpTitle"> A_Definir</span>
         </h1>
       ),
       subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      buttonLabel: "A_Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -53,22 +53,114 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-off-icon lucide-shield-off"
+          >
+            <path d="m2 2 20 20" />
+            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
+            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+          </svg>
+        ),
         title: "A_Definir",
         description: "A_Definir",
       },
       card2: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ban-icon lucide-ban"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m4.9 4.9 14.2 14.2" />
+          </svg>
+        ),
         title: "A_Definir",
         description: "A_Definir",
       },
       card3: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car-icon lucide-car"
+          >
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
+          </svg>
+        ),
         title: "A_Definir",
         description: "A_Definir",
       },
       card4: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
+          >
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
+          </svg>
+        ),
+        title: "A_Definir",
+        description: "A_Definir",
+      },
+      card5: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-warning-icon lucide-file-warning"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
+          </svg>
+        ),
         title: "A_Definir",
         description: "A_Definir",
       },
@@ -77,9 +169,9 @@ const contentLp01 = {
   about: {
     bgImg: bgImg,
     imagesGaleria: {
-      imagem1: img1,
-      imagem2: img2,
-      imagem3: img3,
+      // imagem1: img1,
+      // imagem2: img2,
+      // imagem3: img3,
     },
     imgAbout: {
       img: imagemAbout,
@@ -94,6 +186,9 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
+        A_Definir
+        <br />
+        <br />
         A_Definir
         <br />
         <br />
@@ -153,7 +248,22 @@ const contentLp01 = {
         description: "A_Definir",
       },
       card4: {
-        icon: <BadgeDollarSign width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-square-icon lucide-message-square"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        ),
         title: "A_Definir",
         description: "A_Definir",
       },

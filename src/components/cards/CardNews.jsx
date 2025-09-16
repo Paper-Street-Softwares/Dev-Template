@@ -1,13 +1,13 @@
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Button from "../interactives/Button";
+import BlogButton from "../interactives/BlogButton";
 
-export default function WordPressBlogCard({ img, title, subtitle, link }) {
+export default function CardNews({ img, title, subtitle, link }) {
   return (
     <div>
       <MotionDivDownToUp>
         <div
           id="cardBlog"
-          className="w-[290px] phone2:w-[300px] phone3:w-[350px] tablet1:w-[400px] font-mainFont flex flex-col desktop1:max-w-[500px] desktop3:max-w-[375px] bg-bgSectionLight rounded-2xl p-[20px] border border-black"
+          className="w-[290px] phone2:w-[300px] phone3:w-[350px] tablet1:w-[400px] font-mainFont flex flex-col desktop1:max-w-[500px] desktop3:max-w-[375px] bg-bgSectionLight rounded-2xl p-[20px]"
         >
           <div className="w-full max-h-[220px] tablet1:h-[300px] flex justify-center items-center overflow-hidden rounded-2xl">
             <div className="w-full">{img}</div>
@@ -25,7 +25,8 @@ export default function WordPressBlogCard({ img, title, subtitle, link }) {
             {subtitle}
           </h2>
           <div className="flex ">
-            <Button
+            <BlogButton
+              removeAnchor={true}
               label="Ver matéria completa"
               buttonLink={link}
               className="text-labelButtons"

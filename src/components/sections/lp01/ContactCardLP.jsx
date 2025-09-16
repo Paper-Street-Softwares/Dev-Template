@@ -10,7 +10,7 @@ export default function ContactCardLP({ icon, label, description }) {
           </div>
           <div className="flex flex-col justify-center text-colorBlack">
             <h1 className="font-semibold">{label}</h1>
-            <p className="opacity-80 text-[8px] phone2:text-[10px] phone3:text-[12px]">
+            <p className="opacity-80 text-[12px] phone2:text-[14px] phone3:text-[16px]">
               {description}
             </p>
           </div>

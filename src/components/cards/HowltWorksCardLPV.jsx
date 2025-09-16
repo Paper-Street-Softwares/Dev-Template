@@ -1,7 +1,7 @@
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function HowltWorksCardLPV({
-  number,
+  icon,
   title,
   description,
   animation = true,
@@ -26,14 +26,16 @@ export default function HowltWorksCardLPV({
   }
 
   const BaseContent = (
-    <div className="flex flex-col items-center justify-center transition desktop1:items-center font-mainFont text-center w-[90%] m-auto desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[24px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
-        {number}
+    <div className="flex flex-col items-center transition desktop1:items-center font-mainFont text-center min-w-[255px] desktop1:min-w-[180px] m-auto tablet1:m-0desktop1:hover:scale-110 h-[150px] justify-between p-4 ">
+      <div
+        className={`p-[18px] mb-[18px] flex justify-center items-center text-labelButtons bg-primary rounded-full`}
+      >
+        {icon}
       </div>
 
-      <h1 className={`text-[20px] ${textColor}`}>{title}</h1>
+      <h1 className={`text-[20px] min-h-[60px] ${textColor}`}>{title}</h1>
       <p
-        className={`text-[16px] text-center  w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center w-full ${textColor} ${textOpacity}`}
       >
         {description}
       </p>
@@ -41,12 +43,11 @@ export default function HowltWorksCardLPV({
   );
 
   const StaticContent = (
-    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
-        {number}
-      </div>
-      <h1 className="text-[20px] text-white mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-white opacity-70 text-center desktop1:text-left w-full">
+    <div className="flex flex-col items-center transition desktop1:items-center font-mainFont text-center min-w-[255px] desktop1:min-w-[180px] m-auto tablet1:m-0desktop1:hover:scale-110 h-[150px] justify-between p-4 bg-primary rounded-md  ">
+      <h1 className={`text-[20px] min-h-[30px] text-black`}>{title}</h1>
+      <p
+        className={`text-[16px] text-center w-full h-[80px] text-black ${textOpacity}`}
+      >
         {description}
       </p>
     </div>
@@ -57,6 +58,9 @@ export default function HowltWorksCardLPV({
       {BaseContent}
     </MotionDivDownToUp>
   ) : (
-    StaticContent
+    <MotionDivDownToUp className="tablet1:w-[45%]">
+      {StaticContent}
+    </MotionDivDownToUp>
+
   );
 }

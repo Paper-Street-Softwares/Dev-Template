@@ -25,13 +25,14 @@ export default function AboutParalaxeLP() {
           <SectionWrapper>
             <SectionHeader
               className="text-center"
-              miniTitle={contentLp01.cta.sectionHeader.miniTag}
+              // miniTitle={contentLp01.cta.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
               miniTitleTextColor="text-darker"
               color=""
               titleColorSet="text-white"
               subtitleColorSet="text-white"
+              miniTitleBgColor={false}
             />
             <MotionDivDownToUp>
               <Button

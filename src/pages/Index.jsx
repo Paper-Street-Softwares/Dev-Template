@@ -69,7 +69,7 @@ export default function Index() {
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
+        sixCards={false}
         paragraphsModal={false}
       />
 

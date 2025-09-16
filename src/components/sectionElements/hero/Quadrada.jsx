@@ -44,7 +44,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 >
                   <h1>
                     <span
-                      dangerouslySetInnerHTML={{
+                      dangerouslySetInnerHTML={{ 
                         __html: t("hero.title"),
                       }}
                     />
