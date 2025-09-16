@@ -248,9 +248,26 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "A_Definir",
+        title: "Personalizado",
         paragraph: "A_Definir",
-        description: "A_Definir",
+        description: (
+          <p>
+            ✔️ 1 ano de Domínio e hospedagem gratuitos
+            <br />
+            <br />
+            ✔️ Botão direto para o WhatsApp
+            <br />
+            <br />
+            ✔️ Links integrados para suas redes sociais
+            <br />
+            <br />
+            ✔️ Design moderno e otimizado para celulares
+            <br />
+            <br />
+            ✔️ Entrega completa, com acesso total ao painel
+          </p>
+        ),
+        buttonLabel: "A partir de 0x de R$00,00",
       },
       card4: {
         icon: (

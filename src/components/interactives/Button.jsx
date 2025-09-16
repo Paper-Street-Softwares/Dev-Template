@@ -59,7 +59,7 @@ export default function Button({
         <MotionDivDownToUp className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/20 ${
+            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 ${
               color || "bg-buttonColor"
             } flex-row items-center justify-around transition text-labelButtons desktop1:hover:scale-110`}
           >

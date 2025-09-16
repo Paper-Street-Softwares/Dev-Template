@@ -78,7 +78,7 @@ export default function FeaturesParagraphs({ colorMode }) {
       <SectionWrapper>
         <div className="flex flex-col items-ceter w-full justify-evenly tablet1:flex-row">
           <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-            {[1, 2].map((num) => {
+            {[1, 2, 3].map((num) => {
               const card = contentLp01.features.cards[`card${num}`];
               return (
                 <MotionDivDownToUp
