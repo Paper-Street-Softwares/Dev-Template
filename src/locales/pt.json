@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "kairós art’s gráfica",
+    "title": "A gráfica que vai  <span class=\"text-primary font-bold\">até você!</span>",
+    "subtitle": "Criação e impressão de materiais gráficos com qualidade e rapidez, agora em até 12x no cartão.",
+    "ctaButtonText": "Peça seu orçamento",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Parcelamos seus materiais em até 12x no cartão, facilitando suas compras!"
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Design Gráfico",
+    "title": "Soluções criativas em design para sua marca",
+    "subtitle": "Do logotipo às mídias digitais, criamos materiais que valorizam sua identidade visual.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Criação de logotipos",
+      "subtitle": "Identidade visual criativa para destacar sua marca.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Mídias digitais",
+      "subtitle": "Design moderno para redes sociais e campanhas online.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Panfletos, cardápios, cartão de visitas",
+      "subtitle": "Materiais gráficos atrativos para divulgar seu negócio.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Cartaz, adesivos, banners",
+      "subtitle": "Comunicação visual impactante para grandes formatos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,26 +83,26 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Sobre nós",
+    "title": "Criatividade que inspira",
+    "subtitle": "Design gráfico moderno e soluções visuais que destacam sua marca no mercado.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
+    "paragraph": "Somos uma gráfica especializada em criar identidade visual completa para empresas e profissionais que desejam se destacar. Desde logotipos e mídias digitais até materiais impressos como panfletos, cardápios e banners, trabalhamos cada detalhe com criatividade e qualidade. Nosso compromisso é transformar suas ideias em projetos visuais únicos, que fortalecem sua marca e comunicam de forma clara e impactante.",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Acompanhe nossas redes sociais para conhecer novidades, inspirações e soluções criativas no mundo do design e da impressão.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text- font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text- font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text- font-bold\">Precisa de </span> materiais gráficos? <span class=\"text- font-bold\">Conte com a gente!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -114,23 +114,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Briefing inicial",
+        "cardDescription": "Realizamos uma reunião para entender suas necessidades de design e identificar os objetivos do seu projeto."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Análise e planejamento",
+        "cardDescription": "Examinamos todas as informações fornecidas, avaliando o estilo, cores, formatos e materiais ideais para sua marca."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Criação e desenvolvimento",
+        "cardDescription": "Desenvolvemos conceitos visuais, layouts e materiais gráficos personalizados, alinhados à identidade da sua empresa."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Entrega e acompanhamento",
+        "cardDescription": "Entregamos os arquivos finais prontos para impressão ou uso digital, garantindo qualidade e suporte em todas as etapas."
       }
     }
   },
@@ -149,19 +149,19 @@
     "questions": {
       "question1": {
         "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "answer": "Agende uma conversa via WhatsApp para entendermos seu projeto e definir orçamento."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Qual é o prazo médio para execução do serviço?",
+        "answer": "O prazo varia conforme a complexidade do trabalho, mas informamos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Quais informações devo fornecer para iniciar o projeto?",
+        "answer": "Forneça detalhes sobre sua marca, referências visuais, textos, logotipos e materiais já existentes, se houver."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Vocês oferecem consultoria de design ou identidade visual?",
+        "answer": "Sim, oferecemos consultoria completa para criar ou aprimorar sua identidade visual e materiais gráficos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
