@@ -83,22 +83,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Sobre nós",
+    "title": "Criatividade que inspira",
+    "subtitle": "Design gráfico moderno e soluções visuais que destacam sua marca no mercado.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
+    "paragraph": "Somos uma gráfica especializada em criar identidade visual completa para empresas e profissionais que desejam se destacar. Desde logotipos e mídias digitais até materiais impressos como panfletos, cardápios e banners, trabalhamos cada detalhe com criatividade e qualidade. Nosso compromisso é transformar suas ideias em projetos visuais únicos, que fortalecem sua marca e comunicam de forma clara e impactante.",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Acompanhe nossas redes sociais para conhecer novidades, inspirações e soluções criativas no mundo do design e da impressão.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
