@@ -20,7 +20,7 @@ export default function Index() {
   const showUnderConstruction = false;
 
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "default";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -58,9 +58,9 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
+        defaultHero={true}
         influencer={false}
-        mesclado={true}
+        mesclado={false}
       />
 
       <Features
