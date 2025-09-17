@@ -6,15 +6,15 @@ export default {
     extend: {
       colors: {
         // Principais
-        primary: "#B99F60",
-        buttonColor: "#B99F60",
-        minititleDark: "#B99F60", //bg minitag de seções claras
-        minititle: "#B99F60", //bg minitag de seções escuras
+        primary: "#FFFFFF",
+        buttonColor: "#FFFFFF",
+        minititleDark: "#FFFFFF", //bg minitag de seções claras
+        minititle: "#FFFFFF", //bg minitag de seções escuras
         secondary: "#000000",
 
         // Fundos de Seção
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#19213E",
+        bgSectionDark: "#001C43",
         bgSectionOpacityLight: "#F7F7F7",
         bgFixedLight: "#E8E8E8",
         bgSectionOpacityDark: "#111111",
