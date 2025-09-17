@@ -11,8 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
@@ -89,8 +88,8 @@
     "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
     "paragraph": "A_Definir",
-    "modal": "a_Definir",
-    "ctaButtonAriaLabel": "",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "A_Definir",
