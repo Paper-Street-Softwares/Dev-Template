@@ -14,6 +14,7 @@ import { ChartNoAxesCombined } from "lucide-react";
 import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
+import TypewriterComponent from "typewriter-effect";
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
@@ -38,12 +39,22 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span>{" "}
-          <span className="text-lpTitle"> A_Definir</span>
+          <TypewriterComponent
+            options={{
+              strings: [
+                "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
+                "Comprou um veículo, mas sente que está pagando por dois?",
+                "A dívida do cartão de crédito está tirando a sua tranquilidade?",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "A_Definir",
+      subtitle:
+        "Você pode ser uma vítima das dívidas abusivas. Você precisa agir rápido para dar um fim nisso.",
+      buttonLabel: "Quero minha dívida revisada",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
