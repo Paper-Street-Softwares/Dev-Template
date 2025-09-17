@@ -18,7 +18,7 @@
   },
   "hero": {
     "miniTag": "CEANO JÓIAS",
-    "title": "Brilho que eterniza <span class=\"text-primary font-bold\">momentos únicos</span>",
+    "title": "Brilho que eterniza <span class=\"desktop1:text-primary font-bold\">momentos únicos</span>",
     "subtitle": "Joias criadas com paixão e delicadeza, feitas para celebrar histórias, conquistas e sentimentos eternos.",
     "ctaButtonText": "Conheça nossas joias",
     "obsHero": {

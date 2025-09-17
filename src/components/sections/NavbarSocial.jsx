@@ -84,7 +84,7 @@ export default function NavbarSocial({ colorMode, mode }) {
     if (colorMode === "light") {
       return scrolling
         ? "bg-bgSectionOpacityLight shadow-md"
-        : "bg-transparent desktop1:bg-transparent";
+        : "bg-bgSectionOpacityLight desktop1:bg-transparent";
     }
     if (colorMode === "dark") {
       return scrolling
@@ -118,7 +118,7 @@ export default function NavbarSocial({ colorMode, mode }) {
               className={`bg-transparent ${
                 scrolling
                   ? " w-[40%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[40%] desktop2:w-[50%]"
-                  : "my-[20px] w-[50%] phone2:w-[40%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[45%] desktop1:w-[50%] desktop2:w-[60%]"
+                  : "my-[20px] w-[60%] phone2:w-[60%] phone3:w-[60%] tablet1:w-[60%] tablet2:w-[65%] desktop1:w-[50%] desktop2:w-[60%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>

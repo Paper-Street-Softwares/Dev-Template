@@ -32,7 +32,7 @@ export default {
         minititleDarkLabel: "#FFFFFF", //label minitag de seções escuras
 
         // Sombras
-        shadowHero: "#000000",
+        shadowHero: "#FFFFFF",
         shadowFeatures: "#000000",
         shadowAbouts: "#000000",
         shadowSteps: "#000000",
