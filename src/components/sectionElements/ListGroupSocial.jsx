@@ -66,13 +66,18 @@ export default function ListGroupSocial({
           className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center"
         >
           {mode === "blog" ? (
-            <ScrollLink
-              to={id}
+            <a
+              href={`#${id}`}
+              aria-label={label}
+              title={label}
+              data-track={id}
               className="relative font-semibold cursor-pointer"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-50}
+              onClick={(e) => {
+                e.preventDefault();
+                const el = document.getElementById(id);
+                if (el)
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+              }}
             >
               <span
                 className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
@@ -82,21 +87,24 @@ export default function ListGroupSocial({
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
               />
-            </ScrollLink>
+            </a>
           ) : (
-            <RouterLink
-              to={id === "inicio" ? "/" : `/${id.toLowerCase()}`}
+            <a
+              href={id === "inicio" ? "/" : `/${id.toLowerCase()}`}
+              aria-label={label}
+              title={label}
+              data-track={id}
               className="relative font-semibold cursor-pointer"
             >
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                {label} {/* <-- label do pt.json */}
+                {label}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
               />
-            </RouterLink>
+            </a>
           )}
         </li>
       ))}
