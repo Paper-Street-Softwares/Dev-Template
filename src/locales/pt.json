@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO TRABALHISTA & CÍVEL",
+    "title": "Justiça e proteção para <span class=\"text-primary font-bold\">seus direitos</span>",
+    "subtitle": "Defesa estratégica e eficaz em todos os casos, garantindo resultados confiáveis e seguros",
+    "ctaButtonText": "Fale com o advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online para todo território nacional"
     }
   },
   "features": {
