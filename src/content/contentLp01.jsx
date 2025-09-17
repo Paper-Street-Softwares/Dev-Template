@@ -23,9 +23,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title: "Provesi Assessoria em Dívidas e Crédito | Curitiba - PR",
+    description:
+      "A Provesi Assessoria ajuda você a revisar contratos, negociar dívidas e reduzir juros abusivos em Curitiba - PR. Soluções inteligentes para proteger seu bolso e recuperar o controle financeiro.",
+    keywords:
+      "Provesi Assessoria, Revisão de Dívidas Curitiba, Redução de Juros Abusivos, Negociação de Dívidas, Empréstimo Pessoal, Cartão de Crédito, Financiamento de Veículos, Assessoria Financeira Curitiba, Dívidas Abusivas, Proteção Financeira, Consultoria de Crédito, Provesi Curitiba, Recuperação Financeira, Planejamento de Pagamentos, Amortização de Dívidas, Juros Excessivos, Crédito Consciente, Regularização de Dívidas, Orientação Financeira, Provesi Consultoria.",
   },
   hero: {
     bgImg: bgImg,
