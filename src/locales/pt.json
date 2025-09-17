@@ -27,33 +27,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Nossas áreas de atuação",
+    "subtitle": "Soluções jurídicas completas para pessoas e empresas.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa de direitos e relações de trabalho com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas em contratos, imóveis e obrigações.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito do Consumidor",
+      "subtitle": "Proteção legal contra práticas abusivas e fraudes.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Família e Sucessões",
+      "subtitle": "Acordos, divórcios e partilha de bens com apoio.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
