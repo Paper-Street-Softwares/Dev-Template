@@ -11,15 +11,14 @@ function LinksNavegationFooter({ mode = "blog" }) {
   useEffect(() => {
     const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
 
-    const allIds = Object.keys(menuItems); // ["inicio", "service", "about", "faq"]
-    const allLabels = Object.values(menuItems); // ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"]
+    const allIds = Object.keys(menuItems);
+    const allLabels = Object.values(menuItems);
 
     const paired = allIds.map((id, index) => ({
       id,
       label: allLabels[index] || id,
     }));
 
-    // Agora SEM filtro -> mostra sempre todos os links
     setVisibleLinks(paired);
   }, [t]);
 
@@ -37,6 +36,9 @@ function LinksNavegationFooter({ mode = "blog" }) {
           smooth={true}
           duration={500}
           offset={-50}
+          aria-label={`Ir para seção ${label}`}
+          title={`Navegar até ${label}`}
+          data-track={`footer-${id}`} // <-- rastreável
         >
           <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
             {label}
@@ -46,7 +48,13 @@ function LinksNavegationFooter({ mode = "blog" }) {
     } else {
       const to = id === "inicio" ? "/" : `/${id.toLowerCase()}`;
       return (
-        <RouterLink to={to} className="cursor-pointer">
+        <RouterLink
+          to={to}
+          className="cursor-pointer"
+          aria-label={`Ir para página ${label}`}
+          title={`Navegar até ${label}`}
+          data-track={`footer-${id}`} // <-- rastreável
+        >
           <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
             {label}
           </span>
