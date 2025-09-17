@@ -1,5 +1,7 @@
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import LPFloatingWhatsappButton from "../components/interactives/LPFloatingWhatsappButton";
+import Faq from "../components/sections/Faq";
 import AboutParalaxeLP from "../components/sections/lp01/AboutParalaxeLP";
 import ContactLP from "../components/sections/lp01/ContactLP";
 import CtaLP from "../components/sections/lp01/CtaLP";
@@ -7,15 +9,12 @@ import FooterLP from "../components/sections/lp01/FooterLP";
 import HeroLP from "../components/sections/lp01/HeroLP";
 import WhyUs from "../components/sections/lp01/WhyUs";
 import FeaturesLP from "../components/sections/lp01/FeaturesLP";
+import FeatureWithModalsLp from "../components/sections/lp01/FeatureWithModalsLp";
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
-import Urgency from "../components/sections/lp01/Urgency";
-import FeaturesLPCards from "../components/sections/lp01/FeaturesLPCards";
-import SolutionLPV from "../components/sections/lp01/Solution";
-import NwesPosts from "../components/sections/NewsPosts";
-import Steppers from "../components/sections/lp01/Steppers";
-import Testimonial from "../components/sections/lp01/Testimonials";
+import StepsLpv from "../components/sections/lp01/StepsLpv";
+import Vídeo from "../components/sections/lp01/Vídeo";
 
 export default function Lp01() {
   useEffect(() => {
@@ -43,22 +42,10 @@ export default function Lp01() {
 
   return (
     <div>
-      {/* <div className="bg-green-300 text-black dark:bg-green-300 dark:text-black h-screen flex items-center justify-center">
-        <h1 className="text-4xl font-bold">Teste Darkmode</h1>
-      </div> */}
-      <HeroLP fullImg={false} />
-      <Urgency />
-      <Testimonial />
-      <Steppers />
-
-      <SolutionLPV />
-      <NwesPosts />
-
+      <HeroLP fullImg={true} />
+      <FeaturesLP />
+      <AboutParalaxeLP logo={true} />
       <WhyUs />
-      <FeaturesLPCards />
-
-      {/* <AboutParalaxeLP logo={true} /> */}
-
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />

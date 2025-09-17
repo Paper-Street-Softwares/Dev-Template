@@ -21,22 +21,22 @@ export default function WhyUs({}) {
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP
-              number={contentLp01.whyUs.cards.card1.icon}
+              icon={contentLp01.whyUs.cards.card1.icon}
               title={contentLp01.whyUs.cards.card1.title}
               description={contentLp01.whyUs.cards.card1.description}
             />
             <FeatureCardLP
-              number={contentLp01.whyUs.cards.card2.icon}
+              icon={contentLp01.whyUs.cards.card2.icon}
               title={contentLp01.whyUs.cards.card2.title}
               description={contentLp01.whyUs.cards.card2.description}
             />
             <FeatureCardLP
-              number={contentLp01.whyUs.cards.card3.icon}
+              icon={contentLp01.whyUs.cards.card3.icon}
               title={contentLp01.whyUs.cards.card3.title}
               description={contentLp01.whyUs.cards.card3.description}
             />
             <FeatureCardLP
-              number={contentLp01.whyUs.cards.card4.icon}
+              icon={contentLp01.whyUs.cards.card4.icon}
               title={contentLp01.whyUs.cards.card4.title}
               description={contentLp01.whyUs.cards.card4.description}
             />
