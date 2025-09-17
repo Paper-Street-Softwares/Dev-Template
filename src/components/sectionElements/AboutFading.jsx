@@ -1,7 +1,6 @@
 import { Trans } from "react-i18next";
 
 export default function AboutFading({ colorMode = "default" }) {
-  // Classes de tema
   const textClasses = {
     dark: "text-white",
     light: "text-black",
@@ -17,13 +16,17 @@ export default function AboutFading({ colorMode = "default" }) {
   const fadeClass = fadeClasses[colorMode] || fadeClasses.default;
 
   return (
-    <div className={`relative font-secondFont text-paragraph4 ${textClass}`}>
-      {/* Renderiza HTML/JSX do JSON */}
+    <div
+      className={`
+        relative font-secondFont text-paragraph4 ${textClass}
+        max-h-[200px] overflow-hidden
+      `}
+    >
       <Trans i18nKey="about.paragraph" />
 
       <div
-        className={`bottom-0 absolute w-full h-[80px] bg-gradient-to-b from-transparent ${fadeClass}`}
-      ></div>
+        className={`pointer-events-none absolute bottom-0 w-full h-[80px] bg-gradient-to-b from-transparent ${fadeClass}`}
+      />
     </div>
   );
 }
