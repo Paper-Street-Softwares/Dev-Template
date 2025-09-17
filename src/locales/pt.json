@@ -84,22 +84,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O DR. CARLOS FRANZEN",
+    "title": "Minha trajetória",
+    "subtitle": "Experiência e dedicação em soluções jurídicas com ética e responsabilidade.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "paragraph": "Atuamos de forma preventiva e contenciosa, seja em sede administrativa ou judicial, em todas as instâncias e Tribunais, com seriedade, competência e ética.",
+    "modal": "Atuamos de forma preventiva e contenciosa, seja em sede administrativa ou judicial, em todas as instâncias e Tribunais, com seriedade, competência e ética. <br/><br/> Nosso objetivo é oferecer serviços jurídicos de altíssimo nível, buscando êxito e rapidez na solução das causas que nos são confiadas. <br/><br/> Buscamos, através da experiência acumulada, uma moderna infraestrutura de tecnologia de informação, oferecendo assim, um serviço de excelência, atendendo as especificidades de cada cliente. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
