@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "kairós art’s gráfica",
+    "title": "A gráfica que vai  <span class=\"text-primary font-bold\">até você!</span>",
+    "subtitle": "Criação e impressão de materiais gráficos com qualidade e rapidez, agora em até 12x no cartão.",
+    "ctaButtonText": "Peça seu orçamento",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Parcelamos seus materiais em até 12x no cartão, facilitando suas compras!"
     }
   },
   "features": {
