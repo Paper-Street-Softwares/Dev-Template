@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Design Gráfico",
+    "title": "Soluções criativas em design para sua marca",
+    "subtitle": "Do logotipo às mídias digitais, criamos materiais que valorizam sua identidade visual.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Criação de logotipos",
+      "subtitle": "Identidade visual criativa para destacar sua marca.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Mídias digitais",
+      "subtitle": "Design moderno para redes sociais e campanhas online.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Panfletos, cardápios, cartão de visitas",
+      "subtitle": "Materiais gráficos atrativos para divulgar seu negócio.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Cartaz, adesivos, banners",
+      "subtitle": "Comunicação visual impactante para grandes formatos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
