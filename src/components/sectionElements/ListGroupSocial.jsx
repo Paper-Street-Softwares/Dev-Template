@@ -73,9 +73,6 @@ export default function ListGroupSocial({
               smooth={true}
               duration={500}
               offset={-50}
-              aria-label={`Ir para seção ${label}`}
-              title={`Navegar até ${label}`}
-              data-track={`menu-${id}`} // <-- rastreável
             >
               <span
                 className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
@@ -90,14 +87,11 @@ export default function ListGroupSocial({
             <RouterLink
               to={id === "inicio" ? "/" : `/${id.toLowerCase()}`}
               className="relative font-semibold cursor-pointer"
-              aria-label={`Ir para página ${label}`}
-              title={`Navegar até ${label}`}
-              data-track={`menu-${id}`} // <-- rastreável
             >
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                {label}
+                {label} {/* <-- label do pt.json */}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}

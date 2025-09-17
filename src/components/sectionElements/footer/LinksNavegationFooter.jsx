@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
-import { Link as ScrollLink } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
 
 function LinksNavegationFooter({ mode = "blog" }) {
   const { t } = useTranslation();
@@ -10,7 +8,6 @@ function LinksNavegationFooter({ mode = "blog" }) {
 
   useEffect(() => {
     const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
-
     const allIds = Object.keys(menuItems);
     const allLabels = Object.values(menuItems);
 
@@ -26,39 +23,45 @@ function LinksNavegationFooter({ mode = "blog" }) {
   const firstHalf = visibleLinks.slice(0, half);
   const secondHalf = visibleLinks.slice(half);
 
+  const handleScroll = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   const renderLink = (id, label) => {
+    const commonProps = {
+      "aria-label": label,
+      title: label,
+      "data-track": id,
+      className: "cursor-pointer",
+    };
+
     if (mode === "blog") {
+      // Scroll suave, mas com <a href> rastreável
       return (
-        <ScrollLink
-          to={id}
-          className="cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-50}
-          aria-label={`Ir para seção ${label}`}
-          title={`Navegar até ${label}`}
-          data-track={`footer-${id}`} // <-- rastreável
+        <a
+          href={`#${id}`}
+          {...commonProps}
+          onClick={(e) => {
+            e.preventDefault();
+            handleScroll(id);
+          }}
         >
           <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
             {label}
           </span>
-        </ScrollLink>
+        </a>
       );
     } else {
       const to = id === "inicio" ? "/" : `/${id.toLowerCase()}`;
       return (
-        <RouterLink
-          to={to}
-          className="cursor-pointer"
-          aria-label={`Ir para página ${label}`}
-          title={`Navegar até ${label}`}
-          data-track={`footer-${id}`} // <-- rastreável
-        >
+        <a href={to} {...commonProps}>
           <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
             {label}
           </span>
-        </RouterLink>
+        </a>
       );
     }
   };
