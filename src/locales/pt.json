@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "CEANO JÓIAS",
+    "title": "Brilho que eterniza <span class=\"text-primary font-bold\">momentos únicos</span>",
+    "subtitle": "Joias criadas com paixão e delicadeza, feitas para celebrar histórias, conquistas e sentimentos eternos.",
+    "ctaButtonText": "Conheça nossas joias",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Entregamos em todo o Brasil"
     }
   },
   "features": {
