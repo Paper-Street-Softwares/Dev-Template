@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp.webp";
-import logo from "../assets/imgs/logo/logoLp.webp";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -23,11 +23,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Paper Street Desenvolvimento Web | Sites Profissionais no Brasil",
-    description:
-      "A Paper Street oferece desenvolvimento de sites modernos, responsivos e personalizados para empresas em todo o Brasil. Transforme sua presença online com design profissional, otimização para celular e funcionalidades que atraem clientes.",
-    keywords:
-      "Paper Street, Desenvolvimento Web, Sites Profissionais, Criação de Sites, Sites Responsivos, Design para Web, Agência de Sites, Web Design Brasil, Sites para Empresas, Marketing Digital, Otimização para Celular, Sites Modernos, Desenvolvimento de Landing Pages, SEO para Sites, Sites Personalizados, Paper Street Brasil, Desenvolvimento de Sites Comerciais, Sites Profissionais Brasil, Agência de Desenvolvimento Web, Presença Online.",
+    title: "A_Definir",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
@@ -38,107 +36,20 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-primary ">
-            Chega de perder clientes todos os dias.
-          </span>{" "}
-          <span className="text-lpTitle">
-            {" "}
-            Conquiste-os agora com um site jurídico{" "}
-          </span>{" "}
-          <span className="text-lpTitle">profissional! </span>
+          A_Definir <span className="text-lpTitle"> A_Definir</span>{" "}
+          <span className="text-lpTitle"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Cada cliente que não te encontra é uma causa perdida, um processo que você nunca verá e sua reputação que desmorona. Mostre que você é um advogado confiável. ",
-      buttonLabel: "Quero meu site jurídico agora",
+      subtitle: "A_Definir",
+      buttonLabel: "A_Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
-  urgency: {
-    miniTag: "SEU ESCRITÓRIO SEM SITE?",
-    title: "Clientes estão indo para a concorrência todos os dias.",
-    subtitle:
-      "Enquanto você espera, eles escolhem outro advogado e você perde dinheiro e oportunidades que não voltam. Entenda:",
-    alt: "A_Definir",
-    cards: {
-      card1: {
-        stepNumber: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-search-x-icon lucide-search-x"
-          >
-            <path d="m13.5 8.5-5 5" />
-            <path d="m8.5 8.5 5 5" />
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
-        ),
-        cardTitle: "Clientes não te encontram.",
-        cardDescription: "A_Definir",
-      },
-      card2: {
-        stepNumber: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hand-coins-icon lucide-hand-coins"
-          >
-            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
-            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
-            <path d="m2 16 6 6" />
-            <circle cx="16" cy="9" r="2.9" />
-            <circle cx="6" cy="5" r="3" />
-          </svg>
-        ),
-        cardTitle: "Concorrentes levam seus casos.",
-        cardDescription: "A_Definir",
-      },
-      card3: {
-        stepNumber: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-alert-icon lucide-shield-alert"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
-          </svg>
-        ),
-        cardTitle: "Seu escritório passa desconfiança.",
-        cardDescription: "A_Definir",
-      },
-      buttonLabel: "Garanta seu site profissional agora",
-      ariaLabel: "Botão de contato",
-    },
-  },
   features: {
     sectionHeader: {
-      miniTag: "PLANOS DE SITES",
-      title: "Escolha a forma ideal de ter seu site profissional",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
@@ -160,33 +71,8 @@ const contentLp01 = {
             <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
           </svg>
         ),
-        title: "Plano Assinatura",
-        paragraph:
-          "Tenha seu site profissional sempre atualizado, seguro e pronto para atrair clientes, sem preocupações extras.",
-        description: (
-          <p>
-            ✔️ Domínio e hospedagem vitalícios
-            <br />
-            <br />
-            ✔️ Manutenção mensal inclusa
-            <br />
-            <br />
-            ✔️ Cancele a qualquer momento
-            <br />
-            <br />
-            ✔️ Suporte 24h com nossa equipe
-            <br />
-            <br />
-            ✔️ Botão direto para o WhatsApp
-            <br />
-            <br />
-            ✔️ Links para suas redes sociais
-            <br />
-            <br />
-            ✔️ Design responsivo e otimizado para celulares
-          </p>
-        ),
-        buttonLabel: "A partir de R$69,00",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
         icon: (
@@ -206,27 +92,8 @@ const contentLp01 = {
             <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "Plano Aquisição",
-        paragraph:
-          "Invista em um site profissional e tenha sua presença digital definitiva. O site será 100% seu, sem mensalidades de assinatura, pronto para representar sua marca com credibilidade.",
-        description: (
-          <p>
-            ✔️ 1 ano de Domínio e hospedagem gratuitos
-            <br />
-            <br />
-            ✔️ Botão direto para o WhatsApp
-            <br />
-            <br />
-            ✔️ Links integrados para suas redes sociais
-            <br />
-            <br />
-            ✔️ Design moderno e otimizado para celulares
-            <br />
-            <br />
-            ✔️ Entrega completa, com acesso total ao painel
-          </p>
-        ),
-        buttonLabel: "A partir de 10x de R$59,00",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
         icon: (
@@ -248,26 +115,8 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "Personalizado",
-        paragraph: "A_Definir",
-        description: (
-          <p>
-            ✔️ 1 ano de Domínio e hospedagem gratuitos
-            <br />
-            <br />
-            ✔️ Botão direto para o WhatsApp
-            <br />
-            <br />
-            ✔️ Links integrados para suas redes sociais
-            <br />
-            <br />
-            ✔️ Design moderno e otimizado para celulares
-            <br />
-            <br />
-            ✔️ Entrega completa, com acesso total ao painel
-          </p>
-        ),
-        buttonLabel: "A partir de 0x de R$00,00",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
         icon: (
@@ -291,7 +140,6 @@ const contentLp01 = {
           </svg>
         ),
         title: "A_Definir",
-        paragraph: "A_Definir",
         description: "A_Definir",
       },
       card5: {
@@ -314,150 +162,7 @@ const contentLp01 = {
           </svg>
         ),
         title: "A_Definir",
-        paragraph: "A_Definir",
         description: "A_Definir",
-      },
-    },
-  },
-
-  steppers: {
-    sectionHeader: {
-      miniTag: "PASSO A PASSO",
-      title:
-        "Nossos processos foram pensados para você não ter nenhuma preocupação enquanto seu site é construído.",
-    },
-    cards: {
-      card1: {
-        icon: 1,
-        title: "Informações",
-        description:
-          "Após contratar, pedimos os dados do seu negócio. Sem material? Temos textos e imagens prontos.",
-      },
-      card2: {
-        icon: 2,
-        title: "Criação",
-        description: "Desenvolvemos seu site e tiramos dúvidas no caminho.",
-      },
-      card3: {
-        icon: 3,
-        title: "Aprovação",
-        description:
-          "Você aprova, escolhemos o nome, criamos e-mails e colocamos no ar.",
-      },
-      card4: {
-        icon: 4,
-        title: "Suporte",
-        description:
-          "Ganha uma arte exclusiva para divulgar e dicas de como usar melhor o site.",
-      },
-    },
-  },
-  whyUs: {
-    sectionHeader: {
-      miniTag: "",
-      title:
-        "Realize seus maiores sonhos com um site que trabalha por você 24/7.",
-      subtitle:
-        "Cada cliente conquistado é um passo mais próximo de transformar seus sonhos em realidade. Com um site moderno e otimizado, você atrai clientes enquanto foca no que realmente importa.",
-    },
-    cards: {
-      card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-plane-icon lucide-plane"
-          >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
-          </svg>
-        ),
-        title: "Viaje para o exterior com sua família",
-        description:
-          "Imagine explorar novos destinos com quem você ama, sem se preocupar com o trabalho. Um site profissional atrai clientes enquanto você desfruta de merecidas férias.",
-      },
-      card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
-          >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
-          </svg>
-        ),
-        title: "Conquiste o carro dos seus sonhos",
-        description:
-          "Sinta a liberdade de dirigir o carro que sempre desejou. Com um fluxo constante de clientes, seu sonho se torna uma conquista real e tangível.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-house-icon lucide-house"
-          >
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-          </svg>
-        ),
-        title: "Compre a casa ideal",
-        description:
-          "Realize o sonho da casa própria, com conforto e segurança para sua família. Um site eficiente gera clientes e estabilidade financeira para alcançar esse objetivo.",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-building-icon lucide-building"
-          >
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M12 6h.01" />
-            <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M16 6h.01" />
-            <path d="M8 10h.01" />
-            <path d="M8 14h.01" />
-            <path d="M8 6h.01" />
-            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
-            <rect x="4" y="2" width="16" height="20" rx="2" />
-          </svg>
-        ),
-        title: "Construa um escritório de sucesso",
-        description:
-          "Transforme seu escritório em uma referência no mercado jurídico. Um site profissional atrai clientes e fortalece sua autoridade, impulsionando seu crescimento.",
       },
     },
   },
@@ -496,6 +201,74 @@ const contentLp01 = {
     buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
+  steps: {
+    miniTag: "A_Definir",
+    title: "A_Definir",
+    subtitle: "A_Definir",
+    alt: "A_Definir",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      buttonLabel: "A_Definir",
+      ariaLabel: "A_Definir",
+    },
+  },
+  whyUs: {
+    sectionHeader: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+    },
+    cards: {
+      card1: {
+        icon: <Gavel width={32} height={32} />,
+        title: "A_Definir",
+        description: "A_Definir",
+      },
+      card2: {
+        icon: <ChartNoAxesCombined width={32} height={32} />,
+        title: "A_Definir",
+        description: "A_Definir",
+      },
+      card3: {
+        icon: <Handshake width={32} height={32} />,
+        title: "A_Definir",
+        description: "A_Definir",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-square-icon lucide-message-square"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+        ),
+        title: "A_Definir",
+        description: "A_Definir",
+      },
+    },
+  },
   video: {
     sectionHeader: {
       miniTag: "A_Definir",
@@ -507,10 +280,10 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "A_Definir",
-      title: "Deixa a gente cuidar da vida digital do seu negócio",
-      subtitle: <p className="opacity-80"></p>,
+      title: "A_Definir",
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
-    buttonLabel: "Adquira agora mesmo",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
