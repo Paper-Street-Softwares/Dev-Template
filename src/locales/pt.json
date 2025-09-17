@@ -1,9 +1,9 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Fortaleza - CE ",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
-    "expedienteSecundario": "A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 17h",
+    "expedienteSecundario": "Sábado: <br/> 9h às 13h",
     "obs": "A_Definir"
   },
   "navbar": {
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "CEANO JÓIAS",
+    "title": "Brilho que eterniza <span class=\"desktop1:text-primary font-bold\">momentos únicos</span>",
+    "subtitle": "Joias criadas com paixão e delicadeza, feitas para celebrar histórias, conquistas e sentimentos eternos.",
+    "ctaButtonText": "Conheça nossas joias",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Entregamos em todo o Brasil"
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Atuação",
+    "title": "Nossas especialidades em Joalheria",
+    "subtitle": "Serviços completos para valorizar, personalizar e cuidar das suas joias.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Venda de Jóias",
+      "subtitle": "Peças sofisticadas em ouro e prata para todas as ocasiões.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Personalização de Jóias",
+      "subtitle": "Criação exclusiva que transforma sua ideia em uma joia única.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Conserto de Jóias",
+      "subtitle": "Recuperamos suas joias com técnica e cuidado especializado.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Limpeza de Jóias",
+      "subtitle": "Devolvemos o brilho original às suas joias com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,26 +83,26 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É A CEANO JÓIAS",
+    "title": "Nossa trajetória",
+    "subtitle": "Conheça a história da Ceano Jóias e a paixão que inspira cada criação. ",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
+    "paragraph": "A Ceano Jóias nasceu do brilho dos sonhos e da vontade de transformar emoções em eternidade. Cada peça que criamos carrega sentimentos, celebra vitórias e guarda memórias inesquecíveis. Nossa trajetória é feita de paixão, delicadeza e inspiração para que cada jóia seja muito mais do que um detalhe — seja um símbolo de vida, afeto e significado.",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Acompanhe nossas redes sociais e descubra novidades, inspirações e lançamentos exclusivos do mundo da joalheria.",
+      "labelInstagram": "Siga-nos no Instagram",
       "labelFacebook": "A_Definir",
       "labelLinkedin": "A_Definir",
       "labelX": "A_Definir"
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Quer eternizar momentos</span> ou cuidar das suas joias? <span class=\"text-primary font-bold\">Estamos prontos para ajudar você!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -115,22 +115,22 @@
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Conversamos para entender o que você deseja, seja compra, personalização ou cuidado com suas joias."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardDescription": "Avaliamos suas peças ou ideias, verificando materiais, estado de conservação e possibilidades de design."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Elaboração da proposta",
+        "cardDescription": "Criamos um projeto exclusivo ou indicamos o melhor serviço para valorizar suas joias com segurança e sofisticação."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Execução do serviço",
+        "cardDescription": "Realizamos a confecção, conserto, personalização ou limpeza das joias, entregando resultados que encantam e eternizam momentos."
       }
     }
   },
@@ -148,20 +148,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Quais materiais são utilizados nas joias da Ceano?",
+        "answer": "As joias da Ceano são confeccionadas com metais nobres como ouro 18k, prata 925 e platina, garantindo durabilidade e sofisticação."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Posso personalizar uma joia existente?",
+        "answer": "Sim, oferecemos serviços de personalização para transformar suas ideias em peças únicas e exclusivas."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Como faço para ajustar o tamanho de uma joia?",
+        "answer": "Após a compra, você pode solicitar ajustes de tamanho. Entre em contato conosco para orientações sobre o processo."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Quais cuidados devo ter com minhas joias?",
+        "answer": "Recomendamos evitar o contato com produtos químicos, água do mar e suor excessivo. Para limpeza, utilize um pano macio e evite o uso de abrasivos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
