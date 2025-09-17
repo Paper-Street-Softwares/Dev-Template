@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Itupeva - SP <br/>",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -102,7 +102,7 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text- font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text- font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
