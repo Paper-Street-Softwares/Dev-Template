@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Dr. Amadeu da Luz, <br/>  122 (Edifício Classic),  <br/> Centro - Blumenau - SC, <br/>  CEP: 89010-160",
+    "adress": "Itupeva - SP <br/>",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 12h  <br/> 14h às 18h ",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO TRABALHISTA & CÍVEL",
-    "title": "Justiça e proteção para <span class=\"text-primary font-bold\">seus direitos</span>",
-    "subtitle": "Defesa estratégica e eficaz em todos os casos, garantindo resultados confiáveis e seguros",
-    "ctaButtonText": "Fale com o advogado",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento online para todo território nacional"
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Nossas áreas de atuação",
-    "subtitle": "Soluções jurídicas completas para pessoas e empresas.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa de direitos e relações de trabalho com segurança.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Civil",
-      "subtitle": "Soluções jurídicas em contratos, imóveis e obrigações.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Proteção legal contra práticas abusivas e fraudes.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Família e Sucessões",
-      "subtitle": "Acordos, divórcios e partilha de bens com apoio.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -75,35 +74,35 @@
     }
   },
   "maps": {
-    "minitag": "LOCALIZAÇÃO",
-    "title": "Encontre-nos em Blumenau - SC",
-    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "minitag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "embedsrc": "A_Definir"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. CARLOS FRANZEN",
-    "title": "Minha trajetória",
-    "subtitle": "Experiência e dedicação em soluções jurídicas com ética e responsabilidade.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Atuamos de forma preventiva e contenciosa, seja em sede administrativa ou judicial, em todas as instâncias e Tribunais, com seriedade, competência e ética.",
-    "modal": "Atuamos de forma preventiva e contenciosa, seja em sede administrativa ou judicial, em todas as instâncias e Tribunais, com seriedade, competência e ética. <br/><br/> Nosso objetivo é oferecer serviços jurídicos de altíssimo nível, buscando êxito e rapidez na solução das causas que nos são confiadas. <br/><br/> Buscamos, através da experiência acumulada, uma moderna infraestrutura de tecnologia de informação, oferecendo assim, um serviço de excelência, atendendo as especificidades de cada cliente. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text- font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text- font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
