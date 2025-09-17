@@ -29,7 +29,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     const allIds = Object.keys(menuItemsObj);
     const paired = allIds.map((id) => ({
       id,
-      label: menuItemsObj[id], // label já traduzido via t()
+      label: menuItemsObj[id],
     }));
 
     if (mode === "site") {

@@ -121,11 +121,10 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        "Blog",
         "Perguntas Frequentes",
         "Mapa",
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["home", "service", "about", "faq", "maps"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
