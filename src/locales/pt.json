@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Atuação",
+    "title": "Nossas especialidades em Joalheria",
+    "subtitle": "Serviços completos para valorizar, personalizar e cuidar das suas joias.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Venda de Jóias",
+      "subtitle": "Peças sofisticadas em ouro e prata para todas as ocasiões.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Personalização de Jóias",
+      "subtitle": "Criação exclusiva que transforma sua ideia em uma joia única.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Conserto de Jóias",
+      "subtitle": "Recuperamos suas joias com técnica e cuidado especializado.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Limpeza de Jóias",
+      "subtitle": "Devolvemos o brilho original às suas joias com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
