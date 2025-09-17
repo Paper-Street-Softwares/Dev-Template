@@ -50,14 +50,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Ceano Jóias",
+  name: "Dr. Carlos Franzen",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "ceanojoias.com.br", // Sem "www"
+  domain: "franzenadvocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "85",
-    firstPart: "99262", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1334", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "98405", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5877", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -93,9 +93,9 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "ceufor", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  instagramProfile: "carlosfranzen.advocacia", // Sem o @
+  facebookProfile: "profile.php?id=1823730744&ref=_ig_profile_ac",
+  linkeDinProfile: "carlos-alberto-franzen-351b37134",
   x: "A_Definir",
   tiktokProfile: "A_Definir",
 
@@ -121,11 +121,10 @@ const content = {
         "Início",
         "Serviços",
         "Sobre Nós",
-        "Blog",
         "Perguntas Frequentes",
         "Mapa",
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["home", "service", "about", "faq", "maps"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -218,11 +217,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gem-icon lucide-gem"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="M10.5 3 8 9l4 13 4-13-2.5-6" />
-            <path d="M17 3a2 2 0 0 1 1.6.8l3 4a2 2 0 0 1 .013 2.382l-7.99 10.986a2 2 0 0 1-3.247 0l-7.99-10.986A2 2 0 0 1 2.4 7.8l2.998-3.997A2 2 0 0 1 7 3z" />
-            <path d="M2 9h20" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -252,13 +252,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scissors-icon lucide-scissors"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <circle cx="6" cy="6" r="3" />
-            <path d="M8.12 8.12 12 12" />
-            <path d="M20 4 8.12 15.88" />
-            <circle cx="6" cy="18" r="3" />
-            <path d="M14.8 14.8 20 20" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -287,11 +287,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hammer-icon lucide-hammer"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9" />
-            <path d="m18 15 4-4" />
-            <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -321,10 +321,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-droplets-icon lucide-droplets"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z" />
-            <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -420,7 +422,8 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!4v1758132101292!6m8!1m7!1seh4T9PTKfAffCo7VRGf_8w!2m2!1d-26.91582053002922!2d-49.07040678328664!3f318.57!4f7.780000000000001!5f0.4000000000000002",
     },
     about: {
       imagem: {

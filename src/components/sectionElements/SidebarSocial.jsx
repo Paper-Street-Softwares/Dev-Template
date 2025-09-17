@@ -29,7 +29,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     const allIds = Object.keys(menuItemsObj);
     const paired = allIds.map((id) => ({
       id,
-      label: menuItemsObj[id], // label já traduzido via t()
+      label: menuItemsObj[id],
     }));
 
     if (mode === "site") {
@@ -74,7 +74,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
               id="app-sidebar-2"
               className={`${
                 colorMode
-                  ? "bg-white"
+                  ? "bg-bgSectionDark"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-white surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
