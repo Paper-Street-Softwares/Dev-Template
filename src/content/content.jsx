@@ -422,7 +422,8 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!4v1758132101292!6m8!1m7!1seh4T9PTKfAffCo7VRGf_8w!2m2!1d-26.91582053002922!2d-49.07040678328664!3f318.57!4f7.780000000000001!5f0.4000000000000002",
     },
     about: {
       imagem: {

@@ -75,9 +75,9 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Blumenau - SC",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
