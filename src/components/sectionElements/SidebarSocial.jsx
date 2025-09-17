@@ -113,7 +113,12 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                       >
                         {visibleSections.map(({ id, label }, index) => (
                           <li key={id}>
-                            <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                            <a
+                              className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150"
+                              aria-label={`Ir para ${label}`}
+                              title={`Navegar até ${label}`}
+                              data-track={`sidebar-${id}`} // <-- rastreável
+                            >
                               {icons[index] || <HelpCircle />}
                               <span className="ml-[8px]">
                                 {mode === "site" ? (
@@ -124,6 +129,9 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                                         : `/${id.toLowerCase()}`
                                     }
                                     className="align-text-top cursor-pointer"
+                                    aria-label={`Ir para página ${label}`}
+                                    title={`Navegar até ${label}`}
+                                    data-track={`sidebar-${id}`} // <-- rastreável
                                   >
                                     {label}
                                   </RouterLink>
@@ -135,6 +143,9 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                                     duration={500}
                                     offset={-70}
                                     className="align-text-top cursor-pointer"
+                                    aria-label={`Ir para seção ${label}`}
+                                    title={`Navegar até ${label}`}
+                                    data-track={`sidebar-${id}`} // <-- rastreável
                                   >
                                     {label}
                                   </ScrollLink>
