@@ -6,10 +6,10 @@ export default {
     extend: {
       colors: {
         // Principais
-        primary: "#FACC15",
-        buttonColor: "#FACC15",
-        minititleDark: "#FACC15", //bg minitag de seções claras
-        minititle: "#FACC15", //bg minitag de seções escuras
+        primary: "#162739",
+        buttonColor: "#162739",
+        minititleDark: "#162739", //bg minitag de seções claras
+        minititle: "#162739", //bg minitag de seções escuras
         secondary: "#000000",
 
         // Fundos de Seção
@@ -26,10 +26,10 @@ export default {
 
         // Botões e Links
         links: "#0189BB",
-        iconButtons: "#000",
-        labelButtons: "#000",
-        minititleLightLabel: "#000", //label das minitag de seções claras
-        minititleDarkLabel: "#000", //label minitag de seções escuras
+        iconButtons: "#FFFFFF",
+        labelButtons: "#FFFFFF",
+        minititleLightLabel: "#FFFFFF", //label das minitag de seções claras
+        minititleDarkLabel: "#FFFFFF", //label minitag de seções escuras
 
         // Sombras
         shadowHero: "#000000",
