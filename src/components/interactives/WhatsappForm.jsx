@@ -110,7 +110,7 @@ const WhatsappForm = () => {
   };
 
   return (
-    <div className="bg-bgSectionDark p-6 rounded-[10px] w-full h-auto">
+    <div className="bg-black/90 p-6 rounded-[10px] w-full h-auto">
       <div className="w-full text-paragraph3 phone3:text-paragraph4">
         {/* Nome */}
         <div className="mb-6">
@@ -463,7 +463,7 @@ const WhatsappForm = () => {
         {/* Botão */}
         <button
           type="button"
-          className="flex items-center w-full font-medium text-bgSectionDark bg-white transition-all rounded-lg h-10 phone2:h-12 hover:scale-105"
+          className="flex items-center w-full font-medium text-black bg-primary transition-all rounded-lg h-10 phone2:h-12 hover:scale-105"
           onClick={sendToEmail}
           disabled={isSubmitting}
         >

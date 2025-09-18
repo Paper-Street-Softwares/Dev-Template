@@ -148,12 +148,12 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como funcionam os serviços da Provesi Assessoria?",
-        "answer": "Nós trabalhamos com negociação de dívidas bancárias. Se você acha que está pagando mais do que devia no financiamento do seu veículo, no empréstimo pessoal ou na dívida do cartão de crédito, o primeiro passo é procurar um de nossos canais oficiais, através do nosso site. Ao entrar em contato com um de nossos atendentes, ele agendará uma análise do seu caso. Essa análise é totalmente gratuita e será nesse momento que um de nossos especialistas irá explicar como é feito nosso procedimento, quanto você poderá economizar e quanto tempo irá levar a negociação da sua dívida."
-      },
-      "question2": {
         "question": "A Provesi Assessoria faz empréstimo para pagar dívidas?",
         "answer": "Não. Somos uma empresa especializada em negociação de dívidas bancárias. Negociamos dívidas de financiamento de veículo, de empréstimo pessoal e de cartão de crédito. Não fazemos empréstimos, negociamos amigavelmente com o banco."
+      },
+      "question2": {
+        "question": "Como funcionam os serviços da Provesi Assessoria?",
+        "answer": "Nós trabalhamos com negociação de dívidas bancárias. Se você acha que está pagando mais do que devia no financiamento do seu veículo, no empréstimo pessoal ou na dívida do cartão de crédito, o primeiro passo é procurar um de nossos canais oficiais, através do nosso site. Ao entrar em contato com um de nossos atendentes, ele agendará uma análise do seu caso. Essa análise é totalmente gratuita e será nesse momento que um de nossos especialistas irá explicar como é feito nosso procedimento, quanto você poderá economizar e quanto tempo irá levar a negociação da sua dívida."
       },
       "question3": {
         "question": "É preciso estar com o financiamento do veículo atrasado para procurar a Provesi Assessoria?",

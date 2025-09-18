@@ -14,9 +14,7 @@ export default function FeaturesLP() {
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             sectionHeaderTitle={contentLp01.features.sectionHeader.title}
             color=""
-            titleColorSet="text-white"
-            miniTitleBgColor="bg-white"
-            miniTitleTextColor="text-bgSectionDark"
+            titleColorSet="text-black"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP

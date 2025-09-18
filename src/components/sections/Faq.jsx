@@ -37,6 +37,7 @@ export default function Faq({ colorMode }) {
         sectionHeaderSubtitle={t("faq.subtitle")}
         titleColorSet={titleColor}
         subtitleColorSet={titleColor}
+        miniTitleTextColor="text-white"
       />
       <SectionWrapper className="flex justify-center">
         <MotionDivDownToUp className="flex justify-center w-full">
@@ -48,8 +49,6 @@ export default function Faq({ colorMode }) {
           <Paragraphs className={`text-center transition`}>
             <Button
               className="hoover:scale-0 desktop1:hover:scale-10 transition-all duration-300"
-              color="bg-bgSectionDark"
-              textclassName="text-white"
               label={t("faq.paragraph")}
               colorMode={colorMode}
             />

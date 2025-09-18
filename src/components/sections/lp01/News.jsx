@@ -32,10 +32,9 @@ export default function News() {
               color=""
               titleColorSet="text-black"
               subtitleColorSet="text-black"
-              miniTitleBgColor="bg-bgSectionDark"
             />
 
-            <MotionDivDownToUp className="flex flex-col desktop1:flex-row gap-6 items-center desktop1:items-start bg-white max-w-[100%] rounded-md p-6 border-[3px] border-bgSectionDark/40">
+            <MotionDivDownToUp className="flex flex-col desktop1:flex-row gap-6 items-center desktop1:items-start bg-white max-w-[100%] rounded-md p-6 border-[3px] border-black/40">
               <p className=" m-auto font-mainFont text-center desktop1:text-start desktop1:w-[80%] text-paragraph3 text-black/70">
                 {contentLp01.news.text}
               </p>
@@ -44,8 +43,6 @@ export default function News() {
                 label={contentLp01.news.buttonLabel}
                 buttonLink={contentLp01.news.linkPdf}
                 animation
-                color="bg-bgSectionDark"
-                textclassName="text-white"
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +50,7 @@ export default function News() {
                     height="24"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="white"
+                    stroke="black"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"

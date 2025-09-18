@@ -6,7 +6,7 @@ import SectionWrapper from "../../sectionElements/SectionWrapper";
 export default function FooterLP() {
   return (
     <div>
-      <SectionArea paddingTopAndBottom={false} className="bg-bgSectionDark">
+      <SectionArea paddingTopAndBottom={false} className="bg-black">
         <SectionWrapper>
           <div className="w-full text-white text-center font-mainFont pt-[36px] phone1:pb-[27%] tablet1:pb-[80px] tablet2:pb-[36px] opacity-70">
             <p>

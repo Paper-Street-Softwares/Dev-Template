@@ -20,7 +20,6 @@ export default function StepsLpv() {
             color=""
             type=""
             titleColorSet="text-black"
-            miniTitleBgColor="bg-bgSectionDark"
             miniTitleTextColor="text-white"
           />
           <SectionHeader
@@ -31,7 +30,6 @@ export default function StepsLpv() {
             color=""
             type=""
             titleColorSet="text-black"
-            miniTitleBgColor="bg-bgSectionDark"
             miniTitleTextColor="text-white"
           />
 

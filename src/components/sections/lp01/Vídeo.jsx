@@ -15,10 +15,8 @@ export default function Vídeo({}) {
             sectionHeaderTitle={contentLp01.video.sectionHeader.title}
             sectionHeaderSubtitle={contentLp01.video.sectionHeader.subtitle}
             color=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
-            miniTitleBgColor="bg-white"
-            miniTitleTextColor="text-bgSectionDark"
+            titleColorSet="text-black"
+            subtitleColorSet="text-black"
           />
           <div className="w-full flex flex-col gap-4">
             <div className="w-full overflow-hidden aspect-video rounded-xl">

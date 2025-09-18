@@ -82,6 +82,8 @@ export default function AboutParalaxeLP({ logo }) {
                     color=""
                     type="article"
                     titleColorSet="text-white"
+                    miniTitleBgColor="bg-white"
+                    miniTitleTextColor="text-black"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px] text-white">

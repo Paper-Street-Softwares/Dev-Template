@@ -10,9 +10,9 @@ export default function HowItWorksCard({
 }) {
   return (
     <MotionDivDownToUp
-      className={`bg-bgSectionDark rounded-xl min-w-[288px] flex flex-col tablet1:w-full desktop1:max-w-[900px] mb-auto tablet1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 p-[25px] desktop1:p-[12px] h-auto ${className}`}
+      className={`bg-black rounded-xl min-w-[288px] flex flex-col tablet1:w-full desktop1:max-w-[900px] mb-auto tablet1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 p-[25px] desktop1:p-[12px] h-auto ${className}`}
     >
-      <div className="h-[64px] w-[64px] text-title3 rounded-md bg-white font-mainFont flex justify-center items-center text-bgSectionDark">
+      <div className="h-[64px] w-[64px] text-title3 rounded-md bg-primary font-mainFont flex justify-center items-center text-black">
         {number}
       </div>
       <div className="flex flex-col desktop1:gap-2 w-full ">

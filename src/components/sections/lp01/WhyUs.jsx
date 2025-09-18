@@ -16,8 +16,8 @@ export default function WhyUs({}) {
             sectionHeaderTitle={contentLp01.whyUs.sectionHeader.title}
             sectionHeaderSubtitle={contentLp01.whyUs.sectionHeader.subtitle}
             color=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-black"
+            subtitleColorSet="text-black"
             miniTitleBgColor={false}
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
