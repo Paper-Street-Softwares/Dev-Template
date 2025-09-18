@@ -11,7 +11,7 @@ export default function News() {
 
   return (
     <div
-      className="bg-neutral-100"
+      className="squares"
       //   style={{
       //     backgroundImage: `url(${contentLp01.news.bgImg})`,
       //     backgroundRepeat: "no-repeat",
@@ -35,7 +35,7 @@ export default function News() {
               miniTitleBgColor="bg-bgSectionDark"
             />
 
-            <MotionDivDownToUp className="flex flex-col desktop1:flex-row gap-6 items-center desktop1:items-start bg-white max-w-[100%] rounded-md p-6">
+            <MotionDivDownToUp className="flex flex-col desktop1:flex-row gap-6 items-center desktop1:items-start bg-white max-w-[100%] rounded-md p-6 border-[3px] border-bgSectionDark/40">
               <p className=" m-auto font-mainFont text-center desktop1:text-start desktop1:w-[80%] text-paragraph3 text-black/70">
                 {contentLp01.news.text}
               </p>

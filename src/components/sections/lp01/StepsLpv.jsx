@@ -9,7 +9,7 @@ import content from "../../../content/content";
 
 export default function StepsLpv() {
   return (
-    <SectionArea className="bg-neutral-100" paddingtop={true}>
+    <SectionArea className="squares" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-[90%]">
           <SectionHeader
