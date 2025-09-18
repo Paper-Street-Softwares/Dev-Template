@@ -28,7 +28,7 @@ export default function AccordionExpandDefault() {
 
   return (
     <div>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+      {[1, 2, 3, 4].map((num) => (
         <Accordion
           key={`panel${num}`}
           className="mb-[3%]"

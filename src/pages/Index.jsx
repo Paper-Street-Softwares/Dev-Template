@@ -58,9 +58,9 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
+        defaultHero={true}
         influencer={false}
-        mesclado={true}
+        mesclado={false}
       />
 
       <Features
@@ -73,11 +73,11 @@ export default function Index() {
         paragraphsModal={false}
       />
 
-      <About modal={false} showGallery={false} colorMode={colorMode} />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={true} />
       <CtaSecondary />
       <Steps colorMode={colorMode} />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial colorMode={colorMode} addres={true} obs={false} />
