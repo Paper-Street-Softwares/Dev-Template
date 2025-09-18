@@ -13,8 +13,9 @@ import FeatureWithModalsLp from "../components/sections/lp01/FeatureWithModalsLp
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
-import StepsLpv from "../components/sections/lp01/StepsLpv";
-import Vídeo from "../components/sections/lp01/Vídeo";
+import StepsLpv from "../components/sections/lp01/StepsLpv.jsx";
+import Video from "../components/sections/lp01/Vídeo.jsx";
+import News from "../components/sections/lp01/News.jsx";
 
 export default function Lp01() {
   useEffect(() => {
@@ -43,11 +44,14 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
+      <StepsLpv />
       <FeaturesLP />
+      <News />
       <AboutParalaxeLP logo={true} />
       <WhyUs />
       <CtaLP />
-      {/* <Faq /> */}
+      <Video />
+      <Faq />
       <ContactLP />
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}

@@ -5,9 +5,24 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
+import WhatsappForm from "../../interactives/WhatsappForm";
+import { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import { X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-export default function AboutParalaxeLP() {
+export default function CtaLP() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
+  const [modalContent, setModalContent] = useState(null);
+  const [modalTitle, setModalTitle] = useState("");
+
+  const onClick = () => {
+    setModalTitle("Preencha:");
+    setModalContent(<WhatsappForm />); // renderiza o formulário no modal
+    setVisible(true);
+  };
 
   return (
     <div
@@ -21,11 +36,10 @@ export default function AboutParalaxeLP() {
       <div className="absolute inset-0 bg-black/80 z-0 pointer-events-none" />
 
       <div className="relative z-10 flex justify-center w-full text-white">
-        <SectionArea className="">
+        <SectionArea>
           <SectionWrapper>
             <SectionHeader
               className="text-center"
-              // miniTitle={contentLp01.cta.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
               miniTitleTextColor="text-darker"
@@ -34,11 +48,13 @@ export default function AboutParalaxeLP() {
               subtitleColorSet="text-white"
               miniTitleBgColor={false}
             />
+
             <MotionDivDownToUp>
               <Button
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.cta.buttonLabel}
                 animation
+                onClick={onClick}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,6 +72,23 @@ export default function AboutParalaxeLP() {
           </SectionWrapper>
         </SectionArea>
       </div>
+
+      {/* Modal */}
+      <Dialog
+        className="font-secondFont"
+        closeIcon={<X size={20} />}
+        header={modalTitle}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{
+          "4000px": "40vw",
+          "1024px": "70vw",
+          "641px": "85vw",
+        }}
+      >
+        {modalContent}
+      </Dialog>
     </div>
   );
 }

@@ -1,65 +1,54 @@
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Button from "../interactives/Button";
+import contentLp01 from "../../content/contentLp01";
 
 export default function HowItWorksCard({
   number,
   title,
   description,
-  animation = true,
-  colorMode = "default", // 'light', 'dark' ou 'default'
+  className,
 }) {
-  let textColor, textOpacity;
-
-  switch (colorMode) {
-    case "light":
-      textColor = "text-black";
-      textOpacity = "opacity-90";
-      break;
-    case "dark":
-      textColor = "text-white";
-      textOpacity = "opacity-80";
-      break;
-    case "default":
-    default:
-      textColor = "text-white";
-      textOpacity = "opacity-80";
-      break;
-  }
-
-  const BaseContent = (
-    <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
+  return (
+    <MotionDivDownToUp
+      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] mb-auto desktop1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 py-[25px] desktop1:px-[12px] desktop1:py-[12px] h-auto shadow-[4px_5px_8px_rgba(0,0,0,0.50)] ${className}`}
+    >
+      <div className="h-[75px] w-[104px] text-title5 rounded-md bg-black flex justify-center items-center text-white">
         {number}
       </div>
-
-      <h1 className={`text-[20px] font-bold mb-[24px] ${textColor}`}>
-        {title}
-      </h1>
-      <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
-      >
-        {description}
-      </p>
-    </div>
-  );
-
-  const StaticContent = (
-    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
-        {number}
+      <div className="flex flex-col desktop1:gap-2 w-[80%] desktop1:w-[60%] ">
+        <h1 className="h-auto text-center desktop1:text-start leading-[20px] font-bold font-mainFont text-paragraph4 mb-[8px] desktop1:mb-0 text-secondary">
+          {title}
+        </h1>
+        <p className="text-center desktop1:text-start text-paragraph3 desktop1:text-paragraph2 opacity-70 font-mainFont desktop1:w-[100%]">
+          {description}
+        </p>
       </div>
-      <h1 className="text-[20px] text-colorWhite font-bold mb-[24px]">
-        {title}
-      </h1>
-      <p className="text-[16px] text-colorWhite opacity-70 text-center desktop1:text-left w-full">
-        {description}
-      </p>
-
-    </div>
-  );
-
-  return animation ? (
-    <MotionDivDownToUp className="tablet1:w-[45%]">{BaseContent}</MotionDivDownToUp>
-  ) : (
-    StaticContent
+      {/* <div className="flex justify-end desktop1:ml-auto desktop1:pr-3">
+        <MotionDivDownToUp>
+          <Button
+            aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
+            label="Falar com especialista"
+            animation
+            textclassName=" text-xs"
+            size="small"
+            className="w-[100%] px-[6px]"
+            labelColor="text-white"
+            color="bg-black"
+            icon={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="white"
+                className="bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+              </svg>
+            }
+          />
+        </MotionDivDownToUp>
+      </div> */}
+    </MotionDivDownToUp>
   );
 }

@@ -15,6 +15,8 @@ export default function FeaturesLP() {
             sectionHeaderTitle={contentLp01.features.sectionHeader.title}
             color=""
             titleColorSet="text-secondary"
+            miniTitleBgColor="bg-bgSectionDark"
+            miniTitleTextColor="text-white"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP
@@ -32,7 +34,7 @@ export default function FeaturesLP() {
               title={contentLp01.features.cards.card3.title}
               description={contentLp01.features.cards.card3.description}
             />
-            <FeatureCardLP
+            {/* <FeatureCardLP
               icon={contentLp01.features.cards.card4.icon}
               title={contentLp01.features.cards.card4.title}
               description={contentLp01.features.cards.card4.description}
@@ -41,7 +43,7 @@ export default function FeaturesLP() {
               icon={contentLp01.features.cards.card5.icon}
               title={contentLp01.features.cards.card5.title}
               description={contentLp01.features.cards.card5.description}
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>

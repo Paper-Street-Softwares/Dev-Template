@@ -59,10 +59,56 @@ const contentLp01 = {
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
+  steps: {
+    miniTag: "PASSO A PASSO",
+    title: "Como funciona nosso serviço?",
+    subtitle: "",
+    alt: "Passo a passo do funcionamento do serviço",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "Contato Inicial",
+        cardDescription:
+          "Você entra em contato conosco através de WhatsApp ou ligação.",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "Pré-análise",
+        cardDescription:
+          "Nossa equipe realiza uma pré-análise para identificar se há uma dívida compatível com nossos serviços.",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "Análise Gratuita",
+        cardDescription:
+          "Após confirmar a possibilidade de negociação, agendamos uma análise totalmente gratuita com um de nossos especialistas.",
+      },
+      card4: {
+        stepNumber: 4,
+        cardTitle: "Reunião Presencial ou Vídeo Chamada",
+        cardDescription:
+          "Você comparece e recebe todas as informações sobre a dívida, a possibilidade de redução e o contrato conosco, além de uma via do contrato. Será informado sobre a possibilidade de busca e apreensão e restrição no nome em casos de inadimplência.",
+      },
+      card5: {
+        stepNumber: 5,
+        cardTitle: "Início das Negociações",
+        cardDescription:
+          "Nossa equipe inicia as negociações para obter o melhor acordo para a quitação da sua dívida.",
+      },
+      card6: {
+        stepNumber: 6,
+        cardTitle: "Quitação e Sucesso",
+        cardDescription:
+          "Quando o acordo é alcançado, você realiza a quitação por um preço justo, junto à instituição financeira e se torna um caso de sucesso.",
+      },
+      buttonLabel: "Saiba mais",
+      ariaLabel: "Passo a passo do serviço",
+    },
+  },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "Soluções para dívidas e crédito",
+      title: "Recupere sua tranquilidade financeira e reduza juros abusivos",
     },
     cards: {
       card1: {
@@ -77,38 +123,20 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-off-icon lucide-shield-off"
+            class="lucide lucide-file-warning-icon lucide-file-warning"
           >
-            <path d="m2 2 20 20" />
-            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
-            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title:
+          "A dívida do cartão de crédito está tirando a sua tranquilidade?",
+        description:
+          "Os juros do cartão de crédito são uns dos mais altos. Você precisa agir rápido para dar um fim nisso.",
+        label: "Solicitar análise gratuita",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
-      },
-      card3: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -128,10 +156,11 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Comprou um veículo, mas sente que está pagando por dois?",
+        description: "Negociamos a possibilidade da redução.",
+        label: "Solicitar análise gratuita",
       },
-      card4: {
+      card3: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -143,41 +172,45 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-ban-icon lucide-ban"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
-      },
-      card5: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title:
+          "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
+        description:
+          "Você pode ser uma vítima das dívidas abusivas. Descubra com uma análise se este é o seu caso.",
+        label: "Solicitar análise gratuita",
       },
     },
+  },
+  news: {
+    bgImg: bgImg,
+    sectionHeader: {
+      miniTag: "Soluções para dívidas e crédito",
+      title: "Os bancos cobram juros abusivos!",
+      subtitle: (
+        <p className="opacity-80">
+          Descubra como se proteger dos juros abusivos e recuperar o controle
+          das suas finanças.
+          <br />
+          <br />
+          Bancos são instituições poderosas e escondem segredos que os tornam
+          cada dia mais ricos, na contramão de qualquer crise financeira. Os
+          juros abusivos (maior fonte de lucro dos bancos) são assim
+          considerados quando superam a média de mercado divulgado pelo Banco
+          Central, ou quando seu sistema de amortização traz lucro excessivo à
+          instituição, incorrendo em enriquecimento sem causa, proibido pelo
+          Código Civil.
+        </p>
+      ),
+    },
+    buttonLabel: "Baixar arquivo PDF",
+    ctaButtonAriaLabel: "Botão de Contato",
+    linkPdf:
+      "https://drive.google.com/file/d/1rJWee_zeiV181Kf5syFQGM2UTxbA1gM8/view?usp=sharing",
   },
   about: {
     bgImg: bgImg,
@@ -194,71 +227,148 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "QUEM SOMOS",
+      title: "Provesi Assessoria",
     },
     paragraph: (
       <p>
-        A_Definir
+        A Provesi Assessoria é um escritório especializado em soluções
+        financeiras, com 12 anos de experiência no mercado e atuação em todo o
+        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
+        empresas a recuperarem sua saúde financeira, sempre com foco em
+        negociações justas, transparentes e sustentáveis.
         <br />
         <br />
-        A_Definir
+        Nosso trabalho é transformar situações de endividamento em oportunidades
+        de recomeço. Atuamos na renegociação de dívidas bancárias,
+        financiamentos, cartões de crédito e contratos diversos, alcançando
+        resultados que chegam a até 80% de desconto nas quitações.
         <br />
         <br />
-        A_Definir
+        Nossa missão
+        <br />
+        Oferecer soluções financeiras inteligentes que devolvam tranquilidade e
+        poder de decisão ao cliente.
         <br />
         <br />
-        A_Definir
+        Nossa visão
+        <br />
+        Ser referência nacional em consultoria e renegociação de dívidas,
+        promovendo a reorganização financeira de famílias e empresas em todo o
+        país.
+        <br />
+        <br />
+        Nossos valores
+        <br />
+        🤝 Transparência – Negociações claras e honestas.
+        <br />
+        💡 Eficiência – Resultados reais em menos tempo.
+        <br />
+        📊 Experiência – Mais de uma década de atuação no mercado.
+        <br />
+        💚 Compromisso – Dedicação total à reestruturação financeira dos nossos
+        clientes.
+        <br />
+        <br />
+        Na Provesi Assessoria, acreditamos que ninguém deve ser refém das
+        dívidas. Por isso, trabalhamos diariamente para que cada cliente
+        recupere sua estabilidade financeira e volte a construir sonhos com
+        segurança e liberdade.
       </p>
     ),
     buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
-  steps: {
-    miniTag: "A_Definir",
-    title: "A_Definir",
-    subtitle: "A_Definir",
-    alt: "A_Definir",
-    cards: {
-      card1: {
-        stepNumber: 1,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
-      },
-      card2: {
-        stepNumber: 2,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
-      },
-      card3: {
-        stepNumber: 3,
-        cardTitle: "A_Definir",
-        cardDescription: "A_Definir",
-      },
-      buttonLabel: "A_Definir",
-      ariaLabel: "A_Definir",
-    },
-  },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "Financiamentos e renegociação de dívidas",
+      title:
+        "Reduza parcelas e juros abusivos do seu veículo com especialistas",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title:
+          "🚗 Está com parcelas do financiamento do seu veículo em atraso?",
+        description: (
+          <p>
+            Se você deixou de pagar as parcelas do financiamento há mais de 3
+            meses, já deve estar sofrendo com cobranças, juros abusivos e o
+            risco de perder seu carro.
+            <br /> <br />
+            Mas calma: a Provesi Assessoria pode ajudar! Com 12 anos de
+            experiência, já ajudamos clientes em todo o Brasil a conquistar até
+            80% de desconto nas dívidas. Nosso time atua diretamente com bancos
+            e financeiras para buscar um acordo justo, que cabe no seu bolso e
+            evita a perda do veículo.
+            <br />
+            <br />
+            🔹 E o melhor: você só paga honorários depois do resultado.
+            Assumimos o risco com você: trabalhamos primeiro, entregamos a
+            solução e só depois cobramos pelos serviços.
+            <br />
+            <br />
+            <br />
+            <p className="font-bold">
+              O que você ganha com a Provesi Assessoria:
+            </p>
+            <br />
+            ✅ Negociações rápidas e seguras com bancos e financeiras.
+            <br />
+            ✅ Redução de juros e encargos.
+            <br />
+            ✅ Parcelas ajustadas à sua realidade.
+            <br />✅ Tranquilidade para manter o carro no seu nome.
+            <br />
+            <br />
+            👉 Não espere o banco tomar uma decisão contra você. Fale com a
+            Provesi Assessoria hoje mesmo e dê o primeiro passo para recuperar
+            sua tranquilidade financeira.
+          </p>
+        ),
+        label: "Entre em contato",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "🚛 Caminhoneiro, seu caminhão é sua ferramenta de trabalho!",
+        description: (
+          <p>
+            Se você tem um financiamento de caminhão, sabia que é possível
+            reduzir juros abusivos e renegociar parcelas, mesmo que você não
+            esteja em atraso?
+            <br />
+            <br />
+            Na Provesi Assessoria, analisamos o seu contrato e buscamos
+            condições mais justas diretamente com os bancos. O resultado pode
+            significar parcelas menores, descontos reais ou até quitação
+            antecipada com até 80% de economia.
+            <br />
+            <br />
+            🔹 E o melhor de tudo: você só paga nossos honorários depois do
+            resultado.
+            <br />
+            Isso garante tranquilidade e confiança para que você cuide do que
+            realmente importa: rodar nas estradas sem medo de perder seu
+            caminhão.
+            <br />
+            <br />
+            ✅ Atendimento em todo o Brasil
+            <br />
+            ✅ 12 anos de experiência
+            <br />
+            ✅ Redução comprovada de dívidas e financiamentos
+            <br />
+            <br />
+            👉 Proteja o seu caminhão e o seu futuro.
+          </p>
+        ),
+        label: "Fale agora com a Provesi Assessoria",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "🚗 Financiamento de veículo em atraso (mais de 3 meses)",
+        description:
+          "Parcelas atrasadas? Negociamos até 80% de desconto.Você só paga nossos honorários depois do resultado!",
       },
       card4: {
         icon: (
@@ -277,26 +387,41 @@ const contentLp01 = {
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "🚛 Caminhoneiros (caminhões financiados – mesmo sem atraso)",
+        description: (
+          <p>
+            Caminhoneiro, reduza os juros do seu caminhão financiado.
+            <br />
+            <br />
+            Só cobramos após o resultado!
+          </p>
+        ),
       },
     },
   },
   video: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "Educação financeira",
+      title: "Juros abusivos no Brasil: Entenda o problema",
+      subtitle:
+        "Assista a vídeos que mostram como os juros excessivos impactam seu bolso e aprenda a se proteger.",
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO PERCA TEMPO",
+      title:
+        "Recuperar sua tranquilidade financeira é mais fácil do que você imagina",
+      subtitle: (
+        <p className="opacity-80">
+          Preencha os dados abaixo e receba uma análise gratuita do seu
+          financiamento ou dívida. Nossa equipe especializada entrará em contato
+          rapidamente.
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Solicitar análise gratuita",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
@@ -308,7 +433,7 @@ const contentLp01 = {
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="currentColor"
+          stroke="black"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -330,7 +455,7 @@ const contentLp01 = {
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="currentColor"
+          stroke="black"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -349,7 +474,7 @@ const contentLp01 = {
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
-          fill="currentColor"
+          fill="black"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"
         >

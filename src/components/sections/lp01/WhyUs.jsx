@@ -3,6 +3,7 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import FeatureCardLP from "./FeatureCardLP";
+import Button from "../../interactives/Button";
 
 export default function WhyUs({}) {
   return (
@@ -24,6 +25,13 @@ export default function WhyUs({}) {
               icon={contentLp01.whyUs.cards.card1.icon}
               title={contentLp01.whyUs.cards.card1.title}
               description={contentLp01.whyUs.cards.card1.description}
+              hasModal={true}
+              modalContent={
+                <div>
+                  <p>Conteúdo do modal aqui.</p>
+                  <Button label="Clique aqui" onClick={() => alert("Ação")} />
+                </div>
+              }
             />
             <FeatureCardLP
               icon={contentLp01.whyUs.cards.card2.icon}

@@ -31,7 +31,7 @@ export default function StepsLpv() {
             titleColorSet="text-colorBlack"
           />
 
-          <div className="flex flex-col desktop1:flex-row items-center  w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
+          <div className="flex flex-col tablet2:flex-row  tablet2:flex-wrap gap-6 items-center justify-center w-full mt-[28px] desktop1:mt-0 ">
             <HowItWorksCard
               number={contentLp01.steps.cards.card1.stepNumber}
               title={contentLp01.steps.cards.card1.cardTitle}
@@ -50,9 +50,28 @@ export default function StepsLpv() {
               description={contentLp01.steps.cards.card3.cardDescription}
               animation
             />
+
+            <HowItWorksCard
+              number={contentLp01.steps.cards.card4.stepNumber}
+              title={contentLp01.steps.cards.card4.cardTitle}
+              description={contentLp01.steps.cards.card4.cardDescription}
+              animation
+            />
+            <HowItWorksCard
+              number={contentLp01.steps.cards.card5.stepNumber}
+              title={contentLp01.steps.cards.card5.cardTitle}
+              description={contentLp01.steps.cards.card5.cardDescription}
+              animation
+            />
+            <HowItWorksCard
+              number={contentLp01.steps.cards.card6.stepNumber}
+              title={contentLp01.steps.cards.card6.cardTitle}
+              description={contentLp01.steps.cards.card6.cardDescription}
+              animation
+            />
           </div>
         </div>
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center desktop1:pt-12">
+        {/* <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center desktop1:pt-12">
           <div className="">
             <Button
               aria-label={contentLp01.steps.cards.ariaLabel}
@@ -74,7 +93,7 @@ export default function StepsLpv() {
               color="bg-bgSectionDark"
             />
           </div>
-        </MotionDivDownToUp>
+        </MotionDivDownToUp> */}
       </SectionWrapper>
     </SectionArea>
   );

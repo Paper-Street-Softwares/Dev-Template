@@ -47,7 +47,7 @@ export default function AboutParalaxeLP({ logo }) {
                       {contentLp01.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
-                  <MotionDivDownToUp>
+                  {/* <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
                         aria-label={
@@ -70,7 +70,7 @@ export default function AboutParalaxeLP({ logo }) {
                         }
                       />
                     </div>
-                  </MotionDivDownToUp>
+                  </MotionDivDownToUp> */}
                 </div>
               </div>
             </SectionWrapper>
