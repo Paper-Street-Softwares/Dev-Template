@@ -50,14 +50,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Provesi Assessoria em Dívidas e Crédito",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "provesiassessoria.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "41",
-    firstPart: "99730", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4418", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -93,7 +93,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "provesiassessoria.cwb", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -529,59 +529,26 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como funcionam os serviços da Provesi Assessoria?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Nós trabalhamos com negociação de dívidas bancárias. Se você acha que está pagando mais do que devia no financiamento do seu veículo, no empréstimo pessoal ou na dívida do cartão de crédito, o primeiro passo é procurar um de nossos canais oficiais, através do nosso site. Ao entrar em contato com um de nossos atendentes, ele agendará uma análise do seu caso. Essa análise é totalmente gratuita e será nesse momento que um de nossos especialistas irá explicar como é feito nosso procedimento, quanto você poderá economizar e quanto tempo irá levar a negociação da sua dívida.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Provesi Assessoria faz empréstimo para pagar dívidas?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Não. Somos uma empresa especializada em negociação de dívidas bancárias. Negociamos dívidas de financiamento de veículo, de empréstimo pessoal e de cartão de crédito. Não fazemos empréstimos, negociamos amigavelmente com o banco.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question:
-            "É preciso estar com o financiamento do veículo atrasado para procurar a Provesi Assessoria?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Não precisa. Apesar de nossos serviços serem propícios a clientes inadimplentes, também atendemos aqueles que ainda estão em dia com seus pagamentos, mas que estão enfrentando dificuldades financeiras de continuar honrando com os pagamentos futuros. E quem se encontra nesta situação poderá contratar nossos serviços para um acordo que adeque a sua condição financeira.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Qual é o prazo para sair um acordo?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "O prazo estimável é de 0 a 18 meses para alcançar um acordo de quitação integral da dívida, podendo oscilar para cada tipo de contrato. Durante esse período, a Solução Financeira negocia diretamente com o banco, permitindo que o cliente se capitalize e quite a dívida.",
-        },
-        question5: {
-          question: "O que é pago para a Provesi Assessoria?",
-          answer:
-            "Os pagamentos a Provesi Assessoria incluem:<br />Honorários Iniciais: Valores destinados a cobrir os gastos com negociações e os setores envolvidos, como documentação em cartório, perícia, entre outros.<br />Honorários Finais: Ao final do acordo, é cobrado um percentual de 15% sobre o desconto obtido.",
-        },
-        question6: {
-          question: "Meu veículo pode entrar em busca e apreensão?",
-          answer:
-            "Pode sim, lembramos que o inadimplemento pode resultar em ações como busca e apreensão e restrições nos órgãos de proteção ao crédito, mas é por isso que possuímos setores especializados prontos para darem a orientação necessária.",
-        },
-        question7: {
-          question: "O que é revisional de juros?",
-          answer:
-            "Ao contratar empréstimos ou financiamentos de longo prazo, é comum não prestar atenção nos juros aplicados ao contrato. E, depois de um tempo, perceber que está pagando muito caro por aquele crédito. Nesse momento, esse consumidor pode solicitar uma revisão de juros.<br /><br />O objetivo desse recurso é revisar o contrato e mudar as taxas aplicadas, caso seja constatado que realmente estão acima do que é praticado no mercado.<br /><br />A revisão de juros serve, portanto, para que a pessoa seja ressarcida por cobranças indevidas e tenha reajustado em um novo contrato o valor das taxas.",
-        },
-        question8: {
-          question: "O que é considerado juro abusivo?",
-          answer:
-            "De acordo com o Supremo Tribunal de Justiça (STJ), abusivos são os juros cujos valores estão muito acima da média de mercado, respeitando o nicho em que estão inseridos. São aqueles que ultrapassam o limite do razoável e levam o cliente a pagar muito mais que o justo.<br /><br />Por mais que operações de crédito sejam arriscadas para as instituições financeiras, é proibido cobrar juros exorbitantes. Quando isso acontece, estamos diante de um cenário de juros abusivos. Nesse caso, a revisão de juros é bem-vinda.",
-        },
-        question9: {
-          question: "Quem pode solicitar uma ação revisional de juros?",
-          answer:
-            "Qualquer consumidor que desconfie estar pagando juros abusivos em um contrato de crédito pode recorrer a uma revisional de juros.<br /><br />Mas é importante manter o pagamento das parcelas do crédito em dia durante todo o processo de ação revisional e somente depois solicitar ressarcimento, se for o caso.",
-        },
-        question10: {
-          question:
-            "O que fazer se não conseguir revisar e baixar os juros de um empréstimo ou financiamento?",
-          answer:
-            "Além da portabilidade de crédito para uma instituição diferente, também é possível contratar outro tipo de empréstimo, com juros mais baixos, e quitar a dívida anterior.<br /><br />Essa opção vale a pena quando, por exemplo, se está pagando altos juros por utilizar o cheque especial da conta corrente para quitar as parcelas. Empréstimo com garantia ou consignado INSS também são boas opções, caso a pessoa se encaixe no perfil, pois são modalidades com juros geralmente mais baixos.<br /><br />Para ficar mais clara a comparação, o cheque especial em fevereiro de 2023, segundo levantamento do Procon-SP, teve juro médio praticado pelos grandes bancos no Brasil de 7,96% ao mês, o equivalente a 150,56% ao ano.<br /><br />No mesmo período, o consignado INSS variou de 1,39% a 2,18% ao mês, o que totaliza no máximo 29,13% ao ano.<br /><br />Em relação ao empréstimo com garantia, em algumas empresas e para alguns perfis de cliente há taxas que partem de 1,49% ao mês.<br /><br />Outra alternativa é buscar a renegociação das dívidas por meio Lei do Superendividamento. Essa lei existe desde 2021 e tem como objetivo permitir que o devedor renegocie todas as dívidas de uma só vez, criando um plano de pagamento que caiba no bolso e não comprometa o sustento da família.<br /><br />Órgãos como Procon, Ministério Público e Defensoria Pública podem auxiliar neste processo.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {

@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Itupeva - SP <br/>",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "kairós art’s gráfica",
-    "title": "A gráfica que vai  <span class=\"text-primary font-bold\">até você!</span>",
-    "subtitle": "Criação e impressão de materiais gráficos com qualidade e rapidez, agora em até 12x no cartão.",
-    "ctaButtonText": "Peça seu orçamento",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Parcelamos seus materiais em até 12x no cartão, facilitando suas compras!"
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "Design Gráfico",
-    "title": "Soluções criativas em design para sua marca",
-    "subtitle": "Do logotipo às mídias digitais, criamos materiais que valorizam sua identidade visual.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Criação de logotipos",
-      "subtitle": "Identidade visual criativa para destacar sua marca.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Mídias digitais",
-      "subtitle": "Design moderno para redes sociais e campanhas online.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Panfletos, cardápios, cartão de visitas",
-      "subtitle": "Materiais gráficos atrativos para divulgar seu negócio.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Cartaz, adesivos, banners",
-      "subtitle": "Comunicação visual impactante para grandes formatos.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,26 +83,26 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "Sobre nós",
-    "title": "Criatividade que inspira",
-    "subtitle": "Design gráfico moderno e soluções visuais que destacam sua marca no mercado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Somos uma gráfica especializada em criar identidade visual completa para empresas e profissionais que desejam se destacar. Desde logotipos e mídias digitais até materiais impressos como panfletos, cardápios e banners, trabalhamos cada detalhe com criatividade e qualidade. Nosso compromisso é transformar suas ideias em projetos visuais únicos, que fortalecem sua marca e comunicam de forma clara e impactante.",
+    "paragraph": "A_Definir",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Acompanhe nossas redes sociais para conhecer novidades, inspirações e soluções criativas no mundo do design e da impressão.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text- font-bold\">Precisa de </span> materiais gráficos? <span class=\"text- font-bold\">Conte com a gente!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -114,23 +114,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Briefing inicial",
-        "cardDescription": "Realizamos uma reunião para entender suas necessidades de design e identificar os objetivos do seu projeto."
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise e planejamento",
-        "cardDescription": "Examinamos todas as informações fornecidas, avaliando o estilo, cores, formatos e materiais ideais para sua marca."
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Criação e desenvolvimento",
-        "cardDescription": "Desenvolvemos conceitos visuais, layouts e materiais gráficos personalizados, alinhados à identidade da sua empresa."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Entrega e acompanhamento",
-        "cardDescription": "Entregamos os arquivos finais prontos para impressão ou uso digital, garantindo qualidade e suporte em todas as etapas."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -148,47 +148,22 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "A Provesi Assessoria faz empréstimo para pagar dívidas?",
-        "answer": "Não. Somos uma empresa especializada em negociação de dívidas bancárias. Negociamos dívidas de financiamento de veículo, de empréstimo pessoal e de cartão de crédito. Não fazemos empréstimos, negociamos amigavelmente com o banco."
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "Como funcionam os serviços da Provesi Assessoria?",
-        "answer": "Nós trabalhamos com negociação de dívidas bancárias. Se você acha que está pagando mais do que devia no financiamento do seu veículo, no empréstimo pessoal ou na dívida do cartão de crédito, o primeiro passo é procurar um de nossos canais oficiais, através do nosso site. Ao entrar em contato com um de nossos atendentes, ele agendará uma análise do seu caso. Essa análise é totalmente gratuita e será nesse momento que um de nossos especialistas irá explicar como é feito nosso procedimento, quanto você poderá economizar e quanto tempo irá levar a negociação da sua dívida."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "É preciso estar com o financiamento do veículo atrasado para procurar a Provesi Assessoria?",
-        "answer": "Não precisa. Apesar de nossos serviços serem propícios a clientes inadimplentes, também atendemos aqueles que ainda estão em dia com seus pagamentos, mas que estão enfrentando dificuldades financeiras de continuar honrando com os pagamentos futuros. E quem se encontra nesta situação poderá contratar nossos serviços para um acordo que adeque a sua condição financeira."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Qual é o prazo para sair um acordo?",
-        "answer": "O prazo estimável é de 0 a 18 meses para alcançar um acordo de quitação integral da dívida, podendo oscilar para cada tipo de contrato. Durante esse período, a Solução Financeira negocia diretamente com o banco, permitindo que o cliente se capitalize e quite a dívida."
-      },
-      "question5": {
-        "question": "O que é pago para a Provesi Assessoria?",
-        "answer": "Os pagamentos a Provesi Assessoria incluem:<br />Honorários Iniciais: Valores destinados a cobrir os gastos com negociações e os setores envolvidos, como documentação em cartório, perícia, entre outros.<br />Honorários Finais: Ao final do acordo, é cobrado um percentual de 15% sobre o desconto obtido."
-      },
-      "question6": {
-        "question": "Meu veículo pode entrar em busca e apreensão?",
-        "answer": "Pode sim, lembramos que o inadimplemento pode resultar em ações como busca e apreensão e restrições nos órgãos de proteção ao crédito, mas é por isso que possuímos setores especializados prontos para darem a orientação necessária."
-      },
-      "question7": {
-        "question": "O que é revisional de juros?",
-        "answer": "Ao contratar empréstimos ou financiamentos de longo prazo, é comum não prestar atenção nos juros aplicados ao contrato. E, depois de um tempo, perceber que está pagando muito caro por aquele crédito. Nesse momento, esse consumidor pode solicitar uma revisão de juros.<br /><br />O objetivo desse recurso é revisar o contrato e mudar as taxas aplicadas, caso seja constatado que realmente estão acima do que é praticado no mercado.<br /><br />A revisão de juros serve, portanto, para que a pessoa seja ressarcida por cobranças indevidas e tenha reajustado em um novo contrato o valor das taxas."
-      },
-      "question8": {
-        "question": "O que é considerado juro abusivo?",
-        "answer": "De acordo com o Supremo Tribunal de Justiça (STJ), abusivos são os juros cujos valores estão muito acima da média de mercado, respeitando o nicho em que estão inseridos. São aqueles que ultrapassam o limite do razoável e levam o cliente a pagar muito mais que o justo.<br /><br />Por mais que operações de crédito sejam arriscadas para as instituições financeiras, é proibido cobrar juros exorbitantes. Quando isso acontece, estamos diante de um cenário de juros abusivos. Nesse caso, a revisão de juros é bem-vinda."
-      },
-      "question9": {
-        "question": "Quem pode solicitar uma ação revisional de juros?",
-        "answer": "Qualquer consumidor que desconfie estar pagando juros abusivos em um contrato de crédito pode recorrer a uma revisional de juros.<br /><br />Mas é importante manter o pagamento das parcelas do crédito em dia durante todo o processo de ação revisional e somente depois solicitar ressarcimento, se for o caso."
-      },
-      "question10": {
-        "question": "O que fazer se não conseguir revisar e baixar os juros de um empréstimo ou financiamento?",
-        "answer": "Além da portabilidade de crédito para uma instituição diferente, também é possível contratar outro tipo de empréstimo, com juros mais baixos, e quitar a dívida anterior.<br /><br />Essa opção vale a pena quando, por exemplo, se está pagando altos juros por utilizar o cheque especial da conta corrente para quitar as parcelas. Empréstimo com garantia ou consignado INSS também são boas opções, caso a pessoa se encaixe no perfil, pois são modalidades com juros geralmente mais baixos.<br /><br />Para ficar mais clara a comparação, o cheque especial em fevereiro de 2023, segundo levantamento do Procon-SP, teve juro médio praticado pelos grandes bancos no Brasil de 7,96% ao mês, o equivalente a 150,56% ao ano.<br /><br />No mesmo período, o consignado INSS variou de 1,39% a 2,18% ao mês, o que totaliza no máximo 29,13% ao ano.<br /><br />Em relação ao empréstimo com garantia, em algumas empresas e para alguns perfis de cliente há taxas que partem de 1,49% ao mês.<br /><br />Outra alternativa é buscar a renegociação das dívidas por meio Lei do Superendividamento. Essa lei existe desde 2021 e tem como objetivo permitir que o devedor renegocie todas as dívidas de uma só vez, criando um plano de pagamento que caiba no bolso e não comprometa o sustento da família.<br /><br />Órgãos como Procon, Ministério Público e Defensoria Pública podem auxiliar neste processo."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
-
     "paragraph": "Clique aqui caso tenha mais dúvidas"
   },
   "footer": {
