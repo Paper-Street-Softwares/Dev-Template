@@ -83,22 +83,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O DR. RONALDO QUIRINO",
+    "title": "Minha trajetória",
+    "subtitle": "Mais de 15 anos de atuação dedicada em diversas áreas do Direito.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "paragraph": "Nosso escritório conta com mais de 15 anos de experiência, construindo uma trajetória sólida de dedicação e compromisso com a Justiça. Ao longo desse tempo, atuamos de forma ética e responsável, sempre em defesa dos interesses de nossos clientes.",
+    "modal": "Nosso escritório conta com mais de 15 anos de experiência, construindo uma trajetória sólida de dedicação e compromisso com a Justiça. Ao longo desse tempo, atuamos de forma ética e responsável, sempre em defesa dos interesses de nossos clientes. <br/><br/> A prática jurídica é voltada especialmente para o Direito Criminal, Trabalhista e Empresarial, áreas em que buscamos oferecer soluções seguras e eficazes. O objetivo é garantir não apenas a defesa técnica, mas também a orientação clara em cada etapa do processo. <br/><br/> Além disso, prestamos suporte em Direito Previdenciário e de Família, assegurando um atendimento completo e humanizado. Cada caso é tratado com seriedade, proximidade e respeito, sempre em busca dos melhores resultados. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
