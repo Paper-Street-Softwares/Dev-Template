@@ -28,7 +28,7 @@ export default {
         links: "#0189BB",
         iconButtons: "#000",
         labelButtons: "#000",
-        minititleLightLabel: "#000", //label das minitag de seções claras
+        minititleLightLabel: "#fff", //label das minitag de seções claras
         minititleDarkLabel: "#fff", //label minitag de seções escuras
 
         // Sombras
