@@ -29,7 +29,7 @@ export default {
         iconButtons: "#000",
         labelButtons: "#000",
         minititleLightLabel: "#FFFFFF", //label das minitag de seções claras
-        minititleDarkLabel: "#000", //label minitag de seções escuras
+        minititleDarkLabel: "#001C43", //label minitag de seções escuras
 
         // Sombras
         shadowHero: "#000000",

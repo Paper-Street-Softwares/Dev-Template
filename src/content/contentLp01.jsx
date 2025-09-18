@@ -197,16 +197,20 @@ const contentLp01 = {
           das suas finanças.
           <br />
           <br />
-          Bancos são instituições poderosas e escondem segredos que os tornam
-          cada dia mais ricos, na contramão de qualquer crise financeira. Os
-          juros abusivos (maior fonte de lucro dos bancos) são assim
-          considerados quando superam a média de mercado divulgado pelo Banco
-          Central, ou quando seu sistema de amortização traz lucro excessivo à
-          instituição, incorrendo em enriquecimento sem causa, proibido pelo
-          Código Civil.
         </p>
       ),
     },
+    text: (
+      <p>
+        {" "}
+        Bancos são instituições poderosas e escondem segredos que os tornam cada
+        dia mais ricos, na contramão de qualquer crise financeira. Os juros
+        abusivos (maior fonte de lucro dos bancos) são assim considerados quando
+        superam a média de mercado divulgado pelo Banco Central, ou quando seu
+        sistema de amortização traz lucro excessivo à instituição, incorrendo em
+        enriquecimento sem causa, proibido pelo Código Civil.
+      </p>
+    ),
     buttonLabel: "Baixar arquivo PDF",
     ctaButtonAriaLabel: "Botão de Contato",
     linkPdf:
@@ -231,6 +235,21 @@ const contentLp01 = {
       title: "Provesi Assessoria",
     },
     paragraph: (
+      <p>
+        A Provesi Assessoria é um escritório especializado em soluções
+        financeiras, com 12 anos de experiência no mercado e atuação em todo o
+        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
+        empresas a recuperarem sua saúde financeira, sempre com foco em
+        negociações justas, transparentes e sustentáveis.
+        <br />
+        <br />
+        Nosso trabalho é transformar situações de endividamento em oportunidades
+        de recomeço. Atuamos na renegociação de dívidas bancárias,
+        financiamentos, cartões de crédito e contratos diversos, alcançando
+        resultados que chegam a até 80% de desconto nas quitações.
+      </p>
+    ),
+    modalAbout: (
       <p>
         A Provesi Assessoria é um escritório especializado em soluções
         financeiras, com 12 anos de experiência no mercado e atuação em todo o
@@ -287,7 +306,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Gavel width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car-icon lucide-car"
+          >
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
+          </svg>
+        ),
         title:
           "🚗 Está com parcelas do financiamento do seu veículo em atraso?",
         description: (
@@ -329,7 +366,24 @@ const contentLp01 = {
         label: "Entre em contato",
       },
       card2: {
-        icon: <ChartNoAxesCombined width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
         title: "🚛 Caminhoneiro, seu caminhão é sua ferramenta de trabalho!",
         description: (
           <p>
@@ -365,7 +419,23 @@ const contentLp01 = {
         label: "Fale agora com a Provesi Assessoria",
       },
       card3: {
-        icon: <Handshake width={32} height={32} />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        ),
         title: "🚗 Financiamento de veículo em atraso (mais de 3 meses)",
         description:
           "Parcelas atrasadas? Negociamos até 80% de desconto.Você só paga nossos honorários depois do resultado!",
@@ -382,9 +452,10 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
+            class="lucide lucide-clock-icon lucide-clock"
           >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            <path d="M12 6v6l4 2" />
+            <circle cx="12" cy="12" r="10" />
           </svg>
         ),
         title: "🚛 Caminhoneiros (caminhões financiados – mesmo sem atraso)",

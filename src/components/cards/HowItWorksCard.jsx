@@ -10,9 +10,9 @@ export default function HowItWorksCard({
 }) {
   return (
     <MotionDivDownToUp
-      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] mb-auto desktop1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 py-[25px] desktop1:px-[12px] desktop1:py-[12px] h-auto shadow-[4px_5px_8px_rgba(0,0,0,0.50)] ${className}`}
+      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] mb-auto desktop1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 py-[25px] desktop1:px-[12px] desktop1:py-[12px] h-auto ${className}`}
     >
-      <div className="h-[75px] w-[104px] text-title5 rounded-md bg-black flex justify-center items-center text-white">
+      <div className="h-[64px] w-[64px] text-title3 rounded-md bg-bgSectionDark font-mainFont flex justify-center items-center text-white">
         {number}
       </div>
       <div className="flex flex-col desktop1:gap-2 w-[80%] desktop1:w-[60%] ">

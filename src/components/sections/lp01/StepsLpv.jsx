@@ -13,13 +13,15 @@ export default function StepsLpv() {
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-[90%]">
           <SectionHeader
-            className="justify-center hidden text-center desktop1:flex "
+            className="justify-center hidden text-center desktop1:flex mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] "
             miniTitle={contentLp01.steps.miniTag}
             sectionHeaderTitle={contentLp01.steps.title}
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-colorBlack"
+            titleColorSet="text-black"
+            miniTitleBgColor="bg-bgSectionDark"
+            miniTitleTextColor="text-white"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -28,7 +30,9 @@ export default function StepsLpv() {
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-colorBlack"
+            titleColorSet="text-black"
+            miniTitleBgColor="bg-bgSectionDark"
+            miniTitleTextColor="text-white"
           />
 
           <div className="flex flex-col tablet2:flex-row  tablet2:flex-wrap gap-6 items-center justify-center w-full mt-[28px] desktop1:mt-0 ">

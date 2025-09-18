@@ -11,7 +11,7 @@ export default function News() {
 
   return (
     <div
-      className="bg-white"
+      className="bg-neutral-100"
       //   style={{
       //     backgroundImage: `url(${contentLp01.news.bgImg})`,
       //     backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ export default function News() {
         <SectionArea>
           <SectionWrapper>
             <SectionHeader
-              className="text-center"
+              className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[20px]"
               miniTitle={contentLp01.news.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.news.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.news.sectionHeader.subtitle}
@@ -35,7 +35,10 @@ export default function News() {
               miniTitleBgColor="bg-bgSectionDark"
             />
 
-            <MotionDivDownToUp>
+            <MotionDivDownToUp className="flex flex-col desktop1:flex-row gap-6 items-center desktop1:items-start bg-white max-w-[100%] rounded-md p-6">
+              <p className=" m-auto font-mainFont text-center desktop1:text-start desktop1:w-[80%] text-paragraph3 text-black/70">
+                {contentLp01.news.text}
+              </p>
               <Button
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.news.buttonLabel}

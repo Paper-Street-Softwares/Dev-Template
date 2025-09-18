@@ -11,7 +11,7 @@ export default function Vídeo({}) {
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.video.sectionHeader.miniTag}
-            className="text-center"
+            className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             sectionHeaderTitle={contentLp01.video.sectionHeader.title}
             sectionHeaderSubtitle={contentLp01.video.sectionHeader.subtitle}
             color=""

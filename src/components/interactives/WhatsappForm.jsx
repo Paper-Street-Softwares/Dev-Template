@@ -118,23 +118,26 @@ const WhatsappForm = () => {
             htmlFor="name"
             className="block font-medium mb-1 text-gray-300"
           >
-            Nome
+            Nome:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <User />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="text"
               id="name"
               value={name}
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => {
+                const value = e.target.value;
+                setName(value.charAt(0).toUpperCase() + value.slice(1));
+              }}
               placeholder="Nome"
               required
             />
           </div>
-          {errors.name && <p className="text-red-500">{errors.name}</p>}
+          {errors.name && <p className="text-red-500 mt-2">{errors.name}</p>}
         </div>
 
         {/* Telefone */}
@@ -143,23 +146,45 @@ const WhatsappForm = () => {
             htmlFor="phone"
             className="block font-medium mb-1 text-gray-300"
           >
-            Telefone
+            Telefone:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <Phone />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="tel"
               id="phone"
               value={phone}
-              onChange={(e) => setPhone(e.target.value)}
+              onChange={(e) => {
+                let value = e.target.value;
+
+                // Remove tudo que não seja número
+                value = value.replace(/\D/g, "");
+
+                // Limita a 11 dígitos (padrão celular brasileiro)
+                value = value.substring(0, 11);
+
+                // Aplica a formatação
+                if (value.length > 6) {
+                  value = `(${value.substring(0, 2)}) ${value.substring(
+                    2,
+                    7
+                  )}-${value.substring(7)}`;
+                } else if (value.length > 2) {
+                  value = `(${value.substring(0, 2)}) ${value.substring(2)}`;
+                } else if (value.length > 0) {
+                  value = `(${value}`;
+                }
+
+                setPhone(value);
+              }}
               placeholder="(00) 00000-0000"
               required
             />
           </div>
-          {errors.phone && <p className="text-red-500">{errors.phone}</p>}
+          {errors.phone && <p className="text-red-500 mt-2">{errors.phone}</p>}
         </div>
 
         {/* Email */}
@@ -168,14 +193,14 @@ const WhatsappForm = () => {
             htmlFor="email"
             className="block font-medium mb-1 text-gray-300"
           >
-            Email
+            Email:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <Mail />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="email"
               id="email"
               value={email}
@@ -184,7 +209,7 @@ const WhatsappForm = () => {
               required
             />
           </div>
-          {errors.email && <p className="text-red-500">{errors.email}</p>}
+          {errors.email && <p className="text-red-500 mt-2">{errors.email}</p>}
         </div>
 
         {/* Informações do contrato */}
@@ -193,24 +218,27 @@ const WhatsappForm = () => {
             htmlFor="contractInfo"
             className="block font-medium mb-1 text-gray-300"
           >
-            Informações do contrato
+            Informações do contrato:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <FileText />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="text"
               id="contractInfo"
               value={contractInfo}
-              onChange={(e) => setContractInfo(e.target.value)}
+              onChange={(e) => {
+                const value = e.target.value;
+                setContractInfo(value.charAt(0).toUpperCase() + value.slice(1));
+              }}
               placeholder="Contrato"
               required
             />
           </div>
           {errors.contractInfo && (
-            <p className="text-red-500">{errors.contractInfo}</p>
+            <p className="text-red-500 mt-2">{errors.contractInfo}</p>
           )}
         </div>
 
@@ -220,23 +248,26 @@ const WhatsappForm = () => {
             htmlFor="type"
             className="block font-medium mb-1 text-gray-300"
           >
-            Tipo
+            Tipo:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <ListChecks />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="text"
               id="type"
               value={type}
-              onChange={(e) => setType(e.target.value)}
+              onChange={(e) => {
+                const value = e.target.value;
+                setType(value.charAt(0).toUpperCase() + value.slice(1));
+              }}
               placeholder="Tipo"
               required
             />
           </div>
-          {errors.type && <p className="text-red-500">{errors.type}</p>}
+          {errors.type && <p className="text-red-500 mt-2">{errors.type}</p>}
         </div>
 
         {/* Valor Financiado */}
@@ -245,24 +276,37 @@ const WhatsappForm = () => {
             htmlFor="financedValue"
             className="block font-medium mb-1 text-gray-300"
           >
-            Valor Financiado
+            Valor Financiado:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <DollarSign />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="text"
               id="financedValue"
               value={financedValue}
-              onChange={(e) => setFinancedValue(e.target.value)}
+              onChange={(e) => {
+                let value = e.target.value;
+
+                // Remove tudo que não seja número
+                value = value.replace(/\D/g, "");
+
+                // Converte para reais
+                value = (Number(value) / 100).toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                });
+
+                setFinancedValue(value);
+              }}
               placeholder="R$ 0,00"
               required
             />
           </div>
           {errors.financedValue && (
-            <p className="text-red-500">{errors.financedValue}</p>
+            <p className="text-red-500 mt-2">{errors.financedValue}</p>
           )}
         </div>
 
@@ -272,14 +316,14 @@ const WhatsappForm = () => {
             htmlFor="installments"
             className="block font-medium mb-1 text-gray-300"
           >
-            Quantidade de Parcelas
+            Quantidade de Parcelas:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <Calendar />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="number"
               id="installments"
               value={installments}
@@ -289,7 +333,7 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.installments && (
-            <p className="text-red-500">{errors.installments}</p>
+            <p className="text-red-500 mt-2">{errors.installments}</p>
           )}
         </div>
 
@@ -299,14 +343,14 @@ const WhatsappForm = () => {
             htmlFor="paidInstallments"
             className="block font-medium mb-1 text-gray-300"
           >
-            Parcelas Pagas
+            Parcelas Pagas:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <ListChecks />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="number"
               id="paidInstallments"
               value={paidInstallments}
@@ -316,7 +360,7 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.paidInstallments && (
-            <p className="text-red-500">{errors.paidInstallments}</p>
+            <p className="text-red-500 mt-2">{errors.paidInstallments}</p>
           )}
         </div>
 
@@ -326,24 +370,37 @@ const WhatsappForm = () => {
             htmlFor="installmentValue"
             className="block font-medium mb-1 text-gray-300"
           >
-            Valor da Parcela
+            Valor da Parcela:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <DollarSign />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="text"
               id="installmentValue"
               value={installmentValue}
-              onChange={(e) => setInstallmentValue(e.target.value)}
+              onChange={(e) => {
+                let value = e.target.value;
+
+                // Remove tudo que não seja número
+                value = value.replace(/\D/g, "");
+
+                // Converte para reais
+                value = (Number(value) / 100).toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                });
+
+                setInstallmentValue(value);
+              }}
               placeholder="R$ 500,00"
               required
             />
           </div>
           {errors.installmentValue && (
-            <p className="text-red-500">{errors.installmentValue}</p>
+            <p className="text-red-500 mt-2">{errors.installmentValue}</p>
           )}
         </div>
 
@@ -353,14 +410,14 @@ const WhatsappForm = () => {
             htmlFor="lateInstallments"
             className="block font-medium mb-1 text-gray-300"
           >
-            Parcelas em atraso
+            Parcelas em atraso:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <AlertTriangle />
             </div>
             <input
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               type="number"
               id="lateInstallments"
               value={lateInstallments}
@@ -370,7 +427,7 @@ const WhatsappForm = () => {
             />
           </div>
           {errors.lateInstallments && (
-            <p className="text-red-500">{errors.lateInstallments}</p>
+            <p className="text-red-500 mt-2">{errors.lateInstallments}</p>
           )}
         </div>
 
@@ -380,22 +437,27 @@ const WhatsappForm = () => {
             htmlFor="message"
             className="block font-medium mb-1 text-gray-300"
           >
-            Mensagem
+            Mensagem:
           </label>
           <div className="flex text-gray-500">
-            <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight">
+            <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
               <MessageCircle className="mt-[14px]" />
             </div>
             <textarea
-              className="w-full px-1 py-2 border-0 rounded-none"
+              className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
               id="message"
               value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(e) => {
+                const value = e.target.value;
+                setMessage(value.charAt(0).toUpperCase() + value.slice(1));
+              }}
               placeholder="Mensagem"
               required
             />
           </div>
-          {errors.message && <p className="text-red-500">{errors.message}</p>}
+          {errors.message && (
+            <p className="text-red-500 mt-2">{errors.message}</p>
+          )}
         </div>
 
         {/* Botão */}

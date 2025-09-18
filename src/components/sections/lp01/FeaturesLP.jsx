@@ -7,16 +7,16 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function FeaturesLP() {
   return (
     <>
-      <SectionArea>
+      <SectionArea className="bg-bgSectionDark">
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.features.sectionHeader.miniTag}
-            className="text-center"
+            className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             sectionHeaderTitle={contentLp01.features.sectionHeader.title}
             color=""
-            titleColorSet="text-secondary"
-            miniTitleBgColor="bg-bgSectionDark"
-            miniTitleTextColor="text-white"
+            titleColorSet="text-white"
+            miniTitleBgColor="bg-white"
+            miniTitleTextColor="text-bgSectionDark"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP
