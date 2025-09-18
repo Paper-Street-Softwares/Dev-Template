@@ -10,16 +10,16 @@ export default function HowItWorksCard({
 }) {
   return (
     <MotionDivDownToUp
-      className={`bg-primary rounded-xl w-full flex flex-col max-w-[450px] tablet1:max-w-[300px] desktop1:max-w-[900px] mb-auto desktop1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 py-[25px] desktop1:px-[12px] desktop1:py-[12px] h-auto ${className}`}
+      className={`bg-bgSectionDark rounded-xl min-w-[288px] flex flex-col tablet1:w-full desktop1:max-w-[900px] mb-auto tablet1:flex-row items-center desktop1:hover:scale-110 gap-4 desktop1:gap-4 p-[25px] desktop1:p-[12px] h-auto ${className}`}
     >
-      <div className="h-[64px] w-[64px] text-title3 rounded-md bg-bgSectionDark font-mainFont flex justify-center items-center text-white">
+      <div className="h-[64px] w-[64px] text-title3 rounded-md bg-white font-mainFont flex justify-center items-center text-bgSectionDark">
         {number}
       </div>
-      <div className="flex flex-col desktop1:gap-2 w-[80%] desktop1:w-[60%] ">
-        <h1 className="h-auto text-center desktop1:text-start leading-[20px] font-bold font-mainFont text-paragraph4 mb-[8px] desktop1:mb-0 text-secondary">
+      <div className="flex flex-col desktop1:gap-2 w-full ">
+        <h1 className="h-auto text-center tablet1:text-start leading-[20px] font-bold font-mainFont text-paragraph4 mb-[8px] desktop1:mb-0 text-white">
           {title}
         </h1>
-        <p className="text-center desktop1:text-start text-paragraph3 desktop1:text-paragraph2 opacity-70 font-mainFont desktop1:w-[100%]">
+        <p className="text-center tablet1:text-start text-paragraph3 desktop1:text-paragraph2 opacity-70 font-mainFont desktop1:w-[100%] text-white">
           {description}
         </p>
       </div>

@@ -35,7 +35,7 @@ export default function StepsLpv() {
             miniTitleTextColor="text-white"
           />
 
-          <div className="flex flex-col tablet2:flex-row  tablet2:flex-wrap gap-6 items-center justify-center w-full mt-[28px] desktop1:mt-0 ">
+          <div className="flex flex-col tablet2:flex-row tablet2:flex-wrap gap-6 items-center justify-center w-full mt-[28px] desktop1:mt-0 ">
             <HowItWorksCard
               number={contentLp01.steps.cards.card1.stepNumber}
               title={contentLp01.steps.cards.card1.cardTitle}

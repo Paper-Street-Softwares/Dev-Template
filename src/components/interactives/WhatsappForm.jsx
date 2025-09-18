@@ -441,7 +441,7 @@ const WhatsappForm = () => {
           </label>
           <div className="flex text-gray-500">
             <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight rounded-sm">
-              <MessageCircle className="mt-[14px]" />
+              <MessageCircle className="m-auto" />
             </div>
             <textarea
               className=" px-1 py-2 border-0 rounded-none bg-transparent border-b-2 border-white/30 w-[90%] ml-4 text-white outline-none autofill-none"
