@@ -9,7 +9,7 @@ export default {
         primary: "#FFB955",
         buttonColor: "#FFB955",
         minititleDark: "#000", //bg minitag de seções claras
-        minititle: "#000", //bg minitag de seções escuras
+        minititle: "#FFB955", //bg minitag de seções escuras
         secondary: "#000000",
 
         // Fundos de Seção
@@ -29,7 +29,7 @@ export default {
         iconButtons: "#000",
         labelButtons: "#000",
         minititleLightLabel: "#fff", //label das minitag de seções claras
-        minititleDarkLabel: "#fff", //label minitag de seções escuras
+        minititleDarkLabel: "#000", //label minitag de seções escuras
 
         // Sombras
         shadowHero: "#000000",

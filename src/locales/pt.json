@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO COM MAIS DE 15 ANOS",
+    "title": " <span class=\"text-primary font-bold\">A injustiça cresce no silêncio</span>",
+    "subtitle": "Quem se cala perde espaço. Faça do seu direito uma arma e não deixe que o tempo decida por você.",
+    "ctaButtonText": "Defenda-se agora",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e online para todo Brasil"
     }
   },
   "features": {
