@@ -50,8 +50,8 @@ export default {
       fontFamily: {
         mainFont: ["Merriweather", "sans-serif"],
         secondFont: ["Merriweather", "sans-serif"],
-        league: ["League Gothic"],
-        barlow: ["Barlow Condensed"],
+        // mainFont: ["Poppins", "sans-serif"],
+        // secondFont: ["Poppins", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem",
