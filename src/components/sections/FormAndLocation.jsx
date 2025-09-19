@@ -44,13 +44,14 @@ export default function Steps() {
             </p> */}
             <div className="opacity-90">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31496.286939401998!2d-49.4966658!3d-16.6489271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e67f49e245171%3A0xe8acb6a48ae5cc5e!2sM%C3%A1rcio%20Assis%20Advogados!5e1!3m2!1spt-BR!2sbr!4v1733161783119!5m2!1spt-BR!2sbr"
+                src={content.texts.maps.embedsrc}
                 width="100%"
                 height=""
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa do local da empresa"
                 className="rounded-[10px] h-[350px] desktop1:h-[420px]"
               />
             </div>

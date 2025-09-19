@@ -44,14 +44,14 @@ export default function Maps({ colorMode }) {
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
-                // src={t("maps.embedsrc")}
                 src={content.texts.maps.embedsrc}
                 width="100%"
                 height=""
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa do local da empresa"
                 className="rounded-[10px] h-[350px] desktop1:h-[420px]"
               />
             </div>
