@@ -3,43 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
+
+    <!-- Preconnect para reduzir latência -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload das fontes principais -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      as="style"
+      onload="this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
     <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
+
+    <!-- Seus meta tags e favicons continuam inalterados -->
     <meta
       name="description"
       content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
     />
     <meta
       name="keywords"
-      content="Advogado Recife,
-Advogado em Recife,
-Advogado Recife PE,
-Escritório de Advocacia Recife,
-Dr. Ronaldo Quirino,
-Advogado Dr. Ronaldo Quirino,
-Advogado Trabalhista Recife,
-Advogado Previdenciário Recife,
-Advogado Criminal Recife,
-Advogado Cível Recife,
-Consultoria Jurídica Recife,
-Direito Trabalhista Recife,
-Direito Previdenciário Recife,
-Direito Criminal Recife,
-Direito Cível Recife,
-Advogado Especialista Recife,
-Escritório Jurídico Recife,
-Atuação Jurídica Recife,
-Defesa Jurídica Recife,
-Advogado Experiente Recife.
-"
+      content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
     />
 
-    <!-- Meta tags Open Graph (OG) para WhatsApp e Facebook -->
+    <!-- Meta tags Open Graph -->
     <meta
       property="og:title"
       content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
@@ -55,7 +50,7 @@ Advogado Experiente Recife.
     <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
     <meta property="og:type" content="website" />
 
-    <!-- Meta tags do Twitter (opcional, mas recomendável) -->
+    <!-- Meta tags Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -70,6 +65,8 @@ Advogado Experiente Recife.
       content="https://www.quirinosadvassoc.com.br/previewIcon.png"
     />
     <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
+
+    <!-- Favicons e manifest continuam -->
     <link
       rel="apple-touch-icon"
       sizes="57x57"
