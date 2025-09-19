@@ -152,6 +152,7 @@ const content = {
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -181,19 +182,19 @@ const content = {
         background: bgHeroImg,
         static: {
           img: {},
-          alt: "",
+          alt: "Primeira imagem ilustrativa da Início",
         },
         slide1: {
           img: {},
-          alt: "",
+          alt: "Segunda imagem ilustrativa da Início",
         },
         slide2: {
           img: {},
-          alt: "",
+          alt: "Terceira imagem ilustrativa da Início",
         },
         slide3: {
           img: {},
-          alt: "",
+          alt: "Quarta imagem ilustrativa da Início",
         },
       },
     },
@@ -202,6 +203,7 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
+      alt: "Imagem ilustrativa da Seção Serviços",
       card1: {
         img: featuresImg1,
         title: "A_Definir",
@@ -435,7 +437,7 @@ const content = {
     about: {
       imagem: {
         img: aboutImg,
-        alt: "Imagem profissional de escritório/advogado(a)",
+        alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
       miniTag: "A_Definir",
@@ -479,6 +481,7 @@ const content = {
           imgMobile: aboutSocialImgMobile,
           imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
         miniTag: "A_Definir",
         title: "A_Definir",
@@ -525,7 +528,7 @@ const content = {
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
-      alt: "Imagem do Steps",
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,

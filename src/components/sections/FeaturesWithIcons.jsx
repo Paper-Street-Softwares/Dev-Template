@@ -61,7 +61,7 @@ export default function FeaturesWithIcons({ colorMode }) {
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%]">
             <img
               src={content.texts.features.imgFeatures}
-              alt="Imagem da Feature"
+              alt={content.texts.features.alt}
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
             />
           </MotionDivDownToUp>

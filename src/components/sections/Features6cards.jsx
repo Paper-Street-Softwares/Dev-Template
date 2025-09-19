@@ -66,7 +66,7 @@ export default function Features6cards({ colorMode }) {
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <img
               src={content.texts.features.imgFeatures}
-              alt="Imagem de Features"
+              alt={content.texts.features.alt}
               className="hidden desktop1:flex h-[900px] w-full rounded-2xl shadow-custom-opacity shadow-primary/50 object-cover"
             />
           </MotionDivDownToUp>

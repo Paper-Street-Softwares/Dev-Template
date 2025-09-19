@@ -145,11 +145,11 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   <source
                     srcSet={content.texts.hero.heroDefaultImageMobile}
                     media="(max-width: 424px)"
-                    aria-label="imagem da Hero"
+                    aria-label={content.texts.hero.alt}
                   />
                   <img
                     src={content.texts.hero.heroDefaultImage}
-                    alt="imagem da Hero"
+                    alt={content.texts.hero.alt}
                     fetchpriority="high"
                     decoding="async"
                     className={`mt-[20px] desktop1:mt-0 rounded-xl w-full

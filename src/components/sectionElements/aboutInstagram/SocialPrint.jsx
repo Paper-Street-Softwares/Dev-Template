@@ -8,6 +8,7 @@ function SocialPrint() {
         <source
           srcSet={content.texts.about.aboutSocial.img.imgMobile}
           media="(max-width: 424px)"
+          aria-label={content.texts.about.aboutSocial.img.alt}
         />
         <img
           src={content.texts.about.aboutSocial.img.img}

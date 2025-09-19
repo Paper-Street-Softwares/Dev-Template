@@ -59,7 +59,7 @@ export default function FeaturesModalWithCards({ colorMode }) {
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <img
               src={content.texts.features.imgFeatures}
-              alt="Imagem de Features"
+              alt={content.texts.features.alt}
               className="hidden desktop1:flex desktop1:h-[730px] desktop2:h-[770px] w-full rounded-2xl object-cover"
             />
           </MotionDivDownToUp>
