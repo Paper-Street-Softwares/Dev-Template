@@ -7,7 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import imgAbout1 from "../assets/imgs/about/aboutImg1.webp";
 // import imgAbout2 from "../assets/imgs/about/aboutImg2.webp";
 // import imgAbout3 from "../assets/imgs/about/aboutImg3.webp";
@@ -46,6 +46,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+
+// versão mobile
+import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
+import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
+import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
+import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
+import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -144,6 +151,8 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
+      heroDefaultImageMobile: heroDefaultImgMobile,
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -173,19 +182,19 @@ const content = {
         background: bgHeroImg,
         static: {
           img: {},
-          alt: "",
+          alt: "Primeira imagem ilustrativa da Início",
         },
         slide1: {
           img: {},
-          alt: "",
+          alt: "Segunda imagem ilustrativa da Início",
         },
         slide2: {
           img: {},
-          alt: "",
+          alt: "Terceira imagem ilustrativa da Início",
         },
         slide3: {
           img: {},
-          alt: "",
+          alt: "Quarta imagem ilustrativa da Início",
         },
       },
     },
@@ -194,6 +203,7 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
+      alt: "Imagem ilustrativa da Seção Serviços",
       card1: {
         img: featuresImg1,
         title: "A_Definir",
@@ -426,8 +436,9 @@ const content = {
     },
     about: {
       imagem: {
-        img: aboutImg1,
-        alt: "Imagem profissional de escritório/advogado(a)",
+        img: aboutImg,
+        alt: "Imagem ilustrativa da Seção Sobre",
+        imagemMobile: aboutImgMobile,
       },
       miniTag: "A_Definir",
       title: "A_Definir",
@@ -467,7 +478,10 @@ const content = {
         img: {
           img: aboutSocialImg,
           imgSocial: aboutInstagram,
+          imgMobile: aboutSocialImgMobile,
+          imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
         miniTag: "A_Definir",
         title: "A_Definir",
@@ -513,7 +527,8 @@ const content = {
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
-      alt: "",
+      imgMobile: imgStepsMobile,
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,

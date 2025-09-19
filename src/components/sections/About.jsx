@@ -42,11 +42,18 @@ export default function About({
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
-          <img
-            src={content.texts.about.imagem.img}
-            alt={aboutText.imagem.alt}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
-          />
+          <picture>
+            <source
+              srcSet={content.texts.about.imagem.imagemMobile}
+              media="(max-width: 424px)"
+              aria-label={content.texts.about.imagem.alt}
+            />
+            <img
+              src={content.texts.about.imagem.img}
+              alt={content.texts.about.imagem.alt}
+              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
+            />
+          </picture>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
