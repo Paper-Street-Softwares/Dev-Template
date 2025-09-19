@@ -7,7 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import imgAbout1 from "../assets/imgs/about/aboutImg1.webp";
 // import imgAbout2 from "../assets/imgs/about/aboutImg2.webp";
 // import imgAbout3 from "../assets/imgs/about/aboutImg3.webp";
@@ -46,6 +46,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+
+// versão mobile
+import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
+import aboutImgMobile from "../assets/imgs/about/aboutImgMobile.webp";
+import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
+import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
+import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -144,6 +151,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
+      heroDefaultImageMobile: heroDefaultImgMobile,
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -426,9 +434,10 @@ const content = {
     },
     about: {
       imagem: {
-        img: aboutImg1,
+        img: aboutImg,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
+      imagemMobile: aboutImgMobile,
       miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
@@ -513,6 +522,7 @@ const content = {
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
+      imgMobile: imgStepsMobile,
       alt: "",
       cards: {
         card1: {
