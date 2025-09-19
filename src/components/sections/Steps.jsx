@@ -37,6 +37,7 @@ export default function Steps({ colorMode }) {
               src={content.texts.steps.img}
               alt={content.texts.steps.alt}
               className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+              loading="lazy"
             />
           </picture>
         </MotionDivDownToUp>

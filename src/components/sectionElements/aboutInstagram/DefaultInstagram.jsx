@@ -15,6 +15,7 @@ function DefaultInstagram() {
           src={content.texts.about.aboutSocial.img.imgSocial}
           alt={content.texts.about.aboutSocial.img.altDefault}
           className="w-full  object-cover rounded-xl"
+          loading="lazy"
         />
       </picture>
     </MotionDivDownToUp>
