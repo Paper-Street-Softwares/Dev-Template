@@ -61,6 +61,7 @@ export default function FeaturesModalWithCards({ colorMode }) {
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
               className="hidden desktop1:flex desktop1:h-[730px] desktop2:h-[770px] w-full rounded-2xl object-cover"
+              loading="lazy"
             />
           </MotionDivDownToUp>
 
