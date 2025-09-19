@@ -10,7 +10,6 @@ function DefaultInstagram() {
         <source
           srcSet={content.texts.about.aboutSocial.img.imgSocialMobile}
           media="(max-width: 424px)"
-          aria-label={content.texts.about.aboutSocial.img.altDefault}
         />
         <img
           src={content.texts.about.aboutSocial.img.imgSocial}

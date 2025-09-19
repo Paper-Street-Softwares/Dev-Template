@@ -46,7 +46,6 @@ export default function About({
             <source
               srcSet={content.texts.about.imagem.imagemMobile}
               media="(max-width: 424px)"
-              aria-label={content.texts.about.imagem.alt}
             />
             <img
               src={content.texts.about.imagem.img}

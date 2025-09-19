@@ -31,7 +31,6 @@ export default function Steps({ colorMode }) {
           <picture>
             <source
               srcSet={content.texts.steps.imgMobile}
-              aria-label={content.texts.steps.alt}
               media="(max-width: 424px)"
             />
             <img
