@@ -48,10 +48,10 @@ export default {
         "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
       },
       fontFamily: {
-        mainFont: ["Merriweather", "sans-serif"],
-        secondFont: ["Merriweather", "sans-serif"],
-        // mainFont: ["Poppins", "sans-serif"],
-        // secondFont: ["Poppins", "sans-serif"],
+        // mainFont: ["Merriweather", "sans-serif"],
+        // secondFont: ["Merriweather", "sans-serif"],
+        mainFont: ["Poppins", "sans-serif"],
+        secondFont: ["Poppins", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem",
