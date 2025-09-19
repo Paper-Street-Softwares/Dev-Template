@@ -150,7 +150,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     src={content.texts.hero.heroDefaultImage}
                     alt={content.texts.hero.alt}
                     fetchpriority="high"
-                    decoding="async"
+                    decoding="sync"
                     className={`mt-[20px] desktop1:mt-0 rounded-xl w-full
                     phone1:h-[300px] phone1:max-w-[300px]
                     phone2:h-[355px] phone2:max-w-[355px]
