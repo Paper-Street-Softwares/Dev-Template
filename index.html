@@ -2,70 +2,15 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="" />
-    <link
-      rel="preload"
-      href="/fonts/Poppins-Regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="/fonts/Poppins-Bold.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./src/assets/favico/ms-icon-144x144.png"
     />
 
-    <link rel="preload" as="image" href="/assets/lawHeroMobile.webp" />
-    <link rel="preload" as="image" href="/assets/lawHero.webp" />
-
-    <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
-
-    <!-- Seus meta tags e favicons continuam inalterados -->
-    <meta
-      name="description"
-      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
-    />
-    <meta
-      name="keywords"
-      content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
-    />
-
-    <!-- Meta tags Open Graph -->
-    <meta
-      property="og:title"
-      content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
-    />
-    <meta
-      property="og:description"
-      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
-    />
-    <meta
-      property="og:image"
-      content="https://www.quirinosadvassoc.com.br/previewIcon.png"
-    />
-    <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
-    <meta property="og:type" content="website" />
-
-    <!-- Meta tags Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
-    />
-    <meta
-      name="twitter:description"
-      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.quirinosadvassoc.com.br/previewIcon.png"
-    />
-    <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
-
-    <!-- Favicons e manifest continuam -->
+    <!-- Favicons e manifest -->
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -136,16 +81,90 @@
       href="./src/assets/favico/favicon-16x16.png"
     />
     <link rel="manifest" href="./src/assets/favico/manifest.json" />
-    <meta
-      name="msapplication-TileImage"
-      content="./src/assets/favico/ms-icon-144x144.png"
+    <link rel="icon" type="image/svg+xml" href="" />
+
+    <!-- Pré-carregamento de fontes -->
+    <link
+      rel="preload"
+      href="/fonts/Poppins-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
+    <link
+      rel="preload"
+      href="/fonts/Poppins-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Pré-carregamento de imagens LCP -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/lawHeroMobile.webp"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/lawHero.webp"
+      fetchpriority="high"
+    />
+
+    <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
+
+    <!-- Meta description e keywords -->
+    <meta
+      name="description"
+      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
+    />
+    <meta
+      name="keywords"
+      content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
+    />
+    <meta
+      property="og:description"
+      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
+    />
+    <meta
+      property="og:image"
+      content="https://www.quirinosadvassoc.com.br/previewIcon.png"
+    />
+    <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
+    />
+    <meta
+      name="twitter:description"
+      content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.quirinosadvassoc.com.br/previewIcon.png"
+    />
+    <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
+
+    <!-- CSS crítico inline se houver pequenos estilos essenciais -->
+    <!-- <style>body{margin:0;font-family:'Poppins',sans-serif;}</style> -->
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- JS moderno, carregamento diferido -->
     <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>
