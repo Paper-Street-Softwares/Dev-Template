@@ -49,7 +49,7 @@ import { FileText } from "lucide-react";
 
 // versão mobile
 import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
-import aboutImgMobile from "../assets/imgs/about/aboutImgMobile.webp";
+import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
 import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
 import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
 import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
