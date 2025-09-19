@@ -141,27 +141,34 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
             {/* Imagem principal */}
             <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-center w-full">
-                <img
-                  src={content.texts.hero.heroDefaultImage}
-                  alt="Descrição do Hero"
-                  fetchpriority="high"
-                  decoding="async"
-                  className={`mt-[20px] desktop1:mt-0 rounded-xl w-full
-        phone1:h-[300px] phone1:max-w-[300px]
-        phone2:h-[355px] phone2:max-w-[355px]
-        phone3:h-[405px] phone3:max-w-[405px]
-        tablet1:h-[576px] tablet1:min-w-[576px]
-        tablet2:h-[690px] tablet2:min-w-[690px]
-        desktop1:h-[400px] desktop1:min-w-[200px]
-        desktop2:h-[400px] desktop2:min-w-[400px]
-        object-cover
-        ${
-          colorMode === "light"
-            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
-            : "shadow-custom-opacity shadow-shadowHero/10"
-        }
-      `}
-                />
+                <picture>
+                  <source
+                    srcSet={content.texts.hero.heroDefaultImageMobile}
+                    media="(max-width: 424px)"
+                    aria-label="imagem da Hero"
+                  />
+                  <img
+                    src={content.texts.hero.heroDefaultImage}
+                    alt="imagem da Hero"
+                    fetchpriority="high"
+                    decoding="async"
+                    className={`mt-[20px] desktop1:mt-0 rounded-xl w-full
+                    phone1:h-[300px] phone1:max-w-[300px]
+                    phone2:h-[355px] phone2:max-w-[355px]
+                    phone3:h-[405px] phone3:max-w-[405px]
+                    tablet1:h-[576px] tablet1:min-w-[576px]
+                    tablet2:h-[690px] tablet2:min-w-[690px]
+                    desktop1:h-[400px] desktop1:min-w-[200px]
+                    desktop2:h-[400px] desktop2:min-w-[400px]
+                    object-cover
+                    ${
+                      colorMode === "light"
+                        ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
+                        : "shadow-custom-opacity shadow-shadowHero/10"
+                    }
+                  `}
+                  />
+                </picture>
               </MotionDivDownToUp>
             </div>
           </div>

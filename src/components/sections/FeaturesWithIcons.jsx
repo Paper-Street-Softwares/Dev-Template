@@ -59,12 +59,11 @@ export default function FeaturesWithIcons({ colorMode }) {
           </div>
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%]">
-            <div
+            <img
+              src={content.texts.features.imgFeatures}
+              alt="Imagem da Feature"
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
-              style={{
-                backgroundImage: `url(${content.texts.features.imgFeatures})`,
-              }}
-            ></div>
+            />
           </MotionDivDownToUp>
 
           <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">

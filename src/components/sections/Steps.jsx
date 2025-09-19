@@ -28,11 +28,18 @@ export default function Steps({ colorMode }) {
     <SectionArea className={`${bgClass}`} paddingbot={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
-          <img
-            src={content.texts.steps.img}
-            alt={content.texts.steps.img}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
-          />
+          <picture>
+            <source
+              srcSet={content.texts.steps.imgMobile}
+              aria-label={content.texts.steps.alt}
+              media="(max-width: 424px)"
+            />
+            <img
+              src={content.texts.steps.img}
+              alt={content.texts.steps.alt}
+              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+            />
+          </picture>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px]">

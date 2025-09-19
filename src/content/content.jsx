@@ -436,8 +436,8 @@ const content = {
       imagem: {
         img: aboutImg,
         alt: "Imagem profissional de escritório/advogado(a)",
+        imagemMobile: aboutImgMobile,
       },
-      imagemMobile: aboutImgMobile,
       miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
@@ -476,6 +476,8 @@ const content = {
         img: {
           img: aboutSocialImg,
           imgSocial: aboutInstagram,
+          imgMobile: aboutSocialImgMobile,
+          imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "A_Definir",
@@ -523,7 +525,7 @@ const content = {
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
-      alt: "",
+      alt: "Imagem do Steps",
       cards: {
         card1: {
           stepNumber: 1,
