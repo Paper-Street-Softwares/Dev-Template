@@ -8,21 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Fontes Google carregadas de forma não-bloqueante -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>
-
-    <!-- Preload fontes locais -->
+    <!-- Preload fontes -->
     <link
       rel="preload"
       href="/fonts/Poppins-Regular.woff2"
@@ -38,13 +24,13 @@
       crossorigin
     />
 
-    <!-- Preload imagens principais do Hero -->
+    <!-- Preload imagens do hero -->
     <link rel="preload" as="image" href="/assets/lawHeroMobile.webp" />
     <link rel="preload" as="image" href="/assets/lawHero.webp" />
 
     <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
 
-    <!-- Meta tags SEO -->
+    <!-- Meta tags -->
     <meta
       name="description"
       content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
@@ -54,7 +40,7 @@
       content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
     />
 
-    <!-- Open Graph -->
+    <!-- Meta tags Open Graph -->
     <meta
       property="og:title"
       content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
@@ -70,7 +56,7 @@
     <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
     <meta property="og:type" content="website" />
 
-    <!-- Twitter -->
+    <!-- Meta tags Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -86,7 +72,7 @@
     />
     <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
 
-    <!-- Favicons -->
+    <!-- Favicons e manifest -->
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -164,55 +150,12 @@
     <meta name="theme-color" content="#ffffff" />
     <meta name="msapplication-TileColor" content="#ffffff" />
 
-    <!-- Viewport -->
+    <!-- Meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- 🔥 Critical CSS + Skeleton -->
-    <style>
-      body {
-        margin: 0;
-        font-family: "Poppins", sans-serif;
-        background: #fff;
-      }
-      .skeleton {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        color: #222;
-      }
-      .skeleton .bar {
-        background: #eee;
-        height: 20px;
-        margin: 10px 0;
-        border-radius: 4px;
-        animation: pulse 1.5s infinite;
-      }
-      .skeleton .bar.title {
-        width: 60%;
-        height: 32px;
-      }
-      .skeleton .bar.text {
-        width: 80%;
-      }
-      @keyframes pulse {
-        0% { opacity: 1; }
-        50% { opacity: 0.5; }
-        100% { opacity: 1; }
-      }
-    </style>
   </head>
 
   <body>
-    <!-- Skeleton inicial (substituído pelo React assim que montar) -->
-    <div id="root">
-      <div class="skeleton">
-        <div class="bar title"></div>
-        <div class="bar text"></div>
-        <div class="bar text"></div>
-      </div>
-    </div>
+    <div id="root"></div>
 
     <!-- Script principal deferido -->
     <script type="module" src="/src/main.jsx" defer></script>
