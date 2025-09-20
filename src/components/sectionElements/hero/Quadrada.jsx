@@ -151,8 +151,8 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     alt={content.texts.hero.alt}
                     fetchpriority="high"
                     decoding="sync"
-                    width="930" // coloque as dimensões reais da imagem
-                    height="1287" // coloque as dimensões reais da imagem
+                    width="930" 
+                    height="1287" 
                     className={`mt-[20px] desktop1:mt-0 rounded-xl w-full
       phone1:h-[300px] phone1:max-w-[300px]
       phone2:h-[355px] phone2:max-w-[355px]
