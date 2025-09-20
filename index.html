@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
+
+    <!-- Preconnect para acelerar requisições críticas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload fontes -->
     <link
       rel="preload"
       href="/fonts/Poppins-Regular.woff2"
@@ -17,10 +23,14 @@
       type="font/woff2"
       crossorigin
     />
+
+    <!-- Preload imagens do hero -->
     <link rel="preload" as="image" href="/assets/lawHeroMobile.webp" />
     <link rel="preload" as="image" href="/assets/lawHero.webp" />
+
     <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
-    <!-- Seus meta tags e favicons continuam inalterados -->
+
+    <!-- Meta tags -->
     <meta
       name="description"
       content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
@@ -29,6 +39,7 @@
       name="keywords"
       content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
     />
+
     <!-- Meta tags Open Graph -->
     <meta
       property="og:title"
@@ -44,6 +55,7 @@
     />
     <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
     <meta property="og:type" content="website" />
+
     <!-- Meta tags Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
@@ -59,7 +71,8 @@
       content="https://www.quirinosadvassoc.com.br/previewIcon.png"
     />
     <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
-    <!-- Favicons e manifest continuam -->
+
+    <!-- Favicons e manifest -->
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -135,11 +148,16 @@
       content="./src/assets/favico/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Meta viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- Script principal deferido -->
     <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>
