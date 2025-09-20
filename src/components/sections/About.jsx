@@ -9,12 +9,9 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 import content from "../../content/content";
+import GalleryAbout from "../sectionElements/about/GalleryAbout";
 
-export default function About({
-  modal = true,
-  showGallery = false,
-  colorMode,
-}) {
+export default function About({ modal = true, showGallery, colorMode }) {
   const { t } = useTranslation();
 
   // Classes de tema
@@ -42,17 +39,21 @@ export default function About({
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
-          <picture>
-            <source
-              srcSet={content.texts.about.imagem.imagemMobile}
-              media="(max-width: 424px)"
-            />
-            <img
-              src={content.texts.about.imagem.img}
-              alt={content.texts.about.imagem.alt}
-              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
-            />
-          </picture>
+          {showGallery ? (
+            <GalleryAbout />
+          ) : (
+            <picture>
+              <source
+                srcSet={content.texts.about.imagem.imagemMobile}
+                media="(max-width: 424px)"
+              />
+              <img
+                src={content.texts.about.imagem.img}
+                alt={content.texts.about.imagem.alt}
+                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
+              />
+            </picture>
+          )}
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
