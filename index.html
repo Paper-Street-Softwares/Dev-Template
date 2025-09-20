@@ -8,7 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Preload fontes -->
+    <!-- Carregamento assíncrono das fontes Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <!-- Preload fontes locais -->
     <link
       rel="preload"
       href="/fonts/Poppins-Regular.woff2"
@@ -24,13 +32,13 @@
       crossorigin
     />
 
-    <!-- Preload imagens do hero -->
+    <!-- Preload imagens principais -->
     <link rel="preload" as="image" href="/assets/lawHeroMobile.webp" />
     <link rel="preload" as="image" href="/assets/lawHero.webp" />
 
     <title>Dr. Ronaldo Quirino | Advogado em Recife - PE</title>
 
-    <!-- Meta tags -->
+    <!-- Meta tags SEO -->
     <meta
       name="description"
       content="Atuação jurídica em Recife - PE com o Dr. Ronaldo Quirino. Defesa em Direito Trabalhista, Previdenciário, Criminal, Cível e Consultoria Jurídica."
@@ -40,7 +48,7 @@
       content="Advogado Recife,Advogado em Recife,Advogado Recife PE,Escritório de Advocacia Recife,Dr. Ronaldo Quirino,Advogado Dr. Ronaldo Quirino,Advogado Trabalhista Recife,Advogado Previdenciário Recife,Advogado Criminal Recife,Advogado Cível Recife,Consultoria Jurídica Recife,Direito Trabalhista Recife,Direito Previdenciário Recife,Direito Criminal Recife,Direito Cível Recife,Advogado Especialista Recife,Escritório Jurídico Recife,Atuação Jurídica Recife,Defesa Jurídica Recife,Advogado Experiente Recife."
     />
 
-    <!-- Meta tags Open Graph -->
+    <!-- Open Graph -->
     <meta
       property="og:title"
       content="Dr. Ronaldo Quirino | Advogado em Recife - PE"
@@ -56,7 +64,7 @@
     <meta property="og:url" content="https://www.quirinosadvassoc.com.br/" />
     <meta property="og:type" content="website" />
 
-    <!-- Meta tags Twitter -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -72,7 +80,7 @@
     />
     <meta name="twitter:url" content="https://www.quirinosadvassoc.com.br/" />
 
-    <!-- Favicons e manifest -->
+    <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -150,13 +158,32 @@
     <meta name="theme-color" content="#ffffff" />
     <meta name="msapplication-TileColor" content="#ffffff" />
 
-    <!-- Meta viewport -->
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
+    <!-- 🔥 Critical CSS inline para aparecer algo no primeiro instante -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background-color: #ffffff;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #222;
+      }
+    </style>
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- Skeleton inicial para não deixar tela branca -->
+    <div id="root">Carregando...</div>
 
     <!-- Script principal deferido -->
     <script type="module" src="/src/main.jsx" defer></script>
