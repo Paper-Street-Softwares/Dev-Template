@@ -9,12 +9,6 @@ import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 export default function FeaturesParagraphs({ modal, colorMode }) {
   const { t, i18n } = useTranslation();
 
-  // Alternar idioma
-  const toggleLanguage = () => {
-    const newLang = i18n.language === "pt" ? "en" : "pt";
-    i18n.changeLanguage(newLang);
-  };
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -31,15 +25,6 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
 
   return (
     <SectionArea id="service" className={`${bgClass}`}>
-      {/* Botão para alternar idioma */}
-      <div className="flex justify-end p-4">
-        <Button
-          onClick={toggleLanguage}
-          label={i18n.language === "pt" ? "English" : "Português"}
-          className="bg-primary text-white"
-        />
-      </div>
-
       <SectionHeader
         colorMode="dark"
         className="text-center"
