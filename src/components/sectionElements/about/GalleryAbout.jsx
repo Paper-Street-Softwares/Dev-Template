@@ -17,25 +17,25 @@ function GalleryAbout() {
       original: isMobile
         ? content.texts.about.galeria.slide1.imgMobile.imgMobile1
         : content.texts.about.galeria.slide1.img.img1,
-      alt: content.texts.about.galeria.slide1.alt,
+      originalAlt: content.texts.about.galeria.slide1.alt,
     },
     {
       original: isMobile
         ? content.texts.about.galeria.slide2.imgMobile.imgMobile2
         : content.texts.about.galeria.slide2.img.img2,
-      alt: content.texts.about.galeria.slide2.alt,
+      originalAlt: content.texts.about.galeria.slide2.alt,
     },
     {
       original: isMobile
         ? content.texts.about.galeria.slide3.imgMobile.imgMobile3
         : content.texts.about.galeria.slide3.img.img3,
-      alt: content.texts.about.galeria.slide3.alt,
+      originalAlt: content.texts.about.galeria.slide3.alt,
     },
     {
       original: isMobile
         ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
         : content.texts.about.galeria.slide4.img.img4,
-      alt: content.texts.about.galeria.slide4.alt,
+      originalAlt: content.texts.about.galeria.slide4.alt,
     },
   ];
 
