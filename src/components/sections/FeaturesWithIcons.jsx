@@ -27,7 +27,7 @@ export default function FeaturesWithIcons({ colorMode }) {
   return (
     <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
       <SectionHeader
-        className={`text-center ${textClass}`}
+        className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={t("features.title")}
         sectionHeaderSubtitle={t("features.subtitle")}

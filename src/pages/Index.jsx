@@ -60,7 +60,7 @@ export default function Index() {
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
-        mesclado={false}
+        panoramica={false}
       />
 
       <Features
