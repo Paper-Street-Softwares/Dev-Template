@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
 
-    <!-- Preconnect para acelerar requisições críticas -->
+    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -24,7 +24,7 @@
       crossorigin
     />
 
-    <!-- Preload imagens do hero -->
+    <!-- Preload imagens críticas -->
     <link rel="preload" as="image" href="/assets/lawHeroMobile.webp" />
     <link rel="preload" as="image" href="/assets/lawHero.webp" />
 
@@ -152,6 +152,46 @@
 
     <!-- Meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS crítico inline -->
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background: #fff;
+      }
+      .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("/assets/lawHero.webp");
+        background-size: cover;
+        background-position: center;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 2rem;
+        color: #da191e;
+      }
+    </style>
+
+    <!-- CSS externo sem bloquear renderização -->
+    <link
+      rel="stylesheet"
+      href="/assets/index-pczwi-iG.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="/assets/index-pczwi-iG.css"
+    /></noscript>
   </head>
 
   <body>
@@ -159,6 +199,5 @@
 
     <!-- Script principal deferido -->
     <script type="module" src="/src/main.jsx" defer></script>
-    
   </body>
 </html>
