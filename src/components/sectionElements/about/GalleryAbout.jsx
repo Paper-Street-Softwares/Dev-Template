@@ -27,7 +27,7 @@ function GalleryAbout() {
     },
     {
       original: isMobile
-        ? content.texts.about.galeria.slide3.img.imgMobile.imgMobile3
+        ? content.texts.about.galeria.slide3.imgMobile.imgMobile3
         : content.texts.about.galeria.slide3.img.img3,
       alt: content.texts.about.galeria.slide3.alt,
     },
