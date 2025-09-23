@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./i18n"; // ← importa a configuração do idioma
+import content from "./content/content.jsx";
 
 import Index from "./pages/Index.jsx";
 import Lp01 from "./pages/Lp01.jsx";
@@ -18,15 +19,28 @@ import "./styles/backgrounds.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 import AboutInstagram from "./components/sections/AboutInstagram.jsx";
+import CartaoSocio from "./components/sections/CartaoSocio.jsx";
 
 // Altere aqui para "LP" ou "site"
 const mode = "LP"; // só muda isso e o resto se adapta
+
+// Função para normalizar o nome (remover acentos e espaços)
+function formatarNome(nome) {
+  return nome
+    ?.normalize("NFD") // separa acentos
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .replace(/\s+/g, "") // remove espaços
+    .trim();
+}
+const nome = content?.texts?.socios?.socio1?.nome || "";
+const rota = nome ? `/${formatarNome(nome)}` : null;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     {mode === "LP" ? (
       <Routes>
         <Route path="/" element={<Index mode={mode} />} />
+        <Route path="/:nome" element={<CartaoSocio />} />
         {/* <Route path="/" element={<Lp01 />} /> */}
         {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 

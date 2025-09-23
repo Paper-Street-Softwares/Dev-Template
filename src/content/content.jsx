@@ -946,6 +946,36 @@ const content = {
         },
       },
     },
+    socios: {
+      socio1: {
+        nome: "Felipe",
+        sobrenome: "",
+        telefone: "21972613067",
+        whatsapp: "000000000",
+        email: "",
+        social: {
+          instagram: "A_Definir",
+          facebook: "A_Definir",
+          linkeDin: "A_Definir",
+          x: "A_Definir",
+          tiktok: "A_Definir",
+        },
+      },
+      socio2: {
+        nome: "Eduardo",
+        sobrenome: "",
+        telefone: "21972613067",
+        whatsapp: "21972613067",
+        email: "",
+        social: {
+          instagram: "A_Definir",
+          facebook: "A_Definir",
+          linkeDin: "A_Definir",
+          x: "A_Definir",
+          tiktok: "A_Definir",
+        },
+      },
+    },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
