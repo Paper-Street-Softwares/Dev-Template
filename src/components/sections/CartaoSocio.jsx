@@ -115,38 +115,40 @@ function CartaoSocio() {
 
   return (
     <div className={`${bgColor} min-h-screen`}>
-      <div className={`pt-6 max-w-[320px] m-auto font-mainFont  ${textColor}`}>
+      <div
+        className={`pt-6 phone3:max-w-[320px] m-auto font-mainFont  ${textColor}`}
+      >
         {/* Botões principais */}
         <div className="flex justify-center gap-2">
           <SalvarContatoButton socio={socio} />
           <Button
             onClick={() => setVisible(true)}
-            className="border-[1px] rounded-[3px] p-1"
+            className="rounded-[3px] p-1"
             label="Compartilhar"
             size="small"
           ></Button>
         </div>
 
         <div className="p-[24px]">
-          {/* Imagem principal */}
-          <div className="max-w-[248px] m-auto">
+          {/* Logo e descrição */}
+          <div className="pt-[32px]">
             <img
-              src="https://framerusercontent.com/images/sDneavQmO6nNghSxaAImS72j4g8.webp?scale-down-to=512&width=720&height=526"
-              alt=""
-              className="rounded-md"
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
+              className=" phone3:max-w-[248px] rounded-[5px] m-auto"
             />
           </div>
 
-          {/* Logo e descrição */}
-          <div className="pt-[24px]">
-            <div>
+          <div className="pt-[50px]">
+            {/* Imagem principal */}
+            <div className="phone3:max-w-[248px] m-auto">
               <img
-                src={content.texts.navbar.logo.img}
-                alt={content.texts.navbar.logo.alt}
-                className="border-[1px] w-[200px] bg-black p-5 rounded-[5px] m-auto"
+                src={content.texts.socios.socio1.image}
+                alt=""
+                className="rounded-md"
               />
             </div>
-            <div className="w-[200px] m-auto text-center leading-5 py-[10px] flex flex-col gap-2">
+            <div className="w-[200px] m-auto text-center leading-5 py-[32px] flex flex-col gap-2">
               <h1 className="text-paragraph5 font-semibold font-mainFont">
                 {content.texts.socios.socio1.nome}{" "}
                 {content.texts.socios.socio1.sobrenome}
@@ -154,7 +156,7 @@ function CartaoSocio() {
               <h3>Função</h3>
             </div>
 
-            <div className="pt-[24px] w-[190px] m-auto">
+            <div className=" w-[70%] m-auto">
               <i>
                 <p
                   className={`m-auto text-paragraph3 text-center ${textSecondary}`}
@@ -165,9 +167,9 @@ function CartaoSocio() {
             </div>
 
             {/* Informações profissionais */}
-            <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
-              <h1 className=" text-[15px] font-bold text-center pb-[10px]">
-                Informações Profissionais
+            <div className={`w-[205px] m-auto py-[32px] ${textColor}`}>
+              <h1 className=" text-[15px] font-bold text-center pb-[16px]">
+                Contato:
               </h1>
               <div className="flex flex-wrap gap-2 h-[48px] w-[205px] px-2 justify-center">
                 <CartaoRedeSocial tipo="contato" socio={socio} />
@@ -180,9 +182,9 @@ function CartaoSocio() {
             </div>
 
             {/* Perfis profissionais */}
-            <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
-              <h1 className=" font-bold text-center pb-[10px]">
-                Perfis Profissionais
+            <div className={`w-[205px] m-auto ${textColor}`}>
+              <h1 className=" font-bold text-center pb-[16px]">
+                Redes Sociais:
               </h1>
               <div className="flex justify-around h-[48px]">
                 <CartaoRedeSocial tipo="social" socio={socio} />
