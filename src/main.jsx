@@ -20,6 +20,7 @@ import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
 import AboutInstagram from "./components/sections/AboutInstagram.jsx";
 import CartaoSocio from "./components/sections/CartaoSocio.jsx";
+import { ColorModeProvider } from "./assets/context/ColorModeContext.jsx";
 
 // Altere aqui para "LP" ou "site"
 const mode = "LP"; // só muda isso e o resto se adapta
@@ -36,59 +37,62 @@ const socioNome = content?.texts?.socios?.socio1?.nome || "";
 const socioRota = socioNome ? formatarNome(socioNome) : "";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Router>
-    {mode === "LP" ? (
-      <Routes>
-        <Route path="/" element={<Index mode={mode} />} />
-        <Route path="/:nome" element={<CartaoSocio />} />
-        {/* <Route path="/" element={<Lp01 />} /> */}
-        {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
+  <ColorModeProvider>
+    {" "}
+    <Router>
+      {mode === "LP" ? (
+        <Routes>
+          <Route path="/" element={<Index mode={mode} />} />
+          <Route path="/:nome" element={<CartaoSocio />} />
+          {/* <Route path="/" element={<Lp01 />} /> */}
+          {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 
-        {/* <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} /> */}
-      </Routes>
-    ) : (
-      <Routes>
-        <Route path="/" element={<SiteLayout mode={mode} />} />
-        <Route path="home" element={<SiteLayout mode={mode} />} />
-        <Route
-          path="/service"
-          element={
-            <SiteLayout
-              mode={mode}
-              section={<Features defaultFeature={true} />}
-            />
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <SiteLayout
-              mode={mode}
-              section={
-                <>
-                  <About />
-                  <AboutInstagram instagram={true} />
-                </>
-              }
-            />
-          }
-        />
+          {/* <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} /> */}
+        </Routes>
+      ) : (
+        <Routes>
+          <Route path="/" element={<SiteLayout mode={mode} />} />
+          <Route path="home" element={<SiteLayout mode={mode} />} />
+          <Route
+            path="/service"
+            element={
+              <SiteLayout
+                mode={mode}
+                section={<Features defaultFeature={true} />}
+              />
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <SiteLayout
+                mode={mode}
+                section={
+                  <>
+                    <About />
+                    <AboutInstagram instagram={true} />
+                  </>
+                }
+              />
+            }
+          />
 
-        <Route
-          path="/blog"
-          element={<SiteLayout mode={mode} section={<BlogPosts />} />}
-        />
+          <Route
+            path="/blog"
+            element={<SiteLayout mode={mode} section={<BlogPosts />} />}
+          />
 
-        <Route
-          path="/faq"
-          element={<SiteLayout mode={mode} section={<Faq />} />}
-        />
+          <Route
+            path="/faq"
+            element={<SiteLayout mode={mode} section={<Faq />} />}
+          />
 
-        <Route
-          path="/maps"
-          element={<SiteLayout mode={mode} section={<Maps />} />}
-        />
-      </Routes>
-    )}
-  </Router>
+          <Route
+            path="/maps"
+            element={<SiteLayout mode={mode} section={<Maps />} />}
+          />
+        </Routes>
+      )}
+    </Router>
+  </ColorModeProvider>
 );

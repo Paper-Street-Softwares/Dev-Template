@@ -951,8 +951,8 @@ const content = {
         nome: "Gabriel",
         rota: "Gabriel",
         sobrenome: "",
-        telefone: "21972613067",
-        whatsapp: "21972613067",
+        telefone: "00000000000",
+        whatsapp: "00000000000",
         email: "",
         social: {
           instagram: "",
@@ -966,8 +966,8 @@ const content = {
         nome: "Biell",
         rota: "Biell",
         sobrenome: "",
-        telefone: "00000000000",
-        whatsapp: "00000000000",
+        telefone: "11111111111",
+        whatsapp: "11111111111",
         email: "",
         social: {
           instagram: "",
@@ -977,12 +977,12 @@ const content = {
           tiktok: "",
         },
       },
-      socio4: {
+      socio3: {
         nome: "Edison",
         rota: "Edison",
         sobrenome: "",
-        telefone: "66666666666",
-        whatsapp: "66666666666",
+        telefone: "22222222222",
+        whatsapp: "22222222222",
         email: "",
         social: {
           instagram: "",
