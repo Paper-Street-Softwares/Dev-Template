@@ -15,13 +15,12 @@ import { useTranslation } from "react-i18next";
 import "./../i18n";
 import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
-import CartaoSocio from "../components/sections/CartaoSocio";
+import { useColorMode } from "../assets/context/ColorModeContext";
 
 export default function Index() {
   const showUnderConstruction = false;
 
-  // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const { colorMode, setColorMode } = useColorMode();
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {

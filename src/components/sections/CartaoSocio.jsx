@@ -5,6 +5,8 @@ import { X } from "lucide-react";
 import content from "../../content/content";
 import SalvarContatoButton from "../interactives/Cartao/SalvarContato";
 import CartaoRedeSocial from "../interactives/Cartao/CartaoRedeSocial";
+import Button from "../interactives/Button";
+import { useColorMode } from "../../assets/context/ColorModeContext";
 
 function CartaoSocio() {
   const { nome } = useParams(); // pega a rota
@@ -31,8 +33,8 @@ function CartaoSocio() {
   // Conteúdo do modal de compartilhamento
   const modalTitle = "Compartilhar";
   const modalContent = (
-    <div className="flex flex-col gap-4">
-      <div className="flex gap-3">
+    <div className="flex flex-col gap-4 font-mainFont">
+      <div className="flex flex-wrap gap-3">
         <a
           href={`https://wa.me/?text=${encodeURIComponent(url)}`}
           target="_blank"
@@ -67,7 +69,7 @@ function CartaoSocio() {
         Copie o link e cole em qualquer lugar que você queira compartilhá-lo:
       </p>
 
-      <div className="flex gap-2 items-center">
+      <div className="flex flex-wrap gap-2 items-center">
         <input
           type="text"
           value={url}
@@ -84,17 +86,46 @@ function CartaoSocio() {
     </div>
   );
 
+  const { colorMode } = useColorMode(); // pega do contexto
+
+  let textColor = "";
+  let textSecondary = "";
+  let bgColor = "";
+  let borderColor = "";
+
+  switch (colorMode) {
+    case "dark":
+      textColor = "text-white";
+      textSecondary = "text-white/60";
+      bgColor = "bg-bgFixedDark";
+      borderColor = "border-gray-700";
+      break;
+    case "light":
+      textColor = "text-black";
+      textSecondary = "";
+      bgColor = "bg-bgFixedLight";
+      borderColor = "border-gray-300";
+      break;
+    default:
+      textColor = "text-white";
+      textSecondary = "text-white/60";
+      bgColor = "bg-bgSectionDark";
+      borderColor = "border-gray-700";
+  }
+
   return (
-    <div className="pt-6 max-w-[320px] m-auto font-mainFont">
+    <div
+      className={`pt-6 max-w-[320px] m-auto font-mainFont ${bgColor} ${textColor}`}
+    >
       {/* Botões principais */}
       <div className="flex justify-center gap-2">
         <SalvarContatoButton socio={socio} />
-        <button
+        <Button
           onClick={() => setVisible(true)}
           className="border-[1px] rounded-[3px] p-1"
-        >
-          Compartilhar
-        </button>
+          label="Compartilhar"
+          size="small"
+        ></Button>
       </div>
 
       <div className="p-[24px]">
@@ -103,6 +134,7 @@ function CartaoSocio() {
           <img
             src="https://framerusercontent.com/images/sDneavQmO6nNghSxaAImS72j4g8.webp?scale-down-to=512&width=720&height=526"
             alt=""
+            className="rounded-md"
           />
         </div>
 
@@ -116,13 +148,15 @@ function CartaoSocio() {
             />
           </div>
           <div className="w-[200px] m-auto text-center leading-5 py-[10px]">
-            <h1 className="text-paragraph5 font-semibold">
+            <h1 className="text-paragraph5 font-semibold font-mainFont">
               Degustatto Sabores Artesanais
             </h1>
           </div>
           <div className="pt-[24px] w-[190px] m-auto">
             <i>
-              <p className="text-black/30 m-auto text-paragraph3 text-center">
+              <p
+                className={`m-auto text-paragraph3 text-center ${textSecondary}`}
+              >
                 Reiventamos sabores para compor a sua mesa, seja num delicioso
                 café da manhã ou até mesmo numa inusitada noite de vinhos.
                 Deguste incríveis geléias e conservas produzidas artesanalmente,
@@ -132,33 +166,33 @@ function CartaoSocio() {
           </div>
 
           {/* Informações profissionais */}
-          <div className="w-[205px] m-auto pt-[24px]">
-            <h1 className="text-black/30 text-[15px] font-bold text-center pb-[10px]">
+          <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
+            <h1 className=" text-[15px] font-bold text-center pb-[10px]">
               Informações Profissionais
             </h1>
             <div className="flex flex-wrap gap-2 h-[48px] w-[205px] px-2 justify-center">
               <CartaoRedeSocial tipo="contato" socio={socio} />
             </div>
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">
                 Ver como texto
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Perfis profissionais */}
-          <div className="w-[205px] m-auto pt-[24px]">
-            <h1 className="text-black/30 font-bold text-center pb-[10px]">
+          <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
+            <h1 className=" font-bold text-center pb-[10px]">
               Perfis Profissionais
             </h1>
             <div className="flex justify-around h-[48px]">
               <CartaoRedeSocial tipo="social" socio={socio} />
             </div>
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">
                 Ver como texto
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

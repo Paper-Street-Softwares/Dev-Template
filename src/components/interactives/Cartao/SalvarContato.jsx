@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../interactives/Button";
 
 export default function SalvarContatoButton({ socio }) {
   const handleSalvarContato = () => {
@@ -38,11 +39,11 @@ export default function SalvarContatoButton({ socio }) {
   };
 
   return (
-    <button
+    <Button
       className="border-[1px] rounded-[3px] p-1"
       onClick={handleSalvarContato}
-    >
-      Salvar Contato
-    </button>
+      label=" Salvar Contato"
+      size="small"
+    ></Button>
   );
 }
