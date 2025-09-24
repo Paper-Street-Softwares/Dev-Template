@@ -32,7 +32,7 @@ export default function Maps({ colorMode }) {
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
-            className="text-center"
+            className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             miniTitle={t("maps.minitag")}
             sectionHeaderTitle={t("maps.title")}
             sectionHeaderSubtitle={t("maps.subtitle")}

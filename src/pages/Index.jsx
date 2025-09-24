@@ -15,6 +15,7 @@ import { useTranslation } from "react-i18next";
 import "./../i18n";
 import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
+import CartaoSocio from "../components/sections/CartaoSocio";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -59,24 +60,23 @@ export default function Index() {
         colorMode={colorMode}
         appDownloadButtons={false}
         defaultHero={true}
-        influencer={true}
-        panoramica={true}
+        influencer={false}
+        panoramica={false}
       />
+      {/* <CartaoSocio /> */}
 
       <Features
         colorMode={colorMode}
         defaultFeature={true}
-        button={true}
-        modalWithCards={true}
-        paragraphs={true}
-        sixCards={true}
-        paragraphsModal={true}
+        button={false}
+        modalWithCards={false}
+        paragraphs={false}
+        sixCards={false}
+        paragraphsModal={false}
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <About modal={true} showGallery={true} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
-      <AboutInstagram colorMode={colorMode} socialPrint={true} />
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
