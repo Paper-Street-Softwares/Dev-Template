@@ -32,8 +32,8 @@ function formatarNome(nome) {
     .replace(/\s+/g, "") // remove espaços
     .trim();
 }
-const nome = content?.texts?.socios?.socio1?.nome || "";
-const rota = nome ? `/${formatarNome(nome)}` : null;
+const socioNome = content?.texts?.socios?.socio1?.nome || "";
+const socioRota = socioNome ? formatarNome(socioNome) : "";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>

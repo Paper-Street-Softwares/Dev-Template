@@ -12,9 +12,10 @@ function CartaoSocio() {
   const [copied, setCopied] = useState(false);
 
   // Busca o sócio no conteúdo
-  const socioKey = Object.keys(content.texts.socios).find(
-    (key) => content.texts.socios[key].nome.toLowerCase() === nome.toLowerCase()
-  );
+  const socioKey = Object.keys(content.texts.socios).find((key) => {
+    const socioNome = content.texts.socios[key]?.nome;
+    return socioNome?.toLowerCase() === nome?.toLowerCase();
+  });
 
   if (!socioKey) return <div>Sócio não encontrado</div>;
 
@@ -136,7 +137,7 @@ function CartaoSocio() {
               Informações Profissionais
             </h1>
             <div className="flex flex-wrap gap-2 h-[48px] w-[205px] px-2 justify-center">
-              <CartaoRedeSocial tipo="contato" />
+              <CartaoRedeSocial tipo="contato" socio={socio} />
             </div>
             <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">
@@ -151,7 +152,7 @@ function CartaoSocio() {
               Perfis Profissionais
             </h1>
             <div className="flex justify-around h-[48px]">
-              <CartaoRedeSocial tipo="social" />
+              <CartaoRedeSocial tipo="social" socio={socio} />
             </div>
             <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">

@@ -2,6 +2,7 @@ import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import IconButtonCartao from "../IconButtonCartao";
 import content from "../../../content/content";
+import { useParams } from "react-router-dom";
 
 const icons = {
   whatsapp: (
@@ -80,7 +81,7 @@ const icons = {
       <path d="m 16.998462,0 h 3.308 l -7.227,8.26 8.502,11.24 h -6.657 l -5.2139994,-6.817 -5.966,6.817 H 0.43446256 L 8.1644626,10.665 0.00846256,0 H 6.8344626 l 4.7129994,6.231 z m -1.161,17.52 h 1.833 L 5.8384626,1.876 h -1.967 z" />
     </svg>
   ),
-  linkeDin: (
+  linkedin: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20"
@@ -100,50 +101,68 @@ const icons = {
   ),
 };
 
-function CartaoRedeSocial({ tipo = "contato" }) {
-  const socio = content?.texts?.socios?.socio1 || {};
-  const social = socio.social || {};
+function CartaoRedeSocial({ tipo = "contato", socio }) {
+  if (!socio) return null;
 
   const contatoLinks = {
-    whatsapp: socio.whatsapp,
-    telefone: socio.telefone,
+    whatsapp: socio.whatsapp || null,
+    telefone: socio.telefone || null,
   };
 
-  const redesLinks = { ...social };
+  const redesLinks = {
+    instagram: socio.social?.instagram || null,
+    facebook: socio.social?.facebook || null,
+    tiktok: socio.social?.tiktok || null,
+    x: socio.social?.x || null,
+    linkedin: socio.social?.linkedin || null,
+  };
 
   const links = tipo === "contato" ? contatoLinks : redesLinks;
 
-  const renderIcons = () =>
-    Object.entries(links).map(([key, value]) => {
-      if (!value) return null;
+  const linksToRender = Object.entries(links).filter(
+    ([_, value]) => value && value.trim() !== ""
+  );
 
-      let link = value;
-      if (key === "instagram")
-        link = `https://instagram.com/${value.replace("@", "")}`;
-      if (key === "whatsapp")
-        link = `https://wa.me/${value.replace(/\D/g, "")}`;
-      if (key === "telefone") link = `tel:${value}`;
-      if (key === "facebook") link = `https://www.facebook.com/${value}`;
-      if (key === "linkeDin") link = `https://www.linkedin.com/in/${value}`;
+  return (
+    <div className="flex gap-2">
+      {linksToRender.map(([key, value]) => {
+        let link = value;
+        switch (key) {
+          case "instagram":
+            link = `https://instagram.com/${value.replace("@", "")}`;
+            break;
+          case "whatsapp":
+            link = `https://wa.me/${value.replace(/\D/g, "")}`;
+            break;
+          case "telefone":
+            link = `tel:${value}`;
+            break;
+          case "facebook":
+            link = `https://www.facebook.com/${value}`;
+            break;
+          case "linkedin":
+            link = `https://www.linkedin.com/in/${value}`;
+            break;
+        }
 
-      const svg = icons[key];
-      if (!svg) return null;
+        const svg = icons[key];
+        if (!svg) return null;
 
-      return (
-        <MotionDivDownToUp key={key}>
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Link para ${key}`}
-          >
-            <IconButtonCartao ariaLabel={`Botão para ${key}`} icon={svg} />
-          </a>
-        </MotionDivDownToUp>
-      );
-    });
-
-  return <div className="flex gap-2">{renderIcons()}</div>;
+        return (
+          <MotionDivDownToUp key={key}>
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Link para ${key}`}
+            >
+              <IconButtonCartao ariaLabel={`Botão para ${key}`} icon={svg} />
+            </a>
+          </MotionDivDownToUp>
+        );
+      })}
+    </div>
+  );
 }
 
 export default CartaoRedeSocial;
