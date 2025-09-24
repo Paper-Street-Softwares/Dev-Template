@@ -114,101 +114,103 @@ function CartaoSocio() {
   }
 
   return (
-    <div
-      className={`pt-6 max-w-[320px] m-auto font-mainFont ${bgColor} ${textColor}`}
-    >
-      {/* Botões principais */}
-      <div className="flex justify-center gap-2">
-        <SalvarContatoButton socio={socio} />
-        <Button
-          onClick={() => setVisible(true)}
-          className="border-[1px] rounded-[3px] p-1"
-          label="Compartilhar"
-          size="small"
-        ></Button>
-      </div>
-
-      <div className="p-[24px]">
-        {/* Imagem principal */}
-        <div className="max-w-[248px] m-auto">
-          <img
-            src="https://framerusercontent.com/images/sDneavQmO6nNghSxaAImS72j4g8.webp?scale-down-to=512&width=720&height=526"
-            alt=""
-            className="rounded-md"
-          />
+    <div className={`${bgColor} min-h-screen`}>
+      <div
+        className={`pt-6 phone3:max-w-[320px] m-auto font-mainFont  ${textColor}`}
+      >
+        {/* Botões principais */}
+        <div className="flex justify-center gap-2">
+          <SalvarContatoButton socio={socio} />
+          <Button
+            onClick={() => setVisible(true)}
+            className="rounded-[3px] p-1"
+            label="Compartilhar"
+            size="small"
+          ></Button>
         </div>
 
-        {/* Logo e descrição */}
-        <div className="pt-[24px]">
-          <div>
+        <div className="p-[24px]">
+          {/* Logo e descrição */}
+          <div className="pt-[32px]">
             <img
-              src="https://dev-site-paper.vercel.app/assets/logo-CbJtwANr.webp"
-              alt=""
-              className="border-[1px] w-[200px] bg-black p-5 rounded-[5px] m-auto"
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
+              className=" phone3:max-w-[248px] rounded-[5px] m-auto"
             />
           </div>
-          <div className="w-[200px] m-auto text-center leading-5 py-[10px]">
-            <h1 className="text-paragraph5 font-semibold font-mainFont">
-              Degustatto Sabores Artesanais
-            </h1>
-          </div>
-          <div className="pt-[24px] w-[190px] m-auto">
-            <i>
-              <p
-                className={`m-auto text-paragraph3 text-center ${textSecondary}`}
-              >
-                Reiventamos sabores para compor a sua mesa, seja num delicioso
-                café da manhã ou até mesmo numa inusitada noite de vinhos.
-                Deguste incríveis geléias e conservas produzidas artesanalmente,
-                com muito afeto e carinho.
-              </p>
-            </i>
-          </div>
 
-          {/* Informações profissionais */}
-          <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
-            <h1 className=" text-[15px] font-bold text-center pb-[10px]">
-              Informações Profissionais
-            </h1>
-            <div className="flex flex-wrap gap-2 h-[48px] w-[205px] px-2 justify-center">
-              <CartaoRedeSocial tipo="contato" socio={socio} />
+          <div className="pt-[50px]">
+            {/* Imagem principal */}
+            <div className="phone3:max-w-[248px] m-auto">
+              <img
+                src={content.texts.socios.socio1.image}
+                alt=""
+                className="rounded-md"
+              />
             </div>
-            {/* <div className="flex justify-center">
+            <div className="w-[200px] m-auto text-center leading-5 py-[32px] flex flex-col gap-2">
+              <h1 className="text-paragraph5 font-semibold font-mainFont">
+                {content.texts.socios.socio1.nome}{" "}
+                {content.texts.socios.socio1.sobrenome}
+              </h1>
+              <h3>Função</h3>
+            </div>
+
+            <div className=" w-[70%] m-auto">
+              <i>
+                <p
+                  className={`m-auto text-paragraph3 text-center ${textSecondary}`}
+                >
+                  {content.texts.socios.socio1.description}
+                </p>
+              </i>
+            </div>
+
+            {/* Informações profissionais */}
+            <div className={`w-[205px] m-auto py-[32px] ${textColor}`}>
+              <h1 className=" text-[15px] font-bold text-center pb-[16px]">
+                Contato:
+              </h1>
+              <div className="flex flex-wrap gap-2 h-[48px] w-[205px] px-2 justify-center">
+                <CartaoRedeSocial tipo="contato" socio={socio} />
+              </div>
+              {/* <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">
                 Ver como texto
               </button>
             </div> */}
-          </div>
-
-          {/* Perfis profissionais */}
-          <div className={`w-[205px] m-auto pt-[24px] ${textColor}`}>
-            <h1 className=" font-bold text-center pb-[10px]">
-              Perfis Profissionais
-            </h1>
-            <div className="flex justify-around h-[48px]">
-              <CartaoRedeSocial tipo="social" socio={socio} />
             </div>
-            {/* <div className="flex justify-center">
+
+            {/* Perfis profissionais */}
+            <div className={`w-[205px] m-auto ${textColor}`}>
+              <h1 className=" font-bold text-center pb-[16px]">
+                Redes Sociais:
+              </h1>
+              <div className="flex justify-around h-[48px]">
+                <CartaoRedeSocial tipo="social" socio={socio} />
+              </div>
+              {/* <div className="flex justify-center">
               <button className="border-[1px] text-paragraph2 rounded-[3px] py-[3.2px] px-[9.6px]">
                 Ver como texto
               </button>
             </div> */}
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Modal de compartilhamento */}
-      <Dialog
-        className="font-secondFont"
-        closeIcon={<X size={20} />}
-        header={modalTitle}
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
-      >
-        {modalContent}
-      </Dialog>
+        {/* Modal de compartilhamento */}
+        <Dialog
+          className="font-secondFont"
+          closeIcon={<X size={20} />}
+          header={modalTitle}
+          visible={visible}
+          onHide={() => setVisible(false)}
+          style={{ width: "50vw" }}
+          breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
+        >
+          {modalContent}
+        </Dialog>
+      </div>
     </div>
   );
 }

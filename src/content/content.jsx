@@ -57,6 +57,8 @@ import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
 import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
 
+import socio1img from "../assets/imgs/team/team5.webp";
+
 const currentYear = new Date().getFullYear();
 
 export const infos = {
@@ -104,8 +106,8 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "ronaldo.adv2000", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  facebookProfile: "61568378580930",
+  linkeDinProfile: "gabriel-souza-b9945929a/",
   x: "A_Definir",
   tiktokProfile: "A_Definir",
 
@@ -948,11 +950,12 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "Gabriel",
-        rota: "Gabriel",
-        sobrenome: "",
+        nome: "Edison",
+        rota: "Edison",
+        sobrenome: "Sobrenome",
         telefone: "00000000000",
         whatsapp: "00000000000",
+        site: "00000000000",
         email: "",
         social: {
           instagram: "",
@@ -961,6 +964,9 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+        image: socio1img,
       },
       socio2: {
         nome: "Biell",
@@ -968,6 +974,7 @@ const content = {
         sobrenome: "",
         telefone: "11111111111",
         whatsapp: "11111111111",
+        site: "",
         email: "",
         social: {
           instagram: "",
@@ -976,13 +983,15 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description: "A_Definir",
       },
       socio3: {
-        nome: "Edison",
-        rota: "Edison",
+        nome: "teste",
+        rota: "teste",
         sobrenome: "",
         telefone: "22222222222",
         whatsapp: "22222222222",
+        site: "",
         email: "",
         social: {
           instagram: "",
@@ -991,6 +1000,7 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description: "A_Definir",
       },
     },
     links: {
