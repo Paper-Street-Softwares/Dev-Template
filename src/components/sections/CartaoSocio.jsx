@@ -17,7 +17,7 @@ function CartaoSocio() {
     return socioNome?.toLowerCase() === nome?.toLowerCase();
   });
 
-  if (!socioKey) return <div>Sócio não encontrado</div>;
+  if (!socioKey) return <div>Página não localizada</div>;
 
   const socio = content.texts.socios[socioKey];
   const url = `${window.location.origin}/${nome.toLowerCase()}`;

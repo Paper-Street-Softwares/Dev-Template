@@ -955,16 +955,16 @@ const content = {
         whatsapp: "21972613067",
         email: "",
         social: {
-          instagram: "@",
+          instagram: "",
           facebook: "",
-          linkedin: "gabriel-souza-b9945929a",
+          linkedin: "",
           x: "",
           tiktok: "",
         },
       },
       socio2: {
-        nome: "Luara",
-        rota: "Luara",
+        nome: "Biell",
+        rota: "Biell",
         sobrenome: "",
         telefone: "00000000000",
         whatsapp: "00000000000",
@@ -977,12 +977,12 @@ const content = {
           tiktok: "",
         },
       },
-      socio2: {
-        nome: "Diego",
-        rota: "Diego",
+      socio4: {
+        nome: "Edison",
+        rota: "Edison",
         sobrenome: "",
-        telefone: "11111111111",
-        whatsapp: "11111111111",
+        telefone: "66666666666",
+        whatsapp: "66666666666",
         email: "",
         social: {
           instagram: "",
