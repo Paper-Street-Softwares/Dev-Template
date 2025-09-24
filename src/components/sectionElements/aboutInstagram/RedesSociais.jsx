@@ -2,25 +2,18 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
-import content from "../../../content/content";
+import { infos } from "../../../content/content";
 
-const RedesSociais = ({
-  facebook,
-  instagram,
-  linkedin,
-  tiktok,
-  x,
-  withAnimation = true,
-}) => {
+const RedesSociais = ({ withAnimation = true }) => {
   const { t } = useTranslation();
   const icons = [];
 
-  if (facebook) {
+  if (infos.facebookProfile && infos.facebookProfile !== "A_Definir") {
     icons.push(
       <Button
         key="facebook"
         label={t("about.aboutSocial.labelFacebook")}
-        buttonLink={content.texts.links.facebook}
+        buttonLink={`https://www.facebook.com/${infos.facebookProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,12 +34,12 @@ const RedesSociais = ({
     );
   }
 
-  if (instagram) {
+  if (infos.instagramProfile && infos.instagramProfile !== "A_Definir") {
     icons.push(
       <Button
         key="instagram"
         label={t("about.aboutSocial.labelInstagram")}
-        buttonLink={content.texts.links.instagram}
+        buttonLink={`https://www.instagram.com/${infos.instagramProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -69,12 +62,12 @@ const RedesSociais = ({
     );
   }
 
-  if (linkedin) {
+  if (infos.linkeDinProfile && infos.linkeDinProfile !== "A_Definir") {
     icons.push(
       <Button
         key="linkedin"
         label={t("about.aboutSocial.labelLinkedin")}
-        buttonLink={content.texts.links.linkedin}
+        buttonLink={`https://www.linkedin.com/in/${infos.linkeDinProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -97,12 +90,12 @@ const RedesSociais = ({
     );
   }
 
-  if (tiktok) {
+  if (infos.tiktokProfile && infos.tiktokProfile !== "A_Definir") {
     icons.push(
       <Button
         key="tiktok"
         label={t("about.aboutSocial.labelTikTok")}
-        buttonLink={content.texts.links.tiktokProfile}
+        buttonLink={`https://www.tiktok.com/@${infos.tiktokProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -118,12 +111,12 @@ const RedesSociais = ({
     );
   }
 
-  if (x) {
+  if (infos.x && infos.x !== "A_Definir") {
     icons.push(
       <Button
         key="x"
         label={t("about.aboutSocial.labelX")}
-        buttonLink={content.texts.links.x}
+        buttonLink={`https://twitter.com/${infos.x}`}
         icon={
           <svg
             viewBox="0 0 21.573 19.5"

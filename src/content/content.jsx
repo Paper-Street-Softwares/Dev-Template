@@ -104,8 +104,8 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "ronaldo.adv2000", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  facebookProfile: "61568378580930",
+  linkeDinProfile: "gabriel-souza-b9945929a/",
   x: "A_Definir",
   tiktokProfile: "A_Definir",
 
@@ -950,7 +950,7 @@ const content = {
       socio1: {
         nome: "Gabriel",
         rota: "Gabriel",
-        sobrenome: "",
+        sobrenome: "Sobrenome",
         telefone: "00000000000",
         whatsapp: "00000000000",
         email: "",
@@ -961,6 +961,7 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description: "A_Definir",
       },
       socio2: {
         nome: "Biell",
@@ -976,6 +977,7 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description: "A_Definir",
       },
       socio3: {
         nome: "Edison",
@@ -991,6 +993,7 @@ const content = {
           x: "",
           tiktok: "",
         },
+        description: "A_Definir",
       },
     },
     links: {
