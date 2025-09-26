@@ -46,7 +46,7 @@ export default function FeaturesButton({ colorMode }) {
         className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`}
       >
         <SectionHeader
-          className={`text-center ${textClass}`}
+          className={`text-center ${textClass} mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]`}
           miniTitle={t("features.miniTag")}
           sectionHeaderTitle={t("features.title")}
           sectionHeaderSubtitle={t("features.subtitle")}
