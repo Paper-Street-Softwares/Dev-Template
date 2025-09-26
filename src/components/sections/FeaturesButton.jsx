@@ -9,6 +9,7 @@ import ServiceDetailCard from "../cards/ServiceDetailCard";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
+import FeatureImgOnBgCard from "../cards/FeaturesOnBgCard";
 
 export default function FeaturesButton({ colorMode }) {
   const { t } = useTranslation();
@@ -59,7 +60,7 @@ export default function FeaturesButton({ colorMode }) {
             {cardNumbers.map((i) => {
               const card = content.texts.features[`card${i}`];
               return (
-                <FeatureImgOnBgCardButton
+                <FeatureImgOnBgCard
                   key={i}
                   bgImg={card.img}
                   title={t(`features.card${i}.title`)}
