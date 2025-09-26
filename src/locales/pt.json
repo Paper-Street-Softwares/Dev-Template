@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Arandu, nº 205, <br/> Cj 1005, Itaim Bibi, <br/> São Paulo - SP,  <br/> CEP: 04562-030",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "NUTRIÇÃO ACESSÍVEL PARA TODOS",
-    "title": "Nutrição que transforma sua rotina",
-    "subtitle": "Descubra como escolhas simples no prato podem mudar sua saúde, energia e bem-estar diário.",
-    "ctaButtonText": "Quero começar agora",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento presencial e também online para todo Brasil."
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "A_Definir",
-    "title": "Nossas especialidades",
-    "subtitle": "Conheça as áreas de atuação da Dra. Fabi",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Nutrição Funcional",
-      "subtitle": "Alimentação equilibrada para saúde integral.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Atendimento para Gestantes",
-      "subtitle": "Cuidado nutricional em cada fase da gestação.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Emagrecimento",
-      "subtitle": "Estratégias saudáveis para perder peso com leveza.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Longevidade",
-      "subtitle": "Nutrição que promove vitalidade e mais anos de vida.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -75,9 +74,9 @@
     }
   },
   "maps": {
-    "minitag": "LOCALIZAÇÃO",
-    "title": "Encontre-nos em São Paulo - SP",
-    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "minitag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "embedsrc": "A_Definir"
   },
   "about": {
@@ -85,10 +84,10 @@
       "alt": "imagem about"
     },
     "miniTag": "A_Definir",
-    "title": "Minha trajetória",
-    "subtitle": "Da experiência pessoal à missão de transformar vidas por meio da nutrição.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Sempre tive uma conexão natural com a área da saúde e o cuidado com as pessoas. Mas foi na maternidade que esse caminho ganhou um sentido profundo. O diagnóstico do meu filho com deficiência de G6PD transformou minha relação com a nutrição e me mostrou que escolhas alimentares podem ser um ato de prevenção e de vida. <br/><br/> A partir desse momento, iniciei minha jornada em busca de conhecimento científico sólido, mas que também fosse aplicável no dia a dia. Tive experiências no SUS, em clínicas privadas e em projetos comunitários, vivências que ampliaram meu olhar e consolidaram meu propósito de oferecer um cuidado humano, integrativo e personalizado. <br/><br/> Hoje, minha atuação se conecta, em especial, com mulheres entre 25 e 55 anos que buscam equilíbrio hormonal, melhora de saúde e qualidade de vida. Atendo pessoas que enfrentam os desafios do estilo de vida moderno ou que simplesmente desejam se alimentar com mais prazer e consciência. Minha missão é tornar a nutrição uma ferramenta acessível e transformadora para todos.",
+    "paragraph": "A_Definir",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
@@ -102,43 +101,36 @@
       "labelX": "Siga-me no X"
     }
   },
-  "news": {
-    "miniTag": "ARTIGOS E NOTÍCIAS",
-    "title": "Alimentação consciente: mais saúde no dia a dia",
-    "subtitle": "Pequenas mudanças nos hábitos alimentares podem transformar sua rotina.",
-    "description": "Cuidar da alimentação vai além de estética: é um caminho para prevenir doenças, equilibrar hormônios e viver com mais energia. A nutrição funcional mostra como escolhas simples e práticas podem impactar diretamente na qualidade de vida. No blog, compartilho orientações, novidades e conteúdos atualizados sobre saúde, nutrição e bem-estar para ajudar você a se alimentar com prazer e consciência."
-  },
   "ctaSecondary": {
-    "minitag": "FALE COMIGO",
-    "title": "<span class=\"text-primary font-bold\">Quer cuidar da sua saúde com mais leveza?</span> Estou aqui para ajudar você!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
   },
   "steps": {
     "miniTag": "PASSO A PASSO",
-    "title": "Como funciona o atendimento nutricional?",
+    "title": "Como funciona nosso atendimento?",
     "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Conversa acolhedora para entender sua história, hábitos, rotina, objetivos e eventuais sintomas ou limitações."
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Análise de exames (quando houver), avaliação antropométrica e levantamento dos padrões alimentares para mapear prioridades."
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração do plano",
-        "cardDescription": "Criação de um plano nutricional personalizado e prático, com metas realistas, sugestões de refeições e orientações aplicáveis ao seu dia a dia."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Implementação e acompanhamento",
-        "cardDescription": "Acompanhamentos regulares para ajustar o plano, tirar dúvidas, monitorar resultados e promover autonomia alimentar."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -156,20 +148,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso agendar uma consulta?",
-        "answer": "O agendamento pode ser feito de forma prática pelo WhatsApp. Lá combinamos o melhor dia e horário para você."
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "O atendimento é presencial ou online?",
-        "answer": "Ofereço atendimentos presenciais e também online, para que você escolha a opção mais confortável e acessível para sua rotina."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Preciso levar exames para a primeira consulta?",
-        "answer": "Se você tiver exames recentes, é importante trazê-los. Caso não tenha, podemos avaliar a necessidade de solicitar alguns após a primeira consulta."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Após a consulta, recebo um plano alimentar personalizado?",
-        "answer": "Sim! Todo atendimento resulta em um plano alimentar individualizado, adaptado à sua rotina, preferências e objetivos."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

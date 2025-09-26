@@ -5,17 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#333929",
-      buttonColor: "#333929",
-      minititleDark: "#333929", //bg minitag de seções claras
-      minititle: "#333929", //bg minitag de seções escuras
+      primary: "#058cd7",
+      buttonColor: "#058cd7",
+      minititleDark: "#058cd7", //bg minitag de seções claras
+      minititle: "#058cd7", //bg minitag de seções escuras
 
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#F6F6F6",
+      bgSectionDark: "#990000",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -53,10 +53,9 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      // mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      mainFont: ["Keep Calm", "sans-serif"],
-      secondFont: ["Open Sans", "sans-serif"],
+      secondFont: ["Merriweather", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },

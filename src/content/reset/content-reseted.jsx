@@ -1,18 +1,17 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.webp";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.png";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-// import imgAbout1 from "../assets/imgs/about/aboutImg1.webp";
-// import imgAbout2 from "../assets/imgs/about/aboutImg2.webp";
-// import imgAbout3 from "../assets/imgs/about/aboutImg3.webp";
-// import imgAbout4 from "../assets/imgs/about/aboutImg4.webp";
-// import imgAbout5 from "../assets/imgs/about/aboutImg5.webp";
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
+import img1 from "../assets/imgs/about/imgGaleria1.webp";
+import img2 from "../assets/imgs/about/imgGaleria2.webp";
+import img3 from "../assets/imgs/about/imgGaleria3.webp";
+import img4 from "../assets/imgs/about/imgGaleria4.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
@@ -27,6 +26,8 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
+
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
@@ -46,6 +47,19 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import imgNews1 from "../assets/imgs/news/imgNews1.webp";
+
+// versão mobile
+import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
+import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
+import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
+import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
+import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
+import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
+import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
+import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
+import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
+import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -93,11 +107,11 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
-  tiktokProfile: "A_Definir",
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -144,6 +158,8 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
+      heroDefaultImageMobile: heroDefaultImgMobile,
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -278,7 +294,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg3,
+        img: featuresImg4,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -395,12 +411,14 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.98033254231933!2d-46.6933381!3d-23.6099751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cbbcc489d7%3A0xc7f10feaf018ce35!2sRua%20Arandu%2C%20205%20-%20Conjunto%201005%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004562-030!5e0!3m2!1spt-BR!2sbr!4v1758897111607!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
-        img: aboutImg1,
-        alt: "Imagem profissional de escritório/advogado(a)",
+        img: aboutImg,
+        alt: "Imagem ilustrativa da Seção Sobre",
+        imagemMobile: aboutImgMobile,
       },
       miniTag: "A_Definir",
       title: "A_Definir",
@@ -435,12 +453,37 @@ const content = {
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
+      galeria: {
+        slide1: {
+          img: { img1 },
+          imgMobile: { imgMobile1 },
+          alt: "Segunda imagem ilustrativa da Seção Sobre",
+        },
+        slide2: {
+          img: { img2 },
+          imgMobile: { imgMobile2 },
+          alt: "Terceira imagem ilustrativa da da Seção Sobre",
+        },
+        slide3: {
+          img: { img3 },
+          imgMobile: { imgMobile3 },
+          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+        },
+        slide4: {
+          img: { img4 },
+          imgMobile: { imgMobile4 },
+          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+        },
+      },
 
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           imgSocial: aboutInstagram,
+          imgMobile: aboutSocialImgMobile,
+          imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
         miniTag: "A_Definir",
         title: "A_Definir",
@@ -451,6 +494,11 @@ const content = {
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
       },
+    },
+    news: {
+      imgNews1Mobile: imgNews1Mobile,
+      imgNews1: imgNews1,
+      alt: "imagem ilustrativa da Seção Notícias",
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
@@ -486,7 +534,8 @@ const content = {
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
-      alt: "",
+      imgMobile: imgStepsMobile,
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,
