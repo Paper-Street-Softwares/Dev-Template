@@ -63,7 +63,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
       <div className="flex justify-center card">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            colorMode ? "text-black" : "text-black"
+            colorMode ? "text-primary" : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -78,7 +78,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
               className={`${
                 colorMode
                   ? "bg-white"
-                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-white surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-black surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
             >

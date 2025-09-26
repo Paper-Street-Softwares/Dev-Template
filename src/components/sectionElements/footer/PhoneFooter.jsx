@@ -49,7 +49,7 @@ function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <PhoneCall
               size={24}
-              color={colorMode === "light" ? "black" : "white"}
+              color={colorMode === "light" ? "black" : "black"}
             />
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"

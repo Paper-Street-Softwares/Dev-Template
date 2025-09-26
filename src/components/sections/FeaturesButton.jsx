@@ -28,7 +28,7 @@ export default function FeaturesButton({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
@@ -48,15 +48,16 @@ export default function FeaturesButton({ colorMode }) {
       >
         <SectionHeader
           className={`text-center ${textClass} mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]`}
-          miniTitle={t("features.miniTag")}
+          // miniTitle={t("features.miniTag")}
           sectionHeaderTitle={t("features.title")}
           sectionHeaderSubtitle={t("features.subtitle")}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
+          miniTitleBgColor={false}
         />
 
         <SectionWrapper>
-          <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
+          <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px]">
             {cardNumbers.map((i) => {
               const card = content.texts.features[`card${i}`];
               return (

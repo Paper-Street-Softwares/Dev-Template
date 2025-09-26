@@ -16,6 +16,7 @@ import "./../i18n";
 import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
+import News from "../components/sections/News";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -75,6 +76,7 @@ export default function Index() {
       />
 
       <About modal={false} showGallery={false} colorMode={colorMode} />
+      <News />
       {/* <AboutInstagram colorMode={colorMode} socialPrint={false} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />

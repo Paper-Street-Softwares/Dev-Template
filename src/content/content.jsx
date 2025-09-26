@@ -1,18 +1,17 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.webp";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.png";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-// import imgAbout1 from "../assets/imgs/about/aboutImg1.webp";
-// import imgAbout2 from "../assets/imgs/about/aboutImg2.webp";
-// import imgAbout3 from "../assets/imgs/about/aboutImg3.webp";
-// import imgAbout4 from "../assets/imgs/about/aboutImg4.webp";
-// import imgAbout5 from "../assets/imgs/about/aboutImg5.webp";
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
+import img1 from "../assets/imgs/about/imgGaleria1.webp";
+import img2 from "../assets/imgs/about/imgGaleria2.webp";
+import img3 from "../assets/imgs/about/imgGaleria3.webp";
+import img4 from "../assets/imgs/about/imgGaleria4.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
@@ -48,6 +47,19 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import imgNews1 from "../assets/imgs/news/imgNews1.webp";
+
+// versão mobile
+import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
+import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
+import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
+import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
+import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
+import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
+import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
+import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
+import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
+import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -146,6 +158,8 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
+      heroDefaultImageMobile: heroDefaultImgMobile,
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -402,8 +416,9 @@ const content = {
     },
     about: {
       imagem: {
-        img: aboutImg1,
-        alt: "Imagem profissional de escritório/advogado(a)",
+        img: aboutImg,
+        alt: "Imagem ilustrativa da Seção Sobre",
+        imagemMobile: aboutImgMobile,
       },
       miniTag: "A_Definir",
       title: "A_Definir",
@@ -438,12 +453,37 @@ const content = {
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
+      galeria: {
+        slide1: {
+          img: { img1 },
+          imgMobile: { imgMobile1 },
+          alt: "Segunda imagem ilustrativa da Seção Sobre",
+        },
+        slide2: {
+          img: { img2 },
+          imgMobile: { imgMobile2 },
+          alt: "Terceira imagem ilustrativa da da Seção Sobre",
+        },
+        slide3: {
+          img: { img3 },
+          imgMobile: { imgMobile3 },
+          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+        },
+        slide4: {
+          img: { img4 },
+          imgMobile: { imgMobile4 },
+          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+        },
+      },
 
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           imgSocial: aboutInstagram,
+          imgMobile: aboutSocialImgMobile,
+          imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
+          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
         },
         miniTag: "A_Definir",
         title: "A_Definir",
@@ -454,6 +494,11 @@ const content = {
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
       },
+    },
+    news: {
+      imgNews1Mobile: imgNews1Mobile,
+      imgNews1: imgNews1,
+      alt: "imagem ilustrativa da Seção Notícias",
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
@@ -489,7 +534,8 @@ const content = {
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
-      alt: "",
+      imgMobile: imgStepsMobile,
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,

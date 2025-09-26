@@ -15,7 +15,7 @@ export const theme = {
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#BFB9AF",
+      bgSectionDark: "#F6F6F6",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -53,9 +53,10 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
+      // mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Keep Calm", "sans-serif"],
+      secondFont: ["Open Sans", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
