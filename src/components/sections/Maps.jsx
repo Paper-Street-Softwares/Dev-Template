@@ -17,12 +17,12 @@ export default function Maps({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
@@ -41,7 +41,7 @@ export default function Maps({ colorMode }) {
             titleColorSet={titleColor}
             subtitleColorSet={titleColor}
           />
-          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
+          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/5 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
                 src={content.texts.maps.embedsrc}

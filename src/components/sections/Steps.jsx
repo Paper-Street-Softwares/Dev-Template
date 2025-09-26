@@ -14,12 +14,12 @@ export default function Steps({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
@@ -27,7 +27,7 @@ export default function Steps({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingbot={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
+        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/5">
           <picture>
             <source
               srcSet={content.texts.steps.imgMobile}

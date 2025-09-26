@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.webp";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.png";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 
@@ -26,6 +26,8 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
+
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
@@ -45,6 +47,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import imgNews1 from "../assets/imgs/news/imgNews1.webp";
 
 // versão mobile
 import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
@@ -56,25 +59,24 @@ import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
 import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
 import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
-
-import socio1img from "../assets/imgs/team/team5.webp";
+import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Ronaldo Quirino",
+  name: "Dra. Fabiana Ribeiro Marques",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "quirinosadvassoc.com.br", // Sem "www"
+  emailSecundario: "atendimento@fabianaribeiro.ntr.br", // Email desejado pelo cliente
+  domain: "fabianaribeiro.ntr.br", // Sem "www"
   phone: {
-    ddd: "81",
-    firstPart: "99499", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7104", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98758", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0126", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "5573", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3000", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -105,11 +107,11 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "ronaldo.adv2000", // Sem o @
-  facebookProfile: "61568378580930",
-  linkeDinProfile: "gabriel-souza-b9945929a/",
-  x: "A_Definir",
-  tiktokProfile: "A_Definir",
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -187,19 +189,19 @@ const content = {
         background: bgHeroImg,
         static: {
           img: {},
-          alt: "Primeira imagem ilustrativa da Início",
+          alt: "",
         },
         slide1: {
           img: {},
-          alt: "Segunda imagem ilustrativa da Início",
+          alt: "",
         },
         slide2: {
           img: {},
-          alt: "Terceira imagem ilustrativa da Início",
+          alt: "",
         },
         slide3: {
           img: {},
-          alt: "Quarta imagem ilustrativa da Início",
+          alt: "",
         },
       },
     },
@@ -208,7 +210,6 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
-      alt: "Imagem ilustrativa da Seção Serviços",
       card1: {
         img: featuresImg1,
         title: "A_Definir",
@@ -227,18 +228,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,15 +256,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -293,26 +283,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
-            <path d="m16 16 6-6" />
-            <path d="m21.5 10.5-8-8" />
-            <path d="m8 8 6-6" />
-            <path d="m8.5 7.5 8 8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg3,
+        img: featuresImg4,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -329,19 +311,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -437,7 +411,8 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.98033254231933!2d-46.6933381!3d-23.6099751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cbbcc489d7%3A0xc7f10feaf018ce35!2sRua%20Arandu%2C%20205%20-%20Conjunto%201005%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004562-030!5e0!3m2!1spt-BR!2sbr!4v1758897111607!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -520,6 +495,11 @@ const content = {
         labelX: "Siga-me no X",
       },
     },
+    news: {
+      imgNews1Mobile: imgNews1Mobile,
+      imgNews1: imgNews1,
+      alt: "imagem ilustrativa da Seção Notícias",
+    },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
@@ -590,7 +570,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "quirinosadvassoc.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -946,61 +926,6 @@ const content = {
             link3: "https://wa.me/+556596241854",
           },
         },
-      },
-    },
-    socios: {
-      socio1: {
-        nome: "Edison",
-        rota: "Edison",
-        sobrenome: "Sobrenome",
-        telefone: "00000000000",
-        whatsapp: "00000000000",
-        site: "00000000000",
-        email: "",
-        social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
-        },
-        description:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-        image: socio1img,
-      },
-      socio2: {
-        nome: "Biell",
-        rota: "Biell",
-        sobrenome: "",
-        telefone: "11111111111",
-        whatsapp: "11111111111",
-        site: "",
-        email: "",
-        social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
-        },
-        description: "A_Definir",
-      },
-      socio3: {
-        nome: "teste",
-        rota: "teste",
-        sobrenome: "",
-        telefone: "22222222222",
-        whatsapp: "22222222222",
-        site: "",
-        email: "",
-        social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
-        },
-        description: "A_Definir",
       },
     },
     links: {

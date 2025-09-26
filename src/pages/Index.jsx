@@ -16,6 +16,7 @@ import "./../i18n";
 import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
+import News from "../components/sections/News";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -58,24 +59,25 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={true}
+        defaultHero={false}
         influencer={false}
-        panoramica={false}
+        panoramica={true}
       />
       {/* <CartaoSocio /> */}
 
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
-        button={false}
+        defaultFeature={false}
+        button={true}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
       />
 
-      <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} socialPrint={false} />
+      <About modal={false} showGallery={false} colorMode={colorMode} />
+      <News />
+      {/* <AboutInstagram colorMode={colorMode} socialPrint={false} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}

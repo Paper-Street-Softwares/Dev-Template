@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua do Riachuelo, nº 36, <br/> sala 204, Galeria Aurora Boulevard,  <br/> Boa Vista, Recife - PE,  <br/> CEP: 50050-400",
+    "adress": "Rua Arandu, nº 205, <br/> Cj 1005, Itaim Bibi, <br/> São Paulo - SP,  <br/> CEP: 04562-030",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -18,42 +18,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO COM MAIS DE 15 ANOS",
-    "title": " <span class=\"text-primary font-bold\">A injustiça cresce no silêncio</span>",
-    "subtitle": "Quem se cala perde espaço. Faça do seu direito uma arma e não deixe que o tempo decida por você.",
-    "ctaButtonText": "Defenda-se agora",
+    "miniTag": "NUTRIÇÃO ACESSÍVEL PARA TODOS",
+    "title": "Nutrição que transforma sua rotina",
+    "subtitle": "Descubra como escolhas simples no prato podem mudar sua saúde, energia e bem-estar diário.",
+    "ctaButtonText": "Quero começar agora",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "Atendimento presencial e também online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Nossas áreas de atuação Jurídica",
-    "subtitle": "Suporte especializado em diferentes ramos do Direito.",
+    "miniTag": "A_Definir",
+    "title": "Nossas especialidades",
+    "subtitle": "Conheça as áreas de atuação da Dra. Fabi",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa e orientação em conflitos trabalhistas.",
+      "title": "Nutrição Funcional",
+      "subtitle": "Alimentação equilibrada para saúde integral.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Apoio em benefícios e questões previdenciárias.",
+      "title": "Atendimento para Gestantes",
+      "subtitle": "Cuidado nutricional em cada fase da gestação.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Criminal",
-      "subtitle": "Atuação em defesa criminal em todas as instâncias.",
+      "title": "Emagrecimento",
+      "subtitle": "Estratégias saudáveis para perder peso com leveza.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Análise e soluções jurídicas para pessoas e empresas.",
+      "title": "Longevidade",
+      "subtitle": "Nutrição que promove vitalidade e mais anos de vida.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -75,72 +75,79 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em São Paulo - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. RONALDO QUIRINO",
+    "miniTag": "A_Definir",
     "title": "Minha trajetória",
-    "subtitle": "Mais de 15 anos de atuação dedicada em diversas áreas do Direito.",
+    "subtitle": "Da experiência pessoal à missão de transformar vidas por meio da nutrição.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Nosso escritório conta com mais de 15 anos de experiência, construindo uma trajetória sólida de dedicação e compromisso com a Justiça. Ao longo desse tempo, atuamos de forma ética e responsável, sempre em defesa dos interesses de nossos clientes.",
-    "modal": "Nosso escritório conta com mais de 15 anos de experiência, construindo uma trajetória sólida de dedicação e compromisso com a Justiça. Ao longo desse tempo, atuamos de forma ética e responsável, sempre em defesa dos interesses de nossos clientes. <br/><br/> A prática jurídica é voltada especialmente para o Direito Criminal, Trabalhista e Empresarial, áreas em que buscamos oferecer soluções seguras e eficazes. O objetivo é garantir não apenas a defesa técnica, mas também a orientação clara em cada etapa do processo. <br/><br/> Além disso, prestamos suporte em Direito Previdenciário e de Família, assegurando um atendimento completo e humanizado. Cada caso é tratado com seriedade, proximidade e respeito, sempre em busca dos melhores resultados. <br/><br/>",
+    "paragraph": "Sempre tive uma conexão natural com a área da saúde e o cuidado com as pessoas. Mas foi na maternidade que esse caminho ganhou um sentido profundo. O diagnóstico do meu filho com deficiência de G6PD transformou minha relação com a nutrição e me mostrou que escolhas alimentares podem ser um ato de prevenção e de vida. <br/><br/> A partir desse momento, iniciei minha jornada em busca de conhecimento científico sólido, mas que também fosse aplicável no dia a dia. Tive experiências no SUS, em clínicas privadas e em projetos comunitários, vivências que ampliaram meu olhar e consolidaram meu propósito de oferecer um cuidado humano, integrativo e personalizado. <br/><br/> Hoje, minha atuação se conecta, em especial, com mulheres entre 25 e 55 anos que buscam equilíbrio hormonal, melhora de saúde e qualidade de vida. Atendo pessoas que enfrentam os desafios do estilo de vida moderno ou que simplesmente desejam se alimentar com mais prazer e consciência. Minha missão é tornar a nutrição uma ferramenta acessível e transformadora para todos.",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
+  "news": {
+    "miniTag": "ARTIGOS E NOTÍCIAS",
+    "title": "Alimentação consciente: mais saúde no dia a dia",
+    "subtitle": "Pequenas mudanças nos hábitos alimentares podem transformar sua rotina.",
+    "description": "Cuidar da alimentação vai além de estética: é um caminho para prevenir doenças, equilibrar hormônios e viver com mais energia. A nutrição funcional mostra como escolhas simples e práticas podem impactar diretamente na qualidade de vida. No blog, compartilho orientações, novidades e conteúdos atualizados sobre saúde, nutrição e bem-estar para ajudar você a se alimentar com prazer e consciência."
+  },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "minitag": "FALE COMIGO",
+    "title": "<span class=\"text-primary font-bold\">Quer cuidar da sua saúde com mais leveza?</span> Estou aqui para ajudar você!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
   },
   "steps": {
     "miniTag": "PASSO A PASSO",
-    "title": "Como funciona nosso atendimento?",
+    "title": "Como funciona o atendimento nutricional?",
     "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Conversa acolhedora para entender sua história, hábitos, rotina, objetivos e eventuais sintomas ou limitações."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardDescription": "Análise de exames (quando houver), avaliação antropométrica e levantamento dos padrões alimentares para mapear prioridades."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Elaboração do plano",
+        "cardDescription": "Criação de um plano nutricional personalizado e prático, com metas realistas, sugestões de refeições e orientações aplicáveis ao seu dia a dia."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Implementação e acompanhamento",
+        "cardDescription": "Acompanhamentos regulares para ajustar o plano, tirar dúvidas, monitorar resultados e promover autonomia alimentar."
       }
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
-    "labelCards": "",
-    "label": "Clique aqui para ver todas as matérias",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "labelCards": "A_Definir",
+    "label": "A_Definir",
     "blogLink": "A_Definir"
   },
   "faq": {
@@ -149,20 +156,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Como posso agendar uma consulta?",
+        "answer": "O agendamento pode ser feito de forma prática pelo WhatsApp. Lá combinamos o melhor dia e horário para você."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "O atendimento é presencial ou online?",
+        "answer": "Ofereço atendimentos presenciais e também online, para que você escolha a opção mais confortável e acessível para sua rotina."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Preciso levar exames para a primeira consulta?",
+        "answer": "Se você tiver exames recentes, é importante trazê-los. Caso não tenha, podemos avaliar a necessidade de solicitar alguns após a primeira consulta."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Após a consulta, recebo um plano alimentar personalizado?",
+        "answer": "Sim! Todo atendimento resulta em um plano alimentar individualizado, adaptado à sua rotina, preferências e objetivos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

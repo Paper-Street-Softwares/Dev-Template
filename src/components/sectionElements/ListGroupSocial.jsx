@@ -33,22 +33,32 @@ export default function ListGroupSocial({
     }
   }, [mode, t]);
 
+  const [scrolling, setScrolling] = useState(false);
+
+  const handleScroll = () => {
+    setScrolling(window.scrollY > 0);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
     if (colorMode === "dark") return "text-white";
-    return "text-black";
+    return scrolling ? "text-black" : "text-white";
   };
 
   const getHoverTextColor = () => {
     if (colorMode === "light") return "hover:text-black";
     if (colorMode === "dark") return "hover:text-white";
-    return "hover:text-black";
+    return scrolling ? "text-black" : "text-white";
   };
 
   const getBorderColor = () => {
     if (colorMode === "light") return "bg-black";
     if (colorMode === "dark") return "bg-white";
-    return "bg-black";
+    return scrolling ? "bg-black" : "bg-white";
   };
 
   const textShadow =

@@ -17,7 +17,7 @@ export default function Faq({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "bg-bgSectionDark",
   };
   const textClasses = {
     dark: "text-white",

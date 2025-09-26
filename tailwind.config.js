@@ -1,102 +1,108 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "media", // ⚡ força dark mode apenas por classe
-  theme: {
-    extend: {
-      colors: {
-        // Principais
-        primary: "#FFB955",
-        buttonColor: "#FFB955",
-        minititleDark: "#000", //bg minitag de seções claras
-        minititle: "#FFB955", //bg minitag de seções escuras
-        secondary: "#000000",
+export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
+export const theme = {
+  extend: {
+    colors: {
+      // Principais
 
-        // Fundos de Seção
-        bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#031A30",
-        bgSectionOpacityLight: "#F7F7F7",
-        bgFixedLight: "#E8E8E8",
-        bgSectionOpacityDark: "#111111",
-        bgFixedDark: "#181818",
+      primary: "#333929",
+      buttonColor: "#333929",
+      minititleDark: "#333929", //bg minitag de seções claras
+      minititle: "#333929", //bg minitag de seções escuras
 
-        // Degradê da Lpv
-        lpvHeroGradientTop: "#000",
-        lpvHeroGradientBot: "#000",
+      secondary: "#000000",
 
-        // Botões e Links
-        links: "#0189BB",
-        iconButtons: "#000",
-        labelButtons: "#000",
-        minititleLightLabel: "#fff", //label das minitag de seções claras
-        minititleDarkLabel: "#000", //label minitag de seções escuras
+      // Fundos de Seção
 
-        // Sombras
-        shadowHero: "#000000",
-        shadowFeatures: "#000000",
-        shadowAbouts: "#000000",
-        shadowSteps: "#000000",
-        shadowMaps: "#000000",
-        shadowBlogs: "#000000",
+      bgSectionLight: "#FFFFFF",
+      bgSectionDark: "#F6F6F6",
+      bgSectionOpacityLight: "#F7F7F7",
+      bgFixedLight: "#E8E8E8",
+      bgSectionOpacityDark: "#111111",
+      bgFixedDark: "#181818",
 
-        // Outros
-        lighter: "#FFFFFF",
-        darker: "#000000",
+      // Degradê da Lpv
+
+      lpvHeroGradientTop: "#000",
+      lpvHeroGradientBot: "#000",
+
+      // Botões e Links
+
+      links: "#0189BB",
+      iconButtons: "#fff",
+      labelButtons: "#fff",
+      minititleLightLabel: "#fff", //label das minitag de seções claras
+      minititleDarkLabel: "#fff", //label minitag de seções escuras
+
+      // Sombras
+
+      shadowHero: "#000000",
+      shadowFeatures: "#000000",
+      shadowAbouts: "#000000",
+      shadowSteps: "#000000",
+      shadowMaps: "#000000",
+      shadowBlogs: "#000000",
+
+      // Outros
+
+      lighter: "#FFFFFF",
+      darker: "#000000",
+    },
+    boxShadow: {
+      "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
+    },
+    fontFamily: {
+      // mainFont: ["Merriweather", "sans-serif"],
+      // mainFont: ["Poppins", "sans-serif"],
+      mainFont: ["Keep Calm", "sans-serif"],
+      secondFont: ["Open Sans", "sans-serif"],
+      league: ["League Gothic"],
+      barlow: ["Barlow Condensed"],
+    },
+    fontSize: {
+      paragraph1: "0.625rem",
+      paragraph2: "0.75rem",
+      paragraph3: "0.875rem",
+      paragraph4: "1rem",
+      paragraph5: "1.125rem",
+      title1: "1.25rem",
+      title2: "1.375rem",
+      title3: "1.5rem",
+      title4: "1.875rem",
+      title5: "2.25rem",
+      title6: "3rem",
+      title7: "3.5rem", // 55px
+    },
+    spacing: {
+      112: "28rem",
+      120: "30rem",
+      128: "32rem",
+    },
+    screens: {
+      phone1: "320px",
+      phone2: "375px",
+      phone3: "425px",
+      tablet1: "640px",
+      tablet2: "768px",
+      desktop1: "1024px",
+      desktop2: "1280px",
+      desktop3: "1440px",
+    },
+    keyframes: {
+      slideDown: {
+        "0%": { transform: "translateY(-5%)", opacity: "0" },
+        "100%": { transform: "translateY(0%)", opacity: "1" },
       },
-      boxShadow: {
-        "custom-opacity": "-20px 20px 0px", // 30% de opacidade
-        "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
-      },
-      fontFamily: {
-        // mainFont: ["Merriweather", "sans-serif"],
-        // secondFont: ["Merriweather", "sans-serif"],
-        mainFont: ["Poppins", "sans-serif"],
-        secondFont: ["Poppins", "sans-serif"],
-      },
-      fontSize: {
-        paragraph1: "0.625rem",
-        paragraph2: "0.75rem",
-        paragraph3: "0.875rem",
-        paragraph4: "1rem",
-        paragraph5: "1.125rem",
-        title1: "1.25rem",
-        title2: "1.375rem",
-        title3: "1.5rem",
-        title4: "1.875rem",
-        title5: "2.25rem",
-        title6: "3rem",
-        title7: "3.5rem", // 55px
-      },
-      spacing: {
-        112: "28rem",
-        120: "30rem",
-        128: "32rem",
-      },
-      screens: {
-        phone1: "320px",
-        phone2: "375px",
-        phone3: "425px",
-        tablet1: "640px",
-        tablet2: "768px",
-        desktop1: "1024px",
-        desktop2: "1280px",
-        desktop3: "1440px",
-      },
-      keyframes: {
-        slideDown: {
-          "0%": { transform: "translateY(-5%)", opacity: "0" },
-          "100%": { transform: "translateY(0%)", opacity: "1" },
-        },
-        slideUp: {
-          "0%": { transform: "translateY(0%)", opacity: "1" },
-          "100%": { transform: "translateY(-5%)", opacity: "0" },
-        },
-      },
-      animation: {
-        "slide-down": "slideDown 1s ease",
-        "slide-up": "slideUp 1s ease",
+      slideUp: {
+        "0%": { transform: "translateY(0%)", opacity: "1" },
+        "100%": { transform: "translateY(-5%)", opacity: "0" },
       },
     },
+    animation: {
+      "slide-down": "slideDown 1s ease",
+      "slide-up": "slideUp 1s ease",
+    },
   },
-  // plugins: [require("tailwindcss-gradients")],
 };
+// export const plugins = [require("tailwindcss-gradients")];

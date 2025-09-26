@@ -39,7 +39,7 @@ export default function FeatureImgOnBgCardButton(props) {
             <p className="font-secondFont text-paragraph3 desktop1:text-paragraph4 text-quaternary mb-[28px]">
               {description}
             </p>
-            <div>
+            {/* <div>
               <Button
                 removeAnchor={true}
                 label={buttonLabel}
@@ -66,7 +66,7 @@ export default function FeatureImgOnBgCardButton(props) {
                   </svg>
                 }
               />
-            </div>
+            </div> */}
           </MotionDivDownToUp>
         </div>
       </div>
