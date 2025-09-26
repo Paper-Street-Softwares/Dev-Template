@@ -31,12 +31,25 @@ export default function Hero({
     return () => window.removeEventListener("resize", handleResize);
   }, [content]);
 
+  // Definindo cores de fundo com base no tema
+  const backgroundClasses = {
+    dark: "bg-bgFixedDark",
+    light: "bg-bgFixedLight",
+    default: "from-bgSectionDark to-darker",
+  };
+
+  const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
+  const titleColor = colorMode === "light" ? "text-black" : "text-primary";
+  const subtitleColor = colorMode === "light" ? "text-black" : "text-primary";
+  const obsTextColor = colorMode === "light" ? "text-black" : "text-primary";
+
   let subtitleElement;
   let titleElement;
   let minititleElement;
   let buttonElement;
   let obsHeroElement;
 
+  //Influencer
   if (window.innerWidth < 1024) {
     minititleElement = (
       <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -167,6 +180,7 @@ export default function Hero({
   let buttonElementPanoramic;
   let obsHeroElementPanoramic;
 
+  // Definindo cores da Panoramica
   if (window.innerWidth < 1024) {
     minititleElementPanoramic = (
       <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -231,7 +245,9 @@ export default function Hero({
       </div>
     );
     titleElementPanoramic = (
-      <div className="text-primary flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+      <div
+        className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ${titleColor}`}
+      >
         <h1>
           <span
             dangerouslySetInnerHTML={{
@@ -243,7 +259,7 @@ export default function Hero({
     );
     subtitleElementPanoramic = (
       <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-        <p className="text-white mb-[32px] ">{t("hero.subtitle")} </p>
+        <p className={`mb-[32px] ${subtitleColor}`}>{t("hero.subtitle")} </p>
       </div>
     );
     buttonElementPanoramic = (
@@ -271,7 +287,9 @@ export default function Hero({
       <div className="flex justify-center desktop1:justify-start">
         <div className="flex flex-col items-center desktop1:flex-row text-primary">
           {content.texts.hero.obsHero.icon}
-          <p className="text-primary  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+          <p
+            className={`${obsTextColor} ml-[10px] text-center mt-[12px] desktop1:mt-0`}
+          >
             {t("hero.obsHero.text")}{" "}
           </p>
         </div>
@@ -280,7 +298,7 @@ export default function Hero({
   }
 
   const HeroContentPanoramic = (
-    <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
+    <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
       <MotionDivDownToUp>{minititleElementPanoramic}</MotionDivDownToUp>
       <MotionDivDownToUp>{titleElementPanoramic}</MotionDivDownToUp>
       <MotionDivDownToUp>{subtitleElementPanoramic}</MotionDivDownToUp>
@@ -290,19 +308,6 @@ export default function Hero({
       </div>
     </div>
   );
-
-  // Definindo cores de fundo com base no tema
-  const backgroundClasses = {
-    dark: "bg-bgFixedDark",
-    light: "bg-bgFixedLight",
-    default: "from-bgSectionDark to-darker",
-  };
-
-  const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
-  const titleColor = colorMode === "light" ? "text-black" : "text-white";
-  const subtitleColor = colorMode === "light" ? "text-black" : "text-white";
-  const obsTextColor = colorMode === "light" ? "text-black" : "text-white";
-  const descriptionColor = colorMode === "light" ? "text-black" : "text-white";
 
   return (
     <>
@@ -455,10 +460,10 @@ export default function Hero({
 
               <SectionWrapper>
                 <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] ">
-                  <div className="w-full text-secondary ">
+                  <div className="w-full ">
                     <div className="desktop1:h-[100px]" />
                     <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between w-full items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
-                      {HeroContent}
+                      {HeroContentPanoramic}
                     </div>
                   </div>
                 </div>

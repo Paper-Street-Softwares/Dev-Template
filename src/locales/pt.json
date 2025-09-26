@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "NUTRIÇÃO ACESSÍVEL PARA TODOS",
+    "title": "Nutrição que transforma <span class=\"text-primary font-bold\">sua rotina</span>",
+    "subtitle": "Descubra como escolhas simples no prato podem mudar sua saúde, energia e bem-estar diário.",
+    "ctaButtonText": "Quero começar agora",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e também online para todo Brasil."
     }
   },
   "features": {
