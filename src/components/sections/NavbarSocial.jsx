@@ -93,8 +93,8 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     // default
     return scrolling
-      ? "bg-gradient-to-b from-transparent to-transparent bg-opacity-100 shadow-lg border-b-[1px] border-primary"
-      : "bg-gradient-to-b from-transparent to-transparent border-b-[1px] border-none";
+      ? "bg-gradient-to-b from-white to-white bg-opacity-100 shadow-lg border-b-[1px] border-primary transition-all duration-1000"
+      : "bg-gradient-to-b from-transparent to-transparent border-b-[1px] border-none transition-colors duration-1000";
   };
 
   return (
@@ -117,8 +117,8 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent ${
                 scrolling
-                  ? " w-[40%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[40%] desktop2:w-[40%]"
-                  : "my-[20px] w-[60%] phone2:w-[60%] phone3:w-[60%] tablet1:w-[60%] tablet2:w-[65%] desktop1:w-[50%] desktop2:w-[40%]"
+                  ? " w-[30%] phone3:w-[30%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[30%] desktop2:w-[30%]"
+                  : "my-[20px] w-[40%] phone2:w-[40%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[45%] desktop1:w-[50%] desktop2:w-[40%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>

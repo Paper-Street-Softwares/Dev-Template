@@ -103,6 +103,7 @@
     }
   },
   "ctaSecondary": {
+    "minitag": "FALE COMIGO",
     "title": "<span class=\"text-primary font-bold\">Quer cuidar da sua saúde com mais leveza?</span> Estou aqui para ajudar você!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
