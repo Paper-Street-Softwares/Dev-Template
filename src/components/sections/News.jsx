@@ -46,14 +46,14 @@ export default function News({ colorMode }) {
           </MotionDivDownToUp>
 
           {/* Coluna do texto */}
-          <MotionDivDownToUp className="w-full desktop1:w-[45%] flex flex-col justify-evenly items-center desktop1:h-[410px]. gap-4 font-secondFont">
+          <MotionDivDownToUp className="w-full desktop1:w-[45%] flex flex-col justify-evenly items-center desktop1:h-[410px] gap-4 font-secondFont">
             <div className="w-full flex justify-center items-center p-4">
               <h1 className="text-black text-center desktop1:text-start">
                 {t("news.description")}
               </h1>
             </div>
 
-            <div className="flex flex-col items-center gap-6 phone3:flex-row w-full justify-evenly ">
+            <div className="flex flex-col items-start gap-6 phone3:flex-row w-full p-4">
               <Button
                 label="Artigo"
                 buttonLink="https://ojs.revistacontribuciones.com/ojs/index.php/clcs/article/view/19185"
