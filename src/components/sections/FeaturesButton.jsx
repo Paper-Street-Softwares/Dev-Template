@@ -37,7 +37,7 @@ export default function FeaturesButton({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3];
+  const cardNumbers = [1, 2, 3, 4];
 
   return (
     <>
@@ -66,21 +66,21 @@ export default function FeaturesButton({ colorMode }) {
                   description={t(`features.card${i}.subtitle`)}
                   buttonLabel={t(`features.card${i}.buttonLabel`)}
                   animation
-                  onClick={() =>
-                    onClick(
-                      t(`features.card${i}.title`),
-                      t(`features.card${i}.subtitle`),
-                      <ServiceDetailCard
-                        img={card.img}
-                        description={t(`features.card${i}.description`)}
-                        buttonIcon={card.icon}
-                        buttonLabel={t(`features.card${i}.buttonLabelModal`)}
-                        buttonLink={content.texts.links.ctaWhatsapp}
-                        bgPosition="bg-top"
-                      />
-                    )
-                  }
-                  colorMode={colorMode}
+                  // onClick={() =>
+                  //   onClick(
+                  //     t(`features.card${i}.title`),
+                  //     t(`features.card${i}.subtitle`),
+                  //     <ServiceDetailCard
+                  //       img={card.img}
+                  //       description={t(`features.card${i}.description`)}
+                  //       buttonIcon={card.icon}
+                  //       buttonLabel={t(`features.card${i}.buttonLabelModal`)}
+                  //       buttonLink={content.texts.links.ctaWhatsapp}
+                  //       bgPosition="bg-top"
+                  //     />
+                  //   )
+                  // }
+                  // colorMode={colorMode}
                 />
               );
             })}
