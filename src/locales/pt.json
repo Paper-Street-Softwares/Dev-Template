@@ -75,9 +75,9 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em São Paulo - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
@@ -103,35 +103,35 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Quer cuidar da sua saúde com mais leveza?</span> Estou aqui para ajudar você!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
   },
   "steps": {
     "miniTag": "PASSO A PASSO",
-    "title": "Como funciona nosso atendimento?",
+    "title": "Como funciona o atendimento nutricional?",
     "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Conversa acolhedora para entender sua história, hábitos, rotina, objetivos e eventuais sintomas ou limitações."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardDescription": "Análise de exames (quando houver), avaliação antropométrica e levantamento dos padrões alimentares para mapear prioridades."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Elaboração do plano",
+        "cardDescription": "Criação de um plano nutricional personalizado e prático, com metas realistas, sugestões de refeições e orientações aplicáveis ao seu dia a dia."
       },
       "card4": {
         "stepNumber": 4,
         "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardDescription": "Acompanhamentos regulares para ajustar o plano, tirar dúvidas, monitorar resultados e promover autonomia alimentar."
       }
     }
   },
@@ -149,20 +149,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Como posso agendar uma consulta?",
+        "answer": "O agendamento pode ser feito de forma prática pelo WhatsApp. Lá combinamos o melhor dia e horário para você."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "O atendimento é presencial ou online?",
+        "answer": "Ofereço atendimentos presenciais e também online, para que você escolha a opção mais confortável e acessível para sua rotina."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Preciso levar exames para a primeira consulta?",
+        "answer": "Se você tiver exames recentes, é importante trazê-los. Caso não tenha, podemos avaliar a necessidade de solicitar alguns após a primeira consulta."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Após a consulta, recebo um plano alimentar personalizado?",
+        "answer": "Sim! Todo atendimento resulta em um plano alimentar individualizado, adaptado à sua rotina, preferências e objetivos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
