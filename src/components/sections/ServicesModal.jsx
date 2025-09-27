@@ -17,26 +17,25 @@ const ServicesModal = () => {
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
-        label={t("features.card4.servicesButton")}
+        label={"Saber mais"}
         icon={content.texts.features.card4.servicesIconButton}
         onClick={() => setVisible(true)}
         className="bg-colorBlack text-secondary"
       />
 
       <Dialog
-        header={t("features.card4.modalHeader") || "Áreas de atuação"}
-        headerStyle={{ paddingBottom: "3px" }}
+        header={"Áreas de atuação"}
+        headerStyle={{ paddingBottom: "0px" }}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
         breakpoints={{ "4000px": "384px", "426px": "90vw" }}
         contentStyle={{ padding: "1rem" }}
       >
-        <div className="flex flex-col w-full gap-[12px]">
+        <div className="flex flex-col w-full gap-[12px] p-2">
           <div>
-            <p className="text-paragraph4 font-secondFont">
-              {t("features.card4.modalDescription") ||
-                "Selecione a área que deseja saber mais sobre:"}
+            <p className="text-paragraph4 font-secondFont w-[90%]">
+              {"Selecione a área que deseja saber mais sobre:"}
             </p>
           </div>
           <div className="flex justify-center w-full">

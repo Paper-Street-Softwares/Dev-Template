@@ -5,17 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#333929",
-      buttonColor: "#333929",
-      minititleDark: "#333929", //bg minitag de seções claras
-      minititle: "#333929", //bg minitag de seções escuras
+      primary: "#D5D7E2",
+      buttonColor: "#D5D7E2",
+      minititleDark: "#D5D7E2", //bg minitag de seções claras
+      minititle: "#D5D7E2", //bg minitag de seções escuras
 
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#F6F6F6",
+      bgSectionDark: "#161B43",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -29,19 +29,19 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      iconButtons: "#fff",
-      labelButtons: "#fff",
-      minititleLightLabel: "#fff", //label das minitag de seções claras
-      minititleDarkLabel: "#fff", //label minitag de seções escuras
+      iconButtons: "#000",
+      labelButtons: "#000",
+      minititleLightLabel: "#000", //label das minitag de seções claras
+      minititleDarkLabel: "#000", //label minitag de seções escuras
 
       // Sombras
 
-      shadowHero: "#000000",
-      shadowFeatures: "#000000",
-      shadowAbouts: "#000000",
-      shadowSteps: "#000000",
-      shadowMaps: "#000000",
-      shadowBlogs: "#000000",
+      shadowHero: "#FFFFFF",
+      shadowFeatures: "#FFFFFF",
+      shadowAbouts: "#FFFFFF",
+      shadowSteps: "#FFFFFF",
+      shadowMaps: "#FFFFFF",
+      shadowBlogs: "#FFFFFF",
 
       // Outros
 
@@ -53,10 +53,9 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      // mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      mainFont: ["Keep Calm", "sans-serif"],
-      secondFont: ["Open Sans", "sans-serif"],
+      secondFont: ["Merriweather", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },

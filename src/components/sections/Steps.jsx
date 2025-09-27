@@ -14,12 +14,12 @@ export default function Steps({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-white",
+    default: "bg-bgSectionDark",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-black",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;

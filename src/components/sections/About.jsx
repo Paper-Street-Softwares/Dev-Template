@@ -23,11 +23,11 @@ export default function About({ modal = true, showGallery, colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-black",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
-  const subtitleColor = colorMode === "light" ? "text-black/80" : "text-black";
+  const subtitleColor = colorMode === "light" ? "text-white/80" : "text-white";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });
@@ -59,14 +59,13 @@ export default function About({ modal = true, showGallery, colorMode }) {
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
             className="text-center"
-            // miniTitle={aboutText.miniTag}
+            miniTitle={aboutText.miniTag}
             sectionHeaderTitle={aboutText.title}
             sectionHeaderSubtitle={aboutText.subtitle}
             color={colorMode}
             type="article"
             titleColorSet={titleColor}
             subtitleColorSet={subtitleColor}
-            miniTitleBgColor={false}
           />
           <MotionDivDownToUp>
             {modal ? (

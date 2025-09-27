@@ -14,7 +14,7 @@ export default function ListGroupSocial({
 
   useEffect(() => {
     // IDs do menu (mesma ordem do pt.json)
-    const allIds = ["home", "service", "about", "blog", "faq", "maps"];
+    const allIds = ["home", "service", "about", "blog", "faq"];
 
     // Pega labels direto do pt.json via i18next
     const allLabels = t("navbar.menuItems", { returnObjects: true });
@@ -46,19 +46,19 @@ export default function ListGroupSocial({
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
     if (colorMode === "dark") return "text-white";
-    return scrolling ? "text-black" : "text-white";
+    return scrolling ? "text-white" : "text-white";
   };
 
   const getHoverTextColor = () => {
     if (colorMode === "light") return "hover:text-black";
     if (colorMode === "dark") return "hover:text-white";
-    return scrolling ? "text-black" : "text-white";
+    return scrolling ? "text-white" : "text-white";
   };
 
   const getBorderColor = () => {
     if (colorMode === "light") return "bg-black";
     if (colorMode === "dark") return "bg-white";
-    return scrolling ? "bg-black" : "bg-white";
+    return scrolling ? "bg-white" : "bg-white";
   };
 
   const textShadow =

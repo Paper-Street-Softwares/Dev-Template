@@ -101,6 +101,12 @@
       "labelX": "Siga-me no X"
     }
   },
+  "news": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "description": "A_Definir"
+  },
   "ctaSecondary": {
     "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
@@ -139,7 +145,7 @@
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "labelCards": "A_Definir",
-    "label": "A_Definir",
+    "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
   },
   "faq": {
