@@ -46,8 +46,8 @@ function BlogPosts() {
             sectionHeaderTitle={t("blog.title")}
             sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-black"
+            subtitleColorSet="text-black"
             type=""
           />
 
@@ -87,7 +87,7 @@ function BlogPosts() {
           </ul>
 
           <MotionDivDownToUp>
-            <Paragraphs className="text-center text-white underline transition hover:scale-110">
+            <Paragraphs className="text-center text-primary underline transition hover:scale-110">
               <a
                 href={`https://${content.texts.blog.blogLink}`}
                 target="_blank"

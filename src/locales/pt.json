@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Travessa Natividade 3A – Nova Esperança 1  <br/> Manaus - AM, CEP: 69037-531",
+    "adress": "Rodovia Augusto Montenegro, nº  4300, <br/> Parque Office, Sala 503 Sul <br/> Belém - PA, CEP: 66635-110 ",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 17h",
+    "expediente": "Segunda a sexta-feira: <br/> 8:30 às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -18,99 +18,57 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO DE ADVOCACIA",
-    "title": "Justiça sem barreiras nem exceções",
-    "subtitle": "Uma advocacia transparente e acessível, feita para pessoas reais que buscam clareza e confiança.",
-    "ctaButtonText": "Conheça nosso jeito de atuar",
+    "miniTag": "ADVOGADA EM BELÉM - PA",
+    "title": "Seus direitos valem mais <span class=\"text-primary font-bold\">que promessas</span>",
+    "subtitle": "Enfrentamos INSS, planos e SUS para garantir benefícios, saúde e justiça de verdade",
+    "ctaButtonText": "Fazer valer meus direitos",
     "obsHero": {
-      "text": "Atendimento online para todo Brasil"
+      "text": "Atendimento presencial e online para todo Brasil"
     }
   },
   "features": {
     "miniTag": "ESPECIALIDADES",
-    "title": "Áreas de Atuação",
-    "subtitle": "Conheça os principais ramos do Direito em que oferecemos consultoria e representação jurídica.",
+    "title": "Como podemos ajudar você",
+    "subtitle": "Atuação dedicada em diferentes ramos do Direito para cuidar do que é importante pra você.",
     "card1": {
-      "title": "Direito Civil e Contratual",
-      "subtitle": "Elaboração e revisão de contratos, responsabilidade civil, indenizações, locações, família e sucessões.",
+      "title": "Direito Previdenciário",
+      "subtitle": "Apoio especializado para aposentadorias e benefícios.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Defesa de consumidores e empresas em litígios, cláusulas abusivas, contratos de consumo e responsabilidade por produtos e serviços.",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa dos seus direitos trabalhistas com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Trabalhista e Previdenciário",
-      "subtitle": "Causas trabalhistas individuais e coletivas, defesa de empregadores e empregados, consultoria preventiva, aposentadorias e benefícios do INSS.",
+      "title": "Direito Civil (Planos de Saúde)",
+      "subtitle": "Ações contra planos de saúde: garantia de tratamento.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Empresarial e Societário",
-      "subtitle": "Abertura, alteração e dissolução de empresas, contratos comerciais, recuperação judicial, falência e governança corporativa.",
+      "title": "Direito Civil (SUS)",
+      "subtitle": "Acesso ao SUS: orientação e defesa de seus direitos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito Administrativo e Licitações",
-      "subtitle": "Defesa em processos administrativos, acompanhamento de licitações, contratos públicos e improbidade administrativa.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Direito Tributário",
-      "subtitle": "Planejamento tributário, defesas em execuções fiscais, compensações e restituições de tributos.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card7": {
-      "title": "Direito Penal e <i> Compliance</i>",
-      "subtitle": "Defesa criminal, acompanhamento de inquéritos, ações penais, medidas cautelares e compliance penal empresarial.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card8": {
-      "title": "Direito Imobiliário",
-      "subtitle": "Compra e venda de imóveis, regularizações, incorporações, loteamentos, ações possessórias e condominiais.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card9": {
-      "title": "Direito Ambiental",
-      "subtitle": "Licenciamento, defesas administrativas e judiciais, consultoria preventiva em responsabilidade ambiental.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card10": {
-      "title": "Direito Digital e Proteção de Dados",
-      "subtitle": "Consultoria em LGPD, responsabilidade civil na internet, contratos digitais e crimes virtuais.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card11": {
-      "title": "Arbitragem e Mediação",
-      "subtitle": "Solução alternativa de conflitos por mediação, conciliação e arbitragem, com foco em rapidez e eficiência",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card12": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação preventiva, análise de riscos e soluções jurídicas personalizadas para pessoas físicas e jurídicas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -126,22 +84,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O ESCRITÓRIO MARCELO LIRA",
-    "title": "Nossa trajetória",
-    "subtitle": "Compromisso com ética, inclusão e soluções jurídicas acessíveis a todos.",
+    "miniTag": "QUEM É A DRA. INGRID MAGNO",
+    "title": "Minha trajetória",
+    "subtitle": "Dedicação em transformar desafios jurídicos em soluções humanas e reais.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O Escritório Marcelo Lira Sociedade Individual de Advocacia nasceu do propósito de tornar a advocacia mais próxima e transparente. Desde sua fundação por Marcelo Augusto de Araujo Lira, a missão sempre foi clara: orientar e defender os interesses dos clientes com dedicação e ética, garantindo segurança em cada passo.",
-    "modal": "O Escritório Marcelo Lira Sociedade Individual de Advocacia nasceu do propósito de tornar a advocacia mais próxima e transparente. Desde sua fundação por Marcelo Augusto de Araujo Lira, a missão sempre foi clara: orientar e defender os interesses dos clientes com dedicação e ética, garantindo segurança em cada passo. <br/><br/> Com atuação preventiva e contenciosa, buscamos oferecer soluções jurídicas claras e adequadas a cada realidade. Nosso compromisso vai além da técnica, priorizando o acolhimento, a comunicação transparente e o respeito às escolhas e necessidades de quem confia em nosso trabalho. <br/><br/> Acreditamos que o Direito deve ser acessível a todos. Por isso, atendemos pessoas de diferentes idades, gêneros e classes sociais, sempre com atenção especial à inclusão. Nosso espaço é preparado para receber também pessoas com deficiência ou necessidades específicas, assegurando um atendimento humano, igualitário e acessível. <br/><br/>",
+    "paragraph": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC.",
+    "modal": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC. <br/><br/> Com o tempo, percebi que a luta pela dignidade não estava apenas na Previdência. Muitos clientes também enfrentavam a negação de tratamentos médicos, medicamentos e cirurgias, tanto pelo SUS quanto pelos planos de saúde. Foi assim que o escritório ampliou sua atuação, sempre com o mesmo propósito: transformar o Direito em um instrumento de proteção e justiça para quem mais precisa. <br/><br/> Hoje, atuo de forma próxima e acessível, especialmente para mulheres, famílias e trabalhadores que buscam segurança e respeito em momentos decisivos. Mais do que advocacia, ofereço acolhimento, escuta e resultados concretos, com a convicção de que cada cliente merece dignidade e de que o Direito é, acima de tudo, uma ferramenta de transformação social. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
   "news": {
