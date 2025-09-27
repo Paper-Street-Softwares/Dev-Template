@@ -82,7 +82,7 @@ export default function NavbarSocial({ colorMode, mode }) {
   const getNavbarClasses = () => {
     if (colorMode === "light") {
       return scrolling
-        ? "bg-secondary bg-opacity-100 shadow-lg transition-all duration-1000"
+        ? "bg-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000"
         : "transition-colors duration-1000";
     }
     if (colorMode === "dark") {
@@ -116,8 +116,8 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[40%] mw-[50%] tablet2:w-[40%] desktop1:w-[30%] transition-all duration-1000"
-                  : " w-[50%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[40%] transition-all duration-1000"
+                  ? "w-[30%] mw-[50%] tablet2:w-[40%] desktop1:w-[30%] transition-all duration-1000"
+                  : "my-[20px] w-[40%] tablet1:w-[40%] tablet2:w-[50%] desktop1:w-[40%] desktop2:w-[50%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
