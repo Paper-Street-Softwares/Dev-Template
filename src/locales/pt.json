@@ -19,7 +19,7 @@
   },
   "hero": {
     "miniTag": "ADVOGADA EM BELÉM - PA",
-    "title": "Seus direitos valem mais que promessas",
+    "title": "Seus direitos valem mais <span class=\"text-primary font-bold\">que promessas</span>",
     "subtitle": "Enfrentamos INSS, planos e SUS para garantir benefícios, saúde e justiça de verdade",
     "ctaButtonText": "Fazer valer meus direitos",
     "obsHero": {
@@ -27,33 +27,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Como podemos ajudar você",
+    "subtitle": "Atuação dedicada em diferentes ramos do Direito para cuidar do que é importante pra você.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Previdenciário",
+      "subtitle": "Apoio especializado para aposentadorias e benefícios.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa dos seus direitos trabalhistas com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil (Planos de Saúde)",
+      "subtitle": "Ações contra planos de saúde: garantia de tratamento.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil (SUS)",
+      "subtitle": "Acesso ao SUS: orientação e defesa de seus direitos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
