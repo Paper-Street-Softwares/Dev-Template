@@ -17,7 +17,7 @@ export default function Faq({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "bg-bgSectionDark",
+    default: "squares",
   };
   const textClasses = {
     dark: "text-white",
@@ -37,7 +37,6 @@ export default function Faq({ colorMode }) {
         sectionHeaderSubtitle={t("faq.subtitle")}
         titleColorSet={titleColor}
         subtitleColorSet={titleColor}
-        miniTitleTextColor="text-white"
       />
       <SectionWrapper className="flex justify-center">
         <MotionDivDownToUp className="flex justify-center w-full">

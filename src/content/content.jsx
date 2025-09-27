@@ -651,8 +651,7 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.98033254231933!2d-46.6933381!3d-23.6099751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cbbcc489d7%3A0xc7f10feaf018ce35!2sRua%20Arandu%2C%20205%20-%20Conjunto%201005%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004562-030!5e0!3m2!1spt-BR!2sbr!4v1758897111607!5m2!1spt-BR!2sbr",
+      embedsrc: "A_Definir",
     },
     about: {
       imagem: {
@@ -810,7 +809,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir", //sem "https://"
+      blogLink: "juridicolira.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
