@@ -53,9 +53,9 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Merriweather"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
+      secondFont: ["Roboto", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
