@@ -64,19 +64,19 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Fabiana Ribeiro Marques",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "atendimento@fabianaribeiro.ntr.br", // Email desejado pelo cliente
-  domain: "fabianaribeiro.ntr.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "juridicolira.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98758", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0126", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "11",
-    firstPart: "5573", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3000", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -389,7 +389,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card7: {
+      card7: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -423,7 +423,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card8: {
+      card8: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -457,7 +457,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card9: {
+      card9: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -491,7 +491,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card10: {
+      card10: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -525,7 +525,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card11: {
+      card11: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -559,7 +559,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-       card12: {
+      card12: {
         img: 3,
         title: "A_Definir",
         subtitle: "A_Definir",
