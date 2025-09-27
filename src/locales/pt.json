@@ -125,22 +125,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O ESCRITÓRIO MARCELO LIRA",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso com ética, inclusão e soluções jurídicas acessíveis a todos.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "paragraph": "O Escritório Marcelo Lira Sociedade Individual de Advocacia nasceu do propósito de tornar a advocacia mais próxima e transparente. Desde sua fundação por Marcelo Augusto de Araujo Lira, a missão sempre foi clara: orientar e defender os interesses dos clientes com dedicação e ética, garantindo segurança em cada passo.",
+    "modal": "O Escritório Marcelo Lira Sociedade Individual de Advocacia nasceu do propósito de tornar a advocacia mais próxima e transparente. Desde sua fundação por Marcelo Augusto de Araujo Lira, a missão sempre foi clara: orientar e defender os interesses dos clientes com dedicação e ética, garantindo segurança em cada passo. <br/><br/> Com atuação preventiva e contenciosa, buscamos oferecer soluções jurídicas claras e adequadas a cada realidade. Nosso compromisso vai além da técnica, priorizando o acolhimento, a comunicação transparente e o respeito às escolhas e necessidades de quem confia em nosso trabalho. <br/><br/> Acreditamos que o Direito deve ser acessível a todos. Por isso, atendemos pessoas de diferentes idades, gêneros e classes sociais, sempre com atenção especial à inclusão. Nosso espaço é preparado para receber também pessoas com deficiência ou necessidades específicas, assegurando um atendimento humano, igualitário e acessível. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X"
     }
   },
   "news": {
