@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA",
+    "title": "Justiça sem barreiras nem exceções",
+    "subtitle": "Uma advocacia transparente e acessível, feita para pessoas reais que buscam clareza e confiança.",
+    "ctaButtonText": "Conheça nosso jeito de atuar",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online para todo Brasil"
     }
   },
   "features": {
