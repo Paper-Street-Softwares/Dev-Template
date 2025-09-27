@@ -23,7 +23,7 @@ export default function ModalComponent({ children, header, content }) {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }}
+        breakpoints={{ "4000px": "300px", "1024px": "300px",  "641px": "300px" }}
       >
         {content}
       </Dialog>

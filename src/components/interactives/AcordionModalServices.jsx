@@ -8,8 +8,11 @@ import content from "../../content/content";
 import services from "../../content/services";
 import ModalComponent from "./ModalComponent";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
+import { useTranslation } from "react-i18next";
 
 export default function AcordionModalServices() {
+  const { t } = useTranslation();
+
   const [expanded, setExpanded] = useState("panel1");
 
   const handleChange = (panel) => (_, isExpanded) => {
@@ -37,7 +40,6 @@ export default function AcordionModalServices() {
       <Accordion
         className="mb-[3%]"
         expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
         style={getPanelStyle("panel1")}
       >
         <AccordionSummary
@@ -54,12 +56,12 @@ export default function AcordionModalServices() {
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
               {/* Link 8 */}
               <ModalComponent
-                header={content.texts.features.card8.title}
+                header={t("features.card8.title")}
                 content={
                   <ServiceDetailCard
                     img={content.texts.features.card8.imgModal}
                     // subtitle={content.texts.features.card9.subtitle}
-                    description={content.texts.features.card8.subtitle}
+                    description={t("features.card8.subtitle")}
                     buttonLabel={content.texts.features.card8.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
@@ -71,19 +73,19 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {content.texts.features.card8.title}
+                    {t("features.card8.title")}
                   </span>
                 </button>
               </ModalComponent>
 
               {/* Link 9 */}
               <ModalComponent
-                header={content.texts.features.card9.title}
+                header={t("features.card9.title")}
                 content={
                   <ServiceDetailCard
                     img={content.texts.features.card9.imgModal}
                     // subtitle={content.texts.features.card9.subtitle}
-                    description={content.texts.features.card9.subtitle}
+                    description={t("features.card9.subtitle")}
                     buttonLabel={content.texts.features.card9.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
@@ -95,21 +97,21 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {content.texts.features.card9.title}
+                    {t("features.card9.title")}
                   </span>
                 </button>
               </ModalComponent>
 
               {/* Link 10 */}
               <ModalComponent
-                header={content.texts.features.card10.title}
+                header={t("features.card10.title")}
                 content={
                   <ServiceDetailCard
                     img={content.texts.features.card10.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service2.cardSubtitle
                     // }
-                    description={content.texts.features.card10.subtitle}
+                    description={t("features.card10.subtitle")}
                     buttonLabel={content.texts.features.card10.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
@@ -121,21 +123,21 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {content.texts.features.card10.title}
+                    {t("features.card10.title")}
                   </span>
                 </button>
               </ModalComponent>
 
               {/* Link 11 */}
               <ModalComponent
-                header={content.texts.features.card11.title}
+                header={t("features.card11.title")}
                 content={
                   <ServiceDetailCard
                     img={content.texts.features.card11.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service3.cardSubtitle
                     // }
-                    description={content.texts.features.card11.subtitle}
+                    description={t("features.card11.subtitle")}
                     buttonLabel={content.texts.features.card11.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
@@ -148,21 +150,21 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {content.texts.features.card11.title}
+                    {t("features.card11.title")}
                   </span>
                 </button>
               </ModalComponent>
 
               {/* Link 12 */}
               <ModalComponent
-                header={content.texts.features.card12.title}
+                header={t("features.card12.title")}
                 content={
                   <ServiceDetailCard
                     img={content.texts.features.card12.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service4.cardSubtitle
                     // }
-                    description={content.texts.features.card12.subtitle}
+                    description={t("features.card12.subtitle")}
                     buttonLabel={content.texts.features.card12.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
@@ -174,7 +176,7 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {content.texts.features.card12.title}
+                    {t("features.card12.title")}
                   </span>
                 </button>
               </ModalComponent>

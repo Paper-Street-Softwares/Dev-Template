@@ -5,8 +5,11 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
+import { useTranslation } from "react-i18next";
 
 export default function FeaturesIconWithModal({ colorMode }) {
+  const { t } = useTranslation();
+
   // Define background and text colors based on colorMode
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -25,10 +28,10 @@ export default function FeaturesIconWithModal({ colorMode }) {
   return (
     <SectionArea id="service" className={`${bgClass} `} paddingbot={true}>
       <SectionHeader
-        className={`text-center ${textClass} mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]`}
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
+        className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
+        miniTitle={t("features.miniTag")}
+        sectionHeaderTitle={t("features.title")}
+        sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
@@ -37,9 +40,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card1.icon}
-              title={content.texts.features.card1.title}
-              paragraph={content.texts.features.card1.subtitle}
-              className="m-auto"
+              title={t("features.card1.title")}
+              paragraph={t("features.card1.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -47,9 +50,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card2.icon}
-              title={content.texts.features.card2.title}
-              paragraph={content.texts.features.card2.subtitle}
-              className="m-auto"
+              title={t("features.card2.title")}
+              paragraph={t("features.card2.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -57,9 +60,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card3.icon}
-              title={content.texts.features.card3.title}
-              paragraph={content.texts.features.card3.subtitle}
-              className="m-auto"
+              title={t("features.card3.title")}
+              paragraph={t("features.card3.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -67,9 +70,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card4.icon}
-              title={content.texts.features.card4.title}
-              paragraph={content.texts.features.card4.subtitle}
-              className="m-auto"
+              title={t("features.card4.title")}
+              paragraph={t("features.card4.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -77,9 +80,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card5.icon}
-              title={content.texts.features.card5.title}
-              paragraph={content.texts.features.card5.subtitle}
-              className="m-auto"
+              title={t("features.card5.title")}
+              paragraph={t("features.card5.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -87,9 +90,9 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card6.icon}
-              title={content.texts.features.card6.title}
-              paragraph={content.texts.features.card6.subtitle}
-              className="m-auto"
+              title={t("features.card6.title")}
+              paragraph={t("features.card6.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -97,9 +100,15 @@ export default function FeaturesIconWithModal({ colorMode }) {
           <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card7.icon}
-              title={content.texts.features.card7.title}
-              paragraph={content.texts.features.card7.subtitle}
-              className="m-auto"
+              title={
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: t("features.card7.title"),
+                  }}
+                />
+              }
+              paragraph={t("features.card7.subtitle")}
+              className={`m-auto ${textClass}`}
               colorMode={colorMode}
             />
           </MotionDivDownToUp>
@@ -121,7 +130,6 @@ export default function FeaturesIconWithModal({ colorMode }) {
                 >
                   <circle cx="12" cy="12" r="10" />
                   <path d="M8 12h8" />
-                  <path d="M12 8v8" />
                 </svg>
               }
               title="Conheça outras áreas"

@@ -26,48 +26,90 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Áreas de Atuação",
+    "subtitle": "Conheça os principais ramos do Direito em que oferecemos consultoria e representação jurídica.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil e Contratual",
+      "subtitle": "Elaboração e revisão de contratos, responsabilidade civil, indenizações, locações, família e sucessões.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito do Consumidor",
+      "subtitle": "Defesa de consumidores e empresas em litígios, cláusulas abusivas, contratos de consumo e responsabilidade por produtos e serviços.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista e Previdenciário",
+      "subtitle": "Causas trabalhistas individuais e coletivas, defesa de empregadores e empregados, consultoria preventiva, aposentadorias e benefícios do INSS.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Empresarial e Societário",
+      "subtitle": "Abertura, alteração e dissolução de empresas, contratos comerciais, recuperação judicial, falência e governança corporativa.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Administrativo e Licitações",
+      "subtitle": "Defesa em processos administrativos, acompanhamento de licitações, contratos públicos e improbidade administrativa.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Tributário",
+      "subtitle": "Planejamento tributário, defesas em execuções fiscais, compensações e restituições de tributos.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card7": {
+      "title": "Direito Penal e <i> Compliance</i>",
+      "subtitle": "Defesa criminal, acompanhamento de inquéritos, ações penais, medidas cautelares e compliance penal empresarial.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card8": {
+      "title": "Direito Imobiliário",
+      "subtitle": "Compra e venda de imóveis, regularizações, incorporações, loteamentos, ações possessórias e condominiais.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card9": {
+      "title": "Direito Ambiental",
+      "subtitle": "Licenciamento, defesas administrativas e judiciais, consultoria preventiva em responsabilidade ambiental.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card10": {
+      "title": "Direito Digital e Proteção de Dados",
+      "subtitle": "Consultoria em LGPD, responsabilidade civil na internet, contratos digitais e crimes virtuais.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card11": {
+      "title": "Arbitragem e Mediação",
+      "subtitle": "Solução alternativa de conflitos por mediação, conciliação e arbitragem, com foco em rapidez e eficiência",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card12": {
+      "title": "Consultoria Jurídica",
+      "subtitle": "Orientação preventiva, análise de riscos e soluções jurídicas personalizadas para pessoas físicas e jurídicas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"

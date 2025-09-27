@@ -13,7 +13,7 @@ export default function ServiceDetailCard(props) {
   } = props;
 
   return (
-    <div className="w-full flex flex-col gap-[16px]">
+    <div className="w-full flex flex-col">
       <div className="w-full">
         {/* <div
           style={{
@@ -23,20 +23,20 @@ export default function ServiceDetailCard(props) {
         /> */}
       </div>
       <div className="flex flex-col gap-[32px]">
-        <div className="flex flex-col gap-[12px]">
-          <h1 className="font-bold text-paragraph5 text-secondary opacity-70">
+        <div className="flex flex-col ">
+          <h1 className="font-bold text-paragraph5 text-secondary opacity-70 border-b-2">
             {subtitle}
           </h1>
-          <p className="text-paragraph3">{description}</p>
+          <p className="text-paragraph3 pt-6">{description}</p>
         </div>
-        <div className="">
+        {/* <div className="">
           <Button
             label={buttonLabel}
             icon={buttonIcon}
             buttonLink={buttonLink}
             animation={false}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
