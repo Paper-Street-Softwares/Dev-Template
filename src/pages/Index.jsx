@@ -59,25 +59,25 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
+        defaultHero={true}
         influencer={false}
-        panoramica={true}
+        panoramica={false}
       />
-      {/* <CartaoSocio /> */}
 
       <Features
         colorMode={colorMode}
         defaultFeature={false}
-        button={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
+        iconsWithModal={true}
       />
 
       <About modal={false} showGallery={false} colorMode={colorMode} />
-      <News />
-      {/* <AboutInstagram colorMode={colorMode} socialPrint={false} /> */}
+      {/* <News /> */}
+      <AboutInstagram colorMode={colorMode} socialPrint={false} />
       <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
