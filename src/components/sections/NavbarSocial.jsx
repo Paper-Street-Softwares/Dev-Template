@@ -92,7 +92,7 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     // default
     return scrolling
-      ? "bg-secondary bg-opacity-100 shadow-lg transition-all duration-1000 bg-white"
+      ? "bg-opacity-100 shadow-lg transition-all duration-1000 bg-bgSectionDark"
       : "transition-colors duration-1000";
   };
 
