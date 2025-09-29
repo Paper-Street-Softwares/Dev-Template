@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rodovia Augusto Montenegro, nº  4300, <br/> Parque Office, Sala 503 Sul <br/> Belém - PA, CEP: 66635-110 ",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8:30 às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA EM BELÉM - PA",
-    "title": "Seus direitos valem mais <span class=\"text-primary font-bold\">que promessas</span>",
-    "subtitle": "Enfrentamos INSS, planos e SUS para garantir benefícios, saúde e justiça de verdade",
-    "ctaButtonText": "Fazer valer meus direitos",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Como podemos ajudar você",
-    "subtitle": "Atuação dedicada em diferentes ramos do Direito para cuidar do que é importante pra você.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Apoio especializado para aposentadorias e benefícios.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa dos seus direitos trabalhistas com segurança.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Civil (Planos de Saúde)",
-      "subtitle": "Ações contra planos de saúde: garantia de tratamento.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Civil (SUS)",
-      "subtitle": "Acesso ao SUS: orientação e defesa de seus direitos.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -84,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A DRA. INGRID MAGNO",
-    "title": "Minha trajetória",
-    "subtitle": "Dedicação em transformar desafios jurídicos em soluções humanas e reais.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC.",
-    "modal": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC. <br/><br/> Com o tempo, percebi que a luta pela dignidade não estava apenas na Previdência. Muitos clientes também enfrentavam a negação de tratamentos médicos, medicamentos e cirurgias, tanto pelo SUS quanto pelos planos de saúde. Foi assim que o escritório ampliou sua atuação, sempre com o mesmo propósito: transformar o Direito em um instrumento de proteção e justiça para quem mais precisa. <br/><br/> Hoje, atuo de forma próxima e acessível, especialmente para mulheres, famílias e trabalhadores que buscam segurança e respeito em momentos decisivos. Mais do que advocacia, ofereço acolhimento, escuta e resultados concretos, com a convicção de que cada cliente merece dignidade e de que o Direito é, acima de tudo, uma ferramenta de transformação social. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -142,9 +141,9 @@
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
