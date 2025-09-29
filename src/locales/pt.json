@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOCACIA ESPECIALIZADA",
+    "title": "Justiça com sensibilidade e estratégia",
+    "subtitle": "Atuação firme em Previdenciário, Trabalhista, Bancário e Cível, com foco humano e resultados reais.",
+    "ctaButtonText": "Fale com a Dra. Jane",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e online para todo Brasil."
     }
   },
   "features": {
