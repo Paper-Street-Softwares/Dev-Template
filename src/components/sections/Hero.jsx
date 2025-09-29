@@ -318,7 +318,7 @@ export default function Hero({
         >
           <div className="relative z-10 flex w-full items-left">
             <div className="w-full text-secondary justify-evenly">
-              <div className="h-[150px] phone2:h-[160px] phone3:h-[180px] tablet1:h-[180px] desktop3:h-[120px] " />{" "}
+              <div className="h-[110px] phone2:h-[120px] phone3:h-[130px] tablet1:h-[150px] desktop3:h-[120px] " />{" "}
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
                 {HeroContent}
 
