@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rodovia Augusto Montenegro, nº  4300, <br/> Parque Office, Sala 503 Sul <br/> Belém - PA, CEP: 66635-110 ",
+    "adress": "Rua Lino Antônio de Melo, <br/> nº 236, Bairro Guarani,  <br/> Piracuruca - PI,  <br/> CEP: 64240-000",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8:30 às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -18,42 +18,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA EM BELÉM - PA",
-    "title": "Seus direitos valem mais <span class=\"text-primary font-bold\">que promessas</span>",
-    "subtitle": "Enfrentamos INSS, planos e SUS para garantir benefícios, saúde e justiça de verdade",
-    "ctaButtonText": "Fazer valer meus direitos",
+    "miniTag": "ADVOCACIA ESPECIALIZADA",
+    "title": "Justiça com sensibilidade e estratégia",
+    "subtitle": "Atuação firme em Previdenciário, Trabalhista, Bancário e Cível, com foco humano e resultados reais.",
+    "ctaButtonText": "Fale com a Dra. Jane",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "Atendimento presencial e online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Como podemos ajudar você",
-    "subtitle": "Atuação dedicada em diferentes ramos do Direito para cuidar do que é importante pra você.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Nossas principais especialidades jurídicas",
+    "subtitle": "Atendimento completo e estratégico para cada necessidade.",
     "card1": {
       "title": "Direito Previdenciário",
-      "subtitle": "Apoio especializado para aposentadorias e benefícios.",
+      "subtitle": "Auxílio em benefícios e aposentadorias seguras.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
       "title": "Direito Trabalhista",
-      "subtitle": "Defesa dos seus direitos trabalhistas com segurança.",
+      "subtitle": "Defesa justa em questões entre empresas e empregados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Civil (Planos de Saúde)",
-      "subtitle": "Ações contra planos de saúde: garantia de tratamento.",
+      "title": "Direito Bancário",
+      "subtitle": "Soluções jurídicas em contratos e dívidas bancárias.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Civil (SUS)",
-      "subtitle": "Acesso ao SUS: orientação e defesa de seus direitos.",
+      "title": "Direito Civil e Consumerista",
+      "subtitle": "Proteção em relações civis e defesa do consumidor.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -84,12 +84,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A DRA. INGRID MAGNO",
+    "miniTag": "QUEM É A DRA. JANE TRINDADE",
     "title": "Minha trajetória",
-    "subtitle": "Dedicação em transformar desafios jurídicos em soluções humanas e reais.",
+    "subtitle": "Compromisso humano e estratégico para transformar desafios em soluções jurídicas.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC.",
-    "modal": "O Ingrid Magno Advocacia e Consultoria nasceu com a missão de defender os direitos sociais e previdenciários de pessoas que muitas vezes não sabem a quem recorrer. Minha trajetória começou atendendo trabalhadores rurais, pescadores e famílias que enfrentavam dificuldades no INSS para garantir benefícios como salário-maternidade, aposentadorias, pensões e BPC. <br/><br/> Com o tempo, percebi que a luta pela dignidade não estava apenas na Previdência. Muitos clientes também enfrentavam a negação de tratamentos médicos, medicamentos e cirurgias, tanto pelo SUS quanto pelos planos de saúde. Foi assim que o escritório ampliou sua atuação, sempre com o mesmo propósito: transformar o Direito em um instrumento de proteção e justiça para quem mais precisa. <br/><br/> Hoje, atuo de forma próxima e acessível, especialmente para mulheres, famílias e trabalhadores que buscam segurança e respeito em momentos decisivos. Mais do que advocacia, ofereço acolhimento, escuta e resultados concretos, com a convicção de que cada cliente merece dignidade e de que o Direito é, acima de tudo, uma ferramenta de transformação social. <br/><br/>",
+    "paragraph": "Nosso escritório nasceu com a missão de unir técnica e sensibilidade, oferecendo um atendimento jurídico que vai além da formalidade. Acreditamos que cada caso traz consigo uma história única e merece ser tratado com atenção e respeito.",
+    "modal": "Nosso escritório nasceu com a missão de unir técnica e sensibilidade, oferecendo um atendimento jurídico que vai além da formalidade. Acreditamos que cada caso traz consigo uma história única e merece ser tratado com atenção e respeito. <br/><br/> Ao longo da trajetória, transformamos desafios em soluções, conquistando resultados consistentes e fortalecendo uma relação de confiança e proximidade com cada cliente. Essa postura nos permite atuar de forma firme e estratégica, sempre alinhados às reais necessidades de quem nos procura. <br/><br/> Atendemos clientes a partir dos 18 anos, em especial adultos entre 30 e 65 anos, homens e mulheres que buscam segurança em momentos decisivos. Nosso foco está no Direito Previdenciário, Trabalhista, Bancário, Cível e do Consumidor, áreas em que dedicamos experiência e clareza para garantir defesa e orientação eficaz. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {

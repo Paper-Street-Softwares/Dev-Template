@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Ingrid Magno",
+  name: "Dra. Jane Trindade",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "ingridmagnoprevidenciario.com.br", // Sem "www"
+  domain: "drajanetrindadeadv.com.br", // Sem "www"
   phone: {
-    ddd: "91",
-    firstPart: "99303", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4905", // Apenas os 4 últimos números
+    ddd: "86",
+    firstPart: "98121", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7466", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,8 +107,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "ingridmagnojuridico", // Sem o @
-  facebookProfile: "",
+  instagramProfile: "drajanetrindadeadv", // Sem o @
+  facebookProfile: "janekelly.trindade",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
@@ -234,11 +234,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-check-icon lucide-file-check"
+            class="lucide lucide-user-check-icon lucide-user-check"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="m9 15 2 2 4-4" />
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -302,13 +302,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hospital-icon lucide-hospital"
+            class="lucide lucide-credit-card-icon lucide-credit-card"
           >
-            <path d="M12 7v4" />
-            <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
-            <path d="M14 9h-4" />
-            <path d="M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2" />
-            <path d="M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16" />
+            <rect width="20" height="14" x="2" y="5" rx="2" />
+            <line x1="2" x2="22" y1="10" y2="10" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -338,10 +335,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-pulse-icon lucide-heart-pulse"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
-            <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -596,7 +596,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "ingridmagnoprevidenciario.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",

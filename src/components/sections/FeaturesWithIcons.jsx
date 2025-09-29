@@ -62,7 +62,7 @@ export default function FeaturesWithIcons({ colorMode }) {
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className="hidden h-[640px] desktop1:h-[700px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              className="hidden h-[640px] desktop1:h-[900px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               loading="lazy"
             />
           </MotionDivDownToUp>
