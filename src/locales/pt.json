@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Áreas de Atuação",
+    "title": "Nossas principais especialidades jurídicas",
+    "subtitle": "Atendimento completo e estratégico para cada necessidade.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Previdenciário",
+      "subtitle": "Auxílio em benefícios e aposentadorias seguras.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa justa em questões entre empresas e empregados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Bancário",
+      "subtitle": "Soluções jurídicas em contratos e dívidas bancárias.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil e Consumerista",
+      "subtitle": "Proteção em relações civis e defesa do consumidor.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
