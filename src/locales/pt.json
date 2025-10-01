@@ -1,6 +1,6 @@
 {
   "infos": {
-    "adress": "Rua Lino Antônio de Melo, <br/> nº 236, Bairro Guarani,  <br/> Piracuruca - PI,  <br/> CEP: 64240-000",
+    "adress": "Belo Horizonte / MG ",
     "adressSecundario": "A_Definir",
     "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
@@ -11,53 +11,51 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOCACIA ESPECIALIZADA",
-    "title": "Justiça com sensibilidade e estratégia",
-    "subtitle": "Atuação firme em Previdenciário, Trabalhista, Bancário e Cível, com foco humano e resultados reais.",
-    "ctaButtonText": "Fale com a Dra. Jane",
+    "miniTag": "Gomíde Advocacia & Compliance Jurídico",
+    "title": "Verdade, Técnica e Coragem",
+    "subtitle": "A tríade que guia nossa atuação.",
+    "ctaButtonText": "Fale conosco",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil."
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "Nossas principais especialidades jurídicas",
-    "subtitle": "Atendimento completo e estratégico para cada necessidade.",
+    "miniTag": "ÁREAS DE ATUAÇÕES",
+    "title": "Atuação Jurídica com excelência",
+    "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
     "card1": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Auxílio em benefícios e aposentadorias seguras.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "title": "Regularização de Imóveis e Inventários",
+      "subtitle": "Patrimônio em ordem é segurança para o presente e valor para o futuro.",
+      "description": "Resolvemos de forma ágil em cartório ou, quando necessário, na Justiça: <br/><br/> • Usucapião; <br/>• Direito de Laje; <br/> • Averbação de Construção; <br/>• Retificação de Área; <br/>• Desmembramento/unificação de lotes; <br/> • Instituição e Convenção de Condomínio; <br/> • Inventário (extrajudicial e judicial). <br/>",
+      "buttonLabelModal": "",
+      "buttonLabel": "Saiba mais"
     },
     "card2": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa justa em questões entre empresas e empregados.",
-      "description": "A_Definir",
+      "title": "Cobrança Judicial de Títulos Inadimplidos",
+      "subtitle": "Inadimplência não é prejuízo: é crédito a recuperar.",
+      "description": "Atuamos na recuperação de valores sem custos iniciais, tanto para empresas quanto para pessoas físicas: <br/><br/>• Mensalidades escolares não pagas; <br/>• Contratos de serviços ou fornecimento não quitados; <br/>• Notas fiscais, boletos e duplicatas em atraso; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card3": {
-      "title": "Direito Bancário",
-      "subtitle": "Soluções jurídicas em contratos e dívidas bancárias.",
-      "description": "A_Definir",
+      "title": "Saúde – Planos de Saúde",
+      "subtitle": "Quando a saúde não pode esperar, a Justiça não atrasa.",
+      "description": "Defendemos pacientes contra negativas abusivas dos planos de saúde: <br/><br/>• Exames urgentes; <br/>• Cirurgias e internações; <br/>• Fornecimento de medicamentos. <br/><br/>Ingressamos com ações rápidas e liminares emergenciais para garantir o tratamento no tempo certo.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "Direito Civil e Consumerista",
-      "subtitle": "Proteção em relações civis e defesa do consumidor.",
-      "description": "A_Definir",
+      "title": "<i>Compliance Jurídico</i> Jurídico",
+      "subtitle": "Prevenir riscos é mais inteligente do que remediar crises.",
+      "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir",
-      "servicesButton": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card5": {
       "title": "A_Definir",
@@ -84,18 +82,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A DRA. JANE TRINDADE",
-    "title": "Minha trajetória",
-    "subtitle": "Compromisso humano e estratégico para transformar desafios em soluções jurídicas.",
+    "miniTag": "SOBRE NÓS",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso com a verdade, técnica e coragem em cada decisão jurídica.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Nosso escritório nasceu com a missão de unir técnica e sensibilidade, oferecendo um atendimento jurídico que vai além da formalidade. Acreditamos que cada caso traz consigo uma história única e merece ser tratado com atenção e respeito.",
-    "modal": "Nosso escritório nasceu com a missão de unir técnica e sensibilidade, oferecendo um atendimento jurídico que vai além da formalidade. Acreditamos que cada caso traz consigo uma história única e merece ser tratado com atenção e respeito. <br/><br/> Ao longo da trajetória, transformamos desafios em soluções, conquistando resultados consistentes e fortalecendo uma relação de confiança e proximidade com cada cliente. Essa postura nos permite atuar de forma firme e estratégica, sempre alinhados às reais necessidades de quem nos procura. <br/><br/> Atendemos clientes a partir dos 18 anos, em especial adultos entre 30 e 65 anos, homens e mulheres que buscam segurança em momentos decisivos. Nosso foco está no Direito Previdenciário, Trabalhista, Bancário, Cível e do Consumidor, áreas em que dedicamos experiência e clareza para garantir defesa e orientação eficaz. <br/><br/>",
+    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica.  <br/><br/> Nossa prática é guiada pela tríade que sustenta cada decisão: Verdade, Técnica e Coragem.  <br/><br/> Entregamos soluções jurídicas eficazes, com visão moderna e combativa, sempre focados em resultados concretos para nossos clientes.  <br/><br/>",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -142,9 +140,9 @@
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"

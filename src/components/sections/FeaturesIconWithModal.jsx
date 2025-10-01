@@ -77,7 +77,7 @@ export default function FeaturesIconWithModal({ colorMode }) {
             />
           </MotionDivDownToUp>
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card5.icon}
               title={t("features.card5.title")}
@@ -137,7 +137,7 @@ export default function FeaturesIconWithModal({ colorMode }) {
             >
               <ServicesModal />
             </IconFeatureCard>
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
         </div>
       </SectionWrapper>
     </SectionArea>

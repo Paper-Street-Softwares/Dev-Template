@@ -5,12 +5,14 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#84212A",
-      buttonColor: "#84212A",
-      minititleDark: "#84212A", //bg minitag de seções claras
-      minititle: "#84212A", //bg minitag de seções escuras
-
+      primary: "#4B0F1F",
+      buttonColor: "#D4AF37",
+      minititleDark: "#4B0F1F", //bg minitag de seções claras
+      minititle: "#4B0F1F", //bg minitag de seções escuras
       secondary: "#000000",
+      colorNavbar: "#4B0F1F",
+      colorFooter: "#D4AF37",
+      colorTexto: "#0A2A43",
 
       // Fundos de Seção
 
@@ -29,8 +31,8 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      iconButtons: "#fff",
-      labelButtons: "#fff",
+      iconButtons: "#D4AF37",
+      labelButtons: "#000",
       minititleLightLabel: "#fff", //label das minitag de seções claras
       minititleDarkLabel: "#fff", //label minitag de seções escuras
 
@@ -53,7 +55,7 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ["Merriweather"],
+      mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
       secondFont: ["Roboto"],
       league: ["League Gothic"],
