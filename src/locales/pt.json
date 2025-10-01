@@ -26,37 +26,37 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ÁREAS DE ATUAÇÕES",
+    "title": "Atuação Jurídica com excelência",
+    "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "title": "Regularização de Imóveis e Inventários",
+      "subtitle": "Patrimônio em ordem é segurança para o presente e valor para o futuro.",
+      "description": "Resolvemos de forma ágil em cartório ou, quando necessário, na Justiça: <br/><br/> • Usucapião; <br/>• Direito de Laje; <br/> • Averbação de Construção; <br/>• Retificação de Área; <br/>• Desmembramento/unificação de lotes; <br/> • Instituição e Convenção de Condomínio; <br/> • Inventário (extrajudicial e judicial). <br/>",
+      "buttonLabelModal": "",
+      "buttonLabel": "Saiba mais"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "Cobrança Judicial de Títulos Inadimplidos",
+      "subtitle": "Inadimplência não é prejuízo: é crédito a recuperar.",
+      "description": "Atuamos na recuperação de valores sem custos iniciais, tanto para empresas quanto para pessoas físicas: <br/><br/>• Mensalidades escolares não pagas; <br/>• Contratos de serviços ou fornecimento não quitados; <br/>• Notas fiscais, boletos e duplicatas em atraso; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "Saúde – Planos de Saúde",
+      "subtitle": "Quando a saúde não pode esperar, a Justiça não atrasa.",
+      "description": "Defendemos pacientes contra negativas abusivas dos planos de saúde: <br/><br/>• Exames urgentes; <br/>• Cirurgias e internações; <br/>• Fornecimento de medicamentos. <br/><br/>Ingressamos com ações rápidas e liminares emergenciais para garantir o tratamento no tempo certo.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "<i>Compliance Jurídico</i> Jurídico",
+      "subtitle": "A_DefPrevenir riscos é mais inteligente do que remediar crises.inir",
+      "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
-      "servicesButton": "A_Definir"
+      "servicesButton": "Saiba mais"
     },
     "card5": {
       "title": "A_Definir",
@@ -83,11 +83,11 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "SOBRE NÓS",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso com a verdade, técnica e coragem em cada decisão jurídica.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
+    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica.  <br/><br/> Nossa prática é guiada pela tríade que sustenta cada decisão: Verdade, Técnica e Coragem.  <br/><br/> Entregamos soluções jurídicas eficazes, com visão moderna e combativa, sempre focados em resultados concretos para nossos clientes.  <br/><br/>",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
