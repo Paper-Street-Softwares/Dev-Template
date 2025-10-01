@@ -12,6 +12,7 @@ export const theme = {
       secondary: "#000000",
       colorNavbar: "#4B0F1F",
       colorFooter: "#D4AF37",
+      colorTexto: "#0A2A43",
 
       // Fundos de Seção
 

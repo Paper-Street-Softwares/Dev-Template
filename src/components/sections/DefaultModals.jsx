@@ -228,11 +228,15 @@ export default function FeaturesParagraphs({ colorMode }) {
       <Dialog
         className="font-secondFont"
         closeIcon={<X size={20} />}
-        header={<span dangerouslySetInnerHTML={{ __html: modalTitle }} />}
+        header={
+          <div className="w-full border-b border-gray-300 pb-2">
+            <span dangerouslySetInnerHTML={{ __html: modalTitle }} />
+          </div>
+        }
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "416px", "1024px": "416px", "641px": "416px" }}
+        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
       >
         {modalContent}
       </Dialog>
