@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { Dialog } from "primereact/dialog";
 import { X } from "lucide-react";
 import content from "../../content/content";
@@ -41,7 +41,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "bg-bgSectionDark",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -55,19 +55,19 @@ export default function FeaturesParagraphs({ colorMode }) {
         sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
-        colorMode="dark"
+        colorMode={colorMode}
       />
 
       <SectionWrapper>
-        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
+        <div className="flex flex-col tablet1:flex-row justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
           {/* Coluna esquerda */}
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-center ">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={t("features.card1.title")}
                 paragraph={t("features.card1.subtitle")}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                className={textClass}
                 colorMode={colorMode}
               >
                 <Button
@@ -79,10 +79,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right-icon lucide-corner-down-right"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
                     >
                       <path d="m15 10 5 5-5 5" />
                       <path d="M4 4v7a4 4 0 0 0 4 4h12" />
@@ -96,6 +96,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
+
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card2.icon}
@@ -113,10 +114,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right-icon lucide-corner-down-right"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
                     >
                       <path d="m15 10 5 5-5 5" />
                       <path d="M4 4v7a4 4 0 0 0 4 4h12" />
@@ -133,23 +134,23 @@ export default function FeaturesParagraphs({ colorMode }) {
           </div>
 
           {/* Imagem central */}
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
-              className="hidden h-[640px] object-cover w-full desktop1:flex rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              className="hidden h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               loading="lazy"
             />
           </MotionDivDownToUp>
 
           {/* Coluna direita */}
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-end">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={t("features.card3.title")}
                 paragraph={t("features.card3.subtitle")}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                className={textClass}
                 colorMode={colorMode}
               >
                 <Button
@@ -161,10 +162,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right-icon lucide-corner-down-right"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
                     >
                       <path d="m15 10 5 5-5 5" />
                       <path d="M4 4v7a4 4 0 0 0 4 4h12" />
@@ -178,6 +179,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
+
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card4.icon}
@@ -201,10 +203,10 @@ export default function FeaturesParagraphs({ colorMode }) {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right-icon lucide-corner-down-right"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
                     >
                       <path d="m15 10 5 5-5 5" />
                       <path d="M4 4v7a4 4 0 0 0 4 4h12" />
@@ -230,7 +232,7 @@ export default function FeaturesParagraphs({ colorMode }) {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
+        breakpoints={{ "4000px": "416px", "1024px": "416px", "641px": "416px" }}
       >
         {modalContent}
       </Dialog>
