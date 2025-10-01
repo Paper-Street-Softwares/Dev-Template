@@ -79,7 +79,7 @@ export default function Hero({
             </div>
           </MotionDivDownToUp>
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <div className="flex justify-center desktop1:justify-start">
               <div
                 className={`flex flex-col items-center desktop1:flex-row ${obsTextColorOverride}`}
@@ -90,7 +90,7 @@ export default function Hero({
                 </p>
               </div>
             </div>
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
         </div>
       </div>
     );
