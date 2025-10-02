@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Belo Horizonte / MG ",
+    "adress": "Av. do Jangadeiro, nº 351 - Sala 2 - Interlagos,  <br/> São Paulo - SP, <br/> CEP: 04815-010",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> 10:30 às 17h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,45 +17,46 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "Gomíde Advocacia & Compliance Jurídico",
-    "title": "Verdade, Técnica e Coragem",
-    "subtitle": "A tríade que guia nossa atuação.",
-    "ctaButtonText": "Fale conosco",
+    "miniTag": "ADVOGADO EM SÃO PAULO - SP",
+    "title": "Advocacia que gera <span class=\"text-primary font-bold\">confiança real</span>",
+    "subtitle": "Casos conduzidos com ética e estratégia, entregando resultados que transformam vidas e negócios",
+    "ctaButtonText": "Conheça nossa atuação",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial com hora marcada e online para todo Brasil"
     }
   },
   "features": {
-    "miniTag": "ÁREAS DE ATUAÇÕES",
-    "title": "Atuação Jurídica com excelência",
-    "subtitle": "Soluções personalizadas para defender seus direitos em diferentes ramos do Direito.",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Áreas de Atuação",
+    "subtitle": "Conheça os ramos do Direito em que oferecemos suporte especializado.",
     "card1": {
-      "title": "Regularização de Imóveis e Inventários",
-      "subtitle": "Patrimônio em ordem é segurança para o presente e valor para o futuro.",
-      "description": "Resolvemos de forma ágil em cartório ou, quando necessário, na Justiça: <br/><br/> • Usucapião; <br/>• Direito de Laje; <br/> • Averbação de Construção; <br/>• Retificação de Área; <br/>• Desmembramento/unificação de lotes; <br/> • Instituição e Convenção de Condomínio; <br/> • Inventário (extrajudicial e judicial). <br/>",
-      "buttonLabelModal": "",
-      "buttonLabel": "Saiba mais"
+      "title": "Direito Cível",
+      "subtitle": "Defesa em conflitos civis com ética e clareza.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Cobrança Judicial de Títulos Inadimplidos",
-      "subtitle": "Inadimplência não é prejuízo: é crédito a recuperar.",
-      "description": "Atuamos na recuperação de valores sem custos iniciais, tanto para empresas quanto para pessoas físicas: <br/><br/>• Mensalidades escolares não pagas; <br/>• Contratos de serviços ou fornecimento não quitados; <br/>• Notas fiscais, boletos e duplicatas em atraso; <br/>• Cheques e notas promissórias; <br/>• Aluguéis e acordos descumpridos.",
+      "title": "Direito de Família",
+      "subtitle": "Apoio jurídico em divórcios, guarda e pensões.",
+      "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Saiba mais"
+      "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Saúde – Planos de Saúde",
-      "subtitle": "Quando a saúde não pode esperar, a Justiça não atrasa.",
-      "description": "Defendemos pacientes contra negativas abusivas dos planos de saúde: <br/><br/>• Exames urgentes; <br/>• Cirurgias e internações; <br/>• Fornecimento de medicamentos. <br/><br/>Ingressamos com ações rápidas e liminares emergenciais para garantir o tratamento no tempo certo.",
+      "title": "Direito Trabalhista",
+      "subtitle": "Proteção dos direitos nas relações de trabalho.",
+      "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Saiba mais"
+      "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "<i>Compliance Jurídico</i> Jurídico",
-      "subtitle": "Prevenir riscos é mais inteligente do que remediar crises.",
-      "description": "Blindamos empresas contra riscos jurídicos e reputacionais: <br/><br/>• Programas de integridade (Lei Anticorrupção); <br/>• Códigos de conduta e políticas internas; <br/>• Compliance Contratual – análise e blindagem de contratos; <br/>• Mapeamento de riscos e auditoria preventiva; <br/>• Consultoria estratégica empresarial.",
+      "title": "Direito Criminal",
+      "subtitle": "Atuação firme na defesa em processos criminais.",
+      "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Saiba mais"
+      "buttonLabel": "A_Definir",
+      "servicesButton": "A_Definir"
     },
     "card5": {
       "title": "A_Definir",
@@ -82,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "SOBRE NÓS",
-    "title": "Nossa trajetória",
-    "subtitle": "Compromisso com a verdade, técnica e coragem em cada decisão jurídica.",
+    "miniTag": "QUEM É O DR. ABÍLIO HENRIQUE",
+    "title": "Minha trajetória",
+    "subtitle": "História marcada por ética, dedicação e compromisso com a justiça social.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Na Gomíde – Advocacia & Compliance Jurídico, atuamos com clareza, estratégia e precisão técnica.  <br/><br/> Nossa prática é guiada pela tríade que sustenta cada decisão: Verdade, Técnica e Coragem.  <br/><br/> Entregamos soluções jurídicas eficazes, com visão moderna e combativa, sempre focados em resultados concretos para nossos clientes.  <br/><br/>",
-    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
+    "paragraph": "O escritório AHF Advogados nasceu com a missão de oferecer um atendimento jurídico pautado na ética, no profissionalismo e no compromisso com a justiça. Desde o início, a prioridade sempre foi prestar uma assistência completa e humanizada, garantindo segurança e tranquilidade a cada cliente.",
+    "modal": "O escritório AHF Advogados nasceu com a missão de oferecer um atendimento jurídico pautado na ética, no profissionalismo e no compromisso com a justiça. Desde o início, a prioridade sempre foi prestar uma assistência completa e humanizada, garantindo segurança e tranquilidade a cada cliente. <br/><br/> Com atuação nas áreas Cível, de Família, Trabalhista e Criminal, o trabalho é desenvolvido de forma estratégica e dedicada, sempre em busca das melhores soluções jurídicas. Seja prevenindo conflitos, defendendo direitos ou construindo acordos, o objetivo é promover justiça e equilíbrio. <br/><br/> Acreditamos que a advocacia é um instrumento de transformação e cidadania. Por isso, cada caso é tratado de maneira individualizada, com atenção aos detalhes e respeito à história de quem nos procura, consolidando a confiança e fortalecendo a relação com nossos clientes ao longo do tempo. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
