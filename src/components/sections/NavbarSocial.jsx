@@ -82,8 +82,8 @@ export default function NavbarSocial({ colorMode, mode }) {
   const getNavbarClasses = () => {
     if (colorMode === "light") {
       return scrolling
-        ? "bg-colorNavbar bg-opacity-100 shadow-lg transition-all duration-1000"
-        : "bg-colorNavbar transition-colors duration-1000";
+        ? "bg-bgSectionLight bg-opacity-100 shadow-lg transition-all duration-1000"
+        : "bg-bgSectionLight transition-colors duration-1000";
     }
     if (colorMode === "dark") {
       return scrolling
