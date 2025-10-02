@@ -8,7 +8,7 @@ function CopyrightFooter() {
 
   return (
     <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
-      {/* <p className="w-full opacity-75">
+      <p className="w-full opacity-75">
         {t("footer.copyrightLine", { year: currentYear, name: infos.name })}
       </p>
       <p>
@@ -19,14 +19,6 @@ function CopyrightFooter() {
         >
           {t("footer.footerDivulgacaoText")}
         </a>
-      </p> */}
-
-      <p className="w-full opacity-75">
-        Excelência ampliada: a Gomíde Advocacia & Compliance Jurídico conta com
-        parcerias estratégicas nacionais e auditoria com certificação
-        internacional, assegurando padrões elevados de atuação.
-        <br />
-        <br />© 2025 Gomíde – Advocacia & Compliance Jurídico
       </p>
     </div>
   );
