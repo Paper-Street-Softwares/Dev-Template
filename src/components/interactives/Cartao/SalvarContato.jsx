@@ -40,7 +40,7 @@ export default function SalvarContatoButton({ socio }) {
 
   return (
     <Button
-      className=" rounded-[3px] p-1 bg-yellow-400 hover:bg-black text-primary hover:text-white "
+      className=" rounded-[3px] p-1 "
       onClick={handleSalvarContato}
       icon={
         <svg
