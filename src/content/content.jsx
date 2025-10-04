@@ -929,18 +929,34 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "Gabriel",
-        rota: "Gabriel",
-        sobrenome: "",
-        telefone: "21972613067",
-        whatsapp: "21972613067",
-        email: "",
+        // image: Socio1,
+        nome: "Edison",
+        rota: "Edison",
+        sobrenome: "Matos",
+        empresa: "Paper Street Softwares",
+        função: "CEO & Diretor Geral",
+        telefone: "",
+        whatsapp: "61992781077",
+        email: "edisonmatos6@gmail.com",
+        github: "edisonmatos.github.io/",
+        description:
+          "Executo a Direção Geral e Gestão Estratégica do negócio, com foco em processos que minimizam retrabalho e resultam numa maior percepção de valor por parte dos nossos clientes, encantando-os durante todo o período que lidam com a gente.",
         social: {
           instagram: "",
           facebook: "",
-          linkedin: "",
+          linkedin: "edison-matoss/",
           x: "",
           tiktok: "",
+          githubSocial: "github.com/edisonmatos",
+          whatsappSocial: "11988217850",
+          emailSocial: "edison@paperstreet.com.br",
+        },
+        empresaSocial: {
+          instagram: "paperstreet_sites/",
+          facebook: "61556114646068/",
+          linkedin:
+            "https://www.linkedin.com/company/paper-street-sofwares/posts/?feedView=all",
+          site: "https://www.paperstreet.com.br/",
         },
       },
       socio2: {
@@ -949,21 +965,6 @@ const content = {
         sobrenome: "",
         telefone: "00000000000",
         whatsapp: "00000000000",
-        email: "",
-        social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
-        },
-      },
-      socio4: {
-        nome: "Edison",
-        rota: "Edison",
-        sobrenome: "",
-        telefone: "66666666666",
-        whatsapp: "66666666666",
         email: "",
         social: {
           instagram: "",
