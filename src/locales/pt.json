@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Nossas Especialidades",
+    "title": "Tudo o que você precisa pra se sentir ainda mais linda",
+    "subtitle": "Do cabelo à pele, cuidamos de você com carinho, sem pesar no bolso.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Cuidados Capilares Premium",
+      "subtitle": "Tratamentos, coloração, corte e escova para fios saudáveis e radiantes.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Estética Facial Avançada",
+      "subtitle": "Limpezas de pele, peeling, tratamentos anti-idade e revitalização.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Beleza das Mãos e Pés",
+      "subtitle": "Manicure, pedicure, unhas decoradas e cuidados especiais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Embelezamento do Olhar & Sobrancelha",
+      "subtitle": "Design de sobrancelhas, alongamento de cílios, lifting e realce do olhar.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
