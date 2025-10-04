@@ -16,7 +16,7 @@ export default function Features6cards({ colorMode }) {
   };
   const textClasses = {
     dark: "text-white",
-    light: "text-black",
+    light: "text-secondary",
     default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
@@ -37,7 +37,7 @@ export default function Features6cards({ colorMode }) {
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
-        className={`text-center ${textClass}`}
+        className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={t("features.title")}
         sectionHeaderSubtitle={t("features.subtitle")}

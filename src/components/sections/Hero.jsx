@@ -79,9 +79,9 @@ export default function Hero({
             </div>
 
             <div className="flex justify-center desktop1:justify-start">
-              <div className="flex flex-col items-center desktop1:flex-row text-white">
+              <div className="flex flex-col items-center desktop1:flex-row text-secondary">
                 {content.texts.hero.obsHero.icon}
-                <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                <p className="text-secondary  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                   {t("hero.obsHero.text")}{" "}
                 </p>
               </div>
@@ -129,10 +129,10 @@ export default function Hero({
     HeroContent = renderHeroContent({
       minititleColor: isMobile
         ? "bg-minititle text-black"
-        : "bg-primary text-minititleDarkLabel",
-      titleTextColor: "text-white",
-      subtitleTextColor: "text-white",
-      obsTextColorOverride: "text-white",
+        : "bg-minititle text-minititleDarkLabel",
+      titleTextColor: "text-secondary",
+      subtitleTextColor: "text-secondary",
+      obsTextColorOverride: "text-secondary",
     });
   }
 
