@@ -4,7 +4,7 @@ import { PhoneCall } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
+function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
   // Define a cor do ícone com base no modo
   let iconColor = "";
 
@@ -39,7 +39,7 @@ function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            {content.texts.infos.phone}
+            {content.texts.infos.phone} - Dra. Luciene Martins
           </a>
         </div>
       </MotionDivDownToUp>
@@ -66,7 +66,7 @@ function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
               target="_blank"
               className="hover:underline"
             >
-              {content.texts.infos.phoneSecundario}
+              {content.texts.infos.phoneSecundario} - Dra. Márcia Silva
             </a>
           </div>
         </MotionDivDownToUp>
