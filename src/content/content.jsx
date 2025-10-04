@@ -68,7 +68,7 @@ export const infos = {
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "lucieneamm@hotmail.com", // Email desejado pelo cliente
   emailThree: "josesilva_marcia@outlook.com.br", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "martinsesilvaconsultoria.com.br", // Sem "www"
   phone: {
     ddd: "21",
     firstPart: "99216", // Apenas os 5 primeiros números (incluindo o 9)

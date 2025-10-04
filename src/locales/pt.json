@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "Martins & Silva Consultoria e Negócios Jurídicos",
+    "title": "Duas mentes jurídicas, <span class=\"text-primary font-bold\">um só propósito</span>",
+    "subtitle": "Luciene Martins e Márcia Silva unem experiência e visão estratégica para transformar desafios em soluções.",
+    "ctaButtonText": "Conheça nossa atuação",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online, com praticidade e agilidade para clientes em qualquer localidade"
     }
   },
   "features": {
