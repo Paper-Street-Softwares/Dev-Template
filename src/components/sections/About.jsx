@@ -27,7 +27,8 @@ export default function About({ modal = true, showGallery, colorMode }) {
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
-  const subtitleColor = colorMode === "light" ? "text-secondary/80" : "text-black";
+  const subtitleColor =
+    colorMode === "light" ? "text-secondary/80" : "text-white";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });
