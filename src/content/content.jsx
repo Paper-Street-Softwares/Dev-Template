@@ -8,10 +8,10 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
 import aboutImg from "../assets/imgs/about/aboutImg.webp";
-import img1 from "../assets/imgs/about/imgGaleria1.webp";
-import img2 from "../assets/imgs/about/imgGaleria2.webp";
-import img3 from "../assets/imgs/about/imgGaleria3.webp";
-import img4 from "../assets/imgs/about/imgGaleria4.webp";
+import img1 from "../assets/imgs/steps/imgGaleria1.webp";
+import img2 from "../assets/imgs/steps/imgGaleria2.webp";
+import img3 from "../assets/imgs/steps/imgGaleria3.webp";
+// import img4 from "../assets/imgs/about/imgGaleria4.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
@@ -55,10 +55,10 @@ import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
 import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
 import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
 import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
-import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
-import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
-import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
-import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
+import imgMobile1 from "../assets/imgs/steps/imgGaleriaMobile1.webp";
+import imgMobile2 from "../assets/imgs/steps/imgGaleriaMobile2.webp";
+import imgMobile3 from "../assets/imgs/steps/imgGaleriaMobile3.webp";
+// import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
 import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 
 const currentYear = new Date().getFullYear();
@@ -499,11 +499,11 @@ const content = {
           imgMobile: { imgMobile3 },
           alt: "Quarta imagem ilustrativa da da Seção Sobre",
         },
-        slide4: {
-          img: { img4 },
-          imgMobile: { imgMobile4 },
-          alt: "Quarta imagem ilustrativa da da Seção Sobre",
-        },
+        // slide4: {
+        //   img: { img4 },
+        //   imgMobile: { imgMobile4 },
+        //   alt: "Quarta imagem ilustrativa da da Seção Sobre",
+        // },
       },
 
       aboutSocial: {
