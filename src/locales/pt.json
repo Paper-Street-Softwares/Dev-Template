@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Av. do Jangadeiro, nº 351 - Sala 2 - Interlagos,  <br/> São Paulo - SP, <br/> CEP: 04815-010",
+    "adress": "Av. Ator José Wilker, <br/> nº 605 – Centro Metropolitano <br/> Barra da Tijuca – Rio de Janeiro - RJ, <br/> CEP: 22775-024",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 10:30 às 17h",
+    "expediente": "Segunda a sexta-feira: <br/> 10h às 19h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,57 +17,57 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO EM SÃO PAULO - SP",
-    "title": "Advocacia que gera <span class=\"text-primary font-bold\">confiança real</span>",
-    "subtitle": "Casos conduzidos com ética e estratégia, entregando resultados que transformam vidas e negócios",
+    "miniTag": "Martins & Silva Consultoria e Negócios Jurídicos",
+    "title": "Duas mentes jurídicas, <span class=\"text-primary font-bold\">um só propósito</span>",
+    "subtitle": "Luciene Martins e Márcia Silva unem experiência e visão estratégica para transformar desafios em soluções.",
     "ctaButtonText": "Conheça nossa atuação",
     "obsHero": {
-      "text": "Atendimento presencial com hora marcada e online para todo Brasil"
+      "text": "Atendimento online, com praticidade e agilidade para clientes em qualquer localidade"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Áreas de Atuação",
-    "subtitle": "Conheça os ramos do Direito em que oferecemos suporte especializado.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Especialidades Jurídicas",
+    "subtitle": "Conheça os principais ramos do Direito em que atuamos com dedicação e excelência.",
     "card1": {
-      "title": "Direito Cível",
-      "subtitle": "Defesa em conflitos civis com ética e clareza.",
+      "title": "Direito de Família",
+      "subtitle": "Soluções jurídicas em divórcios, guarda e herança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito de Família",
-      "subtitle": "Apoio jurídico em divórcios, guarda e pensões.",
+      "title": "Direito do Consumidor",
+      "subtitle": "Defesa de direitos em compras, contratos e serviços.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Proteção dos direitos nas relações de trabalho.",
+      "title": "Contratos",
+      "subtitle": "Análise e elaboração de contratos com segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Criminal",
-      "subtitle": "Atuação firme na defesa em processos criminais.",
+      "title": "Direito Empresarial",
+      "subtitle": "Assessoria legal completa para empresas e negócios.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Imobiliário",
+      "subtitle": "Regularização e disputas em imóveis urbanos e rurais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas em obrigações, bens e direitos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -83,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. ABÍLIO HENRIQUE",
-    "title": "Minha trajetória",
-    "subtitle": "História marcada por ética, dedicação e compromisso com a justiça social.",
+    "miniTag": "QUEM É O MARTINS & SILVA",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso jurídico aliado à experiência prática e soluções estratégicas. ",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O escritório AHF Advogados nasceu com a missão de oferecer um atendimento jurídico pautado na ética, no profissionalismo e no compromisso com a justiça. Desde o início, a prioridade sempre foi prestar uma assistência completa e humanizada, garantindo segurança e tranquilidade a cada cliente.",
-    "modal": "O escritório AHF Advogados nasceu com a missão de oferecer um atendimento jurídico pautado na ética, no profissionalismo e no compromisso com a justiça. Desde o início, a prioridade sempre foi prestar uma assistência completa e humanizada, garantindo segurança e tranquilidade a cada cliente. <br/><br/> Com atuação nas áreas Cível, de Família, Trabalhista e Criminal, o trabalho é desenvolvido de forma estratégica e dedicada, sempre em busca das melhores soluções jurídicas. Seja prevenindo conflitos, defendendo direitos ou construindo acordos, o objetivo é promover justiça e equilíbrio. <br/><br/> Acreditamos que a advocacia é um instrumento de transformação e cidadania. Por isso, cada caso é tratado de maneira individualizada, com atenção aos detalhes e respeito à história de quem nos procura, consolidando a confiança e fortalecendo a relação com nossos clientes ao longo do tempo. <br/><br/>",
+    "paragraph": "A Martins & Silva Consultoria e Negócios Jurídicos é um escritório moderno e dinâmico, que combina conhecimento especializado com prática jurídica para oferecer soluções personalizadas aos seus clientes. Ética, transparência e eficiência estão no centro de nossa atuação.",
+    "modal": "A Martins & Silva Consultoria e Negócios Jurídicos é um escritório moderno e dinâmico, que combina conhecimento especializado com prática jurídica para oferecer soluções personalizadas aos seus clientes. Ética, transparência e eficiência estão no centro de nossa atuação. <br/><br/> À frente do escritório está a Dra. Luciene Martins, advogada com ampla experiência em Direito de Família, Direito do Consumidor e Contratos. Seu trabalho é marcado por atendimento humanizado e pela busca de soluções práticas e seguras, sempre conciliando técnica e sensibilidade. <br/><br/> Complementando essa expertise, a Dra. Márcia Silva traz mais de 20 anos de atuação em Direito Empresarial e Imobiliário. Com sólida vivência em negociações, consultoria de negócios e gestão condominial, alia experiência prática ao profundo conhecimento jurídico em processos cíveis e societários. <br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",

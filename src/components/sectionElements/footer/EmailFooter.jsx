@@ -4,29 +4,29 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 
 function EmailFooter({
-  emailTwo = false,
-  emailThree = false,
+  emailTwo = true,
+  emailThree = true,
   emailFour = false,
   emailFive = false,
 }) {
   return (
     <>
-      <MotionDivDownToUp>
+      {/* <MotionDivDownToUp>
         <div className="flex full gap-x-[12px] items-center opacity-90">
           <span>
             <Mail />
           </span>
 
-          <p className="text-paragraph2">{content.texts.infos.email}</p>
+          <p className="text-paragraph3">{content.texts.infos.email}</p>
         </div>
-      </MotionDivDownToUp>
+      </MotionDivDownToUp> */}
 
       {emailTwo && (
         <MotionDivDownToUp>
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <Mail />
 
-            <p className="text-paragraph2">
+            <p className="text-paragraph3">
               {content.texts.infos.emailSecundario}{" "}
             </p>
           </div>
@@ -38,7 +38,7 @@ function EmailFooter({
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <Mail />
 
-            <p className="text-paragraph2">{content.texts.infos.emailThree}</p>
+            <p className="text-paragraph3">{content.texts.infos.emailThree}</p>
           </div>
         </MotionDivDownToUp>
       )}
@@ -48,7 +48,7 @@ function EmailFooter({
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <Mail />
 
-            <p className="text-paragraph2">{content.texts.infos.emailFour}</p>
+            <p className="text-paragraph3">{content.texts.infos.emailFour}</p>
           </div>
         </MotionDivDownToUp>
       )}
@@ -58,7 +58,7 @@ function EmailFooter({
           <div className="flex full gap-x-[12px] items-center opacity-90">
             <Mail />
 
-            <p className="text-paragraph2">{content.texts.infos.emailFive}</p>
+            <p className="text-paragraph3">{content.texts.infos.emailFive}</p>
           </div>
         </MotionDivDownToUp>
       )}

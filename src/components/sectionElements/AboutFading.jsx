@@ -3,7 +3,7 @@ import { Trans } from "react-i18next";
 export default function AboutFading({ colorMode = "default" }) {
   const textClasses = {
     dark: "text-white",
-    light: "text-black",
+    light: "text-secondary",
     default: "text-white",
   };
   const fadeClasses = {

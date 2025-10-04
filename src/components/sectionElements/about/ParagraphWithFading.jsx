@@ -3,7 +3,7 @@ import AboutFading from "../AboutFading";
 
 export default function ParagraphWithFading({ colorMode }) {
   return (
-    <Paragraphs className="text-white text-opacity-80">
+    <Paragraphs className="text-secondary text-opacity-80">
       <AboutFading colorMode={colorMode} />
     </Paragraphs>
   );

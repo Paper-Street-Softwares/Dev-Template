@@ -14,7 +14,7 @@ export default function AboutModal() {
     setModalTitle(t("about.title"));
 
     setModalContent(
-      <div className="text-paragraph3">
+      <div className="text-paragraph3 text-secondary">
         {/* <p className="mb-[20px]">
           <Trans i18nKey="about.subtitle" />
         </p> */}
@@ -22,7 +22,7 @@ export default function AboutModal() {
         <Trans i18nKey="about.modal" components={{ br: <br /> }} />
 
         <div className="">
-          <p className="mt-[15px] mb-[20px]">
+          <p className="mt-[15px] mb-[20px] text-secondary">
             <Trans i18nKey="about.ctaButtonAriaLabel" />
           </p>
           <Button
@@ -65,7 +65,7 @@ export default function AboutModal() {
       <Dialog
         className="font-secondFont"
         closeIcon={<X size={20} />}
-        header={modalTitle}
+        header={<span className="text-secondary">{modalTitle}</span>}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}

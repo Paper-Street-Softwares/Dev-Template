@@ -48,6 +48,8 @@ import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
 import imgNews1 from "../assets/imgs/news/imgNews1.webp";
+import Socio1 from "../assets/imgs/team/team1.webp";
+import Socio2 from "../assets/imgs/team/team2.webp";
 
 // versão mobile
 import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
@@ -64,19 +66,20 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Abílio Henrique",
+  name: "Martins & Silva Consultoria Jurídica",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "abiliiohenrique.com.br", // Sem "www"
+  emailSecundario: "lucieneamm@hotmail.com", // Email desejado pelo cliente
+  emailThree: "josesilva_marcia@outlook.com.br", // Email desejado pelo cliente
+  domain: "martinsesilvaconsultoria.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98274", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7301", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "99216", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0225", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98004", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2899", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -107,7 +110,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "dr.abiliohenrique", // Sem o @
+  instagramProfile: "", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
@@ -234,13 +237,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
-            <path d="m16 16 6-6" />
-            <path d="m21.5 10.5-8-8" />
-            <path d="m8 8 6-6" />
-            <path d="m8.5 7.5 8 8" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -270,12 +272,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -304,12 +305,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -339,9 +341,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -371,11 +376,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-map-pin-house-icon lucide-map-pin-house"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z" />
+            <path d="M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2" />
+            <path d="M18 22v-3" />
+            <circle cx="10" cy="10" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -405,11 +411,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
+            <path d="m16 16 6-6" />
+            <path d="m21.5 10.5-8-8" />
+            <path d="m8 8 6-6" />
+            <path d="m8.5 7.5 8 8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -540,9 +548,8 @@ const content = {
       // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="">Dúvidas?</span> Entre em contato conosco para
+          podermos lhe ajudar, <span className="">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -956,48 +963,63 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "Gabriel",
-        rota: "Gabriel",
-        sobrenome: "",
-        telefone: "21972613067",
-        whatsapp: "21972613067",
-        email: "",
+        image: Socio1,
+        nome: "Luciene", //não pode conter acentuações
+        rota: "Luciene", //não pode conter acentuações
+        sobrenome: "Martins",
+        empresa: "Martins & Silva",
+        função: "Advogada",
+        telefone: "",
+        whatsapp: "21992160225",
+        email: "lucieneamm@hotmail.com",
+        github: "",
+        description:
+          "Advogada com ampla experiência em Direito de Família, Direito do Consumidor e Contratos. Sua atuação é marcada pela dedicação ao atendimento humanizado e pela busca de soluções práticas e seguras para seus clientes, conciliando a técnica jurídica com a sensibilidade necessária nessas áreas.",
         social: {
           instagram: "",
           facebook: "",
           linkedin: "",
           x: "",
           tiktok: "",
+          githubSocial: "",
+          whatsappSocial: "",
+          emailSocial: "",
+        },
+        empresaSocial: {
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          site: "",
         },
       },
       socio2: {
-        nome: "Biell",
-        rota: "Biell",
-        sobrenome: "",
-        telefone: "00000000000",
-        whatsapp: "00000000000",
-        email: "",
+        image: Socio2,
+        nome: "Marcia", //não pode conter acentuações
+        rota: "Marcia", //não pode conter acentuações
+        sobrenome: "Silba",
+        empresa: "Martins & Silva",
+        função: "Advogada",
+        telefone: "",
+        whatsapp: "21980042899",
+        email: "josesilva_marcia@outlook.com.br",
+        github: "",
+        description:
+          "Advogada especialista em Direito Empresarial e Imobiliário, com mais de 20 anos de atuação no mercado jurídico e corporativo. Possui sólida vivência em negociações, contratos, consultoria de negócios e gestão condominial, além de ampla experiência em processos cíveis e societários.",
         social: {
           instagram: "",
           facebook: "",
           linkedin: "",
           x: "",
           tiktok: "",
+          githubSocial: "",
+          whatsappSocial: "",
+          emailSocial: "",
         },
-      },
-      socio4: {
-        nome: "Edison",
-        rota: "Edison",
-        sobrenome: "",
-        telefone: "66666666666",
-        whatsapp: "66666666666",
-        email: "",
-        social: {
+        empresaSocial: {
           instagram: "",
           facebook: "",
           linkedin: "",
-          x: "",
-          tiktok: "",
+          site: "",
         },
       },
     },
@@ -1017,6 +1039,7 @@ const content = {
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
+      emailThree: `${infos.emailThree}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
