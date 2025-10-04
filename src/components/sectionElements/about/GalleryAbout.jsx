@@ -31,12 +31,12 @@ function GalleryAbout() {
         : content.texts.about.galeria.slide3.img.img3,
       originalAlt: content.texts.about.galeria.slide3.alt,
     },
-    {
-      original: isMobile
-        ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
-        : content.texts.about.galeria.slide4.img.img4,
-      originalAlt: content.texts.about.galeria.slide4.alt,
-    },
+    // {
+    //   original: isMobile
+    //     ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
+    //     : content.texts.about.galeria.slide4.img.img4,
+    //   originalAlt: content.texts.about.galeria.slide4.alt,
+    // },
   ];
 
   return (
@@ -57,7 +57,7 @@ function GalleryAbout() {
           <style>
             {`
               .custom-gallery .image-gallery-slide img {
-                height: 300px; 
+                height: 500px; 
                 width: 100%;
                 object-fit: cover;
                 border-radius: 10px;
@@ -65,13 +65,14 @@ function GalleryAbout() {
 
               @media (min-width: 640px) and (max-width: 1023px) {
                 .custom-gallery .image-gallery-slide img {
-                  height: 800px;
+                  height: 900px;
                 }
               }
 
               @media (min-width: 1024px) {
                 .custom-gallery .image-gallery-slide img {
-                  height: 470px;
+                  min-height: 700px;
+                  
                 }
               }
 
