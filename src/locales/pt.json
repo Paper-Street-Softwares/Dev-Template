@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Av Mozart Lucena, nº 1170 <br/> Fortaleza - CE, <br/> CEP: 60347-452",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> Atendimentos via pedidos",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,57 +17,71 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESTÚDIO DE BELEZA EM FORTALEZA - CE",
-    "title": "Você já se olhou <span class=\"text-primary font-bold\">no espelho hoje?</span>",
-    "subtitle": "Descubra como pequenos cuidados podem mudar seu olhar, sua pele e até sua autoestima.",
-    "ctaButtonText": "Quero me sentir diferente",
+    "miniTag": "A_Definir",
+    "title": "Seu bolo ainda parece de <span class=\"text-primary font-bold\">padaria?</span>",
+    "subtitle": "Descubra os segredos que transformam qualquer receita simples em bolos de vitrine.",
+    "ctaButtonText": "Quero aprender agora",
     "obsHero": {
-      "text": "Atendimento online: Transforme sua beleza sem precisar sair de casa."
+      "text": "Oferecemos atendimento online para pedidos e também disponibilizamos aulas virtuais, com foco em atender alunos de diferentes estados."
     }
   },
   "features": {
-    "miniTag": "Nossas Especialidades",
-    "title": "Tudo o que você precisa pra se sentir ainda mais linda",
-    "subtitle": "Do cabelo à pele, cuidamos de você com carinho, sem pesar no bolso.",
+    "miniTag": "Nossas maravilhas",
+    "title": "Doces e bolos que encantam em cada detalhe",
+    "subtitle": "Atendemos encomendas personalizadas para festas, eventos e celebrações, além de oferecer aulas online para apaixonados pela confeitaria em todo o Brasil.",
     "card1": {
-      "title": "Cuidados Capilares Premium",
-      "subtitle": "Tratamentos, coloração, corte e escova para fios saudáveis e radiantes.",
+      "title": "Torta bolo de Nozes",
+      "subtitle": "Recheada com brigadeiro de nozes e queijo, geleia artesanal de damasco e envolto no merengue italiano maçaricado.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Estética Facial Avançada",
-      "subtitle": "Limpezas de pele, peeling, tratamentos anti-idade e revitalização.",
+      "title": "Bolo de Ouro Branco",
+      "subtitle": "Com brigadeiro de Ninho e Nutella. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Beleza das Mãos e Pés",
-      "subtitle": "Manicure, pedicure, unhas decoradas e cuidados especiais.",
+      "title": "Bolo de Churros",
+      "subtitle": "Recheado com doce de leite caseiro.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Embelezamento do Olhar & Sobrancelha",
-      "subtitle": "Design de sobrancelhas, alongamento de cílios, lifting e realce do olhar.",
+      "title": "Bolo de Tapioca",
+      "subtitle": "Coberto com brigadeiro de doce de leite e coco queimado no topo.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Torta Bolo Strudel de Maçã",
+      "subtitle": "Massa de maçã, nozes, cranberry, passas, canela, recheado com caramelo salè e chantilly feito com nata fresca. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bolo Romeu e Julieta",
+      "subtitle": "Massa de queijo, coberto com brigadeiro de queijo e calda de goiabada no topo.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card7": {
+      "title": "Cupcakes diversos",
+      "subtitle": "",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card8": {
+      "title": "Cupcakes diversos",
+      "subtitle": "",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -83,22 +97,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É ZÂNIA NEPOMUCENO",
-    "title": "Minha trajetória",
-    "subtitle": "De aprendiz curiosa a profissional dedicada, minha paixão sempre foi a beleza.",
+    "miniTag": "Aprenda agora",
+    "title": "Domine a arte dos bolos",
+    "subtitle": "Um guia prático e direto para você criar bolos irresistíveis em casa.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Desde muito jovem, descobri na beleza uma forma de transformar a autoestima das pessoas. A cada curso e experiência, percebi que esse era o caminho que eu queria seguir. <br/><br/> Com dedicação e esforço, fui me especializando em cuidados capilares, estética e bem-estar. Cada cliente que atendia se tornava uma inspiração para continuar crescendo. <br/><br/> Hoje, levo comigo a missão de mostrar que cuidar de si mesma não precisa ser um luxo. Meu trabalho é oferecer qualidade, carinho e resultado para todas as mulheres.",
-    "modal": "",
+    "paragraph": "Com este e-book, você terá acesso a técnicas simples e segredos de confeitaria que elevam suas receitas a um novo nível. Aprenda passo a passo, sem complicação, e descubra como transformar sua paixão por bolos em resultados de dar água na boca.",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
-      "subtitle": "Acompanhe nossas redes sociais e fique por dentro de dicas, novidades e tendências do mundo da beleza",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "subtitle": "Acompanhe nossas redes sociais para ficar por dentro de novidades, dicas e inspirações deliciosas do mundo da confeitaria.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
   "news": {
@@ -107,8 +121,13 @@
     "subtitle": "A_Definir",
     "description": "A_Definir"
   },
+  "testimonials": {
+    "miniTag": "Quem já brilhou",
+    "title": "Histórias reais de quem se tornou mestre na confeitaria",
+    "subtitle": "Conheça alunos que transformaram suas receitas, conquistaram confiança na cozinha e criaram bolos incríveis com nosso curso."
+  },
   "ctaSecondary": {
-    "title": "<span class=\"text-black font-bold\">Não está feliz com seu visual?</span><span class=\"text-primary font-bold\">Deixe que a gente cuida disso pra você!</span>",
+    "title": "<span class=\"text-primary font-bold\">Quer um bolo incrível ou aprender novas técnicas? </span><span class=\" font-bold\">Fale com a gente!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -120,23 +139,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Atendimento inicial",
-        "cardDescription": "Conversamos com você para entender seus desejos e o resultado que espera alcançar."
+        "cardTitle": "Inscrição e acesso",
+        "cardDescription": "Adquira o e-book e receba imediatamente o material digital com todas as receitas e instruções para começar."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise personalizada",
-        "cardDescription": "Avaliamos seus cabelos, pele ou necessidades estéticas para indicar o melhor cuidado."
+        "cardTitle": "Aprenda passo a passo",
+        "cardDescription": "Conteúdo organizado e direto: receitas testadas, técnicas essenciais e fotos que mostram cada etapa para você entender e repetir."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Definição do tratamento",
-        "cardDescription": "Montamos um plano de beleza pensado exclusivamente para você, de forma acessível e eficaz."
+        "cardTitle": "Pratique e aperfeiçoe",
+        "cardDescription": "Exercícios práticos, checklists e dicas de ajuste para que seus bolos evoluam a cada tentativa."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Atendimento com carinho",
-        "cardDescription": "Realizamos o procedimento escolhido, sempre prezando pelo cuidado, bem-estar e sua autoestima."
+        "cardTitle": "Suporte e aplicação",
+        "cardDescription": "Tire dúvidas, aplique as técnicas nas suas encomendas ou para presentear quem você ama — e transforme o aprendizado em bolos de destaque."
       }
     }
   },
@@ -154,20 +173,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Quais serviços vocês oferecem e qual o mais indicado para mim?",
-        "answer": "Oferecemos tratamentos para cabelo, pele, unhas e estética facial. Na primeira consulta, avaliamos suas necessidades e indicamos o serviço ideal pra você."
+        "question": "Como recebo o e-book após a compra?",
+        "answer": "Assim que o pagamento for aprovado, você receberá um e-mail com o link para download imediato do e-book. O acesso é enviado diretamente para o seu e-mail, permitindo que você comece a aprender sem demora."
       },
       "question2": {
-        "question": "Qual o custo e por que os preços variam?",
-        "answer": "O valor depende do tipo de serviço e da duração do tratamento. Na consulta, explicamos cada opção e montamos um plano que cabe no seu bolso."
+        "question": "Preciso de experiência prévia em confeitaria para aproveitar o curso?",
+        "answer": "Não! O curso é ideal tanto para iniciantes quanto para quem já possui alguma experiência. As receitas e técnicas são apresentadas de forma clara e acessível, permitindo que qualquer pessoa possa acompanhar e aprender."
       },
       "question3": {
-        "question": "Qual a duração do tratamento e quando verei resultados?",
-        "answer": "Alguns resultados aparecem na primeira sessão, outros precisam de acompanhamento. Na consulta, passamos uma previsão realista do tempo e das etapas."
+        "question": "Posso acessar o conteúdo do curso a qualquer momento?",
+        "answer": "Sim! O curso é totalmente online e você pode acessar o conteúdo a qualquer hora e de qualquer lugar. Isso permite que você aprenda no seu próprio ritmo, sem pressa."
       },
       "question4": {
-        "question": "Que cuidados preciso ter antes e depois do serviço?",
-        "answer": "Damos todas as orientações para você manter o resultado em casa, desde produtos certos até hábitos diários que ajudam a prolongar os efeitos do tratamento."
+        "question": "Receberei certificado após concluir o curso?",
+        "answer": "Sim! Ao finalizar o curso, você receberá um certificado digital que comprova sua participação e aprendizado. Isso pode ser útil para quem deseja iniciar um negócio próprio ou aprimorar suas habilidades na confeitaria."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

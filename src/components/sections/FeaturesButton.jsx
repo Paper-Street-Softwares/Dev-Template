@@ -38,7 +38,7 @@ export default function FeaturesButton({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3, 4];
+  const cardNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
   return (
     <>
@@ -48,12 +48,11 @@ export default function FeaturesButton({ colorMode }) {
       >
         <SectionHeader
           className={`text-center ${textClass} mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]`}
-          // miniTitle={t("features.miniTag")}
+          miniTitle={t("features.miniTag")}
           sectionHeaderTitle={t("features.title")}
           sectionHeaderSubtitle={t("features.subtitle")}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
-          miniTitleBgColor={false}
         />
 
         <SectionWrapper>

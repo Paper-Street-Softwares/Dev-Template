@@ -27,8 +27,8 @@ export default function AboutParalaxeLP({ logo }) {
           <p>{contentLp01.about.modalAbout}</p>
           <p className="mt-[15px] mb-[20px]"></p>
           {/* <Button
-            aria-label={"a_Definir"}
-            label={"a_Definir"}
+            aria-label={"A_Definir"}
+            label={"A_Definir"}
             animation={false}
             className="hover:scale-105"
             icon={

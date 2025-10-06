@@ -15,7 +15,7 @@ export default function HowItWorksCard({
       textOpacity = "opacity-90";
       break;
     case "dark":
-      textColor = "text-secondary";
+      textColor = "text-white";
       textOpacity = "opacity-80";
       break;
     case "default":
@@ -35,7 +35,7 @@ export default function HowItWorksCard({
         {title}
       </h1>
       <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center font-secondFont desktop1:text-left w-full ${textColor} ${textOpacity}`}
       >
         {description}
       </p>

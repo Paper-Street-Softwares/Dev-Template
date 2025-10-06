@@ -29,8 +29,8 @@ export default function Steps({ colorMode }) {
     <SectionArea className={`${bgClass}`} paddingbot={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/5">
-          <GalleryAbout />
-          {/* <picture>
+          {/* <GalleryAbout /> */}
+          <picture>
             <source
               srcSet={content.texts.steps.imgMobile}
               media="(max-width: 424px)"
@@ -41,7 +41,7 @@ export default function Steps({ colorMode }) {
               className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
               loading="lazy"
             />
-          </picture> */}
+          </picture>
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px]">

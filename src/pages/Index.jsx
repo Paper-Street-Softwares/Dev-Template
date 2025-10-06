@@ -17,6 +17,7 @@ import Button from "../components/interactives/Button";
 import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
+import Testimonial from "../components/sections/lp01/Testimonials";
 
 export default function Index() {
   const showUnderConstruction = false;
@@ -66,8 +67,8 @@ export default function Index() {
 
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
-        button={false}
+        defaultFeature={false}
+        button={true}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
@@ -78,13 +79,15 @@ export default function Index() {
       <About modal={false} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={true} />
 
+      <Testimonial />
+
       {/* <News /> */}
-      <CtaSecondary />
+      <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
-      <FooterSocial colorMode={colorMode} addres={true} obs={false} />
+      <FooterSocial colorMode={colorMode} addres={false} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>
