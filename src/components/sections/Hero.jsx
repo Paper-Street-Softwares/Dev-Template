@@ -30,7 +30,7 @@ export default function Hero({
   }) => {
     return (
       <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-        <MotionDivDownToUp>
+        {/* <MotionDivDownToUp>
           <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
             <p
               className={`mb-[16px] rounded-md px-[16px] py-[6px] inline-block text-paragraph2 ${minititleColor}`}
@@ -38,7 +38,7 @@ export default function Hero({
               {t("hero.miniTag")}
             </p>
           </div>
-        </MotionDivDownToUp>
+        </MotionDivDownToUp> */}
 
         <MotionDivDownToUp>
           <div
@@ -62,6 +62,7 @@ export default function Hero({
               <Button
                 aria-label={t("hero.ctaButtonAriaLabel")}
                 label={t("hero.ctaButtonText")}
+                buttonLink="https://p.eduzz.com/2725901"
                 animation
                 className="w-[100%]"
                 icon={
@@ -79,9 +80,13 @@ export default function Hero({
             </div>
 
             <div className="flex justify-center desktop1:justify-start">
-              <div className="flex flex-col items-center desktop1:flex-row text-secondary">
-                {content.texts.hero.obsHero.icon}
-                <p className="text-secondary  ml-[10px] text-center font-secondFont desktop1:text-start mt-[12px] desktop1:mt-0">
+              <div
+                className={`flex flex-col items-center desktop1:flex-row ${obsTextColorOverride}`}
+              >
+                <span>{content.texts.hero.obsHero.icon}</span>
+                <p
+                  className={`ml-[10px] text-center font-secondFont desktop1:text-start mt-[12px] desktop1:mt-0 ${obsTextColorOverride}`}
+                >
                   {t("hero.obsHero.text")}{" "}
                 </p>
               </div>
@@ -130,9 +135,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-black"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-secondary",
-      subtitleTextColor: "text-secondary",
-      obsTextColorOverride: "text-secondary",
+      titleTextColor: "text-white",
+      subtitleTextColor: "text-white",
+      obsTextColorOverride: "text-white",
     });
   }
 
@@ -272,6 +277,7 @@ export default function Hero({
                           label={t("hero.ctaButtonText")}
                           animation
                           className="w-[100%]"
+                          buttonLink="https://p.eduzz.com/2725901"
                           icon={
                             <svg
                               xmlns="http://www.w3.org/2000/svg"

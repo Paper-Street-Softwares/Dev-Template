@@ -34,7 +34,7 @@ const BackToTopButton = () => {
       } fixed bottom-8 left-8 p-4 bg-primary border-2 rounded-full z-10 focus:outline-none hover:scale-125 transition`}
       onClick={scrollToTop}
     >
-      <ArrowUp className="text-iconButtons" />
+      <ArrowUp className="text-black" />
     </button>
   );
 };
