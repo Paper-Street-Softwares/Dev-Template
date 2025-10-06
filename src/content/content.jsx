@@ -23,10 +23,14 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
+import featuresImg1 from "../assets/imgs/features/Features1.webp";
+import featuresImg2 from "../assets/imgs/features/Features2.webp";
+import featuresImg3 from "../assets/imgs/features/Features3.webp";
+import featuresImg4 from "../assets/imgs/features/Features4.webp";
+import featuresImg5 from "../assets/imgs/features/Features5.webp";
+import featuresImg6 from "../assets/imgs/features/Features6.webp";
+import featuresImg7 from "../assets/imgs/features/Features7.webp";
+import featuresImg8 from "../assets/imgs/features/Features8.webp";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
@@ -322,7 +326,7 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card5: {
-        img: featuresImg3,
+        img: featuresImg5,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (
@@ -356,7 +360,75 @@ const content = {
         buttonLabel: "Saiba Mais",
       },
       card6: {
-        img: 3,
+        img: featuresImg6,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
+        img: featuresImg7,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card8: {
+        img: featuresImg8,
         title: "A_Definir",
         subtitle: "A_Definir",
         description: (

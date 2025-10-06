@@ -26,48 +26,62 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Nossas maravilhas",
+    "title": "Doces e bolos que encantam em cada detalhe",
+    "subtitle": "Atendemos encomendas personalizadas para festas, eventos e celebrações, além de oferecer aulas online para apaixonados pela confeitaria em todo o Brasil.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Torta bolo de Nozes",
+      "subtitle": "Recheada com brigadeiro de nozes e queijo, geleia artesanal de damasco e envolto no merengue italiano maçaricado.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bolo de Ouro Branco",
+      "subtitle": "Com brigadeiro de Ninho e Nutella. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bolo de Churros",
+      "subtitle": "Coberto com brigadeiro de doce de leite e coco queimado no topo.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bolo de Tapioca",
+      "subtitle": "Coberto com brigadeiro de doce de leite e coco queimado no topo.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Torta Bolo Strudel de Maçã",
+      "subtitle": "Massa de maçã, nozes, cranberry, passas, canela, recheado com caramelo salè e chantilly feito com nata fresca. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bolo Romeu e Julieta",
+      "subtitle": "Massa de queijo, coberto com brigadeiro de queijo e calda de goiabada no topo.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card7": {
+      "title": "Cupcakes diversos",
+      "subtitle": "",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "card8": {
+      "title": "Cupcakes diversos",
+      "subtitle": "",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
