@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Av Mozart Lucena, nº 1170 <br/> Fortaleza - CE, <br/> CEP: 60347-452",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESTÚDIO DE BELEZA EM FORTALEZA - CE",
-    "title": "Você já se olhou <span class=\"text-primary font-bold\">no espelho hoje?</span>",
-    "subtitle": "Descubra como pequenos cuidados podem mudar seu olhar, sua pele e até sua autoestima.",
-    "ctaButtonText": "Quero me sentir diferente",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento online: Transforme sua beleza sem precisar sair de casa."
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "Nossas Especialidades",
-    "title": "Tudo o que você precisa pra se sentir ainda mais linda",
-    "subtitle": "Do cabelo à pele, cuidamos de você com carinho, sem pesar no bolso.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Cuidados Capilares Premium",
-      "subtitle": "Tratamentos, coloração, corte e escova para fios saudáveis e radiantes.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Estética Facial Avançada",
-      "subtitle": "Limpezas de pele, peeling, tratamentos anti-idade e revitalização.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Beleza das Mãos e Pés",
-      "subtitle": "Manicure, pedicure, unhas decoradas e cuidados especiais.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Embelezamento do Olhar & Sobrancelha",
-      "subtitle": "Design de sobrancelhas, alongamento de cílios, lifting e realce do olhar.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,22 +83,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É ZÂNIA NEPOMUCENO",
-    "title": "Minha trajetória",
-    "subtitle": "De aprendiz curiosa a profissional dedicada, minha paixão sempre foi a beleza.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Desde muito jovem, descobri na beleza uma forma de transformar a autoestima das pessoas. A cada curso e experiência, percebi que esse era o caminho que eu queria seguir. <br/><br/> Com dedicação e esforço, fui me especializando em cuidados capilares, estética e bem-estar. Cada cliente que atendia se tornava uma inspiração para continuar crescendo. <br/><br/> Hoje, levo comigo a missão de mostrar que cuidar de si mesma não precisa ser um luxo. Meu trabalho é oferecer qualidade, carinho e resultado para todas as mulheres.",
-    "modal": "",
+    "paragraph": "A_Definir",
+    "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Acompanhe nossas redes sociais e fique por dentro de dicas, novidades e tendências do mundo da beleza",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X"
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X"
     }
   },
   "news": {
@@ -108,7 +108,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-black font-bold\">Não está feliz com seu visual?</span><span class=\"text-primary font-bold\">Deixe que a gente cuida disso pra você!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -120,23 +120,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Atendimento inicial",
-        "cardDescription": "Conversamos com você para entender seus desejos e o resultado que espera alcançar."
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise personalizada",
-        "cardDescription": "Avaliamos seus cabelos, pele ou necessidades estéticas para indicar o melhor cuidado."
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Definição do tratamento",
-        "cardDescription": "Montamos um plano de beleza pensado exclusivamente para você, de forma acessível e eficaz."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Atendimento com carinho",
-        "cardDescription": "Realizamos o procedimento escolhido, sempre prezando pelo cuidado, bem-estar e sua autoestima."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -154,20 +154,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Quais serviços vocês oferecem e qual o mais indicado para mim?",
-        "answer": "Oferecemos tratamentos para cabelo, pele, unhas e estética facial. Na primeira consulta, avaliamos suas necessidades e indicamos o serviço ideal pra você."
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "Qual o custo e por que os preços variam?",
-        "answer": "O valor depende do tipo de serviço e da duração do tratamento. Na consulta, explicamos cada opção e montamos um plano que cabe no seu bolso."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Qual a duração do tratamento e quando verei resultados?",
-        "answer": "Alguns resultados aparecem na primeira sessão, outros precisam de acompanhamento. Na consulta, passamos uma previsão realista do tempo e das etapas."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Que cuidados preciso ter antes e depois do serviço?",
-        "answer": "Damos todas as orientações para você manter o resultado em casa, desde produtos certos até hábitos diários que ajudam a prolongar os efeitos do tratamento."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

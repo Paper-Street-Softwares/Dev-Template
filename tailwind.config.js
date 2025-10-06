@@ -5,17 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#BD9D42",
-      buttonColor: "#BD9D42",
-      minititleDark: "#BD9D42", //bg minitag de seções claras
-      minititle: "#BD9D42", //bg minitag de seções escuras
+      primary: "#EBE6C2",
+      buttonColor: "#EBE6C2",
+      minititleDark: "#EBE6C2", //bg minitag de seções claras
+      minititle: "#EBE6C2", //bg minitag de seções escuras
 
-      secondary: "#FFFFFF",
+      secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#141414",
+      bgSectionDark: "#761711",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -29,7 +29,7 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      iconButtons: "#000",
+      iconButtons: "#fff",
       labelButtons: "#000",
       minititleLightLabel: "#000", //label das minitag de seções claras
       minititleDarkLabel: "#000", //label minitag de seções escuras
@@ -55,7 +55,7 @@ export const theme = {
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Roboto"],
+      secondFont: ["Roboto", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
