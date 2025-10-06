@@ -39,7 +39,7 @@ function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            {content.texts.infos.phone} - Dra. Luciene Martins
+            {content.texts.infos.phone}
           </a>
         </div>
       </MotionDivDownToUp>
@@ -66,7 +66,7 @@ function PhoneFooter({ colorMode, phoneTwo = false, phoneThree = false }) {
               target="_blank"
               className="hover:underline"
             >
-              {content.texts.infos.phoneSecundario} - Dra. Márcia Silva
+              {content.texts.infos.phoneSecundario}
             </a>
           </div>
         </MotionDivDownToUp>
