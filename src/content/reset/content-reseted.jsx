@@ -210,6 +210,7 @@ const content = {
       title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
+      alt: "imagem representativa da Seção Serviços",
       card1: {
         img: featuresImg1,
         title: "A_Definir",
