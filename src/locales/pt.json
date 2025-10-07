@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "maps": "Mapa",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
@@ -74,27 +75,27 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Ribeirão Preto - SP",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Sobre o Escritório Perez Advocacia",
+    "title": "Nossa trajetória",
+    "subtitle": "Comprometidos com a verdade, atuamos com técnica, estratégia e propósito claro.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "Desde a fundação, o Escritório Perez Advocacia nasceu com o propósito de unir conhecimento jurídico e visão humana. Cada caso é conduzido com atenção genuína e foco em resultados concretos.",
+    "modal": "Desde a fundação, o Escritório Perez Advocacia nasceu com o propósito de unir conhecimento jurídico e visão humana. Cada caso é conduzido com atenção genuína e foco em resultados concretos. <br/><br/> Nosso compromisso é oferecer soluções eficientes, sempre baseadas em transparência, ética e técnica. Acreditamos que o Direito deve ser acessível e estratégico, servindo como instrumento de transformação real. <br/><br/> Com uma atuação moderna e dinâmica, buscamos constantemente inovação e excelência, mantendo a confiança de nossos clientes como o alicerce de cada conquista. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
