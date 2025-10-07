@@ -30,7 +30,7 @@ export default function Hero({
   }) => {
     return (
       <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-        {/* <MotionDivDownToUp>
+        <MotionDivDownToUp>
           <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
             <p
               className={`mb-[16px] rounded-md px-[16px] py-[6px] inline-block text-paragraph2 ${minititleColor}`}
@@ -38,7 +38,7 @@ export default function Hero({
               {t("hero.miniTag")}
             </p>
           </div>
-        </MotionDivDownToUp> */}
+        </MotionDivDownToUp>
 
         <MotionDivDownToUp>
           <div

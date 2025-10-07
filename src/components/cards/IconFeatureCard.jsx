@@ -6,7 +6,7 @@ export default function IconFeatureCard(props) {
   const bgClassesIcon = {
     dark: "bg-primary",
     light: "bg-minititle",
-    default: "bg-bgSectionDark",
+    default: "bg-buttonColor",
   };
   const textClasses = {
     dark: "text-white",
