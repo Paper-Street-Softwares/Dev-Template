@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Perez Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "perezadvocacia.net.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "16",
+    firstPart: "99318", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0849", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,8 +107,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
-  facebookProfile: "",
+  instagramProfile: "perez_advocacia", // Sem o @
+  facebookProfile: "luena.perez.3?mibextid=LQQJ4d",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
