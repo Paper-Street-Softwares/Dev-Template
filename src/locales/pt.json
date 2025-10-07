@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM RIBEIRÃO PRETO - SP",
+    "title": "Quando o problema é sério, <span class=\"text-primary font-bold\">o Direito age</span>",
+    "subtitle": "Cada caso é uma história — e o seu pode ser o próximo a virar um exemplo de vitória e superação jurídica.",
+    "ctaButtonText": "Quero meu caso resolvido",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e online para todo Brasil"
     }
   },
   "features": {
