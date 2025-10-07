@@ -11,8 +11,8 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "maps": "Mapa",
-      "faq": "Perguntas Frequentes"
+      "faq": "Perguntas Frequentes",
+      "maps": "Mapa"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"

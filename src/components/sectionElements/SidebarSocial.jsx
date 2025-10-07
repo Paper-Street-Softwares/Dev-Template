@@ -46,9 +46,9 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <UserSearch />,
     <ServerIcon />,
     // <FileText />,
-    <HelpCircle />,
+    <MapPin />,
 
-    // <MapPin />,
+    <HelpCircle />,
   ];
 
   return (
