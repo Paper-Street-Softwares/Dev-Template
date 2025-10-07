@@ -76,9 +76,8 @@ export default function About({ modal = true, showGallery, colorMode }) {
               <ParagraphSemFading colorMode={colorMode} />
             )}
             {modal && <AboutModal colorMode={colorMode} />}
-            <Button
-              label="Baixar meu e-book"
-              buttonLink="https://p.eduzz.com/2725901"
+            {/* <Button
+              label="Label"
               className="mt-6"
               icon={
                 <svg
@@ -98,7 +97,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
                   <path d="m9 10 3 3 3-3" />
                 </svg>
               }
-            />
+            /> */}
           </MotionDivDownToUp>
         </div>
       </SectionWrapper>

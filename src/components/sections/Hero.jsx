@@ -62,7 +62,6 @@ export default function Hero({
               <Button
                 aria-label={t("hero.ctaButtonAriaLabel")}
                 label={t("hero.ctaButtonText")}
-                buttonLink="https://p.eduzz.com/2725901"
                 animation
                 className="w-[100%]"
                 icon={
@@ -277,7 +276,6 @@ export default function Hero({
                           label={t("hero.ctaButtonText")}
                           animation
                           className="w-[100%]"
-                          buttonLink="https://p.eduzz.com/2725901"
                           icon={
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
