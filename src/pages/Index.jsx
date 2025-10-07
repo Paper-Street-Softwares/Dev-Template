@@ -76,7 +76,7 @@ export default function Index() {
         iconsWithModal={false}
       />
 
-      <About modal={false} showGallery={false} colorMode={colorMode} />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={true} />
 
       {/* <News /> */}
@@ -84,7 +84,7 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <FooterSocial colorMode={colorMode} addres={false} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -92,7 +92,7 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     // default
     return scrolling
-      ? "bg-opacity-100 shadow-lg transition-all duration-1000 bg-bgSectionDark"
+      ? "bg-opacity-100 shadow-lg transition-all duration-1000 bg-bgSectionDark border-b-[1px] border-primary"
       : "transition-colors duration-1000";
   };
 
@@ -116,8 +116,8 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[20%] mw-[50%] tablet1:w-[20%] tablet2:w-[25%] desktop1:w-[20%] desktop2:w-[20%] transition-all duration-1000"
-                  : " w-[30%] tablet1:w-[30%] tablet2:w-[35%] desktop1:w-[30%] desktop2:w-[30%] transition-all duration-1000"
+                  ? "w-[30%] mw-[50%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[30%] desktop2:w-[20%] transition-all duration-1000"
+                  : " my-[20px] w-[50%] tablet1:w-[40%] tablet2:w-[35%] desktop1:w-[40%] desktop2:w-[30%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
