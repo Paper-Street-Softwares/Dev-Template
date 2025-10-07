@@ -2,7 +2,7 @@
   "infos": {
     "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> Atendimentos via pedidos",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -18,70 +18,56 @@
   },
   "hero": {
     "miniTag": "A_Definir",
-    "title": "Seu bolo ainda parece de <span class=\"text-primary font-bold\">padaria?</span>",
-    "subtitle": "Descubra os segredos que transformam qualquer receita simples em bolos de vitrine.",
-    "ctaButtonText": "Quero aprender agora",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Oferecemos atendimento online para pedidos e também disponibilizamos aulas virtuais, com foco em atender alunos de diferentes estados."
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "Nossas maravilhas",
-    "title": "Doces e bolos que encantam em cada detalhe",
-    "subtitle": "Atendemos encomendas personalizadas para festas, eventos e celebrações, além de oferecer aulas online para apaixonados pela confeitaria em todo o Brasil.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Torta bolo de Nozes",
-      "subtitle": "Recheada com brigadeiro de nozes e queijo, geleia artesanal de damasco e envolto no merengue italiano maçaricado.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Bolo de Ouro Branco",
-      "subtitle": "Com brigadeiro de Ninho e Nutella. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Bolo de Churros",
-      "subtitle": "Recheado com doce de leite caseiro.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Bolo de Tapioca",
-      "subtitle": "Coberto com brigadeiro de doce de leite e coco queimado no topo.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Torta Bolo Strudel de Maçã",
-      "subtitle": "Massa de maçã, nozes, cranberry, passas, canela, recheado com caramelo salè e chantilly feito com nata fresca. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Bolo Romeu e Julieta",
-      "subtitle": "Massa de queijo, coberto com brigadeiro de queijo e calda de goiabada no topo.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card7": {
-      "title": "Cupcakes diversos",
-      "subtitle": "",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card8": {
-      "title": "Cupcakes diversos",
-      "subtitle": "",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -97,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "Aprenda agora",
-    "title": "Domine a arte dos bolos",
-    "subtitle": "Um guia prático e direto para você criar bolos irresistíveis em casa.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Com este e-book, você terá acesso a técnicas simples e segredos de confeitaria que elevam suas receitas a um novo nível. Aprenda passo a passo, sem complicação, e descubra como transformar sua paixão por bolos em resultados de dar água na boca.",
+    "paragraph": "A_Definir",
     "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "subtitle": "Acompanhe nossas redes sociais para ficar por dentro de novidades, dicas e inspirações deliciosas do mundo da confeitaria.",
+      "miniTag": "A_Definir",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -121,13 +107,8 @@
     "subtitle": "A_Definir",
     "description": "A_Definir"
   },
-  "testimonials": {
-    "miniTag": "Quem já brilhou",
-    "title": "Histórias reais de quem se tornou mestre na confeitaria",
-    "subtitle": "Conheça alunos que transformaram suas receitas, conquistaram confiança na cozinha e criaram bolos incríveis com nosso curso."
-  },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Quer um bolo incrível ou aprender novas técnicas? </span><span class=\" font-bold\">Fale com a gente!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -139,23 +120,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Inscrição e acesso",
-        "cardDescription": "Adquira o e-book e receba imediatamente o material digital com todas as receitas e instruções para começar."
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Aprenda passo a passo",
-        "cardDescription": "Conteúdo organizado e direto: receitas testadas, técnicas essenciais e fotos que mostram cada etapa para você entender e repetir."
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Pratique e aperfeiçoe",
-        "cardDescription": "Exercícios práticos, checklists e dicas de ajuste para que seus bolos evoluam a cada tentativa."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Suporte e aplicação",
-        "cardDescription": "Tire dúvidas, aplique as técnicas nas suas encomendas ou para presentear quem você ama — e transforme o aprendizado em bolos de destaque."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -173,20 +154,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como recebo o e-book após a compra?",
-        "answer": "Assim que o pagamento for aprovado, você receberá um e-mail com o link para download imediato do e-book. O acesso é enviado diretamente para o seu e-mail, permitindo que você comece a aprender sem demora."
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "Preciso de experiência prévia em confeitaria para aproveitar o curso?",
-        "answer": "Não! O curso é ideal tanto para iniciantes quanto para quem já possui alguma experiência. As receitas e técnicas são apresentadas de forma clara e acessível, permitindo que qualquer pessoa possa acompanhar e aprender."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Posso acessar o conteúdo do curso a qualquer momento?",
-        "answer": "Sim! O curso é totalmente online e você pode acessar o conteúdo a qualquer hora e de qualquer lugar. Isso permite que você aprenda no seu próprio ritmo, sem pressa."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Receberei certificado após concluir o curso?",
-        "answer": "Sim! Ao finalizar o curso, você receberá um certificado digital que comprova sua participação e aprendizado. Isso pode ser útil para quem deseja iniciar um negócio próprio ou aprimorar suas habilidades na confeitaria."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

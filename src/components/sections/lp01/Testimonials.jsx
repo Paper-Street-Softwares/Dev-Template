@@ -6,6 +6,7 @@ import Button from "../../interactives/Button";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 // Importar imagens
 import img1 from "../../../assets/imgs/testimonials/imgTestimonial1.webp";
@@ -17,20 +18,25 @@ import img6 from "../../../assets/imgs/testimonials/imgTestimonial6.webp";
 import img7 from "../../../assets/imgs/testimonials/imgTestimonial7.webp";
 import img8 from "../../../assets/imgs/testimonials/imgTestimonial8.webp";
 
-export default function Testimonial() {
+export default function Testimonial({ colorMode }) {
   const { t } = useTranslation();
 
   // Array de imagens
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
-  // Função para renderizar cada item do carousel
+  // Lógica de cores conforme o modo
+  const bgColor = colorMode === "light" ? "bg-white" : "bg-secondary";
+  const textColor = colorMode === "light" ? "text-black" : "text-white";
+  const arrowColor = colorMode === "light" ? "#000000" : "#FFFFFF";
+
+  // Template de item do carousel
   const itemTemplate = (image) => (
     <div className="p-2 w-full flex justify-center">
       <img src={image} alt="Depoimento" className="rounded-2xl w-full h-auto" />
     </div>
   );
 
-  // Configuração de responsive
+  // Configuração responsiva
   const responsiveOptions = [
     { breakpoint: "2500px", numVisible: 3, numScroll: 3 },
     { breakpoint: "1199px", numVisible: 3, numScroll: 3 },
@@ -39,7 +45,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <SectionArea className="bg-secondary" paddingtop={true}>
+    <SectionArea className={`${bgColor}`} paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-full">
           <SectionHeader
@@ -47,8 +53,8 @@ export default function Testimonial() {
             miniTitle={t("testimonials.miniTag")}
             sectionHeaderTitle={t("testimonials.title")}
             sectionHeaderSubtitle={t("testimonials.subtitle")}
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet={textColor}
+            subtitleColorSet={textColor}
           />
 
           <div className="flex flex-col desktop1:flex-row items-center w-full justify-center gap-[32px] desktop1:mt-0">
@@ -62,11 +68,10 @@ export default function Testimonial() {
               showIndicators={false}
               className="w-full custom-carousel"
               prevIcon={
-                // <span style={{ color: "#FACC15", fontSize: "200%" }}>❮</span>
-                <span style={{ color: "#000000", fontSize: "200%" }}>❮</span>
+                <span style={{ color: arrowColor, fontSize: "200%" }}>❮</span>
               }
               nextIcon={
-                <span style={{ color: "#000000", fontSize: "200%" }}>❯</span>
+                <span style={{ color: arrowColor, fontSize: "200%" }}>❯</span>
               }
             />
           </div>
