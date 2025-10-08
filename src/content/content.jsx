@@ -66,7 +66,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Vitor & Zaíra Assessoria Jurídica ",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "carlosavitoradv@hotmail.com", // Email desejado pelo cliente
   domain: "vitorezaira.adv.br", // Sem "www"
   phone: {
     ddd: "21",

@@ -11,7 +11,7 @@ function EmailFooter({
 }) {
   return (
     <>
-      <MotionDivDownToUp>
+      {/* <MotionDivDownToUp>
         <div className="flex full gap-x-[12px] items-center opacity-90">
           <span>
             <Mail />
@@ -19,7 +19,7 @@ function EmailFooter({
 
           <p className="text-paragraph3">{content.texts.infos.email}</p>
         </div>
-      </MotionDivDownToUp>
+      </MotionDivDownToUp> */}
 
       {emailTwo && (
         <MotionDivDownToUp>
