@@ -1,6 +1,6 @@
 {
   "infos": {
-    "adress": "Rua Quirino Bocaiuva, <br/> nº 25, Sala 802, Centro, <br/> Nova Iguaçu - RJ, <br/> CEP: 26210-150",
+    "adress": "Araruama - RJ",
     "adressSecundario": "A_Definir",
     "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM NOVA IGUAÇU - RJ",
-    "title": "O legado que <span class=\"text-primary font-bold\">não se cala</span>",
-    "subtitle": "Três décadas de história, justiça e coragem para defender quem precisa ser ouvido de verdade.",
-    "ctaButtonText": "Descubra nossa história",
+    "miniTag": "TÉCNICO EM TRANSAÇÕES IMOBILIÁRIAS",
+    "title": "De ajudante de pedreiro a <span class=\"text-primary font-bold\">referência no mercado</span>",
+    "subtitle": "Descubra como transformei experiência de obra em casas acessíveis, seguras e com alta valorização.",
+    "ctaButtonText": "Quero saber como",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "Atuando na região dos Lagos"
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "Soluções Jurídicas em Diversas Especialidades",
-    "subtitle": "Atuação ampla e estratégica para garantir seus direitos em diferentes áreas do Direito.",
+    "miniTag": "O QUE FAÇO",
+    "title": "Minhas áreas de atuação",
+    "subtitle": "Experiência prática e conhecimento técnico para tornar seu sonho do imóvel próprio uma realidade segura. ",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa dos direitos nas relações entre empregado e empresa.",
+      "title": "Assessoria em Compra e Venda de Imóveis",
+      "subtitle": "Negociações seguras, transparentes e com melhor valor.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Cálculos Trabalhistas",
-      "subtitle": "Cálculos precisos para ações e rescisões trabalhistas.",
+      "title": "Consultoria em Obras Econômicas",
+      "subtitle": "Construções eficientes com redução real de custos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Atuação em conflitos de consumo e indenizações justas.",
+      "title": "Investimentos Imobiliários",
+      "subtitle": "Orientação segura para investir e lucrar com imóveis.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica e preventiva para pessoas e empresas.",
+      "title": "Acompanhamento Personalizado",
+      "subtitle": "Atendimento humano e claro em todas as etapas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,22 +83,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É VITOR & ZAÍRA ASSESSORIA JURÍDICA",
-    "title": "Nossa trajetória",
-    "subtitle": "Três gerações dedicadas à defesa dos direitos e à continuidade de um legado.",
+    "miniTag": "QUEM É PAULO DE OLIVEIRA",
+    "title": "Minha trajetória",
+    "subtitle": "De pedreiro a especialista em imóveis e obras econômicas.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O escritório foi fundado pela Dra. Jandira Sardinha em 1990, consolidando uma história marcada por ética, compromisso e respeito à justiça. Sua atuação firme e humana inspirou décadas de confiança e resultados positivos.",
-    "modal": "O escritório foi fundado pela Dra. Jandira Sardinha em 1990, consolidando uma história marcada por ética, compromisso e respeito à justiça. Sua atuação firme e humana inspirou décadas de confiança e resultados positivos. <br/><br/> Após seu falecimento, o legado foi assumido por mim e por minha filha, que seguimos com o mesmo propósito: oferecer um serviço jurídico pautado na seriedade e na busca por resultados justos. Cada caso é tratado com a dedicação e o cuidado que sempre foram nossa marca. <br/><br/> Nossa principal missão é defender os direitos dos trabalhadores e consumidores, atuando com especial ênfase nas causas trabalhistas e nas demandas de proteção ao consumidor. Mantemos viva a essência do escritório, unindo tradição e renovação em cada nova conquista. <br/><br/>",
+    "paragraph": "A história de Paulo de Oliveira começou muito antes do mercado imobiliário. Ainda jovem, trabalhou como auxiliar de pedreiro, experiência que despertou sua paixão por construir e compreender cada detalhe de uma obra.",
+    "modal": "A história de Paulo de Oliveira começou muito antes do mercado imobiliário. Ainda jovem, trabalhou como auxiliar de pedreiro, experiência que despertou sua paixão por construir e compreender cada detalhe de uma obra. <br/><br/> Após o serviço militar, formou-se em eletricista, técnico em gestão empresarial e técnico em enfermagem, até encontrar sua verdadeira vocação: o mercado imobiliário. Em 2014, iniciou seus próprios investimentos em terrenos e construções, aprendendo a reduzir custos em até 70%. <br/><br/> Hoje, Paulo é assessor imobiliário e investidor reconhecido pela combinação rara de teoria e prática. Mais do que vender imóveis, ele entrega soluções acessíveis, transparentes e humanas — ajudando famílias a realizarem o sonho da casa própria com confiança e segurança. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "paragraph": "Acompanhe nossas redes e fique por dentro de dicas, oportunidades e novidades do mercado imobiliário.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X"
+      "labelX": "Siga-me no X",
+      "labelTikTok": "Siga-me no TikTok"
     }
   },
   "news": {
@@ -108,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Pensando em comprar ou construir?</span> Fale comigo e realize seu sonho <span class=\"text-primary font-bold\">com segurança!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -120,23 +121,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Primeira conversa",
+        "cardDescription": "Entendemos seu objetivo — seja comprar, vender ou construir — e levantamos as principais informações do imóvel desejado."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Análise e viabilidade",
+        "cardDescription": "Avaliamos documentação, localização, custos e oportunidades, garantindo segurança em cada decisão."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Planejamento personalizado",
+        "cardDescription": "Traçamos o melhor caminho para o seu caso, seja uma compra estratégica, construção econômica ou investimento."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Acompanhamento completo",
+        "cardDescription": "Cuidamos de todo o processo até a entrega das chaves, com transparência, clareza e suporte em cada etapa."
       }
     }
   },
@@ -154,20 +155,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Quais documentos são necessários para comprar um imóvel?",
+        "answer": "Para pessoa física: RG, CPF, certidão de estado civil, comprovante de residência, comprovante de renda, extrato do FGTS (se for usar), certidões negativas e documentos do imóvel (escritura, registro, certidões)."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Quais são os custos além do preço do imóvel?",
+        "answer": "Além do valor do imóvel, há despesas como ITBI, escritura, registro, taxas cartoriais, comissão de corretagem e possíveis custos de regularização."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Vale a pena construir para economizar?",
+        "answer": "Sim — com gestão eficiente e execução bem planejada, pode-se reduzir custos em obras em até 70% (como já é prática no meu trabalho), mantendo padrão e segurança."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Como funciona o financiamento imobiliário?",
+        "answer": "O financiamento envolve instituição bancária que paga parte do imóvel e você quita em parcelas com juros. É preciso comprovar renda, ter crédito aprovado e arcar com taxas, seguros e encargos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

@@ -99,12 +99,17 @@ function FooterSocialIcons({ withAnimation = true }) {
     <>
       {Object.entries(platforms).map(([key, profile]) => {
         if (!profile || profile === "A_Definir") return null;
+
+        const cleanedProfile = profile.replace(/^@/, "");
+
         const link =
           key === "x"
             ? `https://twitter.com/${profile}`
             : key === "linkedin"
             ? `https://www.linkedin.com/in/${profile}`
-            : `https://www.${key}.com/${profile}`;
+            : key === "tiktok"
+            ? `https://www.tiktok.com/@${cleanedProfile}`
+            : `https://www.${key}.com/${cleanedProfile}`;
 
         const { aria, svg } = icons[key];
 
