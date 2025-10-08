@@ -63,7 +63,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
       <div className="flex justify-center card">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            colorMode ? "text-white" : "text-white"
+            colorMode ? "text-primary" : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -110,7 +110,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                   <ul className="p-3 m-0 list-none">
                     <li>
                       <ul
-                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-mainFont`}
+                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-secondFont`}
                       >
                         {visibleSections.map(({ id, label }, index) => (
                           <li key={id}>

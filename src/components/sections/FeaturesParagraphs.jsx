@@ -27,7 +27,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
         colorMode="dark"
-        className="text-center"
+        className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={t("features.title")}
         sectionHeaderSubtitle={t("features.subtitle")}
