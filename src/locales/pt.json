@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "TÉCNICO EM TRANSAÇÕES IMOBILIÁRIAS",
+    "title": "De ajudante de pedreiro a <span class=\"text-primary font-bold\">referência no mercado</span>",
+    "subtitle": "Descubra como transformei experiência de obra em casas acessíveis, seguras e com alta valorização.",
+    "ctaButtonText": "Quero saber como",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atuando na região dos Lagos"
     }
   },
   "features": {
