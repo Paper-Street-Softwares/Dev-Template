@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Paulo de Oliveira",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "deoliveira42448@gmail.com", // Email desejado pelo cliente
   domain: "corretorpaulo.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "97031", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3794", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,11 +107,11 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
+  instagramProfile: "paulodeoliver", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
-  tiktokProfile: "",
+  tiktokProfile: "paulo.deoliver",
 
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
