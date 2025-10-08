@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM NOVA IGUAÇU - RJ",
+    "title": "O legado que <span class=\"text-primary font-bold\">não se cala</span>",
+    "subtitle": "Três décadas de história, justiça e coragem para defender quem precisa ser ouvido de verdade.",
+    "ctaButtonText": "Descubra nossa história",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e online para todo Brasil"
     }
   },
   "features": {
