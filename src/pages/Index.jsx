@@ -84,8 +84,8 @@ export default function Index() {
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
-      <FooterSocial colorMode={colorMode} addres={false} obs={false} />
+      {/* <Maps colorMode={colorMode} /> */}
+      <FooterSocial colorMode={colorMode} addres={true} obs={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>
