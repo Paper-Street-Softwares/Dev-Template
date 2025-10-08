@@ -4,7 +4,7 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 
 function EmailFooter({
-  emailTwo = false,
+  emailTwo = true,
   emailThree = false,
   emailFour = false,
   emailFive = false,
