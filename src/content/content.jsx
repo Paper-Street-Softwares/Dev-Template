@@ -64,19 +64,19 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Vitor & Zaíra Assessoria Jurídica ",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "vitorezaira.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98814", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6625", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "2667", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3407", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
