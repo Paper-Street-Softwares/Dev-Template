@@ -83,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É PAULO DE OLIVEIRA",
+    "title": "Minha trajetória",
+    "subtitle": "De pedreiro a especialista em imóveis e obras econômicas.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "A história de Paulo de Oliveira começou muito antes do mercado imobiliário. Ainda jovem, trabalhou como auxiliar de pedreiro, experiência que despertou sua paixão por construir e compreender cada detalhe de uma obra.",
+    "modal": "A história de Paulo de Oliveira começou muito antes do mercado imobiliário. Ainda jovem, trabalhou como auxiliar de pedreiro, experiência que despertou sua paixão por construir e compreender cada detalhe de uma obra. <br/><br/> Após o serviço militar, formou-se em eletricista, técnico em gestão empresarial e técnico em enfermagem, até encontrar sua verdadeira vocação: o mercado imobiliário. Em 2014, iniciou seus próprios investimentos em terrenos e construções, aprendendo a reduzir custos em até 70%. <br/><br/> Hoje, Paulo é assessor imobiliário e investidor reconhecido pela combinação rara de teoria e prática. Mais do que vender imóveis, ele entrega soluções acessíveis, transparentes e humanas — ajudando famílias a realizarem o sonho da casa própria com confiança e segurança. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "paragraph": "Acompanhe nossas redes e fique por dentro de dicas, oportunidades e novidades do mercado imobiliário.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Pensando em comprar ou construir?</span> Fale comigo e realize seu sonho <span class=\"text-primary font-bold\">com segurança!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -121,23 +121,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Primeira conversa",
+        "cardDescription": "Entendemos seu objetivo — seja comprar, vender ou construir — e levantamos as principais informações do imóvel desejado."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Análise e viabilidade",
+        "cardDescription": "Avaliamos documentação, localização, custos e oportunidades, garantindo segurança em cada decisão."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Planejamento personalizado",
+        "cardDescription": "Traçamos o melhor caminho para o seu caso, seja uma compra estratégica, construção econômica ou investimento."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Acompanhamento completo",
+        "cardDescription": "Cuidamos de todo o processo até a entrega das chaves, com transparência, clareza e suporte em cada etapa."
       }
     }
   },
@@ -155,20 +155,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Quais documentos são necessários para comprar um imóvel?",
+        "answer": "Para pessoa física: RG, CPF, certidão de estado civil, comprovante de residência, comprovante de renda, extrato do FGTS (se for usar), certidões negativas e documentos do imóvel (escritura, registro, certidões)."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Quais são os custos além do preço do imóvel?",
+        "answer": "Além do valor do imóvel, há despesas como ITBI, escritura, registro, taxas cartoriais, comissão de corretagem e possíveis custos de regularização."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Vale a pena construir para economizar?",
+        "answer": "Sim — com gestão eficiente e execução bem planejada, pode-se reduzir custos em obras em até 70% (como já é prática no meu trabalho), mantendo padrão e segurança."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Como funciona o financiamento imobiliário?",
+        "answer": "O financiamento envolve instituição bancária que paga parte do imóvel e você quita em parcelas com juros. É preciso comprovar renda, ter crédito aprovado e arcar com taxas, seguros e encargos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
