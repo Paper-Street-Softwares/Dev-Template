@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Quirino Bocaiuva, <br/> nº 25, Sala 802, Centro, <br/> Nova Iguaçu - RJ, <br/> CEP: 26210-150",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM NOVA IGUAÇU - RJ",
-    "title": "O legado que <span class=\"text-primary font-bold\">não se cala</span>",
-    "subtitle": "Três décadas de história, justiça e coragem para defender quem precisa ser ouvido de verdade.",
-    "ctaButtonText": "Descubra nossa história",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Soluções Jurídicas em Diversas Especialidades",
-    "subtitle": "Atuação ampla e estratégica para garantir seus direitos em diferentes áreas do Direito.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa dos direitos nas relações entre empregado e empresa.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Cálculos Trabalhistas",
-      "subtitle": "Cálculos precisos para ações e rescisões trabalhistas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Atuação em conflitos de consumo e indenizações justas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica e preventiva para pessoas e empresas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É VITOR & ZAÍRA ASSESSORIA JURÍDICA",
+    "miniTag": "A_Definir",
     "title": "Nossa trajetória",
-    "subtitle": "Três gerações dedicadas à defesa dos direitos e à continuidade de um legado.",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O escritório foi fundado pela Dra. Jandira Sardinha em 1990, consolidando uma história marcada por ética, compromisso e respeito à justiça. Sua atuação firme e humana inspirou décadas de confiança e resultados positivos.",
-    "modal": "O escritório foi fundado pela Dra. Jandira Sardinha em 1990, consolidando uma história marcada por ética, compromisso e respeito à justiça. Sua atuação firme e humana inspirou décadas de confiança e resultados positivos. <br/><br/> Após seu falecimento, o legado foi assumido por mim e por minha filha, que seguimos com o mesmo propósito: oferecer um serviço jurídico pautado na seriedade e na busca por resultados justos. Cada caso é tratado com a dedicação e o cuidado que sempre foram nossa marca. <br/><br/> Nossa principal missão é defender os direitos dos trabalhadores e consumidores, atuando com especial ênfase nas causas trabalhistas e nas demandas de proteção ao consumidor. Mantemos viva a essência do escritório, unindo tradição e renovação em cada nova conquista. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
