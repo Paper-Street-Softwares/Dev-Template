@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO IMOBILIÁRIO E PREVIDENCIÁRIO",
+    "title": "De pedra bruta a <span class=\"text-primary font-bold\">referência no Direito</span>",
+    "subtitle": "A evolução de um advogado que transformou desafios em estratégia, propósito e autoridade jurídica.",
+    "ctaButtonText": "Falar com o advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial e online com hora marcada para consulta"
     }
   },
   "features": {
