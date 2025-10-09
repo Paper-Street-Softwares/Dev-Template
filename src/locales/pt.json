@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Especialista em soluções jurídicas estratégicas",
+    "subtitle": "Atuação especializada em regularização de imóveis, inventários, planejamento previdenciário e consultoria jurídica.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Regularização de Imóveis",
+      "subtitle": "Soluções jurídicas seguras para regularizar seu imóvel.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Inventários",
+      "subtitle": "Apoio jurídico completo para partilhas e sucessões.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Planejamento Previdenciário",
+      "subtitle": "Organize seu futuro e garanta segurança na aposentadoria.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria Jurídica",
+      "subtitle": "Orientação estratégica para decisões jurídicas seguras.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
