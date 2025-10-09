@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Paulo de Oliveira",
+  name: "Dr. Wladimir de Almeida",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "deoliveira42448@gmail.com", // Email desejado pelo cliente
-  domain: "corretorpaulo.com.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "waj.adv.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "97031", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3794", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "95988", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5555", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,11 +107,11 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "paulodeoliver", // Sem o @
+  instagramProfile: "wladjradv", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
-  tiktokProfile: "paulo.deoliver",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -235,10 +235,19 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-house-icon lucide-house"
+            class="lucide lucide-building-icon lucide-building"
           >
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M12 6h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M16 6h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
+            <path d="M8 6h.01" />
+            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+            <rect x="4" y="2" width="16" height="20" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -268,11 +277,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hammer-icon lucide-hammer"
+            class="lucide lucide-scroll-text-icon lucide-scroll-text"
           >
-            <path d="m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9" />
-            <path d="m18 15 4-4" />
-            <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5" />
+            <path d="M15 12h-5" />
+            <path d="M15 8h-5" />
+            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -301,19 +311,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-icon lucide-building"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M12 6h.01" />
-            <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M16 6h.01" />
-            <path d="M8 10h.01" />
-            <path d="M8 14h.01" />
-            <path d="M8 6h.01" />
-            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
-            <rect x="4" y="2" width="16" height="20" rx="2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -343,11 +344,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-check-icon lucide-user-check"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="m16 11 2 2 4-4" />
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",

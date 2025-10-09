@@ -86,7 +86,7 @@ export default function ListGroupSocial({
                 e.preventDefault();
                 const el = document.getElementById(id);
                 if (el) {
-                  const yOffset = -95;
+                  const yOffset = -85;
                   const y =
                     el.getBoundingClientRect().top + window.scrollY + yOffset;
 
