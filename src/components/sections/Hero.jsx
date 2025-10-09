@@ -149,7 +149,7 @@ export default function Hero({
         >
           <div className="relative z-10 flex w-full items-left">
             <div className="w-full text-secondary justify-evenly">
-              <div className="h-[110px] phone2:h-[120px] phone3:h-[130px] tablet1:h-[150px] desktop3:h-[120px]" />
+              <div className="h-[130px] phone2:h-[130px] phone3:h-[150px] tablet1:h-[150px] desktop3:h-[120px]" />
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
                 {HeroContent}
                 {/* Imagem principal */}
@@ -170,8 +170,8 @@ export default function Hero({
                         className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
                         ${
                           colorMode === "light"
-                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/20"
-                            : "shadow-custom-opacity shadow-shadowHero/20"
+                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/5"
+                            : "shadow-custom-opacity shadow-shadowHero/5"
                         }`}
                       />
                     </picture>
