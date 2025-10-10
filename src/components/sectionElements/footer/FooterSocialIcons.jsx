@@ -89,9 +89,10 @@ const icons = {
 function FooterSocialIcons({ withAnimation = true }) {
   const platforms = {
     facebook: infos.facebookProfile,
+    tiktok: infos.tiktokProfile,
+
     instagram: infos.instagramProfile,
     linkedin: infos.linkeDinProfile,
-    tiktok: infos.tiktokProfile,
     x: infos.x,
   };
 
