@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Clélia, nº 2145, <br/> sala 12, Lapa,  <br/> São Paulo - SP, <br/> CEP: 05042-001",
+    "adress": "Rua N, nº 9, <br/> Bairro Despraiado, <br/> Cuiabá - MT, <br/> CEP: 78049-320",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO IMOBILIÁRIO E PREVIDENCIÁRIO",
-    "title": "De pedra bruta a <span class=\"text-primary font-bold\">referência no Direito</span>",
-    "subtitle": "A evolução de um advogado que transformou desafios em estratégia, propósito e autoridade jurídica.",
+    "miniTag": "ADVOGADO CRIMINALISTA",
+    "title": "Quando a liberdade <span class=\"text-primary font-bold\">está em jogo</span>",
+    "subtitle": "Defesa criminal feita com estratégia, coragem e resultados que transformam casos difíceis em vitórias reais.",
     "ctaButtonText": "Falar com o advogado",
     "obsHero": {
-      "text": "Atendimento presencial e online com hora marcada para consulta"
+      "text": "Atendimento disponível 24 horas."
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Especialista em soluções jurídicas estratégicas",
-    "subtitle": "Atuação especializada em regularização de imóveis, inventários, planejamento previdenciário e consultoria jurídica.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Compromisso com a defesa dos seus direitos",
+    "subtitle": "Atuação dedicada em diversas frentes do Direito Criminal, com estratégia, ética e experiência.",
     "card1": {
-      "title": "Regularização de Imóveis",
-      "subtitle": "Soluções jurídicas seguras para regularizar seu imóvel.",
+      "title": "Defesa em Processos Criminais",
+      "subtitle": "Defesa estratégica em todas as fases do processo penal. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Inventários",
-      "subtitle": "Apoio jurídico completo para partilhas e sucessões.",
+      "title": "Prisão em Flagrante e Liberdade Provisória",
+      "subtitle": "Atuação rápida para garantir liberdade e seus direitos. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Planejamento Previdenciário",
-      "subtitle": "Organize seu futuro e garanta segurança na aposentadoria.",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa técnica em crimes dolosos contra a vida. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica para decisões jurídicas seguras.",
+      "title": "Crimes Econômicos e Empresariais",
+      "subtitle": "Atuação em casos de fraude e delitos financeiros. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. WLADIMIR DE ALMEIDA",
+    "miniTag": "QUEM É O DR. RHONALDO DA MATA",
     "title": "Minha trajetória",
-    "subtitle": "Uma jornada de renascimento, superação e evolução até alcançar o hoje.",
+    "subtitle": "Comprometido em defender direitos e garantir justiça com ética e dedicação.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Minha história profissional é marcada por fases que moldaram não apenas o advogado que sou hoje, mas também o ser humano por trás da profissão. Tudo começou com a Fênix, símbolo que escolhi para representar o recomeço — o renascimento das cinzas. Após desafios pessoais e profissionais, encontrei nessa figura o reflexo da minha vontade de reerguer o que um dia precisei reconstruir.",
-    "modal": "Minha história profissional é marcada por fases que moldaram não apenas o advogado que sou hoje, mas também o ser humano por trás da profissão. Tudo começou com a Fênix, símbolo que escolhi para representar o recomeço — o renascimento das cinzas. Após desafios pessoais e profissionais, encontrei nessa figura o reflexo da minha vontade de reerguer o que um dia precisei reconstruir. <br/><br/> Quando a pandemia chegou, o escritório precisou fechar as portas. Foi um período de incertezas, e logo depois, enfrentei um infarto, consequência de toda a pressão e do momento turbulento que o mundo vivia. Essas experiências me mostraram o valor da resiliência, da fé e do propósito em continuar, mesmo quando tudo parece desabar. <br/><br/> Depois disso, me vi como uma pedra bruta sendo lapidada. Cada obstáculo tornou-se uma ferramenta de aperfeiçoamento, tanto profissional quanto pessoal. Iniciei uma nova fase, voltada à modernização do escritório e à incorporação da tecnologia como aliada do Direito. Assim, nasceu uma nova identidade, com uma marca forte, madura e sólida — o reflexo de toda a trajetória que percorri. <br/><br/> Hoje, cada processo que assumo carrega a essência dessa jornada. A mesma coragem que me fez recomeçar é a que guia cada caso, cada cliente e cada conquista. Porque, mais do que exercer a advocacia, vivo a missão de transformar desafios em oportunidades de renascimento. <br/><br/>",
+    "paragraph": "Desde o início da minha carreira, sempre acreditei que o Direito é mais do que um conjunto de leis — é uma ferramenta para proteger pessoas e transformar realidades.",
+    "modal": "Desde o início da minha carreira, sempre acreditei que o Direito é mais do que um conjunto de leis — é uma ferramenta para proteger pessoas e transformar realidades. <br/><br/> Ao longo dos anos, construí uma trajetória pautada na responsabilidade e no compromisso com cada cliente, buscando soluções justas e humanas para os desafios do processo penal. <br/><br/> Hoje, sigo atuando com a mesma paixão e propósito, defendendo liberdades, assegurando direitos e mantendo a confiança como base de todo o meu trabalho. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
