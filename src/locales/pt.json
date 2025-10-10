@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO CRIMINALISTA",
+    "title": "Quando a liberdade <span class=\"text-primary font-bold\">está em jogo</span>",
+    "subtitle": "Defesa criminal feita com estratégia, coragem e resultados que transformam casos difíceis em vitórias reais.",
+    "ctaButtonText": "Falar com o advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento disponível 24 horas."
     }
   },
   "features": {
