@@ -5,17 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#AD946D",
-      buttonColor: "#AD946D",
-      minititleDark: "#AD946D", //bg minitag de seções claras
-      minititle: "#AD946D", //bg minitag de seções escuras
+      primary: "#0C0A0A",
+      buttonColor: "#0C0A0A",
+      minititleDark: "#0C0A0A", //bg minitag de seções claras
+      minititle: "#0C0A0A", //bg minitag de seções escuras
 
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#141414",
+      bgSectionDark: "#990000",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -29,19 +29,19 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      iconButtons: "#000",
-      labelButtons: "#000",
-      minititleLightLabel: "#000", //label das minitag de seções claras
-      minititleDarkLabel: "#000", //label minitag de seções escuras
+      iconButtons: "#fff",
+      labelButtons: "#fff",
+      minititleLightLabel: "#fff", //label das minitag de seções claras
+      minititleDarkLabel: "#fff", //label minitag de seções escuras
 
       // Sombras
 
-      shadowHero: "#ffffff",
+      shadowHero: "#000000",
       shadowFeatures: "#000000",
-      shadowAbouts: "#ffffff",
-      shadowSteps: "#ffffff",
-      shadowMaps: "#ffffff",
-      shadowBlogs: "#ffffff",
+      shadowAbouts: "#000000",
+      shadowSteps: "#000000",
+      shadowMaps: "#000000",
+      shadowBlogs: "#000000",
 
       // Outros
 
