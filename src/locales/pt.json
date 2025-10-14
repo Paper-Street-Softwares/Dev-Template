@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua N, nº 9, <br/> Bairro Despraiado, <br/> Cuiabá - MT, <br/> CEP: 78049-320",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO CRIMINALISTA",
-    "title": "Quando a liberdade <span class=\"text-primary font-bold\">está em jogo</span>",
-    "subtitle": "Defesa criminal feita com estratégia, coragem e resultados que transformam casos difíceis em vitórias reais.",
-    "ctaButtonText": "Falar com o advogado",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento disponível 24 horas."
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Compromisso com a defesa dos seus direitos",
-    "subtitle": "Atuação dedicada em diversas frentes do Direito Criminal, com estratégia, ética e experiência.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Defesa em Processos Criminais",
-      "subtitle": "Defesa estratégica em todas as fases do processo penal. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Prisão em Flagrante e Liberdade Provisória",
-      "subtitle": "Atuação rápida para garantir liberdade e seus direitos. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Tribunal do Júri",
-      "subtitle": "Defesa técnica em crimes dolosos contra a vida. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Crimes Econômicos e Empresariais",
-      "subtitle": "Atuação em casos de fraude e delitos financeiros. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. RHONALDO DA MATA",
-    "title": "Minha trajetória",
-    "subtitle": "Comprometido em defender direitos e garantir justiça com ética e dedicação.",
+    "miniTag": "A_Definir",
+    "title": "Nossa trajetória",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Desde o início da minha carreira, sempre acreditei que o Direito é mais do que um conjunto de leis — é uma ferramenta para proteger pessoas e transformar realidades.",
-    "modal": "Desde o início da minha carreira, sempre acreditei que o Direito é mais do que um conjunto de leis — é uma ferramenta para proteger pessoas e transformar realidades. <br/><br/> Ao longo dos anos, construí uma trajetória pautada na responsabilidade e no compromisso com cada cliente, buscando soluções justas e humanas para os desafios do processo penal. <br/><br/> Hoje, sigo atuando com a mesma paixão e propósito, defendendo liberdades, assegurando direitos e mantendo a confiança como base de todo o meu trabalho. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
