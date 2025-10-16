@@ -3,6 +3,7 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import IconButtonCartao from "../IconButtonCartao";
 import content from "../../../content/content";
 import { useParams } from "react-router-dom";
+import { infos } from "../../../content/content";
 
 const icons = {
   whatsapp: (
@@ -223,12 +224,33 @@ function CartaoRedeSocial({ tipo = "contato", socio }) {
 
   const empresaLinks = {
     site: socio.empresaSocial?.site || null,
-    instagram: socio.empresaSocial?.instagram || null,
-    facebook: socio.empresaSocial?.facebook || null,
-    linkedin: socio.empresaSocial?.linkedin || null,
-    whatsappSocial: socio.empresaSocial?.whatsappSocial || null,
-    emailSocial: socio.empresaSocial?.emailSocial || null,
+    instagram:
+      infos.instagramProfile && infos.instagramProfile !== "A_Definir"
+        ? infos.instagramProfile
+        : null,
+    facebook:
+      infos.facebookProfile && infos.facebookProfile !== "A_Definir"
+        ? infos.facebookProfile
+        : null,
+    linkedin:
+      infos.linkeDinProfile && infos.linkeDinProfile !== "A_Definir"
+        ? infos.linkeDinProfile
+        : null,
+    whatsappSocial: socio.social?.whatsappSocial || null,
+    emailSocial: socio.social?.emailSocial || null,
+    x: infos.x && infos.x !== "A_Definir" ? infos.x : null,
+    tiktok:
+      infos.tiktokProfile && infos.tiktokProfile !== "A_Definir"
+        ? infos.tiktokProfile
+        : null,
   };
+
+  // filtra apenas os que realmente têm valor
+  const filteredData = Object.fromEntries(
+    Object.entries(empresaLinks).filter(
+      ([_, value]) => value && value.trim() !== ""
+    )
+  );
 
   const labels = {
     github: "GitHub",
@@ -252,7 +274,7 @@ function CartaoRedeSocial({ tipo = "contato", socio }) {
       : tipo === "social"
       ? redesLinks
       : tipo === "empresa"
-      ? empresaLinks
+      ? filteredData
       : contatoLinks;
 
   const linksToRender = Object.entries(links).filter(
@@ -351,18 +373,8 @@ function CartaoRedeSocial({ tipo = "contato", socio }) {
               aria-label={`Link para ${labels[key] || key}`}
             >
               <IconButtonCartao
-                label={
-                  tipo === "empresa"
-                    ? ""
-                    : key === "linkedin"
-                    ? "LinkedIn"
-                    : key === "githubSocial" || key === "github"
-                    ? key === "github"
-                      ? "Site Pessoal"
-                      : "GitHub"
-                    : formatLabel(key, value)
-                }
-                ariaLabel={`Botão para ${key}`}
+                label={labels[key]} // sempre mostra o nome completo da rede
+                ariaLabel={`Botão para ${labels[key]}`}
                 icon={svg}
                 width={tipo === "empresa" ? "w-auto" : "min-w-[200px] m-auto"}
               />
