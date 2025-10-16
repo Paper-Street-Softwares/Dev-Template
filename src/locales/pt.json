@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADE",
+    "title": "Especialista em Direito Bancário",
+    "subtitle": "Atuação voltada à proteção do consumidor em conflitos com instituições financeiras.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Superendividamento",
+      "subtitle": "Protegendo seus direitos frente a dívidas excessivas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Revisional de Juros Abusivos",
+      "subtitle": "Reduzindo cobranças injustas e taxas abusivas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Defesa em ação de Execução",
+      "subtitle": "Atuação estratégica para preservar seu patrimônio.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Defesa em Busca e Apreensão",
+      "subtitle": "Garantindo sua defesa e evitando perda de bens.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
