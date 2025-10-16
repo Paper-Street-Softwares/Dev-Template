@@ -166,7 +166,7 @@ function CartaoSocio() {
                     <img
                       src={content.texts.navbar.logo.img}
                       alt={content.texts.navbar.logo.alt}
-                      className="tablet1:max-w-[245px] rounded-[5px] m-auto mb-6"
+                      className="rounded-[5px] m-auto mb-6"
                     />
                   </div>
                   <h3 className="text-center font-secondFont font-bold text-paragraph5">
