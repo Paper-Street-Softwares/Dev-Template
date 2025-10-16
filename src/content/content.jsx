@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Laudelino Souza Neto",
+  name: "Dra. Viviane Braga",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "laudelinosouzaneto.adv.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "99159", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4613", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "96848", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2967", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,7 +107,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advogado.laudelino", // Sem o @
+  instagramProfile: "advbraga_", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
@@ -235,19 +235,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-icon lucide-building"
+            class="lucide lucide-wallet-icon lucide-wallet"
           >
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M12 6h.01" />
-            <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M16 6h.01" />
-            <path d="M8 10h.01" />
-            <path d="M8 14h.01" />
-            <path d="M8 6h.01" />
-            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
-            <rect x="4" y="2" width="16" height="20" rx="2" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -277,12 +268,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-percent-icon lucide-percent"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <line x1="19" x2="5" y1="5" y2="19" />
+            <circle cx="6.5" cy="6.5" r="2.5" />
+            <circle cx="17.5" cy="17.5" r="2.5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -311,12 +301,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clipboard-pen-icon lucide-clipboard-pen"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5" />
-            <path d="M4 13.5V6a2 2 0 0 1 2-2h2" />
-            <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+            <path d="m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" />
+            <path d="m16 16 6-6" />
+            <path d="m21.5 10.5-8-8" />
+            <path d="m8 8 6-6" />
+            <path d="m8.5 7.5 8 8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -346,11 +337,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -605,7 +594,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "laudelinosouzaneto.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -965,48 +954,48 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "A_Definir",
-        telefone: "A_Definir",
-        whatsapp: "A_Definir",
-        email: "A_Definir",
+        nome: "Gabriel",
+        rota: "Gabriel",
+        sobrenome: "",
+        telefone: "21972613067",
+        whatsapp: "21972613067",
+        email: "",
         social: {
-          instagram: "A_Definir",
-          facebook: "A_Definir",
-          linkedin: "A_Definir",
-          x: "A_Definir",
-          tiktok: "A_Definir",
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          x: "",
+          tiktok: "",
         },
       },
       socio2: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "A_Definir",
-        telefone: "A_Definir",
-        whatsapp: "A_Definir",
-        email: "A_Definir",
+        nome: "Biell",
+        rota: "Biell",
+        sobrenome: "",
+        telefone: "00000000000",
+        whatsapp: "00000000000",
+        email: "",
         social: {
-          instagram: "A_Definir",
-          facebook: "A_Definir",
-          linkedin: "A_Definir",
-          x: "A_Definir",
-          tiktok: "A_Definir",
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          x: "",
+          tiktok: "",
         },
       },
       socio4: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "A_Definir",
-        telefone: "A_Definir",
-        whatsapp: "A_Definir",
-        email: "A_Definir",
+        nome: "Edison",
+        rota: "Edison",
+        sobrenome: "",
+        telefone: "66666666666",
+        whatsapp: "66666666666",
+        email: "",
         social: {
-          instagram: "A_Definir",
-          facebook: "A_Definir",
-          linkedin: "A_Definir",
-          x: "A_Definir",
-          tiktok: "A_Definir",
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          x: "",
+          tiktok: "",
         },
       },
     },

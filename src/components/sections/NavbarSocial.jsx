@@ -122,7 +122,7 @@ export default function NavbarSocial({ colorMode, mode }) {
             />
           </ScrollLink>
 
-          <div className="flex items-center justify-between gap-[16px]">
+          <div className="flex items-center justify-between gap-[16px] ">
             <div className="hidden tablet1:flex desktop1:hidden">
               <Button
                 aria-label={t("hero.ctaButtonAriaLabel")}

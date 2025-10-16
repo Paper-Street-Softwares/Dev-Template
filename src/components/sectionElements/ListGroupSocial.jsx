@@ -73,7 +73,7 @@ export default function ListGroupSocial({
       {visibleSections.map(({ id, label }) => (
         <li
           key={id}
-          className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center"
+          className="transition group h-[24px] desktop1:w-[50%] desktop2:w-[70px] text-center"
         >
           {mode === "blog" ? (
             <a
