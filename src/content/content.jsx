@@ -67,7 +67,7 @@ export const infos = {
   name: "Dra. Viviane Braga",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "vivianebragaadvocacia.com", // Sem "www"
   phone: {
     ddd: "21",
     firstPart: "96848", // Apenas os 5 primeiros números (incluindo o 9)
