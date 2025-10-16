@@ -7,12 +7,12 @@ import SalvarContatoButton from "../interactives/Cartao/SalvarContato";
 import CartaoRedeSocial from "../interactives/Cartao/CartaoRedeSocial";
 import Button from "../interactives/Button";
 
-function CartaoSocio() {
-  const { nome } = useParams(); // pega a rota
+export default function CartaoSocio({ colorMode }) {
+  const { nome } = useParams();
   const [visible, setVisible] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // Busca o sócio no conteúdo
+  // 🔹 Localiza o sócio no content
   const socioKey = Object.keys(content.texts.socios).find((key) => {
     const socioNome = content.texts.socios[key]?.nome;
     return socioNome?.toLowerCase() === nome?.toLowerCase();
@@ -29,7 +29,26 @@ function CartaoSocio() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  // Conteúdo do modal de compartilhamento
+  // 🔹 Classes automáticas conforme o modo (igual Features6cards)
+  const bgClasses = {
+    dark: "bg-bgFixedDark",
+    light: "bg-bgFixedLight",
+    default: "bg-bgSectionDark",
+  };
+
+  const textClasses = {
+    dark: "text-black",
+    light: "text-black",
+    default: "text-black",
+  };
+
+  // Se o sócio tiver um tema próprio, ele tem prioridade
+  const themeMode = socio.colorMode || colorMode || "default";
+
+  const bgClass = bgClasses[themeMode] || bgClasses.default;
+  const textClass = textClasses[themeMode] || textClasses.default;
+
+  // 🔹 Modal de compartilhamento
   const modalTitle = "Compartilhar";
   const modalContent = (
     <div className="flex flex-col gap-4 font-mainFont">
@@ -85,38 +104,10 @@ function CartaoSocio() {
     </div>
   );
 
-  let textColor = "";
-  let textSecondary = "";
-  let bgColor = "";
-  let borderColor = "";
-
-  const themes = {
-    dark: {
-      textColor: "text-white",
-      textSecondary: "text-white/60",
-      bgColor: "bg-bgFixedDark",
-      borderColor: "border-gray-700",
-    },
-
-    light: {
-      textColor: "text-black",
-      textSecondary: "",
-      bgColor: "bg-bgFixedLight",
-      borderColor: "border-gray-300",
-    },
-
-    default: {
-      textColor: "text-white",
-      textSecondary: "text-white/60",
-      bgColor: "bg-bgSectionDark",
-      borderColor: "border-gray-700",
-    },
-  };
-
   return (
-    <div className={`${bgColor} min-h-screen`}>
+    <div className={`${bgClass} min-h-screen transition-colors duration-1000`}>
       <div
-        className={`w-full tablet1::max-w-[320px] m-auto font-mainFont ${textColor}`}
+        className={`w-full tablet1:max-w-[320px] m-auto font-mainFont ${textClass}`}
       >
         {/* Botões principais */}
         <div className="flex justify-center gap-4 p-4 w-full phone3:max-w-[425px] m-auto">
@@ -132,10 +123,10 @@ function CartaoSocio() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-share2-icon lucide-share-2"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-share2-icon"
               >
                 <circle cx="18" cy="5" r="3" />
                 <circle cx="6" cy="12" r="3" />
@@ -147,26 +138,23 @@ function CartaoSocio() {
             label="Compartilhar"
             size="small"
             noScale={true}
-          ></Button>
+          />
         </div>
 
+        {/* Cartão */}
         <div className="px-[24px] pb-[24px]">
           <div className="p-6 bg-quinary rounded-xl w-full phone3:max-w-[425px] m-auto">
-            {/* <hr className="border-b-2 border-black/20 m-auto max-w-[313px] mb-4 " /> */}
-
-            {/* Perfis profissionais */}
-            <div className={`w-full  rounded-mds`}>
+            <div className="w-full rounded-md">
               <div
-                className={`w-full flex flex-col tablet1:w-[205px] m-auto gap-4 ${textColor}`}
+                className={`w-full flex flex-col tablet1:w-[205px] desktop1:w-[377px] m-auto gap-4`}
               >
                 {/* Empresa */}
                 <div className="flex flex-col rounded-md py-[32px]">
-                  {/* Logo e descrição */}
-                  <div className="">
+                  <div className="w-full">
                     <img
                       src={content.texts.navbar.logo.img}
                       alt={content.texts.navbar.logo.alt}
-                      className="  rounded-[5px] m-auto mb-6"
+                      className="tablet1:max-w-[245px] rounded-[5px] m-auto mb-6"
                     />
                   </div>
                   <h3 className="text-center font-secondFont font-bold text-paragraph5">
@@ -181,14 +169,14 @@ function CartaoSocio() {
                 </div>
 
                 {/* Imagem principal */}
-                <div className="w-full tablet1:max-w-[248px] m-auto">
+                <div className="w-full m-auto">
                   <img src={socio.image} alt="" className="rounded-xl" />
                 </div>
 
-                {/* Nome do Sócio */}
+                {/* Nome */}
                 <div className="w-full m-auto text-center leading-5 py-[32px] flex flex-col">
                   <h1 className="text-paragraph5 font-bold font-mainFont">
-                    Dr. {socio.nome} {socio.sobrenome}
+                    {socio.nome} {socio.sobrenome}
                   </h1>
                   <h3 className="text-center font-secondFont text-paragraph5 mt-2">
                     {socio.função}
@@ -197,12 +185,12 @@ function CartaoSocio() {
 
                 <hr className="border-b-2 border-black/20 " />
 
-                {/* Função e texto */}
+                {/* Descrição e redes */}
                 <div className="flex flex-col w-full">
                   <div className=" w-full m-auto mb-5">
                     <i>
                       <p
-                        className={`m-auto text-paragraph3 text-center text-black/70 font-secondFont ${textSecondary}`}
+                        className={`m-auto text-paragraph3 text-center text-black/70 font-secondFont`}
                       >
                         {socio.description}
                       </p>
@@ -216,10 +204,10 @@ function CartaoSocio() {
             </div>
           </div>
 
-          {/* Informações Pessoais */}
-          <div className={`w-full tablet1:w-[425px] m-auto  ${textColor}`}>
+          {/* Informações pessoais */}
+          <div className={`w-full tablet1:w-[425px] m-auto pt-8 ${textClass}`}>
             <div className="bg-quinary p-6 rounded-xl">
-              <h1 className=" text-[16px] font-secondFont text-center pb-[16px]">
+              <h1 className="text-[16px] font-secondFont text-center pb-[16px]">
                 Informações Pessoais:
               </h1>
               <div className="flex flex-wrap gap-2 w-full m-auto justify-center">
@@ -230,12 +218,12 @@ function CartaoSocio() {
         </div>
 
         <footer>
-          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-labelButtons p-4">
+          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-white p-4">
             Cartão Digital desenvolvido por Paper Street
           </div>
         </footer>
 
-        {/* Modal de compartilhamento */}
+        {/* Modal */}
         <Dialog
           className="font-secondFont"
           closeIcon={<X size={20} />}
@@ -251,5 +239,3 @@ function CartaoSocio() {
     </div>
   );
 }
-
-export default CartaoSocio;
