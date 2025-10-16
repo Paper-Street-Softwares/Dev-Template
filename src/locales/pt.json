@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADA EM DIREITO BANCÁRIO",
+    "title": "Recupere o controle da sua <span class=\"text-primary font-bold\">vida financeira</span>",
+    "subtitle": "Especialista em Direito Bancário, atuando com ética e estratégia para reduzir dívidas e proteger seu patrimônio.",
+    "ctaButtonText": "Quero resolver minhas dívidas",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online com conforto e praticidade, direto de casa"
     }
   },
   "features": {
