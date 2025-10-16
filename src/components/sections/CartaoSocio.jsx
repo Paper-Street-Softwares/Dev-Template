@@ -146,7 +146,7 @@ export default function CartaoSocio({ colorMode }) {
           <div className="p-6 bg-quinary rounded-xl w-full phone3:max-w-[425px] m-auto">
             <div className="w-full rounded-md">
               <div
-                className={`w-full flex flex-col tablet1:w-[205px] desktop1:w-[377px] m-auto gap-4`}
+                className={`w-full flex flex-col tablet1:w-[205px] m-auto gap-4`}
               >
                 {/* Empresa */}
                 <div className="flex flex-col rounded-md py-[32px]">
@@ -154,7 +154,7 @@ export default function CartaoSocio({ colorMode }) {
                     <img
                       src={content.texts.navbar.logo.img}
                       alt={content.texts.navbar.logo.alt}
-                      className="tablet1:max-w-[245px] rounded-[5px] m-auto mb-6"
+                      className=" rounded-[5px] m-auto mb-6"
                     />
                   </div>
                   <h3 className="text-center font-secondFont font-bold text-paragraph5">
@@ -205,7 +205,7 @@ export default function CartaoSocio({ colorMode }) {
           </div>
 
           {/* Informações pessoais */}
-          <div className={`w-full tablet1:w-[425px] m-auto pt-8 ${textClass}`}>
+          <div className={`w-full  m-auto pt-8 ${textClass}`}>
             <div className="bg-quinary p-6 rounded-xl">
               <h1 className="text-[16px] font-secondFont text-center pb-[16px]">
                 Informações Pessoais:
@@ -218,7 +218,9 @@ export default function CartaoSocio({ colorMode }) {
         </div>
 
         <footer>
-          <div className="w-full justify-center items-center flex m-auto text-paragraph2 bg-primary text-white p-4">
+          <div
+            className={`w-full justify-center items-center flex m-auto text-paragraph2 bg-primary p-4 ${textClass}`}
+          >
             Cartão Digital desenvolvido por Paper Street
           </div>
         </footer>
