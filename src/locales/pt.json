@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO EM CAMPINAS - SP",
+    "title": "Você sabe o que <span class=\"text-primary font-bold\">está pagando?</span>",
+    "subtitle": "Condomínios de SP já recuperaram mais de R$1 milhão após descobrir cobranças indevidas na conta de água.",
+    "ctaButtonText": "Entre em contato conosco",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento 24h online e presencial com agendamento"
     }
   },
   "features": {
