@@ -67,11 +67,11 @@ export const infos = {
   name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "biasiseabraadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "99362", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4646", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
