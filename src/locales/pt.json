@@ -2,7 +2,7 @@
   "infos": {
     "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
+    "expediente": "Atendimento 24h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA EM DIREITO BANCÁRIO",
-    "title": "Recupere o controle da sua <span class=\"text-primary font-bold\">vida financeira</span>",
-    "subtitle": "Especialista em Direito Bancário, atuando com ética e estratégia para reduzir dívidas e proteger seu patrimônio.",
-    "ctaButtonText": "Quero resolver minhas dívidas",
+    "miniTag": "ADVOGADO EM CAMPINAS - SP",
+    "title": "Você sabe o que <span class=\"text-primary font-bold\">está pagando?</span>",
+    "subtitle": "Condomínios de SP já recuperaram mais de R$1 milhão após descobrir cobranças indevidas na conta de água.",
+    "ctaButtonText": "Entre em contato conosco",
     "obsHero": {
-      "text": "Atendimento online com conforto e praticidade, direto de casa"
+      "text": "Atendimento 24h online e presencial com agendamento"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADE",
-    "title": "Especialista em Direito Bancário",
-    "subtitle": "Atuação voltada à proteção do consumidor em conflitos com instituições financeiras.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Especialização em diversas áreas do Direito",
+    "subtitle": "Atendimento completo e personalizado para cada necessidade jurídica.",
     "card1": {
-      "title": "Superendividamento",
-      "subtitle": "Protegendo seus direitos frente a dívidas excessivas.",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa dos direitos nas relações entre empresa e empregado.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Revisional de Juros Abusivos",
-      "subtitle": "Reduzindo cobranças injustas e taxas abusivas.",
+      "title": "Direito Cível",
+      "subtitle": "Atuação em conflitos contratuais e indenizações justas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Defesa em ação de Execução",
-      "subtitle": "Atuação estratégica para preservar seu patrimônio.",
+      "title": "Direito Criminal",
+      "subtitle": "Atuação técnica e estratégica em processos criminais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Defesa em Busca e Apreensão",
-      "subtitle": "Garantindo sua defesa e evitando perda de bens.",
+      "title": "Audiências e Perícias",
+      "subtitle": "Representação precisa e análise técnica em cada etapa. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A DRA. VIVIANE BRAGA",
+    "miniTag": "QUEM É O DR. MARCELO BIASI",
     "title": "Minha trajetória",
-    "subtitle": "Comprometida em oferecer segurança jurídica e equilíbrio financeiro ao consumidor.",
+    "subtitle": "Atuação nacional em diversas áreas, com foco em justiça e resultados reais.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Ao longo dos anos, construí uma trajetória pautada na ética e na defesa dos direitos do consumidor, especialmente daqueles que enfrentam desafios com instituições financeiras.",
-    "modal": "Ao longo dos anos, construí uma trajetória pautada na ética e na defesa dos direitos do consumidor, especialmente daqueles que enfrentam desafios com instituições financeiras. <br/><br/> Como especialista em Direito Bancário, dedico minha atuação à redução de dívidas e à proteção do patrimônio de servidores públicos, aposentados e pensionistas. <br/><br/> Meu propósito é oferecer soluções jurídicas personalizadas que promovam tranquilidade, justiça e a reconstrução da dignidade financeira de cada cliente. <br/><br/>",
+    "paragraph": "O escritório do Dr. Marcelo Biasi atua em todo o território nacional, atendendo pessoas físicas e jurídicas de diferentes perfis e necessidades. Nosso compromisso é oferecer um atendimento humano, técnico e eficiente, sempre com foco na melhor solução jurídica.",
+    "modal": "O escritório do Dr. Marcelo Biasi atua em todo o território nacional, atendendo pessoas físicas e jurídicas de diferentes perfis e necessidades. Nosso compromisso é oferecer um atendimento humano, técnico e eficiente, sempre com foco na melhor solução jurídica. <br/><br/> Com ampla experiência nas áreas cível, criminal, trabalhista, falimentar, empresarial, do consumidor e em condomínios residenciais e comerciais, construímos uma trajetória pautada na confiança e nos resultados. <br/><br/> Recentemente, conquistamos uma importante vitória judicial contra a SANASA, garantindo a devolução de valores pagos a maior por condomínios, com ressarcimentos que ultrapassam R$ 1.000.000,00 — um exemplo do impacto real do nosso trabalho em defesa dos direitos dos clientes. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {

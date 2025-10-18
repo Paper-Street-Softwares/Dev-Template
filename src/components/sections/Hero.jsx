@@ -134,9 +134,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-black",
-      subtitleTextColor: "text-black",
-      obsTextColorOverride: "text-black",
+      titleTextColor: "text-white",
+      subtitleTextColor: "text-white",
+      obsTextColorOverride: "text-white",
     });
   }
 
