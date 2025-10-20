@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADA NO RIO DE JANEIRO - RJ",
+    "title": "A Justiça também <span class=\"text-primary font-bold\">mora aqui</span>",
+    "subtitle": "Porque seus direitos não são luxo — são parte da sua vida. Conheça uma advocacia próxima de você.",
+    "ctaButtonText": "Quero entender meus direitos",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento com agendamento prévio em horário comercial."
     }
   },
   "features": {
