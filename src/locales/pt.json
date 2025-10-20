@@ -2,7 +2,7 @@
   "infos": {
     "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Atendimento 24h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO EM CAMPINAS - SP",
-    "title": "Você sabe o que <span class=\"text-primary font-bold\">está pagando?</span>",
-    "subtitle": "Condomínios de SP já recuperaram mais de R$1 milhão após descobrir cobranças indevidas na conta de água.",
-    "ctaButtonText": "Entre em contato conosco",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento 24h online e presencial com agendamento"
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Especialização em diversas áreas do Direito",
-    "subtitle": "Atendimento completo e personalizado para cada necessidade jurídica.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa dos direitos nas relações entre empresa e empregado.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Cível",
-      "subtitle": "Atuação em conflitos contratuais e indenizações justas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Criminal",
-      "subtitle": "Atuação técnica e estratégica em processos criminais.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Audiências e Perícias",
-      "subtitle": "Representação precisa e análise técnica em cada etapa. ",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. MARCELO BIASI",
-    "title": "Minha trajetória",
-    "subtitle": "Atuação nacional em diversas áreas, com foco em justiça e resultados reais.",
+    "miniTag": "A_Definir",
+    "title": "Nossa trajetória",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O escritório do Dr. Marcelo Biasi atua em todo o território nacional, atendendo pessoas físicas e jurídicas de diferentes perfis e necessidades. Nosso compromisso é oferecer um atendimento humano, técnico e eficiente, sempre com foco na melhor solução jurídica.",
-    "modal": "O escritório do Dr. Marcelo Biasi atua em todo o território nacional, atendendo pessoas físicas e jurídicas de diferentes perfis e necessidades. Nosso compromisso é oferecer um atendimento humano, técnico e eficiente, sempre com foco na melhor solução jurídica. <br/><br/> Com ampla experiência nas áreas cível, criminal, trabalhista, falimentar, empresarial, do consumidor e em condomínios residenciais e comerciais, construímos uma trajetória pautada na confiança e nos resultados. <br/><br/> Recentemente, conquistamos uma importante vitória judicial contra a SANASA, garantindo a devolução de valores pagos a maior por condomínios, com ressarcimentos que ultrapassam R$ 1.000.000,00 — um exemplo do impacto real do nosso trabalho em defesa dos direitos dos clientes. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
