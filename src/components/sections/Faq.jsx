@@ -15,7 +15,7 @@ export default function Faq({ colorMode }) {
 
   // Classes de tema
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
+    dark: "bg-bgFixedDark",
     // light: "bg-bgSectionOpacityLight",
     light: "squares",
     default: "squares",
