@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Saturnino Silva, n° 239, <br/> Jardim Bangu - Bangu, <br/> Rio de Janeiro - RJ, <br/> CEP: 21863-337",
+    "adress": "Av. Paulista, 1636 - CJ 4 - <br/> PAV. 15 - Sala 1504 -  <br/> Cerqueira César, <br/> CD. Paulista Corporate,  <br/> São Paulo - SP,  <br/> CEP: 01310-200",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 17h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,78 +11,63 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADA NO RIO DE JANEIRO - RJ",
-    "title": "A Justiça também <span class=\"text-primary font-bold\">mora aqui</span>",
-    "subtitle": "Porque seus direitos não são luxo — são parte da sua vida. Conheça uma advocacia próxima de você.",
-    "ctaButtonText": "Quero entender meus direitos",
+    "miniTag": "PERÍCIA E SOLUÇÕES CONTÁBEIS",
+    "title": "Precisão, ética e técnica em cálculos <span class=\"text-primary font-bold\">judiciais trabalhistas</span>",
+    "subtitle": "A Valtrez é uma empresa especializada em Perícia Contábil Trabalhista, atuando na elaboração de cálculos judiciais, impugnações, embargos e assistência técnica contábil em processos trabalhistas.",
+    "ctaButtonText": "Fale conosco",
     "obsHero": {
-      "text": "Atendimento com agendamento prévio em horário comercial."
+      "text": "Atuação nacional | Atendimento remoto e seguro"
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "Atuação jurídica especializada",
-    "subtitle": "Conheça as principais áreas em que oferecemos suporte e representação.",
+    "miniTag": "ESPECIALIDADE",
+    "title": "Cálculos Trabalhistas com Rigor e Confiabilidade",
+    "subtitle": "Atuamos com excelência na área trabalhista, oferecendo suporte técnico-contábil completo e especializado em todas as etapas do processo judicial e extrajudicial.",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa de direitos e regularização de relações de trabalho.",
+      "title": "Parecer Técnico com Cálculos Detalhados",
+      "subtitle": "Análises precisas para embasar decisões jurídicas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Atuação em casos de fraudes, cobranças e vícios de produto.",
+      "title": "Cálculos de Contingenciamento, Acordos e Execução",
+      "subtitle": "Projeções seguras e estratégicas para cada demanda.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Aposentadorias, benefícios e revisões de contribuições sociais.",
+      "title": "Consultoria Contábil-Jurídica Especializada",
+      "subtitle": "Integração entre contabilidade e estratégia legal.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Criminal (Parceria)",
-      "subtitle": "Atuação estratégica em defesa criminal com parceiros.",
+      "title": "Auditoria de Processos Judiciais",
+      "subtitle": "Verificação minuciosa de valores e procedimentos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Juizados",
-      "subtitle": "Resolução rápida de causas de menor complexidade legal.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "INSS",
-      "subtitle": "Apoio em pedidos, revisões e recursos de benefícios sociais.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card7": {
-      "title": "Direito de Família",
-      "subtitle": "Acordos, divórcios e pensões conduzidos com empatia.",
-      "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "card8": {
-      "title": "Direito Cível",
-      "subtitle": "Soluções em contratos, indenizações e disputas civis.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -98,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A DR.A MONIQUE LUNA",
-    "title": "Minha trajetória",
-    "subtitle": "Uma jornada dedicada a tornar o acesso à justiça mais simples e humano.",
+    "miniTag": "QUEM É A VALTREZ",
+    "title": "Nossa trajetória",
+    "subtitle": "Comprometimento, precisão e ética na construção de soluções contábeis.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Sou a Dra. Monique Luna, advogada que acredita que a justiça deve ser acessível a todos — especialmente a quem mais precisa. Minha história começa em meio à comunidade onde cresci, convivendo com pessoas que, muitas vezes, não sabiam por onde começar para resolver seus problemas jurídicos.",
-    "modal": "Sou a Dra. Monique Luna, advogada que acredita que a justiça deve ser acessível a todos — especialmente a quem mais precisa. Minha história começa em meio à comunidade onde cresci, convivendo com pessoas que, muitas vezes, não sabiam por onde começar para resolver seus problemas jurídicos. <br/><br/> Foi dessa vivência que nasceu meu propósito: atuar com empatia, clareza e proximidade, traduzindo o “juridiquês” e mostrando que cada direito pode — e deve — ser exercido. <br/><br/> Hoje, compartilho esse trabalho também no Instagram, onde busco orientar, informar e mostrar que a advocacia pode ser leve, acolhedora e, acima de tudo, transformadora. <br/><br/>",
+    "paragraph": "A Valtrez nasceu do propósito de unir técnica contábil e conhecimento jurídico para fortalecer a Justiça do Trabalho. Desde o início, buscamos traduzir números em clareza, confiança e embasamento sólido para decisões judiciais e extrajudiciais.",
+    "modal": "A Valtrez nasceu do propósito de unir técnica contábil e conhecimento jurídico para fortalecer a Justiça do Trabalho. Desde o início, buscamos traduzir números em clareza, confiança e embasamento sólido para decisões judiciais e extrajudiciais. <br/><br/> Com uma atuação pautada na ética, no rigor técnico e no compromisso com os prazos, oferecemos cálculos trabalhistas e perícias contábeis que sustentam o trabalho de advogados, contadores e partes envolvidas em processos. <br/><br/> Nosso foco é entregar resultados precisos, com atendimento humanizado e comunicação transparente. Assim, construímos uma trajetória guiada pela responsabilidade e pela busca constante por excelência. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "paragraph": "Acompanhe nossas redes e fique por dentro de novidades, conteúdos técnicos e atualizações no universo contábil e trabalhista.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -124,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\"></span>Precisa de suporte técnico em cálculos e perícias trabalhistas? <span class=\"text-primary font-bold\">Fale conosco e receba orientação especializada.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -137,29 +122,29 @@
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar as necessidades contábeis e jurídicas."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardDescription": "Examinamos documentos, cálculos e evidências, garantindo visão completa e precisa do caso."
       },
       "card3": {
         "stepNumber": 3,
         "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardDescription": "Desenvolvemos uma estratégia técnica personalizada para assegurar precisão e segurança nos cálculos e laudos."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Execução e acompanhamento",
+        "cardDescription": "Conduzimos os cálculos, perícias ou ações judiciais, entregando resultados confiáveis e soluções adequadas ao seu caso."
       }
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
@@ -170,20 +155,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "O que é perícia contábil trabalhista?",
+        "answer": "A perícia contábil trabalhista é uma análise técnica realizada por contador habilitado, com o objetivo de esclarecer aspectos financeiros, patrimoniais e contábeis em processos judiciais ou extrajudiciais relacionados ao Direito do Trabalho. Ela visa fornecer informações precisas sobre valores devidos, como salários, horas extras, férias, 13º salário, entre outros, auxiliando na resolução de litígios trabalhistas."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Quem pode atuar como perito contábil trabalhista?",
+        "answer": "Somente profissionais formados em Ciências Contábeis, com registro ativo no Conselho Regional de Contabilidade (CRC), estão habilitados a atuar como peritos contábeis trabalhistas. Além disso, é recomendável que possuam conhecimentos técnicos específicos na área trabalhista e experiência prática em perícias judiciais."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "O que deve constar no laudo pericial contábil trabalhista?",
+        "answer": "O laudo pericial contábil trabalhista deve ser claro, objetivo e bem fundamentado. Ele deve conter: <br/><br/>Identificação do processo e das partes envolvidas; <br/> Objetivo da perícia e os quesitos a serem respondidos; <br/> Metodologia utilizada para análise; <br/> Documentos analisados;<br/> Conclusão técnica baseada nos dados estudados; <br/> Assinatura do perito com registro no CRC. <br/><br/> Esse documento serve como elemento de prova em processos judiciais ou para embasar a tomada de decisões."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Qual é a diferença entre perícia contábil e auditoria?",
+        "answer": "A perícia contábil é uma análise técnica específica realizada para esclarecer dúvidas ou resolver conflitos em processos judiciais ou administrativos, com foco em um fato ou situação específica. Já a auditoria é uma análise mais ampla e periódica das demonstrações contábeis de uma empresa, com foco na verificação da conformidade e na transparência das informações financeiras."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

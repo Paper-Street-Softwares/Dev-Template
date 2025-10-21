@@ -14,17 +14,15 @@ export default function AccordionExpandDefault() {
     setExpanded(isExpanded ? panel : false);
   };
 
-  const getPanelStyle = (panel) => {
-    return {
-      boxShadow:
-        expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
-      border:
-        expanded === panel
-          ? "1px solid transparent"
-          : "1px solid rgba(0, 0, 0, 0.1)",
-      borderTop: expanded === panel ? "1px solid rgba(0, 0, 0, 0.1)" : "none",
-    };
-  };
+  const getPanelStyle = (panel) => ({
+    boxShadow:
+      expanded === panel ? "0px 0px 10px -5px rgba(0, 0, 0, 0.1)" : "none",
+    border:
+      expanded === panel
+        ? "1px solid transparent"
+        : "1px solid rgba(0, 0, 0, 0.1)",
+    borderTop: expanded === panel ? "1px solid rgba(0, 0, 0, 0.1)" : "none",
+  });
 
   return (
     <div>
@@ -41,21 +39,20 @@ export default function AccordionExpandDefault() {
             aria-controls={`panel${num}-content`}
             id={`panel${num}-header`}
           >
-            <Typography>
+            <Typography component="div">
               <h1 className="font-bold font-secondFont text-black">
                 {t(`faq.questions.question${num}.question`)}
               </h1>
             </Typography>
           </AccordionSummary>
+
           <AccordionDetails>
-            <Typography>
-              <p
-                className="font-secondFont text-paragraph4 text-paragraphLight"
-                dangerouslySetInnerHTML={{
-                  __html: t(`faq.questions.question${num}.answer`),
-                }}
-              />
-            </Typography>
+            <div
+              className="font-secondFont text-paragraph4 text-paragraphLight"
+              dangerouslySetInnerHTML={{
+                __html: t(`faq.questions.question${num}.answer`),
+              }}
+            />
           </AccordionDetails>
         </Accordion>
       ))}
