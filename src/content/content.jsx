@@ -64,7 +64,7 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Valterz Perícias e Soluções Contábeis",
+  name: "Valtrez Perícias e Soluções Contábeis",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "valtrez.com.br", // Sem "www"
