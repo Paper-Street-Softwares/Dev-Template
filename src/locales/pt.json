@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "PERÍCIA E SOLUÇÕES CONTÁBEIS",
+    "title": "Precisão, ética e técnica em cálculos <span class=\"text-primary font-bold\">judiciais trabalhistas</span>",
+    "subtitle": "A Valtrez é uma empresa especializada em Perícia Contábil Trabalhista, atuando na elaboração de cálculos judiciais, impugnações, embargos e assistência técnica contábil em processos trabalhistas.",
+    "ctaButtonText": "Fale conosco",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atuação nacional | Atendimento remoto e seguro"
     }
   },
   "features": {
