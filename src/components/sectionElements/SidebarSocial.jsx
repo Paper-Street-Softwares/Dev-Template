@@ -45,7 +45,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <HomeIcon />,
     <UserSearch />,
     <ServerIcon />,
-    <FileText />,
+    // <FileText />,
     <HelpCircle />,
 
     <MapPin />,
@@ -77,8 +77,8 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
               id="app-sidebar-2"
               className={`${
                 colorMode
-                  ? "bg-bgFixedDark"
-                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgFixedDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+                  ? "bg-bgSectionDark"
+                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
             >
