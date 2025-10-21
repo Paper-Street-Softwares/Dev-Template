@@ -20,7 +20,7 @@ export default function HowItWorksCard({
       break;
     case "default":
     default:
-      textColor = "text-white";
+      textColor = "text-secondary";
       textOpacity = "opacity-80";
       break;
   }

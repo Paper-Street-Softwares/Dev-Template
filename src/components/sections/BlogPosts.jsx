@@ -38,7 +38,7 @@ function BlogPosts() {
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionOpacityDark" id="blog">
+      <SectionArea className="bg-bgSectionDark" id="blog" paddingtop={false}>
         <SectionWrapper>
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
@@ -47,6 +47,8 @@ function BlogPosts() {
             sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
             type=""
+            titleColorSet="text-secondary"
+            subtitleColorSet="text-secondary"
           />
 
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
