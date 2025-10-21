@@ -15,7 +15,13 @@ import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
 import FooterSocialIcons from "../sectionElements/footer/FooterSocialIcons.jsx";
 
-export default function FooterSocial({ colorMode, addres, obs, mode }) {
+export default function FooterSocial({
+  colorMode,
+  addres,
+  obs,
+  mode,
+  expediente,
+}) {
   // Define estilos com base no colorMode
   let footerBackground = "";
   let textColor = "";
@@ -48,7 +54,7 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
               <PhoneFooter colorMode={colorMode} />
               <EmailFooter />
               {addres && <AdressFooter />}
-              <ExpedienteFooter />
+              {expediente && <ExpedienteFooter />}
               {obs && <ObsFooter />}
             </div>
 
