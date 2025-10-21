@@ -21,7 +21,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-secondary",
-    default: "text-white",
+    default: "text-secondary",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
