@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "LEONARDO CHIESSI - ADVOCACIA E CONSULTORIA JURÍDICA",
+    "title": "Seu trabalho vale mais do que <span class=\"text-primary font-bold\">você imagina</span>",
+    "subtitle": "Descubra como proteger seus direitos e evitar que situações injustas passem despercebidas",
+    "ctaButtonText": "Quero saber mais",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento on-line ou presencial com hora marcada"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "title": "Nossas Especialidades Jurídicas",
+    "subtitle": "Atuamos em diferentes ramos para proteger seus direitos e apoiar suas decisões.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil",
+      "subtitle": "Proteção de direitos e resolução de conflitos civis.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Garantindo direitos em relações de trabalho justas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Empresarial",
+      "subtitle": "Suporte legal completo para negócios e empresas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Elaboração de Contratos",
+      "subtitle": "Criação e revisão de contratos de forma segura e clara.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O DR. LEONARDO CHIESSI",
+    "title": "Minha trajetória",
+    "subtitle": "Experiência sólida em direito trabalhista, civil e empresarial",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "Desde 2017 atuo na área de RH, adquirindo experiência prática com trabalhadores e empresas. Em 2023 iniciei minha carreira na advocacia, focando em atender pessoas e pequenas empresas com soluções jurídicas eficientes.",
+    "modal": "Desde 2017 atuo na área de RH, adquirindo experiência prática com trabalhadores e empresas. Em 2023 iniciei minha carreira na advocacia, focando em atender pessoas e pequenas empresas com soluções jurídicas eficientes. <br/><br/> Atuo principalmente em direito trabalhista, mas também tenho experiência em direito civil, família e empresarial. Minha prática inclui elaboração e revisão de contratos, garantindo segurança e clareza para meus clientes. <br/><br/> Meu objetivo é oferecer atendimento próximo e personalizado, auxiliando trabalhadores, autônomos e pequenos empresários a proteger seus direitos e tomar decisões seguras em todas as áreas do direito. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -142,9 +142,9 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
