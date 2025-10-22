@@ -44,14 +44,14 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
-      <StepsLpv />
+      {/* <StepsLpv /> */}
       <FeaturesLP />
-      <News />
+      {/* <News /> */}
       <AboutParalaxeLP logo={true} />
       <WhyUs />
       <CtaLP />
-      <Video />
-      <Faq />
+      {/* <Video /> */}
+      {/* <Faq /> */}
       <ContactLP />
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}

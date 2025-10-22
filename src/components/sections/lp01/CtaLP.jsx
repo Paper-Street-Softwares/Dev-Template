@@ -18,12 +18,6 @@ export default function CtaLP() {
   const [modalContent, setModalContent] = useState(null);
   const [modalTitle, setModalTitle] = useState("");
 
-  const onClick = () => {
-    setModalTitle("Preencha:");
-    setModalContent(<WhatsappForm />); // renderiza o formulário no modal
-    setVisible(true);
-  };
-
   return (
     <div
       className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -40,13 +34,13 @@ export default function CtaLP() {
           <SectionWrapper>
             <SectionHeader
               className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[40px]"
+              miniTitle={contentLp01.cta.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
               miniTitleTextColor="text-darker"
               color=""
               titleColorSet="text-white"
               subtitleColorSet="text-white"
-              miniTitleBgColor={false}
             />
 
             <MotionDivDownToUp>
@@ -54,7 +48,7 @@ export default function CtaLP() {
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.cta.buttonLabel}
                 animation
-                onClick={onClick}
+                buttonLink={contentLp01.links.ctaWhatsapp}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -8,17 +8,16 @@ import Button from "../../interactives/Button";
 export default function WhyUs({}) {
   return (
     <>
-      <SectionArea paddingtop={true} className="bg-bgSectionDark">
+      <SectionArea paddingtop={true} className="squares">
         <SectionWrapper>
           <SectionHeader
-            // miniTitle={contentLp01.whyUs.sectionHeader.miniTag}
+            miniTitle={contentLp01.whyUs.sectionHeader.miniTag}
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             sectionHeaderTitle={contentLp01.whyUs.sectionHeader.title}
             sectionHeaderSubtitle={contentLp01.whyUs.sectionHeader.subtitle}
             color=""
             titleColorSet="text-black"
             subtitleColorSet="text-black"
-            miniTitleBgColor={false}
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP

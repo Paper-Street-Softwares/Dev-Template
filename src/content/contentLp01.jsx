@@ -24,11 +24,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Provesi Assessoria em Dívidas e Crédito | Curitiba - PR",
+    title:
+      "Ferreira Alves Advocacia | Direito de Família Internacional em Guarulhos - SP",
     description:
-      "A Provesi Assessoria ajuda você a revisar contratos, negociar dívidas e reduzir juros abusivos em Curitiba - PR. Soluções inteligentes para proteger seu bolso e recuperar o controle financeiro.",
+      "Escritório especializado em Direito de Família Internacional em Guarulhos - SP, atuando em guarda, pensão e reconhecimento de decisões estrangeiras.",
     keywords:
-      "Provesi Assessoria, Revisão de Dívidas Curitiba, Redução de Juros Abusivos, Negociação de Dívidas, Empréstimo Pessoal, Cartão de Crédito, Financiamento de Veículos, Assessoria Financeira Curitiba, Dívidas Abusivas, Proteção Financeira, Consultoria de Crédito, Provesi Curitiba, Recuperação Financeira, Planejamento de Pagamentos, Amortização de Dívidas, Juros Excessivos, Crédito Consciente, Regularização de Dívidas, Orientação Financeira, Provesi Consultoria.",
+      "Direito de Família Internacional, Advogado de Família em Guarulhos, Ferreira Alves Advocacia, Pensão Alimentícia Internacional, Guarda Internacional, Divórcio Internacional, Reconhecimento de Sentença Estrangeira, Direitos da Criança no Exterior, Execução de Pensão entre Países, Responsabilidade Parental Internacional, Advocacia em Direito de Família, Consultoria Jurídica Internacional, Acordos de Família entre Países, Custódia Internacional, Direitos do Ex-Cônjuge no Exterior, Suporte Jurídico Internacional, Mediação Familiar Internacional, Tratados Internacionais de Família, Proteção dos Filhos no Exterior, Assessoria Jurídica Guarulhos.",
   },
   hero: {
     bgImg: bgImg,
@@ -39,22 +40,20 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <TypewriterComponent
+          {/* <TypewriterComponent
             options={{
-              strings: [
-                "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
-                "Comprou um veículo, mas sente que está pagando por dois?",
-                "A dívida do cartão de crédito está tirando a sua tranquilidade?",
-              ],
+              strings: ["A_Definir", "A_Definir", "A_Definir"],
               autoStart: true,
               loop: true,
             }}
-          />
+          /> */}
+          Envolvido em questões de família no exterior? Saiba como proteger seus
+          <span className="text-minititle"> direitos internacionais!</span>
         </h1>
       ),
       subtitle:
-        "Você pode ser uma vítima das dívidas abusivas. Você precisa agir rápido para dar um fim nisso.",
-      buttonLabel: "Quero minha dívida revisada",
+        "Casos de família que atravessam fronteiras exigem cuidado especial. Conte com um advogado em Direito de Família Internacional para garantir segurança jurídica a você e sua família.",
+      buttonLabel: "Proteja seus direitos além das fronteiras",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -107,8 +106,9 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "Soluções para dívidas e crédito",
-      title: "Recupere sua tranquilidade financeira e reduza juros abusivos",
+      miniTag: "QUEM TEM DIREITO?",
+      title:
+        "Descubra quem pode solicitar pensão alimentícia em casos internacionais e garantir proteção além das fronteiras.",
     },
     cards: {
       card1: {
@@ -123,18 +123,18 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
+            class="lucide lucide-baby-icon lucide-baby"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M15 12h.01" />
+            <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <path d="M9 12h.01" />
           </svg>
         ),
-        title:
-          "A dívida do cartão de crédito está tirando a sua tranquilidade?",
+        title: "Filhos menores em países diferentes",
         description:
-          "Os juros do cartão de crédito são uns dos mais altos. Você precisa agir rápido para dar um fim nisso.",
-        label: "Solicitar análise gratuita",
+          "Quando os pais vivem em países distintos, a pensão alimentícia continua sendo um direito da criança. Existem tratados internacionais que permitem cobrar e receber o valor de forma legal e segura.",
+        label: "A_Definir",
       },
       card2: {
         icon: (
@@ -148,17 +148,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
+            class="lucide lucide-graduation-cap-icon lucide-graduation-cap"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+            <path d="M22 10v6" />
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
           </svg>
         ),
-        title: "Comprou um veículo, mas sente que está pagando por dois?",
-        description: "Negociamos a possibilidade da redução.",
-        label: "Solicitar análise gratuita",
+        title: "Filhos maiores em dependência no exterior",
+        description:
+          "Mesmo após a maioridade, filhos que estudam ou têm necessidades especiais em outro país podem ter direito à pensão, desde que comprovem a dependência econômica.",
+        label: "A_Definir",
       },
       card3: {
         icon: (
@@ -172,45 +172,58 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
+            class="lucide lucide-heart-crack-icon lucide-heart-crack"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="M12.409 5.824c-.702.792-1.15 1.496-1.415 2.166l2.153 2.156a.5.5 0 0 1 0 .707l-2.293 2.293a.5.5 0 0 0 0 .707L12 15" />
+            <path d="M13.508 20.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.677.6.6 0 0 0 .818.001A5.5 5.5 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5z" />
           </svg>
         ),
-        title:
-          "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
+        title: "Ex-cônjuge em situação internacional",
         description:
-          "Você pode ser uma vítima das dívidas abusivas. Descubra com uma análise se este é o seu caso.",
-        label: "Solicitar análise gratuita",
+          "Em casos de divórcio envolvendo países diferentes, o ex-cônjuge que não tem condições de se manter pode solicitar pensão. A legislação internacional busca assegurar esse direito.",
+        label: "A_Definir",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-globe-lock-icon lucide-globe-lock"
+          >
+            <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13" />
+            <path d="M2 12h8.5" />
+            <path d="M20 6V4a2 2 0 1 0-4 0v2" />
+            <rect width="8" height="5" x="14" y="6" rx="1" />
+          </svg>
+        ),
+        title: "Pais em vulnerabilidade no exterior",
+        description:
+          "Pais que residem fora do Brasil e não conseguem se sustentar devido a incapacidade ou doença também podem requerer pensão, garantindo dignidade em qualquer lugar do mundo.",
+        label: "A_Definir",
       },
     },
   },
   news: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "Soluções para dívidas e crédito",
-      title: "Os bancos cobram juros abusivos!",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: (
         <p className="opacity-80">
-          Descubra como se proteger dos juros abusivos e recuperar o controle
-          das suas finanças.
+          A_Definir
           <br />
           <br />
         </p>
       ),
     },
-    text: (
-      <p>
-        {" "}
-        Bancos são instituições poderosas e escondem segredos que os tornam cada
-        dia mais ricos, na contramão de qualquer crise financeira. Os juros
-        abusivos (maior fonte de lucro dos bancos) são assim considerados quando
-        superam a média de mercado divulgado pelo Banco Central, ou quando seu
-        sistema de amortização traz lucro excessivo à instituição, incorrendo em
-        enriquecimento sem causa, proibido pelo Código Civil.
-      </p>
-    ),
+    text: <p> A_Definir</p>,
     buttonLabel: "Baixar arquivo PDF",
     ctaButtonAriaLabel: "Botão de Contato",
     linkPdf:
@@ -231,78 +244,43 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "QUEM SOMOS",
-      title: "Provesi Assessoria",
+      miniTag: "DIREITO DE FAMÍLIA INTERNACIONAL",
+      title: "Soluções seguras para questões familiares além das fronteiras",
     },
     paragraph: (
       <p>
-        A Provesi Assessoria é um escritório especializado em soluções
-        financeiras, com 12 anos de experiência no mercado e atuação em todo o
-        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
-        empresas a recuperarem sua saúde financeira, sempre com foco em
-        negociações justas, transparentes e sustentáveis.
+        Disputas e acordos de família em âmbito internacional exigem
+        conhecimento especializado e estratégias eficazes. Se você enfrenta
+        situações como guarda internacional, pensão alimentícia entre países,
+        divórcio com estrangeiro ou reconhecimento de decisões estrangeiras,
+        estou aqui para garantir segurança jurídica em cada etapa.
         <br />
         <br />
-        Nosso trabalho é transformar situações de endividamento em oportunidades
-        de recomeço. Atuamos na renegociação de dívidas bancárias,
-        financiamentos, cartões de crédito e contratos diversos, alcançando
-        resultados que chegam a até 80% de desconto nas quitações.
+        Minha missão é proteger seus direitos e o bem-estar da sua família,
+        independentemente do país em que você esteja. Entre em contato e saiba
+        como posso ajudar!
       </p>
     ),
     modalAbout: (
       <p>
-        A Provesi Assessoria é um escritório especializado em soluções
-        financeiras, com 12 anos de experiência no mercado e atuação em todo o
-        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
-        empresas a recuperarem sua saúde financeira, sempre com foco em
-        negociações justas, transparentes e sustentáveis.
+        A_Definir
         <br />
         <br />
-        Nosso trabalho é transformar situações de endividamento em oportunidades
-        de recomeço. Atuamos na renegociação de dívidas bancárias,
-        financiamentos, cartões de crédito e contratos diversos, alcançando
-        resultados que chegam a até 80% de desconto nas quitações.
+        A_Definir
         <br />
         <br />
-        Nossa missão
+        A_Definir
         <br />
-        Oferecer soluções financeiras inteligentes que devolvam tranquilidade e
-        poder de decisão ao cliente.
-        <br />
-        <br />
-        Nossa visão
-        <br />
-        Ser referência nacional em consultoria e renegociação de dívidas,
-        promovendo a reorganização financeira de famílias e empresas em todo o
-        país.
-        <br />
-        <br />
-        Nossos valores
-        <br />
-        🤝 Transparência – Negociações claras e honestas.
-        <br />
-        💡 Eficiência – Resultados reais em menos tempo.
-        <br />
-        📊 Experiência – Mais de uma década de atuação no mercado.
-        <br />
-        💚 Compromisso – Dedicação total à reestruturação financeira dos nossos
-        clientes.
-        <br />
-        <br />
-        Na Provesi Assessoria, acreditamos que ninguém deve ser refém das
-        dívidas. Por isso, trabalhamos diariamente para que cada cliente
-        recupere sua estabilidade financeira e volte a construir sonhos com
-        segurança e liberdade.
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Proteja seus direitos além das fronteiras",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "Financiamentos e renegociação de dívidas",
+      miniTag: "A ESCOLHA CERTA",
       title:
-        "Reduza parcelas e juros abusivos do seu veículo com especialistas",
+        "Por que nos escolher para questões de Direito de Família Internacional?",
     },
     cards: {
       card1: {
@@ -317,50 +295,19 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
-        title:
-          "🚗 Está com parcelas do financiamento do seu veículo em atraso?",
+        title: " Proteção dos filhos em casos internacionais",
         description: (
           <p>
-            Se você deixou de pagar as parcelas do financiamento há mais de 3
-            meses, já deve estar sofrendo com cobranças, juros abusivos e o
-            risco de perder seu carro.
-            <br /> <br />
-            Mas calma: a Provesi Assessoria pode ajudar! Com 12 anos de
-            experiência, já ajudamos clientes em todo o Brasil a conquistar até
-            80% de desconto nas dívidas. Nosso time atua diretamente com bancos
-            e financeiras para buscar um acordo justo, que cabe no seu bolso e
-            evita a perda do veículo.
-            <br />
-            <br />
-            🔹 E o melhor: você só paga honorários depois do resultado.
-            Assumimos o risco com você: trabalhamos primeiro, entregamos a
-            solução e só depois cobramos pelos serviços.
-            <br />
-            <br />
-            <br />
-            <p className="font-bold">
-              O que você ganha com a Provesi Assessoria:
-            </p>
-            <br />
-            ✅ Negociações rápidas e seguras com bancos e financeiras.
-            <br />
-            ✅ Redução de juros e encargos.
-            <br />
-            ✅ Parcelas ajustadas à sua realidade.
-            <br />✅ Tranquilidade para manter o carro no seu nome.
-            <br />
-            <br />
-            👉 Não espere o banco tomar uma decisão contra você. Fale com a
-            Provesi Assessoria hoje mesmo e dê o primeiro passo para recuperar
-            sua tranquilidade financeira.
+            Questões como guarda e pensão alimentícia entre países exigem
+            soluções seguras e amparadas por tratados internacionais. Nosso
+            objetivo é assegurar que os direitos dos filhos sejam respeitados,
+            garantindo bem-estar, educação e estabilidade, mesmo quando os pais
+            vivem em países diferentes.
           </p>
         ),
         label: "Entre em contato",
@@ -377,48 +324,50 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-file-check-icon lucide-file-check"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m9 15 2 2 4-4" />
           </svg>
         ),
-        title: "🚛 Caminhoneiro, seu caminhão é sua ferramenta de trabalho!",
+        title: "Reconhecimento de decisões estrangeiras",
         description: (
           <p>
-            Se você tem um financiamento de caminhão, sabia que é possível
-            reduzir juros abusivos e renegociar parcelas, mesmo que você não
-            esteja em atraso?
-            <br />
-            <br />
-            Na Provesi Assessoria, analisamos o seu contrato e buscamos
-            condições mais justas diretamente com os bancos. O resultado pode
-            significar parcelas menores, descontos reais ou até quitação
-            antecipada com até 80% de economia.
-            <br />
-            <br />
-            🔹 E o melhor de tudo: você só paga nossos honorários depois do
-            resultado.
-            <br />
-            Isso garante tranquilidade e confiança para que você cuide do que
-            realmente importa: rodar nas estradas sem medo de perder seu
-            caminhão.
-            <br />
-            <br />
-            ✅ Atendimento em todo o Brasil
-            <br />
-            ✅ 12 anos de experiência
-            <br />
-            ✅ Redução comprovada de dívidas e financiamentos
-            <br />
-            <br />
-            👉 Proteja o seu caminhão e o seu futuro.
+            Casos de divórcio, guarda ou pensão decididos no exterior muitas
+            vezes precisam ser reconhecidos no Brasil para terem validade.
+            Atuamos para que esse processo seja feito de forma ágil, garantindo
+            a eficácia da decisão e evitando insegurança jurídica.
           </p>
         ),
-        label: "Fale agora com a Provesi Assessoria",
+        label: "A_Definir",
       },
       card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        title: "Equilíbrio e justiça em relações internacionais",
+        description:
+          "Em situações de separação entre pessoas de diferentes nacionalidades ou residentes em países distintos, buscamos soluções que assegurem equilíbrio financeiro e emocional, respeitando tanto a legislação brasileira quanto os tratados internacionais aplicáveis.",
+      },
+      card4: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -436,35 +385,14 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "🚗 Financiamento de veículo em atraso (mais de 3 meses)",
-        description:
-          "Parcelas atrasadas? Negociamos até 80% de desconto.Você só paga nossos honorários depois do resultado!",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-clock-icon lucide-clock"
-          >
-            <path d="M12 6v6l4 2" />
-            <circle cx="12" cy="12" r="10" />
-          </svg>
-        ),
-        title: "🚛 Caminhoneiros (caminhões financiados – mesmo sem atraso)",
+        title: "Prevenção de conflitos e segurança além das fronteiras",
         description: (
           <p>
-            Caminhoneiro, reduza os juros do seu caminhão financiado.
-            <br />
-            <br />
-            Só cobramos após o resultado!
+            Com uma atuação preventiva e estratégica, ajudamos a reduzir
+            disputas familiares que envolvem mais de um país, promovendo
+            estabilidade jurídica e emocional para todos os envolvidos. Assim,
+            sua família conta com segurança e tranquilidade, independentemente
+            da fronteira.
           </p>
         ),
       },
@@ -472,27 +400,25 @@ const contentLp01 = {
   },
   video: {
     sectionHeader: {
-      miniTag: "Educação financeira",
-      title: "Juros abusivos no Brasil: Entenda o problema",
-      subtitle:
-        "Assista a vídeos que mostram como os juros excessivos impactam seu bolso e aprenda a se proteger.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title:
-        "Recuperar sua tranquilidade financeira é mais fácil do que você imagina",
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Proteja os direitos da sua família além das fronteiras!",
       subtitle: (
         <p className="opacity-80">
-          Preencha os dados abaixo e receba uma análise gratuita do seu
-          financiamento ou dívida. Nossa equipe especializada entrará em contato
-          rapidamente.
+          Se o outro responsável não cumpre suas obrigações ou se você precisa
+          validar decisões estrangeiras, podemos ajudar a garantir seus direitos
+          de forma rápida e eficaz.
         </p>
       ),
     },
-    buttonLabel: "Solicitar análise gratuita",
+    buttonLabel: "Garantir meus direitos internacionais",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {

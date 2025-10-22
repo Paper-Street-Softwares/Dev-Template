@@ -1,11 +1,8 @@
-import HowItWorksCard from "../../cards/HowItWorksCard";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import contentLp01 from "../../../content/contentLp01";
-import Button from "../../interactives/Button";
-import content from "../../../content/content";
+import HowltWorksCardLPV from "../../HowltWorksCardLPV";
 
 export default function StepsLpv() {
   return (
@@ -21,6 +18,7 @@ export default function StepsLpv() {
             type=""
             titleColorSet="text-black"
             miniTitleTextColor="text-white"
+            miniTitleBgColor="bg-minititleDark"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -34,38 +32,38 @@ export default function StepsLpv() {
           />
 
           <div className="flex flex-col tablet2:flex-row tablet2:flex-wrap gap-6 items-center justify-center w-full mt-[28px] desktop1:mt-0 ">
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card1.stepNumber}
               title={contentLp01.steps.cards.card1.cardTitle}
               description={contentLp01.steps.cards.card1.cardDescription}
               animation
             />
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card2.stepNumber}
               title={contentLp01.steps.cards.card2.cardTitle}
               description={contentLp01.steps.cards.card2.cardDescription}
               animation
             />
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card3.stepNumber}
               title={contentLp01.steps.cards.card3.cardTitle}
               description={contentLp01.steps.cards.card3.cardDescription}
               animation
             />
 
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card4.stepNumber}
               title={contentLp01.steps.cards.card4.cardTitle}
               description={contentLp01.steps.cards.card4.cardDescription}
               animation
             />
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card5.stepNumber}
               title={contentLp01.steps.cards.card5.cardTitle}
               description={contentLp01.steps.cards.card5.cardDescription}
               animation
             />
-            <HowItWorksCard
+            <HowltWorksCardLPV
               number={contentLp01.steps.cards.card6.stepNumber}
               title={contentLp01.steps.cards.card6.cardTitle}
               description={contentLp01.steps.cards.card6.cardDescription}
