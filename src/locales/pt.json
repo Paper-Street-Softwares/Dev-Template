@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Vitória Colombo Rossi <br/> nº 100 , Jd São Bento , <br/> Jundiaí - SP, <br/> CEP: 13202-480",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 17h",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "LEONARDO CHIESSI - ADVOCACIA E CONSULTORIA JURÍDICA",
-    "title": "Seu trabalho vale mais do que <span class=\"text-primary font-bold\">você imagina</span>",
-    "subtitle": "Descubra como proteger seus direitos e evitar que situações injustas passem despercebidas",
-    "ctaButtonText": "Quero saber mais",
+    "miniTag": "CONSULTORIA E ADVOCACIA JURÍDICA",
+    "title": "Advocacia Trabalhista com coragem <span class=\"text-primary font-bold\">e propósito!</span>",
+    "subtitle": "Defesa firme dos direitos do trabalhador e aposentados, com ética, proximidade e resultados reais.",
+    "ctaButtonText": "Fale conosco agora",
     "obsHero": {
-      "text": "Atendimento on-line ou presencial com hora marcada"
+      "text": "Atendimento online, por WhatsApp e presencial"
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "Nossas Especialidades Jurídicas",
-    "subtitle": "Atuamos em diferentes ramos para proteger seus direitos e apoiar suas decisões.",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Atuação jurídica com foco em resultados reais",
+    "subtitle": "Experiência e comprometimento em cada área do Direito.",
     "card1": {
-      "title": "Direito Civil",
-      "subtitle": "Proteção de direitos e resolução de conflitos civis.",
+      "title": "Direito Previdenciário",
+      "subtitle": "Suporte completo em benefícios e aposentadorias.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
       "title": "Direito Trabalhista",
-      "subtitle": "Garantindo direitos em relações de trabalho justas.",
+      "subtitle": "Defesa dos direitos do trabalhador e empregador.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Empresarial",
-      "subtitle": "Suporte legal completo para negócios e empresas.",
+      "title": "Planejamento Previdenciário",
+      "subtitle": "Estratégias seguras para garantir sua aposentadoria.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Elaboração de Contratos",
-      "subtitle": "Criação e revisão de contratos de forma segura e clara.",
+      "title": "Revisão de Benefícios",
+      "subtitle": "Análise detalhada para corrigir valores recebidos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -84,23 +83,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. LEONARDO CHIESSI",
-    "title": "Minha trajetória",
-    "subtitle": "Experiência sólida em direito trabalhista, civil e empresarial",
+    "miniTag": "QUEM É DRA. FABIANA GOMES DE ALMEIDA",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso e experiência na defesa dos seus direitos previdenciários e trabalhistas.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Desde 2017 atuo na área de RH, adquirindo experiência prática com trabalhadores e empresas. Em 2023 iniciei minha carreira na advocacia, focando em atender pessoas e pequenas empresas com soluções jurídicas eficientes.",
-    "modal": "Desde 2017 atuo na área de RH, adquirindo experiência prática com trabalhadores e empresas. Em 2023 iniciei minha carreira na advocacia, focando em atender pessoas e pequenas empresas com soluções jurídicas eficientes. <br/><br/> Atuo principalmente em direito trabalhista, mas também tenho experiência em direito civil, família e empresarial. Minha prática inclui elaboração e revisão de contratos, garantindo segurança e clareza para meus clientes. <br/><br/> Meu objetivo é oferecer atendimento próximo e personalizado, auxiliando trabalhadores, autônomos e pequenos empresários a proteger seus direitos e tomar decisões seguras em todas as áreas do direito. <br/><br/>",
+    "paragraph": "Somos especialistas em casos previdenciários e trabalhistas, atuando em aposentadorias, pensões, benefícios do INSS, rescisões, horas extras, assédio moral e outros conflitos do trabalho. Nosso trabalho vai além do básico: oferecemos um atendimento estratégico e personalizado, analisando cada detalhe do seu caso.",
+    "modal": "Somos especialistas em casos previdenciários e trabalhistas, atuando em aposentadorias, pensões, benefícios do INSS, rescisões, horas extras, assédio moral e outros conflitos do trabalho. Nosso trabalho vai além do básico: oferecemos um atendimento estratégico e personalizado, analisando cada detalhe do seu caso. <br/><br/> Combinamos conhecimento técnico, experiência sólida e soluções inovadoras para garantir resultados justos e concretos. Nossa trajetória é marcada por uma atuação firme, próxima e eficiente, sempre colocando a proteção dos seus direitos em primeiro lugar. <br/><br/> Se você procura um escritório que realmente entende o seu problema e luta por você, a Fabiana Gomes de Almeida Consultoria e Advocacia Jurídica é a escolha certa. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X",
+      "labelTikTok": "Siga-nos no TikTok"
     }
   },
   "news": {
@@ -110,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -123,7 +122,7 @@
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Realizamos uma reunião (presencial ou online) para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
@@ -143,9 +142,9 @@
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"

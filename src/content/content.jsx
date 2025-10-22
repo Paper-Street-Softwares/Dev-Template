@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Leonardo Chiessi",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "advogadoemjundiai.com", // Sem "www"
+  domain: "fgaadv.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "97852", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9456", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98217", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7696", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,7 +107,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.leonardochiessi", // Sem o @
+  instagramProfile: "fabianaadvocacia", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
@@ -235,10 +235,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-shield-icon lucide-shield"
           >
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -302,19 +301,18 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-icon lucide-building"
+            class="lucide lucide-calculator-icon lucide-calculator"
           >
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M12 6h.01" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <line x1="8" x2="16" y1="6" y2="6" />
+            <line x1="16" x2="16" y1="14" y2="18" />
             <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M16 6h.01" />
+            <path d="M12 10h.01" />
             <path d="M8 10h.01" />
+            <path d="M12 14h.01" />
             <path d="M8 14h.01" />
-            <path d="M8 6h.01" />
-            <path d="M9 22v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
-            <rect x="4" y="2" width="16" height="20" rx="2" />
+            <path d="M12 18h.01" />
+            <path d="M8 18h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -344,10 +342,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-icon lucide-file"
+            class="lucide lucide-search-icon lucide-search"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -602,7 +600,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "advogadoemjundiai.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
