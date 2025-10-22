@@ -41,7 +41,7 @@ function FullImg({ obs }) {
                     <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                       <div className="desktop1:mt-0">
                         <MotionDivDownToUp>
-                          <div className="flex text-white justify-center desktop1:justify-start font-bold leading-[30px] phone2:leading-[40px] phone3:leading-[45px] tablet1:leading-[55px] desktop1:leading-[70px] text-center desktop1:text-left text-title3 phone2:text-title4 phone3:text-title5 tablet1:text-title6 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                          <div className="flex text-white justify-center desktop1:justify-start font-medium font-mainFont leading-[30px] phone2:leading-[40px] phone3:leading-[45px] tablet1:leading-[55px] desktop1:leading-[70px] text-center desktop1:text-left text-title3 phone2:text-title4 phone3:text-title5 tablet1:text-title6 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                             {contentLp01.hero.textArea.title}
                           </div>
                         </MotionDivDownToUp>

@@ -47,8 +47,14 @@ const contentLp01 = {
               loop: true,
             }}
           /> */}
-          Envolvido em questões de família no exterior? Saiba como proteger seus
-          <span className="text-minititle"> direitos internacionais!</span>
+          Envolvido em questões de família no{" "}
+          <span className="text-[#E979A3] font-bold">exterior</span>? Saiba como
+          proteger seus
+          <span className="text-[#E979A3] font-bold">
+            {" "}
+            direitos internacionais
+          </span>
+          !
         </h1>
       ),
       subtitle:
@@ -430,7 +436,7 @@ const contentLp01 = {
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="black"
+          stroke="white"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -452,7 +458,7 @@ const contentLp01 = {
           height="28"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="black"
+          stroke="white"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -471,7 +477,7 @@ const contentLp01 = {
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
-          fill="black"
+          fill="white"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"
         >
