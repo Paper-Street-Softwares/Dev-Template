@@ -82,7 +82,7 @@ export default function Index() {
       {/* <News /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
