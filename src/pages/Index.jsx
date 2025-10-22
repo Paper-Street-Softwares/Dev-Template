@@ -77,7 +77,7 @@ export default function Index() {
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} socialPrint={false} />
+      <AboutInstagram colorMode={colorMode} socialPrint={true} />
 
       {/* <News /> */}
       <CtaSecondary colorMode={colorMode} />
