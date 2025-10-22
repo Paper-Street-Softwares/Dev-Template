@@ -18,12 +18,6 @@ export default function CtaLP() {
   const [modalContent, setModalContent] = useState(null);
   const [modalTitle, setModalTitle] = useState("");
 
-  const onClick = () => {
-    setModalTitle("Preencha:");
-    setModalContent(<WhatsappForm />); // renderiza o formulário no modal
-    setVisible(true);
-  };
-
   return (
     <div
       className="relative bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -54,7 +48,7 @@ export default function CtaLP() {
                 aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                 label={contentLp01.cta.buttonLabel}
                 animation
-                onClick={onClick}
+                buttonLink={contentLp01.links.ctaWhatsapp}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
