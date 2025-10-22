@@ -24,11 +24,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Provesi Assessoria em Dívidas e Crédito | Curitiba - PR",
-    description:
-      "A Provesi Assessoria ajuda você a revisar contratos, negociar dívidas e reduzir juros abusivos em Curitiba - PR. Soluções inteligentes para proteger seu bolso e recuperar o controle financeiro.",
-    keywords:
-      "Provesi Assessoria, Revisão de Dívidas Curitiba, Redução de Juros Abusivos, Negociação de Dívidas, Empréstimo Pessoal, Cartão de Crédito, Financiamento de Veículos, Assessoria Financeira Curitiba, Dívidas Abusivas, Proteção Financeira, Consultoria de Crédito, Provesi Curitiba, Recuperação Financeira, Planejamento de Pagamentos, Amortização de Dívidas, Juros Excessivos, Crédito Consciente, Regularização de Dívidas, Orientação Financeira, Provesi Consultoria.",
+    title: "A_Definir",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
@@ -41,20 +39,15 @@ const contentLp01 = {
         <h1>
           <TypewriterComponent
             options={{
-              strings: [
-                "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
-                "Comprou um veículo, mas sente que está pagando por dois?",
-                "A dívida do cartão de crédito está tirando a sua tranquilidade?",
-              ],
+              strings: ["A_Definir", "A_Definir", "A_Definir"],
               autoStart: true,
               loop: true,
             }}
           />
         </h1>
       ),
-      subtitle:
-        "Você pode ser uma vítima das dívidas abusivas. Você precisa agir rápido para dar um fim nisso.",
-      buttonLabel: "Quero minha dívida revisada",
+      subtitle: "A_Definir",
+      buttonLabel: "A_Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -107,8 +100,8 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "Soluções para dívidas e crédito",
-      title: "Recupere sua tranquilidade financeira e reduza juros abusivos",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
@@ -130,11 +123,9 @@ const contentLp01 = {
             <path d="M12 17h.01" />
           </svg>
         ),
-        title:
-          "A dívida do cartão de crédito está tirando a sua tranquilidade?",
-        description:
-          "Os juros do cartão de crédito são uns dos mais altos. Você precisa agir rápido para dar um fim nisso.",
-        label: "Solicitar análise gratuita",
+        title: "A_Definir",
+        description: "A_Definir",
+        label: "A_Definir",
       },
       card2: {
         icon: (
@@ -156,9 +147,9 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "Comprou um veículo, mas sente que está pagando por dois?",
-        description: "Negociamos a possibilidade da redução.",
-        label: "Solicitar análise gratuita",
+        title: "A_Definir",
+        description: "A_Definir",
+        label: "A_Definir",
       },
       card3: {
         icon: (
@@ -178,39 +169,26 @@ const contentLp01 = {
             <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title:
-          "Precisou de empréstimo pessoal e agora paga uma montanha de juros?",
-        description:
-          "Você pode ser uma vítima das dívidas abusivas. Descubra com uma análise se este é o seu caso.",
-        label: "Solicitar análise gratuita",
+        title: "A_Definir",
+        description: "A_Definir",
+        label: "A_Definir",
       },
     },
   },
   news: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "Soluções para dívidas e crédito",
-      title: "Os bancos cobram juros abusivos!",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: (
         <p className="opacity-80">
-          Descubra como se proteger dos juros abusivos e recuperar o controle
-          das suas finanças.
+          A_Definir
           <br />
           <br />
         </p>
       ),
     },
-    text: (
-      <p>
-        {" "}
-        Bancos são instituições poderosas e escondem segredos que os tornam cada
-        dia mais ricos, na contramão de qualquer crise financeira. Os juros
-        abusivos (maior fonte de lucro dos bancos) são assim considerados quando
-        superam a média de mercado divulgado pelo Banco Central, ou quando seu
-        sistema de amortização traz lucro excessivo à instituição, incorrendo em
-        enriquecimento sem causa, proibido pelo Código Civil.
-      </p>
-    ),
+    text: <p> A_Definir</p>,
     buttonLabel: "Baixar arquivo PDF",
     ctaButtonAriaLabel: "Botão de Contato",
     linkPdf:
@@ -231,68 +209,27 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "QUEM SOMOS",
-      title: "Provesi Assessoria",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     paragraph: (
       <p>
-        A Provesi Assessoria é um escritório especializado em soluções
-        financeiras, com 12 anos de experiência no mercado e atuação em todo o
-        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
-        empresas a recuperarem sua saúde financeira, sempre com foco em
-        negociações justas, transparentes e sustentáveis.
+        A_Definir
         <br />
         <br />
-        Nosso trabalho é transformar situações de endividamento em oportunidades
-        de recomeço. Atuamos na renegociação de dívidas bancárias,
-        financiamentos, cartões de crédito e contratos diversos, alcançando
-        resultados que chegam a até 80% de desconto nas quitações.
+        A_Definir
       </p>
     ),
     modalAbout: (
       <p>
-        A Provesi Assessoria é um escritório especializado em soluções
-        financeiras, com 12 anos de experiência no mercado e atuação em todo o
-        Brasil. Ao longo dessa trajetória, ajudamos milhares de pessoas e
-        empresas a recuperarem sua saúde financeira, sempre com foco em
-        negociações justas, transparentes e sustentáveis.
+        A_Definir
         <br />
         <br />
-        Nosso trabalho é transformar situações de endividamento em oportunidades
-        de recomeço. Atuamos na renegociação de dívidas bancárias,
-        financiamentos, cartões de crédito e contratos diversos, alcançando
-        resultados que chegam a até 80% de desconto nas quitações.
+        A_Definir
         <br />
         <br />
-        Nossa missão
+        A_Definir
         <br />
-        Oferecer soluções financeiras inteligentes que devolvam tranquilidade e
-        poder de decisão ao cliente.
-        <br />
-        <br />
-        Nossa visão
-        <br />
-        Ser referência nacional em consultoria e renegociação de dívidas,
-        promovendo a reorganização financeira de famílias e empresas em todo o
-        país.
-        <br />
-        <br />
-        Nossos valores
-        <br />
-        🤝 Transparência – Negociações claras e honestas.
-        <br />
-        💡 Eficiência – Resultados reais em menos tempo.
-        <br />
-        📊 Experiência – Mais de uma década de atuação no mercado.
-        <br />
-        💚 Compromisso – Dedicação total à reestruturação financeira dos nossos
-        clientes.
-        <br />
-        <br />
-        Na Provesi Assessoria, acreditamos que ninguém deve ser refém das
-        dívidas. Por isso, trabalhamos diariamente para que cada cliente
-        recupere sua estabilidade financeira e volte a construir sonhos com
-        segurança e liberdade.
       </p>
     ),
     buttonLabel: "A_Definir",
@@ -300,9 +237,8 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "Financiamentos e renegociação de dívidas",
-      title:
-        "Reduza parcelas e juros abusivos do seu veículo com especialistas",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
@@ -325,42 +261,16 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title:
-          "🚗 Está com parcelas do financiamento do seu veículo em atraso?",
+        title: " A_Definir",
         description: (
           <p>
-            Se você deixou de pagar as parcelas do financiamento há mais de 3
-            meses, já deve estar sofrendo com cobranças, juros abusivos e o
-            risco de perder seu carro.
+            A_Definir
             <br /> <br />
-            Mas calma: a Provesi Assessoria pode ajudar! Com 12 anos de
-            experiência, já ajudamos clientes em todo o Brasil a conquistar até
-            80% de desconto nas dívidas. Nosso time atua diretamente com bancos
-            e financeiras para buscar um acordo justo, que cabe no seu bolso e
-            evita a perda do veículo.
+            A_Definir
             <br />
             <br />
-            🔹 E o melhor: você só paga honorários depois do resultado.
-            Assumimos o risco com você: trabalhamos primeiro, entregamos a
-            solução e só depois cobramos pelos serviços.
+            A_Definir
             <br />
-            <br />
-            <br />
-            <p className="font-bold">
-              O que você ganha com a Provesi Assessoria:
-            </p>
-            <br />
-            ✅ Negociações rápidas e seguras com bancos e financeiras.
-            <br />
-            ✅ Redução de juros e encargos.
-            <br />
-            ✅ Parcelas ajustadas à sua realidade.
-            <br />✅ Tranquilidade para manter o carro no seu nome.
-            <br />
-            <br />
-            👉 Não espere o banco tomar uma decisão contra você. Fale com a
-            Provesi Assessoria hoje mesmo e dê o primeiro passo para recuperar
-            sua tranquilidade financeira.
           </p>
         ),
         label: "Entre em contato",
@@ -384,39 +294,20 @@ const contentLp01 = {
             <path d="M12 18V6" />
           </svg>
         ),
-        title: "🚛 Caminhoneiro, seu caminhão é sua ferramenta de trabalho!",
+        title: "A_Definir",
         description: (
           <p>
-            Se você tem um financiamento de caminhão, sabia que é possível
-            reduzir juros abusivos e renegociar parcelas, mesmo que você não
-            esteja em atraso?
+            A_Definir
             <br />
             <br />
-            Na Provesi Assessoria, analisamos o seu contrato e buscamos
-            condições mais justas diretamente com os bancos. O resultado pode
-            significar parcelas menores, descontos reais ou até quitação
-            antecipada com até 80% de economia.
+            A_Definir
             <br />
             <br />
-            🔹 E o melhor de tudo: você só paga nossos honorários depois do
-            resultado.
+            A_Definir
             <br />
-            Isso garante tranquilidade e confiança para que você cuide do que
-            realmente importa: rodar nas estradas sem medo de perder seu
-            caminhão.
-            <br />
-            <br />
-            ✅ Atendimento em todo o Brasil
-            <br />
-            ✅ 12 anos de experiência
-            <br />
-            ✅ Redução comprovada de dívidas e financiamentos
-            <br />
-            <br />
-            👉 Proteja o seu caminhão e o seu futuro.
           </p>
         ),
-        label: "Fale agora com a Provesi Assessoria",
+        label: "A_Definir",
       },
       card3: {
         icon: (
@@ -436,9 +327,8 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "🚗 Financiamento de veículo em atraso (mais de 3 meses)",
-        description:
-          "Parcelas atrasadas? Negociamos até 80% de desconto.Você só paga nossos honorários depois do resultado!",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
         icon: (
@@ -458,13 +348,13 @@ const contentLp01 = {
             <circle cx="12" cy="12" r="10" />
           </svg>
         ),
-        title: "🚛 Caminhoneiros (caminhões financiados – mesmo sem atraso)",
+        title: "A_Definir",
         description: (
           <p>
-            Caminhoneiro, reduza os juros do seu caminhão financiado.
+            A_Definir
             <br />
             <br />
-            Só cobramos após o resultado!
+            A_Definir
           </p>
         ),
       },
@@ -472,27 +362,19 @@ const contentLp01 = {
   },
   video: {
     sectionHeader: {
-      miniTag: "Educação financeira",
-      title: "Juros abusivos no Brasil: Entenda o problema",
-      subtitle:
-        "Assista a vídeos que mostram como os juros excessivos impactam seu bolso e aprenda a se proteger.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title:
-        "Recuperar sua tranquilidade financeira é mais fácil do que você imagina",
-      subtitle: (
-        <p className="opacity-80">
-          Preencha os dados abaixo e receba uma análise gratuita do seu
-          financiamento ou dívida. Nossa equipe especializada entrará em contato
-          rapidamente.
-        </p>
-      ),
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
-    buttonLabel: "Solicitar análise gratuita",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
