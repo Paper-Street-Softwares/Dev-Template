@@ -83,23 +83,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
+    "miniTag": "QUEM É DRA. FABIANA GOMES DE ALMEIDA",
     "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "subtitle": "Compromisso e experiência na defesa dos seus direitos previdenciários e trabalhistas.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "Somos especialistas em casos previdenciários e trabalhistas, atuando em aposentadorias, pensões, benefícios do INSS, rescisões, horas extras, assédio moral e outros conflitos do trabalho. Nosso trabalho vai além do básico: oferecemos um atendimento estratégico e personalizado, analisando cada detalhe do seu caso.",
+    "modal": "Somos especialistas em casos previdenciários e trabalhistas, atuando em aposentadorias, pensões, benefícios do INSS, rescisões, horas extras, assédio moral e outros conflitos do trabalho. Nosso trabalho vai além do básico: oferecemos um atendimento estratégico e personalizado, analisando cada detalhe do seu caso. <br/><br/> Combinamos conhecimento técnico, experiência sólida e soluções inovadoras para garantir resultados justos e concretos. Nossa trajetória é marcada por uma atuação firme, próxima e eficiente, sempre colocando a proteção dos seus direitos em primeiro lugar. <br/><br/> Se você procura um escritório que realmente entende o seu problema e luta por você, a Fabiana Gomes de Almeida Consultoria e Advocacia Jurídica é a escolha certa. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X",
+      "labelTikTok": "Siga-nos no TikTok"
     }
   },
   "news": {
@@ -122,7 +122,7 @@
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Realizamos uma reunião (presencial ou online) para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
