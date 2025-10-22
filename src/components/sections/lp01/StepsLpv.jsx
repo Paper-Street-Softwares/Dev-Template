@@ -18,6 +18,7 @@ export default function StepsLpv() {
             type=""
             titleColorSet="text-black"
             miniTitleTextColor="text-white"
+            miniTitleBgColor="bg-minititleDark"
           />
           <SectionHeader
             className="text-center desktop1:hidden"

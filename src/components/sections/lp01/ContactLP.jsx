@@ -7,9 +7,9 @@ import ContactCardLP from "./ContactCardLP";
 export default function ContactLP() {
   return (
     <>
-      <SectionArea paddingTopAndBottom={false} className="bg-black">
+      <SectionArea paddingTopAndBottom={false} className="bg-bgSectionDark">
         <SectionWrapper>
-          <div className="mt-[60px] text-white  font-mainFont desktop1:flex desktop1:flex-wrap justify-center">
+          <div className="mt-[60px] text-black  font-mainFont desktop1:flex desktop1:flex-wrap justify-center">
             {/* <h1 className="text-center mb-[16px]">Entre em contato</h1> */}
             {/* <ContactCardLP
               label={contentLp01.contact.card1.title}
@@ -18,13 +18,6 @@ export default function ContactLP() {
             /> */}
 
             <div className="flex flex-col gap-6">
-              <p className="text-center">
-                A Provesi Assessoria é a melhor assessoria de negociação
-                bancária do Brasil.
-                <br />
-                <br />
-                Não prestamos serviços advocatícios.
-              </p>
               <div className="flex flex-wrap">
                 <ContactCardLP
                   label={contentLp01.contact.card3.title}

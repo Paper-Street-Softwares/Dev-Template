@@ -82,7 +82,6 @@ export default function AboutParalaxeLP({ logo }) {
                     color=""
                     type="article"
                     titleColorSet="text-white"
-                    miniTitleBgColor="bg-white"
                     miniTitleTextColor="text-black"
                   />
                   <MotionDivDownToUp>
@@ -90,7 +89,7 @@ export default function AboutParalaxeLP({ logo }) {
                       {contentLp01.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
-                  <MotionDivDownToUp>
+                  {/* <MotionDivDownToUp>
                     {" "}
                     <div>
                       <Button
@@ -119,7 +118,7 @@ export default function AboutParalaxeLP({ logo }) {
                         {modalContent}
                       </Dialog>
                     </div>
-                  </MotionDivDownToUp>
+                  </MotionDivDownToUp> */}
                 </div>
               </div>
             </SectionWrapper>

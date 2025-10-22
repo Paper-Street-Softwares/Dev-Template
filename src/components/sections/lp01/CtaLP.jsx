@@ -40,13 +40,13 @@ export default function CtaLP() {
           <SectionWrapper>
             <SectionHeader
               className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[40px]"
+              miniTitle={contentLp01.cta.sectionHeader.miniTag}
               sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
               sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
               miniTitleTextColor="text-darker"
               color=""
               titleColorSet="text-white"
               subtitleColorSet="text-white"
-              miniTitleBgColor={false}
             />
 
             <MotionDivDownToUp>

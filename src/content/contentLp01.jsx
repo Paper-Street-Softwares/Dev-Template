@@ -40,17 +40,20 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <TypewriterComponent
+          {/* <TypewriterComponent
             options={{
               strings: ["A_Definir", "A_Definir", "A_Definir"],
               autoStart: true,
               loop: true,
             }}
-          />
+          /> */}
+          Envolvido em questões de família no exterior? Saiba como proteger seus
+          <span className="text-minititle"> direitos internacionais!</span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "A_Definir",
+      subtitle:
+        "Casos de família que atravessam fronteiras exigem cuidado especial. Conte com um advogado em Direito de Família Internacional para garantir segurança jurídica a você e sua família.",
+      buttonLabel: "Proteja seus direitos além das fronteiras",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -103,8 +106,9 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "QUEM TEM DIREITO?",
+      title:
+        "Descubra quem pode solicitar pensão alimentícia em casos internacionais e garantir proteção além das fronteiras.",
     },
     cards: {
       card1: {
@@ -119,15 +123,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
+            class="lucide lucide-baby-icon lucide-baby"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M15 12h.01" />
+            <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <path d="M9 12h.01" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Filhos menores em países diferentes",
+        description:
+          "Quando os pais vivem em países distintos, a pensão alimentícia continua sendo um direito da criança. Existem tratados internacionais que permitem cobrar e receber o valor de forma legal e segura.",
         label: "A_Definir",
       },
       card2: {
@@ -142,16 +148,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
+            class="lucide lucide-graduation-cap-icon lucide-graduation-cap"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+            <path d="M22 10v6" />
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Filhos maiores em dependência no exterior",
+        description:
+          "Mesmo após a maioridade, filhos que estudam ou têm necessidades especiais em outro país podem ter direito à pensão, desde que comprovem a dependência econômica.",
         label: "A_Definir",
       },
       card3: {
@@ -166,14 +172,40 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
+            class="lucide lucide-heart-crack-icon lucide-heart-crack"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="M12.409 5.824c-.702.792-1.15 1.496-1.415 2.166l2.153 2.156a.5.5 0 0 1 0 .707l-2.293 2.293a.5.5 0 0 0 0 .707L12 15" />
+            <path d="M13.508 20.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.677.6.6 0 0 0 .818.001A5.5 5.5 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5z" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Ex-cônjuge em situação internacional",
+        description:
+          "Em casos de divórcio envolvendo países diferentes, o ex-cônjuge que não tem condições de se manter pode solicitar pensão. A legislação internacional busca assegurar esse direito.",
+        label: "A_Definir",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-globe-lock-icon lucide-globe-lock"
+          >
+            <path d="M15.686 15A14.5 14.5 0 0 1 12 22a14.5 14.5 0 0 1 0-20 10 10 0 1 0 9.542 13" />
+            <path d="M2 12h8.5" />
+            <path d="M20 6V4a2 2 0 1 0-4 0v2" />
+            <rect width="8" height="5" x="14" y="6" rx="1" />
+          </svg>
+        ),
+        title: "Pais em vulnerabilidade no exterior",
+        description:
+          "Pais que residem fora do Brasil e não conseguem se sustentar devido a incapacidade ou doença também podem requerer pensão, garantindo dignidade em qualquer lugar do mundo.",
         label: "A_Definir",
       },
     },
@@ -212,15 +244,21 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "DIREITO DE FAMÍLIA INTERNACIONAL",
+      title: "Soluções seguras para questões familiares além das fronteiras",
     },
     paragraph: (
       <p>
-        A_Definir
+        Disputas e acordos de família em âmbito internacional exigem
+        conhecimento especializado e estratégias eficazes. Se você enfrenta
+        situações como guarda internacional, pensão alimentícia entre países,
+        divórcio com estrangeiro ou reconhecimento de decisões estrangeiras,
+        estou aqui para garantir segurança jurídica em cada etapa.
         <br />
         <br />
-        A_Definir
+        Minha missão é proteger seus direitos e o bem-estar da sua família,
+        independentemente do país em que você esteja. Entre em contato e saiba
+        como posso ajudar!
       </p>
     ),
     modalAbout: (
@@ -235,13 +273,14 @@ const contentLp01 = {
         <br />
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Proteja seus direitos além das fronteiras",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title:
+        "Por que nos escolher para questões de Direito de Família Internacional?",
     },
     cards: {
       card1: {
@@ -256,24 +295,19 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
-        title: " A_Definir",
+        title: " Proteção dos filhos em casos internacionais",
         description: (
           <p>
-            A_Definir
-            <br /> <br />
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-            <br />
+            Questões como guarda e pensão alimentícia entre países exigem
+            soluções seguras e amparadas por tratados internacionais. Nosso
+            objetivo é assegurar que os direitos dos filhos sejam respeitados,
+            garantindo bem-estar, educação e estabilidade, mesmo quando os pais
+            vivem em países diferentes.
           </p>
         ),
         label: "Entre em contato",
@@ -290,29 +324,50 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-file-check-icon lucide-file-check"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m9 15 2 2 4-4" />
           </svg>
         ),
-        title: "A_Definir",
+        title: "Reconhecimento de decisões estrangeiras",
         description: (
           <p>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-            <br />
+            Casos de divórcio, guarda ou pensão decididos no exterior muitas
+            vezes precisam ser reconhecidos no Brasil para terem validade.
+            Atuamos para que esse processo seja feito de forma ágil, garantindo
+            a eficácia da decisão e evitando insegurança jurídica.
           </p>
         ),
         label: "A_Definir",
       },
       card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        title: "Equilíbrio e justiça em relações internacionais",
+        description:
+          "Em situações de separação entre pessoas de diferentes nacionalidades ou residentes em países distintos, buscamos soluções que assegurem equilíbrio financeiro e emocional, respeitando tanto a legislação brasileira quanto os tratados internacionais aplicáveis.",
+      },
+      card4: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -330,34 +385,14 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "A_Definir",
-        description: "A_Definir",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-clock-icon lucide-clock"
-          >
-            <path d="M12 6v6l4 2" />
-            <circle cx="12" cy="12" r="10" />
-          </svg>
-        ),
-        title: "A_Definir",
+        title: "Prevenção de conflitos e segurança além das fronteiras",
         description: (
           <p>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Com uma atuação preventiva e estratégica, ajudamos a reduzir
+            disputas familiares que envolvem mais de um país, promovendo
+            estabilidade jurídica e emocional para todos os envolvidos. Assim,
+            sua família conta com segurança e tranquilidade, independentemente
+            da fronteira.
           </p>
         ),
       },
@@ -373,11 +408,17 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Proteja os direitos da sua família além das fronteiras!",
+      subtitle: (
+        <p className="opacity-80">
+          Se o outro responsável não cumpre suas obrigações ou se você precisa
+          validar decisões estrangeiras, podemos ajudar a garantir seus direitos
+          de forma rápida e eficaz.
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Garantir meus direitos internacionais",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
