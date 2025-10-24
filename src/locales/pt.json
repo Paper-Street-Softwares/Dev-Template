@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "Assessoria Jurídica - Legal Providence",
+    "title": "Transformamos causas <span class=\"text-primary font-bold\">em conquistas</span>",
+    "subtitle": "Cada caso é uma oportunidade de vencer com estratégia, confiança e resultados que falam por si.",
+    "ctaButtonText": "Conheça nossos resultados",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online, alcance nacional"
     }
   },
   "features": {
