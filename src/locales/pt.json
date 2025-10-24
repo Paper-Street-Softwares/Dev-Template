@@ -83,23 +83,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
+    "miniTag": "QUEM É A LEGAL PROVIDENCE",
     "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "subtitle": "Comprometidos em oferecer soluções jurídicas com ética, confiança e resultados.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "A Legal Providence nasceu com o propósito de tornar o Direito mais acessível e humano, aproximando a advocacia das reais necessidades das pessoas e empresas.",
+    "modal": "A Legal Providence nasceu com o propósito de tornar o Direito mais acessível e humano, aproximando a advocacia das reais necessidades das pessoas e empresas. <br/><br/> Desde o início, buscamos unir conhecimento técnico e empatia, garantindo que cada cliente receba uma atuação personalizada e transparente, pautada na confiança e no respeito. <br/><br/> Hoje, seguimos firmes no compromisso de defender direitos e construir soluções eficazes, sempre guiados pelos valores que moldam nossa trajetória: ética, dedicação e excelência. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no Linkedin",
-      "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X",
+      "labelTikTok": "Siga-nos no TikTok"
     }
   },
   "news": {
