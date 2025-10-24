@@ -4,6 +4,10 @@ import Button from "../interactives/Button";
 import { useTranslation } from "react-i18next";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
+import ImageGallery from "react-image-gallery";
+import heroImg1 from "../../assets/imgs/hero/lawHero.webp";
+import heroImg2 from "../../assets/imgs/hero/lawHero1.webp";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 export default function Hero({
   colorMode,
@@ -11,6 +15,16 @@ export default function Hero({
   influencer,
   panoramica,
 }) {
+  const images = [
+    {
+      original: heroImg1,
+      thumbnail: heroImg1,
+    },
+    {
+      original: heroImg2,
+      thumbnail: heroImg2,
+    },
+  ];
   const { t } = useTranslation();
   const isMobile = window.innerWidth < 1024;
 
@@ -18,7 +32,7 @@ export default function Hero({
   const backgroundClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "from-bgSectionDark to-darker",
+    default: "bg-bgSectionDark",
   };
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
 
@@ -42,7 +56,7 @@ export default function Hero({
 
         <MotionDivDownToUp>
           <div
-            className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[75px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
+            className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
             <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
           </div>
@@ -134,9 +148,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-white",
-      subtitleTextColor: "text-white",
-      obsTextColorOverride: "text-white",
+      titleTextColor: "text-black",
+      subtitleTextColor: "text-black",
+      obsTextColorOverride: "text-black",
     });
   }
 
@@ -155,7 +169,7 @@ export default function Hero({
                 {/* Imagem principal */}
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                   <MotionDivDownToUp className="relative flex justify-center w-full">
-                    <picture>
+                    {/* <picture>
                       <source
                         srcSet={content.texts.hero.heroDefaultImageMobile}
                         media="(max-width: 424px)"
@@ -174,7 +188,37 @@ export default function Hero({
                             : "shadow-custom-opacity shadow-shadowHero/5"
                         }`}
                       />
-                    </picture>
+                    </picture> */}
+
+                    <div className="w-full">
+                      <ImageGallery
+                        items={images}
+                        showNav={false} // Ativando a navegação
+                        showFullscreenButton={false} // Desativando botão de tela cheia
+                        useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
+                        showBullets={false}
+                        showPlayButton={false} // Remove o botão de play
+                        showThumbnails={false} // Remove as miniaturas
+                        autoPlay={true}
+                        slideInterval={3000}
+                        additionalClass="custom-gallery"
+                      />
+                      <style>
+                        {`
+                    .custom-gallery .image-gallery-slide img {
+                      height: auto; 
+                      width: 100%;
+                      border-radius: 5px;
+                    }
+
+                    .custom-gallery .image-gallery-thumbnails img {
+                      height: 60px;  
+                      width: 100px;  
+                      object-fit: cover; 
+                    }
+                  `}
+                      </style>
+                    </div>
                   </MotionDivDownToUp>
                 </div>
               </div>
@@ -385,7 +429,7 @@ export default function Hero({
                             <div className="flex justify-center desktop1:justify-start">
                               <div className="flex flex-col items-center desktop1:flex-row text-primary">
                                 {content.texts.hero.obsHero.icon}
-                                <p className="text-primary  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                                <p className="text-primary ml-[10px] text-center mt-[12px] desktop1:mt-0">
                                   {t("hero.obsHero.text")}{" "}
                                 </p>
                               </div>

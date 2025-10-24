@@ -9,7 +9,7 @@ function ParagraphsAboutSocial() {
 
   return (
     <MotionDivDownToUp>
-      <Paragraphs className="text-white text-opacity-80 mb-[48px]">
+      <Paragraphs className="text-black text-opacity-80 mb-[48px]">
         {t("about.aboutSocial.paragraph")}{" "}
       </Paragraphs>
     </MotionDivDownToUp>

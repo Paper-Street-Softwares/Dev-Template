@@ -67,11 +67,11 @@ export default function Index() {
 
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
+        defaultFeature={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={false}
+        sixCards={true}
         paragraphsModal={false}
         iconsWithModal={false}
       />
@@ -87,7 +87,7 @@ export default function Index() {
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
+        addres={true}
         obs={false}
         expediente={true}
       />
