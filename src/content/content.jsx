@@ -64,19 +64,19 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Ferreira Alves Advocacia",
+  name: "Legal Providence",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "direitofamiliarista.adv.br", // Sem "www"
+  domain: "legalprovidence.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "94700", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1941", // Apenas os 4 últimos números
+    firstPart: "98309", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7993", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98880", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2053", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -107,8 +107,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "draclaudiaferreira.adv", // Sem o @
-  facebookProfile: "",
+  instagramProfile: "assessoriajuridicalegalprovide", // Sem o @
+  facebookProfile: "61579983261272",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
