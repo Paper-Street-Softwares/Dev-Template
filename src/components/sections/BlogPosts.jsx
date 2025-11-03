@@ -38,7 +38,7 @@ function BlogPosts() {
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionDark" id="blog" paddingtop={false}>
+      <SectionArea className="bg-bgSectionDark" id="blog">
         <SectionWrapper>
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
@@ -47,8 +47,8 @@ function BlogPosts() {
             sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
             type=""
-            titleColorSet="text-secondary"
-            subtitleColorSet="text-secondary"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
 
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
@@ -87,7 +87,7 @@ function BlogPosts() {
           </ul>
 
           <MotionDivDownToUp>
-            <Paragraphs className="text-center text-primary underline transition hover:scale-110">
+            <Paragraphs className="text-center text-white underline transition hover:scale-110">
               <a
                 href={`https://${content.texts.blog.blogLink}`}
                 target="_blank"
