@@ -1,6 +1,6 @@
 {
   "infos": {
-    "adress": "Rua Cátulo Paixão, <br/> nº 119, Japiim Manaus - AM, <br/> CEP: 69077-780",
+    "adress": "Rua Vitorino Gonçalves dos santos, <br/> nº 188, sala 09, ,  <br/> Centro, São Sebastião - SP,  <br/> CEP: 11608-617",
     "adressSecundario": "A_Definir",
     "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
@@ -11,63 +11,64 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "Assessoria Jurídica - Legal Providence",
-    "title": "Transformamos causas <span class=\"text-primary font-bold\">em conquistas</span>",
-    "subtitle": "Cada caso é uma oportunidade de vencer com estratégia, confiança e resultados que falam por si.",
-    "ctaButtonText": "Conheça nossos resultados",
+    "miniTag": "ADVOGADO ELEITORAL E AMBIENTAL",
+    "title": "Blindagem jurídica frente ao <span class=\"text-primary font-bold\">Poder Público</span>",
+    "subtitle": "Especialista em enfrentar autuações, embargos e pressões administrativas com segurança jurídica",
+    "ctaButtonText": "Fale agora com o advogado",
     "obsHero": {
-      "text": "Atendimento online, alcance nacional"
+      "text": "Atendimento em todo território nacional online e presencial em São Sebastião - SP."
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Comprometimento em cada área do Direito",
-    "subtitle": "Atuamos com excelência em diversas especialidades jurídicas, oferecendo soluções personalizadas e seguras para cada necessidade.",
+    "title": "Excelência em Direito Público e Eleitoral",
+    "subtitle": "Atuação especializada para proteger seus direitos e interesses.",
     "card1": {
-      "title": "Direito Civil",
-      "subtitle": "Soluções jurídicas para questões pessoais e patrimoniais.",
+      "title": "Regularização de Imóveis",
+      "subtitle": "Soluções jurídicas completas para imóveis irregulares.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Defesa dos seus direitos em relações de consumo.",
+      "title": "Defesa em Auto de Infração Ambiental",
+      "subtitle": "Atuação estratégica em autos de infração ambiental.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Bancário",
-      "subtitle": "Assessoria em contratos, cobranças e revisões bancárias.Assessoria em contratos, cobranças e revisões bancárias.",
+      "title": "Defesa em ação civil pública",
+      "subtitle": "Proteção de direitos frente às ações civis públicas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Protegendo direitos nas relações entre empregado e empresa.",
+      "title": "Licitações e contratos públicos",
+      "subtitle": "Segurança jurídica em licitações e contratos públicos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Garantindo acesso a benefícios e aposentadorias justas.",
+      "title": "Direito Eleitoral",
+      "subtitle": "Registro de candidaturas, prestação de contas eleitorais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica e preventiva em questões legais.",
+      "title": "Ações Eleitorais",
+      "subtitle": "Defesa especializada em ações eleitorais e campanhas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -83,23 +84,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A LEGAL PROVIDENCE",
-    "title": "Nossa trajetória",
-    "subtitle": "Comprometidos em oferecer soluções jurídicas com ética, confiança e resultados.",
+    "miniTag": "QUEM É O DR. ALEX PINHEIRO",
+    "title": "Minha trajetória",
+    "subtitle": "Especialização sólida para defender imóveis e garantir segurança jurídica.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A Legal Providence nasceu com o propósito de tornar o Direito mais acessível e humano, aproximando a advocacia das reais necessidades das pessoas e empresas.",
-    "modal": "A Legal Providence nasceu com o propósito de tornar o Direito mais acessível e humano, aproximando a advocacia das reais necessidades das pessoas e empresas. <br/><br/> Desde o início, buscamos unir conhecimento técnico e empatia, garantindo que cada cliente receba uma atuação personalizada e transparente, pautada na confiança e no respeito. <br/><br/> Hoje, seguimos firmes no compromisso de defender direitos e construir soluções eficazes, sempre guiados pelos valores que moldam nossa trajetória: ética, dedicação e excelência. <br/><br/>",
+    "paragraph": "Com vasta experiência em Direito Ambiental e Urbanístico pela USP, o Dr. Alex Pinheiro atua com foco na defesa do patrimônio imobiliário e na regularização de imóveis por todo o estado de São Paulo.",
+    "modal": "Com vasta experiência em Direito Ambiental e Urbanístico pela USP, o Dr. Alex Pinheiro atua com foco na defesa do patrimônio imobiliário e na regularização de imóveis por todo o estado de São Paulo. <br/><br/> Já impediu a demolição de mais de 500 imóveis por alegados passivos ambientais, representando principalmente famílias de renda média no litoral norte paulista e também em cidades do litoral de Santa Catarina. <br/><br/> É especialista em Licitações e Contratos Públicos pela USP, membro das Comissões de Meio Ambiente e Direito Urbanístico da OAB/SP e ex-conselheiro do Conselho de Meio Ambiente de São Sebastião/SP. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X",
-      "labelTikTok": "Siga-nos no TikTok"
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X",
+      "labelTikTok": "Siga-me no TikTok"
     }
   },
   "news": {
@@ -142,9 +143,9 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
@@ -179,6 +180,6 @@
     "midSectionName": "Até mais",
     "footerText": "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
     "footerSocialText": "A_Definir",
-    "footerNavegacaoText": "Navegação"
+    "footerNavegacaoText": "NAVEGAÇÃO"
   }
 }

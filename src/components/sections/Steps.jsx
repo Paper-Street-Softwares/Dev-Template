@@ -20,13 +20,13 @@ export default function Steps({ colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-secondary",
-    default: "text-black",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea className={`${bgClass}`} paddingbot={true}>
+    <SectionArea className={`${bgClass}`} paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/5">
           {/* <GalleryAbout /> */}

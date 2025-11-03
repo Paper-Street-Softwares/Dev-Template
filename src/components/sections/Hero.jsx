@@ -148,9 +148,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-black",
-      subtitleTextColor: "text-black",
-      obsTextColorOverride: "text-black",
+      titleTextColor: "text-white",
+      subtitleTextColor: "text-white",
+      obsTextColorOverride: "text-white",
     });
   }
 
@@ -169,7 +169,7 @@ export default function Hero({
                 {/* Imagem principal */}
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                   <MotionDivDownToUp className="relative flex justify-center w-full">
-                    {/* <picture>
+                    <picture>
                       <source
                         srcSet={content.texts.hero.heroDefaultImageMobile}
                         media="(max-width: 424px)"
@@ -188,17 +188,17 @@ export default function Hero({
                             : "shadow-custom-opacity shadow-shadowHero/5"
                         }`}
                       />
-                    </picture> */}
+                    </picture>
 
-                    <div className="w-full">
+                    {/* <div className="w-full">
                       <ImageGallery
                         items={images}
-                        showNav={false} // Ativando a navegação
-                        showFullscreenButton={false} // Desativando botão de tela cheia
-                        useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
+                        showNav={false}
+                        showFullscreenButton={false}
+                        useBrowserFullscreen={false}
                         showBullets={false}
-                        showPlayButton={false} // Remove o botão de play
-                        showThumbnails={false} // Remove as miniaturas
+                        showPlayButton={false}
+                        showThumbnails={false}
                         autoPlay={true}
                         slideInterval={3000}
                         additionalClass="custom-gallery"
@@ -218,7 +218,7 @@ export default function Hero({
                     }
                   `}
                       </style>
-                    </div>
+                    </div> */}
                   </MotionDivDownToUp>
                 </div>
               </div>

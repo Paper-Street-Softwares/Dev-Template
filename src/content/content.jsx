@@ -64,19 +64,19 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Legal Providence",
+  name: "Dr. Alex Pinheiro",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "legalprovidence.com.br", // Sem "www"
+  domain: "alexpinheiro.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98309", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7993", // Apenas os 4 últimos números
+    ddd: "12",
+    firstPart: "98195", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5043", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "21",
-    firstPart: "98880", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2053", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -107,8 +107,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "assessoriajuridicalegalprovide", // Sem o @
-  facebookProfile: "61579983261272",
+  instagramProfile: "alex.pinheiroadvogado", // Sem o @
+  facebookProfile: "",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
@@ -235,13 +235,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-house-icon lucide-house"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -271,11 +268,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            class="lucide lucide-shield-plus-icon lucide-shield-plus"
           >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M9 12h6" />
+            <path d="M12 9v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -304,10 +301,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-credit-card-icon lucide-credit-card"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <rect width="20" height="14" x="2" y="5" rx="2" />
-            <line x1="2" x2="22" y1="10" y2="10" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -337,12 +337,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-file-check-icon lucide-file-check"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+            <path d="m9 15 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -372,11 +371,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            class="lucide lucide-vote-icon lucide-vote"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="m9 12 2 2 4-4" />
+            <path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z" />
+            <path d="M22 19H2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -406,10 +405,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-compass-icon lucide-compass"
+            class="lucide lucide-scroll-text-icon lucide-scroll-text"
           >
-            <path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" />
-            <circle cx="12" cy="12" r="10" />
+            <path d="M15 12h-5" />
+            <path d="M15 8h-5" />
+            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -596,7 +597,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir", //sem "https://"
+      blogLink: "alexpinheiro2.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
