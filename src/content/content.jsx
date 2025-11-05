@@ -67,11 +67,11 @@ export const infos = {
   name: "Dr. San Dyego Dias",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "sandyego.adv@gmail.com", // Email desejado pelo cliente
-  domain: "sandyegodiasadv.com.br", // Sem "www"
+  domain: "testoniadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "64",
-    firstPart: "99278", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8851", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6656", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",

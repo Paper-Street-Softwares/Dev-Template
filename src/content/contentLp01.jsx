@@ -23,9 +23,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title: "Advogado Trabalhista em Joinville - Testoni & Advogados",
+    description:
+      "Especialistas em direito trabalhista e previdenciário em Joinville. Testoni & Advogados oferece atendimento humanizado e defesa de seus direitos.",
+    keywords:
+      "advogado trabalhista em joinville, advogado trabalhista, insalubridade, periculosidade, rescisão indireta, indenização por acidente de trabalho, indenização por doença adquirida no trabalho, vínculo de emprego, verbas rescisórias, reversão justa causa, salário pago por fora, pagamento de horas extras, contrato experiência gravidez, acidente de trabalho contrato de experiência ,estabilidade emprego PCD, despedida discriminatória, consulta com advogado trabalhista.",
   },
   hero: {
     bgImg: bgImg,
