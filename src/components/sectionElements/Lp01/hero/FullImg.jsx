@@ -30,7 +30,7 @@ function FullImg({ obs }) {
               <img
                 src={contentLp01.hero.logo.logoImg}
                 alt={contentLp01.hero.logo.alt}
-                className="ml-[5%] max-w-[50%] mt-[15%] p-[5px] tablet1:py-[7px]"
+                className="ml-[5%] max-w-[50%] mt-[15%] tablet1:py-[7px] bg-white rounded-md p-3"
               />
             </MotionDivDownToUp>
 
@@ -123,7 +123,7 @@ function FullImg({ obs }) {
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
-                      className="tablet1:w-[280px] desktop1:w-[250px] desktop1:mb-[60px] "
+                      className="tablet1:w-[280px] desktop1:w-[250px] desktop1:mb-[60px] bg-white rounded-md p-3"
                     />
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
