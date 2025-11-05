@@ -64,7 +64,7 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. San Dyego Dias",
+  name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "sandyego.adv@gmail.com", // Email desejado pelo cliente
   domain: "testoniadvogados.com.br", // Sem "www"
