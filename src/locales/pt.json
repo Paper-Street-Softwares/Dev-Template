@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO EM DIREITO DE FAMÍLIA",
+    "title": "Seu <span class=\"text-primary font-bold\">problema</span> não vai se resolver sozinho",
+    "subtitle": "Descubra como nossa assessoria pode virar o jogo a seu favor, antes que seja tarde demais.",
+    "ctaButtonText": "Quero resolver agora",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento  presencial e online para todo Brasil"
     }
   },
   "features": {
