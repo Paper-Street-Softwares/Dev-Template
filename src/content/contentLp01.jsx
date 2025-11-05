@@ -1,18 +1,16 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
+import {
+  BriefcaseBusiness,
+  ShieldAlert,
+  Hospital,
+  Lock,
+  Briefcase,
+} from "lucide-react";
 import { infos } from "./content";
-import { Shield } from "lucide-react";
-import { File } from "lucide-react";
-import { Banknote } from "lucide-react";
-import { FileKey2 } from "lucide-react";
-import { Scale } from "lucide-react";
 import { Handshake } from "lucide-react";
-import { BadgeDollarSign } from "lucide-react";
-import { Accessibility } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
-import { Ban } from "lucide-react";
-import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
 
 // import img1 from "../assets/imgs/about/image1.webp";
@@ -54,99 +52,35 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "DEFENDA SEUS DIREITOS TRABALHISTAS",
+      title:
+        "Advocacia especializada na proteção dos seus direitos trabalhistas em Joinville",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-off-icon lucide-shield-off"
-          >
-            <path d="m2 2 20 20" />
-            <path d="M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71" />
-            <path d="M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <BriefcaseBusiness />,
+        title: "Reclamações Trabalhistas e Direitos do Empregado",
+        description:
+          "Defesa dos direitos do trabalhador em casos de rescisão, horas extras, verbas não pagas e vínculos de emprego não reconhecidos.",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-ban-icon lucide-ban"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <ShieldAlert />,
+
+        title: "Insalubridade, Periculosidade e Condições de Trabalho",
+        description:
+          "Ações para garantir adicionais de insalubridade e periculosidade, assegurando condições seguras e dignas de trabalho.",
       },
       card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-car-icon lucide-car"
-          >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Hospital />,
+        title: "Indenizações por Acidente ou Doença Ocupacional",
+        description:
+          "Atuação em indenizações por acidentes ou doenças relacionadas ao trabalho, com foco na reparação justa e completa dos danos.",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
-          >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Lock />,
+        title: "Estabilidade e Demissões Indevidas",
+        description:
+          "Defesa contra demissões injustas e discriminatórias, assegurando estabilidade para gestantes, PCDs e outros grupos protegidos.",
       },
       card5: {
         icon: (
