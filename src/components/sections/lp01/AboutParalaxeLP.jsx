@@ -95,7 +95,7 @@ export default function AboutParalaxeLP({ logo }) {
                         aria-label={
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
-                        label={contentLp01.hero.textArea.buttonLabel}
+                        label={contentLp01.about.buttonLabel}
                         animation
                         className="w-[100%]"
                         icon={

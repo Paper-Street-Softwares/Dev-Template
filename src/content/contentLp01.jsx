@@ -121,24 +121,24 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "EXCELÊNCIA EM DIREITO TRABALHISTA",
+      title: "Na Testoni, seu direito é prioridade",
     },
     paragraph: (
       <p>
-        A_Definir
+        Fundado em 2014, a{" "}
+        <strong>Testoni Advocacia Previdenciária e Trabalhista</strong> nasceu
+        com o propósito de oferecer uma advocacia moderna, acessível e
+        humanizada, voltada à defesa dos direitos dos trabalhadores e segurados
+        do INSS.
         <br />
         <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
+        Desde o início, o escritório se consolidou pela combinação entre
+        experiência técnica, atendimento próximo e linguagem clara, tornando o
+        processo jurídico mais compreensível e eficiente para o cliente.
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Fale agora com especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
