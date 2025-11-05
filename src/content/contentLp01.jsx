@@ -38,12 +38,16 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span>{" "}
-          <span className="text-lpTitle"> A_Definir</span>
+          Advogado Trabalhista em Joinville — Defesa dos seus{" "}
+          <span className="text-lpTitle text-primary">
+            {" "}
+            direitos trabalhistas
+          </span>{" "}
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "A_Definir",
+      subtitle:
+        "Atuamos em casos de insalubridade, periculosidade, rescisão indireta, horas extras e indenizações trabalhistas.",
+      buttonLabel: "Entre em contato com a Testoni",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
