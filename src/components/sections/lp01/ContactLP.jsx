@@ -7,7 +7,7 @@ import ContactCardLP from "./ContactCardLP";
 export default function ContactLP() {
   return (
     <>
-      <SectionArea paddingTopAndBottom={false} className="bg-bgSectionDark">
+      <SectionArea paddingTopAndBottom={false} className="bg-white">
         <SectionWrapper>
           <div className="mt-[60px] text-black  font-mainFont desktop1:flex desktop1:flex-wrap justify-center">
             {/* <h1 className="text-center mb-[16px]">Entre em contato</h1> */}
@@ -36,11 +36,11 @@ export default function ContactLP() {
               description={contentLp01.contact.card4.description}
             /> */}
 
-                <ContactCardLP
+                {/* <ContactCardLP
                   label={contentLp01.contact.card1.title}
                   icon={contentLp01.contact.card1.icon}
                   description={contentLp01.contact.card1.description}
-                />
+                /> */}
               </div>
             </div>
           </div>
