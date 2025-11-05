@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. San Dyego Dias",
+  name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "sandyego.adv@gmail.com", // Email desejado pelo cliente
-  domain: "sandyegodiasadv.com.br", // Sem "www"
+  emailSecundario: "", // Email desejado pelo cliente
+  domain: "testoniadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "64",
-    firstPart: "99278", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8851", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6656", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
