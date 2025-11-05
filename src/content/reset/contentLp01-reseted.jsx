@@ -1,19 +1,7 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import logo from "../assets/imgs/logo/logo.webp";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
-import { infos } from "./content";
-import { Shield } from "lucide-react";
-import { File } from "lucide-react";
-import { Banknote } from "lucide-react";
-import { FileKey2 } from "lucide-react";
-import { Scale } from "lucide-react";
-import { Handshake } from "lucide-react";
-import { BadgeDollarSign } from "lucide-react";
-import { Accessibility } from "lucide-react";
-import { ChartNoAxesCombined } from "lucide-react";
-import { Ban } from "lucide-react";
-import { IdCard } from "lucide-react";
-import { Gavel } from "lucide-react";
+import { infos, Handshake, ChartNoAxesCombined, Gavel } from "./content";
 
 // import img1 from "../assets/imgs/about/image1.webp";
 // import img2 from "../assets/imgs/about/image2.webp";
