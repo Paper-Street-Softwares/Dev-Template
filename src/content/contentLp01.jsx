@@ -205,11 +205,16 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "VOCÊ NÃO PRECISA ENFRENTAR ISSO SOZINHO",
+      title: "Na Testoni Advocacia, fazemos seus direitos valerem",
+      subtitle: (
+        <p className="opacity-80">
+          Trabalhista ou previdenciário, nosso papel é garantir que você tenha o
+          amparo e a segurança que a lei assegura.
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Fale com um advogado agora",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
