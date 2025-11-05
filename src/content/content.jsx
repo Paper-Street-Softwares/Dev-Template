@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Alex Pinheiro",
+  name: "Dr. San Dyego Dias",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "alexpinheiro.adv.br", // Sem "www"
+  emailSecundario: "sandyego.adv@gmail.com", // Email desejado pelo cliente
+  domain: "sandyegodiasadv.com.br", // Sem "www"
   phone: {
-    ddd: "12",
-    firstPart: "98195", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5043", // Apenas os 4 últimos números
+    ddd: "64",
+    firstPart: "99278", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8851", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,8 +107,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "alex.pinheiroadvogado", // Sem o @
-  facebookProfile: "",
+  instagramProfile: "sandyego.adv", // Sem o @
+  facebookProfile: "1D9fuPmcAs/",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
@@ -235,10 +235,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-house-icon lucide-house"
+            class="lucide lucide-archive-icon lucide-archive"
           >
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <rect width="20" height="5" x="2" y="3" rx="1" />
+            <path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8" />
+            <path d="M10 12h4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -268,11 +269,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-plus-icon lucide-shield-plus"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -301,13 +304,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-heart-crack-icon lucide-heart-crack"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M12.409 5.824c-.702.792-1.15 1.496-1.415 2.166l2.153 2.156a.5.5 0 0 1 0 .707l-2.293 2.293a.5.5 0 0 0 0 .707L12 15" />
+            <path d="M13.508 20.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.677.6.6 0 0 0 .818.001A5.5 5.5 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -337,11 +337,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-check-icon lucide-file-check"
+            class="lucide lucide-wallet-icon lucide-wallet"
           >
-            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
-            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
-            <path d="m9 15 2 2 4-4" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -371,11 +370,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-vote-icon lucide-vote"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="m9 12 2 2 4-4" />
-            <path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z" />
-            <path d="M22 19H2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -405,12 +404,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll-text-icon lucide-scroll-text"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -597,7 +595,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "alexpinheiro2.wordpress.com", //sem "https://"
+      blogLink: "sandyegodiasadv.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
