@@ -66,7 +66,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "", // Email desejado pelo cliente
+  emailSecundario: "testoniadvogados.com.br", // Email desejado pelo cliente
   domain: "advogadoprevidenciario.testoniadvogados.com.br", // Sem "www"
   phone: {
     ddd: "47",

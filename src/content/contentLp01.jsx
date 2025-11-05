@@ -37,51 +37,49 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Advogado Trabalhista em Joinville — Defesa dos seus{" "}
-          <span className="text-lpTitle text-primary">
-            {" "}
-            direitos trabalhistas
-          </span>{" "}
+          Quer <span className="text-lpTitle text-primary"> garantir</span> sua{" "}
+          <span className="text-lpTitle text-primary"> aposentadoria</span> no
+          INSS sem erros?
         </h1>
       ),
       subtitle:
-        "Atuamos em casos de insalubridade, periculosidade, rescisão indireta, horas extras e indenizações trabalhistas.",
-      buttonLabel: "Entre em contato com a Testoni",
+        "Nossos advogados previdenciários em Joinville atuam para que você receba todos os seus direitos — mesmo que o INSS tenha negado seu benefício.",
+      buttonLabel: "Falar com um Advogado agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "DEFENDA SEUS DIREITOS TRABALHISTAS",
+      miniTag: "PEDIDO NEGADO OU DEMORANDO?",
       title:
-        "Advocacia especializada na proteção dos seus direitos trabalhistas em Joinville",
+        "Lutamos para garantir o seu benefício do INSS — rápido e sem complicações.",
     },
     cards: {
       card1: {
         icon: <BriefcaseBusiness />,
-        title: "Reclamações Trabalhistas e Direitos do Empregado",
+        title: "Aposentadorias (por idade, invalidez e tempo de contribuição)",
         description:
-          "Defesa dos direitos do trabalhador em casos de rescisão, horas extras, verbas não pagas e vínculos de emprego não reconhecidos.",
+          "Garantimos que você receba sua aposentadoria corretamente, mesmo que o INSS tenha negado ou atrasado seu pedido.",
       },
       card2: {
         icon: <ShieldAlert />,
 
-        title: "Insalubridade, Periculosidade e Condições de Trabalho",
+        title: "Auxílio-Doença e Auxílio-Acidente",
         description:
-          "Ações para garantir adicionais de insalubridade e periculosidade, assegurando condições seguras e dignas de trabalho.",
+          "Foi afastado do trabalho e o INSS negou seu benefício? Nosso time atua para reverter a decisão e liberar seus pagamentos.",
       },
       card3: {
         icon: <Hospital />,
-        title: "Indenizações por Acidente ou Doença Ocupacional",
+        title: "Pensão por Morte",
         description:
-          "Atuação em indenizações por acidentes ou doenças relacionadas ao trabalho, com foco na reparação justa e completa dos danos.",
+          "Protegemos o direito financeiro de quem perdeu um ente querido, assegurando que a pensão seja concedida ou revisada corretamente.",
       },
       card4: {
         icon: <Lock />,
-        title: "Estabilidade e Demissões Indevidas",
+        title: "Revisões e Benefícios Negados",
         description:
-          "Defesa contra demissões injustas e discriminatórias, assegurando estabilidade para gestantes, PCDs e outros grupos protegidos.",
+          "Seu pedido foi negado ou o valor está errado? Revisamos cálculos e processos para garantir que você receba tudo o que tem direito.",
       },
       card5: {
         icon: (
@@ -122,7 +120,7 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DIREITO TRABALHISTA",
+      miniTag: "EXCELÊNCIA EM DIREITO PREVIDENCIÁRIO",
       title: "Na Testoni, seu direito é prioridade",
     },
     paragraph: (
@@ -259,7 +257,7 @@ const contentLp01 = {
         </svg>
       ),
       title: "Email",
-      description: `${infos.email}@${infos.domain}`,
+      description: `${infos.email}@${infos.emailSecundario}`,
     },
     card3: {
       icon: (
