@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Vitorino Gonçalves dos santos, <br/> nº 188, sala 09, ,  <br/> Centro, São Sebastião - SP,  <br/> CEP: 11608-617",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,64 +11,63 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO ELEITORAL E AMBIENTAL",
-    "title": "Blindagem jurídica frente ao <span class=\"text-primary font-bold\">Poder Público</span>",
-    "subtitle": "Especialista em enfrentar autuações, embargos e pressões administrativas com segurança jurídica",
-    "ctaButtonText": "Fale agora com o advogado",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento em todo território nacional online e presencial em São Sebastião - SP."
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Excelência em Direito Público e Eleitoral",
-    "subtitle": "Atuação especializada para proteger seus direitos e interesses.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Regularização de Imóveis",
-      "subtitle": "Soluções jurídicas completas para imóveis irregulares.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Defesa em Auto de Infração Ambiental",
-      "subtitle": "Atuação estratégica em autos de infração ambiental.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Defesa em ação civil pública",
-      "subtitle": "Proteção de direitos frente às ações civis públicas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Licitações e contratos públicos",
-      "subtitle": "Segurança jurídica em licitações e contratos públicos.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito Eleitoral",
-      "subtitle": "Registro de candidaturas, prestação de contas eleitorais.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Ações Eleitorais",
-      "subtitle": "Defesa especializada em ações eleitorais e campanhas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -84,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. ALEX PINHEIRO",
-    "title": "Minha trajetória",
-    "subtitle": "Especialização sólida para defender imóveis e garantir segurança jurídica.",
+    "miniTag": "A_Definir",
+    "title": "Nossa trajetória",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Com vasta experiência em Direito Ambiental e Urbanístico pela USP, o Dr. Alex Pinheiro atua com foco na defesa do patrimônio imobiliário e na regularização de imóveis por todo o estado de São Paulo.",
-    "modal": "Com vasta experiência em Direito Ambiental e Urbanístico pela USP, o Dr. Alex Pinheiro atua com foco na defesa do patrimônio imobiliário e na regularização de imóveis por todo o estado de São Paulo. <br/><br/> Já impediu a demolição de mais de 500 imóveis por alegados passivos ambientais, representando principalmente famílias de renda média no litoral norte paulista e também em cidades do litoral de Santa Catarina. <br/><br/> É especialista em Licitações e Contratos Públicos pela USP, membro das Comissões de Meio Ambiente e Direito Urbanístico da OAB/SP e ex-conselheiro do Conselho de Meio Ambiente de São Sebastião/SP. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -143,9 +142,9 @@
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
