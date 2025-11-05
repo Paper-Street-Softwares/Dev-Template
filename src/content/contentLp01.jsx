@@ -22,11 +22,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Advogado Trabalhista em Joinville - Testoni & Advogados",
+    title: "Advogado Previdenciário em Joinville - Testoni & Advogados",
     description:
       "Especialistas em direito trabalhista e previdenciário em Joinville. Testoni & Advogados oferece atendimento humanizado e defesa de seus direitos.",
     keywords:
-      "advogado trabalhista em joinville, advogado trabalhista, insalubridade, periculosidade, rescisão indireta, indenização por acidente de trabalho, indenização por doença adquirida no trabalho, vínculo de emprego, verbas rescisórias, reversão justa causa, salário pago por fora, pagamento de horas extras, contrato experiência gravidez, acidente de trabalho contrato de experiência ,estabilidade emprego PCD, despedida discriminatória, consulta com advogado trabalhista.",
+      "aposentadoria por invalidez,aposentadoria especial, aposentadoria por tempo de contribuição, aposentadoria por idade,peculio, auxilio doença, auxilio acidente, advogado previdenciário, advogado aposentadoria inss, advogado auxilio doença, advogado especialista em inss, advogado auxílio acidente, advogado especialista aposentadoria, advogado especialista em pensão por morte, advogado previdenciário Joinville, advogado INSS Joinville, auxílio doença negado, auxílio acidente negado, aposentadoria negada, revisão de aposentadoria, pensão por morte, aposentadoria rural, benefício negado inss.",
   },
   hero: {
     bgImg: bgImg,

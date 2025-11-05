@@ -67,7 +67,7 @@ export const infos = {
   name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "", // Email desejado pelo cliente
-  domain: "testoniadvogados.com.br", // Sem "www"
+  domain: "advogadoprevidenciario.testoniadvogados.com.br", // Sem "www"
   phone: {
     ddd: "47",
     firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
