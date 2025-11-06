@@ -18,7 +18,7 @@
   },
   "hero": {
     "miniTag": "ADVOCACIA COM PROPÓSITO",
-    "title": "Justiça e <span class=\"text-primary font-bold\">excelência</span> em cada causa",
+    "title": "Justiça e <span class=\"text-white font-bold\">excelência</span> em cada causa",
     "subtitle": "Atuação jurídica estratégica para proteger seus direitos com ética, clareza e comprometimento.",
     "ctaButtonText": "Fale com um advogado",
     "obsHero": {
@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-white font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-white font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

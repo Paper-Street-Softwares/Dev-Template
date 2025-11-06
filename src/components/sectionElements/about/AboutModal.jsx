@@ -29,13 +29,15 @@ export default function AboutModal() {
             aria-label={t("about.ctaButtonAriaLabel")}
             label={t("about.ctaButtonText")}
             animation={false}
-            className="hover:scale-105 bg-buttonColor text-labelButtons"
+            className="hover:scale-105"
+            textclassName="text-white"
+            color="bg-primary"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="currentColor"
+                fill="white"
                 className="bi bi-whatsapp"
                 viewBox="0 0 18 18"
               >
