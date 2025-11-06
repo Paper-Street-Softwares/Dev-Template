@@ -4,7 +4,7 @@ export default function IconFeatureCard(props) {
   // Definir classes de cor com base no modo
 
   const bgClassesIcon = {
-    dark: "bg-primary",
+    dark: "bg-buttonColor",
     light: "bg-minititle",
     default: "bg-buttonColor",
   };

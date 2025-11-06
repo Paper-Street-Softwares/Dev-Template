@@ -56,7 +56,7 @@ export default function Hero({
 
         <MotionDivDownToUp>
           <div
-            className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
+            className={`flex justify-center desktop1:justify-start font-light leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
             <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
           </div>
@@ -296,7 +296,7 @@ export default function Hero({
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp>
-                      <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6">
+                      <div className="text-white flex justify-center desktop1:justify-start font-semibold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6">
                         <h1>
                           <span
                             dangerouslySetInnerHTML={{
@@ -388,7 +388,7 @@ export default function Hero({
                           </div>
                         </MotionDivDownToUp>
                         <MotionDivDownToUp>
-                          <div className="text-primary flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                          <div className="text-primary flex justify-center desktop1:justify-start font-semibold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                             <h1>
                               <span
                                 dangerouslySetInnerHTML={{
