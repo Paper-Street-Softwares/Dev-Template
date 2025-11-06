@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Goiânia, nº 172, <br/> Centro Iporá - GO, <br/> CEP: 76200-053",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8:30 às 17:30",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO EM DIREITO DE FAMÍLIA",
-    "title": "Seu <span class=\"text-primary font-bold\">problema</span> não vai se resolver sozinho",
-    "subtitle": "Descubra como nossa assessoria pode virar o jogo a seu favor, antes que seja tarde demais.",
-    "ctaButtonText": "Quero resolver agora",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento  presencial e online para todo Brasil"
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Especialidades Jurídicas do Escritório",
-    "subtitle": "Atendemos com dedicação e soluções para cada caso.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Inventário",
-      "subtitle": "Auxílio completo na gestão e partilha de bens",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Divórcio",
-      "subtitle": "Apoio jurídico para dissolução de casamento",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Pensão alimentícia",
-      "subtitle": "Orientação para garantir direitos e responsabilidades",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Soluções jurídicas precisas para suas demandas",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -84,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. SAN DYEGO DIAS",
-    "title": "Minha trajetória",
-    "subtitle": "Experiência e dedicação para proteger seus direitos com confiança.",
+    "miniTag": "A_Definir",
+    "title": "Nossa trajetória",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Dr. San DyeGo Dias atua há anos no Direito, auxiliando clientes em diversas áreas com ética e precisão. Sua missão é oferecer soluções jurídicas claras e seguras, sempre com foco no melhor resultado.",
-    "modal": "Dr. San DyeGo Dias atua há anos no Direito, auxiliando clientes em diversas áreas com ética e precisão. Sua missão é oferecer soluções jurídicas claras e seguras, sempre com foco no melhor resultado. <br/><br/> Ao longo de sua carreira, acumulou experiência em casos complexos, orientando pessoas e empresas na tomada de decisões importantes. Cada cliente recebe atenção personalizada e estratégica, garantindo proteção e tranquilidade. <br/><br/> Comprometido com a atualização constante e a prática responsável, Dr. San DyeGo Dias acredita que o direito deve servir para transformar vidas e resolver conflitos de forma justa e eficiente. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -143,9 +142,9 @@
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
