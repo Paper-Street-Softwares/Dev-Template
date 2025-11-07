@@ -64,10 +64,10 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Quita Fácil Consultoria Financeira",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "quitafacilconsultoria.com.br", // Sem "www"
   phone: {
     ddd: "A_Definir",
     firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
