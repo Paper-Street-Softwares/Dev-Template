@@ -152,23 +152,23 @@
   "faq": {
     "miniTag": "TIRE SUAS DÚVIDAS",
     "title": "Perguntas Frequentes",
-    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
     "questions": {
       "question1": {
         "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "answer": "Entre em contato conosco pelo WhatsApp e faremos uma análise gratuita da sua situação antes de iniciar o processo."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Qual é o prazo para limpar meu nome?",
+        "answer": "O prazo varia conforme o tipo e a quantidade de dívidas, mas logo na primeira análise informamos uma estimativa realista."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Quais informações preciso fornecer?",
+        "answer": "Basta nos enviar seus dados básicos, CPF e informações sobre as dívidas. O restante é feito por nossa equipe."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "O serviço é totalmente seguro?",
+        "answer": "Sim. Trabalhamos com total sigilo e transparência em todas as etapas, garantindo segurança e confidencialidade aos clientes."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
