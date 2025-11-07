@@ -116,28 +116,28 @@
   },
   "steps": {
     "miniTag": "PASSO A PASSO",
-    "title": "Como funciona nosso atendimento?",
+    "title": "Como funciona nossa consultoria financeira?",
     "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Análise da situação",
+        "cardDescription": "Fazemos uma avaliação completa do seu histórico financeiro para entender sua situação e definir os melhores caminhos."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Plano de quitação",
+        "cardDescription": "Montamos um plano personalizado para renegociar suas dívidas e limpar seu nome com segurança e transparência."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Negociação com credores",
+        "cardDescription": "Entramos em contato com bancos e empresas para buscar os melhores acordos e reduzir o valor total das suas dívidas."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Nome limpo novamente",
+        "cardDescription": "Após a quitação, seu nome é regularizado, devolvendo sua credibilidade e liberdade financeira."
       }
     }
   },
