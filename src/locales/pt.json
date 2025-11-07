@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "NOSSAS SOLUÇÕES",
+    "title": "Reconquiste sua liberdade financeira",
+    "subtitle": "Conheça nossos serviços e descubra como podemos ajudar você a limpar seu nome e recuperar seu crédito.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Limpa nome",
+      "subtitle": "Recupere seu crédito e volte a ter poder de compra.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Limpa Bacen",
+      "subtitle": "Tiramos seu nome dos registros do Banco Central.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Aumento de Score",
+      "subtitle": "Melhore sua pontuação e conquiste mais crédito.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Remoção de nome do JusBrasil e Escavador",
+      "subtitle": "Removemos seus dados de sites jurídicos e públicos. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
