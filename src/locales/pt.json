@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
+    "title": "Enfrentando <span class=\"text-bgSectionDark font-bold\">dificuldades financeiras?</span> Deixe que ajudamos você a recuperar <span class=\"text-bgSectionDark font-bold\">seu nome e sua tranquilidade!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
