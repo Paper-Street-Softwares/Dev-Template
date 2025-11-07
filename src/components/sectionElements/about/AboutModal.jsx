@@ -14,7 +14,7 @@ export default function AboutModal() {
     setModalTitle(t("about.title"));
 
     setModalContent(
-      <div className="text-paragraph3 text-secondary">
+      <div className="text-paragraph3 text-black">
         {/* <p className="mb-[20px]">
           <Trans i18nKey="about.subtitle" />
         </p> */}
@@ -22,7 +22,7 @@ export default function AboutModal() {
         <Trans i18nKey="about.modal" components={{ br: <br /> }} />
 
         <div className="">
-          <p className="mt-[15px] mb-[20px] text-secondary">
+          <p className="mt-[15px] mb-[20px] text-black">
             <Trans i18nKey="about.ctaButtonAriaLabel" />
           </p>
           <Button
@@ -30,14 +30,12 @@ export default function AboutModal() {
             label={t("about.ctaButtonText")}
             animation={false}
             className="hover:scale-105"
-            textclassName="text-white"
-            color="bg-primary"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="white"
+                fill="currentColor"
                 className="bi bi-whatsapp"
                 viewBox="0 0 18 18"
               >
@@ -67,7 +65,7 @@ export default function AboutModal() {
       <Dialog
         className="font-secondFont"
         closeIcon={<X size={20} />}
-        header={<span className="text-secondary">{modalTitle}</span>}
+        header={<span className="text-black">{modalTitle}</span>}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
