@@ -10,7 +10,7 @@ export const theme = {
       minititleDark: "#b9c8d7", //bg minitag de seções claras
       minititle: "#b9c8d7", //bg minitag de seções escuras
 
-      secondary: "#000000",
+      secondary: "#29e298",
 
       // Fundos de Seção
 
