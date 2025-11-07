@@ -2,7 +2,7 @@
   "infos": {
     "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOCACIA COM PROPÓSITO",
-    "title": "Justiça e <span class=\"text-white font-bold\">excelência</span> em cada causa",
-    "subtitle": "Atuação jurídica estratégica para proteger seus direitos com ética, clareza e comprometimento.",
-    "ctaButtonText": "Fale com um advogado",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento online para todo Brasil"
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Defendendo seus direitos com excelência",
-    "subtitle": "Atuação estratégica em diversas áreas do Direito, garantindo soluções eficazes e seguras.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Empresarial",
-      "subtitle": "Proteja sua empresa com estratégias jurídicas sólidas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Defesa justa e eficaz em questões trabalhistas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Civil",
-      "subtitle": "Resolvendo conflitos civis com ética e precisão.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito de Trânsito",
-      "subtitle": "Amparo legal em multas, infrações e suspensões.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,23 +83,23 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. JAILSON ROCHA",
-    "title": "Minha trajetória",
-    "subtitle": "Uma jornada marcada por ética, resultados e compromisso com a justiça.",
+    "miniTag": "A_Definir",
+    "title": "Nossa trajetória",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O escritório Rocha | Advocacia nasceu com um propósito claro: unir técnica e empatia para transformar a forma como o Direito é vivido. Desde o início, o foco sempre foi tratar cada cliente como único, ouvindo com atenção e agindo com agilidade.",
-    "modal": "O escritório Rocha | Advocacia nasceu com um propósito claro: unir técnica e empatia para transformar a forma como o Direito é vivido. Desde o início, o foco sempre foi tratar cada cliente como único, ouvindo com atenção e agindo com agilidade. <br/><br/> Com criatividade e responsabilidade, o Dr. Jailson Rocha construiu uma reputação sólida ao entregar soluções jurídicas eficazes, sem abrir mão da ética e dos valores morais que guiam sua atuação. Cada caso é conduzido com estratégia e transparência. <br/><br/> Hoje, o escritório segue expandindo seus horizontes, buscando alcançar novos públicos e elevar ainda mais o padrão de atendimento. O compromisso permanece o mesmo: oferecer excelência jurídica com humanidade em cada detalhe. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "REDES SOCIAIS",
       "title": "Conecte-se agora mesmo",
       "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X",
-      "labelTikTok": "Siga-nos no TikTok"
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X",
+      "labelTikTok": "Siga-me no TikTok"
     }
   },
   "news": {
@@ -109,7 +109,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-white font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-white font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
