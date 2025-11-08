@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "R. Barroso, 646 - <br/> Sala 03 - Centro (Norte), <br/> Teresina - PI, <br/> CEP: 64001-130",
+    "adress": "Sede em Brasília - DF",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "RECUPERE SEU CRÉDITO",
-    "title": "Limpe <span class=\"text-secondary font-bold\">seu nome</span>  e <span class=\"text-secondary font-bold\">recomece</span> do zero  ",
-    "subtitle": "Saia das dívidas, volte a ter crédito e conquiste novamente sua liberdade financeira com nossa ajuda.",
-    "ctaButtonText": "Quero limpar meu nome agora",
+    "miniTag": "DEFESA COM COMPROMISSO",
+    "title": "Defendendo <span class=\"text-primary font-bold\">seus direitos</span> com firmeza",
+    "subtitle": "Atuação estratégica e humanizada para garantir justiça, segurança e resultados em cada caso.",
+    "ctaButtonText": "Fale com o advogado",
     "obsHero": {
-      "text": "Sem burocracia, análise rápida e suporte humanizado em todas as etapas."
+      "text": "Atendimento personalizado, sigilo absoluto e compromisso com cada cliente."
     }
   },
   "features": {
-    "miniTag": "NOSSAS SOLUÇÕES",
-    "title": "Reconquiste sua liberdade financeira",
-    "subtitle": "Conheça nossos serviços e descubra como podemos ajudar você a limpar seu nome e recuperar seu crédito.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Comprometimento e excelência em cada causa",
+    "subtitle": "Conheça as áreas em que atuamos e descubra como podemos defender seus direitos com estratégia e confiança.",
     "card1": {
-      "title": "Limpa nome",
-      "subtitle": "Recupere seu crédito e volte a ter poder de compra.",
+      "title": "Direito Civil",
+      "subtitle": "Soluções para conflitos e defesa dos seus direitos civis.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Limpa Bacen",
-      "subtitle": "Tiramos seu nome dos registros do Banco Central.",
+      "title": "Direito Penal",
+      "subtitle": "Atuação firme e estratégica em processos criminais. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Aumento de Score",
-      "subtitle": "Melhore sua pontuação e conquiste mais crédito.",
+      "title": "Direito Trabalhista",
+      "subtitle": "Defesa dos direitos do trabalhador com ética e precisão.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Remoção de nome do JusBrasil e Escavador",
-      "subtitle": "Removemos seus dados de sites jurídicos e públicos. ",
+      "title": "Direito Administrativo",
+      "subtitle": "Assessoria em questões públicas e responsabilidade estatal. ",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,12 +83,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A QUITA FÁCIL",
+    "miniTag": "QUEM É A JM ADVOGADOS",
     "title": "Nossa trajetória",
-    "subtitle": "Comprometidos em ajudar você a reconquistar sua liberdade financeira.",
+    "subtitle": "Uma união de profissionais que compartilham o mesmo propósito e excelência jurídica.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A Quita Fácil Consultoria nasceu com um propósito claro: oferecer soluções eficazes para quem busca limpar o nome e recuperar o controle da própria vida financeira.",
-    "modal": "A Quita Fácil Consultoria nasceu com um propósito claro: oferecer soluções eficazes para quem busca limpar o nome e recuperar o controle da própria vida financeira. <br/><br/> Com uma equipe dedicada e atendimento humanizado, atuamos em todo o território nacional, auxiliando pessoas a renegociarem dívidas e encontrarem caminhos mais justos para quitar seus compromissos. <br/><br/> Mais do que uma consultoria, somos parceiros na reconstrução da sua independência financeira, ajudando você a recomeçar com tranquilidade e segurança. <br/><br/>",
+    "paragraph": "O JM Advogado e Associados nasceu da união de profissionais experientes, que compartilham o mesmo propósito de oferecer um atendimento jurídico humano, estratégico e eficiente. Desde sua fundação, o escritório se consolidou pela qualidade técnica e pelo comprometimento com os resultados de seus clientes.",
+    "modal": "O JM Advogado e Associados nasceu da união de profissionais experientes, que compartilham o mesmo propósito de oferecer um atendimento jurídico humano, estratégico e eficiente. Desde sua fundação, o escritório se consolidou pela qualidade técnica e pelo comprometimento com os resultados de seus clientes. <br/><br/> Com uma equipe multidisciplinar e atualizada, o escritório atua em diversas áreas do Direito, sempre buscando soluções sob medida para cada demanda. A sinergia entre os profissionais permite uma visão ampla e integrada, garantindo agilidade e precisão nas estratégias adotadas. <br/><br/> Hoje, o JM Advogado e Associados estende sua atuação por todo o território nacional, mantendo o compromisso com a ética, a transparência e a excelência que marcaram sua origem. Cada caso é tratado com dedicação e respeito, refletindo a essência de uma advocacia moderna e colaborativa. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -109,35 +109,35 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "Enfrentando <span class=\"text-bgSectionDark font-bold\">dificuldades financeiras?</span> Deixe que ajudamos você a recuperar <span class=\"text-bgSectionDark font-bold\">seu nome e sua tranquilidade!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
   },
   "steps": {
     "miniTag": "PASSO A PASSO",
-    "title": "Como funciona nossa consultoria financeira?",
+    "title": "Como funciona nosso atendimento?",
     "subtitle": "",
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Análise da situação",
-        "cardDescription": "Fazemos uma avaliação completa do seu histórico financeiro para entender sua situação e definir os melhores caminhos."
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Plano de quitação",
-        "cardDescription": "Montamos um plano personalizado para renegociar suas dívidas e limpar seu nome com segurança e transparência."
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Negociação com credores",
-        "cardDescription": "Entramos em contato com bancos e empresas para buscar os melhores acordos e reduzir o valor total das suas dívidas."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Nome limpo novamente",
-        "cardDescription": "Após a quitação, seu nome é regularizado, devolvendo sua credibilidade e liberdade financeira."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
@@ -152,23 +152,23 @@
   "faq": {
     "miniTag": "TIRE SUAS DÚVIDAS",
     "title": "Perguntas Frequentes",
-    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+    "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
         "question": "Como posso contratar seus serviços?",
-        "answer": "Entre em contato conosco pelo WhatsApp e faremos uma análise gratuita da sua situação antes de iniciar o processo."
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "Qual é o prazo para limpar meu nome?",
-        "answer": "O prazo varia conforme o tipo e a quantidade de dívidas, mas logo na primeira análise informamos uma estimativa realista."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Quais informações preciso fornecer?",
-        "answer": "Basta nos enviar seus dados básicos, CPF e informações sobre as dívidas. O restante é feito por nossa equipe."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "O serviço é totalmente seguro?",
-        "answer": "Sim. Trabalhamos com total sigilo e transparência em todas as etapas, garantindo segurança e confidencialidade aos clientes."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
