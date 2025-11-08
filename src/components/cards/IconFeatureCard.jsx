@@ -24,7 +24,16 @@ export default function IconFeatureCard(props) {
       <div
         className={`h-[64px] w-[64px] mb-[24px] rounded-md flex justify-center items-center text-labelButtons ${bgClass}`}
       >
-        {icon}
+        {typeof icon === "string" ? (
+          <img
+            src={icon}
+            alt={title}
+            className="w-[24px] h-[24px] object-contain"
+            loading="lazy"
+          />
+        ) : (
+          icon
+        )}
       </div>
       <h1
         className={`h-auto font-bold font-mainFont text-title3 text-center mb-[16px] ${textClass}`}
