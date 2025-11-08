@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "DEFESA COM COMPROMISSO",
+    "title": "Defendendo <span class=\"text-primary font-bold\">seus direitos</span> com firmeza",
+    "subtitle": "Atuação estratégica e humanizada para garantir justiça, segurança e resultados em cada caso.",
+    "ctaButtonText": "Fale com o advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento personalizado, sigilo absoluto e compromisso com cada cliente."
     }
   },
   "features": {
