@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "CUIDE DO SEU SORRISO",
+    "title": "Sorrisos <span class=\"text-primary font-bold\">saudáveis</span> começam aqui",
+    "subtitle": "Tratamentos modernos e personalizados para devolver a beleza, a saúde e a confiança ao seu sorriso.",
+    "ctaButtonText": "Agende sua consulta",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento humanizado, tecnologia de ponta e resultados que fazem você sorrir."
     }
   },
   "features": {
