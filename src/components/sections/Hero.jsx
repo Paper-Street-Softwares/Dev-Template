@@ -122,7 +122,6 @@ export default function Hero({
       </div>
     );
   };
-
   // Seleciona a versão correta
   let HeroContent;
   if (panoramica) {
@@ -148,9 +147,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-white",
-      subtitleTextColor: "text-white",
-      obsTextColorOverride: "text-white",
+      titleTextColor: "text-black",
+      subtitleTextColor: "text-black",
+      obsTextColorOverride: "text-black",
     });
   }
 
