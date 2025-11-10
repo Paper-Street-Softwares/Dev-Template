@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOCACIA ESPECIALIZADA",
+    "title": "Cansado de ouvir <span class=\"text-primary font-bold\">“vamos ver isso”</span>?",
+    "subtitle": "Aqui a gente age com clareza, estratégia e foco em resolver o seu problema.",
+    "ctaButtonText": "Falar com o advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial no Rio de Janeiro e online para todo o Brasil"
     }
   },
   "features": {
