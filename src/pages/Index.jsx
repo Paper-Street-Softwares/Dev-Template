@@ -56,7 +56,6 @@ export default function Index() {
       </div> */}
 
       <Navbar colorMode={colorMode} />
-
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
@@ -64,25 +63,21 @@ export default function Index() {
         influencer={false}
         panoramica={false}
       />
-
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
+        defaultFeature={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={false}
+        sixCards={true}
         paragraphsModal={false}
         iconsWithModal={false}
       />
-
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} socialPrint={true} />
-
-      {/* <News /> */}
+      <AboutInstagram colorMode={colorMode} socialPrint={false} />
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial

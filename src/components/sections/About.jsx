@@ -24,7 +24,7 @@ export default function About({ modal = true, showGallery, colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-secondary",
-    default: "text-black",
+    default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
