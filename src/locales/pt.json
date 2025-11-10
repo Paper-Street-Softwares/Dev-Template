@@ -26,48 +26,48 @@
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "NOSSAS ESPECIALIDADES",
+    "title": "As áreas do Direito que mais geram resultado pros nossos clientes",
+    "subtitle": "Cada caso é único, mas o foco é sempre o mesmo: resolver com estratégia, clareza e resultado real.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Tributário",
+      "subtitle": "Soluções eficazes em tributos e obrigações fiscais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Digital e Proteção de Dados",
+      "subtitle": "Segurança jurídica para sua presença no ambiente digital.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Contratos",
+      "subtitle": "Elaboração e revisão contratual com foco em segurança.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Internacional",
+      "subtitle": "Atuação jurídica em questões transnacionais e globais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito de Família",
+      "subtitle": "Amparo legal em divórcios, guarda e relações familiares.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria Jurídica",
+      "subtitle": "Orientação estratégica e preventiva em assuntos legais.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
