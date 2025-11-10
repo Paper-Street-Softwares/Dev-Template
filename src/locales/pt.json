@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
@@ -83,12 +84,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É A DRA. TAMYRES TRILHA RAMOS",
+    "title": "Minha trajetória",
+    "subtitle": "Uma jornada que une experiência, propósito e vontade real de resolver.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "Nem sempre o caminho é reto — o meu começou fora do Direito. Sou formada em Relações Internacionais e passei anos atuando na área tributária e corporativa, lidando de perto com os desafios do comércio exterior e da gestão empresarial.",
+    "modal": "Nem sempre o caminho é reto — o meu começou fora do Direito. Sou formada em Relações Internacionais e passei anos atuando na área tributária e corporativa, lidando de perto com os desafios do comércio exterior e da gestão empresarial. <br/><br/> Foi nesse meio que percebi: o problema das empresas não era só entender a lei, mas conseguir aplicá-la na prática. Foi aí que nasceu o desejo de transformar conhecimento técnico em soluções simples, acessíveis e que realmente funcionam. <br/><br/> Hoje, meu trabalho é ajudar empresários a navegar pelas mudanças da Reforma Tributária com segurança e clareza. Menos discurso, mais resultado. Porque o Direito, pra mim, só faz sentido quando resolve de verdade. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -142,9 +143,9 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
