@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "AQ Engenharia e Arquitetura",
+  name: "Pacheco & Peixoto Advocacia Previdenciária",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "aqengenhariaaf.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "66",
-    firstPart: "99626", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7717", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,7 +107,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "engenharia_alvesqueiroz", // Sem o @
+  instagramProfile: "", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
   x: "",
@@ -145,14 +145,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO PREVIDENCIÁRIO",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Eu faço o INSS
+          <span className="text-primary"> dizer sim</span> pra você
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Transformo negativas em aprovações reais. Aposento, reviso e conquisto o que é seu por direito — sem enrolação.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -160,7 +161,7 @@ const content = {
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
       alt: "Imagem ilustrativa da Seção Início",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Quero meu benefício aprovado",
       obsHero: {
         icon: (
           <svg
@@ -180,7 +181,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Mais de 500 clientes atendidos e benefícios conquistados em todo o Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -206,15 +207,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Domínio total das causas previdenciárias",
+      subtitle:
+        "De aposentadorias a revisões complexas, atuo com estratégia e precisão pra garantir o melhor resultado pra você.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
+      ctaButtonFeatures: "Entre em contato agora mesmo",
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Aposentadorias",
+        subtitle: "Eu aposento você com o melhor valor que o INSS permite.",
         description: (
           <div>
             A_Definir
@@ -227,8 +230,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -248,8 +251,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Benefícios por Incapacidade",
+        subtitle: "Transformo indeferimentos em conquistas reais no INSS.",
         description: (
           <div>
             A_Definir
@@ -262,8 +265,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -281,8 +284,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Revisões de Benefícios",
+        subtitle: "Faço o INSS recalcular e pagar o que é seu por direito.",
         description: (
           <div>
             A_Definir <br />
@@ -294,8 +297,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -314,8 +317,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Pensão e Benefícios por Morte",
+        subtitle: "Garanto pensões e auxílios negados com estratégia e prova.",
         description: (
           <div>
             A_Definir
@@ -328,8 +331,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -360,8 +363,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -443,18 +446,24 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM VAI RESOLVER SEU PROBLEMA",
+      title: "Especialista em batalhas contra o INSS",
+      subtitle:
+        "Transformo o direito previdenciário em resultados reais para meus clientes.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Me chamo Maycon Pacheco e atuo todos os dias com um único propósito:
+          fazer o INSS dizer “sim” pra quem merece. Minha experiência e
+          estratégia foram construídas em centenas de casos vencidos, revisões
+          conquistadas e benefícios aprovados — sempre com foco no resultado.
           <br />
-          A_Definir
+          Acredito que cada cliente tem uma história única, e é isso que me
+          move. Aqui, não tem enrolação nem promessa vazia: tem técnica,
+          dedicação e resultado comprovado pra garantir o que é seu por direito.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -475,7 +484,7 @@ const content = {
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Falar diretamente com o advogado",
       galeria: {
         slide1: {
           img: { img1 },
@@ -526,11 +535,19 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      title: "Pronto pra garantir o que é seu por direito?",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "Eu analiso seu caso de forma gratuita e só recebo se você ganhar.",
+      ctaButtonText: "Fale com a gente agora mesmo",
+      paragraph: (
+        <p>
+          ✓ Análise gratuita do seu caso
+          <br />✓ Cálculo do valor que você pode receber
+          <br /> ✓ Revisão de documentos e provas antes do pedido
+          <br /> ✓ Diligência direta de todo o processo no INSS
+          <br /> ✓ Você só paga se ganhar
+        </p>
+      ),
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
@@ -553,8 +570,8 @@ const content = {
       ctaButtonText: "Falar agora",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "POR QUE SOMOS A MELHOR ESCOLHA",
+      title: "Resultados reais, não promessas",
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
@@ -562,29 +579,30 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Chega de negativas e enrolação",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Eu analiso pessoalmente seu caso e descubro por que o INSS negou, pra montar a estratégia certa e virar o jogo.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Conquiste o benefício que é seu por direito",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Uso cálculo, prova e experiência de campo pra garantir o maior valor possível no seu benefício.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Sem complicação e sem sair de casa",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Você me envia tudo online, e eu cuido do processo do início ao fim — com total transparência e agilidade.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Você só paga se ganhar",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Trabalho com resultado real. Só existe cobrança quando o seu benefício é aprovado — simples assim.",
         },
       },
+      ctButtonStepsText: "Quero meu caso analisado agora",
     },
     blog: {
       miniTag: "BLOG",
@@ -624,6 +642,7 @@ const content = {
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
+      copyrightLpi: "Desenvolvido com excelência por Paper Street",
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
       midSectionName: "Até mais",
