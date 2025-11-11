@@ -20,7 +20,7 @@ export default function FooterLpi() {
     <div>
       <SectionArea paddingTopAndBottom={false} className="bg-white">
         <SectionWrapper>
-          <div className="w-full text-black text-center font-mainFont py-[36px] opacity-70">
+          <div className="w-full text-black text-center font-mainFont py-[36px] opacity-70 flex flex-col gap-4">
             <p>
               <a
                 className="transition hover:underline cursor-pointer"
@@ -29,6 +29,9 @@ export default function FooterLpi() {
                 Política de Privacidade
               </a>
               <br />
+            </p>
+            <p>
+              {" "}
               <a
                 className="transition hover:underline"
                 target="_blank"
