@@ -10,12 +10,12 @@ export default function CtaLpi({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "squares",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-secondary",
-    default: "text-white",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
@@ -24,7 +24,7 @@ export default function CtaLpi({ colorMode }) {
       {/* <div className="absolute inset-0 bg-black/80 z-0 pointer-events-none" /> */}
 
       <div
-        className={`relative z-10 flex justify-center w-full text-white ${bgClass}`}
+        className={`relative z-10 flex justify-center w-full ${textClasses} ${bgClass}`}
       >
         <SectionArea>
           <SectionWrapper>
@@ -35,8 +35,8 @@ export default function CtaLpi({ colorMode }) {
               sectionHeaderTitle={content.texts.cta.title}
               sectionHeaderSubtitle={content.texts.cta.subtitle}
               color=""
-              titleColorSet="text-white"
-              subtitleColorSet="text-white"
+              titleColorSet={`${textClasses}`}
+              subtitleColorSet={`${textClasses}`}
             />
 
             <MotionDivDownToUp>

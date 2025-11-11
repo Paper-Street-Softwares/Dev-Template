@@ -4,6 +4,7 @@ import SectionWrapper from "../../components/sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconButtonFeatureLpi from "../../components/cards/IconButtonFeatureLpi";
 import Button from "../../components/interactives/Button";
+import MotionDivDownToUp from "../../components/animation/MotionDivDownToUp";
 
 export default function FeaturesLpi({ colorMode }) {
   return (
@@ -21,35 +22,38 @@ export default function FeaturesLpi({ colorMode }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly">
-            <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <IconButtonFeatureLpi
-                icon={content.texts.features.card1.icon}
-                title={content.texts.features.card1.title}
-                paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-              />
+            <MotionDivDownToUp>
+              <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
+                <IconButtonFeatureLpi
+                  icon={content.texts.features.card1.icon}
+                  title={content.texts.features.card1.title}
+                  paragraph={content.texts.features.card1.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
 
-              <IconButtonFeatureLpi
-                icon={content.texts.features.card2.icon}
-                title={content.texts.features.card2.title}
-                paragraph={content.texts.features.card2.subtitle}
-                className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-              />
+                <IconButtonFeatureLpi
+                  icon={content.texts.features.card2.icon}
+                  title={content.texts.features.card2.title}
+                  paragraph={content.texts.features.card2.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
 
-              <IconButtonFeatureLpi
-                icon={content.texts.features.card3.icon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-              />
+                <IconButtonFeatureLpi
+                  icon={content.texts.features.card3.icon}
+                  title={content.texts.features.card3.title}
+                  paragraph={content.texts.features.card3.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
 
-              <IconButtonFeatureLpi
-                icon={content.texts.features.card4.icon}
-                title={content.texts.features.card4.title}
-                paragraph={content.texts.features.card4.subtitle}
-                className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-              />
-            </div>
+                <IconButtonFeatureLpi
+                  icon={content.texts.features.card4.icon}
+                  title={content.texts.features.card4.title}
+                  paragraph={content.texts.features.card4.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                />
+              </div>
+            </MotionDivDownToUp>
+
             <div className="flex justify-center w-full mt-[32px]">
               <Button
                 aria-label={content.texts.hero.ctaButtonText}

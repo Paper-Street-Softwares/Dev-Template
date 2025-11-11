@@ -53,10 +53,12 @@ export default function FooterLpi() {
       >
         <div className="overflow-y-auto max-h-[70vh] pr-4">
           {" "}
-          <div className="text-sm text-gray-800 leading-relaxed">
-            <h1>Política de Privacidade</h1>
-            <hr className="mt-2 pb-2" />
-            <h2>Informações Importantes</h2>
+          <div className="text-sm text-gray-800 leading-relaxed font-secondFont">
+            {/* <h1 className="text-title1">Política de Privacidade</h1> */}
+            <hr className="pb-2" />
+            <h2 className="text-title1 font-bold mb-2">
+              Informações Importantes
+            </h2>
             <p>
               Esta Política de Privacidade descreve como coletamos, utilizamos,
               armazenamos e compartilhamos informações pessoais de usuários de
@@ -68,59 +70,76 @@ export default function FooterLpi() {
               as etapas de tratamento.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Definições</h2>
-            <p>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
-              órgão responsável pela fiscalização e aplicação da LGPD.
-              <br />
-              <br />
-              <strong>Base Legal:</strong> fundamento jurídico que autoriza o
-              tratamento de dados pessoais (como consentimento, execução de
-              contrato, obrigação legal ou legítimo interesse).
-              <br />
-              <br />
-              <strong>Consentimento:</strong> manifestação livre e informada do
-              titular que autoriza o tratamento de seus dados pessoais para uma
-              finalidade específica.
-              <br />
-              <br />
-              <strong>Dado Pessoal:</strong> qualquer informação que identifique
-              ou possa identificar uma pessoa natural (ex.: nome, CPF, e-mail,
-              telefone, IP, localização, etc.).
-              <br />
-              <br />
-              <strong>Dado Pessoal Sensível:</strong> dado que revele origem
-              racial, convicção religiosa, opinião política, dado referente à
-              saúde, vida sexual, dado genético ou biométrico.
-              <br />
-              <br />
-              <strong>Titular:</strong> pessoa natural a quem se referem os
-              dados pessoais tratados.
-              <br />
-              <br />
-              <strong>Tratamento:</strong> qualquer operação realizada com dados
-              pessoais, como coleta, armazenamento, uso, compartilhamento ou
-              exclusão.
-              <br />
-              <br />
-              <strong>Legítimo Interesse:</strong> quando o tratamento é
-              necessário para atender a interesses legítimos do controlador, sem
-              ferir direitos e liberdades fundamentais do titular.
-              <br />
-              <br />
-              <strong>Segurança:</strong> medidas técnicas e administrativas
-              adotadas para proteger os dados de acessos não autorizados,
-              vazamentos ou destruição acidental.
-              <br />
-              <br />
-              <strong>Transparência:</strong> direito do titular de receber
-              informações claras e acessíveis sobre o uso de seus dados.
+            <h2 className="text-title1 font-bold mb-2">Definições</h2>
+            <p className="flex flex-col gap-4">
+              <p>
+                {" "}
+                <strong>
+                  Autoridade Nacional de Proteção de Dados (ANPD):
+                </strong>{" "}
+                órgão responsável pela fiscalização e aplicação da LGPD.
+              </p>
+              <p>
+                <strong>Base Legal:</strong> fundamento jurídico que autoriza o
+                tratamento de dados pessoais (como consentimento, execução de
+                contrato, obrigação legal ou legítimo interesse).
+              </p>
+              <p>
+                {" "}
+                <strong>Consentimento:</strong> manifestação livre e informada
+                do titular que autoriza o tratamento de seus dados pessoais para
+                uma finalidade específica.
+              </p>
+              <p>
+                {" "}
+                <strong>Dado Pessoal:</strong> qualquer informação que
+                identifique ou possa identificar uma pessoa natural (ex.: nome,
+                CPF, e-mail, telefone, IP, localização, etc.).
+              </p>
+              <p>
+                {" "}
+                <strong>Dado Pessoal Sensível:</strong> dado que revele origem
+                racial, convicção religiosa, opinião política, dado referente à
+                saúde, vida sexual, dado genético ou biométrico.
+              </p>
+              <p>
+                {" "}
+                <strong>Titular:</strong> pessoa natural a quem se referem os
+                dados pessoais tratados.
+              </p>
+              <p>
+                {" "}
+                <strong>Tratamento:</strong> qualquer operação realizada com
+                dados pessoais, como coleta, armazenamento, uso,
+                compartilhamento ou exclusão.
+              </p>
+              <p>
+                {" "}
+                <strong>Legítimo Interesse:</strong> quando o tratamento é
+                necessário para atender a interesses legítimos do controlador,
+                sem ferir direitos e liberdades fundamentais do titular.
+              </p>
+              <p>
+                {" "}
+                <strong>Segurança:</strong> medidas técnicas e administrativas
+                adotadas para proteger os dados de acessos não autorizados,
+                vazamentos ou destruição acidental.
+              </p>
+              <p>
+                {" "}
+                <strong>Transparência:</strong> direito do titular de receber
+                informações claras e acessíveis sobre o uso de seus dados.
+              </p>
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Direitos dos Titulares</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Direitos dos Titulares
+            </h2>
             <p>
-              Os titulares de dados pessoais têm direito a:
-              <br />
+              <span className="font-bold">
+                {" "}
+                Os titulares de dados pessoais têm direito a:
+              </span>
               <br />- Confirmar se seus dados são tratados;
               <br />- Acessar, corrigir, atualizar ou solicitar a exclusão de
               seus dados;
@@ -133,10 +152,14 @@ export default function FooterLpi() {
               disponibilizados pela empresa.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Coleta e Uso de Dados Pessoais</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Coleta e Uso de Dados Pessoais
+            </h2>
             <p>
-              Podemos coletar dados pessoais por meio de:
-              <br />
+              <span className="font-bold">
+                {" "}
+                Podemos coletar dados pessoais por meio de:
+              </span>
               <br />- Formulários de contato e cadastro (nome, e-mail, telefone,
               endereço, CPF, entre outros);
               <br />- Navegação no site, incluindo endereço IP, localização
@@ -148,8 +171,9 @@ export default function FooterLpi() {
               experiência do usuário e a qualidade do serviço.
               <br />
               <br />
-              Esses dados são utilizados para:
-              <br />
+              <span className="font-bold">
+                Esses dados são utilizados para:
+              </span>
               <br />- Operar, manter e melhorar nossos serviços;
               <br />- Personalizar a experiência do usuário;
               <br />- Cumprir obrigações legais e contratuais;
@@ -159,7 +183,9 @@ export default function FooterLpi() {
               exigências legais.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Cookies e Tecnologias de Rastreamento</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Cookies e Tecnologias de Rastreamento
+            </h2>
             <p>
               Nosso site pode utilizar cookies e tecnologias semelhantes para
               melhorar a navegação e compreender como os usuários interagem com
@@ -169,10 +195,14 @@ export default function FooterLpi() {
               qualquer momento em seu navegador.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Compartilhamento e Transferência de Dados</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Compartilhamento e Transferência de Dados
+            </h2>
             <p>
-              Podemos compartilhar dados pessoais com:
-              <br />
+              <span className="font-bold">
+                {" "}
+                Podemos compartilhar dados pessoais com:
+              </span>
               <br />- Parceiros e prestadores de serviço, que auxiliam na
               operação técnica, hospedagem, marketing ou suporte;
               <br />- Autoridades públicas, quando houver obrigação legal;
@@ -184,7 +214,9 @@ export default function FooterLpi() {
               a LGPD e com níveis adequados de proteção.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Armazenamento e Retenção dos Dados</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Armazenamento e Retenção dos Dados
+            </h2>
             <p>
               Os dados pessoais são armazenados apenas pelo tempo necessário
               para cumprir as finalidades para as quais foram coletados ou
@@ -194,7 +226,9 @@ export default function FooterLpi() {
               segura, respeitando normas técnicas e regulatórias.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Segurança da Informação</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Segurança da Informação
+            </h2>
             <p>
               Adotamos medidas técnicas, físicas e administrativas adequadas
               para proteger os dados pessoais contra acesso não autorizado,
@@ -204,7 +238,9 @@ export default function FooterLpi() {
               constantemente aprimorar nossas práticas de segurança.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Alterações nesta Política</h2>
+            <h2 className="text-title1 font-bold mb-2">
+              Alterações nesta Política
+            </h2>
             <p>
               Esta Política de Privacidade poderá ser atualizada periodicamente,
               conforme alterações legais ou melhorias em nossos processos.
@@ -213,7 +249,7 @@ export default function FooterLpi() {
               manter-se informado sobre como protegemos suas informações.
             </p>
             <hr className="mt-2 pb-2" />
-            <h2>Contato</h2>
+            <h2 className="text-title1 font-bold mb-2">Contato</h2>
             <p>
               Em caso de dúvidas, solicitações ou exercício de direitos
               relacionados a dados pessoais, entre em contato pelo canal de
