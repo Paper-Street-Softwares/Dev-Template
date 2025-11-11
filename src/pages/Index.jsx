@@ -77,7 +77,7 @@ export default function Index() {
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
