@@ -105,6 +105,40 @@ const contentLp01 = {
       },
     },
   },
+  transformation: {
+    sectionHeader: {
+      miniTag: "Aprovação Sem Stress",
+      title: "De dúvidas e negativas à conquista do seu direito",
+    },
+    paragraphs: {
+      descriptionAfter: (
+        <p className="flex flex-col gap-3">
+          ❌ Você não entende por onde começar o pedido do benefício
+          <span>
+            ❌ Vive recebendo respostas negativas e sem explicação clara
+          </span>
+          <span>❌ Envia documentos incompletos e perde tempo com erros</span>
+          <span>
+            ❌ Carrega a insegurança de não saber se vai conseguir o que é seu
+            por direito
+          </span>
+        </p>
+      ),
+      descriptionBefore: (
+        <p className="flex flex-col gap-3">
+          ✅ Eu analiso seu caso e traço a melhor estratégia pra conquistar o
+          benefício
+          <span>✅ Você entende cada passo e tem acompanhamento de perto</span>
+          <span>✅ Seus documentos ficam corretos e prontos pra análise</span>
+          <span>
+            ✅ Você tem tranquilidade sabendo que seu direito está sendo
+            defendido com seriedade
+          </span>
+        </p>
+      ),
+    },
+    labelCtaTransformation: "Quero meu benefício agora",
+  },
   about: {
     bgImg: bgImg,
     imagesGaleria: {

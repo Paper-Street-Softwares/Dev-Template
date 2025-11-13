@@ -613,6 +613,7 @@ const content = {
       label: "Clique aqui para ver todas as matérias",
       blogLink: "A_Definir", //sem "https://"
     },
+
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
