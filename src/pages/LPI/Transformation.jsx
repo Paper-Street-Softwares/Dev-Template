@@ -40,15 +40,17 @@ export default function TransformationLpi({ colorMode }) {
             titleColorSet={titleColor}
             subtitleColorSet={subtitleColor}
           />
-          <CardsAnteseDepois
-            descriptionAfter={
-              contentLp01.transformation.paragraphs.descriptionAfter
-            }
-            descriptionBefore={
-              contentLp01.transformation.paragraphs.descriptionBefore
-            }
-            className="mt-10"
-          />
+          <MotionDivDownToUp>
+            <CardsAnteseDepois
+              descriptionAfter={
+                contentLp01.transformation.paragraphs.descriptionAfter
+              }
+              descriptionBefore={
+                contentLp01.transformation.paragraphs.descriptionBefore
+              }
+              className="mt-10"
+            />
+          </MotionDivDownToUp>
           <MotionDivDownToUp>
             <div className="flex justify-center w-full mt-[42px]">
               <Button
