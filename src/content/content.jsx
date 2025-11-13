@@ -614,27 +614,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle:
+          cardTitle: "De negativa à conquista do seu salário-maternidade",
+          cardDescription:
             "Analiso cada detalhe do seu caso e descubro o motivo da negativa pra montar uma nova estratégia com base nas provas que o INSS costuma ignorar.",
-          cardDescription: "Receba o salário-maternidade que é seu por direito",
         },
         card2: {
           stepNumber: 2,
-          cardTitle:
+          cardTitle: "Receba o salário-maternidade que é seu por direito",
+          cardDescription:
             "Faço o cálculo e reúno toda a documentação necessária pra comprovar seu direito e garantir o pagamento integral, sem perda de tempo.",
-          cardDescription: "Você cuida do bebê, eu cuido do processo",
         },
         card3: {
           stepNumber: 3,
-          cardTitle:
+          cardTitle: "Você cuida do bebê, eu cuido do processo",
+          cardDescription:
             "Tudo é feito online, com transparência e acompanhamento constante — pra que você tenha tranquilidade enquanto eu resolvo o jurídico.",
-          cardDescription: "Só há custo se o benefício for concedido",
         },
         card4: {
           stepNumber: 4,
-          cardTitle:
+          cardTitle: "Só há custo se o benefício for concedido",
+          cardDescription:
             "Nada de risco ou promessas vazias: você só paga se o INSS aprovar o salário-maternidade.",
-          cardDescription: "Chega de pedidos negados e explicações confusas",
         },
       },
     },
