@@ -58,6 +58,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               youtube={true}
             /> */}
             <Button
+              aria-label={t("hero.ctaButtonAriaLabel")}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
