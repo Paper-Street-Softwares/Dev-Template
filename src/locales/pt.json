@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
@@ -83,24 +84,25 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O DR. ANDREY COLETTA",
+    "title": "Minha trajetória",
+    "subtitle": "Mais de 40 anos de tradição familiar dedicada à defesa de direitos e inclusão.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "A advocacia sempre fez parte da minha vida. Cresci acompanhando o trabalho do meu pai, que há mais de quatro décadas atua com dedicação na área cível, e desde cedo entendi o poder do Direito em transformar realidades.",
+    "modal": "A advocacia sempre fez parte da minha vida. Cresci acompanhando o trabalho do meu pai, que há mais de quatro décadas atua com dedicação na área cível, e desde cedo entendi o poder do Direito em transformar realidades. <br/><br/> Com o tempo, encontrei meu propósito em um campo que vai além das leis: a defesa dos direitos de pessoas com deficiência e autistas. Busquei especializações e pós-graduações voltadas a esse público, aprimorando meu conhecimento para oferecer um atendimento sensível e técnico. <br/><br/> Hoje, dedico minha atuação a causas que exigem empatia, compreensão e comprometimento. Atendo autistas, PcDs e suas famílias, lutando diariamente para que cada um tenha acesso aos direitos e à dignidade que merece. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
+      "title": "Atendimento on-line em todo Brasil",
+      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
       "labelTikTok": "Siga-me no TikTok",
-      "labelYoutube": "Siga-me no YouTube"
+      "labelYoutube": "Siga-me no YouTube",
+      "labelWhatsApp": "Entre em contato agora"
     }
   },
   "news": {
@@ -143,9 +145,9 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
