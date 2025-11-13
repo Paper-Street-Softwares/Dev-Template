@@ -31,7 +31,9 @@ export default function HowItWorksCard({
         {number}
       </div>
 
-      <h1 className={`text-[20px] font-bold mb-[24px] ${textColor}`}>
+      <h1
+        className={`text-[20px] text-center desktop1:text-start font-bold mb-[24px] ${textColor}`}
+      >
         {title}
       </h1>
       <p
