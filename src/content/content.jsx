@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Pacheco & Peixoto Advocacia Previdenciária",
+  name: "Dr. Andrey Coletta",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "drandreycoletta.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "99131", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5677", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,9 +107,10 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
+  instagramProfile: "drandrey.coletta", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
+  youtubeProfile: "@espectrolegal",
   x: "",
   tiktokProfile: "",
 
@@ -145,15 +146,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO PREVIDENCIÁRIO",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Eu faço o INSS
-          <span className="text-primary"> dizer sim</span> pra você
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Transformo negativas em aprovações reais. Aposento, reviso e conquisto o que é seu por direito — sem enrolação.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -161,7 +161,7 @@ const content = {
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
       alt: "Imagem ilustrativa da Seção Início",
-      ctaButtonText: "Quero meu benefício aprovado",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -181,7 +181,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Mais de 500 clientes atendidos e benefícios conquistados em todo o Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -207,17 +207,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Domínio total das causas previdenciárias",
-      subtitle:
-        "De aposentadorias a revisões complexas, atuo com estratégia e precisão pra garantir o melhor resultado pra você.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
-      ctaButtonFeatures: "Entre em contato agora mesmo",
       card1: {
         img: featuresImg1,
-        title: "Aposentadorias",
-        subtitle: "Eu aposento você com o melhor valor que o INSS permite.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -230,8 +228,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -251,8 +249,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Benefícios por Incapacidade",
-        subtitle: "Transformo indeferimentos em conquistas reais no INSS.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -265,18 +263,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-heart-plus-icon lucide-heart-plus"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="m14.479 19.374-.971.939a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5a5.2 5.2 0 0 1-.219 1.49" />
+            <path d="M15 15h6" />
+            <path d="M18 12v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -284,8 +283,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Revisões de Benefícios",
-        subtitle: "Faço o INSS recalcular e pagar o que é seu por direito.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -297,19 +296,22 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hammer-icon lucide-hammer"
+            class="lucide lucide-briefcase-medical-icon lucide-briefcase-medical"
           >
-            <path d="m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9" />
-            <path d="m18 15 4-4" />
-            <path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5" />
+            <path d="M12 11v4" />
+            <path d="M14 13h-4" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M18 6v14" />
+            <path d="M6 6v14" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -317,8 +319,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Pensão e Benefícios por Morte",
-        subtitle: "Garanto pensões e auxílios negados com estratégia e prova.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -331,17 +333,17 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-message-square-icon lucide-message-square"
+            class="lucide lucide-puzzle-icon lucide-puzzle"
           >
-            <path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" />
+            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -363,8 +365,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -446,24 +448,18 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "QUEM VAI RESOLVER SEU PROBLEMA",
-      title: "Especialista em batalhas contra o INSS",
-      subtitle:
-        "Transformo o direito previdenciário em resultados reais para meus clientes.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Me chamo Maycon Pacheco e atuo todos os dias com um único propósito:
-          fazer o INSS dizer “sim” pra quem merece. Minha experiência e
-          estratégia foram construídas em centenas de casos vencidos, revisões
-          conquistadas e benefícios aprovados — sempre com foco no resultado.
+          A_Definir
           <br />
-          Acredito que cada cliente tem uma história única, e é isso que me
-          move. Aqui, não tem enrolação nem promessa vazia: tem técnica,
-          dedicação e resultado comprovado pra garantir o que é seu por direito.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -484,7 +480,7 @@ const content = {
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Falar diretamente com o advogado",
+      ctaButtonText: "Entre em contato",
       galeria: {
         slide1: {
           img: { img1 },
@@ -535,19 +531,11 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Pronto pra garantir o que é seu por direito?",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Eu analiso seu caso de forma gratuita e só recebo se você ganhar.",
-      ctaButtonText: "Fale com a gente agora mesmo",
-      paragraph: (
-        <p>
-          ✓ Análise gratuita do seu caso
-          <br />✓ Cálculo do valor que você pode receber
-          <br /> ✓ Revisão de documentos e provas antes do pedido
-          <br /> ✓ Diligência direta de todo o processo no INSS
-          <br /> ✓ Você só paga se ganhar
-        </p>
-      ),
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
@@ -570,8 +558,8 @@ const content = {
       ctaButtonText: "Falar agora",
     },
     steps: {
-      miniTag: "POR QUE SOMOS A MELHOR ESCOLHA",
-      title: "Resultados reais, não promessas",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
@@ -579,30 +567,29 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Chega de negativas e enrolação",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Eu analiso pessoalmente seu caso e descubro por que o INSS negou, pra montar a estratégia certa e virar o jogo.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Conquiste o benefício que é seu por direito",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Uso cálculo, prova e experiência de campo pra garantir o maior valor possível no seu benefício.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Sem complicação e sem sair de casa",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Você me envia tudo online, e eu cuido do processo do início ao fim — com total transparência e agilidade.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Você só paga se ganhar",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Trabalho com resultado real. Só existe cobrança quando o seu benefício é aprovado — simples assim.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
-      ctButtonStepsText: "Quero meu caso analisado agora",
     },
     blog: {
       miniTag: "BLOG",
@@ -611,9 +598,8 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir", //sem "https://"
+      blogLink: "drandreycoletta.wordpress.com", //sem "https://"
     },
-
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
@@ -643,7 +629,6 @@ const content = {
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
-      copyrightLpi: "Desenvolvido com excelência por Paper Street",
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
       midSectionName: "Até mais",
@@ -707,17 +692,16 @@ const content = {
       number3Description: "A_Definir",
     },
     team: {
-      miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "A_Definir",
+            alt: "Edison Matos",
           },
-          name: "A_Definir",
-          role: "A_Definir",
+          name: "Edison Matos",
+          role: "CEO & Diretor de Desenvolvimento",
           socialMedia: {
             icon1: (
               <svg
@@ -780,10 +764,10 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "A_Definir",
+            alt: "Gabriel Adans",
           },
-          name: "A_Definir",
-          role: "A_Definir",
+          name: "Gabriel Adans",
+          role: "Marketing Outsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -846,10 +830,10 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "A_Definir",
+            alt: "Gabriel Souza",
           },
-          name: "A_Definir",
-          role: "A_Definir",
+          name: "Gabriel Souza",
+          role: "Desenvolvedor Frontend",
           socialMedia: {
             icon1: (
               <svg
@@ -912,10 +896,10 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "A_Definir",
+            alt: "Luiz Felipe",
           },
-          name: "A_Definir",
-          role: "A_Definir",
+          name: "Luiz Felipe",
+          role: "Designer Ourtsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -1026,6 +1010,7 @@ const content = {
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      youtube: `https://youtube.com/${infos.youtubeProfile}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
       tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },

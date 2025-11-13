@@ -75,6 +75,7 @@ export default function FooterSocial({
                       linkedin={true}
                       tiktok={true}
                       x={true}
+                      youtube={true}
                     />
                   </div>
                 </div>

@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Avenida Ariosto da Riva, 2961, <br/> ao lado do cartório de 1° oficio  <br/> Alta Floresta - MT,  <br/> CEP: 78580-970",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 8h às 11h <br/> 13h ás 17h",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,48 +11,49 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ENGENHARIA E ARQUITETURA",
-    "title": "Construímos <span class=\"text-primary font-bold\">mais do que</span> espaços",
-    "subtitle": "Projetos que unem técnica, design e propósito para transformar ideias em lugares que inspiram.",
-    "ctaButtonText": "Quero meu projeto",
+    "miniTag": "DIREITO DOS AUTISTAS E PCDs",
+    "title": "Direito de ser <span class=\"text-primary font-bold\">respeitado</span> sempre",
+    "subtitle": "Defendemos pessoas com deficiência e autistas para que tenham seus direitos garantidos, na prática.",
+    "ctaButtonText": "Falar com o advogado",
     "obsHero": {
-      "text": "Atendimento presencial ou online, com conforto e praticidade para você."
+      "text": "Atendimento exclusivamente online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "Do papel à realidade",
-    "title": "Transformamos ideias em espaços que inspiram",
-    "subtitle": "Da fundação ao acabamento, cada projeto é pensado para unir beleza, técnica e resultado.",
+    "miniTag": "Áreas de Atuação",
+    "title": "Defendendo quem mais precisa de voz",
+    "subtitle": "Atuamos com propósito em causas que garantem direitos, respeito e dignidade às pessoas com deficiência e autistas.",
     "card1": {
-      "title": "Projetos Arquitetônicos",
-      "subtitle": "Projetos que unem estética, conforto e funcionalidade.",
+      "title": "Isenção de Impostos para Autistas e PcDs",
+      "subtitle": "Garanta seus direitos e reduza gastos com IPVA e IR.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Engenharia Civil",
-      "subtitle": "Planejamento e execução com segurança e precisão.",
+      "title": "Revisão de Cobranças em Planos de Saúde",
+      "subtitle": "Ações para corrigir abusos e cobranças indevidas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Reformas e Retrofit",
-      "subtitle": "Renovamos ambientes com modernidade e eficiência.",
+      "title": "Acesso a Tratamentos e Medicamentos Negados",
+      "subtitle": "Conquiste o direito ao tratamento que você precisa.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Técnica e Acompanhamento de Obras",
-      "subtitle": "Supervisão técnica para obras seguras e econômicas.",
+      "title": "Redução de Jornada para Pais de Autistas",
+      "subtitle": "Mais tempo com seu filho, sem perder seus direitos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,52 +84,25 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A AQ ENGENHARIA",
-    "title": "Nossa trajetória",
-    "subtitle": "Unimos técnica, criatividade e segurança para transformar projetos em realidade.",
+    "miniTag": "QUEM É O DR. ANDREY COLETTA",
+    "title": "Minha trajetória",
+    "subtitle": "Mais de 40 anos de tradição familiar dedicada à defesa de direitos e inclusão.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A AQ Engenharia nasceu da união de duas trajetórias que se completam. Vinícius Queiroz e Izabela Alves, engenheiros civis com experiências distintas, decidiram juntar forças para oferecer soluções que vão além do básico.",
-    "modal": "A AQ Engenharia nasceu da união de duas trajetórias que se completam. Vinícius Queiroz e Izabela Alves, engenheiros civis com experiências distintas, decidiram juntar forças para oferecer soluções que vão além do básico. <br/><br/> Izabela especializou-se na criação de projetos arquitetônicos e complementares, enquanto Vinícius construiu mais de uma década de experiência no Cartório de Registro de Imóveis de Alta Floresta-MT, com foco em regularização, incorporações e loteamentos. <br/><br/> O que começou como um trabalho individual tornou-se uma empresa sólida, que hoje entrega resultados completos — do planejamento à regularização final — com técnica, segurança jurídica e o compromisso de transformar cada projeto em algo real e duradouro. <br/><br/>",
+    "paragraph": "A advocacia sempre fez parte da minha vida. Cresci acompanhando o trabalho do meu pai, que há mais de quatro décadas atua com dedicação na área cível, e desde cedo entendi o poder do Direito em transformar realidades.",
+    "modal": "A advocacia sempre fez parte da minha vida. Cresci acompanhando o trabalho do meu pai, que há mais de quatro décadas atua com dedicação na área cível, e desde cedo entendi o poder do Direito em transformar realidades. <br/><br/> Com o tempo, encontrei meu propósito em um campo que vai além das leis: a defesa dos direitos de pessoas com deficiência e autistas. Busquei especializações e pós-graduações voltadas a esse público, aprimorando meu conhecimento para oferecer um atendimento sensível e técnico. <br/><br/> Hoje, dedico minha atuação a causas que exigem empatia, compreensão e comprometimento. Atendo autistas, PcDs e suas famílias, lutando diariamente para que cada um tenha acesso aos direitos e à dignidade que merece. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "paragraph": "Acompanhe nossas redes sociais e fique por dentro de novidades, projetos e inspirações no universo da engenharia e arquitetura.",
-      "labelInstagram": "Siga-nos no Instagram",
-      "labelFacebook": "Siga-nos no Facebook",
-      "labelLinkedin": "Siga-nos no Linkedin",
-      "labelX": "Siga-nos no X",
-      "labelTikTok": "Siga-nos no TikTok"
-    }
-  },
-  "team": {
-    "miniTag": "NOSSO TIME",
-    "title": "Profissionais que constroem com excelência",
-    "subtitle": "Uma equipe experiente e dedicada, pronta para transformar projetos em realidade.",
-    "team1": {
-      "title": "Grazielle Siqueira",
-      "subtitle": "Engenheira Civil, Especialista em Regularização de Obras e INSS de Obras",
-      "labelButton": "Saiba mais",
-      "description": "Sou Grazielle Siqueira, tenho 25 anos, Engenheira Civil, Especialista em Regularização de Obras e INSS de Obras. Há quase dois anos, dedico minha trajetória profissional a ajudar pessoas e empresas a colocarem suas construções em conformidade, com segurança, transparência e praticidade. <br/><br/>  À frente da AQ Engenharia, atuo em todo o Brasil, oferecendo soluções completas em regularização e documentação de obras. Meu propósito é simplificar processos burocráticos, transformando desafios em soluções técnicas e acessíveis. <br/><br/> Acredito que a engenharia vai muito além de cálculos e normas, ela é sobre realizar sonhos com responsabilidade e cuidado. Cada projeto é uma história, e é um orgulho poder fazer parte de tantas delas, garantindo que cada construção seja tão sólida quanto o sonho que a inspirou."
-    },
-    "team2": {
-      "title": "Izabela Alves",
-      "subtitle": "Engenheira civil e sócia-proprietária da AQ Engenharia",
-      "labelButton": "Saiba mais",
-      "description": "Izabela Alves<br/>Engenheira civil e sócia-proprietária da AQ Engenharia, com 8 anos de experiência em projetos arquitetônicos, complementares e acompanhamento de obras. <br/><br/> Uno conhecimento técnico e visão prática para entregar soluções funcionais, estéticas e eficientes. <br/><br/> Meu foco é transformar ideias em realidade, garantindo qualidade, segurança e resultados fiéis ao que foi projetado. "
-    },
-    "team3": {
-      "title": "Geovana de Zanet",
-      "subtitle": "Engenheira Civil com foco em projetos complementares",
-      "labelButton": "Saiba mais",
-      "description": " Geovana de Zanet, 24 anos, Engenheira Civil com foco em projetos complementares, atuando nas áreas estrutural, hidrossanitária e em projetos de prevenção contra incêndio (PS e PPCI).<br/><br/>  Com uma atuação pautada na precisão técnica e na eficiência, desenvolvo soluções seguras, funcionais e de alta qualidade, sempre alinhadas à responsabilidade e à excelência profissional. Meu trabalho reflete atenção aos detalhes e o compromisso em entregar resultados de alto padrão em todas as etapas do projeto."
-    },
-    "team4": {
-      "title": "Vinícius Queiroz",
-      "subtitle": "Engenheiro Civil e técnico em Serviços Jurídicos",
-      "labelButton": "Saiba mais",
-      "description": "Sou Vinícius Queiroz, 26 anos, engenheiro civil e técnico em Serviços Jurídicos.<br/>Atuo há mais de 10 anos na área de registros e documentação imobiliária, com experiência em análises de procedimentos como loteamentos, incorporações imobiliárias, condomínios, retificação de imóveis, georreferenciamento urbano e rural, certificação junto ao Incra e regularização fundiária (REURB), tanto urbana quanto rural. <br/><br/> Ao longo da minha trajetória, tive contato com uma ampla variedade de atos e documentos ligados ao mercado imobiliário, desde desmembramentos simples até escrituras públicas, adjudicações e procedimentos mais complexos de conferência de bens e localização de áreas em condomínio. Essa vivência me permite entender a fundo como funcionam os trâmites administrativos e cartorários, ajudando clientes e investidores a encontrarem o caminho mais adequado para cada situação. <br/><br/> Na AQ Engenharia, meu foco é a regularização imobiliária, buscando sempre soluções seguras, rápidas e econômicas para quem precisa regularizar seu imóvel ou estruturar um empreendimento. Atualmente, também estou cursando pós-graduação em Regularização Imobiliária, consolidando ainda mais minha atuação nessa área. <br/><br/>Meu papel no escritório é ser o elo entre o projeto técnico e a segurança jurídica, para que o cliente tenha tranquilidade e confiança de que seu imóvel ou empreendimento está devidamente regularizado."
+      "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
+      "title": "Atendimento on-line em todo Brasil",
+      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no Linkedin",
+      "labelX": "Siga-me no X",
+      "labelTikTok": "Siga-me no TikTok",
+      "labelYoutube": "Siga-me no YouTube",
+      "labelWhatsApp": "Entre em contato agora"
     }
   },
   "news": {
@@ -138,7 +112,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\" font-bold\">Pensando em construir,</span> reformar ou regularizar seu imóvel? <span class=\" font-bold\">Deixe que a gente cuida de tudo pra você!</span>",
+    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -150,30 +124,30 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Primeiro contato",
-        "cardDescription": "Realizamos uma conversa inicial para entender suas ideias, necessidades e objetivos do projeto."
+        "cardTitle": "Consulta inicial",
+        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise e planejamento",
-        "cardDescription": "Avaliamos o terreno, a viabilidade e todos os detalhes técnicos e legais para um planejamento completo."
+        "cardTitle": "Análise detalhada",
+        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Desenvolvimento do projeto",
-        "cardDescription": "Criamos o projeto arquitetônico e os complementares com base nas normas, funcionalidade e estética desejada."
+        "cardTitle": "Elaboração da estratégia",
+        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Execução e regularização",
-        "cardDescription": "Acompanhamos a obra e cuidamos da documentação necessária para garantir segurança e conformidade até o registro final."
+        "cardTitle": "Ação legal",
+        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
       }
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
@@ -184,20 +158,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Quais etapas são incluídas no serviço de projeto e execução?",
-        "answer": "Nós cuidamos de todo o caminho — desde o levantamento inicial e sondagem, passando pelo projeto arquitetônico e complementares, até a execução, regularização e registro final do empreendimento. Você acompanha cada fase com clareza e tranquilidade."
+        "question": "Como posso contratar seus serviços?",
+        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
       },
       "question2": {
-        "question": "Eu preciso contratar a empresa para executar a obra ou só para projetar?",
-        "answer": "Você tem duas opções: pode contratar apenas a parte de projeto ou também incluir todo o acompanhamento de obra e regularização. A AQ Engenharia oferece tanto o projeto completo quanto o serviço “chave em mão” para entregar o empreendimento pronto e legalizado."
+        "question": "Qual é o prazo médio para resolução de um caso?",
+        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
       },
       "question3": {
-        "question": "Como vocês ajudam na regularização do imóvel ou terreno?",
-        "answer": "Combinamos a experiência da Izabela Alves em projetos com a trajetória de Vinícius Queiroz no registro de imóveis para oferecer suporte completo. Isso inclui análise documental, viabilidade, aporte técnico-legal e finalização no cartório — reduzindo burocracia e riscos para você."
+        "question": "Quais documentos devo levar para a consulta?",
+        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
       },
       "question4": {
-        "question": "Qual o prazo e como são definidos os custos dos serviços?",
-        "answer": "O prazo e o valor variam de acordo com o escopo, tamanho do terreno, complexidade do projeto e regularização exigida. Após a reunião inicial, apresentamos um cronograma e orçamento detalhados. Nosso compromisso é clareza e previsibilidade, sem surpresas no caminho."
+        "question": "Vocês oferecem serviços de consultoria preventiva?",
+        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"

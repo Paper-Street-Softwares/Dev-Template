@@ -1,7 +1,7 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import IconButton from "../../interactives/IconButton";
-import { infos } from "../../../content/content"; // <-- importar infos
+import { infos } from "../../../content/content";
 
 const icons = {
   facebook: {
@@ -84,16 +84,36 @@ const icons = {
       </svg>
     ),
   },
+  youtube: {
+    aria: "YouTube",
+    svg: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="lucide lucide-youtube-icon lucide-youtube"
+      >
+        <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+        <path d="m10 15 5-3-5-3z" />
+      </svg>
+    ),
+  },
 };
 
 function FooterSocialIcons({ withAnimation = true }) {
   const platforms = {
     facebook: infos.facebookProfile,
     tiktok: infos.tiktokProfile,
-
     instagram: infos.instagramProfile,
     linkedin: infos.linkeDinProfile,
     x: infos.x,
+    youtube: infos.youtubeProfile,
   };
 
   return (
@@ -110,6 +130,8 @@ function FooterSocialIcons({ withAnimation = true }) {
             ? `https://www.linkedin.com/in/${profile}`
             : key === "tiktok"
             ? `https://www.tiktok.com/@${cleanedProfile}`
+            : key === "youtube"
+            ? `https://youtube.com/${infos.youtubeProfile}`
             : `https://www.${key}.com/${cleanedProfile}`;
 
         const { aria, svg } = icons[key];
