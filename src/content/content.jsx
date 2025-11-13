@@ -146,14 +146,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "SALÁRIO- MATERNIDADE",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Seu
+          <span className="text-primary"> salário-maternidade </span>começa aqui
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Eu cuido de todo o processo pra você viver esse momento com calma e segurança.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -161,7 +162,7 @@ const content = {
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
       alt: "Imagem ilustrativa da Seção Início",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Quero receber meu benefício",
       obsHero: {
         icon: (
           <svg
@@ -181,7 +182,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Cada mãe merece apoio e um processo simples pra ter o que é seu por direito.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -207,15 +208,18 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "É PRA VOCÊ",
+      title:
+        "Mãe, se alguma dessas situações é a sua, posso te ajudar a mudar esse cenário",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
+      ctaButtonFeatures: "Entre em contato agora mesmo",
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Seu benefício negado pelo INSS…",
+        subtitle:
+          "…reverto negativas com base em provas e fundamentos legais que o INSS costuma ignorar.",
         description: (
           <div>
             A_Definir
@@ -228,20 +232,18 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clipboard-pen-icon lucide-clipboard-pen"
+            class="lucide lucide-file-icon lucide-file"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5" />
-            <path d="M4 13.5V6a2 2 0 0 1 2-2h2" />
-            <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -249,8 +251,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Seu processo está parado há meses…",
+        subtitle:
+          "…e só eu posso agilizar a análise e pressionar o INSS pra liberar o pagamento o quanto antes.",
         description: (
           <div>
             A_Definir
@@ -263,19 +266,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-plus-icon lucide-heart-plus"
+            class="lucide lucide-timer-icon lucide-timer"
           >
-            <path d="m14.479 19.374-.971.939a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5a5.2 5.2 0 0 1-.219 1.49" />
-            <path d="M15 15h6" />
-            <path d="M18 12v6" />
+            <line x1="10" x2="14" y1="2" y2="2" />
+            <line x1="12" x2="15" y1="14" y2="11" />
+            <circle cx="12" cy="14" r="8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -283,8 +286,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Trabalhou informal ou autônomo sem registro…",
+        subtitle:
+          "…eu identifico formas de comprovar o vínculo e garantir o benefício.",
         description: (
           <div>
             A_Definir <br />
@@ -296,21 +300,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-medical-icon lucide-briefcase-medical"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="M12 11v4" />
-            <path d="M14 13h-4" />
+            <path d="M12 12h.01" />
             <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M18 6v14" />
-            <path d="M6 6v14" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
             <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
@@ -319,8 +321,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Mães buscam apenas tranquilidade…",
+        subtitle:
+          "…aqui eu cuido de toda a parte jurídica pra que você viva esse momento com segurança e paz.",
         description: (
           <div>
             A_Definir
@@ -333,17 +336,17 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-puzzle-icon lucide-puzzle"
+            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
           >
-            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
+            <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -435,6 +438,35 @@ const content = {
         },
       },
     },
+    transformation: {
+      sectionHeader: {
+        miniTag: "Aprovação Sem Stress",
+        title: "De frustração com o INSS ao êxito da vitória",
+      },
+      paragraphs: {
+        descriptionAfter: (
+          <p className="flex flex-col gap-3">
+            ❌ Seu pedido vive sendo negado sem explicação clara
+            <span>❌ Você passa meses esperando respostas do INSS</span>❌ Você
+            envia de documentos errados sem saber
+            <span>
+              ❌ Você carrega a insegurança e o medo de perder o benefício
+            </span>
+          </p>
+        ),
+        descriptionBefore: (
+          <p className="flex flex-col gap-3">
+            ✅ Eu cuido de tudo pra aumentar suas chances de aprovação
+            <span>
+              ✅ Você entende cada passo e tem acompanhamento de perto
+            </span>
+            <span>✅ Seus documentos ficam certos e prontos pra análise</span>
+            <span>✅ Você tem paz pra cuidar do bebê enquanto eu resolvo</span>
+          </p>
+        ),
+      },
+      labelCtaTransformation: "Quero meu benefício agora",
+    },
     maps: {
       minitag: "A_Definir",
       title: "A_Definir",
@@ -448,18 +480,25 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM ESTÁ POR TRÁS DO SEU DIREITO",
+      title: "Compromisso com quem mais precisa",
+      subtitle:
+        "Atuação humana e estratégica para garantir o salário-maternidade que é seu por direito.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Atuo com foco total em direito previdenciário, ajudando mães que
+          tiveram o salário-maternidade negado ou atrasado a conquistarem o
+          benefício com segurança e agilidade. Cada caso é tratado de forma
+          individual, com análise técnica e sensibilidade para entender a sua
+          realidade.
           <br />
-          A_Definir
+          Meu objetivo é simplificar o processo e lutar pelo seu direito sem
+          complicações, pra que você receba o que é seu e viva esse momento com
+          mais tranquilidade e dignidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -480,7 +519,7 @@ const content = {
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Falar diretamente com o advogado",
       galeria: {
         slide1: {
           img: { img1 },
@@ -531,11 +570,19 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      title: "Não espere mais pra garantir o que é seu",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "Cada dia de atraso é um dia a menos de benefício recebido. A gente resolve isso por você — rápido, seguro e sem burocracia.",
+      ctaDescription: (
+        <p>
+          ✓ Análise gratuita do seu caso
+          <br />✓ Atendimento direto com o advogado, sem intermediários
+          <br />✓ Resposta rápida e acompanhamento pelo WhatsApp
+          <br />✓ Processo iniciado no mesmo dia da análise
+          <br />✓ Você mais perto de receber o que é seu, sem sair de casa
+        </p>
+      ),
+      ctaButtonText: "Fale com a gente agora mesmo",
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
@@ -558,8 +605,8 @@ const content = {
       ctaButtonText: "Falar agora",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "POR QUE SOMOS A MELHOR ESCOLHA",
+      title: "Chega de pedidos negados e explicações confusas",
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
@@ -567,27 +614,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle:
+            "Analiso cada detalhe do seu caso e descubro o motivo da negativa pra montar uma nova estratégia com base nas provas que o INSS costuma ignorar.",
+          cardDescription: "Receba o salário-maternidade que é seu por direito",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle:
+            "Faço o cálculo e reúno toda a documentação necessária pra comprovar seu direito e garantir o pagamento integral, sem perda de tempo.",
+          cardDescription: "Você cuida do bebê, eu cuido do processo",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle:
+            "Tudo é feito online, com transparência e acompanhamento constante — pra que você tenha tranquilidade enquanto eu resolvo o jurídico.",
+          cardDescription: "Só há custo se o benefício for concedido",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+          cardTitle:
+            "Nada de risco ou promessas vazias: você só paga se o INSS aprovar o salário-maternidade.",
+          cardDescription: "Chega de pedidos negados e explicações confusas",
         },
       },
     },

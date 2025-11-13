@@ -49,15 +49,15 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />
           <div>
-            {/* <RedesSociais
+            <RedesSociais
               tiktok={true}
               instagram={true}
               facebook={true}
               linkedin={true}
               x={true}
               youtube={true}
-            /> */}
-            <Button
+            />
+            {/* <Button
               aria-label={t("hero.ctaButtonAriaLabel")}
               icon={
                 <svg
@@ -71,7 +71,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
                 </svg>
               }
               label={t("about.aboutSocial.labelWhatsApp")}
-            />
+            /> */}
           </div>
         </div>
       </SectionWrapper>

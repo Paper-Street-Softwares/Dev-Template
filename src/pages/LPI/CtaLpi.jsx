@@ -41,7 +41,7 @@ export default function CtaLpi({ colorMode }) {
 
             <MotionDivDownToUp>
               <div className="mb-8 text-center">
-                {content.texts.cta.paragraph}
+                {content.texts.cta.ctaDescription}
               </div>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
