@@ -115,7 +115,7 @@ const RedesSociais = ({ withAnimation = true }) => {
       <Button
         key="x"
         label={t("about.aboutSocial.labelX")}
-        buttonLink={`https://twitter.com/${infos.x}`}
+        buttonLink={`https://x.com/${infos.x}`}
         icon={
           <svg
             viewBox="0 0 21.573 19.5"
@@ -124,6 +124,32 @@ const RedesSociais = ({ withAnimation = true }) => {
             fill="currentColor"
           >
             <path d="m 16.998462,0 h 3.308 l -7.227,8.26 8.502,11.24 h -6.657 l -5.2139994,-6.817 -5.966,6.817 H 0.43446256 L 8.1644626,10.665 0.00846256,0 H 6.8344626 l 4.7129994,6.231 z m -1.161,17.52 h 1.833 L 5.8384626,1.876 h -1.967 z" />
+          </svg>
+        }
+      />
+    );
+  }
+  if (infos.youtubeProfile && infos.youtubeProfile !== "A_Definir") {
+    icons.push(
+      <Button
+        key="youtube"
+        label={t("about.aboutSocial.labelYoutube")}
+        buttonLink={`https://youtube.com/${infos.youtubeProfile}`}
+        icon={
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-youtube-icon lucide-youtube"
+          >
+            <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+            <path d="m10 15 5-3-5-3z" />
           </svg>
         }
       />

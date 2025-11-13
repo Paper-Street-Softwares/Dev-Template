@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Andrey Coletta",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "drandreycoletta.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "99131", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5677", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,9 +107,10 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
+  instagramProfile: "drandrey.coletta", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
+  youtubeProfile: "@espectrolegal",
   x: "",
   tiktokProfile: "",
 
@@ -983,6 +984,7 @@ const content = {
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      youtube: `https://youtube.com/${infos.youtubeProfile}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
       tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },
