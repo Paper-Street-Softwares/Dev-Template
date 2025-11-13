@@ -47,14 +47,14 @@ export default function TransformationLpi({ colorMode }) {
             descriptionBefore={
               contentLp01.transformation.paragraphs.descriptionBefore
             }
+            className="mt-10"
           />
           <MotionDivDownToUp>
-            <div className="flex justify-center w-full mt-[32px]">
+            <div className="flex justify-center w-full mt-[42px]">
               <Button
                 aria-label={content.texts.about.ctaButtonAriaLabel}
                 label={contentLp01.transformation.labelCtaTransformation}
                 animation
-                size="small"
                 className="w-[100%]"
                 icon={
                   <svg
