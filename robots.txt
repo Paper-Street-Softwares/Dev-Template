@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://A_Definir/sitemap.xml
+Sitemap: https://www.viniciusvictoradv.com.br/sitemap.xml
 
