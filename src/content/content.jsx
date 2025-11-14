@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Andrey Coletta",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drandreycoletta.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "99131", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5677", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,10 +107,9 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "drandrey.coletta", // Sem o @
+  instagramProfile: "", // Sem o @
   facebookProfile: "",
   linkeDinProfile: "",
-  youtubeProfile: "@espectrolegal",
   x: "",
   tiktokProfile: "",
 
@@ -146,15 +145,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "SALÁRIO- MATERNIDADE",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Seu
-          <span className="text-primary"> salário-maternidade </span>começa aqui
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Eu cuido de todo o processo pra você viver esse momento com calma e segurança.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -162,7 +160,7 @@ const content = {
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
       alt: "Imagem ilustrativa da Seção Início",
-      ctaButtonText: "Quero receber meu benefício",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -182,7 +180,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Cada mãe merece apoio e um processo simples pra ter o que é seu por direito.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -208,18 +206,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "É PRA VOCÊ",
-      title:
-        "Mãe, se alguma dessas situações é a sua, posso te ajudar a mudar esse cenário",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
-      ctaButtonFeatures: "Entre em contato agora mesmo",
       card1: {
         img: featuresImg1,
-        title: "Seu benefício negado pelo INSS…",
-        subtitle:
-          "…reverto negativas com base em provas e fundamentos legais que o INSS costuma ignorar.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -232,18 +227,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-icon lucide-file"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
-            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -251,9 +241,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Seu processo está parado há meses…",
-        subtitle:
-          "…e só eu posso agilizar a análise e pressionar o INSS pra liberar o pagamento o quanto antes.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -266,19 +255,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-timer-icon lucide-timer"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <line x1="10" x2="14" y1="2" y2="2" />
-            <line x1="12" x2="15" y1="14" y2="11" />
-            <circle cx="12" cy="14" r="8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -286,9 +269,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhou informal ou autônomo sem registro…",
-        subtitle:
-          "…eu identifico formas de comprovar o vínculo e garantir o benefício.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -300,20 +282,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -321,9 +296,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Mães buscam apenas tranquilidade…",
-        subtitle:
-          "…aqui eu cuido de toda a parte jurídica pra que você viva esse momento com segurança e paz.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -336,17 +310,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -438,35 +408,6 @@ const content = {
         },
       },
     },
-    transformation: {
-      sectionHeader: {
-        miniTag: "Aprovação Sem Stress",
-        title: "De frustração com o INSS ao êxito da vitória",
-      },
-      paragraphs: {
-        descriptionAfter: (
-          <p className="flex flex-col gap-3">
-            ❌ Seu pedido vive sendo negado sem explicação clara
-            <span>❌ Você passa meses esperando respostas do INSS</span>❌ Você
-            envia de documentos errados sem saber
-            <span>
-              ❌ Você carrega a insegurança e o medo de perder o benefício
-            </span>
-          </p>
-        ),
-        descriptionBefore: (
-          <p className="flex flex-col gap-3">
-            ✅ Eu cuido de tudo pra aumentar suas chances de aprovação
-            <span>
-              ✅ Você entende cada passo e tem acompanhamento de perto
-            </span>
-            <span>✅ Seus documentos ficam certos e prontos pra análise</span>
-            <span>✅ Você tem paz pra cuidar do bebê enquanto eu resolvo</span>
-          </p>
-        ),
-      },
-      labelCtaTransformation: "Quero meu benefício agora",
-    },
     maps: {
       minitag: "A_Definir",
       title: "A_Definir",
@@ -480,25 +421,18 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "QUEM ESTÁ POR TRÁS DO SEU DIREITO",
-      title: "Compromisso com quem mais precisa",
-      subtitle:
-        "Atuação humana e estratégica para garantir o salário-maternidade que é seu por direito.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Atuo com foco total em direito previdenciário, ajudando mães que
-          tiveram o salário-maternidade negado ou atrasado a conquistarem o
-          benefício com segurança e agilidade. Cada caso é tratado de forma
-          individual, com análise técnica e sensibilidade para entender a sua
-          realidade.
+          A_Definir
           <br />
-          Meu objetivo é simplificar o processo e lutar pelo seu direito sem
-          complicações, pra que você receba o que é seu e viva esse momento com
-          mais tranquilidade e dignidade.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -519,7 +453,7 @@ const content = {
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Falar diretamente com o advogado",
+      ctaButtonText: "Entre em contato",
       galeria: {
         slide1: {
           img: { img1 },
@@ -570,19 +504,11 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Não espere mais pra garantir o que é seu",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Cada dia de atraso é um dia a menos de benefício recebido. A gente resolve isso por você — rápido, seguro e sem burocracia.",
-      ctaDescription: (
-        <p>
-          ✓ Análise gratuita do seu caso
-          <br />✓ Atendimento direto com o advogado, sem intermediários
-          <br />✓ Resposta rápida e acompanhamento pelo WhatsApp
-          <br />✓ Processo iniciado no mesmo dia da análise
-          <br />✓ Você mais perto de receber o que é seu, sem sair de casa
-        </p>
-      ),
-      ctaButtonText: "Fale com a gente agora mesmo",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
@@ -605,8 +531,8 @@ const content = {
       ctaButtonText: "Falar agora",
     },
     steps: {
-      miniTag: "POR QUE SOMOS A MELHOR ESCOLHA",
-      title: "Chega de pedidos negados e explicações confusas",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       imgMobile: imgStepsMobile,
@@ -614,27 +540,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "De negativa à conquista do seu salário-maternidade",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Analiso cada detalhe do seu caso e descubro o motivo da negativa pra montar uma nova estratégia com base nas provas que o INSS costuma ignorar.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Receba o salário-maternidade que é seu por direito",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Faço o cálculo e reúno toda a documentação necessária pra comprovar seu direito e garantir o pagamento integral, sem perda de tempo.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Você cuida do bebê, eu cuido do processo",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Tudo é feito online, com transparência e acompanhamento constante — pra que você tenha tranquilidade enquanto eu resolvo o jurídico.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Só há custo se o benefício for concedido",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Nada de risco ou promessas vazias: você só paga se o INSS aprovar o salário-maternidade.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },
@@ -645,7 +571,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "drandreycoletta.wordpress.com", //sem "https://"
+      blogLink: "A_Definir", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -1057,7 +983,6 @@ const content = {
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
-      youtube: `https://youtube.com/${infos.youtubeProfile}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
       tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },
