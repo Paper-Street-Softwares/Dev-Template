@@ -44,7 +44,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {mode === "LP" ? (
         <Routes>
           <Route path="/" element={<Index mode={mode} />} />
-          <Route path="/lpi" element={<IndexLpi />} />
+          {/* <Route path="/" element={<IndexLpi />} /> */}
 
           <Route path="/:nome" element={<CartaoSocio />} />
           {/* <Route path="/" element={<Lp01 />} /> */}

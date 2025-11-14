@@ -32,9 +32,10 @@ export default function TransformationLpi({ colorMode }) {
         <div className="w-full">
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={content.texts.about.miniTag}
-            sectionHeaderTitle={content.texts.about.title}
-            sectionHeaderSubtitle={content.texts.about.subtitle}
+            miniTitle={content.texts.transformation.sectionHeader.miniTag}
+            sectionHeaderTitle={
+              content.texts.transformation.sectionHeader.title
+            }
             color={colorMode}
             type=""
             titleColorSet={titleColor}
@@ -43,10 +44,10 @@ export default function TransformationLpi({ colorMode }) {
           <MotionDivDownToUp>
             <CardsAnteseDepois
               descriptionAfter={
-                contentLp01.transformation.paragraphs.descriptionAfter
+                content.texts.transformation.paragraphs.descriptionAfter
               }
               descriptionBefore={
-                contentLp01.transformation.paragraphs.descriptionBefore
+                content.texts.transformation.paragraphs.descriptionBefore
               }
               className="mt-10"
             />
@@ -55,7 +56,7 @@ export default function TransformationLpi({ colorMode }) {
             <div className="flex justify-center w-full mt-[42px]">
               <Button
                 aria-label={content.texts.about.ctaButtonAriaLabel}
-                label={contentLp01.transformation.labelCtaTransformation}
+                label={content.texts.transformation.labelCtaTransformation}
                 animation
                 className="w-[100%]"
                 icon={

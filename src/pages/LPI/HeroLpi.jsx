@@ -81,7 +81,7 @@ function HeroLpi({ colorMode }) {
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
+                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-mainFont text-paragraph4">
                   <p
                     className={`mb-[16px] rounded-md px-[16px] py-[6px] inline-block text-paragraph2 text-minititleLightLabel bg-minititle`}
                   >

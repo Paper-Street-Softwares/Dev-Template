@@ -73,7 +73,7 @@ export default function AboutLpi({ colorMode }) {
             <div className="flex justify-center w-full desktop1:justify-start mt-[32px]">
               <Button
                 aria-label={content.texts.about.ctaButtonAriaLabel}
-                label={content.texts.hero.ctaButtonText}
+                label={content.texts.about.ctaButtonText}
                 animation
                 className="w-[100%]"
                 icon={

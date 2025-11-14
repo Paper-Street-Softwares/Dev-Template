@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Andrey Coletta",
+  name: "Dr. Vinícius Vitor",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drandreycoletta.com.br", // Sem "www"
+  domain: "viniciusvictoradv.com.br", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "99131", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5677", // Apenas os 4 últimos números
+    ddd: "84",
+    firstPart: "99682", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3578", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,10 +107,9 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "drandrey.coletta", // Sem o @
+  instagramProfile: "euviniciusvictoradv/", // Sem o @
   facebookProfile: "",
-  linkeDinProfile: "",
-  youtubeProfile: "@espectrolegal",
+  linkeDinProfile: "viniciusvsousasilva",
   x: "",
   tiktokProfile: "",
 
@@ -236,12 +235,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clipboard-pen-icon lucide-clipboard-pen"
+            class="lucide lucide-landmark-icon lucide-landmark"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5" />
-            <path d="M4 13.5V6a2 2 0 0 1 2-2h2" />
-            <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+            <path d="M10 18v-7" />
+            <path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z" />
+            <path d="M14 18v-7" />
+            <path d="M18 18v-7" />
+            <path d="M3 22h18" />
+            <path d="M6 18v-7" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -271,11 +272,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-plus-icon lucide-heart-plus"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m14.479 19.374-.971.939a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5a5.2 5.2 0 0 1-.219 1.49" />
-            <path d="M15 15h6" />
-            <path d="M18 12v6" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -304,14 +306,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-medical-icon lucide-briefcase-medical"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M12 11v4" />
-            <path d="M14 13h-4" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M18 6v14" />
-            <path d="M6 6v14" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -341,9 +342,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-puzzle-icon lucide-puzzle"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
+            <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -598,7 +603,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "drandreycoletta.wordpress.com", //sem "https://"
+      blogLink: "viniciusvictoradv.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
@@ -1010,7 +1015,6 @@ const content = {
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
-      youtube: `https://youtube.com/${infos.youtubeProfile}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
       tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
     },
