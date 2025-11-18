@@ -83,23 +83,24 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
+    "miniTag": "QUEM É A LEANLOGS",
     "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "subtitle": "Soluções completas para elevar resultados em Lean, Logística e Cadeia de Suprimentos.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "A LeanLogs nasceu com a missão de impulsionar empresas e profissionais que atuam em Lean, Logística e Cadeia de Suprimentos.",
+    "modal": "A LeanLogs nasceu com a missão de impulsionar empresas e profissionais que atuam em Lean, Logística e Cadeia de Suprimentos. <br/><br/> A_DefAo longo da nossa trajetória, reunimos consultoria, serviços, mentoring, treinamentos, cursos, palestras e eventos em uma mesma plataforma de crescimento.inir <br/><br/> Também apoiamos carreiras com análise curricular e otimização de perfis no LinkedIn, ajudando profissionais a alcançarem novas oportunidades e maior destaque no mercado. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "ASSESSORIA ESPECIALIZADA NACIONAL",
+      "title": "Atendimento on-line em todo Brasil",
+      "paragraph": "Com uma assessoria especializada e sem fronteiras, nossa equipe atua em Lean, Logística e Cadeia de Suprimentos para apoiar profissionais e empresas em qualquer lugar do país. Onde você estiver, estamos prontos para oferecer soluções eficientes, personalizadas e focadas em resultados reais.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelTikTok": "Siga-me no TikTok",
+      "labelWhatsApp": "Entre em contato agora"
     }
   },
   "news": {
@@ -121,23 +122,23 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Diagnóstico inicial",
+        "cardDescription": "Realizamos uma reunião para entender seus desafios e mapear as necessidades da sua operação."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Análise aprofundada",
+        "cardDescription": "Avaliamos processos, indicadores e dados relevantes para obter uma visão completa do cenário atual."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Definição da estratégia",
+        "cardDescription": "Desenvolvemos um plano personalizado de melhorias com métodos Lean e soluções aplicáveis ao seu negócio."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Implementação e acompanhamento",
+        "cardDescription": "Executamos as ações definidas e acompanhamos os resultados para garantir eficiência, redução de custos e evolução contínua."
       }
     }
   },
@@ -155,20 +156,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Como posso contratar os serviços da LeanLogs?",
+        "answer": "Agende uma reunião por WhatsApp conosco para conversarmos sobre seus desafios, entendermos suas necessidades e definir a proposta de trabalho."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Quanto custa contratar a LeanLogs?",
+        "answer": "O valor varia conforme o escopo: tamanho da empresa, complexidade dos processos, tipo de serviço (consultoria, treinamento, mentoring, etc.). Na reunião inicial, apresentamos uma estimativa personalizada."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Qual é o tempo meio para ver resultados ao implementar práticas Lean ou logísticas?",
+        "answer": "Depende do nível de maturidade da sua operação e dos projetos definidos, mas muitos clientes já percebem ganhos significativos em 3 a 6 meses após as primeiras melhorias."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Posso fazer consultoria preventiva para evitar gargalos futuros?",
+        "answer": "Sim — oferecemos consultoria preventiva para mapear riscos operacionais, otimizar fluxos e garantir conformidade, evitando desperdícios e retrabalhos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
