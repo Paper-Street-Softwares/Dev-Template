@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
+    "title": "<span class=\"text-primary font-bold\">Justiça</span> ao seu alcance",
+    "subtitle": "Advocacia humana e acessível, feita para quem precisa de apoio verdadeiro e não quer ficar sem resposta.",
+    "ctaButtonText": "Quero falar com o Advogado",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento exclusivamente online, no conforto da sua casa."
     }
   },
   "features": {
