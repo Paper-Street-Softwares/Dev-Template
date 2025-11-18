@@ -1,9 +1,9 @@
 {
   "infos": {
-    "adress": "Avenida Lima e Silva, <br/> nº 135a, Bom Pastor <br/> Natal - RN, <br/> CEP: 59062-300",
-    "adressSecundario": "Rua Jaguarari, <br/> nº 2530, Lagoa Nova <br/> Natal - RN, <br/> CEP: 59062-500",
-    "expediente": "Segunda a sexta-feira: <br/> Das 8h às 18h",
-    "expedienteSecundario": "A_Definir",
+    "adress": "A_Definir <br/> A_Definir",
+    "adressSecundario": "A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 17h",
+    "expedienteSecundario": "Sábados: <br/> 9h às 12h",
     "obs": "A_Definir"
   },
   "navbar": {
@@ -11,49 +11,48 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOCACIA PERSONALIZADA EM NATAL - RN",
-    "title": "Justiça com <span class=\"text-primary font-bold\">estratégia</span> e <span class=\"text-primary font-bold\">resultado</span>",
-    "subtitle": "Atuação jurídica personalizada para quem busca segurança, clareza e soluções eficazes em cada caso.",
-    "ctaButtonText": "Fale com um advogado",
+    "miniTag": "CONSULTORIA EMPRESARIAL EM MARINGÁ - PR",
+    "title": "<span class=\"text-primary font-bold\">Transforme</span> sua <span class=\"text-primary font-bold\">empresa</span> agora",
+    "subtitle": "Saia do caos: otimizamos seus processos e treinamos sua equipe para sua empresa render muito mais.",
+    "ctaButtonText": "Quero destravar minha empresa",
     "obsHero": {
-      "text": "Atendimento em todo território nacional."
+      "text": "Disponibilizamos atendimento on-line com consultoria, mentoria e treinamentos especializados."
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "O apoio jurídico certo para cada desafio",
-    "subtitle": "Descubra como podemos proteger seus direitos e simplificar sua vida com soluções legais sob medida.",
+    "miniTag": "O QUE FAZEMOS",
+    "title": "Transformamos o caos em excelência",
+    "subtitle": "Nossa especialidade é transformar a sua empresa e ensinar a sua equipe a como ter alta performance.",
     "card1": {
-      "title": "Direito Administrativo",
-      "subtitle": "Defesa e assessoria em processos administrativos.",
+      "title": "Consultoria lean manufacturing ",
+      "subtitle": "Processos enxutos para elevar eficiência e desempenho.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito do Trabalho",
-      "subtitle": "Proteção dos direitos de empregados e empregadores.",
+      "title": "Consultoria de aumento de produtividade e redução de custos",
+      "subtitle": "Estratégias práticas para produzir mais e gastar menos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Cível",
-      "subtitle": "Soluções eficazes para conflitos e responsabilidades.",
+      "title": "Treinamentos e capacitação para gestores de alta performance",
+      "subtitle": "Capacitação focada em liderança forte e resultados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica para decisões seguras e legais.",
+      "title": "Formação de equipes de excelência",
+      "subtitle": "Métodos eficazes para formar equipes de alta entrega.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -84,23 +83,24 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É DR. VINÍCIUS VICTOR",
-    "title": "Minha trajetória",
-    "subtitle": "Minha filosofia profissional é centrada em uma abordagem humana, onde a comunicação transparente e o respeito são pilares fundamentais.",
+    "miniTag": "QUEM É A LEANLOGS",
+    "title": "Nossa trajetória",
+    "subtitle": "Soluções completas para elevar resultados em Lean, Logística e Cadeia de Suprimentos.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Iniciei a jornada no Direito como assistente jurídico, onde adquiri uma base sólida. Com o tempo, expandi minha atuação para áreas como Direito Civil, Trabalhista, Tributário e Previdenciário, desenvolvendo uma visão estratégica para questões jurídicas complexas.",
-    "modal": "Iniciei a jornada no Direito como assistente jurídico, onde adquiri uma base sólida. Com o tempo, expandi minha atuação para áreas como Direito Civil, Trabalhista, Tributário e Previdenciário, desenvolvendo uma visão estratégica para questões jurídicas complexas. <br/><br/> Sou motivado pela oportunidade de impactar vidas, oferecendo suporte legal com empatia e compreensão. Acredito que cada cliente é único e merece uma atenção personalizada e cuidadosa. Meu compromisso é defender os direitos dos meus clientes com integridade e dedicação, garantindo segurança e confiança em cada etapa do processo.",
+    "paragraph": "A LeanLogs nasceu com a missão de impulsionar empresas e profissionais que atuam em Lean, Logística e Cadeia de Suprimentos.",
+    "modal": "A LeanLogs nasceu com a missão de impulsionar empresas e profissionais que atuam em Lean, Logística e Cadeia de Suprimentos. <br/><br/> Ao longo da nossa trajetória, reunimos consultoria, serviços, mentoring, treinamentos, cursos, palestras e eventos em uma mesma plataforma de crescimento. <br/><br/> Também apoiamos carreiras com análise curricular e otimização de perfis no LinkedIn, ajudando profissionais a alcançarem novas oportunidades e maior destaque no mercado. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "ASSESSORIA ESPECIALIZADA NACIONAL",
+      "title": "Atendimento on-line em todo Brasil",
+      "paragraph": "Com uma assessoria especializada e sem fronteiras, nossa equipe atua em Lean, Logística e Cadeia de Suprimentos para apoiar profissionais e empresas em qualquer lugar do país. Onde você estiver, estamos prontos para oferecer soluções eficientes, personalizadas e focadas em resultados reais.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelTikTok": "Siga-me no TikTok",
+      "labelWhatsApp": "Entre em contato agora"
     }
   },
   "news": {
@@ -110,7 +110,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "Enfrentando <span class=\"text-primary font-bold\"> desafios em Lean ou Logística?</span> Deixe que cuidamos disso <span class=\"text-primary font-bold\">para você!</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -122,30 +122,30 @@
     "cards": {
       "card1": {
         "stepNumber": 1,
-        "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardTitle": "Diagnóstico inicial",
+        "cardDescription": "Realizamos uma reunião para entender seus desafios e mapear as necessidades da sua operação."
       },
       "card2": {
         "stepNumber": 2,
-        "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardTitle": "Análise aprofundada",
+        "cardDescription": "Avaliamos processos, indicadores e dados relevantes para obter uma visão completa do cenário atual."
       },
       "card3": {
         "stepNumber": 3,
-        "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardTitle": "Definição da estratégia",
+        "cardDescription": "Desenvolvemos um plano personalizado de melhorias com métodos Lean e soluções aplicáveis ao seu negócio."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Implementação e acompanhamento",
+        "cardDescription": "Executamos as ações definidas e acompanhamos os resultados para garantir eficiência, redução de custos e evolução contínua."
       }
     }
   },
   "blog": {
-    "miniTag": "BLOG",
-    "title": "Informação jurídica ao seu alcance",
-    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "labelCards": "A_Definir",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
@@ -156,20 +156,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Como posso contratar os serviços da LeanLogs?",
+        "answer": "Agende uma reunião por WhatsApp conosco para conversarmos sobre seus desafios, entendermos suas necessidades e definir a proposta de trabalho."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Quanto custa contratar a LeanLogs?",
+        "answer": "O valor varia conforme o escopo: tamanho da empresa, complexidade dos processos, tipo de serviço (consultoria, treinamento, mentoring, etc.). Na reunião inicial, apresentamos uma estimativa personalizada."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Qual é o tempo meio para ver resultados ao implementar práticas Lean ou logísticas?",
+        "answer": "Depende do nível de maturidade da sua operação e dos projetos definidos, mas muitos clientes já percebem ganhos significativos em 3 a 6 meses após as primeiras melhorias."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Posso fazer consultoria preventiva para evitar gargalos futuros?",
+        "answer": "Sim — oferecemos consultoria preventiva para mapear riscos operacionais, otimizar fluxos e garantir conformidade, evitando desperdícios e retrabalhos."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
