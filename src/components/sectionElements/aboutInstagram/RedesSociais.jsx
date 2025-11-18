@@ -87,7 +87,7 @@ const RedesSociais = ({ withAnimation = true }) => {
       <Button
         key="linkedin"
         label={t("about.aboutSocial.labelLinkedin")}
-        buttonLink={`https://www.linkedin.com/in/${infos.linkeDinProfile}`}
+        buttonLink={`https://www.linkedin.com/${infos.linkeDinProfile}`}
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
