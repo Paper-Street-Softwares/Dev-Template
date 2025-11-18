@@ -66,7 +66,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "LeanLogs Consultoria",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "comercial@leanlogs.com.br", // Email desejado pelo cliente
   domain: "leanlogs.com.br", // Sem "www"
   phone: {
     ddd: "44",
