@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "CONSULTORIA EMPRESARIAL EM MARINGÁ - PR",
+    "title": "<span class=\"text-primary font-bold\">Transforme</span> sua <span class=\"text-primary font-bold\">empresa</span> agora",
+    "subtitle": "Saia do caos: otimizamos seus processos e treinamos sua equipe para sua empresa render muito mais.",
+    "ctaButtonText": "Quero destravar minha empresa",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Disponibilizamos atendimento on-line com consultoria, mentoria e treinamentos especializados."
     }
   },
   "features": {
