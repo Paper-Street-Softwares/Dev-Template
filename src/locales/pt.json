@@ -26,33 +26,33 @@
     }
   },
   "features": {
-    "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "O QUE FAZEMOS",
+    "title": "Transformamos o caos em excelência",
+    "subtitle": "Nossa especialidade é transformar a sua empresa e ensinar a sua equipe a como ter alta performance.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria lean manufacturing ",
+      "subtitle": "Processos enxutos para elevar eficiência e desempenho.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria de aumento de produtividade e redução de custos",
+      "subtitle": "Estratégias práticas para produzir mais e gastar menos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Treinamentos e capacitação para gestores de alta performance",
+      "subtitle": "Capacitação focada em liderança forte e resultados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Formação de equipes de excelência",
+      "subtitle": "Métodos eficazes para formar equipes de alta entrega.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
