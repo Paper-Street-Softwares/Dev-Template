@@ -64,14 +64,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "LeanLogs Consultoria",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "leanlogs.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "44",
+    firstPart: "99985", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2883", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,9 +107,9 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
-  facebookProfile: "",
-  linkeDinProfile: "",
+  instagramProfile: "leanlogs.oficial/", // Sem o @
+  facebookProfile: "leanlogs.oficial",
+  linkeDinProfile: "company/leanlogs/",
   x: "",
   tiktokProfile: "",
 
