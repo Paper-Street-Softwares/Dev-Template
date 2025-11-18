@@ -25,18 +25,6 @@ function GalleryAbout() {
         : content.texts.about.galeria.slide2.img.img2,
       originalAlt: content.texts.about.galeria.slide2.alt,
     },
-    {
-      original: isMobile
-        ? content.texts.about.galeria.slide3.imgMobile.imgMobile3
-        : content.texts.about.galeria.slide3.img.img3,
-      originalAlt: content.texts.about.galeria.slide3.alt,
-    },
-    // {
-    //   original: isMobile
-    //     ? content.texts.about.galeria.slide4.imgMobile.imgMobile4
-    //     : content.texts.about.galeria.slide4.img.img4,
-    //   originalAlt: content.texts.about.galeria.slide4.alt,
-    // },
   ];
 
   return (
