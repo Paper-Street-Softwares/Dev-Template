@@ -99,7 +99,8 @@
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelTikTok": "Siga-me no TikTok",
+      "labelWhatsapp": "Entre em contato agora"
     }
   },
   "news": {
@@ -109,7 +110,7 @@
     "description": "A_Definir"
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

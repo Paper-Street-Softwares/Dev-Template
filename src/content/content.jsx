@@ -44,9 +44,8 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
-import { Briefcase, Gavel } from "lucide-react";
-import { Users } from "lucide-react";
-import { FileText } from "lucide-react";
+import { Briefcase, Gavel, Users, Scale } from "lucide-react";
+import {} from "lucide-react";
 import imgNews1 from "../assets/imgs/news/imgNews1.webp";
 
 // versão mobile
@@ -64,14 +63,14 @@ import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "LeanLogs Consultoria",
+  name: "Oliveira e Mesquita",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "comercial@leanlogs.com.br", // Email desejado pelo cliente
-  domain: "leanlogs.com.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "advocaciaom.com.br", // Sem "www"
   phone: {
-    ddd: "44",
-    firstPart: "99985", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2883", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "97244", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1870", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -107,9 +106,9 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "leanlogs.oficial/", // Sem o @
-  facebookProfile: "leanlogs.oficial",
-  linkeDinProfile: "company/leanlogs/",
+  instagramProfile: "oliveiraemesquita.adv", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
 
@@ -224,25 +223,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-monitor-cloud-icon lucide-monitor-cloud"
-          >
-            <path d="M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z" />
-            <path d="M12 17v4" />
-            <path d="M8 21h8" />
-            <rect x="2" y="3" width="20" height="14" rx="2" />
-          </svg>
-        ),
+        icon: <Briefcase />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -259,24 +240,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-target-icon lucide-target"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <circle cx="12" cy="12" r="6" />
-            <circle cx="12" cy="12" r="2" />
-          </svg>
-        ),
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -292,25 +256,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
+        icon: <Gavel />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -327,25 +273,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
-          >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
-          </svg>
-        ),
+        icon: <Scale />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
