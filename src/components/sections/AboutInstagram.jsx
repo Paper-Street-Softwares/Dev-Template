@@ -57,7 +57,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               x={true}
               youtube={true}
             />
-            <Button
+            {/* <Button
               aria-label={t("hero.ctaButtonAriaLabel")}
               icon={
                 <svg
@@ -72,7 +72,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               }
               label={t("about.aboutSocial.labelWhatsApp")}
               className="mt-4"
-            />
+            /> */}
           </div>
         </div>
       </SectionWrapper>

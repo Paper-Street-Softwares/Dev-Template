@@ -3,7 +3,7 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { CalendarCheck2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-function ExpedienteFooter({ showSecond = true }) {
+function ExpedienteFooter({ showSecond = false }) {
   const { t } = useTranslation(); // função para buscar do pt.json
 
   return (
