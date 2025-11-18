@@ -83,23 +83,24 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
+    "miniTag": "QUEM É A OLIVEIRA E MESQUITA ADVOCACIA",
     "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "subtitle": "Uma advocacia humana, acessível e feita para quem sempre fica por último.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando.",
+    "modal": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando. <br/><br/> Começamos 100% online, com estrutura enxuta, mas com a visão clara de entregar uma advocacia próxima, transparente e realmente acessível para quem muitas vezes se sente esquecido pelo sistema. <br/><br/> Criamos a OM porque acreditamos que a justiça não deve ser distante. Nosso compromisso é oferecer apoio humano e transformador para homens e mulheres que buscam seus direitos com dignidade e respeito. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "REDES SOCIAIS",
-      "title": "Conecte-se agora mesmo",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
+      "title": "Atendimento on-line em todo Brasil",
+      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
-      "labelTikTok": "Siga-me no TikTok"
+      "labelTikTok": "Siga-me no TikTok",
+      "labelWhatsapp": "Entre em contato agora"
     }
   },
   "news": {
