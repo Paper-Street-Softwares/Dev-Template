@@ -2,7 +2,7 @@
   "infos": {
     "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -17,42 +17,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
-    "title": "<span class=\"text-primary font-bold\">Justiça</span> ao seu alcance",
-    "subtitle": "Advocacia humana e acessível, feita para quem precisa de apoio verdadeiro e não quer ficar sem resposta.",
-    "ctaButtonText": "Quero falar com o Advogado",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento exclusivamente online, no conforto da sua casa."
+      "text": "A_Definir"
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Nossas Áreas de Atuação",
-    "subtitle": "Atuamos com expertise em diversas esferas do Direito, oferecendo soluções personalizadas para você e sua empresa.",
+    "miniTag": "Áreas de Atuação",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Reclamações, defesas, rescisões e negociações coletivas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito de Família",
-      "subtitle": "Divórcio, pensão alimentícia, guarda e inventários judiciais.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito Bancário",
-      "subtitle": "Revisão de juros, superendividamento e defesa do consumidor.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Elaboração de contratos, pareceres e análise de riscos.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -83,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É A OLIVEIRA E MESQUITA ADVOCACIA",
+    "miniTag": "A_Definir",
     "title": "Nossa trajetória",
-    "subtitle": "Uma advocacia humana, acessível e feita para quem sempre fica por último.",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando.",
-    "modal": "A OM nasceu da união dos sonhos de Wandaline de Oliveira e Sávio Mesquita, dois jovens advogados que escolheram trilhar um caminho próprio em vez de aceitar um mercado que desvaloriza quem está começando. <br/><br/> Começamos 100% online, com estrutura enxuta, mas com a visão clara de entregar uma advocacia próxima, transparente e realmente acessível para quem muitas vezes se sente esquecido pelo sistema. <br/><br/> Criamos a OM porque acreditamos que a justiça não deve ser distante. Nosso compromisso é oferecer apoio humano e transformador para homens e mulheres que buscam seus direitos com dignidade e respeito. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
-      "title": "Atendimento on-line em todo Brasil",
-      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
