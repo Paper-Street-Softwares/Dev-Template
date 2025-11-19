@@ -28,7 +28,7 @@ function GalleryAbout() {
   ];
 
   return (
-    <div className="flex bg-bgSectionLight justify-center w-full h-auto rounded-[20px]">
+    <div className="flex bg-bgSectionLight justify-center w-fit h-auto rounded-[20px]">
       <MotionDivDownToUp className="relative flex justify-center w-full">
         <div className="w-full">
           <ImageGallery
@@ -45,8 +45,8 @@ function GalleryAbout() {
           <style>
             {`
               .custom-gallery .image-gallery-slide img {
-                height: 500px; 
-                width: 100%;
+                height: 90%; 
+                width: w-full;
                 object-fit: cover;
                 border-radius: 10px;
               }
@@ -59,7 +59,7 @@ function GalleryAbout() {
 
               @media (min-width: 1024px) {
                 .custom-gallery .image-gallery-slide img {
-                  min-height: 700px;
+                  min-height: 600px;
                   
                 }
               }
