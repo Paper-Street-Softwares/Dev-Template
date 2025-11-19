@@ -14,7 +14,7 @@ export default function Steps({ colorMode }) {
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
-    light: "bg-bgFixedLight",
+    light: "bg-bgSectionOpacityLight",
     default: "bg-bgSectionDark",
   };
   const textClasses = {
