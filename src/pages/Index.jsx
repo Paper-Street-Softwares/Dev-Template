@@ -84,7 +84,7 @@ export default function Index() {
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
+        addres={true}
         obs={false}
         expediente={true}
       />
