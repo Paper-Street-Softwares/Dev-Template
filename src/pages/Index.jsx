@@ -74,7 +74,7 @@ export default function Index() {
         paragraphsModal={false}
         iconsWithModal={false}
       />
-      <About modal={true} showGallery={true} colorMode={colorMode} />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
       <Team />
       <CtaSecondary colorMode={colorMode} />
