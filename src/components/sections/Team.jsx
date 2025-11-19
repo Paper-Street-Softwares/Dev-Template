@@ -11,14 +11,18 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Team() {
   const { t } = useTranslation();
   return (
-    <SectionArea className="bg-bgSectionDark" paddingtop={false} id="team">
+    <SectionArea
+      className="bg-bgSectionOpacityLight"
+      paddingtop={true}
+      id="team"
+    >
       <SectionHeader
         className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
         miniTitle={t("team.miniTag")}
         sectionHeaderTitle={t("team.title")}
         sectionHeaderSubtitle={t("team.subtitle")}
-        titleColorSet="text-white"
-        subtitleColorSet="text-white"
+        titleColorSet="text-black"
+        subtitleColorSet="text-black"
       />
 
       <SectionWrapper className="flex justify-center">
@@ -28,9 +32,21 @@ export default function Team() {
               <TeamMember
                 img={content.texts.team.members.member1.img.img}
                 alt={content.texts.team.members.member1.img.alt}
-                name={t("team.team1.title")}
+                name={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team1.title"),
+                    }}
+                  ></span>
+                }
                 role={t("team.team1.subtitle")}
-                modalTitle={t("team.team1.title")}
+                modalTitle={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team1.title"),
+                    }}
+                  ></span>
+                }
                 modalContent={
                   <span
                     dangerouslySetInnerHTML={{
@@ -42,41 +58,25 @@ export default function Team() {
               <TeamMember
                 img={content.texts.team.members.member2.img.img}
                 alt={content.texts.team.members.member2.img.alt}
-                name={t("team.team2.title")}
+                name={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team2.title"),
+                    }}
+                  ></span>
+                }
                 role={t("team.team2.subtitle")}
-                modalTitle={t("team.team2.title")}
+                modalTitle={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("team.team2.title"),
+                    }}
+                  ></span>
+                }
                 modalContent={
                   <span
                     dangerouslySetInnerHTML={{
                       __html: t("team.team2.description"),
-                    }}
-                  ></span>
-                }
-              />
-              <TeamMember
-                img={content.texts.team.members.member3.img.img}
-                alt={content.texts.team.members.member3.img.alt}
-                name={t("team.team3.title")}
-                role={t("team.team3.subtitle")}
-                modalTitle={t("team.team3.title")}
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team3.description"),
-                    }}
-                  ></span>
-                }
-              />
-              <TeamMember
-                img={content.texts.team.members.member4.img.img}
-                alt={content.texts.team.members.member4.img.alt}
-                name={t("team.team4.title")}
-                role={t("team.team4.subtitle")}
-                modalTitle={t("team.team4.title")}
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team4.description"),
                     }}
                   ></span>
                 }
