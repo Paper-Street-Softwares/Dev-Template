@@ -16,7 +16,7 @@ export default function Maps({ colorMode }) {
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
-    light: "bg-bgFixedLight",
+    light: "bg-bgSectionOpacityLight",
     default: "bg-bgSectionDark",
   };
   const textClasses = {
@@ -30,7 +30,7 @@ export default function Maps({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} id="maps">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
-        <MotionDivDownToUp className="flex flex-col justify-center w-full">
+        <MotionDivDownToUp className="flex flex-col justify-center w-[90%] m-auto">
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
             miniTitle={t("maps.minitag")}

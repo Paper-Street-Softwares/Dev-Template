@@ -66,25 +66,25 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
+        defaultFeature={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={false}
+        sixCards={true}
         paragraphsModal={false}
         iconsWithModal={false}
       />
-      <About modal={true} showGallery={true} colorMode={colorMode} />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram colorMode={colorMode} socialPrint={false} />
-      {/* <Team /> */}
+      <Team />
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
+        addres={true}
         obs={false}
         expediente={true}
       />

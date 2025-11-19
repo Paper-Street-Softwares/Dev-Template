@@ -3,7 +3,7 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-function AdressFooter({ showSecond = true }) {
+function AdressFooter({ showSecond = false }) {
   const { t } = useTranslation();
 
   return (
