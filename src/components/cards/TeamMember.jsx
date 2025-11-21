@@ -1,64 +1,39 @@
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import Button from "../interactives/Button";
-import { MoveRight } from "lucide-react";
-import content, { abstractions } from "../../content/content";
-
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
-
 export default function TeamMember(props) {
   const {
     img,
     alt,
     name,
     role,
-    modal = true,
-    modalContent,
-    modalTitle,
+    work,
+    icon1,
+    link1,
+    icon2,
+    link2,
+    icon3,
+    link3,
   } = props;
 
-  const [visible, setVisible] = useState(false);
-
-  const onClick = () => {
-    setVisible(true);
-  };
-
   return (
-    <div className="flex flex-col items-center p-[10px] h-auto w-full tablet1:w-[45%] desktop1:w-[23%] bg-neutral-100 border rounded-lg">
-      <img alt={alt} src={img} className="  mb-[24px] bg-cover rounded-md" />
-      <h1 className="mb-[8px] text-[18px] leading-5 text-center font-bold font-mainFont">
+    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[30%] desktop2:w-[25%] text-white">
+      <div className="">
+        <img
+          alt={alt}
+          src={img}
+          className="w-[215px] h-[215px] desktop1:w-auto desktop1:h-auto rounded-full mb-[24px] "
+        ></img>
+      </div>
+      <p className="text-center text-paragraphLight tablet1:w-full mb-[8px] text-paragraph2">
+        {role}
+      </p>
+      <h1 className="text-paragraph5 leading-5 font-bold text-center">
         {name}
       </h1>
-      <div className="desktop2:h-auto desktop2:mb-[20px] flex flex-col items-center justify-center font-secondFont ">
-        <p className="text-center phone1:mb-4 text-paragraph1 text-black desktop2:mb-[20px] tablet1:w-[80%]">
-          {role}
-        </p>
-        {modal && (
-          <Button
-            className=""
-            size="small"
-            label="Saiba mais"
-            onClick={onClick}
-            removeAnchor={true}
-            removeTarget={true}
-            animation={true}
-            icon={<MoveRight />}
-          />
-        )}
-      </div>
 
-      <Dialog
-        className="font-secondFont"
-        header={modalTitle}
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "700px" }}
-        breakpoints={{ "1023px": "90vw" }}
-      >
-        <div className="text-paragraph3">{modalContent}</div>
-      </Dialog>
+      <div className="desktop2:h-[48px] mt-2 flex flex-col justify-center">
+        <p className="text-center text-paragraph2 text-paragraphLight tablet1:w-[70%] m-auto">
+          {work}
+        </p>
+      </div>
     </div>
   );
 }
