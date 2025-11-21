@@ -103,6 +103,25 @@
       "labelWhatsapp": "Entre em contato agora"
     }
   },
+  "team": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "team1": {
+      "title": "A_Definir <br/> <span class=\"text-[12px]\">OAB</span>",
+      "subtitle": "A_Definir",
+      "description": "<span class=\"text-[12px] font-bold\">A_Definir</span>A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "team2": {
+      "title": "A_Definir <br/> <span class=\"text-[12px]\">OAB</span>",
+      "subtitle": "A_Definir",
+      "description": "<span class=\"text-[12px] font-bold\">A_Definir</span>A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    }
+  },
   "news": {
     "miniTag": "A_Definir",
     "title": "A_Definir",
