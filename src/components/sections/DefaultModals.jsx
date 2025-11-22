@@ -56,6 +56,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode={colorMode}
+        miniTitleBgColor="bg-minititleDark"
       />
 
       <SectionWrapper>

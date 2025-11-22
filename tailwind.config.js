@@ -6,16 +6,16 @@ export const theme = {
       // Principais
 
       primary: "#ffffff",
-      buttonColor: "#4C4C4C",
-      minititleDark: "#4C4C4C", //bg minitag de seções claras
-      minititle: "#4C4C4C", //bg minitag de seções escuras
+      buttonColor: "#545452",
+      minititleDark: "#161614", //bg minitag de seções claras
+      minititle: "#545452", //bg minitag de seções escuras
 
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#4C4C4C",
+      bgSectionDark: "#161614",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
