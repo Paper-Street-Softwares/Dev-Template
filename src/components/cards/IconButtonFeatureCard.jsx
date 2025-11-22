@@ -3,12 +3,12 @@ export default function IconButtonFeatureCard(props) {
 
   // Definir classes de cor com base no modo
   const bgClasses = {
-    dark: "bg-primary",
-    light: "bg-iconButtons",
-    default: "bg-iconButtons",
+    dark: "bg-buttonColor",
+    light: "bg-buttonColor",
+    default: "bg-buttonColor",
   };
   const textClasses = {
-    dark: "text-black",
+    dark: "text-white",
     light: "text-black",
     default: "text-black",
   };
@@ -18,10 +18,10 @@ export default function IconButtonFeatureCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-auto tablet1:max-w-[255px] desktop1:max-w-[250px] flex flex-col items-center py-4 px-6 rounded-md ${className}`}
+      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-auto tablet1:max-w-[245px] desktop1:max-w-[250px] flex flex-col items-center py-4 px-6 rounded-md ${className}`}
     >
       <div
-        className={`h-[64px] mb-4 w-[64px] rounded-md flex justify-center items-center ${bgClass}`}
+        className={`h-[64px] mb-4 w-[64px] rounded-md flex justify-center items-center text-labelButtons ${bgClass}`}
       >
         {icon}
       </div>

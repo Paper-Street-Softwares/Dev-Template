@@ -5,9 +5,33 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import { Dialog } from "primereact/dialog";
+import { X } from "lucide-react";
+import Button from "../interactives/Button";
+import { useState } from "react";
 
 export default function Features6cards({ colorMode }) {
   const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalContent, setModalContent] = useState("");
+
+  const openModal = (cardNum) => {
+    const card = content.texts.features[`card${cardNum}`];
+    setModalTitle(t(`features.card${cardNum}.title`));
+
+    setModalContent(
+      <div className="text-paragraph3">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: t(`features.card${cardNum}.description`),
+          }}
+        />
+      </div>
+    );
+
+    setVisible(true);
+  };
 
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -54,11 +78,61 @@ export default function Features6cards({ colorMode }) {
                   icon={content.texts.features[`card${i}`].icon}
                   title={renderTitle(i)}
                   paragraph={t(`features.card${i}.subtitle`)}
-                  className={
-                    i === 1 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
-                  }
                   colorMode={colorMode}
-                />
+                >
+                  {i === 1 ? (
+                    <Button
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="white"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-corner-down-right"
+                        >
+                          <path d="m15 10 5 5-5 5" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                      size="small"
+                      className="bg-darker"
+                      labelColor="text-white"
+                      label={t("features.card1.buttonLabel")}
+                      onClick={() => openModal(1)}
+                    />
+                  ) : undefined}
+                  {i === 2 ? (
+                    <Button
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="white"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-corner-down-right"
+                        >
+                          <path d="m15 10 5 5-5 5" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                      size="small"
+                      className="bg-darker"
+                      labelColor="text-white"
+                      label={t("features.card1.buttonLabel")}
+                      onClick={() => openModal(2)}
+                    />
+                  ) : undefined}
+                </IconFeatureCard>
               </MotionDivDownToUp>
             ))}
           </div>
@@ -95,6 +169,21 @@ export default function Features6cards({ colorMode }) {
           </div>
         </div>
       </SectionWrapper>
+      <Dialog
+        className="font-secondFont"
+        closeIcon={<X size={20} />}
+        header={
+          <div className="w-full border-b border-gray-300 pb-2">
+            <span dangerouslySetInnerHTML={{ __html: modalTitle }} />
+          </div>
+        }
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
+      >
+        {modalContent}
+      </Dialog>
     </SectionArea>
   );
 }

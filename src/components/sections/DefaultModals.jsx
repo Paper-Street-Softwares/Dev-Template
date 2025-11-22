@@ -10,7 +10,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 
-export default function FeaturesParagraphs({ colorMode }) {
+export default function FeaturesParagraphs({ colorMode, modal }) {
   const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
@@ -56,12 +56,13 @@ export default function FeaturesParagraphs({ colorMode }) {
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode={colorMode}
+        miniTitleBgColor="bg-minititleDark"
       />
 
       <SectionWrapper>
-        <div className="flex flex-col tablet1:flex-row justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
+        <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
           {/* Coluna esquerda */}
-          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-center ">
+          <div className="flex-1 flex flex-col tablet2:flex-row gap-6 tablet1:gap-0 items-center tablet1:items-start ">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -89,7 +90,7 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
+                  className=" mt-4"
                   labelColor="text-white"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
@@ -124,77 +125,28 @@ export default function FeaturesParagraphs({ colorMode }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
+                  className=" mt-4"
                   labelColor="text-white"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-          </div>
-
-          {/* Imagem central */}
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
-            <img
-              src={content.texts.features.imgFeatures}
-              alt={content.texts.features.alt}
-              className="hidden h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
-              loading="lazy"
-            />
-          </MotionDivDownToUp>
-
-          {/* Coluna direita */}
-          <div className="flex-1 flex flex-col gap-6 items-center tablet1:items-end">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card3.icon}
-                title={t("features.card3.title")}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card3.title`),
+                    }}
+                  />
+                }
                 paragraph={t("features.card3.subtitle")}
                 className={textClass}
                 colorMode={colorMode}
               >
-                <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
-                  size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card3.buttonLabel")}
-                  onClick={() => openModal(3)}
-                />
-              </IconButtonFeatureCard>
-            </MotionDivDownToUp>
-
-            <MotionDivDownToUp>
-              <IconButtonFeatureCard
-                icon={content.texts.features.card4.icon}
-                title={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t(`features.card4.title`),
-                    }}
-                  />
-                }
-                paragraph={t("features.card4.subtitle")}
-                className={textClass}
-                colorMode={colorMode}
-              >
-                <Button
+                {/* <Button
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +169,137 @@ export default function FeaturesParagraphs({ colorMode }) {
                   labelColor="text-white"
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
-                />
+                /> */}
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>
+          </div>
+
+          {/* Imagem central */}
+          {/* <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
+            <img
+              src={content.texts.features.imgFeatures}
+              alt={content.texts.features.alt}
+              className="hidden h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+              loading="lazy"
+            />
+          </MotionDivDownToUp> */}
+
+          {/* Coluna direita */}
+          <div className="flex-1 flex flex-col tablet2:flex-row gap-3 items-center tablet1:items-start">
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card4.icon}
+                title={t("features.card4.title")}
+                paragraph={t("features.card4.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                {/* <Button
+                  icon={
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
+                    >
+                      <path d="m15 10 5 5-5 5" />
+                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                    </svg>
+                  }
+                  size="small"
+                  className="bg-darker"
+                  labelColor="text-white"
+                  label={t("features.card3.buttonLabel")}
+                  onClick={() => openModal(3)}
+                /> */}
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>
+
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card5.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card5.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card5.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                {/* <Button
+                  icon={
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
+                    >
+                      <path d="m15 10 5 5-5 5" />
+                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                    </svg>
+                  }
+                  size="small"
+                  className="bg-darker"
+                  labelColor="text-white"
+                  label={t("features.card5.buttonLabel")}
+                  onClick={() => openModal(4)}
+                /> */}
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>
+
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card6.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card6.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card6.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                {/* <Button
+                  icon={
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-corner-down-right"
+                    >
+                      <path d="m15 10 5 5-5 5" />
+                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                    </svg>
+                  }
+                  size="small"
+                  className="bg-darker"
+                  labelColor="text-white"
+                  label={t("features.card4.buttonLabel")}
+                  onClick={() => openModal(4)}
+                /> */}
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
           </div>
