@@ -55,14 +55,14 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
       <div
         className={`${
           visible ? "block" : "hidden"
-        } fixed inset-0 bg-darker opacity-50 lg:hidden`}
+        } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
 
       <div className="flex justify-center card">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            colorMode ? "text-black" : "text-black"
+            colorMode ? "text-white" : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -76,7 +76,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
               id="app-sidebar-2"
               className={`${
                 colorMode
-                  ? "bg-bgSectionOpacityLight"
+                  ? "bg-bgSectionOpacityDark"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
@@ -97,7 +97,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                       onClick={(e) => hide(e)}
                       rounded
                       outlined
-                      className={`${colorMode ? "text-black" : "text-black"}`}
+                      className={`${colorMode ? "text-white" : "text-white"}`}
                     >
                       <X size={32} />
                     </Button>
@@ -105,11 +105,11 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                 </div>
 
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-black" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-white" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       <ul
-                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-black list-none text-paragraph3 font-secondFont`}
+                        className={`p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-secondFont`}
                       >
                         {visibleSections.map(({ id, label }, index) => (
                           <li key={id}>

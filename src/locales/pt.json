@@ -32,42 +32,42 @@
     "card1": {
       "title": "Direito Civil",
       "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
-      "description": "A_Definir",
-      "buttonLabelModal": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "description": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "description": "A_Definir",
+      "title": "Direito Penal",
+      "subtitle": "Defesa técnica e atuação jurídica especializada no Júri.",
+      "description": "- Plantão 24 hrs  <br/> - Acompanhamento em flagrantes  <br/> - Inquéritos Policiais   <br/> - Habeas Corpus   <br/> - Alvará de Soltura   <br/> - Liberdade Provisória   <br/> - Fiança  <br/> - Defesa em Processo Crime  <br/> - Recursos  <br/> - Apelação  <br/> - Progressão <br/> - Revisão <br/>",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Trabalhista",
+      "subtitle": "Proteção aos seus direitos nas relações de trabalho.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Administrativo",
+      "subtitle": "Atuação técnica em processos e questões públicas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito do Consumidor",
+      "subtitle": "Auxílio rápido para problemas com compras e serviços.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Previdenciário",
+      "subtitle": "Suporte em benefícios e direitos junto ao INSS.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
@@ -83,18 +83,18 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "Nossa trajetória",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É O DR. NETO GONZAGA",
+    "title": "Minha trajetória",
+    "subtitle": "Dr. Benedito Orestes Gonzaga Neto | OAB - SP nº 213.619",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
+    "paragraph": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo genuíno de oferecer apoio jurídico acessível e comprometido a todos que precisam, especialmente em uma cidade onde cada história tem peso e importância. Desde o começo, sempre fiz questão de atuar de forma próxima, clara e humana.",
+    "modal": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo genuíno de oferecer apoio jurídico acessível e comprometido a todos que precisam, especialmente em uma cidade onde cada história tem peso e importância. Desde o começo, sempre fiz questão de atuar de forma próxima, clara e humana. <br/><br/> Com o passar dos anos, aprofundei minha experiência na área criminal, com forte presença no Tribunal do Júri, em casos de tráfico de drogas e em acompanhamentos na delegacia. Cada atendimento reforçou minha convicção de que a defesa técnica precisa caminhar ao lado do respeito à dignidade de cada pessoa. <br/><br/> Além da atuação criminal, também desenvolvi trabalho sólido no Direito Civil, auxiliando clientes em separações, partilhas, inventários e elaboração de contratos. Minha missão continua sendo a mesma desde 2004: entregar segurança jurídica, responsabilidade e um atendimento que verdadeiramente acolhe. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
       "title": "Atendimento on-line em todo Brasil",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
