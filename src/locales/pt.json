@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua 222, nº 258, sala 4, <br/> Bairro Meia Praia,  <br/> Itapema - SC,  <br/>CEP: 88220-000",
+    "adress": "A_Definir <br/> A_Definir",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> 9h às 12h <br/> 14h às 18h",
+    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,64 +11,63 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "maps": "Mapa",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO EM ITAPEMA - SC",
-    "title": "Transformando conflitos em <span class=\"text-primary font-bold\">soluções reais</span>",
-    "subtitle": "Atuação ética e acessível para esclarecer seus direitos e conduzir seu caso com segurança e transparência",
-    "ctaButtonText": "Entrar em contato com o escritório",
+    "miniTag": "A_Definir",
+    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
+    "subtitle": "A_Definir",
+    "ctaButtonText": "A_Definir",
     "obsHero": {
-      "text": "Atendimento online para todo o Brasil"
+      "text": "A_Definir"
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Excelência jurídica em diversas especialidades",
-    "subtitle": "Conheça os ramos do Direito em que ofereço atuação técnica e dedicada.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "card1": {
-      "title": "Direito Administrativo",
-      "subtitle": "Gestão jurídica em processos públicos e administrativos.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito Cível",
-      "subtitle": "Atuação completa em conflitos e demandas do dia a dia.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Defesa técnica em relações de consumo e responsabilidades.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Direito de Família",
-      "subtitle": "Amparo jurídico em conflitos familiares e questões sensíveis.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito Tributário (Extrajudicial)",
-      "subtitle": "Atuação preventiva em obrigações fiscais e regularizações.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Direito Tributário (Contencioso)",
-      "subtitle": "Defesa estratégica em litígios fiscais e discussões tributárias.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
@@ -76,26 +75,26 @@
   },
   "maps": {
     "minitag": "LOCALIZAÇÃO",
-    "title": "Encontre-nos em Itapema - SC",
-    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
     "embedsrc": "A_Definir"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O AMARAL & PERES ADVOCACIA",
+    "miniTag": "A_Definir",
     "title": "Nossa trajetória",
-    "subtitle": "Construímos uma advocacia ética, humana e dedicada ao seu caso",
+    "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Desde o início da graduação, a Dra. Jhênifer Amaral e o Dr. Thaynan Peres uniram propósitos e sonhos: estudar juntos, seguir a advocacia com ética e idealizar o próprio escritório. Entre aulas e longas conversas, descobriram vocações complementares — ela voltada ao Direito Público e ele ao Direito Privado — formando uma parceria sólida desde o princípio.",
-    "modal": "Desde o início da graduação, a Dra. Jhênifer Amaral e o Dr. Thaynan Peres uniram propósitos e sonhos: estudar juntos, seguir a advocacia com ética e idealizar o próprio escritório. Entre aulas e longas conversas, descobriram vocações complementares — ela voltada ao Direito Público e ele ao Direito Privado — formando uma parceria sólida desde o princípio. <br/><br/> A dedicação mútua os levou à aprovação conjunta no Exame da OAB, culminando nas inscrições OAB/SC nº 71.387 e nº 71.151. A partir dali, a vontade de transformar conhecimento em impacto real ganhou forma, dando origem ao Amaral & Peres Advocacia, uma sociedade construída sobre disciplina, qualidade, moralidade e eficiência. <br/><br/> Hoje, o escritório atua com atendimento individualizado, linguagem simples e acessível, escuta ativa e foco em soluções práticas. Acolhemos cada cliente com empatia, clareza e dedicação, buscando reduzir inseguranças jurídicas, esclarecer direitos e entregar resultados tangíveis, sempre com uma advocacia moderna, humana e realmente presente. <br/><br/>",
+    "paragraph": "A_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
       "title": "Atendimento on-line em todo Brasil",
-      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
+      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
@@ -104,31 +103,30 @@
       "labelWhatsapp": "Entre em contato agora"
     }
   },
-  
+  "team": {
+    "miniTag": "A_Definir",
+    "title": "A_Definir",
+    "subtitle": "A_Definir",
+    "team1": {
+      "title": "A_Definir <br/> <span class=\"text-[12px]\">OAB</span>",
+      "subtitle": "A_Definir",
+      "description": "<span class=\"text-[12px] font-bold\">A_Definir</span>A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    },
+    "team2": {
+      "title": "A_Definir <br/> <span class=\"text-[12px]\">OAB</span>",
+      "subtitle": "A_Definir",
+      "description": "<span class=\"text-[12px] font-bold\">A_Definir</span>A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "A_Definir"
+    }
+  },
   "news": {
     "miniTag": "A_Definir",
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "description": "A_Definir"
-  },
-  "team": {
-    "miniTag": "NOSSO TIME",
-    "title": "Excelência que nasce da união",
-    "subtitle": "A união dos sócios combina experiência e estratégia para um atendimento jurídico ético e orientado aos melhores resultados.",
-    "team1": {
-      "title": "Dra. Jhênifer Amaral do Nascimento <br/> <span class=\"text-[12px]\">OAB/SC 71.387</span>",
-      "subtitle": "Sócia-fundadora do Escritório Amaral & Peres Advocacia e Consultoria Jurídica",
-      "description": "Bacharel em Direito pela Universidade do Vale do Itajaí – UNIVALI. Especialista em Direito Civil e Processual Civil pela Legale Educacional. Sua atuação concentra-se, de forma predominante, nas áreas do Direito Público, com ênfase em questões envolvendo Administração Pública, controle de legalidade dos atos administrativos e tutela de garantias constitucionais.  <br/><br/> Também possui experiência relevante no âmbito do Direito Tributário, assessorando na análise de obrigações fiscais, na prevenção de contingências tributárias e na defesa de interesses em procedimentos administrativos e judiciais tributários, sempre com rigor técnico e observância estrita da legislação vigente.",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    },
-    "team2": {
-      "title": " Dr. Thaynan Alécio Coelho Peres<br/> <span class=\"text-[12px]\">OAB/SC 71.151</span>",
-      "subtitle": "Sócio-fundador do Escritório Amaral & Peres Advocacia e Consultoria Jurídica",
-      "description": "Bacharel em Direito pela Universidade do Vale do Itajaí – UNIVALI. Especialista em Direito do Consumidor pela Faculdade Damásio. Atua majoritariamente no Direito Privado, com destaque para demandas de natureza civil, consumerista e familiar. No Direito de Família, dedica-se à resolução técnica e humanizada de conflitos envolvendo alimentos, guarda, responsabilidade parental, divórcios e demais relações familiares, sempre pautado pela proteção da dignidade humana e pela aplicação criteriosa das normas vigentes. Sua prática é marcada pela precisão jurídica, postura resolutiva e firme defesa dos direitos dos consumidores e das partes vulneráveis nas relações privadas.",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
-    }
   },
   "ctaSecondary": {
     "title": "<span class=\"text-bgSectionDark font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-bgSectionDark font-bold\">estamos te esperando.</span>",
