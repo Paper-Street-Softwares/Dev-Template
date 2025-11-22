@@ -27,35 +27,35 @@
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "title": "Soluções jurídicas em diversas áreas do Direito",
+    "subtitle": "Atendimento completo com orientação clara e atuação estratégica.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
       "description": "A_Definir",
-      "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabelModal": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "buttonLabel": "Entenda"
     },
     "card2": {
       "title": "A_Definir",
       "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Entenda"
     },
     "card3": {
       "title": "A_Definir",
       "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Entenda"
     },
     "card4": {
       "title": "A_Definir",
       "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir",
+      "buttonLabel": "Entenda",
       "servicesButton": "A_Definir"
     },
     "card5": {
@@ -63,14 +63,14 @@
       "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Entenda"
     },
     "card6": {
       "title": "A_Definir",
       "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Entenda"
     }
   },
   "maps": {
