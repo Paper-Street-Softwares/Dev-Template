@@ -91,16 +91,27 @@
     "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
-    "aboutSocial": {
+    "aboutWpp": {
       "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
       "title": "Atendimento on-line em todo Brasil",
-      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
       "labelInstagram": "Siga-me no Instagram",
       "labelFacebook": "Siga-me no Facebook",
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
       "labelTikTok": "Siga-me no TikTok",
-      "labelWhatsapp": "Entre em contato agora"
+      "labelWhatsapp": "Agende a sua consulta"
+    },
+    "aboutSocial": {
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se conosco",
+      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X",
+      "labelTikTok": "Siga-nos no TikTok",
+      "labelWhatsapp": "Agende a sua consulta"
     }
   },
   "team": {
@@ -165,7 +176,7 @@
     "miniTag": "A_Definir",
     "title": "A_Definir",
     "subtitle": "A_Definir",
-    "labelCards": "A_Definir",
+    "labelCards": "Ver mais",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
   },

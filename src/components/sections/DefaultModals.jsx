@@ -62,7 +62,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
       <SectionWrapper>
         <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
           {/* Coluna esquerda */}
-          <div className="flex-1 flex flex-col tablet2:flex-row gap-6 tablet1:gap-0 items-center tablet1:items-start ">
+          <div className="flex-1 flex flex-wrap justify-center gap-6 tablet1:gap-4 items-center tablet1:items-start">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
