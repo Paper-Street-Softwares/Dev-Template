@@ -50,10 +50,10 @@ export default function FeaturesParagraphs({ colorMode }) {
       />
 
       <SectionWrapper>
-        <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
-          {/* Coluna esquerda */}
-          <MotionDivDownToUp>
-            {features.map((card, index) => (
+        <div className="flex flex-wrap justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
+          {/* Coluna esquerda */}{" "}
+          {features.map((card, index) => (
+            <MotionDivDownToUp>
               <div
                 key={index}
                 className="flex-1 flex flex-wrap justify-center gap-6 tablet1:gap-4 items-center tablet1:items-start"
@@ -67,8 +67,8 @@ export default function FeaturesParagraphs({ colorMode }) {
                   onOpenModal={() => openModal(card.title, card.description)}
                 />
               </div>
-            ))}
-          </MotionDivDownToUp>
+            </MotionDivDownToUp>
+          ))}
         </div>
 
         <Dialog

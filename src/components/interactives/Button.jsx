@@ -60,7 +60,7 @@ export default function Button({
         <MotionDivDownToUp className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 ${
+            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 outline-none ${
               color || "bg-buttonColor"
             } flex-row items-center justify-around transition text-labelButtons ${
               noScale ? "" : "desktop1:hover:scale-110"
@@ -84,7 +84,7 @@ export default function Button({
         <div className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 bg-buttonColor flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} shadow-custom-opacityButton shadow-shadowHero/0 bg-buttonColor flex-row items-center justify-around transition ${color} outline-none text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}

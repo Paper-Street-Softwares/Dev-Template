@@ -58,22 +58,22 @@ export default function Index() {
       </div> */}
 
       <Navbar colorMode={colorMode} />
-      {/* <Hero
+      <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
         panoramica={false}
-      /> */}
+      />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
-        iconsWithModal={false}
+        paragraphsModal={false}
+        iconsWithModal={false} //último card com Demais áreas
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutSocial socialPrint={true} />

@@ -25,13 +25,15 @@ export default function FeaturesWithIcons({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
+  const features = Object.values(content.texts.features.cards);
+
   return (
     <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
       <SectionHeader
         className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode="dark"
@@ -39,24 +41,20 @@ export default function FeaturesWithIcons({ colorMode }) {
       <SectionWrapper>
         <div className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
           <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card1.icon}
-                title={t("features.card1.title")}
-                paragraph={t("features.card1.subtitle")}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card2.icon}
-                title={t("features.card2.title")}
-                paragraph={t("features.card2.subtitle")}
-                className={textClass}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
+            {features
+              .filter((_, index) => index < 2)
+              .map((card, index) => (
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    key={index}
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                    colorMode={colorMode}
+                  />
+                </MotionDivDownToUp>
+              ))}
           </div>
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
@@ -68,25 +66,21 @@ export default function FeaturesWithIcons({ colorMode }) {
             />
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card3.icon}
-                title={t("features.card3.title")}
-                paragraph={t("features.card3.subtitle")}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card4.icon}
-                title={t("features.card4.title")}
-                paragraph={t("features.card4.subtitle")}
-                className={textClass}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
+          <div className="col2 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+            {features
+              .filter((_, index) => index > 2)
+              .map((card, index) => (
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    key={index}
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                    colorMode={colorMode}
+                  />
+                </MotionDivDownToUp>
+              ))}
           </div>
         </div>
       </SectionWrapper>

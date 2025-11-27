@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
 import content from "../../content/content";
+import { Plus } from "lucide-react";
 
 const ServicesModal = () => {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ const ServicesModal = () => {
         removeTarget={true}
         tagName="div"
         label={"Saber mais"}
-        icon={content.texts.features.card4.servicesIconButton}
+        icon={<Plus />}
         onClick={() => setVisible(true)}
         className="bg-colorBlack text-secondary"
       />
