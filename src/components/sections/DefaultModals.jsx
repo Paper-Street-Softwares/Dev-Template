@@ -79,7 +79,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -91,7 +91,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className=" mt-4"
-                  labelColor="text-white"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
                 />
@@ -114,7 +113,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -126,7 +125,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className=" mt-4"
-                  labelColor="text-white"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
                 />
@@ -146,7 +144,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
+                <Button
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +152,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -165,11 +163,10 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     </svg>
                   }
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
+                  className=" mt-4"
                   label={t("features.card4.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  onClick={() => openModal(3)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
           </div>
@@ -185,7 +182,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
           </MotionDivDownToUp> */}
 
           {/* Coluna direita */}
-          <div className="flex-1 flex flex-col tablet2:flex-row gap-3 items-center tablet1:items-start">
+          {/* <div className="flex-1 flex flex-col tablet2:flex-row gap-3 items-center tablet1:items-start">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card4.icon}
@@ -194,7 +191,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
+                <Button
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +199,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -214,10 +211,10 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className="bg-darker"
-                  labelColor="text-white"
+                 
                   label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
-                /> */}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
 
@@ -235,7 +232,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
+                <Button
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +240,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -255,10 +252,10 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className="bg-darker"
-                  labelColor="text-white"
+                 
                   label={t("features.card5.buttonLabel")}
                   onClick={() => openModal(4)}
-                /> */}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
 
@@ -276,7 +273,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
+                <Button
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -284,7 +281,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -296,13 +293,13 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className="bg-darker"
-                  labelColor="text-white"
+                 
                   label={t("features.card4.buttonLabel")}
                   onClick={() => openModal(4)}
-                /> */}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-          </div>
+          </div> */}
         </div>
       </SectionWrapper>
 
