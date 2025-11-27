@@ -5,9 +5,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import content from "../../content/content";
 
 export default function AccordionExpandDefault() {
-  const { t } = useTranslation();
   const [expanded, setExpanded] = useState("panel1");
 
   const handleChange = (panel) => (_, isExpanded) => {
@@ -24,35 +24,34 @@ export default function AccordionExpandDefault() {
     borderTop: expanded === panel ? "1px solid rgba(0, 0, 0, 0.1)" : "none",
   });
 
+  const faq = Object.values(content.texts.faq.questions);
+
   return (
     <div>
-      {[1, 2, 3, 4].map((num) => (
+      {faq.map((item, index) => (
         <Accordion
-          key={`panel${num}`}
+          key={`panel${index}`}
           className="mb-[3%]"
-          expanded={expanded === `panel${num}`}
-          onChange={handleChange(`panel${num}`)}
-          style={getPanelStyle(`panel${num}`)}
+          expanded={expanded === `panel${index}`}
+          onChange={handleChange(`panel${index}`)}
+          style={getPanelStyle(`panel${index}`)}
         >
           <AccordionSummary
             expandIcon={<ChevronDown size={24} />}
-            aria-controls={`panel${num}-content`}
-            id={`panel${num}-header`}
+            aria-controls={`panel${index}-content`}
+            id={`panel${index}-header`}
           >
             <Typography component="div">
               <h1 className="font-bold font-secondFont text-black">
-                {t(`faq.questions.question${num}.question`)}
+                {item.question}
               </h1>
             </Typography>
           </AccordionSummary>
 
           <AccordionDetails>
-            <div
-              className="font-secondFont text-paragraph4 text-paragraphLight"
-              dangerouslySetInnerHTML={{
-                __html: t(`faq.questions.question${num}.answer`),
-              }}
-            />
+            <div className="font-secondFont text-paragraph4 text-paragraphLight">
+              {item.answer}
+            </div>
           </AccordionDetails>
         </Accordion>
       ))}

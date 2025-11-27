@@ -14,11 +14,9 @@ import {
 } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
-import { useTranslation } from "react-i18next";
 import content from "../../content/content";
 
 export default function SidebarSocial({ colorMode, mode = "blog" }) {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrolled, setScrolled] = useState(false);
@@ -26,28 +24,29 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
   const toggleSidebar = () => setVisible(!visible);
 
   useEffect(() => {
-    const menuItemsObj = t("navbar.menuItems", { returnObjects: true }) || {};
-    const allIds = Object.keys(menuItemsObj);
-    const paired = allIds.map((id) => ({
+    const allIds = content.texts.navbar.menuId;
+    const allLabels = content.texts.navbar.menuItems;
+
+    const paired = allIds.map((id, index) => ({
       id,
-      label: menuItemsObj[id],
+      label: allLabels[index] || id,
     }));
 
     if (mode === "site") {
       setVisibleSections(paired);
     } else {
-      const existing = paired.filter(({ id }) => !!document.getElementById(id));
-      setVisibleSections(existing);
+      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
+      setVisibleSections(filtered);
     }
-  }, [mode, t]);
+  }, [mode]);
 
   const icons = [
     <HomeIcon />,
     <UserSearch />,
     <ServerIcon />,
-    <FileText />,
-    // <MapPin />,
+    // <FileText />,
     <HelpCircle />,
+    <MapPin />,
   ];
 
   return (

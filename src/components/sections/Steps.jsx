@@ -9,8 +9,6 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 // import GalleryAbout from "../sectionElements/about/GalleryAbout";
 
 export default function Steps({ colorMode }) {
-  const { t } = useTranslation();
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",

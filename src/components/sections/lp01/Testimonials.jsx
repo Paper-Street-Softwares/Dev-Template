@@ -19,8 +19,6 @@ import img7 from "../../../assets/imgs/testimonials/imgTestimonial7.webp";
 import img8 from "../../../assets/imgs/testimonials/imgTestimonial8.webp";
 
 export default function Testimonial({ colorMode }) {
-  const { t } = useTranslation();
-
   // Array de imagens
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
@@ -50,9 +48,9 @@ export default function Testimonial({ colorMode }) {
         <div className="w-full">
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={t("testimonials.miniTag")}
-            sectionHeaderTitle={t("testimonials.title")}
-            sectionHeaderSubtitle={t("testimonials.subtitle")}
+            miniTitle={content.texts.testimonials.miniTaginiTag}
+            sectionHeaderTitle={content.texts.testimonials.title}
+            sectionHeaderSubtitle={content.texts.testimonials.subtitle}
             titleColorSet={textColor}
             subtitleColorSet={textColor}
           />

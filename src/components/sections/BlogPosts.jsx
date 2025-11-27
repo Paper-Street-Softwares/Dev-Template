@@ -9,7 +9,6 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 
 function BlogPosts() {
-  const { t } = useTranslation();
   const [posts, setPosts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(3);
 
@@ -93,7 +92,7 @@ function BlogPosts() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {t("blog.label")}
+                {content.texts.blog.label}
               </a>
             </Paragraphs>
           </MotionDivDownToUp>

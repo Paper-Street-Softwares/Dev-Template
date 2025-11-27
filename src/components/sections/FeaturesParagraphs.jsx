@@ -55,7 +55,7 @@ export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
                     className="bg-darker"
                     labelColor="text-white"
                     label={card.buttonLabel}
-                    buttonLink={t("links.ctaWhatsapp")}
+                    buttonLink=""
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

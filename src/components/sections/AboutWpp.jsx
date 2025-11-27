@@ -11,8 +11,6 @@ import ParagraphWpp from "../sectionElements/aboutInstagram/ParagraphWpp";
 import content from "../../content/content";
 
 export default function AboutWpp({ colorMode }) {
-  const { t } = useTranslation();
-
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",

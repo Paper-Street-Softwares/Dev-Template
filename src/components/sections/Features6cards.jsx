@@ -11,7 +11,6 @@ import Button from "../interactives/Button";
 import { useState } from "react";
 
 export default function Features6cards({ colorMode }) {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalContent, setModalContent] = useState("");

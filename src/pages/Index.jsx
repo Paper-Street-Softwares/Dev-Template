@@ -10,13 +10,13 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import "./../i18n";
-import Button from "../components/interactives/Button";
-import UnderConstruction from "../components/interactives/UnderConstruction";
+// import Button from "../components/interactives/Button";
+// import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
-import Testimonial from "../components/sections/lp01/Testimonials";
+// import Testimonial from "../components/sections/lp01/Testimonials";
 import Team from "../components/sections/Team";
 import AboutWpp from "../components/sections/AboutWpp";
 import AboutSocial from "../components/sections/AboutSocial";
@@ -25,15 +25,15 @@ export default function Index() {
   const showUnderConstruction = false;
 
   const { colorMode, setColorMode } = useColorMode();
-  const { t, i18n } = useTranslation();
+  // const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  // const changeLanguage = (lng) => {
+  //   i18n.changeLanguage(lng);
+  // };
 
-  if (showUnderConstruction) {
-    return <UnderConstruction />;
-  }
+  // if (showUnderConstruction) {
+  //   return <UnderConstruction />;
+  // }
 
   return (
     <>
@@ -76,14 +76,14 @@ export default function Index() {
         iconsWithModal={false} //último card com Demais áreas
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutSocial socialPrint={true} />
+      {/* <AboutSocial socialPrint={true} /> */}
       <AboutWpp colorMode={colorMode} />
-      <Team />
+      {/* <Team /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
         addres={true}

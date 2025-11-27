@@ -5,8 +5,6 @@ import { useTranslation } from "react-i18next";
 import content from "../../../content/content";
 
 function AdressFooter({ showSecond = false }) {
-  const { t } = useTranslation();
-
   return (
     <>
       {/* Endereço principal */}

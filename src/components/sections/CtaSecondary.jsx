@@ -8,7 +8,6 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 
 export default function CtaSecondary({ colorMode }) {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   // Definir classes de tema

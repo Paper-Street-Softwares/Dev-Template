@@ -9,8 +9,6 @@ import { useTranslation } from "react-i18next";
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Team() {
-  const { t } = useTranslation();
-
   const team = Object.values(content.texts.team.members);
   return (
     <SectionArea
@@ -20,9 +18,9 @@ export default function Team() {
     >
       <SectionHeader
         className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-        miniTitle={t("team.miniTag")}
-        sectionHeaderTitle={t("team.title")}
-        sectionHeaderSubtitle={t("team.subtitle")}
+        miniTitle={content.texts.team.miniTag}
+        sectionHeaderTitle={content.texts.team.title}
+        sectionHeaderSubtitle={content.texts.team.subtitle}
         titleColorSet="text-black"
         subtitleColorSet="text-black"
       />

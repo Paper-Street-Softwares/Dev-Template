@@ -9,8 +9,6 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
 
 export default function News({ colorMode }) {
-  const { t } = useTranslation();
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
@@ -49,7 +47,7 @@ export default function News({ colorMode }) {
           <MotionDivDownToUp className="w-full desktop1:w-[45%] flex flex-col justify-evenly items-center desktop1:h-[410px] gap-4 font-secondFont">
             <div className="w-full flex justify-center items-center p-4">
               <h1 className="text-black text-center desktop1:text-start">
-                {t("news.description")}
+                {content.texts.news.description}
               </h1>
             </div>
 
@@ -108,9 +106,9 @@ export default function News({ colorMode }) {
         <div className="desktop1:w-full">
           <SectionHeader
             className=" text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={t("news.miniTag")}
-            sectionHeaderTitle={t("news.title")}
-            sectionHeaderSubtitle={t("news.subtitle")}
+            miniTitle={content.texts.news.miniTag}
+            sectionHeaderTitle={content.texts.news.title}
+            sectionHeaderSubtitle={content.texts.news.subtitle}
             color={colorMode ? "light" : ""}
             type={colorMode ? "" : ""}
             titleColorSet={titleColor}

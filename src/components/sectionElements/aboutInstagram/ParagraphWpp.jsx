@@ -5,12 +5,10 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
 
 function ParagraphWpp() {
-  const { t } = useTranslation();
-
   return (
     <MotionDivDownToUp>
       <Paragraphs className="text-white text-opacity-80 mb-[48px]">
-        {t("about.aboutWpp.paragraph")}{" "}
+        {content.texts.about.aboutWpp.paragraph}
       </Paragraphs>
     </MotionDivDownToUp>
   );

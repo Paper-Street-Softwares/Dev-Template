@@ -4,12 +4,10 @@ import { useTranslation } from "react-i18next";
 import content from "../../../content/content";
 
 function NavegationTextFooter() {
-  const { t } = useTranslation();
-
   return (
     <MotionDivDownToUp>
       <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-       {content.texts.footer.midSectionName}
+        {content.texts.footer.midSectionName}
       </h1>
     </MotionDivDownToUp>
   );

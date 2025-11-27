@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
+import content from "../../../content/content";
 
 function LinksNavegationFooter({ mode = "blog" }) {
-  const { t } = useTranslation();
   const [visibleLinks, setVisibleLinks] = useState([]);
 
   useEffect(() => {
-    const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
+    const menuItems = content.texts.navbar.menuItems || {};
     const allIds = Object.keys(menuItems);
     const allLabels = Object.values(menuItems);
 
@@ -17,7 +17,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
     }));
 
     setVisibleLinks(paired);
-  }, [t]);
+  }, [content]);
 
   const half = Math.ceil(visibleLinks.length / 2);
   const firstHalf = visibleLinks.slice(0, half);

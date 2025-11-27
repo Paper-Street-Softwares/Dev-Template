@@ -7,8 +7,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesWithIcons({ colorMode }) {
-  const { t } = useTranslation();
-
   // Define background and text colors based on colorMode
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",

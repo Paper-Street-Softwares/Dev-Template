@@ -13,8 +13,6 @@ import GalleryAbout from "../sectionElements/about/GalleryAbout";
 import Button from "../interactives/Button";
 
 export default function About({ modal = true, showGallery, colorMode }) {
-  const { t } = useTranslation();
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
@@ -30,9 +28,6 @@ export default function About({ modal = true, showGallery, colorMode }) {
   const titleColor = textClasses[colorMode] || textClasses.default;
   const subtitleColor =
     colorMode === "light" ? "text-secondary/80" : "text-white/80";
-
-  // Puxando apenas textos via i18n
-  const aboutText = t("about", { returnObjects: true });
 
   return (
     <SectionArea
@@ -61,9 +56,9 @@ export default function About({ modal = true, showGallery, colorMode }) {
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
             className="text-center"
-            miniTitle={aboutText.miniTag}
-            sectionHeaderTitle={aboutText.title}
-            sectionHeaderSubtitle={aboutText.subtitle}
+            miniTitle={content.texts.about.miniTag}
+            sectionHeaderTitle={content.texts.about.title}
+            sectionHeaderSubtitle={content.texts.about.subtitle}
             color={colorMode}
             type="article"
             titleColorSet={titleColor}

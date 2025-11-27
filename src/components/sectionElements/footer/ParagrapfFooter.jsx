@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import content from "../../../content/content";
 
 function ParagrapfFooter() {
-  const { t } = useTranslation(); // pega a função t
+  // pega a função t
 
   return (
     <MotionDivDownToUp>

@@ -420,6 +420,8 @@ const content = {
           <br />
         </p>
       ),
+      paragraphModalCta: "A_Definir",
+      titleModal: "A_Definir",
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
       galeria: {
@@ -456,11 +458,13 @@ const content = {
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
-        paragraph: <p></p>,
+        paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
+        labelTiktok: "Siga-me no Tik Tok",
+        labelYoutube: "Siga-me no Youtube",
       },
       aboutWpp: {
         img: {
@@ -471,12 +475,16 @@ const content = {
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
-        paragraph: <p></p>,
+        paragraph: <p>A_Definir</p>,
         labelWhatsApp: "A_Definir",
         ariaLabelWhatsApp: "Botão de Contato",
       },
     },
     news: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      description: "",
       imgNews1Mobile: imgNews1Mobile,
       imgNews1: imgNews1,
       alt: "imagem ilustrativa da Seção Notícias",
@@ -584,70 +592,8 @@ const content = {
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
-    footer: {
-      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
-      footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-      footerSocialText: "Siga a gente nas redes sociais:",
-      footerNavegacaoText: "NAVEGAÇÃO",
-    },
-    testimonials: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      images: {
-        img1: {
-          img: imgTestimonial1,
-          alt: "Imagem de feedback",
-        },
-        img2: {
-          img: imgTestimonial2,
-          alt: "Imagem de feedback",
-        },
-        img3: {
-          img: imgTestimonial3,
-          alt: "Imagem de feedback",
-        },
-        img4: {
-          img: imgTestimonial4,
-          alt: "Imagem de feedback",
-        },
-      },
-    },
-    trustedBy: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      trustedMore: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
-      },
-      images: {
-        img1: {
-          img: { trustedByImg1 },
-          alt: "marca Rennova",
-        },
-        img2: {
-          img: { trustedByImg2 },
-          alt: "marca Colgate",
-        },
-        img3: {
-          img: { trustedByImg3 },
-          alt: "marca dental Cremer",
-        },
-      },
-    },
-    numbers: {
-      backgroundImg: numbersImgBg,
-      number1: 7,
-      number1Description: "A_Definir",
-      number2: 500,
-      number2Description: "A_Definir",
-      number3: 1000,
-      number3Description: "A_Definir",
-    },
     team: {
+      miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
       members: {
@@ -912,6 +858,69 @@ const content = {
           },
         },
       },
+    },
+    footer: {
+      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+    },
+    testimonials: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      images: {
+        img1: {
+          img: imgTestimonial1,
+          alt: "Imagem de feedback",
+        },
+        img2: {
+          img: imgTestimonial2,
+          alt: "Imagem de feedback",
+        },
+        img3: {
+          img: imgTestimonial3,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
+      },
+    },
+    trustedBy: {
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      trustedMore: {
+        title: "A_Definir",
+        subtitle: "A_Definir",
+      },
+      images: {
+        img1: {
+          img: { trustedByImg1 },
+          alt: "marca Rennova",
+        },
+        img2: {
+          img: { trustedByImg2 },
+          alt: "marca Colgate",
+        },
+        img3: {
+          img: { trustedByImg3 },
+          alt: "marca dental Cremer",
+        },
+      },
+    },
+    numbers: {
+      backgroundImg: numbersImgBg,
+      number1: 7,
+      number1Description: "A_Definir",
+      number2: 500,
+      number2Description: "A_Definir",
+      number3: 1000,
+      number3Description: "A_Definir",
     },
     socios: {
       socio1: {

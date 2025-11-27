@@ -11,8 +11,6 @@ import React, { useState } from "react";
 import IconButtonFeatureCardLP from "../../cards/IconButtonFeatureCardLP";
 
 export default function FeaturesParagraphs({ colorMode }) {
-  const { t } = useTranslation();
-
   const [activeModal, setActiveModal] = useState(null);
 
   // Classes de tema

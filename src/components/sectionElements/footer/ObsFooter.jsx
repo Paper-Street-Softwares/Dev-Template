@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import content from "../../../content/content";
 
 function ObsFooter() {
-  const { t } = useTranslation(); // função para buscar do pt.json
+  // função para buscar do pt.json
 
   return (
     <MotionDivDownToUp>

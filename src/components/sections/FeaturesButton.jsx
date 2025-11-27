@@ -12,7 +12,6 @@ import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
 import FeatureImgOnBgCard from "../cards/FeaturesOnBgCard";
 
 export default function FeaturesButton({ colorMode }) {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -65,21 +64,6 @@ export default function FeaturesButton({ colorMode }) {
                 description={card.subtitle}
                 buttonLabel={card.buttonLabel}
                 animation
-                // onClick={() =>
-                //   onClick(
-                //     t(`features.card${i}.title`),
-                //     t(`features.card${i}.subtitle`),
-                //     <ServiceDetailCard
-                //       img={card.img}
-                //       description={t(`features.card${i}.description`)}
-                //       buttonIcon={card.icon}
-                //       buttonLabel={t(`features.card${i}.buttonLabelModal`)}
-                //       buttonLink={content.texts.links.ctaWhatsapp}
-                //       bgPosition="bg-top"
-                //     />
-                //   )
-                // }
-                // colorMode={colorMode}
               />
             ))}
           </div>

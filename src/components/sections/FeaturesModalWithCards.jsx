@@ -8,8 +8,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesModalWithCards({ colorMode }) {
-  const { t } = useTranslation();
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",

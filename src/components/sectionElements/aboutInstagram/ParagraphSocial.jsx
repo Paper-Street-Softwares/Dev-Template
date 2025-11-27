@@ -5,12 +5,10 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
 
 function ParagraphSocial() {
-  const { t } = useTranslation();
-
   return (
     <MotionDivDownToUp>
       <Paragraphs className="text-white text-opacity-80 mb-[48px]">
-        {t("about.aboutSocial.paragraph")}{" "}
+        {content.texts.about.aboutSocial.paragraph}
       </Paragraphs>
     </MotionDivDownToUp>
   );

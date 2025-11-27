@@ -8,7 +8,7 @@ import content from "../../content/content";
 import SectionHeader from "../sectionElements/SectionHeader";
 
 export default function Maps({ colorMode }) {
-  const { t } = useTranslation(); // Hook de tradução
+  // Hook de tradução
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");

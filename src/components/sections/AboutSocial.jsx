@@ -12,8 +12,6 @@ import ParagraphSocial from "../sectionElements/aboutInstagram/ParagraphSocial";
 import content from "../../content/content";
 
 export default function AboutSocial({ socialPrint, colorMode }) {
-  const { t } = useTranslation();
-
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
@@ -42,13 +40,12 @@ export default function AboutSocial({ socialPrint, colorMode }) {
               className={`text-center`}
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
-              // sectionHeaderSubtitle={t("about.aboutSocial.subtitle")}
               type="article"
               titleColorSet={textClass}
               subtitleColorSet={textClass}
             />
           </MotionDivDownToUp>
-          <ParagraphSocial colorMode={colorMode} />
+          <ParagraphSocial />
           <div>
             <RedesSociais
               tiktok={true}

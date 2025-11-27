@@ -8,7 +8,6 @@ import content from "../../content/content";
 import { Plus } from "lucide-react";
 
 const ServicesModal = () => {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   return (
