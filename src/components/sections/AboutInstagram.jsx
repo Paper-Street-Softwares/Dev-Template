@@ -9,6 +9,7 @@ import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
 import RedesSociais from "../sectionElements/aboutInstagram/RedesSociais";
 import Button from "../interactives/Button";
+import ParagraphWpp from "../sectionElements/aboutInstagram/ParagraphWpp";
 
 export default function AboutInstagram({ socialPrint, colorMode }) {
   const { t } = useTranslation();
@@ -39,15 +40,15 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
           <MotionDivDownToUp>
             <SectionHeader
               className={`text-center`}
-              miniTitle={t("about.aboutSocial.miniTag")}
-              sectionHeaderTitle={t("about.aboutSocial.title")}
+              miniTitle={t("about.aboutWpp.miniTag")}
+              sectionHeaderTitle={t("about.aboutWpp.title")}
               // sectionHeaderSubtitle={t("about.aboutSocial.subtitle")}
               type="article"
               titleColorSet={textClass}
               subtitleColorSet={textClass}
             />
           </MotionDivDownToUp>
-          <ParagraphsAboutSocial colorMode={colorMode} />
+          <ParagraphWpp />
           <div>
             {/* <RedesSociais
               tiktok={true}

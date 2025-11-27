@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "Rua Brasília, nº 392, Vila Aparecida <br/> Itapeva - SP, CEP: 18401-140",
+    "adress": "Av. Leonardo de Carvalho <br/> Castelo Branco, <br/> nº 2835, Sala 12, <br/> Bairro São Benedito, Parnaíba-PI, <br/> CEP: 64202-260.",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 12h <br/> 14h às 17h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,66 +11,67 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ADVOGADO EM ITAPEVA - SP",
-    "title": "Mais de <span class=\"text-primary font-bold\">2 décadas</span> de experiência",
-    "subtitle": "Atuação sólida no Direito Criminal e Civil, unindo técnica, compromisso e atendimento acolhedor.",
-    "ctaButtonText": "Quero atendimento",
+    "miniTag": "ADVOGADO ADMINISTRATIVO EM PARNAÍBA - PI",
+    "title": "Advocacia para <span class=\"text-primary font-bold\">Gestões Municipais</span>",
+    "subtitle": "Atuação técnica para fortalecer sua gestão, garantir legalidade e entregar segurança nas decisões públicas.",
+    "ctaButtonText": "Quero uma gestão mais segura",
     "obsHero": {
-      "text": "Atendimento online via WhatsApp, tudo no conforto da sua casa."
+      "text": "Mais de 15 anos de experiência assessorando administrações públicas municipais."
     }
   },
   "features": {
     "miniTag": "Áreas de Atuação",
-    "title": "Soluções jurídicas em diversas áreas do Direito",
-    "subtitle": "Atendimento completo com orientação clara e atuação estratégica.",
+    "title": "Nossas Especialidades Jurídicas",
+    "subtitle": "Conheça as áreas em que atuamos com técnica, estratégia e segurança.",
     "card1": {
-      "title": "Direito Civil",
-      "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
-      "description": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "title": "Advocacia Pública Municipal",
+      "subtitle": "Representação e suporte jurídico ao município.",
+      "description": "Nosso trabalho na advocacia pública municipal envolve a representação judicial e extrajudicial do município, assessoria e consultoria jurídica para os Poderes Executivos e Legislativos e o controle interno. <br/><br/> Essas atividades visam defender o interesse público, garantir a legalidade dos atos administrativos e prevenir litígios, atuando na elaboração e revisão de contratos, análise de licitações e defesa em ações judiciais. ",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda"
+      "buttonLabel": "Saiba mais"
     },
     "card2": {
-      "title": "Direito Penal",
-      "subtitle": "Defesa técnica e atuação jurídica especializada no Júri.",
-      "description": "- Plantão 24 hrs  <br/> - Acompanhamento em flagrantes  <br/> - Inquéritos Policiais   <br/> - Habeas Corpus   <br/> - Alvará de Soltura   <br/> - Liberdade Provisória   <br/> - Fiança  <br/> - Defesa em Processo Crime  <br/> - Recursos  <br/> - Apelação  <br/> - Progressão <br/> - Revisão <br/>",
+      "title": "Advocacia Tributária",
+      "subtitle": "Defesa, consultoria e estratégias em tributos.",
+      "description": "Nosso trabalho no Direito Tributário, tem como foco a defesa dos contribuintes na sua relação jurídica tributária com o Estado (União, Estados e Municípios) no que diz respeito à cobrança de impostos, taxas e contribuições e obrigações acessórias, o que incluem:  <br/><br/>a) PLANEJAMENTO TRIBUTÁRIO: Elaborar estratégias legais para reduzir a carga fiscal de empresas e indivíduos, otimizando o pagamento de impostos dentro da legalidade (elisão fiscal).  <br/><br/> b) CONSULTORIA E ASSESSORIA: Orientar clientes sobre a correta aplicação das normas tributárias, acompanhando as constantes alterações na legislação e garantindo a conformidade fiscal (compliance). <br/><br/> c) DEFESA EM PROCESSOS: Representar o contribuinte em litígios fiscais, tanto na esfera administrativa (junto à Receita Federal, Secretarias Estaduais de Fazenda e Prefeituras) quanto na judicial, defendendo contra autuações, multas e cobranças indevidas. <br/><br/> d) RECUPERAÇÃO DE CRÉDITOS TRIBUTÁRIOS: Identificar e buscar a restituição de impostos pagos a maior ou indevidamente. e) REVISÃO DE PROCEDIMENTOS FISCAIS: Analisar a apuração de impostos diretos e indiretos e a entrega das obrigações acessórias para garantir a correta aplicação das normas.",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda"
+      "buttonLabel": "Saiba mais"
     },
     "card3": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Proteção aos seus direitos nas relações de trabalho.",
-      "description": "A_Definir",
+      "title": "Planejamento Sucessório, Societário e Tributário",
+      "subtitle": "Estratégias para sucessão, proteção e tributos.",
+      "description": "Nosso trabalho no Planejamento Sucessório, Societário e Tributário é focado na análise jurídica de um conjunto de estratégias para organizar a transferência de patrimônio, proteger a empresa e minimizar a carga de impostos. <br/><br/> A integração dessas áreas é crucial para preservar o legado familiar e empresarial, utilizando ferramentas como doações, holdings e testamentos para otimizar a sucessão e evitar litígios e custos excessivos. ",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda"
+      "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "Direito Administrativo",
-      "subtitle": "Atuação técnica em processos e questões públicas.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda",
+      "buttonLabel": "A_Definir",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Auxílio rápido para problemas com compras e serviços.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda"
+      "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Suporte em benefícios e direitos junto ao INSS.",
+      "title": "A_Definir",
+      "subtitle": "A_Definir",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "Entenda"
+      "buttonLabel": "A_Definir"
     }
   },
   "maps": {
@@ -83,15 +84,15 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É O DR. NETO GONZAGA",
+    "miniTag": "QUEM É O DR. MAURO MONÇÃO",
     "title": "Minha trajetória",
-    "subtitle": "Dr. Benedito Orestes Gonzaga Neto | OAB - SP nº 213.619",
+    "subtitle": "Uma trajetória construída com experiência, estudo contínuo e compromisso público.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo genuíno de oferecer apoio jurídico acessível e comprometido a todos que precisam, especialmente em uma cidade onde cada história tem peso e importância. Desde o começo, sempre fiz questão de atuar de forma próxima, clara e humana.",
-    "modal": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo genuíno de oferecer apoio jurídico acessível e comprometido a todos que precisam, especialmente em uma cidade onde cada história tem peso e importância. Desde o começo, sempre fiz questão de atuar de forma próxima, clara e humana. <br/><br/> Com o passar dos anos, aprofundei minha experiência na área criminal, com forte presença no Tribunal do Júri, em casos de tráfico de drogas e em acompanhamentos na delegacia. Cada atendimento reforçou minha convicção de que a defesa técnica precisa caminhar ao lado do respeito à dignidade de cada pessoa. <br/><br/> Além da atuação criminal, também desenvolvi trabalho sólido no Direito Civil, auxiliando clientes em separações, partilhas, inventários e elaboração de contratos. Minha missão continua sendo a mesma desde 2004: entregar segurança jurídica, responsabilidade e um atendimento que verdadeiramente acolhe. <br/><br/>",
+    "paragraph": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário.",
+    "modal": "Mauro Monção da Silva é advogado com mais de 15 anos de dedicação à prática jurídica, atuando nos Estados do Ceará, Piauí e Maranhão. Fundou o escritório Mauro Monção Advogados Associados, focado em consultoria e assessoria jurídica para administrações públicas municipais, além de Direito Tributário e Planejamento Sucessório, Societário e Tributário. <br/><br/> Ao longo de sua trajetória profissional, também exerceu o magistério no Curso de Direito da Universidade Estadual do Piauí – UESPI, ministrando disciplinas como Direito Administrativo, Direito Constitucional e Direito Financeiro, contribuindo para a formação de novos profissionais. <br/><br/> Sua qualificação inclui diversas especializações em nível de pós-graduação, abrangendo áreas essenciais como Direito e Processo Eleitoral, Políticas Públicas, Direito Tributário, Orçamento Público, Direito Legislativo, Direito Administrativo, Gestão Pública e Direito Constitucional, consolidando uma atuação sólida, técnica e comprometida com o interesse público. <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
-    "aboutSocial": {
+    "aboutWpp": {
       "miniTag": "ASSESSORIA JURÍDICA NACIONAL",
       "title": "Atendimento on-line em todo Brasil",
       "paragraph": "Com um atendimento especializado e sem fronteiras, nossa equipe de advogados não mede esforços para atender nossos clientes em qualquer lugar do Brasil. Onde você estiver, estamos prontos para oferecer suporte jurídico eficiente e personalizado, garantindo que seus direitos sejam protegidos.",
@@ -100,7 +101,18 @@
       "labelLinkedin": "Siga-me no Linkedin",
       "labelX": "Siga-me no X",
       "labelTikTok": "Siga-me no TikTok",
-      "labelWhatsapp": "Entre em contato agora"
+      "labelWhatsapp": "Agende a sua consulta"
+    },
+    "aboutSocial": {
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se conosco",
+      "paragraph": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no Linkedin",
+      "labelX": "Siga-nos no X",
+      "labelTikTok": "Siga-nos no TikTok",
+      "labelWhatsapp": "Agende a sua consulta"
     }
   },
   "team": {
@@ -162,10 +174,10 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
-    "labelCards": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+    "labelCards": "Ver mais",
     "label": "Clique aqui para ver todas as matérias",
     "blogLink": "A_Definir"
   },

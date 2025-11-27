@@ -18,7 +18,7 @@ export default function IconButtonFeatureCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-auto tablet1:max-w-[245px] desktop1:max-w-[250px] flex flex-col items-center py-4 px-6 rounded-md ${className}`}
+      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:h-auto tablet1:max-w-[270px] desktop1:max-w-[280px] flex flex-col items-center py-4 px-6 rounded-md bg-white shadow ${className}`}
     >
       <div
         className={`h-[64px] mb-4 w-[64px] rounded-md flex justify-center items-center text-labelButtons ${bgClass}`}
