@@ -164,7 +164,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className=" mt-4"
-                  label={t("features.card4.buttonLabel")}
+                  label={t("features.card3.buttonLabel")}
                   onClick={() => openModal(3)}
                 />
               </IconButtonFeatureCard>
