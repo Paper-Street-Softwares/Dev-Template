@@ -10,6 +10,8 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Team() {
   const { t } = useTranslation();
+
+  const team = Object.values(content.texts.team.members);
   return (
     <SectionArea
       className="bg-bgSectionOpacityLight"
@@ -29,58 +31,17 @@ export default function Team() {
         <MotionDivDownToUp>
           <div className="flex flex-col gap-[20px] tablet1:flex-wrap justify-evenly tablet1:items-start tablet1:gap-[20px]">
             <div className="flex flex-wrap justify-center gap-6 items-start">
-              <TeamMember
-                img={content.texts.team.members.member1.img.img}
-                alt={content.texts.team.members.member1.img.alt}
-                name={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team1.title"),
-                    }}
-                  ></span>
-                }
-                role={t("team.team1.subtitle")}
-                modalTitle={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team1.title"),
-                    }}
-                  ></span>
-                }
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team1.description"),
-                    }}
-                  ></span>
-                }
-              />
-              <TeamMember
-                img={content.texts.team.members.member2.img.img}
-                alt={content.texts.team.members.member2.img.alt}
-                name={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team2.title"),
-                    }}
-                  ></span>
-                }
-                role={t("team.team2.subtitle")}
-                modalTitle={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team2.title"),
-                    }}
-                  ></span>
-                }
-                modalContent={
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: t("team.team2.description"),
-                    }}
-                  ></span>
-                }
-              />
+              {team.map((member, index) => (
+                <TeamMember
+                  key={index}
+                  img={member.img.img}
+                  alt={member.img.alt}
+                  name={member.name}
+                  role={member.role}
+                  modalTitle={member.name}
+                  modalContent={member.description}
+                />
+              ))}
             </div>
           </div>
         </MotionDivDownToUp>

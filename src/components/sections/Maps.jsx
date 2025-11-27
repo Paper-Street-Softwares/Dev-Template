@@ -33,9 +33,9 @@ export default function Maps({ colorMode }) {
         <MotionDivDownToUp className="flex flex-col justify-center w-[90%] m-auto">
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={t("maps.minitag")}
-            sectionHeaderTitle={t("maps.title")}
-            sectionHeaderSubtitle={t("maps.subtitle")}
+            miniTitle={content.texts.maps.minitag}
+            sectionHeaderTitle={content.texts.maps.title}
+            sectionHeaderSubtitle={content.texts.maps.subtitle}
             color="dark"
             type=""
             titleColorSet={titleColor}

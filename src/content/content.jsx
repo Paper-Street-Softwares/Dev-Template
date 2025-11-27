@@ -15,6 +15,8 @@ import img4 from "../assets/imgs/about/imgGaleria4.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
+import aboutWpp from "../assets/imgs/about/aboutWpp.webp";
+
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
@@ -60,6 +62,7 @@ import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
 import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
 import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
+import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -140,7 +143,7 @@ const content = {
         "Mapa",
       ],
       menuId: ["home", "service", "about", "blog", "faq", "maps"],
-
+      ariaLabel: "Botão de Contato",
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -160,6 +163,8 @@ const content = {
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
       alt: "Imagem ilustrativa da Seção Início",
+      ctaButtonAriaLabel:
+        "Botão para chamada de ação para contato pelo whatsapp",
       ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
@@ -182,8 +187,6 @@ const content = {
         ),
         text: "A_Definir",
       },
-      ctaButtonAriaLabel:
-        "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
@@ -211,151 +214,153 @@ const content = {
       subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
-      card1: {
-        img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal1,
-        icon: <Gavel />,
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card2: {
-        img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: <Scale />,
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: <Users />,
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card4: {
-        img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: 3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
+      cards: {
+        card1: {
+          img: featuresImg1,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal1,
+          icon: <Gavel />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card2: {
+          img: featuresImg2,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal2,
+          icon: <Scale />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card3: {
+          img: featuresImg3,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal3,
+          icon: <Users />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card4: {
+          img: featuresImg4,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              A_Definir
+              <br />
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              className="bi bi-whatsapp"
+              viewBox="0 0 16 16"
+            >
+              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+          ),
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card5: {
+          img: featuresImg3,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+              <path d="M12 18V6" />
+            </svg>
+          ),
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card6: {
+          img: 3,
+          title: "A_Definir",
+          subtitle: "A_Definir",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+              <path d="M12 18V6" />
+            </svg>
+          ),
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
       },
       moreFeatures: {
         card1: {
@@ -391,10 +396,6 @@ const content = {
       miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
       paragraph: (
         <div>
           A_Definir
@@ -443,7 +444,6 @@ const content = {
           alt: "Quarta imagem ilustrativa da da Seção Sobre",
         },
       },
-
       aboutSocial: {
         img: {
           img: aboutSocialImg,
@@ -461,6 +461,19 @@ const content = {
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
+      },
+      aboutWpp: {
+        img: {
+          img: aboutWpp,
+          imgMobile: aboutWppMobile,
+          alt: `Imagem ilustrativa do Mapa`,
+        },
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p></p>,
+        labelWhatsApp: "A_Definir",
+        ariaLabelWhatsApp: "Botão de Contato",
       },
     },
     news: {
@@ -496,6 +509,9 @@ const content = {
         <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
       ),
       ctaButtonText: "Falar agora",
+      ctaButtonAriaLabel:
+        "Botão para chamada de ação para contato pelo whatsapp",
+      ctaButtonText: "A_Definir",
     },
     steps: {
       miniTag: "PASSO A PASSO",
@@ -642,6 +658,7 @@ const content = {
           },
           name: "Edison Matos",
           role: "CEO & Diretor de Desenvolvimento",
+          description: "",
           socialMedia: {
             icon1: (
               <svg

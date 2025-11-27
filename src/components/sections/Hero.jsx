@@ -1,12 +1,10 @@
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import { useTranslation } from "react-i18next";
+
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import ImageGallery from "react-image-gallery";
-import heroImg1 from "../../assets/imgs/hero/lawHero.webp";
-import heroImg2 from "../../assets/imgs/hero/lawHero1.webp";
+
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export default function Hero({
@@ -15,17 +13,7 @@ export default function Hero({
   influencer,
   panoramica,
 }) {
-  const images = [
-    {
-      original: heroImg1,
-      thumbnail: heroImg1,
-    },
-    {
-      original: heroImg2,
-      thumbnail: heroImg2,
-    },
-  ];
-  const { t } = useTranslation();
+ 
   const isMobile = window.innerWidth < 1024;
 
   // Cores de acordo com o tema
@@ -49,7 +37,7 @@ export default function Hero({
             <p
               className={`mb-[16px] rounded-md px-[16px] py-[6px] inline-block text-paragraph2 ${minititleColor}`}
             >
-              {t("hero.miniTag")}
+              {content.texts.hero.miniTag}
             </p>
           </div>
         </MotionDivDownToUp>
@@ -58,14 +46,14 @@ export default function Hero({
           <div
             className={`flex justify-center desktop1:justify-start font-medium leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
-            <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
+            {content.texts.hero.title}
           </div>
         </MotionDivDownToUp>
 
         <MotionDivDownToUp>
           <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
             <p className={`mb-[32px] ${subtitleTextColor}`}>
-              {t("hero.subtitle")}
+              {content.texts.hero.subtitle}
             </p>
           </div>
         </MotionDivDownToUp>
@@ -74,8 +62,8 @@ export default function Hero({
           <MotionDivDownToUp>
             <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
               <Button
-                aria-label={t("hero.ctaButtonAriaLabel")}
-                label={t("hero.ctaButtonText")}
+                aria-label={content.texts.hero.ctaButtonAriaLabel}
+                label={content.texts.hero.ctaButtonText}
                 animation
                 className="w-[100%]"
                 icon={
@@ -100,24 +88,11 @@ export default function Hero({
                 <p
                   className={`ml-[10px] text-center font-secondFont desktop1:text-start mt-[12px] desktop1:mt-0 ${obsTextColorOverride}`}
                 >
-                  {t("hero.obsHero.text")}{" "}
+                  {content.texts.hero.obsHero.text}
                 </p>
               </div>
             </div>
           </MotionDivDownToUp>
-
-          {/* <MotionDivDownToUp>
-            <div className="flex justify-center desktop1:justify-start">
-              <div
-                className={`flex flex-col items-center desktop1:flex-row ${obsTextColorOverride}`}
-              >
-                {content.texts.hero.obsHero.icon}
-                <p className={`ml-[10px] text-center mt-[12px] desktop1:mt-0`}>
-                  {t("hero.obsHero.text")}
-                </p>
-              </div>
-            </div>
-          </MotionDivDownToUp> */}
         </div>
       </div>
     );
