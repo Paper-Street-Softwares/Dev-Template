@@ -315,7 +315,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
+        breakpoints={{ "4000px": "641px", "1024px": "641px", "641px": "85vw" }}
       >
         {modalContent}
       </Dialog>
