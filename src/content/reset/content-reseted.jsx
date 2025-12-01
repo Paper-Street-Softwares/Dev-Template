@@ -67,10 +67,10 @@ import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Mauro Monção",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "mauromoncaofilho@gmail.com", // Email desejado pelo cliente
-  domain: "mauromoncao.adv.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
   phone: {
     ddd: "86",
     firstPart: "99482", // Apenas os 5 primeiros números (incluindo o 9)

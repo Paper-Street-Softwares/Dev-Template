@@ -31,7 +31,7 @@ export default function FeatureImgOnBgCard(props) {
     //   </div>
     // </MotionDivDownToUp>
 
-    <MotionDivDownToUp className="flex flex-wrap w-[400px] desktop1:w-[300px] gap-[36px] justify-center items-center tablet1:gap-[24px] ">
+    <MotionDivDownToUp className="flex flex-wrap w-[300px] desktop1:w-[25%] justify-center items-center desktop1:pb-12 ">
       <div className="flex flex-col w-full h-[500px] rounded-2xl overflow-hidden shadow-lg bg-white">
         {/* Imagem do bolo */}
         <div

@@ -104,13 +104,13 @@ export default function Hero({
         ? "bg-minititle text-black"
         : "bg-primary text-minititleDarkLabel",
       titleTextColor: isMobile ? "text-primary" : "text-primary",
-      subtitleTextColor: isMobile ? "text-white" : "text-primary",
-      obsTextColorOverride: isMobile ? "text-white" : "text-primary",
+      subtitleTextColor: isMobile ? "text-black" : "text-primary",
+      obsTextColorOverride: isMobile ? "text-black" : "text-primary",
     });
   } else if (influencer) {
     HeroContent = renderHeroContent({
       minititleColor: isMobile
-        ? "bg-minititle text-white"
+        ? "bg-minititle text-black"
         : "bg-primary text-minititleDarkLabel",
       titleTextColor: isMobile ? "text-primary" : "text-primary",
       subtitleTextColor: "text-primary",
@@ -121,9 +121,9 @@ export default function Hero({
       minititleColor: isMobile
         ? "bg-minititle text-minititleLightLabel"
         : "bg-minititle text-minititleDarkLabel",
-      titleTextColor: "text-white",
-      subtitleTextColor: "text-white",
-      obsTextColorOverride: "text-white",
+      titleTextColor: "text-black",
+      subtitleTextColor: "text-black",
+      obsTextColorOverride: "text-black",
     });
   }
 
