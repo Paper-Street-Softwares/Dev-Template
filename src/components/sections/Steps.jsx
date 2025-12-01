@@ -67,7 +67,7 @@ export default function Steps({ colorMode }) {
             {cards.map((card, index) => (
               <HowItWorksCard
                 key={index}
-                numbxer={card.stepNumber}
+                number={card.stepNumber}
                 title={card.cardTitle}
                 description={card.cardDescription}
                 animation

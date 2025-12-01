@@ -7,7 +7,6 @@ import { useState, useEffect, useRef } from "react";
 import SidebarSocial from "../sectionElements/SidebarSocial";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 
-
 export default function NavbarSocial({ colorMode, mode }) {
   const navigate = useNavigate();
 

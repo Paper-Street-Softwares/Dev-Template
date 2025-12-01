@@ -125,7 +125,7 @@ export default function ListGroupSocial({
         <div className="flex gap-[10px] items-center">
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label={content.texts.hero.ctaButtonText}
+            label={content.texts.navbar.ctaButtonText}
             className=""
             textclassName="text-paragraph3"
             size="small"
