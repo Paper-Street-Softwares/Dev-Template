@@ -29,6 +29,8 @@ import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
+import featuresImg5 from "../assets/imgs/features/imgFeatures5.webp";
+import featuresImg6 from "../assets/imgs/features/imgFeatures6.webp";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
@@ -67,19 +69,19 @@ import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Mauro Monção",
+  name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "mauromoncaofilho@gmail.com", // Email desejado pelo cliente
-  domain: "mauromoncao.adv.br", // Sem "www"
+  emailSecundario: "", // Email desejado pelo cliente
+  domain: "www.testoniadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "86",
-    firstPart: "99482", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0054", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6656", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "3029", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1888", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -89,9 +91,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Dona Francisca, nº 260,</p>
+      <p>sobreloja 18 Edif. Deville</p>
+      <p>Centro - Joinville - SC,</p>
+      <p>CEP: 89201-250</p>
     </div>
   ),
   enderecoSecundario: (
@@ -106,12 +109,14 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Atendimento somente mediante agendamento</p>
+      <br />
+      <p>As mensagens recebidas são respondidas conforme disponibilidade.</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "mauromoncaoadvogados_", // Sem o @
-  facebookProfile: "61584312205991",
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
@@ -148,14 +153,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM JOINVILLE - SC",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          <span className="text-primary"> Segurança</span> jurídica e
+          <span className="text-primary"> proteção</span> patrimonial para a sua
+          vida.
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Atuamos com excelência nas principais áreas do Direito, oferecendo soluções personalizadas e transparentes.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -165,7 +172,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Fale com um Especialista",
       obsHero: {
         icon: (
           <svg
@@ -185,9 +192,9 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Escritório de referência no centro de Joinville - SC, especialistas em áreas de maior demanda.",
       },
-      secondaryCta: "A_Definir",
+      secondaryCta: "Contato",
       images: {
         background: bgHeroImg,
         static: {
@@ -209,16 +216,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Nossas áreas de atuação",
+      subtitle:
+        "Nossa experiência foca em soluções estratégicas para as demandas mais críticas do Direito.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       cards: {
         card1: {
           img: featuresImg1,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito Previdenciário",
+          subtitle: "Planejamento e concessão de aposentadorias e auxílios.",
           description: (
             <div>
               A_Definir
@@ -234,8 +242,8 @@ const content = {
         },
         card2: {
           img: featuresImg2,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito Trabalhista",
+          subtitle: "Ampla atuação em ações de empregados e empresas.",
           description: (
             <div>
               A_Definir
@@ -251,8 +259,8 @@ const content = {
         },
         card3: {
           img: featuresImg3,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito de Família",
+          subtitle: "Divórcio, pensão alimentícia, guarda e união estável.",
           description: (
             <div>
               A_Definir <br />
@@ -267,8 +275,8 @@ const content = {
         },
         card4: {
           img: featuresImg4,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Seguro",
+          subtitle: "Cobrança de indenizações e disputas contra seguradoras.",
           description: (
             <div>
               A_Definir
@@ -294,9 +302,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card5: {
-          img: featuresImg3,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          img: featuresImg5,
+          title: "Direito do Consumidor",
+          subtitle: "Defesa contra cobranças indevidas, produtos e serviços.",
           description: (
             <div>
               A_Definir
@@ -327,40 +335,40 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-        // card6: {
-        //   img: 3,
-        //   title: "A_Definir",
-        //   subtitle: "A_Definir",
-        //   description: (
-        //     <div>
-        //       A_Definir
-        //       <br />
-        //       <br />
-        //       A_Definir
-        //     </div>
-        //   ),
-        //   imgModal: imgFeaturesCardModal4,
-        //   icon: (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       width="24"
-        //       height="24"
-        //       viewBox="0 0 24 24"
-        //       fill="none"
-        //       stroke="currentColor"
-        //       stroke-width="2"
-        //       stroke-linecap="round"
-        //       stroke-linejoin="round"
-        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-        //     >
-        //       <circle cx="12" cy="12" r="10" />
-        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-        //       <path d="M12 18V6" />
-        //     </svg>
-        //   ),
-        //   buttonLabelModal: "Fale Conosco",
-        //   buttonLabel: "Saiba Mais",
-        // },
+        card6: {
+          img: featuresImg6,
+          title: "Inventário",
+          subtitle: "Partilha de bens, testamentos e sucessão em geral.",
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+              <path d="M12 18V6" />
+            </svg>
+          ),
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
       },
       moreFeatures: {
         card1: {
@@ -381,11 +389,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Joinville - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.98033254231933!2d-46.6933381!3d-23.6099751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cbbcc489d7%3A0xc7f10feaf018ce35!2sRua%20Arandu%2C%20205%20-%20Conjunto%201005%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004562-030!5e0!3m2!1spt-BR!2sbr!4v1758897111607!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.8383438498117!2d-48.843653599999996!3d-26.299340099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb035f1b27b93%3A0x59ee8db9916b6685!2sTestoni%20Advocacia%20Previdenci%C3%A1ria%20e%20Trabalhista!5e0!3m2!1spt-BR!2sbr!4v1764603151387!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -393,35 +402,51 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A TESTONI & ADVOGADOS",
+      title: "Nossa trajetória",
+      subtitle:
+        "Estabelecemos nossa história em Joinville, prestando serviços jurídicos especializados.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
+          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
+          por seu expressivo polo industrial e comercial no norte catarinense.
+          Esta localização privilegiada nos permitiu especializar nossa atuação
+          para atender a crescente e complexa demanda por soluções jurídicas
+          inerentes a cidades desse porte, focando nas áreas de maior interesse
+          e procura do empresariado e da população local.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
+          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
+          por seu expressivo polo industrial e comercial no norte catarinense.
+          Esta localização privilegiada nos permitiu especializar nossa atuação
+          para atender a crescente e complexa demanda por soluções jurídicas
+          inerentes a cidades desse porte, focando nas áreas de maior interesse
+          e procura do empresariado e da população local.
           <br />
           <br />
-          A_Definir
+          Nosso escritório se consolidou com excelência nas áreas de{" "}
+          <strong>
+            Direito Trabalhista, Previdenciário, Consumidor e Seguros
+          </strong>
+          , garantindo a proteção dos direitos e patrimônios de nossos clientes.
+          Além disso, oferecemos suporte jurídico de alto nível em áreas civis
+          essenciais, como <strong>Direito de Família e Propriedade</strong>,
+          assegurando um atendimento completo e multidisciplinar.
           <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
+          <br />O alicerce da <strong>Testoni & Advogados</strong> reside em
+          valores inegociáveis: Trabalho,{" "}
+          <strong>Honestidade, Comprometimento e Transparência</strong>. É por
+          meio destes princípios que prestamos serviços jurídicos personalizados
+          e especializados, dedicados integralmente à busca pela plena
+          satisfação e sucesso de cada cliente e parceiro.
         </p>
       ),
-      paragraphModalCta: "A_Definir",
-      titleModal: "A_Definir",
+      paragraphModalCta: "Entre em contato",
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
       galeria: {
@@ -472,11 +497,18 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelWhatsApp: "A_Definir",
+        miniTag: "ASSESSORIA JURÍDICA NACIONAL",
+        title: "Atendimento on-line em todo Brasil",
+        paragraph: (
+          <p>
+            Com um atendimento especializado e sem fronteiras, não medimos
+            esforços para atender nossos clientes em qualquer lugar do Brasil.
+            Onde você estiver, estamos prontos para oferecer suporte jurídico
+            eficiente e personalizado, garantindo que seus direitos sejam
+            protegidos.
+          </p>
+        ),
+        labelWhatsApp: "Entre em contato agora",
         ariaLabelWhatsApp: "Botão de Contato",
       },
     },
@@ -489,23 +521,13 @@ const content = {
       imgNews1: imgNews1,
       alt: "imagem ilustrativa da Seção Notícias",
     },
-    cta: {
-      backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
-    },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
-      // miniTag: "FALE CONOSCO",
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          <span className="text-primary">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -519,7 +541,7 @@ const content = {
       ctaButtonText: "Falar agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Entre em Contato",
     },
     steps: {
       miniTag: "PASSO A PASSO",
@@ -924,11 +946,11 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "Gabriel",
-        rota: "Gabriel",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
-        telefone: "21972613067",
-        whatsapp: "21972613067",
+        telefone: "A_Definir",
+        whatsapp: "A_Definir",
         email: "",
         social: {
           instagram: "",
@@ -939,8 +961,8 @@ const content = {
         },
       },
       socio2: {
-        nome: "Biell",
-        rota: "Biell",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
         telefone: "00000000000",
         whatsapp: "00000000000",
@@ -954,11 +976,11 @@ const content = {
         },
       },
       socio4: {
-        nome: "Edison",
-        rota: "Edison",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
-        telefone: "66666666666",
-        whatsapp: "66666666666",
+        telefone: "A_Definir",
+        whatsapp: "A_Definir",
         email: "",
         social: {
           instagram: "",

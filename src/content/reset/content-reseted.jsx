@@ -67,14 +67,14 @@ import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Mauro Monção",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "mauromoncaofilho@gmail.com", // Email desejado pelo cliente
-  domain: "mauromoncao.adv.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "86",
-    firstPart: "99482", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0054", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -473,7 +473,6 @@ const content = {
         },
         miniTag: "A_Definir",
         title: "A_Definir",
-        subtitle: "A_Definir",
         paragraph: <p>A_Definir</p>,
         labelWhatsApp: "A_Definir",
         ariaLabelWhatsApp: "Botão de Contato",

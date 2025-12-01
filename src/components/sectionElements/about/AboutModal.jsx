@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 import { X, MoveRight } from "lucide-react";
 import Button from "../../interactives/Button";
-import { useTranslation, Trans } from "react-i18next";
 import content from "../../../content/content";
 
 export default function AboutModal() {
@@ -11,17 +10,17 @@ export default function AboutModal() {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(content.texts.about.titleModal);
+    setModalTitle(content.texts.about.title);
 
     setModalContent(
       <div className="text-paragraph3 text-black">
         <div className="">
           <p className="mt-[15px] mb-[20px] text-black">
-            {content.texts.about.paragraphModalCta}
+            {content.texts.about.modal}
           </p>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
-            label={content.texts.about.ctaButtonText}
+            label={content.texts.about.paragraphModalCta}
             animation={false}
             className="hover:scale-105"
             icon={

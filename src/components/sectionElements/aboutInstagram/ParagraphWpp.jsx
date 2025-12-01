@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 function ParagraphWpp() {
   return (
     <MotionDivDownToUp>
-      <Paragraphs className="text-white text-opacity-80 mb-[48px]">
+      <Paragraphs className="text-black text-opacity-80 mb-[48px]">
         {content.texts.about.aboutWpp.paragraph}
       </Paragraphs>
     </MotionDivDownToUp>
