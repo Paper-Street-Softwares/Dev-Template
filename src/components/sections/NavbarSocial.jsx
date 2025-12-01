@@ -6,10 +6,8 @@ import { Link as ScrollLink } from "react-scroll";
 import { useState, useEffect, useRef } from "react";
 import SidebarSocial from "../sectionElements/SidebarSocial";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
-import { useTranslation } from "react-i18next";
 
 export default function NavbarSocial({ colorMode, mode }) {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   const [scrolling, setScrolling] = useState(false);
@@ -125,8 +123,8 @@ export default function NavbarSocial({ colorMode, mode }) {
           <div className="flex items-center justify-between gap-[16px] ">
             <div className="hidden tablet1:flex desktop1:hidden">
               <Button
-                aria-label={t("hero.ctaButtonAriaLabel")}
-                label={t("navbar.ctaButtonTextResponsive")}
+                aria-label={content.texts.navbar.ariaLabel}
+                label={content.texts.navbar.ctaButtonText}
                 size="small"
                 colorMode={colorMode}
                 icon={

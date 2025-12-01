@@ -8,7 +8,6 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 
 export default function CtaSecondary({ colorMode }) {
-  const { t } = useTranslation();
   const navigate = useNavigate();
 
   // Definir classes de tema
@@ -33,13 +32,7 @@ export default function CtaSecondary({ colorMode }) {
             <SectionHeader
               colorMode="dark"
               className={`text-center desktop1:hidden ${textClass}`}
-              sectionHeaderTitle={
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: t("ctaSecondary.title"),
-                  }}
-                />
-              }
+              sectionHeaderTitle={content.texts.ctaSecondary.title}
               titleColorSet={textClass}
               subtitleColorSet={textClass}
               miniTitleBgColor={false}
@@ -48,13 +41,7 @@ export default function CtaSecondary({ colorMode }) {
             <SectionHeader
               colorMode="dark"
               className={`text-center hidden desktop1:flex ${textClass}`}
-              sectionHeaderTitle={
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: t("ctaSecondary.title"),
-                  }}
-                />
-              }
+              sectionHeaderTitle={content.texts.ctaSecondary.title}
               titleColorSet={textClass}
               subtitleColorSet={textClass}
               miniTitleBgColor={false}
@@ -74,18 +61,14 @@ export default function CtaSecondary({ colorMode }) {
             <div
               className={`gap-3 flex font-mainFont opacity-60 mt-1 ${textClass}`}
             >
-              {t("ctaSecondary.subtitleDireitaPartes", {
-                returnObjects: true,
-              }).map((parte, i) => (
-                <span key={i}>{parte}</span>
-              ))}
+              {content.texts.ctaSecondary.subtitleDireita}
             </div>
             <p className={`text-title5 my-3 font-mainFont ${textClass}`}>
-              {t("ctaSecondary.titleDireita")}
+              {content.texts.ctaSecondary.titleDireita}
             </p>
             <Button
-              aria-label={t("hero.ctaButtonAriaLabel")}
-              label={t("ctaSecondary.ctaButtonText")}
+              aria-label={content.texts.ctaSecondary.ctaButtonAriaLabel}
+              label={content.texts.ctaSecondary.ctaButtonText}
               animation
               icon={
                 <svg

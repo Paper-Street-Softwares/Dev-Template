@@ -1,9 +1,10 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import { useTranslation } from "react-i18next";
+import content from "../../../content/content";
 
 function ObsFooter() {
-  const { t } = useTranslation(); // função para buscar do pt.json
+  // função para buscar do pt.json
 
   return (
     <MotionDivDownToUp>
@@ -27,11 +28,7 @@ function ObsFooter() {
         </div>
 
         {/* Renderizando o texto com HTML interpretado */}
-        <p
-          dangerouslySetInnerHTML={{
-            __html: t("infos.obs"),
-          }}
-        />
+        <p>{content.texts.infos.obsFooter}</p>
       </div>
     </MotionDivDownToUp>
   );

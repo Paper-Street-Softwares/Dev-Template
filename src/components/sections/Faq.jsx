@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+
 import { useNavigate } from "react-router-dom";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
@@ -10,7 +10,7 @@ import Button from "../interactives/Button";
 import content from "../../content/content";
 
 export default function Faq({ colorMode }) {
-  const { t } = useTranslation();
+
   const navigate = useNavigate();
 
   // Classes de tema
@@ -32,9 +32,9 @@ export default function Faq({ colorMode }) {
       <SectionHeader
         colorMode="dark"
         className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-        miniTitle={t("faq.miniTag")}
-        sectionHeaderTitle={t("faq.title")}
-        sectionHeaderSubtitle={t("faq.subtitle")}
+        miniTitle={content.texts.faq.miniTag}
+        sectionHeaderTitle={content.texts.faq.title}
+        sectionHeaderSubtitle={content.texts.faq.subtitle}
         titleColorSet={titleColor}
         subtitleColorSet={titleColor}
       />
@@ -48,7 +48,7 @@ export default function Faq({ colorMode }) {
           <Paragraphs className={`text-center transition`}>
             <Button
               className="hoover:scale-0 desktop1:hover:scale-10 transition-all duration-300"
-              label={t("faq.paragraph")}
+              label={content.texts.faq.paragraph}
               colorMode={colorMode}
             />
           </Paragraphs>

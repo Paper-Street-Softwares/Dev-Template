@@ -3,31 +3,25 @@ import { Dialog } from "primereact/dialog";
 import { X, MoveRight } from "lucide-react";
 import Button from "../../interactives/Button";
 import { useTranslation, Trans } from "react-i18next";
+import content from "../../../content/content";
 
 export default function AboutModal() {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(t("about.title"));
+    setModalTitle(content.texts.about.titleModal);
 
     setModalContent(
       <div className="text-paragraph3 text-black">
-        {/* <p className="mb-[20px]">
-          <Trans i18nKey="about.subtitle" />
-        </p> */}
-
-        <Trans i18nKey="about.modal" components={{ br: <br /> }} />
-
         <div className="">
           <p className="mt-[15px] mb-[20px] text-black">
-            <Trans i18nKey="about.ctaButtonAriaLabel" />
+            {content.texts.about.paragraphModalCta}
           </p>
           <Button
-            aria-label={t("about.ctaButtonAriaLabel")}
-            label={t("about.ctaButtonText")}
+            aria-label={content.texts.about.ctaButtonAriaLabel}
+            label={content.texts.about.ctaButtonText}
             animation={false}
             className="hover:scale-105"
             icon={
@@ -54,7 +48,7 @@ export default function AboutModal() {
     <div>
       <Button
         className="mt-[48px] text-labelButtons"
-        label={t("about.buttonModalLabelAbout")}
+        label={content.texts.about.buttonModalLabelAbout}
         onClick={onClick}
         removeAnchor={true}
         removeTarget={true}

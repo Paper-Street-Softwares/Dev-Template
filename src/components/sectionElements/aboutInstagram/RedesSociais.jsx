@@ -2,17 +2,16 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
-import { infos } from "../../../content/content";
+import content, { infos } from "../../../content/content";
 
 const RedesSociais = ({ withAnimation = true }) => {
-  const { t } = useTranslation();
   const icons = [];
 
   if (infos.facebookProfile && infos.facebookProfile !== "A_Definir") {
     icons.push(
       <Button
         key="facebook"
-        label={t("about.aboutSocial.labelFacebook")}
+        label={content.texts.about.aboutSocial.labelFacebook}
         buttonLink={`https://www.facebook.com/${infos.facebookProfile}`}
         icon={
           <svg
@@ -37,7 +36,7 @@ const RedesSociais = ({ withAnimation = true }) => {
     icons.push(
       <Button
         key="tiktok"
-        label={t("about.aboutSocial.labelTikTok")}
+        label={content.texts.about.aboutSocial.labelTiktok}
         buttonLink={`https://www.tiktok.com/@${infos.tiktokProfile}`}
         icon={
           <svg
@@ -58,7 +57,7 @@ const RedesSociais = ({ withAnimation = true }) => {
     icons.push(
       <Button
         key="instagram"
-        label={t("about.aboutSocial.labelInstagram")}
+        label={content.texts.about.aboutSocial.labelInstagram}
         buttonLink={`https://www.instagram.com/${infos.instagramProfile}`}
         icon={
           <svg
@@ -86,7 +85,7 @@ const RedesSociais = ({ withAnimation = true }) => {
     icons.push(
       <Button
         key="linkedin"
-        label={t("about.aboutSocial.labelLinkedin")}
+        label={content.texts.about.aboutSocial.labelLinkedin}
         buttonLink={`https://www.linkedin.com/${infos.linkeDinProfile}`}
         icon={
           <svg
@@ -114,7 +113,7 @@ const RedesSociais = ({ withAnimation = true }) => {
     icons.push(
       <Button
         key="x"
-        label={t("about.aboutSocial.labelX")}
+        label={content.texts.about.aboutSocial.labelX}
         buttonLink={`https://x.com/${infos.x}`}
         icon={
           <svg
@@ -133,7 +132,7 @@ const RedesSociais = ({ withAnimation = true }) => {
     icons.push(
       <Button
         key="youtube"
-        label={t("about.aboutSocial.labelYoutube")}
+        label={content.texts.about.aboutSocial.labelYoutube}
         buttonLink={`https://youtube.com/${infos.youtubeProfile}`}
         icon={
           <svg

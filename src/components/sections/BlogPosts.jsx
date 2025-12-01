@@ -9,7 +9,6 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 
 function BlogPosts() {
-  const { t } = useTranslation();
   const [posts, setPosts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(3);
 
@@ -42,9 +41,9 @@ function BlogPosts() {
         <SectionWrapper>
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-            miniTitle={t("blog.miniTag")}
-            sectionHeaderTitle={t("blog.title")}
-            sectionHeaderSubtitle={t("blog.subtitle")}
+            miniTitle={content.texts.blog.miniTag}
+            sectionHeaderTitle={content.texts.blog.title}
+            sectionHeaderSubtitle={content.texts.blog.subtitle}
             color=""
             type=""
             titleColorSet="text-white"
@@ -93,7 +92,7 @@ function BlogPosts() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {t("blog.label")}
+                {content.texts.blog.label}
               </a>
             </Paragraphs>
           </MotionDivDownToUp>

@@ -18,7 +18,7 @@ import "./index.css";
 import "./styles/backgrounds.css";
 import BlogPosts from "./components/sections/BlogPosts.jsx";
 import Maps from "./components/sections/Maps.jsx";
-import AboutInstagram from "./components/sections/AboutInstagram.jsx";
+import AboutSocial from "./components/sections/AboutSocial.jsx";
 import CartaoSocio from "./components/sections/CartaoSocio.jsx";
 import { ColorModeProvider } from "./assets/context/ColorModeContext.jsx";
 import IndexLpi from "./pages/IndexLpi.jsx";

@@ -3,26 +3,22 @@ import { Link as RouterLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
 import { useTranslation } from "react-i18next";
+import content from "../../content/content";
 
 export default function ListGroupSocial({
   colorMode = "default",
   mode = "blog",
 }) {
-  const { t } = useTranslation();
   const [visibleSections, setVisibleSections] = useState([]);
   const location = useLocation();
 
   useEffect(() => {
-    // IDs do menu (mesma ordem do pt.json)
-    const allIds = ["home", "service", "about", "blog", "faq", "maps"];
+    const allIds = content.texts.navbar.menuId;
+    const allLabels = content.texts.navbar.menuItems;
 
-    // Pega labels direto do pt.json via i18next
-    const allLabels = t("navbar.menuItems", { returnObjects: true });
-
-    // Cria array com id + label
-    const paired = allIds.map((id) => ({
+    const paired = allIds.map((id, index) => ({
       id,
-      label: allLabels[id] || id, // fallback para id se não achar
+      label: allLabels[index] || id,
     }));
 
     if (mode === "site") {
@@ -31,7 +27,7 @@ export default function ListGroupSocial({
       const filtered = paired.filter(({ id }) => !!document.getElementById(id));
       setVisibleSections(filtered);
     }
-  }, [mode, t]);
+  }, [mode]);
 
   const [scrolling, setScrolling] = useState(false);
 
@@ -128,8 +124,8 @@ export default function ListGroupSocial({
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
-            aria-label={t("hero.ctaButtonAriaLabel")}
-            label={t("navbar.ctaButtonTextResponsive")}
+            aria-label={content.texts.hero.ctaButtonAriaLabel}
+            label={content.texts.navbar.ctaButtonText}
             className=""
             textclassName="text-paragraph3"
             size="small"

@@ -11,25 +11,13 @@ import Button from "../interactives/Button";
 import { useState } from "react";
 
 export default function Features6cards({ colorMode }) {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalContent, setModalContent] = useState("");
 
-  const openModal = (cardNum) => {
-    const card = content.texts.features[`card${cardNum}`];
-    setModalTitle(t(`features.card${cardNum}.title`));
-
-    setModalContent(
-      <div className="text-paragraph3">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: t(`features.card${cardNum}.description`),
-          }}
-        />
-      </div>
-    );
-
+  const openModal = (title, content) => {
+    setModalTitle(title);
+    setModalContent(content);
     setVisible(true);
   };
 
@@ -46,25 +34,15 @@ export default function Features6cards({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3, 4, 5, 6];
-
-  // Função para renderizar título, usando Trans para o card6
-  const renderTitle = (i) => {
-    if (i === 6) {
-      return (
-        <Trans i18nKey={`features.card${i}.title`} components={{ i: <i /> }} />
-      );
-    }
-    return t(`features.card${i}.title`);
-  };
+  const features = Object.values(content.texts.features.cards);
 
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
         className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
@@ -72,69 +50,77 @@ export default function Features6cards({ colorMode }) {
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
-            {cardNumbers.slice(0, 3).map((i) => (
-              <MotionDivDownToUp key={i}>
-                <IconFeatureCard
-                  icon={content.texts.features[`card${i}`].icon}
-                  title={renderTitle(i)}
-                  paragraph={t(`features.card${i}.subtitle`)}
-                  colorMode={colorMode}
+            {features
+              .filter((_, index) => index <= 2)
+              .map((card, index) => (
+                <MotionDivDownToUp
+                  key={index}
+                  className={
+                    "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
+                  }
                 >
-                  {i === 1 ? (
-                    <Button
-                      icon={
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18"
-                          height="18"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="lucide lucide-corner-down-right"
-                        >
-                          <path d="m15 10 5 5-5 5" />
-                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                        </svg>
-                      }
-                      size="small"
-                      className="bg-darker"
-                      labelColor="text-white"
-                      label={t("features.card1.buttonLabel")}
-                      onClick={() => openModal(1)}
-                    />
-                  ) : undefined}
-                  {i === 2 ? (
-                    <Button
-                      icon={
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18"
-                          height="18"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="lucide lucide-corner-down-right"
-                        >
-                          <path d="m15 10 5 5-5 5" />
-                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                        </svg>
-                      }
-                      size="small"
-                      className="bg-darker"
-                      labelColor="text-white"
-                      label={t("features.card1.buttonLabel")}
-                      onClick={() => openModal(2)}
-                    />
-                  ) : undefined}
-                </IconFeatureCard>
-              </MotionDivDownToUp>
-            ))}
+                  <IconFeatureCard
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={"tablet1:mb-[26px] desktop1:mb-0"}
+                    colorMode={colorMode}
+                  >
+                    {index === 0 ? (
+                      <Button
+                        icon={
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="white"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-corner-down-right"
+                          >
+                            <path d="m15 10 5 5-5 5" />
+                            <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                          </svg>
+                        }
+                        size="small"
+                        className="bg-darker"
+                        labelColor="text-white"
+                        label={card.buttonLabel}
+                        onClick={() => openModal(card.title, card.description)}
+                      />
+                    ) : undefined}
+                    {index === 1 ? (
+                      <Button
+                        icon={
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="white"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-corner-down-right"
+                          >
+                            <path d="m15 10 5 5-5 5" />
+                            <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                          </svg>
+                        }
+                        size="small"
+                        className="bg-darker"
+                        labelColor="text-white"
+                        label={card.buttonLabel}
+                        onClick={() => openModal(card.title, card.description)}
+                      />
+                    ) : undefined}
+                  </IconFeatureCard>
+                </MotionDivDownToUp>
+              ))}
           </div>
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
@@ -146,26 +132,24 @@ export default function Features6cards({ colorMode }) {
           </MotionDivDownToUp>
 
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            {cardNumbers.slice(3, 6).map((i) => (
-              <MotionDivDownToUp
-                key={i}
-                className={
-                  i === 4
-                    ? "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
-                    : undefined
-                }
-              >
-                <IconFeatureCard
-                  icon={content.texts.features[`card${i}`].icon}
-                  title={renderTitle(i)}
-                  paragraph={t(`features.card${i}.subtitle`)}
+            {features
+              .filter((_, index) => index >= 3)
+              .map((card, index) => (
+                <MotionDivDownToUp
+                  key={index}
                   className={
-                    i === 4 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
+                    "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
                   }
-                  colorMode={colorMode}
-                />
-              </MotionDivDownToUp>
-            ))}
+                >
+                  <IconFeatureCard
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={"tablet1:mb-[26px] desktop1:mb-0"}
+                    colorMode={colorMode}
+                  ></IconFeatureCard>
+                </MotionDivDownToUp>
+              ))}
           </div>
         </div>
       </SectionWrapper>

@@ -8,8 +8,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesModalWithCards({ colorMode }) {
-  const { t } = useTranslation();
-
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -24,36 +22,35 @@ export default function FeaturesModalWithCards({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
+  const features = Object.values(content.texts.features.cards);
+
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
         className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-          <div className="col1 desktop1:w-[28%] flex flex-col items-center">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card1.icon}
-                title={t("features.card1.title")}
-                paragraph={t("features.card1.subtitle")}
-                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card2.icon}
-                title={t("features.card2.title")}
-                paragraph={t("features.card2.subtitle")}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+            {features
+              .filter((_, index) => index < 2)
+              .map((card, index) => (
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    key={index}
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                    colorMode={colorMode}
+                  />
+                </MotionDivDownToUp>
+              ))}
           </div>
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
@@ -65,26 +62,38 @@ export default function FeaturesModalWithCards({ colorMode }) {
             />
           </MotionDivDownToUp>
 
-          <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-            <MotionDivDownToUp className="flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
-              <IconFeatureCard
-                icon={content.texts.features.card3.icon}
-                title={t("features.card3.title")}
-                paragraph={t("features.card3.subtitle")}
-                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp className="flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
-              <IconFeatureCard
-                icon={content.texts.features.card4.icon}
-                title={t("features.card4.title")}
-                paragraph={t("features.card4.subtitle")}
-                colorMode={colorMode}
-              >
-                <ServicesModal />
-              </IconFeatureCard>
-            </MotionDivDownToUp>
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+            {features
+              .filter((_, index) => index === 2)
+              .map((card, index) => (
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    key={index}
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                    colorMode={colorMode}
+                  />{" "}
+                </MotionDivDownToUp>
+              ))}
+            {features
+              .filter((_, index) => index === 3)
+              .map((card, index) => (
+                <MotionDivDownToUp>
+                  <IconFeatureCard
+                    key={index}
+                    icon={card.icon}
+                    title={card.title}
+                    paragraph={card.subtitle}
+                    className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                    colorMode={colorMode}
+                  >
+                    {" "}
+                    <ServicesModal />
+                  </IconFeatureCard>{" "}
+                </MotionDivDownToUp>
+              ))}
           </div>
         </div>
       </SectionWrapper>

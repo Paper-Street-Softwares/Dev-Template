@@ -12,7 +12,6 @@ import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
 import FeatureImgOnBgCard from "../cards/FeaturesOnBgCard";
 
 export default function FeaturesButton({ colorMode }) {
-  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -38,7 +37,7 @@ export default function FeaturesButton({ colorMode }) {
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
-  const cardNumbers = [1, 2, 3, 4];
+  const cardNumbers = Object.values(content.texts.features.cards);
 
   return (
     <>
@@ -48,43 +47,25 @@ export default function FeaturesButton({ colorMode }) {
       >
         <SectionHeader
           className={`text-center ${textClass} mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]`}
-          miniTitle={t("features.miniTag")}
-          sectionHeaderTitle={t("features.title")}
-          sectionHeaderSubtitle={t("features.subtitle")}
+          miniTitle={content.texts.features.miniTag}
+          sectionHeaderTitle={content.texts.features.title}
+          sectionHeaderSubtitle={content.texts.features.subtitle}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
         />
 
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px]">
-            {cardNumbers.map((i) => {
-              const card = content.texts.features[`card${i}`];
-              return (
-                <FeatureImgOnBgCard
-                  key={i}
-                  bgImg={card.img}
-                  title={t(`features.card${i}.title`)}
-                  description={t(`features.card${i}.subtitle`)}
-                  buttonLabel={t(`features.card${i}.buttonLabel`)}
-                  animation
-                  // onClick={() =>
-                  //   onClick(
-                  //     t(`features.card${i}.title`),
-                  //     t(`features.card${i}.subtitle`),
-                  //     <ServiceDetailCard
-                  //       img={card.img}
-                  //       description={t(`features.card${i}.description`)}
-                  //       buttonIcon={card.icon}
-                  //       buttonLabel={t(`features.card${i}.buttonLabelModal`)}
-                  //       buttonLink={content.texts.links.ctaWhatsapp}
-                  //       bgPosition="bg-top"
-                  //     />
-                  //   )
-                  // }
-                  // colorMode={colorMode}
-                />
-              );
-            })}
+            {cardNumbers.map((card, index) => (
+              <FeatureImgOnBgCard
+                key={index}
+                bgImg={card.img}
+                title={card.title}
+                description={card.subtitle}
+                buttonLabel={card.buttonLabel}
+                animation
+              />
+            ))}
           </div>
         </SectionWrapper>
       </SectionArea>

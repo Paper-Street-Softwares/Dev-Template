@@ -6,10 +6,10 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import content from "../../content/content";
+import { Key } from "lucide-react";
 
 export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
-  const { t, i18n } = useTranslation();
-
+  const features = Object.values(content.texts.features.cards);
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -29,9 +29,9 @@ export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
       <SectionHeader
         colorMode="dark"
         className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
       />
@@ -39,24 +39,13 @@ export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
           <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-            {[
-              "card1",
-              "card2",
-              "card3",
-              "card4",
-              "card5",
-              "card6",
-              "card7",
-              "card8",
-            ].map((cardKey) => (
-              <MotionDivDownToUp
-                key={cardKey}
-                className="flex flex-col items-center justify-center border-[2px] border-solid rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[20%]"
-              >
+            {features.map((card, index) => (
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[20%]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features[cardKey].icon}
-                  title={t(`features.${cardKey}.title`)}
-                  paragraph={t(`features.${cardKey}.subtitle`)}
+                  key={index}
+                  icon={card.icon}
+                  title={card.title}
+                  paragraph={card.subtitle}
                   className=""
                   colorMode={colorMode}
                 />
@@ -65,8 +54,8 @@ export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
                     size="small"
                     className="bg-darker"
                     labelColor="text-white"
-                    label={t(`features.${cardKey}.buttonLabel`)}
-                    buttonLink={t("links.ctaWhatsapp")}
+                    label={card.buttonLabel}
+                    buttonLink=""
                     icon={
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

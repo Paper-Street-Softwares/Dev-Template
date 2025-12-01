@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 
 export default function CtaLP() {
   const navigate = useNavigate();
-  const { t } = useTranslation();
+
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState(null);
   const [modalTitle, setModalTitle] = useState("");

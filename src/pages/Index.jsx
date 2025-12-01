@@ -5,34 +5,35 @@ import Steps from "../components/sections/Steps";
 import Features from "../components/sections/Features";
 import Navbar from "../components/sections/NavbarSocial";
 import FooterSocial from "../components/sections/FooterSocial";
-import AboutInstagram from "../components/sections/AboutInstagram";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import Maps from "../components/sections/Maps";
 import BlogPosts from "../components/sections/BlogPosts";
 import CtaSecondary from "../components/sections/CtaSecondary";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import "./../i18n";
-import Button from "../components/interactives/Button";
-import UnderConstruction from "../components/interactives/UnderConstruction";
+// import Button from "../components/interactives/Button";
+// import UnderConstruction from "../components/interactives/UnderConstruction";
 import { useColorMode } from "../assets/context/ColorModeContext";
 import News from "../components/sections/News";
-import Testimonial from "../components/sections/lp01/Testimonials";
+// import Testimonial from "../components/sections/lp01/Testimonials";
 import Team from "../components/sections/Team";
+import AboutWpp from "../components/sections/AboutWpp";
+import AboutSocial from "../components/sections/AboutSocial";
 
 export default function Index() {
   const showUnderConstruction = false;
 
   const { colorMode, setColorMode } = useColorMode();
-  const { t, i18n } = useTranslation();
+  // const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  // const changeLanguage = (lng) => {
+  //   i18n.changeLanguage(lng);
+  // };
 
-  if (showUnderConstruction) {
-    return <UnderConstruction />;
-  }
+  // if (showUnderConstruction) {
+  //   return <UnderConstruction />;
+  // }
 
   return (
     <>
@@ -66,20 +67,21 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
-        iconsWithModal={false}
+        paragraphsModal={false}
+        iconsWithModal={false} //último card com Demais áreas
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} socialPrint={false} />
+      {/* <AboutSocial socialPrint={true} /> */}
+      <AboutWpp colorMode={colorMode} />
       {/* <Team /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
