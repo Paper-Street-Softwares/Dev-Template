@@ -1,4 +1,4 @@
-import { Trans } from "react-i18next";
+import content from "../../content/content";
 
 export default function AboutFading({ colorMode = "default" }) {
   const textClasses = {
@@ -22,7 +22,7 @@ export default function AboutFading({ colorMode = "default" }) {
         max-h-[200px] overflow-hidden
       `}
     >
-      <Trans i18nKey="about.paragraph" />
+      {content.texts.about.paragraph}
 
       <div
         className={`pointer-events-none absolute bottom-0 w-full h-[80px] bg-gradient-to-b from-transparent ${fadeClass}`}

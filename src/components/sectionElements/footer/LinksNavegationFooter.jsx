@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import { useTranslation } from "react-i18next";
 import content from "../../../content/content";
 
 function LinksNavegationFooter({ mode = "blog" }) {
@@ -8,7 +7,8 @@ function LinksNavegationFooter({ mode = "blog" }) {
 
   useEffect(() => {
     const menuItems = content.texts.navbar.menuItems || {};
-    const allIds = Object.keys(menuItems);
+    const menuIds = content.texts.navbar.menuId;
+    const allIds = Object.values(menuIds);
     const allLabels = Object.values(menuItems);
 
     const paired = allIds.map((id, index) => ({
@@ -16,8 +16,13 @@ function LinksNavegationFooter({ mode = "blog" }) {
       label: allLabels[index] || id,
     }));
 
-    setVisibleLinks(paired);
-  }, [content]);
+    if (mode === "blog") {
+      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
+      setVisibleLinks(filtered);
+    } else {
+      setVisibleLinks(paired);
+    }
+  }, [mode]);
 
   const half = Math.ceil(visibleLinks.length / 2);
   const firstHalf = visibleLinks.slice(0, half);
@@ -39,7 +44,6 @@ function LinksNavegationFooter({ mode = "blog" }) {
     };
 
     if (mode === "blog") {
-      // Scroll suave, mas com <a href> rastreável
       return (
         <a
           href={`#${id}`}

@@ -473,7 +473,6 @@ const content = {
         },
         miniTag: "A_Definir",
         title: "A_Definir",
-        subtitle: "A_Definir",
         paragraph: <p>A_Definir</p>,
         labelWhatsApp: "A_Definir",
         ariaLabelWhatsApp: "Botão de Contato",

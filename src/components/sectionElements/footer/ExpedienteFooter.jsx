@@ -9,7 +9,7 @@ function ExpedienteFooter({ showSecond = false }) {
     <>
       {/* Expediente principal */}
       <MotionDivDownToUp>
-        <div className="flex full gap-x-[12px] items-center opacity-90">
+        <div className="flex full gap-x-[12px] items-center opacity-90 text-paragraph2">
           <div>
             <CalendarCheck2 />
           </div>

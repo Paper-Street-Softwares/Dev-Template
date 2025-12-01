@@ -110,6 +110,7 @@ export const infos = {
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
       <p>Atendimento somente mediante agendamento</p>
+      <br />
       <p>As mensagens recebidas são respondidas conforme disponibilidade.</p>
     </div>
   ),
@@ -152,14 +153,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM JOINVILLE - SC",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          <span className="text-primary"> Segurança</span> jurídica e
+          <span className="text-primary"> proteção</span> patrimonial para a sua
+          vida.
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Atuamos com excelência nas principais áreas do Direito, oferecendo soluções personalizadas e transparentes.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -169,7 +172,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Fale com um Especialista",
       obsHero: {
         icon: (
           <svg
@@ -189,7 +192,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Escritório de referência no centro de Joinville - SC, especialistas em áreas de maior demanda.",
       },
       secondaryCta: "Contato",
       images: {
@@ -213,16 +216,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Nossas áreas de atuação",
+      subtitle:
+        "Nossa experiência foca em soluções estratégicas para as demandas mais críticas do Direito.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       cards: {
         card1: {
           img: featuresImg1,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito Previdenciário",
+          subtitle: "Planejamento e concessão de aposentadorias e auxílios.",
           description: (
             <div>
               A_Definir
@@ -238,8 +242,8 @@ const content = {
         },
         card2: {
           img: featuresImg2,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito Trabalhista",
+          subtitle: "Ampla atuação em ações de empregados e empresas.",
           description: (
             <div>
               A_Definir
@@ -255,8 +259,8 @@ const content = {
         },
         card3: {
           img: featuresImg3,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito de Família",
+          subtitle: "Divórcio, pensão alimentícia, guarda e união estável.",
           description: (
             <div>
               A_Definir <br />
@@ -271,8 +275,8 @@ const content = {
         },
         card4: {
           img: featuresImg4,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Seguro",
+          subtitle: "Cobrança de indenizações e disputas contra seguradoras.",
           description: (
             <div>
               A_Definir
@@ -299,8 +303,8 @@ const content = {
         },
         card5: {
           img: featuresImg5,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Direito do Consumidor",
+          subtitle: "Defesa contra cobranças indevidas, produtos e serviços.",
           description: (
             <div>
               A_Definir
@@ -333,8 +337,8 @@ const content = {
         },
         card6: {
           img: featuresImg6,
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Inventário",
+          subtitle: "Partilha de bens, testamentos e sucessão em geral.",
           description: (
             <div>
               A_Definir
@@ -385,10 +389,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      embedsrc: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Joinville - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.8383438498117!2d-48.843653599999996!3d-26.299340099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb035f1b27b93%3A0x59ee8db9916b6685!2sTestoni%20Advocacia%20Previdenci%C3%A1ria%20e%20Trabalhista!5e0!3m2!1spt-BR!2sbr!4v1764603151387!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -396,35 +402,51 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A TESTONI & ADVOGADOS",
+      title: "Nossa trajetória",
+      subtitle:
+        "Estabelecemos nossa história em Joinville, prestando serviços jurídicos especializados.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
+          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
+          por seu expressivo polo industrial e comercial no norte catarinense.
+          Esta localização privilegiada nos permitiu especializar nossa atuação
+          para atender a crescente e complexa demanda por soluções jurídicas
+          inerentes a cidades desse porte, focando nas áreas de maior interesse
+          e procura do empresariado e da população local.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
+          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
+          por seu expressivo polo industrial e comercial no norte catarinense.
+          Esta localização privilegiada nos permitiu especializar nossa atuação
+          para atender a crescente e complexa demanda por soluções jurídicas
+          inerentes a cidades desse porte, focando nas áreas de maior interesse
+          e procura do empresariado e da população local.
           <br />
           <br />
-          A_Definir
+          Nosso escritório se consolidou com excelência nas áreas de{" "}
+          <strong>
+            Direito Trabalhista, Previdenciário, Consumidor e Seguros
+          </strong>
+          , garantindo a proteção dos direitos e patrimônios de nossos clientes.
+          Além disso, oferecemos suporte jurídico de alto nível em áreas civis
+          essenciais, como <strong>Direito de Família e Propriedade</strong>,
+          assegurando um atendimento completo e multidisciplinar.
           <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
+          <br />O alicerce da <strong>Testoni & Advogados</strong> reside em
+          valores inegociáveis: Trabalho,{" "}
+          <strong>Honestidade, Comprometimento e Transparência</strong>. É por
+          meio destes princípios que prestamos serviços jurídicos personalizados
+          e especializados, dedicados integralmente à busca pela plena
+          satisfação e sucesso de cada cliente e parceiro.
         </p>
       ),
-      paragraphModalCta: "A_Definir",
-      titleModal: "A_Definir",
+      paragraphModalCta: "Entre em contato",
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
       galeria: {
@@ -475,11 +497,18 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelWhatsApp: "A_Definir",
+        miniTag: "ASSESSORIA JURÍDICA NACIONAL",
+        title: "Atendimento on-line em todo Brasil",
+        paragraph: (
+          <p>
+            Com um atendimento especializado e sem fronteiras, não medimos
+            esforços para atender nossos clientes em qualquer lugar do Brasil.
+            Onde você estiver, estamos prontos para oferecer suporte jurídico
+            eficiente e personalizado, garantindo que seus direitos sejam
+            protegidos.
+          </p>
+        ),
+        labelWhatsApp: "Entre em contato agora",
         ariaLabelWhatsApp: "Botão de Contato",
       },
     },
@@ -496,9 +525,9 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          <span className="text-primary">Dúvidas?</span> Entre em contato
           conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -512,7 +541,7 @@ const content = {
       ctaButtonText: "Falar agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Entre em Contato",
     },
     steps: {
       miniTag: "PASSO A PASSO",
