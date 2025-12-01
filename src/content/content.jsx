@@ -110,8 +110,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "mauromoncaoadvogados_", // Sem o @
-  facebookProfile: "61584312205991",
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
   linkeDinProfile: "",
   x: "",
   tiktokProfile: "",
@@ -187,7 +187,7 @@ const content = {
         ),
         text: "A_Definir",
       },
-      secondaryCta: "A_Definir",
+      secondaryCta: "Contato",
       images: {
         background: bgHeroImg,
         static: {
@@ -384,8 +384,7 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d456.98033254231933!2d-46.6933381!3d-23.6099751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cbbcc489d7%3A0xc7f10feaf018ce35!2sRua%20Arandu%2C%20205%20-%20Conjunto%201005%20-%20Itaim%20Bibi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004562-030!5e0!3m2!1spt-BR!2sbr!4v1758897111607!5m2!1spt-BR!2sbr",
+      embedsrc: "A_Definir",
     },
     about: {
       imagem: {
@@ -489,18 +488,8 @@ const content = {
       imgNews1: imgNews1,
       alt: "imagem ilustrativa da Seção Notícias",
     },
-    cta: {
-      backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
-    },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
-      // miniTag: "FALE CONOSCO",
       title: (
         <h1>
           <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
@@ -924,11 +913,11 @@ const content = {
     },
     socios: {
       socio1: {
-        nome: "Gabriel",
-        rota: "Gabriel",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
-        telefone: "21972613067",
-        whatsapp: "21972613067",
+        telefone: "A_Definir",
+        whatsapp: "A_Definir",
         email: "",
         social: {
           instagram: "",
@@ -939,8 +928,8 @@ const content = {
         },
       },
       socio2: {
-        nome: "Biell",
-        rota: "Biell",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
         telefone: "00000000000",
         whatsapp: "00000000000",
@@ -954,11 +943,11 @@ const content = {
         },
       },
       socio4: {
-        nome: "Edison",
-        rota: "Edison",
+        nome: "A_Definir",
+        rota: "A_Definir",
         sobrenome: "",
-        telefone: "66666666666",
-        whatsapp: "66666666666",
+        telefone: "A_Definir",
+        whatsapp: "A_Definir",
         email: "",
         social: {
           instagram: "",
