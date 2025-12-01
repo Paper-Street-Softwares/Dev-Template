@@ -69,19 +69,19 @@ import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Testoni & Advogados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "www.testoniadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "86",
-    firstPart: "99482", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0054", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6656", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "3029", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1888", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -91,9 +91,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Dona Francisca, nº 260,</p>
+      <p>sobreloja 18 Edif. Deville</p>
+      <p>Centro - Joinville - SC,</p>
+      <p>CEP: 89201-250</p>
     </div>
   ),
   enderecoSecundario: (
@@ -108,7 +109,8 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Atendimento somente mediante agendamento</p>
+      <p>As mensagens recebidas são respondidas conforme disponibilidade.</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
