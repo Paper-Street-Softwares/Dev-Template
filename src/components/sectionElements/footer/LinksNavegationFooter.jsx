@@ -1,28 +1,40 @@
 import React, { useEffect, useState } from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
-
 function LinksNavegationFooter({ mode = "blog" }) {
   const [visibleLinks, setVisibleLinks] = useState([]);
 
   useEffect(() => {
-    const menuItems = content.texts.navbar.menuItems || {};
-    const menuIds = content.texts.navbar.menuId;
-    const allIds = Object.values(menuIds);
-    const allLabels = Object.values(menuItems);
+    const updateVisible = () => {
+      const allIds = content.texts.navbar.menuId;
+      const allLabels = content.texts.navbar.menuItems;
 
-    const paired = allIds.map((id, index) => ({
-      id,
-      label: allLabels[index] || id,
-    }));
+      const paired = allIds.map((id, index) => ({
+        id,
+        label: allLabels[index] || id,
+      }));
 
-    if (mode === "blog") {
-      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
-      setVisibleLinks(filtered);
-    } else {
-      setVisibleLinks(paired);
-    }
-  }, [mode]);
+      // FILTRAR SOMENTE OS IDS PRESENTES NO DOM
+      const onlyExisting = paired.filter(({ id }) => {
+        return document.getElementById(id);
+      });
+
+      setVisibleLinks(onlyExisting);
+    };
+
+    // roda uma vez ao carregar
+    updateVisible();
+
+    // observa alterações no DOM (se uma seção aparecer depois)
+    const observer = new MutationObserver(updateVisible);
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   const half = Math.ceil(visibleLinks.length / 2);
   const firstHalf = visibleLinks.slice(0, half);
@@ -31,7 +43,9 @@ function LinksNavegationFooter({ mode = "blog" }) {
   const handleScroll = (id) => {
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      const yOffset = -90;
+      const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
 
@@ -75,7 +89,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
       <div className="flex justify-between full opacity-90">
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {firstHalf.map(({ id, label }) => (
-            <div key={id} className="h-auto hover:underline">
+            <div key={id} className="h-auto">
               {renderLink(id, label)}
             </div>
           ))}
@@ -83,7 +97,7 @@ function LinksNavegationFooter({ mode = "blog" }) {
 
         <div className="w-[46%] flex flex-col gap-y-[16px]">
           {secondHalf.map(({ id, label }) => (
-            <div key={id} className="h-auto hover:underline">
+            <div key={id} className="h-auto">
               {renderLink(id, label)}
             </div>
           ))}
