@@ -1,11 +1,12 @@
-import "../../index.css";
-import DefaultModals from "./DefaultModals";
-import FeaturesButton from "./FeaturesButton";
-import Features6cards from "./Features6cards";
-import FeaturesWithIcons from "./FeaturesWithIcons";
-import FeaturesParagraphs from "./FeaturesParagraphs";
-import FeaturesModalWithCards from "./FeaturesModalWithCards";
-import FeaturesIconWithModal from "./FeaturesIconWithModal";
+import '../../index.css'
+import DefaultModals from './DefaultModals'
+import FeaturesButton from './FeaturesButton'
+import Features6cards from './Features6cards'
+import FeaturesWithIcons from './FeaturesWithIcons'
+import FeaturesParagraphs from './FeaturesParagraphs'
+import FeaturesModalWithCards from './FeaturesModalWithCards'
+import FeaturesIconWithModal from './FeaturesIconWithModal'
+import FeaturesWithCarousel from './FeaturesWithCarousel'
 
 export default function Features({
   colorMode,
@@ -16,6 +17,7 @@ export default function Features({
   paragraphsModal,
   defaultFeature,
   iconsWithModal,
+  carousel,
 }) {
   return (
     <>
@@ -26,6 +28,7 @@ export default function Features({
       {paragraphsModal && <DefaultModals colorMode={colorMode} />}
       {defaultFeature && <FeaturesWithIcons colorMode={colorMode} />}
       {iconsWithModal && <FeaturesIconWithModal colorMode={colorMode} />}
+      {carousel && <FeaturesWithCarousel colorMode={colorMode} />}
     </>
-  );
+  )
 }

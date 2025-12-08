@@ -1,30 +1,30 @@
-import Faq from "../components/sections/Faq";
-import Hero from "../components/sections/Hero";
-import About from "../components/sections/About";
-import Steps from "../components/sections/Steps";
-import Features from "../components/sections/Features";
-import Navbar from "../components/sections/NavbarSocial";
-import FooterSocial from "../components/sections/FooterSocial";
-import BackToTopButton from "../components/interactives/BackToTopButton";
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import Maps from "../components/sections/Maps";
-import BlogPosts from "../components/sections/BlogPosts";
-import CtaSecondary from "../components/sections/CtaSecondary";
+import Faq from '../components/sections/Faq'
+import Hero from '../components/sections/Hero'
+import About from '../components/sections/About'
+import Steps from '../components/sections/Steps'
+import Features from '../components/sections/Features'
+import Navbar from '../components/sections/NavbarSocial'
+import FooterSocial from '../components/sections/FooterSocial'
+import BackToTopButton from '../components/interactives/BackToTopButton'
+import FloatingWhatsappButton from '../components/interactives/FloatingWhatsappButton'
+import Maps from '../components/sections/Maps'
+import BlogPosts from '../components/sections/BlogPosts'
+import CtaSecondary from '../components/sections/CtaSecondary'
 // import { useTranslation } from "react-i18next";
-import "./../i18n";
+import './../i18n'
 // import Button from "../components/interactives/Button";
 // import UnderConstruction from "../components/interactives/UnderConstruction";
-import { useColorMode } from "../assets/context/ColorModeContext";
-import News from "../components/sections/News";
+import { useColorMode } from '../assets/context/ColorModeContext'
+import News from '../components/sections/News'
 // import Testimonial from "../components/sections/lp01/Testimonials";
-import Team from "../components/sections/Team";
-import AboutWpp from "../components/sections/AboutWpp";
-import AboutSocial from "../components/sections/AboutSocial";
+import Team from '../components/sections/Team'
+import AboutWpp from '../components/sections/AboutWpp'
+import AboutSocial from '../components/sections/AboutSocial'
 
 export default function Index() {
-  const showUnderConstruction = false;
+  const showUnderConstruction = false
 
-  const { colorMode, setColorMode } = useColorMode();
+  const { colorMode, setColorMode } = useColorMode()
   // const { t, i18n } = useTranslation();
 
   // const changeLanguage = (lng) => {
@@ -68,22 +68,23 @@ export default function Index() {
       <Features
         colorMode={colorMode}
         defaultFeature={false}
-        button={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
         iconsWithModal={false} //último card com Demais áreas
+        carousel={true}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      {/* <AboutSocial socialPrint={true} /> */}
-      <AboutWpp colorMode={colorMode} />
+      <AboutSocial socialPrint={true} />
+      {/* <AboutWpp colorMode={colorMode} /> */}
       {/* <Team /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
         addres={true}
@@ -93,5 +94,5 @@ export default function Index() {
       <FloatingWhatsappButton />
       <BackToTopButton />
     </>
-  );
+  )
 }
