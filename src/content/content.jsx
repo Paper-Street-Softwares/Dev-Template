@@ -46,7 +46,7 @@ import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.webp'
 import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.webp'
 import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.webp'
 import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.webp'
-import { Briefcase, Gavel, Scale } from 'lucide-react'
+import { Briefcase, Gavel, LucideIdCard, Scale } from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
 import imgNews1 from '../assets/imgs/news/imgNews1.webp'
@@ -67,14 +67,14 @@ import aboutWppMobile from '../assets/imgs/about/aboutWppMobile.webp'
 const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: 'A_Definir',
+  name: 'Biasi Empreendimentos Imobiliários',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
   domain: 'biasiimobiliaria.com.br', // Sem "www"
   phone: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: '19',
+    firstPart: '99362', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '4646', // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: 'A_Definir',
@@ -89,9 +89,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Dr. Euclydes vieira,</p>
+      <p>nº 205, São Quirino</p>
+      <p>Campinas - SP, </p>
+      <p>CEP: 13088-280</p>
     </div>
   ),
   enderecoSecundario: (
@@ -106,7 +107,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -148,14 +149,15 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'A_Definir',
+      miniTag: 'BIASI EMPREENDIMENTOS IMOBILIÁRIOS - SP',
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Não precisa mais
+          <span className="text-primary"> procurar</span>
         </h1>
       ),
-      subtitle: 'A_Definir',
+      subtitle:
+        'Seu imóvel está aqui. Seja compra ou venda, a Biasi é sua solução.',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -165,27 +167,12 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'A_Definir',
+      ctaButtonText: 'Fale agora com a gente',
       obsHero: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-map-pin-check"
-          >
-            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
-            <circle cx="12" cy="10" r="3" />
-            <path d="m16 18 2 2 4-4" />
-          </svg>
-        ),
-        text: 'A_Definir',
+        icon: <LucideIdCard />,
+        iconTwo: <LucideIdCard />,
+        text: 'Marcelo Biasi - CRECI 32.827',
+        textTwo: 'Luciano Biasi - CRECI 207.125',
       },
       secondaryCta: 'Contato',
       images: {
