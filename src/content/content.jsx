@@ -1,100 +1,106 @@
-import logo from "../assets/imgs/logo/logo.webp";
-import heroImgPhone from "../assets/imgs/hero/personImg.webp";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
-import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
+import logo from '../assets/imgs/logo/logo.webp'
+import heroImgPhone from '../assets/imgs/hero/personImg.webp'
+import heroImgDesktop from '../assets/imgs/hero/bgHeroInfluencer.webp'
+import bgHeroImg from '../assets/imgs/hero/bgHeroInfluencer.webp'
+import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
+import backgroundPersonMobile from '../assets/imgs/hero/bgHeroMobile.webp'
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from '../assets/imgs/features/imgServices.webp'
+import image1 from '../assets/imgs/features/img1.webp'
+import image2 from '../assets/imgs/features/img2.webp'
+import image3 from '../assets/imgs/features/img3.webp'
+import image4 from '../assets/imgs/features/img4.webp'
+import image5 from '../assets/imgs/features/img5.webp'
+import image6 from '../assets/imgs/features/img6.webp'
+import image7 from '../assets/imgs/features/img7.webp'
+import image8 from '../assets/imgs/features/img8.webp'
 
-import aboutImg from "../assets/imgs/about/aboutImg.webp";
-import img1 from "../assets/imgs/about/imgGaleria1.webp";
-import img2 from "../assets/imgs/about/imgGaleria2.webp";
-import img3 from "../assets/imgs/about/imgGaleria3.webp";
-import img4 from "../assets/imgs/about/imgGaleria4.webp";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
+import aboutImg from '../assets/imgs/about/aboutImg.webp'
+import img1 from '../assets/imgs/about/imgGaleria1.webp'
+import img2 from '../assets/imgs/about/imgGaleria2.webp'
+import img3 from '../assets/imgs/about/imgGaleria3.webp'
+import img4 from '../assets/imgs/about/imgGaleria4.webp'
+import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
+import aboutInstagram from '../assets/imgs/about/imgAboutInstagram.webp'
 
-import aboutWpp from "../assets/imgs/about/aboutWpp.webp";
+import aboutWpp from '../assets/imgs/about/aboutWpp.webp'
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from '../assets/imgs/steps/imgSteps.webp'
 
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.webp";
+import numbersImgBg from '../assets/imgs/paralaxe/bgParalaxe1.webp'
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.webp";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.webp";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.webp";
+import trustedByImg1 from '../assets/imgs/trustedBy/item1.webp'
+import trustedByImg2 from '../assets/imgs/trustedBy/item2.webp'
+import trustedByImg3 from '../assets/imgs/trustedBy/item3.webp'
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
-import featuresImg5 from "../assets/imgs/features/imgFeatures5.webp";
-import featuresImg6 from "../assets/imgs/features/imgFeatures6.webp";
+import featuresImg1 from '../assets/imgs/features/imgFeatures1.webp'
+import featuresImg2 from '../assets/imgs/features/imgFeatures2.webp'
+import featuresImg3 from '../assets/imgs/features/imgFeatures3.webp'
+import featuresImg4 from '../assets/imgs/features/imgFeatures4.webp'
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.webp";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.webp";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.webp";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.webp";
+import imgFeaturesCardModal1 from '../assets/imgs/features/imgFeaturesCardModal1.webp'
+import imgFeaturesCardModal2 from '../assets/imgs/features/imgFeaturesCardModal2.webp'
+import imgFeaturesCardModal3 from '../assets/imgs/features/imgFeaturesCardModal3.webp'
+import imgFeaturesCardModal4 from '../assets/imgs/features/imgFeaturesCardModal4.webp'
 
-import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.webp";
+import ctaWhatsappImgBg from '../assets/imgs/paralaxe/bgParalaxe2.webp'
 
-import teamMemberImg1 from "../assets/imgs/team/team1.webp";
-import teamMemberImg2 from "../assets/imgs/team/team2.webp";
-import teamMemberImg3 from "../assets/imgs/team/team3.webp";
-import teamMemberImg4 from "../assets/imgs/team/team4.webp";
+import teamMemberImg1 from '../assets/imgs/team/team1.webp'
+import teamMemberImg2 from '../assets/imgs/team/team2.webp'
+import teamMemberImg3 from '../assets/imgs/team/team3.webp'
+import teamMemberImg4 from '../assets/imgs/team/team4.webp'
 
-import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.webp";
-import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.webp";
-import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.webp";
-import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
-import { Briefcase, Gavel, Scale } from "lucide-react";
-import { Users } from "lucide-react";
-import { FileText } from "lucide-react";
-import imgNews1 from "../assets/imgs/news/imgNews1.webp";
+import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.webp'
+import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.webp'
+import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.webp'
+import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.webp'
+import { Briefcase, Gavel, Home, Key, LucideIdCard, Scale } from 'lucide-react'
+import { Users } from 'lucide-react'
+import { FileText } from 'lucide-react'
+import imgNews1 from '../assets/imgs/news/imgNews1.webp'
 
 // versão mobile
-import heroDefaultImgMobile from "../assets/imgs/hero/lawHeroMobile.webp";
-import aboutImgMobile from "../assets/imgs/about/AboutImgMobile.webp";
-import aboutSocialImgMobile from "../assets/imgs/about/aboutSocialMobile.webp";
-import aboutInstagramMobile from "../assets/imgs/about/imgAboutInstagramMobile.webp";
-import imgStepsMobile from "../assets/imgs/steps/imgStepsMobile.webp";
-import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
-import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
-import imgMobile3 from "../assets/imgs/about/imgGaleriaMobile3.webp";
-import imgMobile4 from "../assets/imgs/about/imgGaleriaMobile4.webp";
-import imgNews1Mobile from "../assets/imgs/news/imgNews1Mobile.webp";
-import aboutWppMobile from "../assets/imgs/about/aboutWppMobile.webp";
+import heroDefaultImgMobile from '../assets/imgs/hero/lawHeroMobile.webp'
+import aboutImgMobile from '../assets/imgs/about/AboutImgMobile.webp'
+import aboutSocialImgMobile from '../assets/imgs/about/aboutSocialMobile.webp'
+import aboutInstagramMobile from '../assets/imgs/about/imgAboutInstagramMobile.webp'
+import imgStepsMobile from '../assets/imgs/steps/imgStepsMobile.webp'
+import imgMobile1 from '../assets/imgs/about/imgGaleriaMobile1.webp'
+import imgMobile2 from '../assets/imgs/about/imgGaleriaMobile2.webp'
+import imgMobile3 from '../assets/imgs/about/imgGaleriaMobile3.webp'
+import imgMobile4 from '../assets/imgs/about/imgGaleriaMobile4.webp'
+import imgNews1Mobile from '../assets/imgs/news/imgNews1Mobile.webp'
+import aboutWppMobile from '../assets/imgs/about/aboutWppMobile.webp'
 
-const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: "Testoni & Advogados",
-  email: "contato", // Email desejado pelo cliente
-  emailSecundario: "", // Email desejado pelo cliente
-  domain: "www.testoniadvogados.com.br", // Sem "www"
+  name: 'Biasi Empreendimentos Imobiliários',
+  email: 'contato', // Email desejado pelo cliente
+  emailSecundario: 'A_Definir', // Email desejado pelo cliente
+  domain: 'biasiimobiliaria.com.br', // Sem "www"
   phone: {
-    ddd: "47",
-    firstPart: "99658", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6656", // Apenas os 4 últimos números
+    ddd: '19',
+    firstPart: '99362', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '4646', // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "47",
-    firstPart: "3029", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1888", // Apenas os 4 últimos números
+    ddd: 'A_Definir',
+    firstPart: 'A_Definir', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: 'A_Definir', // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: 'A_Definir',
+    firstPart: 'A_Definir', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: 'A_Definir', // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Dona Francisca, nº 260,</p>
-      <p>sobreloja 18 Edif. Deville</p>
-      <p>Centro - Joinville - SC,</p>
-      <p>CEP: 89201-250</p>
+      <p>Rua Dr. Euclydes vieira,</p>
+      <p>nº 205, São Quirino</p>
+      <p>Campinas - SP, </p>
+      <p>CEP: 13088-280</p>
     </div>
   ),
   enderecoSecundario: (
@@ -109,24 +115,22 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Atendimento somente mediante agendamento</p>
-      <br />
-      <p>As mensagens recebidas são respondidas conforme disponibilidade.</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "", // Sem o @
-  facebookProfile: "",
-  linkeDinProfile: "",
-  x: "",
-  tiktokProfile: "",
+  instagramProfile: 'biasiempreendimentos', // Sem o @
+  facebookProfile: '',
+  linkeDinProfile: '',
+  x: '',
+  tiktokProfile: '',
 
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    'Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.',
   whatsChatDefaultMessage:
-    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
-  slogan: "",
-};
+    'Gostaria de falar conosco agora mesmo? Clque abaixo 👇',
+  slogan: '',
+}
 
 const content = {
   texts: {
@@ -140,93 +144,87 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Blog",
-        "Perguntas Frequentes",
-        "Mapa",
+        'Início',
+        'Serviços',
+        'Sobre Nós',
+        'Blog',
+        'Perguntas Frequentes',
+        'Mapa',
       ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
-      ariaLabel: "Botão de Contato",
-      ctaButtonText: "Contato",
-      ctaButtonTextResponsive: "Contato",
+      menuId: ['home', 'service', 'about', 'blog', 'faq', 'maps'],
+      ariaLabel: 'Botão de Contato',
+      ctaButtonText: 'Contato',
+      ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM JOINVILLE - SC",
+      miniTag: 'BIASI EMPREENDIMENTOS IMOBILIÁRIOS - SP',
       title: (
         <h1 className="mb-[16px]">
-          <span className="text-primary"> Segurança</span> jurídica e
-          <span className="text-primary"> proteção</span> patrimonial para a sua
-          vida.
+          Não precisa mais
+          <span className="text-primary"> procurar</span>
         </h1>
       ),
       subtitle:
-        "Atuamos com excelência nas principais áreas do Direito, oferecendo soluções personalizadas e transparentes.",
+        'Seu imóvel está aqui. Seja compra ou venda, a Biasi é sua solução.',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
       heroDefaultImageMobile: heroDefaultImgMobile,
-      alt: "Imagem ilustrativa da Seção Início",
+      alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
-        "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Fale com um Especialista",
+        'Botão para chamada de ação para contato pelo whatsapp',
+      ctaButtonText: 'Fale agora com a gente',
       obsHero: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-map-pin-check"
-          >
-            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
-            <circle cx="12" cy="10" r="3" />
-            <path d="m16 18 2 2 4-4" />
-          </svg>
-        ),
-        text: "Escritório de referência no centro de Joinville - SC, especialistas em áreas de maior demanda.",
+        icon: <LucideIdCard />,
+        iconTwo: <LucideIdCard />,
+        text: 'Marcelo Biasi - CRECI 32.827',
+        textTwo: 'Luciano Biasi - CRECI 207.125',
       },
-      secondaryCta: "Contato",
+      secondaryCta: 'Contato',
       images: {
         background: bgHeroImg,
         static: {
           img: {},
-          alt: "",
+          alt: '',
         },
         slide1: {
           img: {},
-          alt: "",
+          alt: '',
         },
         slide2: {
           img: {},
-          alt: "",
+          alt: '',
         },
         slide3: {
           img: {},
-          alt: "",
+          alt: '',
         },
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Nossas áreas de atuação",
+      miniTag: 'NOSSAS ÁREAS DE ATUAÇÃO',
+      title: 'Onde a Biasi deixa sua marca',
       subtitle:
-        "Nossa experiência foca em soluções estratégicas para as demandas mais críticas do Direito.",
+        'Conheça os segmentos e regiões onde construímos e entregamos excelência.',
       imgFeatures: imgFeatures,
-      alt: "imagem representativa da Seção Serviços",
+      alt: 'imagem representativa da Seção Serviços',
+      imagesFeatures: {
+        imagem1: image1,
+        imagem2: image2,
+        imagem3: image3,
+        imagem4: image4,
+        imagem5: image5,
+        imagem6: image6,
+        imagem7: image7,
+        imagem8: image8,
+      },
       cards: {
         card1: {
           img: featuresImg1,
-          title: "Direito Previdenciário",
-          subtitle: "Planejamento e concessão de aposentadorias e auxílios.",
+          title: 'Imóveis alugados',
+          subtitle: 'Seu bolso agradece. Aluguel sem estresse e sem drama.',
           description: (
             <div>
               A_Definir
@@ -236,14 +234,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal1,
-          icon: <Gavel />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
+          icon: <Key />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
         },
         card2: {
           img: featuresImg2,
-          title: "Direito Trabalhista",
-          subtitle: "Ampla atuação em ações de empregados e empresas.",
+          title: 'Imóveis de Terceiros',
+          subtitle: 'Seu novo lar espera por você. Oportunidades únicas.',
           description: (
             <div>
               A_Definir
@@ -253,14 +251,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal2,
-          icon: <Scale />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
+          icon: <Home />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
         },
         card3: {
           img: featuresImg3,
-          title: "Direito de Família",
-          subtitle: "Divórcio, pensão alimentícia, guarda e união estável.",
+          title: 'Lançamentos',
+          subtitle: 'O futuro é agora, invista antes que o preço dispare.',
           description: (
             <div>
               A_Definir <br />
@@ -269,206 +267,200 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal3,
-          icon: <Users />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
+          icon: <FileText />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
         },
-        card4: {
-          img: featuresImg4,
-          title: "Seguro",
-          subtitle: "Cobrança de indenizações e disputas contra seguradoras.",
-          description: (
-            <div>
-              A_Definir
-              <br />
-              A_Definir
-              <br />
-            </div>
-          ),
-          imgModal: imgFeaturesCardModal4,
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              className="bi bi-whatsapp"
-              viewBox="0 0 16 16"
-            >
-              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-            </svg>
-          ),
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card5: {
-          img: featuresImg5,
-          title: "Direito do Consumidor",
-          subtitle: "Defesa contra cobranças indevidas, produtos e serviços.",
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          imgModal: imgFeaturesCardModal4,
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-              <path d="M12 18V6" />
-            </svg>
-          ),
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card6: {
-          img: featuresImg6,
-          title: "Inventário",
-          subtitle: "Partilha de bens, testamentos e sucessão em geral.",
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          imgModal: imgFeaturesCardModal4,
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-              <path d="M12 18V6" />
-            </svg>
-          ),
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
+        // card4: {
+        //   img: featuresImg4,
+        //   title: 'A_Definir',
+        //   subtitle: 'A_Definir',
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       A_Definir
+        //       <br />
+        //     </div>
+        //   ),
+        //   imgModal: imgFeaturesCardModal4,
+        //   icon: (
+        //     <svg
+        //       xmlns="http://www.w3.org/2000/svg"
+        //       width="24"
+        //       height="24"
+        //       fill="currentColor"
+        //       className="bi bi-whatsapp"
+        //       viewBox="0 0 16 16"
+        //     >
+        //       <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        //     </svg>
+        //   ),
+        //   buttonLabelModal: 'Fale Conosco',
+        //   buttonLabel: 'Saiba Mais',
+        // },
+        // card5: {
+        //   img: featuresImg3,
+        //   title: 'A_Definir',
+        //   subtitle: 'A_Definir',
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       <br />
+        //       A_Definir
+        //     </div>
+        //   ),
+        //   imgModal: imgFeaturesCardModal4,
+        //   icon: (
+        //     <svg
+        //       xmlns="http://www.w3.org/2000/svg"
+        //       width="24"
+        //       height="24"
+        //       viewBox="0 0 24 24"
+        //       fill="none"
+        //       stroke="currentColor"
+        //       stroke-width="2"
+        //       stroke-linecap="round"
+        //       stroke-linejoin="round"
+        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+        //     >
+        //       <circle cx="12" cy="12" r="10" />
+        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+        //       <path d="M12 18V6" />
+        //     </svg>
+        //   ),
+        //   buttonLabelModal: 'Fale Conosco',
+        //   buttonLabel: 'Saiba Mais',
+        // },
+        // card6: {
+        //   img: 3,
+        //   title: "A_Definir",
+        //   subtitle: "A_Definir",
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       <br />
+        //       A_Definir
+        //     </div>
+        //   ),
+        //   imgModal: imgFeaturesCardModal4,
+        //   icon: (
+        //     <svg
+        //       xmlns="http://www.w3.org/2000/svg"
+        //       width="24"
+        //       height="24"
+        //       viewBox="0 0 24 24"
+        //       fill="none"
+        //       stroke="currentColor"
+        //       stroke-width="2"
+        //       stroke-linecap="round"
+        //       stroke-linejoin="round"
+        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+        //     >
+        //       <circle cx="12" cy="12" r="10" />
+        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+        //       <path d="M12 18V6" />
+        //     </svg>
+        //   ),
+        //   buttonLabelModal: "Fale Conosco",
+        //   buttonLabel: "Saiba Mais",
+        // },
       },
       moreFeatures: {
         card1: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: 'A_Definir',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
         },
         card2: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: 'A_Definir',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
         },
         card3: {
-          ico: "A_Definir",
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          ico: 'A_Definir',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
         },
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Joinville - SC",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.8383438498117!2d-48.843653599999996!3d-26.299340099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb035f1b27b93%3A0x59ee8db9916b6685!2sTestoni%20Advocacia%20Previdenci%C3%A1ria%20e%20Trabalhista!5e0!3m2!1spt-BR!2sbr!4v1764603151387!5m2!1spt-BR!2sbr",
+      minitag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
+      embedsrc: 'A_Definir',
     },
     about: {
       imagem: {
         img: aboutImg,
-        alt: "Imagem ilustrativa da Seção Sobre",
+        alt: 'Imagem ilustrativa da Seção Sobre',
         imagemMobile: aboutImgMobile,
       },
-      miniTag: "QUEM É A TESTONI & ADVOGADOS",
-      title: "Nossa trajetória",
-      subtitle:
-        "Estabelecemos nossa história em Joinville, prestando serviços jurídicos especializados.",
+      miniTag: 'CONHEÇA A BIASI EMPREENDIMENTOS IMOBILIÁRIOS',
+      title: 'Nossa trajetória',
+      subtitle: 'Desde 1987 transformando sonhos em realidade.',
       paragraph: (
         <div>
-          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
-          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
-          por seu expressivo polo industrial e comercial no norte catarinense.
-          Esta localização privilegiada nos permitiu especializar nossa atuação
-          para atender a crescente e complexa demanda por soluções jurídicas
-          inerentes a cidades desse porte, focando nas áreas de maior interesse
-          e procura do empresariado e da população local.
+          A Biasi Empreendimentos Imobiliários iniciou suas atividades em 1987,
+          estabelecendo-se no mercado com o propósito de oferecer soluções
+          habitacionais de qualidade e excelência. Nossa fundação foi marcada
+          pelo compromisso inabalável com a satisfação do cliente, o que nos
+          permitiu construir uma trajetória sólida e de grande confiabilidade no
+          setor.
         </div>
       ),
-      buttonModalLabelAbout: "Continuar lendo",
+      buttonModalLabelAbout: 'Continuar lendo',
       modal: (
         <p>
-          A <strong>Testoni & Advogados</strong> nasceu no coração de{" "}
-          <strong>Joinville - SC</strong>, uma cidade estratégica e reconhecida
-          por seu expressivo polo industrial e comercial no norte catarinense.
-          Esta localização privilegiada nos permitiu especializar nossa atuação
-          para atender a crescente e complexa demanda por soluções jurídicas
-          inerentes a cidades desse porte, focando nas áreas de maior interesse
-          e procura do empresariado e da população local.
+          A Biasi Empreendimentos Imobiliários iniciou suas atividades em 1987,
+          estabelecendo-se no mercado com o propósito de oferecer soluções
+          habitacionais de qualidade e excelência. Nossa fundação foi marcada
+          pelo compromisso inabalável com a satisfação do cliente, o que nos
+          permitiu construir uma trajetória sólida e de grande confiabilidade no
+          setor.
           <br />
           <br />
-          Nosso escritório se consolidou com excelência nas áreas de{" "}
-          <strong>
-            Direito Trabalhista, Previdenciário, Consumidor e Seguros
-          </strong>
-          , garantindo a proteção dos direitos e patrimônios de nossos clientes.
-          Além disso, oferecemos suporte jurídico de alto nível em áreas civis
-          essenciais, como <strong>Direito de Família e Propriedade</strong>,
-          assegurando um atendimento completo e multidisciplinar.
+          Ao longo de décadas, a Biasi consolidou-se como referência na
+          construção civil e no desenvolvimento de projetos imobiliários,
+          pautando-se sempre pela <strong>inovação</strong> e pela ética. Cada
+          empreendimento é pensado para agregar valor à vida das pessoas e
+          contribuir para o desenvolvimento das comunidades onde estamos
+          presentes.
           <br />
-          <br />O alicerce da <strong>Testoni & Advogados</strong> reside em
-          valores inegociáveis: Trabalho,{" "}
-          <strong>Honestidade, Comprometimento e Transparência</strong>. É por
-          meio destes princípios que prestamos serviços jurídicos personalizados
-          e especializados, dedicados integralmente à busca pela plena
-          satisfação e sucesso de cada cliente e parceiro.
+          <br />
+          Hoje, mantemos o mesmo espírito pioneiro, utilizando nossa vasta
+          experiência para continuar transformando projetos em lares e
+          <strong> investimentos de sucesso.</strong> Olhamos para o futuro com
+          a missão de seguir superando expectativas e realizando o sonho da casa
+          própria para inúmeras famílias.
         </p>
       ),
-      paragraphModalCta: "Entre em contato",
-      ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Entre em contato",
+      paragraphModalCta: 'Entre em contato',
+      titleModal: 'A_Definir',
+      ctaButtonAriaLabel: 'Botão para entrar em contato',
+      ctaButtonText: 'Entre em contato',
       galeria: {
         slide1: {
           img: { img1 },
           imgMobile: { imgMobile1 },
-          alt: "Segunda imagem ilustrativa da Seção Sobre",
+          alt: 'Segunda imagem ilustrativa da Seção Sobre',
         },
         slide2: {
           img: { img2 },
           imgMobile: { imgMobile2 },
-          alt: "Terceira imagem ilustrativa da da Seção Sobre",
+          alt: 'Terceira imagem ilustrativa da da Seção Sobre',
         },
         slide3: {
           img: { img3 },
           imgMobile: { imgMobile3 },
-          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+          alt: 'Quarta imagem ilustrativa da da Seção Sobre',
         },
         slide4: {
           img: { img4 },
           imgMobile: { imgMobile4 },
-          alt: "Quarta imagem ilustrativa da da Seção Sobre",
+          alt: 'Quarta imagem ilustrativa da da Seção Sobre',
         },
       },
       aboutSocial: {
@@ -478,18 +470,19 @@ const content = {
           imgMobile: aboutSocialImgMobile,
           imgSocialMobile: aboutInstagramMobile,
           alt: `Foto do Instagram do ${infos.name}`,
-          altDefault: "Imagem ilustrativa da Seção de Redes Sociais",
+          altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
-        labelTiktok: "Siga-me no Tik Tok",
-        labelYoutube: "Siga-me no Youtube",
+        miniTag: 'REDES SOCIAIS',
+        title: 'Conecte-se conosco',
+        subtitle:
+          'Aproveite nossas redes sociais para mantermos contato e ficar por dentro dos lançamentos, novidades e atualizações do mercado imobiliário.',
+        paragraph: <p></p>,
+        labelInstagram: 'Siga-nos no Instagram',
+        labelFacebook: 'Siga-nos no Facebook',
+        labelLinkedin: 'Siga-nos no LinkedIn',
+        labelX: 'Siga-nos no X',
+        labelTiktok: 'Siga-nos no Tik Tok',
+        labelYoutube: 'Siga-nos no Youtube',
       },
       aboutWpp: {
         img: {
@@ -497,37 +490,33 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: "ASSESSORIA JURÍDICA NACIONAL",
-        title: "Atendimento on-line em todo Brasil",
-        paragraph: (
-          <p>
-            Com um atendimento especializado e sem fronteiras, não medimos
-            esforços para atender nossos clientes em qualquer lugar do Brasil.
-            Onde você estiver, estamos prontos para oferecer suporte jurídico
-            eficiente e personalizado, garantindo que seus direitos sejam
-            protegidos.
-          </p>
-        ),
-        labelWhatsApp: "Entre em contato agora",
-        ariaLabelWhatsApp: "Botão de Contato",
+        miniTag: 'A_Definir',
+        title: 'A_Definir',
+        paragraph: <p>A_Definir</p>,
+        labelWhatsApp: 'A_Definir',
+        ariaLabelWhatsApp: 'Botão de Contato',
       },
     },
     news: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      description: "",
+      miniTag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
+      description: '',
       imgNews1Mobile: imgNews1Mobile,
       imgNews1: imgNews1,
-      alt: "imagem ilustrativa da Seção Notícias",
+      alt: 'imagem ilustrativa da Seção Notícias',
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
       title: (
         <h1>
-          <span className="text-primary">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{" "}
-          <span className="text-primary">estamos te esperando.</span>
+          <span className="text-bgSectionDark">
+            Chegou a hora de transformar seu lar!
+          </span>{' '}
+          Deixe que a Biasi cuide de tudo.{' '}
+          <span className="text-bgSectionDark">
+            Estamos prontos para atendê-lo!
+          </span>
         </h1>
       ),
       subtitleDireita: (
@@ -538,95 +527,98 @@ const content = {
       titleDireita: (
         <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
       ),
-      ctaButtonText: "Falar agora",
+      ctaButtonText: 'Falar agora',
       ctaButtonAriaLabel:
-        "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Entre em Contato",
+        'Botão para chamada de ação para contato pelo whatsapp',
+      ctaButtonText: 'Entre em Contato',
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
-      subtitle: "",
+      miniTag: 'PASSO A PASSO',
+      title: 'Como funciona nosso atendimento?',
+      subtitle: '',
       img: imgSteps,
       imgMobile: imgStepsMobile,
-      alt: "Imagem ilustrativa da Seção Passo a Passo",
+      alt: 'Imagem ilustrativa da Seção Passo a Passo',
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: 'Entendimento de suas necessidades',
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            'Atendimento personalizado para identificar seu perfil (moradia/investimento) e objetivos. Encontramos a melhor opção no portfólio.',
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: 'Conhecendo o empreendimento',
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            'Apresentação das opções e visita ao local (stand / decorado). Detalhamento de plantas e infraestrutura.',
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: 'Simulação e negociação',
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            'Simulação financeira e de crédito. Proposta transparente com valores, prazos e formas de pagamento.',
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: 'Assinatura e acompanhamento',
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            'Formalização do contrato. Acompanhamento total até a entrega das chaves e o registro final do seu imóvel.',
         },
       },
     },
     blog: {
-      miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      miniTag: 'BLOG',
+      title: 'A_Definir',
+      subtitle: '',
       img: imgSteps,
-      labelCards: "Ver mais",
-      label: "Clique aqui para ver todas as matérias",
-      blogLink: "mauromoncao.wordpress.com", //sem "https://"
+      labelCards: 'Ver mais',
+      label: 'Clique aqui para ver todas as matérias',
+      blogLink: 'mauromoncao.wordpress.com', //sem "https://"
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: 'TIRE SUAS DÚVIDAS',
+      title: 'Perguntas Frequentes',
+      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas. ',
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            'Como verificar a segurança e credibilidade da construtora/incorporadora?',
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            'Pesquise o histórico de entregas da empresa, o cumprimento de prazos e a qualidade das obras realizadas. Consulte a reputação em órgãos de defesa do consumidor e a situação jurídica.',
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            'O que é o INCC e por que ele é aplicado nas parcelas durante a obra?',
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            'O INCC (Índice Nacional de Custo da Construção) é o índice legal que corrige as parcelas durante a construção. Ele garante o reajuste dos custos de materiais e mão de obra, mantendo o equilíbrio financeiro do empreendimento.',
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            'Quais são os custos adicionais (além do valor do imóvel) que devo considerar?',
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            'Além do valor de compra, você deve prever os custos de documentação, como o ITBI (Imposto sobre Transmissão de Bens Imóveis) e as taxas de registro em cartório. Eles costumam ser uma porcentagem do valor do imóvel.',
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: 'É possível desistir da compra de um imóvel na planta?',
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            'Sim, o comprador tem o direito de desistir (distrato), mas é fundamental analisar as cláusulas contratuais que definem as multas e as condições de devolução de valores, conforme a legislação vigente (Lei do Distrato).',
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph: 'Clique aqui caso tenha mais dúvidas',
     },
     team: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Edison Matos",
+            alt: 'Edison Matos',
           },
-          name: "Edison Matos",
-          role: "CEO & Diretor de Desenvolvimento",
-          description: "",
+          name: 'Edison Matos',
+          role: 'CEO & Diretor de Desenvolvimento',
+          description: '',
           socialMedia: {
             icon1: (
               <svg
@@ -646,7 +638,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: "https://www.linkedin.com/in/edison-matoss/",
+            link1: 'https://www.linkedin.com/in/edison-matoss/',
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -664,7 +656,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: "https://github.com/EdisonMatos",
+            link2: 'https://github.com/EdisonMatos',
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -683,16 +675,16 @@ const content = {
                 <path d="M2 12h20" />
               </svg>
             ),
-            link3: "https://edisonmatos.github.io/",
+            link3: 'https://edisonmatos.github.io/',
           },
         },
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Gabriel Adans",
+            alt: 'Gabriel Adans',
           },
-          name: "Gabriel Adans",
-          role: "Marketing Outsourcing",
+          name: 'Gabriel Adans',
+          role: 'Marketing Outsourcing',
           socialMedia: {
             icon1: (
               <svg
@@ -712,7 +704,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: "https://www.linkedin.com/in/gabriel-adans-2bb029227/",
+            link1: 'https://www.linkedin.com/in/gabriel-adans-2bb029227/',
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -730,7 +722,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: "https://github.com/GabrielAdans",
+            link2: 'https://github.com/GabrielAdans',
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -749,16 +741,16 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link3: "https://www.instagram.com/adansgabriel/",
+            link3: 'https://www.instagram.com/adansgabriel/',
           },
         },
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Gabriel Souza",
+            alt: 'Gabriel Souza',
           },
-          name: "Gabriel Souza",
-          role: "Desenvolvedor Frontend",
+          name: 'Gabriel Souza',
+          role: 'Desenvolvedor Frontend',
           socialMedia: {
             icon1: (
               <svg
@@ -778,7 +770,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: " https://www.linkedin.com/in/gabriel-souza-b9945929a",
+            link1: ' https://www.linkedin.com/in/gabriel-souza-b9945929a',
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -796,7 +788,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: "https://github.com/BiellSouza",
+            link2: 'https://github.com/BiellSouza',
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -815,16 +807,16 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link3: " https://www.instagram.com/biel.souza.904",
+            link3: ' https://www.instagram.com/biel.souza.904',
           },
         },
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Luiz Felipe",
+            alt: 'Luiz Felipe',
           },
-          name: "Luiz Felipe",
-          role: "Designer Ourtsourcing",
+          name: 'Luiz Felipe',
+          role: 'Designer Ourtsourcing',
           socialMedia: {
             icon1: (
               <svg
@@ -844,7 +836,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+            link1: 'https://www.linkedin.com/in/luiz-felipe-leite-95a246192/',
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -863,7 +855,7 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link2: "https://www.instagram.com/luizleitedesigner/",
+            link2: 'https://www.instagram.com/luizleitedesigner/',
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -876,118 +868,118 @@ const content = {
                 <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
               </svg>
             ),
-            link3: "https://wa.me/+556596241854",
+            link3: 'https://wa.me/+556596241854',
           },
         },
       },
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
+      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
+      midSectionName: 'Até mais',
       footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-      footerSocialText: "Siga a gente nas redes sociais:",
-      footerNavegacaoText: "NAVEGAÇÃO",
+        'Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.',
+      footerSocialText: 'Siga a gente nas redes sociais:',
+      footerNavegacaoText: 'NAVEGAÇÃO',
     },
     testimonials: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
       images: {
         img1: {
           img: imgTestimonial1,
-          alt: "Imagem de feedback",
+          alt: 'Imagem de feedback',
         },
         img2: {
           img: imgTestimonial2,
-          alt: "Imagem de feedback",
+          alt: 'Imagem de feedback',
         },
         img3: {
           img: imgTestimonial3,
-          alt: "Imagem de feedback",
+          alt: 'Imagem de feedback',
         },
         img4: {
           img: imgTestimonial4,
-          alt: "Imagem de feedback",
+          alt: 'Imagem de feedback',
         },
       },
     },
     trustedBy: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
       trustedMore: {
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: 'A_Definir',
+        subtitle: 'A_Definir',
       },
       images: {
         img1: {
           img: { trustedByImg1 },
-          alt: "marca Rennova",
+          alt: 'marca Rennova',
         },
         img2: {
           img: { trustedByImg2 },
-          alt: "marca Colgate",
+          alt: 'marca Colgate',
         },
         img3: {
           img: { trustedByImg3 },
-          alt: "marca dental Cremer",
+          alt: 'marca dental Cremer',
         },
       },
     },
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A_Definir",
+      number1Description: 'A_Definir',
       number2: 500,
-      number2Description: "A_Definir",
+      number2Description: 'A_Definir',
       number3: 1000,
-      number3Description: "A_Definir",
+      number3Description: 'A_Definir',
     },
     socios: {
       socio1: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "",
-        telefone: "A_Definir",
-        whatsapp: "A_Definir",
-        email: "",
+        nome: 'A_Definir',
+        rota: 'A_Definir',
+        sobrenome: '',
+        telefone: 'A_Definir',
+        whatsapp: 'A_Definir',
+        email: '',
         social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
+          instagram: '',
+          facebook: '',
+          linkedin: '',
+          x: '',
+          tiktok: '',
         },
       },
       socio2: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "",
-        telefone: "00000000000",
-        whatsapp: "00000000000",
-        email: "",
+        nome: 'A_Definir',
+        rota: 'A_Definir',
+        sobrenome: '',
+        telefone: '00000000000',
+        whatsapp: '00000000000',
+        email: '',
         social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
+          instagram: '',
+          facebook: '',
+          linkedin: '',
+          x: '',
+          tiktok: '',
         },
       },
       socio4: {
-        nome: "A_Definir",
-        rota: "A_Definir",
-        sobrenome: "",
-        telefone: "A_Definir",
-        whatsapp: "A_Definir",
-        email: "",
+        nome: 'A_Definir',
+        rota: 'A_Definir',
+        sobrenome: '',
+        telefone: 'A_Definir',
+        whatsapp: 'A_Definir',
+        email: '',
         social: {
-          instagram: "",
-          facebook: "",
-          linkedin: "",
-          x: "",
-          tiktok: "",
+          instagram: '',
+          facebook: '',
+          linkedin: '',
+          x: '',
+          tiktok: '',
         },
       },
     },
@@ -1013,15 +1005,15 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: "NAVEGAÇÃO",
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      footerNavegacaoText: 'NAVEGAÇÃO',
+      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
     },
   },
-};
+}
 
 export const abstractions = {
   titleModal: <strong>{content.texts.about.title}</strong>,
   subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
-};
+}
 
-export default content;
+export default content
