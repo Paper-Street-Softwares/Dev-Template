@@ -67,14 +67,14 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
         iconsWithModal={false} //último card com Demais áreas
-        carousel={true}
+        carousel={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutSocial socialPrint={true} />
