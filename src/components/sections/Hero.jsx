@@ -91,18 +91,6 @@ export default function Hero({
                 </p>
               </div>
             </div>
-            <div className="flex justify-center desktop1:justify-start mt-6">
-              <div
-                className={`flex items-center desktop1:flex-row ${obsTextColorOverride}`}
-              >
-                <span>{content.texts.hero.obsHero.icon}</span>
-                <p
-                  className={`ml-[10px] text-center font-secondFont desktop1:text-start desktop1:mt-0 ${obsTextColorOverride}`}
-                >
-                  {content.texts.hero.obsHero.textTwo}
-                </p>
-              </div>
-            </div>
           </MotionDivDownToUp>
         </div>
       </div>
