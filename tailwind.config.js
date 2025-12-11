@@ -5,7 +5,7 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: '#075e54',
+      primary: '#2A574E',
       buttonColor: '#075e54',
       minititleDark: '#075e54', //bg minitag de seções claras
       minititle: '#075e54', //bg minitag de seções escuras
@@ -15,6 +15,8 @@ export const theme = {
       // classes template Novo
       mutedForeground: '#5B706A',
       accent: '#CB984D',
+      foreground: '#1B302B',
+      border: '#E2E8E6',
 
       // Fundos de Seção
 
@@ -58,7 +60,7 @@ export const theme = {
       'custom-opacityButton': '-5px 5px 0px', // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ['Playfair', 'sans-serif'],
+      mainFont: ['Playfair Display', 'serif'],
       // mainFont: ["Poppins", "sans-serif"],
       secondFont: ['Inter', 'sans-serif'],
       league: ['League Gothic'],

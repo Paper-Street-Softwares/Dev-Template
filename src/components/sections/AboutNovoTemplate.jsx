@@ -7,11 +7,11 @@ import content from '../../content/content'
 
 function AboutNovoTemplate() {
   return (
-    <SectionArea paddingtop={false}>
+    <SectionArea className="bg-secondary/20">
       <SectionWrapper>
-        <section className=" bg-secondary/20 w-full relative overflow-hidden">
+        <section className="w-full relative overflow-hidden">
           <div className="container mx-auto relative z-10">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="grid lg:grid-cols-2 gap-4 desltop1:gap-16 items-center">
               <div className="space-y-8">
                 <div>
                   <span className="text-primary font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block">
@@ -59,18 +59,20 @@ function AboutNovoTemplate() {
                   </div>
                 </div>
 
-                <Button className="bg-primary hover:bg-primary/90 font-secondFont font-medium text-white rounded-full px-8 py-6">
+                <Button className="bg-primary hover:bg-primary/90  shadow-lg shadow-primary/20 font-secondFont font-medium text-white rounded-full px-8 py-6 transition-all hover:scale-105">
                   Conheça nossa história
                 </Button>
               </div>
 
-              <div className="relative">
-                <div className="absolute inset-0 bg-primary/5 rounded-[3rem] rotate-3 scale-110" />
-                <img
-                  src={content.texts.about.imagem.img}
-                  alt="Sócios Amaral e Peres"
-                  className="relative rounded-[3rem] shadow-2xl w-full scale-105 hover:scale-100 transition-transform duration-700"
-                />
+              <div>
+                <div className="relative w-[80%] my-10 m-auto ">
+                  <div className="absolute inset-0 bg-primary/5 rounded-[3rem] rotate-3 scale-110" />
+                  <img
+                    src={content.texts.about.imagem.img}
+                    alt="Sócios Amaral e Peres"
+                    className="relative rounded-[3rem] w-full scale-105 hover:scale-100 transition-transform duration-700"
+                  />
+                </div>
               </div>
             </div>
           </div>

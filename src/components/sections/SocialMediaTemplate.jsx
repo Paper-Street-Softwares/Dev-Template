@@ -6,7 +6,7 @@ import { Instagram, ArrowRight, Facebook, Linkedin } from 'lucide-react'
 
 function SocialMediaTemplate() {
   return (
-    <SectionArea paddingtop={false}>
+    <SectionArea>
       <SectionWrapper>
         <section className=" bg-white">
           <div className="container mx-auto">

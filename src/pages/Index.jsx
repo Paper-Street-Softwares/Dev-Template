@@ -30,6 +30,7 @@ import TeamNovoTemplate from '../components/sections/TeamNovoTemplate'
 import StepsNovoTemplate from '../components/sections/StepsNovoTemplate'
 import CtaNovoTemplate from '../components/sections/CtaNovoTemplate'
 import FaqNovoTemplate from '../components/sections/FaqNovoTemplate'
+import FooterNovoTemplate from '../components/sections/FooterNovoTemplate'
 
 export default function Index() {
   const showUnderConstruction = false
@@ -84,6 +85,7 @@ export default function Index() {
       <StepsNovoTemplate />
       <CtaNovoTemplate />
       <FaqNovoTemplate />
+      <FooterNovoTemplate />
     </>
   )
 }

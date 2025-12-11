@@ -18,10 +18,10 @@ function NavbarNovaTemplate() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent  ${
         isScrolled
-          ? 'bg-white/90 backdrop-blur-md shadow-sm py-3 border-border/40'
-          : 'bg-white py-6'
+          ? 'bg-white/90 backdrop-blur-md shadow-sm py-3  border-shadowHero/10'
+          : 'bg-white border-border/40 py-6 '
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6">
@@ -35,7 +35,7 @@ function NavbarNovaTemplate() {
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <div className="hidden md:flex items-center gap-8 text-sm font-secondFont font-medium">
           {[
             'Início',
             'Serviços',
@@ -81,7 +81,11 @@ function NavbarNovaTemplate() {
                 'Perguntas Frequentes',
                 'Mapa',
               ].map((item) => (
-                <a key={item} href="#" className="border-b border-border pb-4">
+                <a
+                  key={item}
+                  href="#"
+                  className="border-b border-border font-secondFont pb-4"
+                >
                   {item}
                 </a>
               ))}

@@ -5,9 +5,9 @@ import SectionWrapper from '../sectionElements/SectionWrapper'
 
 function StepsNovoTemplate() {
   return (
-    <SectionArea>
+    <SectionArea className="bg-secondary/20">
       <SectionWrapper>
-        <section className="bg-secondary/20">
+        <section>
           <div className="container mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="order-2 lg:order-1 relative">

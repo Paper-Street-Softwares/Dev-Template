@@ -1,5 +1,14 @@
 @font-face {
   font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Regular.ttf')
+    format('woff2');
+  font-weight: 400;
+  font-style: light;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair';
   src: url('../public/fonts/Playfair/PlayfairDisplay-Medium.ttf')
     format('woff2');
   font-weight: 500;
@@ -34,9 +43,25 @@
 
 @font-face {
   font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: medium;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
   src: url('../public/fonts/Inter/Inter_24pt-Light.ttf') format('woff2');
   font-weight: 300;
   font-style: light;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Bold.ttf') format('woff2');
+  font-weight: 700;
+  font-style: bold;
   font-display: swap;
 }
 
