@@ -10,54 +10,36 @@ import FloatingWhatsappButton from '../components/interactives/FloatingWhatsappB
 import Maps from '../components/sections/Maps'
 import BlogPosts from '../components/sections/BlogPosts'
 import CtaSecondary from '../components/sections/CtaSecondary'
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next'
 import './../i18n'
-// import Button from "../components/interactives/Button";
-// import UnderConstruction from "../components/interactives/UnderConstruction";
+import Button from '../components/interactives/Button'
+import UnderConstruction from '../components/interactives/UnderConstruction'
 import { useColorMode } from '../assets/context/ColorModeContext'
 import News from '../components/sections/News'
-// import Testimonial from "../components/sections/lp01/Testimonials";
+import Testimonial from '../components/sections/lp01/Testimonials'
 import Team from '../components/sections/Team'
 import AboutWpp from '../components/sections/AboutWpp'
 import AboutSocial from '../components/sections/AboutSocial'
+import HeroTemplateNovo from '../components/sections/HeroTemplateNovo'
+import FeaturesNovaTemplate from '../components/sections/FeaturesNovaTemplate'
+import AboutNovoTemplate from '../components/sections/AboutNovoTemplate'
+import SocialMediaTemplate from '../components/sections/SocialMediaTemplate'
+import NavbarNovaTemplate from '../components/sections/NavbarNovaTemplate'
+import RegionsSectionTemplate from '../components/sections/RegionsSectionTemplate'
+import TeamNovoTemplate from '../components/sections/TeamNovoTemplate'
+import StepsNovoTemplate from '../components/sections/StepsNovoTemplate'
+import CtaNovoTemplate from '../components/sections/CtaNovoTemplate'
+import FaqNovoTemplate from '../components/sections/FaqNovoTemplate'
+import FooterNovoTemplate from '../components/sections/FooterNovoTemplate'
 
 export default function Index() {
   const showUnderConstruction = false
 
   const { colorMode, setColorMode } = useColorMode()
-  // const { t, i18n } = useTranslation();
-
-  // const changeLanguage = (lng) => {
-  //   i18n.changeLanguage(lng);
-  // };
-
-  // if (showUnderConstruction) {
-  //   return <UnderConstruction />;
-  // }
 
   return (
     <>
-      {/* <div className="fixed inset-x-0 bottom-5 flex justify-center z-50 pointer-events-none">
-        <div className="flex gap-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg pointer-events-auto">
-          <Button
-            label="English"
-            size="small"
-            onClick={() => changeLanguage("en")}
-          />
-          <Button
-            label="Português"
-            size="small"
-            onClick={() => changeLanguage("pt")}
-          />
-          <Button
-            label="Español"
-            size="small"
-            onClick={() => changeLanguage("es")}
-          />
-        </div>
-      </div> */}
-
-      <Navbar colorMode={colorMode} />
+      {/* <Navbar colorMode={colorMode} />
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
@@ -73,18 +55,18 @@ export default function Index() {
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
-        iconsWithModal={false} //último card com Demais áreas
+        iconsWithModal={false}
         carousel={true}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutSocial socialPrint={true} />
-      {/* <AboutWpp colorMode={colorMode} /> */}
-      {/* <Team /> */}
+      <AboutWpp colorMode={colorMode} />
+      <Team />
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Faq colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
         addres={true}
@@ -92,7 +74,18 @@ export default function Index() {
         expediente={true}
       />
       <FloatingWhatsappButton />
-      <BackToTopButton />
+      <BackToTopButton /> */}
+      <NavbarNovaTemplate />
+      <HeroTemplateNovo />
+      <FeaturesNovaTemplate />
+      <AboutNovoTemplate />
+      <SocialMediaTemplate />
+      <RegionsSectionTemplate />
+      <TeamNovoTemplate />
+      <StepsNovoTemplate />
+      <CtaNovoTemplate />
+      <FaqNovoTemplate />
+      <FooterNovoTemplate />
     </>
   )
 }

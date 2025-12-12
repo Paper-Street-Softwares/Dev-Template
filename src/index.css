@@ -1,4 +1,101 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@font-face {
+  font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_144pt-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_9pt-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_9pt-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Regular.ttf')
+    format('woff2');
+  font-weight: 200;
+  font-style: light;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Medium.ttf')
+    format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../public/fonts/Playfair/PlayfairDisplay-MediumItalic.ttf')
+    format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display ';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2')
+    format('woff2');
+  unicode-range: U+0000-00FF;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../public/fonts/Playfair/PlayfairDisplay-Bold.ttf') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Medium.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: medium;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter/Inter_24pt-Bold.ttf') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
 
 @tailwind base;
 @tailwind components;
@@ -40,50 +137,10 @@ body {
 }
 /* fim da shapeDiv */
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/src/assets/fonts/Poppins-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/src/assets/fonts/Poppins-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/src/assets/fonts/Poppins-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
 .unfix-ios-bg {
   @supports (-webkit-touch-callout: none) {
     background-attachment: initial !important;
   }
-}
-
-@font-face {
-  font-family: "Keep Calm";
-  src: url("./fonts/KeepCalm-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 @keyframes fadeIn {
