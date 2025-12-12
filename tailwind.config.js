@@ -61,6 +61,7 @@ export const theme = {
     },
     fontFamily: {
       mainFont: ['Playfair Display', 'serif'],
+      Playfair: ['Playfair', 'serif'],
       // mainFont: ["Poppins", "sans-serif"],
       secondFont: ['Inter', 'sans-serif'],
       league: ['League Gothic'],

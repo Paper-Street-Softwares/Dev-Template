@@ -1,14 +1,38 @@
 @font-face {
   font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_144pt-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_9pt-Light.ttf') format('woff2');
+  font-weight: 300;
+  font-style: light;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../public/fonts/Playfair/Playfair_9pt-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
   src: url('../public/fonts/Playfair/PlayfairDisplay-Regular.ttf')
     format('woff2');
-  font-weight: 400;
+  font-weight: 200;
   font-style: light;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   src: url('../public/fonts/Playfair/PlayfairDisplay-Medium.ttf')
     format('woff2');
   font-weight: 500;
@@ -17,7 +41,7 @@
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   src: url('../public/fonts/Playfair/PlayfairDisplay-MediumItalic.ttf')
     format('woff2');
   font-weight: 500;
@@ -26,7 +50,15 @@
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display ';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2')
+    format('woff2');
+  unicode-range: U+0000-00FF;
+}
+@font-face {
+  font-family: 'Playfair Display';
   src: url('../public/fonts/Playfair/PlayfairDisplay-Bold.ttf') format('woff2');
   font-weight: 700;
   font-style: bold;

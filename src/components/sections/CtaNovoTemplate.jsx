@@ -10,10 +10,10 @@ function CtaNovoTemplate() {
       <SectionArea className="relative z-0">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diamond-upholstery.png')] opacity-5 bg-repeat z-0"></div>
 
-        <SectionWrapper className="relative z-10 min-w-full">
+        <SectionWrapper className="relative z-10 ">
           <section className="relative overflow-hidden">
             <div className="container mx-auto relative z-10 text-center">
-              <h2 className="text-4xl md:text-5xl font-mainFont font-extralight text-white mb-6">
+              <h2 className="text-4xl md:text-[48px] leading-[48px] font-mainFont font-light text-white mb-6">
                 Não deixe para depois o que é seu por direito
               </h2>
               <p className="text-white/80 text-lg font-secondFont font-light md:text-xl max-w-2xl mx-auto mb-10">

@@ -9,13 +9,14 @@ import SectionWrapper from '../sectionElements/SectionWrapper'
 function HeroTemplateNovo() {
   return (
     <SectionArea>
-      <section className="relative min-h-[90vh] pt-[20%] desktop1:pt-0 flex items-center justify-center overflow-hidden font-mainFont">
+      <section className="relative min-h-[90vh] pt-[20%] w-full desktop1:pt-0 flex items-center justify-center overflow-hidden font-mainFont">
         {/* Abstract Background Shapes */}
-        <div className="absolute top-0 right-0 w-[60%] h-full bg-secondary/50 -skew-x-12 translate-x-1/4 z-0" />
+        <div className="absolute top-0 right-[-10px] h-full w-[60%] bg-secondary/50 -skew-x-12 translate-x-1/4 z-0" />
         <div className="absolute bottom-0 left-0 w-[40%] h-1/2 bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-3xl -translate-x-1/4 translate-y-1/4 z-0" />
         <SectionWrapper>
           <div className="container relative z-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Content */}
+
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -87,7 +88,7 @@ function HeroTemplateNovo() {
               transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
               className="relative order-1 lg:order-2"
             >
-              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[3/4] md:aspect-[4/5] lg:aspect-[3/4] border-[8px] border-white ring-1 ring-black/5 bg-gray-100">
+              <div className="relative rounded-[2.5rem] overflow-hidden  aspect-[3/4] md:aspect-[4/5] lg:aspect-[3/4] border-[8px] border-white ring-1 ring-black/5 bg-gray-100">
                 <img
                   src={content.texts.hero.heroDefaultImage}
                   alt="Advogados Amaral & Peres"
@@ -125,7 +126,7 @@ function HeroTemplateNovo() {
               </div>
 
               {/* Decorative elements */}
-              <div className="absolute -top-12 -right-12 w-64 h-64 bg-accent/10 rounded-full blur-3xl -z-10" />
+              {/* <div className="absolute -top-12 -right-12 w-64 h-64 bg-accent/10 rounded-full blur-3xl -z-10" /> */}
               <div className="absolute -bottom-6 -right-6 text-primary/10 hidden md:block">
                 <svg
                   width="120"
