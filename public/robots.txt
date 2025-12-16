@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.biasiimobiliaria.com.br/sitemap.xml
+Sitemap: https://www.lucidauraferreira.adv.br/sitemap.xml
 

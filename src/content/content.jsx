@@ -70,7 +70,7 @@ export const infos = {
   name: 'A_Definir',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'A_Definir', // Sem "www"
+  domain: 'lucidauraferreira.adv.br', // Sem "www"
   phone: {
     ddd: '00',
     firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
