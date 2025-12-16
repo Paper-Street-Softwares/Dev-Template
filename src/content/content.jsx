@@ -363,8 +363,7 @@ const content = {
         imagemMobile: aboutImgMobile,
       },
       miniTag: 'QUEM É A DRA. LUCIDAURA FERREIRA',
-      title:
-        'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
+      title: 'Minha trajetória',
       subtitle:
         'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
       paragraph: (
@@ -403,7 +402,6 @@ const content = {
         </p>
       ),
       paragraphModalCta: 'Entre em contato',
-      titleModal: 'A_Definir',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
       galeria: {
@@ -454,10 +452,18 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: 'A_Definir',
-        title: 'A_Definir',
-        paragraph: <p>A_Definir</p>,
-        labelWhatsApp: 'A_Definir',
+        miniTag: 'ASSESSORIA JURÍDICA NACIONAL',
+        title: 'Atendimento on-line em todo Brasil',
+        paragraph: (
+          <p>
+            Com um atendimento especializado e sem fronteiras, nossa equipe de
+            advogados não mede esforços para atender nossos clientes em qualquer
+            lugar do Brasil. Onde você estiver, estamos prontos para oferecer
+            suporte jurídico eficiente e personalizado, garantindo que seus
+            direitos sejam protegidos.
+          </p>
+        ),
+        labelWhatsApp: 'Agende a sua consulta',
         ariaLabelWhatsApp: 'Botão de Contato',
       },
     },
