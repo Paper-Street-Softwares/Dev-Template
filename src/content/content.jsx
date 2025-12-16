@@ -46,7 +46,15 @@ import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.webp'
 import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.webp'
 import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.webp'
 import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.webp'
-import { Briefcase, Gavel, Scale } from 'lucide-react'
+import {
+  BarChart,
+  Briefcase,
+  BriefcaseBusiness,
+  ChartBar,
+  Gavel,
+  MessageCircle,
+  Scale,
+} from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
 import imgNews1 from '../assets/imgs/news/imgNews1.webp'
@@ -151,10 +159,10 @@ const content = {
     hero: {
       miniTag: 'ADVOGADA EM SANTA CRUZ DO CAPIBARIBE - PE',
       title: (
-        <h1 className="mb-[16px]">
+        <h1 className="mb-[16px] font-medium">
           Sua
-          <span className="text-primary"> paz</span> não pode esperar pela
-          burocracia
+          <span className="text-primary font-bold"> paz</span> não pode esperar
+          pela burocracia
         </h1>
       ),
       subtitle:
@@ -212,16 +220,18 @@ const content = {
       },
     },
     features: {
-      miniTag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      miniTag: 'ATUAÇÕES',
+      title: 'Nossas Especialidades Jurídicas',
+      subtitle:
+        'Oferecemos suporte legal em diversas áreas do Direito, com foco em soluções personalizadas e resultados concretos para nossos clientes.',
       imgFeatures: imgFeatures,
       alt: 'imagem representativa da Seção Serviços',
       cards: {
         card1: {
           img: featuresImg1,
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Direito de Família e Sucessões',
+          subtitle:
+            'Com ênfase no extrajudicial para resoluções rápidas e eficazes.',
           description: (
             <div>
               A_Definir
@@ -231,14 +241,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal1,
-          icon: <Gavel />,
+          icon: <Users />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card2: {
           img: featuresImg2,
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Direito Previdenciário',
+          subtitle: 'Concessão e revisão de benefícios junto ao INSS.',
           description: (
             <div>
               A_Definir
@@ -254,8 +264,8 @@ const content = {
         },
         card3: {
           img: featuresImg3,
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Direito Trabalhista',
+          subtitle: 'Defesa dos direitos de empregados e empregadores.',
           description: (
             <div>
               A_Definir <br />
@@ -264,14 +274,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal3,
-          icon: <Users />,
+          icon: <BriefcaseBusiness />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card4: {
           img: featuresImg4,
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Direito Civil e Processo Civil',
+          subtitle: 'Apoio legal completo em todas as esferas da vida civil.',
           description: (
             <div>
               A_Definir
@@ -281,25 +291,15 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal4,
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              className="bi bi-whatsapp"
-              viewBox="0 0 16 16"
-            >
-              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-            </svg>
-          ),
+          icon: <FileText />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card5: {
           img: featuresImg3,
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Direito Constitucional',
+          subtitle:
+            'Proteção de direitos fundamentais e controle de legalidade.',
           description: (
             <div>
               A_Definir
@@ -309,61 +309,28 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal4,
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-              <path d="M12 18V6" />
-            </svg>
-          ),
+          icon: <Gavel />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
-        // card6: {
-        //   img: 3,
-        //   title: "A_Definir",
-        //   subtitle: "A_Definir",
-        //   description: (
-        //     <div>
-        //       A_Definir
-        //       <br />
-        //       <br />
-        //       A_Definir
-        //     </div>
-        //   ),
-        //   imgModal: imgFeaturesCardModal4,
-        //   icon: (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       width="24"
-        //       height="24"
-        //       viewBox="0 0 24 24"
-        //       fill="none"
-        //       stroke="currentColor"
-        //       stroke-width="2"
-        //       stroke-linecap="round"
-        //       stroke-linejoin="round"
-        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-        //     >
-        //       <circle cx="12" cy="12" r="10" />
-        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-        //       <path d="M12 18V6" />
-        //     </svg>
-        //   ),
-        //   buttonLabelModal: "Fale Conosco",
-        //   buttonLabel: "Saiba Mais",
-        // },
+        card6: {
+          img: 3,
+          title: 'Consultoria Jurídica',
+          subtitle:
+            'Estratégias preventivas para sua segurança legal e do negócio.',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: <MessageCircle />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
       },
       moreFeatures: {
         card1: {

@@ -44,7 +44,7 @@ export default function Hero({
 
         <MotionDivDownToUp>
           <div
-            className={`flex justify-center desktop1:justify-start font-medium leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
+            className={`flex justify-center desktop1:justify-start leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
             {content.texts.hero.title}
           </div>
