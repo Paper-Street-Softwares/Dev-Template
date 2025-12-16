@@ -362,34 +362,47 @@ const content = {
         alt: 'Imagem ilustrativa da Seção Sobre',
         imagemMobile: aboutImgMobile,
       },
-      miniTag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      miniTag: 'QUEM É A DRA. LUCIDAURA FERREIRA',
+      title:
+        'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
+      subtitle:
+        'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
+          pavimentada por uma base sólida de experiência e parceria. Após anos
+          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
+          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
+          Direito e profundo conhecimento acadêmico.
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
       modal: (
         <p>
-          A_Definir
+          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
+          pavimentada por uma base sólida de experiência e parceria. Após anos
+          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
+          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
+          Direito e profundo conhecimento acadêmico.
           <br />
           <br />
-          A_Definir
+          Em 2019, fiz um movimento de retorno à minha cidade natal, no interior
+          de Pernambuco, onde nosso escritório está sediado hoje. Esse retorno
+          pós-pandemia, após 21 anos na capital, reforçou meu compromisso de
+          atuar e me destacar na cidade que me abriu as portas. Trouxemos para
+          cá a excelência e a experiência de quem atua também como professor,
+          residindo em Recife.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
-          <br />
-          <br />
+          Nossa prática é focada em Direito de Família e Sucessões, com ênfase
+          no extrajudicial. Atendo famílias (público de 30 a 70 anos) que buscam
+          a regularização de bens imóveis de forma rápida, atuando diretamente
+          em cartórios, prefeituras e órgãos públicos. Seja você um grande
+          empresário ou alguém com pequeno patrimônio, nosso objetivo é entregar
+          soluções jurídicas eficientes e seguras.
         </p>
       ),
-      paragraphModalCta: 'A_Definir',
+      paragraphModalCta: 'Entre em contato',
       titleModal: 'A_Definir',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
