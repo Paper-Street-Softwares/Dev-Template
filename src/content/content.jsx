@@ -149,14 +149,16 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'A_Definir',
+      miniTag: 'ADVOGADA EM SANTA CRUZ DO CAPIBARIBE - PE',
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Sua
+          <span className="text-primary"> paz</span> não pode esperar pela
+          burocracia
         </h1>
       ),
-      subtitle: 'A_Definir',
+      subtitle:
+        'Conte com o nosso acolhimento especializado para resolver questões de família e bens com segurança e agilidade.',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -166,7 +168,7 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'A_Definir',
+      ctaButtonText: 'Fale com a especialista',
       obsHero: {
         icon: (
           <svg
@@ -186,7 +188,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: 'A_Definir',
+        text: 'Atendimentos presenciais e online para todo Brasil',
       },
       secondaryCta: 'Contato',
       images: {
