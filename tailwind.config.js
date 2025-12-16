@@ -5,23 +5,17 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: '#2A574E',
-      buttonColor: '#075e54',
-      minititleDark: '#075e54', //bg minitag de seções claras
-      minititle: '#075e54', //bg minitag de seções escuras
+      primary: '#0C0A0A',
+      buttonColor: '#0C0A0A',
+      minititleDark: '#0C0A0A', //bg minitag de seções claras
+      minititle: '#0C0A0A', //bg minitag de seções escuras
 
-      secondary: '#F0EBE4',
-
-      // classes template Novo
-      mutedForeground: '#5B706A',
-      accent: '#CB984D',
-      foreground: '#1B302B',
-      border: '#E2E8E6',
+      secondary: '#000000',
 
       // Fundos de Seção
 
       bgSectionLight: '#FFFFFF',
-      bgSectionDark: '#3A4434',
+      bgSectionDark: '#990000',
       bgSectionOpacityLight: '#F7F7F7',
       bgFixedLight: '#E8E8E8',
       bgSectionOpacityDark: '#111111',
@@ -36,10 +30,10 @@ export const theme = {
       // Botões e Links
 
       links: '#0189BB',
-      iconButtons: '#000',
-      labelButtons: '#000',
-      minititleLightLabel: '#000', //label das minitag de seções claras
-      minititleDarkLabel: '#000', //label minitag de seções escuras
+      iconButtons: '#fff',
+      labelButtons: '#fff',
+      minititleLightLabel: '#fff', //label das minitag de seções claras
+      minititleDarkLabel: '#fff', //label minitag de seções escuras
 
       // Sombras
 
@@ -60,10 +54,9 @@ export const theme = {
       'custom-opacityButton': '-5px 5px 0px', // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ['Playfair Display', 'serif'],
-      Playfair: ['Playfair', 'serif'],
+      mainFont: ['Merriweather', 'sans-serif'],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ['Inter', 'sans-serif'],
+      secondFont: ['Roboto', 'sans-serif'],
       league: ['League Gothic'],
       barlow: ['Barlow Condensed'],
     },

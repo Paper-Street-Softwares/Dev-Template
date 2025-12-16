@@ -39,7 +39,7 @@ export default function Index() {
 
   return (
     <>
-      {/* <Navbar colorMode={colorMode} />
+      <Navbar colorMode={colorMode} />
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
@@ -49,24 +49,24 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
         iconsWithModal={false}
-        carousel={true}
+        carousel={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutSocial socialPrint={true} />
       <AboutWpp colorMode={colorMode} />
-      <Team />
+      {/* <Team /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
         addres={true}
@@ -74,8 +74,8 @@ export default function Index() {
         expediente={true}
       />
       <FloatingWhatsappButton />
-      <BackToTopButton /> */}
-      <NavbarNovaTemplate />
+      <BackToTopButton />
+      {/* <NavbarNovaTemplate />
       <HeroTemplateNovo />
       <FeaturesNovaTemplate />
       <AboutNovoTemplate />
@@ -85,7 +85,7 @@ export default function Index() {
       <StepsNovoTemplate />
       <CtaNovoTemplate />
       <FaqNovoTemplate />
-      <FooterNovoTemplate />
+      <FooterNovoTemplate /> */}
     </>
   )
 }
