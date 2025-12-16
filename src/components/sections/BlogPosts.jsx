@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import WordPressBlogCard from "../cards/WordPressBlogCard";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import SectionHeader from "../sectionElements/SectionHeader";
-import Paragraphs from "../sectionElements/Paragraphs";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../content/content";
+import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+import WordPressBlogCard from '../cards/WordPressBlogCard'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import SectionHeader from '../sectionElements/SectionHeader'
+import Paragraphs from '../sectionElements/Paragraphs'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import content from '../../content/content'
 
 function BlogPosts() {
-  const [posts, setPosts] = useState([]);
-  const [visibleCount, setVisibleCount] = useState(3);
+  const [posts, setPosts] = useState([])
+  const [visibleCount, setVisibleCount] = useState(3)
 
   useEffect(() => {
     fetch(
@@ -18,26 +18,26 @@ function BlogPosts() {
     )
       .then((response) => response.json())
       .then((data) => setPosts(data.posts || []))
-      .catch((error) => console.error("Erro ao buscar posts:", error));
-  }, []);
+      .catch((error) => console.error('Erro ao buscar posts:', error))
+  }, [])
 
   useEffect(() => {
     const updateVisibleCount = () => {
       if (window.innerWidth >= 1441) {
-        setVisibleCount(6);
+        setVisibleCount(6)
       } else {
-        setVisibleCount(3);
+        setVisibleCount(3)
       }
-    };
+    }
 
-    updateVisibleCount(); // roda ao carregar
-    window.addEventListener("resize", updateVisibleCount);
-    return () => window.removeEventListener("resize", updateVisibleCount);
-  }, []);
+    updateVisibleCount() // roda ao carregar
+    window.addEventListener('resize', updateVisibleCount)
+    return () => window.removeEventListener('resize', updateVisibleCount)
+  }, [])
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionDark" id="blog">
+      <SectionArea className="squares" id="blog" paddingbot={false}>
         <SectionWrapper>
           <SectionHeader
             className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
@@ -46,8 +46,8 @@ function BlogPosts() {
             sectionHeaderSubtitle={content.texts.blog.subtitle}
             color=""
             type=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-black"
+            subtitleColorSet="text-black"
           />
 
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
@@ -74,7 +74,7 @@ function BlogPosts() {
                       dangerouslySetInnerHTML={{
                         __html:
                           post.excerpt.length > 100
-                            ? post.excerpt.substring(0, 60) + "..."
+                            ? post.excerpt.substring(0, 60) + '...'
                             : post.excerpt,
                       }}
                     />
@@ -86,7 +86,7 @@ function BlogPosts() {
           </ul>
 
           <MotionDivDownToUp>
-            <Paragraphs className="text-center text-white underline transition hover:scale-110">
+            <Paragraphs className="text-center text-black underline transition hover:scale-110">
               <a
                 href={`https://${content.texts.blog.blogLink}`}
                 target="_blank"
@@ -99,7 +99,7 @@ function BlogPosts() {
         </SectionWrapper>
       </SectionArea>
     </div>
-  );
+  )
 }
 
-export default BlogPosts;
+export default BlogPosts

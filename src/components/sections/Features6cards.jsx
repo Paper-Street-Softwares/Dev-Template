@@ -1,40 +1,40 @@
-import { useTranslation, Trans } from "react-i18next";
-import content from "../../content/content";
-import IconFeatureCard from "../cards/IconFeatureCard";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import { Dialog } from "primereact/dialog";
-import { X } from "lucide-react";
-import Button from "../interactives/Button";
-import { useState } from "react";
+import { useTranslation, Trans } from 'react-i18next'
+import content from '../../content/content'
+import IconFeatureCard from '../cards/IconFeatureCard'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import { Dialog } from 'primereact/dialog'
+import { X } from 'lucide-react'
+import Button from '../interactives/Button'
+import { useState } from 'react'
 
 export default function Features6cards({ colorMode }) {
-  const [visible, setVisible] = useState(false);
-  const [modalTitle, setModalTitle] = useState("");
-  const [modalContent, setModalContent] = useState("");
+  const [visible, setVisible] = useState(false)
+  const [modalTitle, setModalTitle] = useState('')
+  const [modalContent, setModalContent] = useState('')
 
   const openModal = (title, content) => {
-    setModalTitle(title);
-    setModalContent(content);
-    setVisible(true);
-  };
+    setModalTitle(title)
+    setModalContent(content)
+    setVisible(true)
+  }
 
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
-    light: "bg-bgSectionOpacityLight",
-    default: "squares",
-  };
+    dark: 'bg-bgSectionOpacityDark',
+    light: 'bg-bgSectionOpacityLight',
+    default: 'squares',
+  }
   const textClasses = {
-    dark: "text-white",
-    light: "text-secondary",
-    default: "text-black",
-  };
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+    dark: 'text-white',
+    light: 'text-secondary',
+    default: 'text-black',
+  }
+  const bgClass = bgClasses[colorMode] || bgClasses.default
+  const textClass = textClasses[colorMode] || textClasses.default
 
-  const features = Object.values(content.texts.features.cards);
+  const features = Object.values(content.texts.features.cards)
 
   return (
     <SectionArea id="service" className={`${bgClass}`}>
@@ -56,17 +56,17 @@ export default function Features6cards({ colorMode }) {
                 <MotionDivDownToUp
                   key={index}
                   className={
-                    "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
+                    'flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]'
                   }
                 >
                   <IconFeatureCard
                     icon={card.icon}
                     title={card.title}
                     paragraph={card.subtitle}
-                    className={"tablet1:mb-[26px] desktop1:mb-0"}
+                    className={'tablet1:mb-[26px] desktop1:mb-0'}
                     colorMode={colorMode}
                   >
-                    {index === 0 ? (
+                    {/* {index === 0 ? (
                       <Button
                         icon={
                           <svg
@@ -117,7 +117,7 @@ export default function Features6cards({ colorMode }) {
                         label={card.buttonLabel}
                         onClick={() => openModal(card.title, card.description)}
                       />
-                    ) : undefined}
+                    ) : undefined} */}
                   </IconFeatureCard>
                 </MotionDivDownToUp>
               ))}
@@ -138,14 +138,14 @@ export default function Features6cards({ colorMode }) {
                 <MotionDivDownToUp
                   key={index}
                   className={
-                    "flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]"
+                    'flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]'
                   }
                 >
                   <IconFeatureCard
                     icon={card.icon}
                     title={card.title}
                     paragraph={card.subtitle}
-                    className={"tablet1:mb-[26px] desktop1:mb-0"}
+                    className={'tablet1:mb-[26px] desktop1:mb-0'}
                     colorMode={colorMode}
                   ></IconFeatureCard>
                 </MotionDivDownToUp>
@@ -163,11 +163,11 @@ export default function Features6cards({ colorMode }) {
         }
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
+        style={{ width: '50vw' }}
+        breakpoints={{ '4000px': '300px', '1024px': '300px', '641px': '300px' }}
       >
         {modalContent}
       </Dialog>
     </SectionArea>
-  );
+  )
 }

@@ -6,14 +6,6 @@ import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
 import backgroundPersonMobile from '../assets/imgs/hero/bgHeroMobile.webp'
 
 import imgFeatures from '../assets/imgs/features/imgServices.webp'
-import image1 from '../assets/imgs/features/img1.webp'
-import image2 from '../assets/imgs/features/img2.webp'
-import image3 from '../assets/imgs/features/img3.webp'
-import image4 from '../assets/imgs/features/img4.webp'
-import image5 from '../assets/imgs/features/img5.webp'
-import image6 from '../assets/imgs/features/img6.webp'
-import image7 from '../assets/imgs/features/img7.webp'
-import image8 from '../assets/imgs/features/img8.webp'
 
 import aboutImg from '../assets/imgs/about/aboutImg.webp'
 import img1 from '../assets/imgs/about/imgGaleria1.webp'
@@ -54,7 +46,15 @@ import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.webp'
 import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.webp'
 import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.webp'
 import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.webp'
-import { Briefcase, Gavel, Home, Key, LucideIdCard, Scale } from 'lucide-react'
+import {
+  BarChart,
+  Briefcase,
+  BriefcaseBusiness,
+  ChartBar,
+  Gavel,
+  MessageCircle,
+  Scale,
+} from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
 import imgNews1 from '../assets/imgs/news/imgNews1.webp'
@@ -75,14 +75,14 @@ import aboutWppMobile from '../assets/imgs/about/aboutWppMobile.webp'
 const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: 'Biasi Empreendimentos Imobiliários',
+  name: 'Dra. Lucidaura Ferreira',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'biasiimobiliaria.com.br', // Sem "www"
+  domain: 'lucidauraferreira.adv.br', // Sem "www"
   phone: {
-    ddd: '19',
-    firstPart: '99362', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '4646', // Apenas os 4 últimos números
+    ddd: '81',
+    firstPart: '97400', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '9999', // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: 'A_Definir',
@@ -97,10 +97,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Dr. Euclydes vieira,</p>
-      <p>nº 205, São Quirino</p>
-      <p>Campinas - SP, </p>
-      <p>CEP: 13088-280</p>
+      <p>Rua Manoel Teodoro Aragão,</p>
+      <p>nº 54, Bela Vista</p>
+      <p>Santa Cruz do Capibaribe - PE,</p>
+      <p>CEP: 55195-632</p>
     </div>
   ),
   enderecoSecundario: (
@@ -115,12 +115,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: 'biasiempreendimentos', // Sem o @
-  facebookProfile: '',
+  instagramProfile: 'lucidauraferreira', // Sem o @
+  facebookProfile: 'lucidaura',
   linkeDinProfile: '',
   x: '',
   tiktokProfile: '',
@@ -157,15 +157,16 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'BIASI EMPREENDIMENTOS IMOBILIÁRIOS - SP',
+      miniTag: 'ADVOGADA EM SANTA CRUZ DO CAPIBARIBE - PE',
       title: (
-        <h1 className="mb-[16px]">
-          Não precisa mais
-          <span className="text-primary"> procurar</span>
+        <h1 className="mb-[16px] font-medium">
+          Sua
+          <span className="text-primary font-bold"> paz</span> não pode esperar
+          pela burocracia
         </h1>
       ),
       subtitle:
-        'Seu imóvel está aqui. Seja compra ou venda, a Biasi é sua solução.',
+        'Conte com o nosso acolhimento especializado para resolver questões de família e bens com segurança e agilidade.',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -175,12 +176,27 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'Fale agora com a gente',
+      ctaButtonText: 'Fale com a especialista',
       obsHero: {
-        icon: <LucideIdCard />,
-        iconTwo: <LucideIdCard />,
-        text: 'Marcelo Biasi - CRECI 32.827',
-        textTwo: 'Luciano Biasi - CRECI 207.125',
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-map-pin-check"
+          >
+            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="m16 18 2 2 4-4" />
+          </svg>
+        ),
+        text: 'Atendimentos presenciais e online para todo Brasil',
       },
       secondaryCta: 'Contato',
       images: {
@@ -204,27 +220,18 @@ const content = {
       },
     },
     features: {
-      miniTag: 'NOSSAS ÁREAS DE ATUAÇÃO',
-      title: 'Onde a Biasi deixa sua marca',
+      miniTag: 'ATUAÇÕES',
+      title: 'Nossas Especialidades Jurídicas',
       subtitle:
-        'Conheça os segmentos e regiões onde construímos e entregamos excelência.',
+        'Oferecemos suporte legal em diversas áreas do Direito, com foco em soluções personalizadas e resultados concretos para nossos clientes.',
       imgFeatures: imgFeatures,
       alt: 'imagem representativa da Seção Serviços',
-      imagesFeatures: {
-        imagem1: image1,
-        imagem2: image2,
-        imagem3: image3,
-        imagem4: image4,
-        imagem5: image5,
-        imagem6: image6,
-        imagem7: image7,
-        imagem8: image8,
-      },
       cards: {
         card1: {
           img: featuresImg1,
-          title: 'Imóveis alugados',
-          subtitle: 'Seu bolso agradece. Aluguel sem estresse e sem drama.',
+          title: 'Direito de Família e Sucessões',
+          subtitle:
+            'Com ênfase no extrajudicial para resoluções rápidas e eficazes.',
           description: (
             <div>
               A_Definir
@@ -234,14 +241,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal1,
-          icon: <Key />,
+          icon: <Users />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card2: {
           img: featuresImg2,
-          title: 'Imóveis de Terceiros',
-          subtitle: 'Seu novo lar espera por você. Oportunidades únicas.',
+          title: 'Direito Previdenciário',
+          subtitle: 'Concessão e revisão de benefícios junto ao INSS.',
           description: (
             <div>
               A_Definir
@@ -251,14 +258,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal2,
-          icon: <Home />,
+          icon: <Scale />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card3: {
           img: featuresImg3,
-          title: 'Lançamentos',
-          subtitle: 'O futuro é agora, invista antes que o preço dispare.',
+          title: 'Direito Trabalhista',
+          subtitle: 'Defesa dos direitos de empregados e empregadores.',
           description: (
             <div>
               A_Definir <br />
@@ -267,106 +274,63 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal3,
+          icon: <BriefcaseBusiness />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card4: {
+          img: featuresImg4,
+          title: 'Direito Civil e Processo Civil',
+          subtitle: 'Apoio legal completo em todas as esferas da vida civil.',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              A_Definir
+              <br />
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
           icon: <FileText />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
-        // card4: {
-        //   img: featuresImg4,
-        //   title: 'A_Definir',
-        //   subtitle: 'A_Definir',
-        //   description: (
-        //     <div>
-        //       A_Definir
-        //       <br />
-        //       A_Definir
-        //       <br />
-        //     </div>
-        //   ),
-        //   imgModal: imgFeaturesCardModal4,
-        //   icon: (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       width="24"
-        //       height="24"
-        //       fill="currentColor"
-        //       className="bi bi-whatsapp"
-        //       viewBox="0 0 16 16"
-        //     >
-        //       <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-        //     </svg>
-        //   ),
-        //   buttonLabelModal: 'Fale Conosco',
-        //   buttonLabel: 'Saiba Mais',
-        // },
-        // card5: {
-        //   img: featuresImg3,
-        //   title: 'A_Definir',
-        //   subtitle: 'A_Definir',
-        //   description: (
-        //     <div>
-        //       A_Definir
-        //       <br />
-        //       <br />
-        //       A_Definir
-        //     </div>
-        //   ),
-        //   imgModal: imgFeaturesCardModal4,
-        //   icon: (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       width="24"
-        //       height="24"
-        //       viewBox="0 0 24 24"
-        //       fill="none"
-        //       stroke="currentColor"
-        //       stroke-width="2"
-        //       stroke-linecap="round"
-        //       stroke-linejoin="round"
-        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-        //     >
-        //       <circle cx="12" cy="12" r="10" />
-        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-        //       <path d="M12 18V6" />
-        //     </svg>
-        //   ),
-        //   buttonLabelModal: 'Fale Conosco',
-        //   buttonLabel: 'Saiba Mais',
-        // },
-        // card6: {
-        //   img: 3,
-        //   title: "A_Definir",
-        //   subtitle: "A_Definir",
-        //   description: (
-        //     <div>
-        //       A_Definir
-        //       <br />
-        //       <br />
-        //       A_Definir
-        //     </div>
-        //   ),
-        //   imgModal: imgFeaturesCardModal4,
-        //   icon: (
-        //     <svg
-        //       xmlns="http://www.w3.org/2000/svg"
-        //       width="24"
-        //       height="24"
-        //       viewBox="0 0 24 24"
-        //       fill="none"
-        //       stroke="currentColor"
-        //       stroke-width="2"
-        //       stroke-linecap="round"
-        //       stroke-linejoin="round"
-        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-        //     >
-        //       <circle cx="12" cy="12" r="10" />
-        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-        //       <path d="M12 18V6" />
-        //     </svg>
-        //   ),
-        //   buttonLabelModal: "Fale Conosco",
-        //   buttonLabel: "Saiba Mais",
-        // },
+        card5: {
+          img: featuresImg3,
+          title: 'Direito Constitucional',
+          subtitle:
+            'Proteção de direitos fundamentais e controle de legalidade.',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: <Gavel />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card6: {
+          img: 3,
+          title: 'Consultoria Jurídica',
+          subtitle:
+            'Estratégias preventivas para sua segurança legal e do negócio.',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          imgModal: imgFeaturesCardModal4,
+          icon: <MessageCircle />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
       },
       moreFeatures: {
         card1: {
@@ -398,47 +362,46 @@ const content = {
         alt: 'Imagem ilustrativa da Seção Sobre',
         imagemMobile: aboutImgMobile,
       },
-      miniTag: 'CONHEÇA A BIASI EMPREENDIMENTOS IMOBILIÁRIOS',
-      title: 'Nossa trajetória',
-      subtitle: 'Desde 1987 transformando sonhos em realidade.',
+      miniTag: 'QUEM É A DRA. LUCIDAURA FERREIRA',
+      title: 'Minha trajetória',
+      subtitle:
+        'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
       paragraph: (
         <div>
-          A Biasi Empreendimentos Imobiliários iniciou suas atividades em 1987,
-          estabelecendo-se no mercado com o propósito de oferecer soluções
-          habitacionais de qualidade e excelência. Nossa fundação foi marcada
-          pelo compromisso inabalável com a satisfação do cliente, o que nos
-          permitiu construir uma trajetória sólida e de grande confiabilidade no
-          setor.
+          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
+          pavimentada por uma base sólida de experiência e parceria. Após anos
+          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
+          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
+          Direito e profundo conhecimento acadêmico.
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
       modal: (
         <p>
-          A Biasi Empreendimentos Imobiliários iniciou suas atividades em 1987,
-          estabelecendo-se no mercado com o propósito de oferecer soluções
-          habitacionais de qualidade e excelência. Nossa fundação foi marcada
-          pelo compromisso inabalável com a satisfação do cliente, o que nos
-          permitiu construir uma trajetória sólida e de grande confiabilidade no
-          setor.
+          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
+          pavimentada por uma base sólida de experiência e parceria. Após anos
+          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
+          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
+          Direito e profundo conhecimento acadêmico.
           <br />
           <br />
-          Ao longo de décadas, a Biasi consolidou-se como referência na
-          construção civil e no desenvolvimento de projetos imobiliários,
-          pautando-se sempre pela <strong>inovação</strong> e pela ética. Cada
-          empreendimento é pensado para agregar valor à vida das pessoas e
-          contribuir para o desenvolvimento das comunidades onde estamos
-          presentes.
+          Em 2019, fiz um movimento de retorno à minha cidade natal, no interior
+          de Pernambuco, onde nosso escritório está sediado hoje. Esse retorno
+          pós-pandemia, após 21 anos na capital, reforçou meu compromisso de
+          atuar e me destacar na cidade que me abriu as portas. Trouxemos para
+          cá a excelência e a experiência de quem atua também como professor,
+          residindo em Recife.
           <br />
           <br />
-          Hoje, mantemos o mesmo espírito pioneiro, utilizando nossa vasta
-          experiência para continuar transformando projetos em lares e
-          <strong> investimentos de sucesso.</strong> Olhamos para o futuro com
-          a missão de seguir superando expectativas e realizando o sonho da casa
-          própria para inúmeras famílias.
+          Nossa prática é focada em Direito de Família e Sucessões, com ênfase
+          no extrajudicial. Atendo famílias (público de 30 a 70 anos) que buscam
+          a regularização de bens imóveis de forma rápida, atuando diretamente
+          em cartórios, prefeituras e órgãos públicos. Seja você um grande
+          empresário ou alguém com pequeno patrimônio, nosso objetivo é entregar
+          soluções jurídicas eficientes e seguras.
         </p>
       ),
       paragraphModalCta: 'Entre em contato',
-      titleModal: 'A_Definir',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
       galeria: {
@@ -472,17 +435,16 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
           altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
         },
-        miniTag: 'REDES SOCIAIS',
-        title: 'Conecte-se conosco',
-        subtitle:
-          'Aproveite nossas redes sociais para mantermos contato e ficar por dentro dos lançamentos, novidades e atualizações do mercado imobiliário.',
-        paragraph: <p></p>,
-        labelInstagram: 'Siga-nos no Instagram',
-        labelFacebook: 'Siga-nos no Facebook',
-        labelLinkedin: 'Siga-nos no LinkedIn',
-        labelX: 'Siga-nos no X',
-        labelTiktok: 'Siga-nos no Tik Tok',
-        labelYoutube: 'Siga-nos no Youtube',
+        miniTag: 'A_Definir',
+        title: 'A_Definir',
+        subtitle: 'A_Definir',
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: 'Siga-me no Instagram',
+        labelFacebook: 'Siga-me no Facebook',
+        labelLinkedin: 'Siga-me no LinkedIn',
+        labelX: 'Siga-me no X',
+        labelTiktok: 'Siga-me no Tik Tok',
+        labelYoutube: 'Siga-me no Youtube',
       },
       aboutWpp: {
         img: {
@@ -490,10 +452,18 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: 'A_Definir',
-        title: 'A_Definir',
-        paragraph: <p>A_Definir</p>,
-        labelWhatsApp: 'A_Definir',
+        miniTag: 'ASSESSORIA JURÍDICA NACIONAL',
+        title: 'Atendimento on-line em todo Brasil',
+        paragraph: (
+          <p>
+            Com um atendimento especializado e sem fronteiras, nossa equipe de
+            advogados não mede esforços para atender nossos clientes em qualquer
+            lugar do Brasil. Onde você estiver, estamos prontos para oferecer
+            suporte jurídico eficiente e personalizado, garantindo que seus
+            direitos sejam protegidos.
+          </p>
+        ),
+        labelWhatsApp: 'Agende a sua consulta',
         ariaLabelWhatsApp: 'Botão de Contato',
       },
     },
@@ -508,15 +478,13 @@ const content = {
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
+      miniTag: 'FALE CONOSCO',
       title: (
         <h1>
-          <span className="text-bgSectionDark">
-            Chegou a hora de transformar seu lar!
-          </span>{' '}
-          Deixe que a Biasi cuide de tudo.{' '}
-          <span className="text-bgSectionDark">
-            Estamos prontos para atendê-lo!
-          </span>
+          Enfrentando um
+          <span className="text-bgSectionDark"> problema jurídico?</span> Deixe
+          que cuidamos disso
+          <span className="text-bgSectionDark"> para você!</span>
         </h1>
       ),
       subtitleDireita: (
@@ -542,38 +510,39 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: 'Entendimento de suas necessidades',
+          cardTitle: 'Consulta inicial',
           cardDescription:
-            'Atendimento personalizado para identificar seu perfil (moradia/investimento) e objetivos. Encontramos a melhor opção no portfólio.',
+            'Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.',
         },
         card2: {
           stepNumber: 2,
-          cardTitle: 'Conhecendo o empreendimento',
+          cardTitle: 'Análise detalhada',
           cardDescription:
-            'Apresentação das opções e visita ao local (stand / decorado). Detalhamento de plantas e infraestrutura.',
+            'Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.',
         },
         card3: {
           stepNumber: 3,
-          cardTitle: 'Simulação e negociação',
+          cardTitle: 'Elaboração da estratégia',
           cardDescription:
-            'Simulação financeira e de crédito. Proposta transparente com valores, prazos e formas de pagamento.',
+            'Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.',
         },
         card4: {
           stepNumber: 4,
-          cardTitle: 'Assinatura e acompanhamento',
+          cardTitle: 'Ação legal',
           cardDescription:
-            'Formalização do contrato. Acompanhamento total até a entrega das chaves e o registro final do seu imóvel.',
+            'Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.',
         },
       },
     },
     blog: {
       miniTag: 'BLOG',
-      title: 'A_Definir',
-      subtitle: '',
+      title: 'Informação jurídica ao seu alcance',
+      subtitle:
+        'Acompanhe conteúdos exclusivos para manter-se sempre informado.',
       img: imgSteps,
       labelCards: 'Ver mais',
       label: 'Clique aqui para ver todas as matérias',
-      blogLink: 'mauromoncao.wordpress.com', //sem "https://"
+      blogLink: 'lucidauraferreira.wordpress.com', //sem "https://"
     },
     faq: {
       miniTag: 'TIRE SUAS DÚVIDAS',
@@ -581,27 +550,24 @@ const content = {
       subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas. ',
       questions: {
         question1: {
-          question:
-            'Como verificar a segurança e credibilidade da construtora/incorporadora?',
+          question: 'Como posso contratar seus serviços?',
           answer:
-            'Pesquise o histórico de entregas da empresa, o cumprimento de prazos e a qualidade das obras realizadas. Consulte a reputação em órgãos de defesa do consumidor e a situação jurídica.',
+            'Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.',
         },
         question2: {
-          question:
-            'O que é o INCC e por que ele é aplicado nas parcelas durante a obra?',
+          question: 'Qual é o prazo médio para resolução de um caso?',
           answer:
-            'O INCC (Índice Nacional de Custo da Construção) é o índice legal que corrige as parcelas durante a construção. Ele garante o reajuste dos custos de materiais e mão de obra, mantendo o equilíbrio financeiro do empreendimento.',
+            'O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.',
         },
         question3: {
-          question:
-            'Quais são os custos adicionais (além do valor do imóvel) que devo considerar?',
+          question: 'Quais documentos devo levar para a consulta?',
           answer:
-            'Além do valor de compra, você deve prever os custos de documentação, como o ITBI (Imposto sobre Transmissão de Bens Imóveis) e as taxas de registro em cartório. Eles costumam ser uma porcentagem do valor do imóvel.',
+            'Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.',
         },
         question4: {
-          question: 'É possível desistir da compra de um imóvel na planta?',
+          question: 'Vocês oferecem serviços de consultoria preventiva?',
           answer:
-            'Sim, o comprador tem o direito de desistir (distrato), mas é fundamental analisar as cláusulas contratuais que definem as multas e as condições de devolução de valores, conforme a legislação vigente (Lei do Distrato).',
+            'Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.',
         },
       },
       paragraph: 'Clique aqui caso tenha mais dúvidas',

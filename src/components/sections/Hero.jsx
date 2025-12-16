@@ -12,6 +12,7 @@ export default function Hero({
   defaultHero,
   influencer,
   panoramica,
+  obsTwo,
 }) {
   const isMobile = window.innerWidth < 1024
 
@@ -43,7 +44,7 @@ export default function Hero({
 
         <MotionDivDownToUp>
           <div
-            className={`flex justify-center desktop1:justify-start font-medium leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
+            className={`flex justify-center desktop1:justify-start leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-2 ${titleTextColor}`}
           >
             {content.texts.hero.title}
           </div>
@@ -91,18 +92,20 @@ export default function Hero({
                 </p>
               </div>
             </div>
-            <div className="flex justify-center desktop1:justify-start mt-6">
-              <div
-                className={`flex items-center desktop1:flex-row ${obsTextColorOverride}`}
-              >
-                <span>{content.texts.hero.obsHero.icon}</span>
-                <p
-                  className={`ml-[10px] text-center font-secondFont desktop1:text-start desktop1:mt-0 ${obsTextColorOverride}`}
+            {obsTwo && (
+              <div className="flex justify-center desktop1:justify-start mt-6">
+                <div
+                  className={`flex items-center desktop1:flex-row ${obsTextColorOverride}`}
                 >
-                  {content.texts.hero.obsHero.textTwo}
-                </p>
+                  <span>{content.texts.hero.obsHero.icon}</span>
+                  <p
+                    className={`ml-[10px] text-center font-secondFont desktop1:text-start desktop1:mt-0 ${obsTextColorOverride}`}
+                  >
+                    {content.texts.hero.obsHero.textTwo}
+                  </p>
+                </div>
               </div>
-            </div>
+            )}
           </MotionDivDownToUp>
         </div>
       </div>
@@ -166,7 +169,7 @@ export default function Hero({
                         decoding="sync"
                         width="930"
                         height="1287"
-                        className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
+                        className={`desktop1:mt-0 rounded-xl w-full  object-cover
                         ${
                           colorMode === 'light'
                             ? 'desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/20'

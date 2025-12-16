@@ -1,29 +1,29 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import SocialPrint from "../sectionElements/aboutInstagram/SocialPrint";
-import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
-import Button from "../interactives/Button";
-import ParagraphWpp from "../sectionElements/aboutInstagram/ParagraphWpp";
-import content from "../../content/content";
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import SocialPrint from '../sectionElements/aboutInstagram/SocialPrint'
+import DefaultInstagram from '../sectionElements/aboutInstagram/DefaultInstagram'
+import Button from '../interactives/Button'
+import ParagraphWpp from '../sectionElements/aboutInstagram/ParagraphWpp'
+import content from '../../content/content'
 
 export default function AboutWpp({ colorMode }) {
   // Definir classes de tema
   const bgClasses = {
-    dark: "bg-bgFixedDark",
-    light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
-  };
+    dark: 'bg-bgFixedDark',
+    light: 'bg-bgFixedLight',
+    default: 'bg-bgSectionDark',
+  }
   const textClasses = {
-    dark: "text-white",
-    light: "text-secondary",
-    default: "text-white",
-  };
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+    dark: 'text-white',
+    light: 'text-secondary',
+    default: 'text-white',
+  }
+  const bgClass = bgClasses[colorMode] || bgClasses.default
+  const textClass = textClasses[colorMode] || textClasses.default
 
   return (
     <SectionArea id="about" className={`${bgClass}`} paddingtop={false}>
@@ -31,12 +31,12 @@ export default function AboutWpp({ colorMode }) {
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <picture>
             <source
-              srcSet={content.texts.about.aboutSocial.img.imgSocialMobile}
+              srcSet={content.texts.about.aboutWpp.img.imgMobile}
               media="(max-width: 424px)"
             />
             <img
-              src={content.texts.about.aboutSocial.img.imgSocial}
-              alt={content.texts.about.aboutSocial.img.altDefault}
+              src={content.texts.about.aboutWpp.img.img}
+              alt={content.texts.about.aboutWpp.img.alt}
               className="w-full  object-cover rounded-xl"
               loading="lazy"
             />
@@ -76,5 +76,5 @@ export default function AboutWpp({ colorMode }) {
         </div>
       </SectionWrapper>
     </SectionArea>
-  );
+  )
 }
