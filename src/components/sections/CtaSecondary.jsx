@@ -1,28 +1,28 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import Button from "../interactives/Button";
-import content from "../../content/content";
-import { useNavigate } from "react-router-dom";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import Button from '../interactives/Button'
+import content from '../../content/content'
+import { useNavigate } from 'react-router-dom'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
 
 export default function CtaSecondary({ colorMode }) {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   // Definir classes de tema
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
-    light: "squares",
-    default: "squares",
-  };
+    dark: 'bg-bgSectionOpacityDark',
+    light: 'squares',
+    default: 'squares',
+  }
   const textClasses = {
-    dark: "text-white",
-    light: "text-black",
-    default: "text-black",
-  };
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+    dark: 'text-white',
+    light: 'text-black',
+    default: 'text-black',
+  }
+  const bgClass = bgClasses[colorMode] || bgClasses.default
+  const textClass = textClasses[colorMode] || textClasses.default
 
   return (
     <SectionArea className={`${bgClass}`}>
@@ -33,18 +33,18 @@ export default function CtaSecondary({ colorMode }) {
               colorMode="dark"
               className={`text-center desktop1:hidden ${textClass}`}
               sectionHeaderTitle={content.texts.ctaSecondary.title}
+              miniTitle={content.texts.ctaSecondary.miniTag}
               titleColorSet={textClass}
               subtitleColorSet={textClass}
-              miniTitleBgColor={false}
               type=""
             />
             <SectionHeader
               colorMode="dark"
               className={`text-center hidden desktop1:flex ${textClass}`}
               sectionHeaderTitle={content.texts.ctaSecondary.title}
+              miniTitle={content.texts.ctaSecondary.miniTag}
               titleColorSet={textClass}
               subtitleColorSet={textClass}
-              miniTitleBgColor={false}
               type="article"
             />
           </div>
@@ -86,5 +86,5 @@ export default function CtaSecondary({ colorMode }) {
         </div>
       </SectionWrapper>
     </SectionArea>
-  );
+  )
 }
