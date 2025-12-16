@@ -484,7 +484,7 @@ const content = {
           Enfrentando um
           <span className="text-bgSectionDark"> problema jurídico?</span> Deixe
           que cuidamos disso
-          <span className="text-bgSectionDark">para você!</span>
+          <span className="text-bgSectionDark"> para você!</span>
         </h1>
       ),
       subtitleDireita: (
@@ -498,7 +498,7 @@ const content = {
       ctaButtonText: 'Falar agora',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'A_Definir',
+      ctaButtonText: 'Entre em Contato',
     },
     steps: {
       miniTag: 'PASSO A PASSO',
@@ -536,12 +536,13 @@ const content = {
     },
     blog: {
       miniTag: 'BLOG',
-      title: 'A_Definir',
-      subtitle: '',
+      title: 'Informação jurídica ao seu alcance',
+      subtitle:
+        'Acompanhe conteúdos exclusivos para manter-se sempre informado.',
       img: imgSteps,
       labelCards: 'Ver mais',
       label: 'Clique aqui para ver todas as matérias',
-      blogLink: 'mauromoncao.wordpress.com', //sem "https://"
+      blogLink: 'lucidauraferreira.wordpress.com', //sem "https://"
     },
     faq: {
       miniTag: 'TIRE SUAS DÚVIDAS',
