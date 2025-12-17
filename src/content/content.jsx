@@ -46,15 +46,7 @@ import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.webp'
 import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.webp'
 import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.webp'
 import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.webp'
-import {
-  BarChart,
-  Briefcase,
-  BriefcaseBusiness,
-  ChartBar,
-  Gavel,
-  MessageCircle,
-  Scale,
-} from 'lucide-react'
+import { Briefcase, Gavel, Scale } from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
 import imgNews1 from '../assets/imgs/news/imgNews1.webp'
@@ -75,14 +67,14 @@ import aboutWppMobile from '../assets/imgs/about/aboutWppMobile.webp'
 const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: 'Dra. Lucidaura Ferreira',
+  name: 'A_Definir',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'lucidauraferreira.adv.br', // Sem "www"
+  domain: 'A_Definir', // Sem "www"
   phone: {
-    ddd: '81',
-    firstPart: '97400', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '9999', // Apenas os 4 últimos números
+    ddd: '00',
+    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '0000', // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: 'A_Definir',
@@ -97,10 +89,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Manoel Teodoro Aragão,</p>
-      <p>nº 54, Bela Vista</p>
-      <p>Santa Cruz do Capibaribe - PE,</p>
-      <p>CEP: 55195-632</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -115,12 +106,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: 'lucidauraferreira', // Sem o @
-  facebookProfile: 'lucidaura',
+  instagramProfile: '', // Sem o @
+  facebookProfile: '',
   linkeDinProfile: '',
   x: '',
   tiktokProfile: '',
@@ -157,16 +148,14 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'ADVOGADA EM SANTA CRUZ DO CAPIBARIBE - PE',
+      miniTag: 'A_Definir',
       title: (
-        <h1 className="mb-[16px] font-medium">
-          Sua
-          <span className="text-primary font-bold"> paz</span> não pode esperar
-          pela burocracia
+        <h1 className="mb-[16px]">
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        'Conte com o nosso acolhimento especializado para resolver questões de família e bens com segurança e agilidade.',
+      subtitle: 'A_Definir',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -176,7 +165,7 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'Fale com a especialista',
+      ctaButtonText: 'A_Definir',
       obsHero: {
         icon: (
           <svg
@@ -196,7 +185,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: 'Atendimentos presenciais e online para todo Brasil',
+        text: 'A_Definir',
       },
       secondaryCta: 'Contato',
       images: {
@@ -220,18 +209,16 @@ const content = {
       },
     },
     features: {
-      miniTag: 'ATUAÇÕES',
-      title: 'Nossas Especialidades Jurídicas',
-      subtitle:
-        'Oferecemos suporte legal em diversas áreas do Direito, com foco em soluções personalizadas e resultados concretos para nossos clientes.',
+      miniTag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
       imgFeatures: imgFeatures,
       alt: 'imagem representativa da Seção Serviços',
       cards: {
         card1: {
           img: featuresImg1,
-          title: 'Direito de Família e Sucessões',
-          subtitle:
-            'Com ênfase no extrajudicial para resoluções rápidas e eficazes.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir
@@ -241,14 +228,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal1,
-          icon: <Users />,
+          icon: <Gavel />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card2: {
           img: featuresImg2,
-          title: 'Direito Previdenciário',
-          subtitle: 'Concessão e revisão de benefícios junto ao INSS.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir
@@ -264,8 +251,8 @@ const content = {
         },
         card3: {
           img: featuresImg3,
-          title: 'Direito Trabalhista',
-          subtitle: 'Defesa dos direitos de empregados e empregadores.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir <br />
@@ -274,14 +261,14 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal3,
-          icon: <BriefcaseBusiness />,
+          icon: <Users />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card4: {
           img: featuresImg4,
-          title: 'Direito Civil e Processo Civil',
-          subtitle: 'Apoio legal completo em todas as esferas da vida civil.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir
@@ -291,15 +278,25 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal4,
-          icon: <FileText />,
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              className="bi bi-whatsapp"
+              viewBox="0 0 16 16"
+            >
+              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+          ),
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card5: {
           img: featuresImg3,
-          title: 'Direito Constitucional',
-          subtitle:
-            'Proteção de direitos fundamentais e controle de legalidade.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir
@@ -309,28 +306,61 @@ const content = {
             </div>
           ),
           imgModal: imgFeaturesCardModal4,
-          icon: <Gavel />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card6: {
-          img: 3,
-          title: 'Consultoria Jurídica',
-          subtitle:
-            'Estratégias preventivas para sua segurança legal e do negócio.',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+              <path d="M12 18V6" />
+            </svg>
           ),
-          imgModal: imgFeaturesCardModal4,
-          icon: <MessageCircle />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
+        // card6: {
+        //   img: 3,
+        //   title: "A_Definir",
+        //   subtitle: "A_Definir",
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       <br />
+        //       A_Definir
+        //     </div>
+        //   ),
+        //   imgModal: imgFeaturesCardModal4,
+        //   icon: (
+        //     <svg
+        //       xmlns="http://www.w3.org/2000/svg"
+        //       width="24"
+        //       height="24"
+        //       viewBox="0 0 24 24"
+        //       fill="none"
+        //       stroke="currentColor"
+        //       stroke-width="2"
+        //       stroke-linecap="round"
+        //       stroke-linejoin="round"
+        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+        //     >
+        //       <circle cx="12" cy="12" r="10" />
+        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+        //       <path d="M12 18V6" />
+        //     </svg>
+        //   ),
+        //   buttonLabelModal: "Fale Conosco",
+        //   buttonLabel: "Saiba Mais",
+        // },
       },
       moreFeatures: {
         card1: {
@@ -362,46 +392,35 @@ const content = {
         alt: 'Imagem ilustrativa da Seção Sobre',
         imagemMobile: aboutImgMobile,
       },
-      miniTag: 'QUEM É A DRA. LUCIDAURA FERREIRA',
-      title: 'Minha trajetória',
-      subtitle:
-        'Experiência, raízes e a força de uma advocacia focada em resultados reais.',
+      miniTag: 'A_Definir',
+      title: 'A_Definir',
+      subtitle: 'A_Definir',
       paragraph: (
         <div>
-          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
-          pavimentada por uma base sólida de experiência e parceria. Após anos
-          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
-          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
-          Direito e profundo conhecimento acadêmico.
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
       modal: (
         <p>
-          Minha jornada na advocacia começou formalmente há pouco tempo, mas é
-          pavimentada por uma base sólida de experiência e parceria. Após anos
-          dedicados à carreira bancária, decidi realinhar meu foco. O que nunca
-          mudou foi o apoio dos meus sócios, especialistas com longa atuação no
-          Direito e profundo conhecimento acadêmico.
+          A_Definir
           <br />
           <br />
-          Em 2019, fiz um movimento de retorno à minha cidade natal, no interior
-          de Pernambuco, onde nosso escritório está sediado hoje. Esse retorno
-          pós-pandemia, após 21 anos na capital, reforçou meu compromisso de
-          atuar e me destacar na cidade que me abriu as portas. Trouxemos para
-          cá a excelência e a experiência de quem atua também como professor,
-          residindo em Recife.
+          A_Definir
           <br />
           <br />
-          Nossa prática é focada em Direito de Família e Sucessões, com ênfase
-          no extrajudicial. Atendo famílias (público de 30 a 70 anos) que buscam
-          a regularização de bens imóveis de forma rápida, atuando diretamente
-          em cartórios, prefeituras e órgãos públicos. Seja você um grande
-          empresário ou alguém com pequeno patrimônio, nosso objetivo é entregar
-          soluções jurídicas eficientes e seguras.
+          A_Definir
+          <br />
+          <br />
+          A_Definir
+          <br />
+          <br />
         </p>
       ),
-      paragraphModalCta: 'Entre em contato',
+      paragraphModalCta: 'A_Definir',
+      titleModal: 'A_Definir',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
       galeria: {
@@ -452,18 +471,10 @@ const content = {
           imgMobile: aboutWppMobile,
           alt: `Imagem ilustrativa do Mapa`,
         },
-        miniTag: 'ASSESSORIA JURÍDICA NACIONAL',
-        title: 'Atendimento on-line em todo Brasil',
-        paragraph: (
-          <p>
-            Com um atendimento especializado e sem fronteiras, nossa equipe de
-            advogados não mede esforços para atender nossos clientes em qualquer
-            lugar do Brasil. Onde você estiver, estamos prontos para oferecer
-            suporte jurídico eficiente e personalizado, garantindo que seus
-            direitos sejam protegidos.
-          </p>
-        ),
-        labelWhatsApp: 'Agende a sua consulta',
+        miniTag: 'A_Definir',
+        title: 'A_Definir',
+        paragraph: <p>A_Definir</p>,
+        labelWhatsApp: 'A_Definir',
         ariaLabelWhatsApp: 'Botão de Contato',
       },
     },
@@ -478,13 +489,11 @@ const content = {
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: 'FALE CONOSCO',
       title: (
         <h1>
-          Enfrentando um
-          <span className="text-bgSectionDark"> problema jurídico?</span> Deixe
-          que cuidamos disso
-          <span className="text-bgSectionDark"> para você!</span>
+          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          conosco para podermos lhe ajudar,{' '}
+          <span className="text-bgSectionDark">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
@@ -536,13 +545,12 @@ const content = {
     },
     blog: {
       miniTag: 'BLOG',
-      title: 'Informação jurídica ao seu alcance',
-      subtitle:
-        'Acompanhe conteúdos exclusivos para manter-se sempre informado.',
+      title: 'A_Definir',
+      subtitle: '',
       img: imgSteps,
       labelCards: 'Ver mais',
       label: 'Clique aqui para ver todas as matérias',
-      blogLink: 'lucidauraferreira.wordpress.com', //sem "https://"
+      blogLink: 'mauromoncao.wordpress.com', //sem "https://"
     },
     faq: {
       miniTag: 'TIRE SUAS DÚVIDAS',
