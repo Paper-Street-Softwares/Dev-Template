@@ -75,7 +75,7 @@ import aboutWppMobile from '../assets/imgs/about/aboutWppMobile.webp'
 const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: 'A_Definir',
+  name: 'Dr. Getúlio Silva',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
   domain: 'getuliosilva.com.br', // Sem "www"
