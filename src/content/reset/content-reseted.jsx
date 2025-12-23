@@ -489,6 +489,7 @@ const content = {
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
+      miniTag: 'A_Definir',
       title: (
         <h1>
           <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato

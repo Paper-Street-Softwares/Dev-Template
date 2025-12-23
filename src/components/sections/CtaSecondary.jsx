@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import SectionArea from '../sectionElements/SectionArea'
 import SectionHeader from '../sectionElements/SectionHeader'
 import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 
 export default function CtaSecondary({ colorMode }) {
   const navigate = useNavigate()

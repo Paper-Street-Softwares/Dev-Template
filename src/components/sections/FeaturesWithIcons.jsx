@@ -1,29 +1,29 @@
-import { useTranslation } from "react-i18next";
-import content from "../../content/content";
-import IconFeatureCard from "../cards/IconFeatureCard";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import { useTranslation } from 'react-i18next'
+import content from '../../content/content'
+import IconFeatureCard from '../cards/IconFeatureCard'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
 
 export default function FeaturesWithIcons({ colorMode }) {
   // Define background and text colors based on colorMode
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
+    dark: 'bg-bgSectionOpacityDark',
     // light: "bg-bgSectionOpacityLight",
-    light: "squares",
-    default: "squares",
-  };
+    light: 'squares',
+    default: 'squares',
+  }
   const textClasses = {
-    dark: "text-white",
-    light: "text-black",
-    default: "text-black",
-  };
+    dark: 'text-white',
+    light: 'text-black',
+    default: 'text-black',
+  }
 
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+  const bgClass = bgClasses[colorMode] || bgClasses.default
+  const textClass = textClasses[colorMode] || textClasses.default
 
-  const features = Object.values(content.texts.features.cards);
+  const features = Object.values(content.texts.features.cards)
 
   return (
     <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
@@ -66,7 +66,7 @@ export default function FeaturesWithIcons({ colorMode }) {
 
           <div className="col2 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
             {features
-              .filter((_, index) => index > 2)
+              .filter((_, index) => index === 2 || index === 3)
               .map((card, index) => (
                 <MotionDivDownToUp>
                   <IconFeatureCard
@@ -83,5 +83,5 @@ export default function FeaturesWithIcons({ colorMode }) {
         </div>
       </SectionWrapper>
     </SectionArea>
-  );
+  )
 }
