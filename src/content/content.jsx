@@ -72,9 +72,9 @@ export const infos = {
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
   domain: 'getuliosilva.com.br', // Sem "www"
   phone: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: '32',
+    firstPart: '99981', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '9747', // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: 'A_Definir',
@@ -89,9 +89,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Francisco Paulo da Trindade,</p>
+      <p>nº 52, Bairro Parque das Abelhas,</p>
+      <p>Tiradentes - MG,</p>
+      <p>CEP: 36335-000</p>
     </div>
   ),
   enderecoSecundario: (
@@ -106,11 +107,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: '', // Sem o @
+  instagramProfile: 'getulioandersonsilva', // Sem o @
   facebookProfile: '',
   linkeDinProfile: '',
   x: '',
