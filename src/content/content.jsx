@@ -149,14 +149,15 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'A_Definir',
+      miniTag: 'ADVOGADO EM TIRADENTES - MG',
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Dr. Getúlio Anderson Silva
+          {/* <span className="text-primary"> A_Definir</span> */}
         </h1>
       ),
-      subtitle: 'A_Definir',
+      subtitle:
+        'Desde 2007, atuação jurídica responsável, técnica e personalizada na defesa dos interesses do cliente.',
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -166,7 +167,7 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'A_Definir',
+      ctaButtonText: 'Agendar atendimento',
       obsHero: {
         icon: (
           <svg
@@ -186,7 +187,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: 'A_Definir',
+        text: 'Atendimento em todo território nacional',
       },
       secondaryCta: 'Contato',
       images: {
