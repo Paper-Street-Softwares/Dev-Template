@@ -392,14 +392,24 @@ const content = {
         alt: 'Imagem ilustrativa da Seção Sobre',
         imagemMobile: aboutImgMobile,
       },
-      miniTag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      miniTag: 'QUEM É O DR. GETÚLIO SILVA',
+      title: 'Nossa trajetória',
+      subtitle:
+        'Mais de 15 anos de advocacia com atuação sólida e compromisso com resultados.',
       paragraph: (
         <div>
-          A_Definir
+          Exerce a advocacia desde o ano de 2007, à frente do escritório,
+          Getúlio Anderson Silva é especialista em Ciências Criminais pela
+          Universidade Federal de Juiz de Fora (UFJF); pós graduado em Direito
+          Penal e Processual aplicados pela Escola Brasileira de Direito
+          (EBRADI); Pós graduado em Direito Penal e Processual Penal pela Escola
+          Paulista de Direito (EPD); Mestre em educação pela Universidade
+          Federal de São João Del Rei (UFSJ) e pós graduando em Tribunal do Júri
+          pelo CEI.
           <br />
-          A_Definir
+          Ministrou aula de direito penal e processual penal no Curso de Direito
+          do CESA, Barbacena (MG) e atuou no Núcleo de Patrícia Jurídica na
+          mesma instituição.
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
@@ -454,10 +464,15 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
           altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
         },
-        miniTag: 'A_Definir',
-        title: 'A_Definir',
+        miniTag: 'REDES SOCIAIS',
+        title: 'Conecte-se conosco',
         subtitle: 'A_Definir',
-        paragraph: <p>A_Definir</p>,
+        paragraph: (
+          <p>
+            Aproveite nossas redes sociais para mantermos contato e ficar por
+            dentro de atualizações importantes no mundo do direito.
+          </p>
+        ),
         labelInstagram: 'Siga-me no Instagram',
         labelFacebook: 'Siga-me no Facebook',
         labelLinkedin: 'Siga-me no LinkedIn',

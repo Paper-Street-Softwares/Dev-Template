@@ -58,9 +58,9 @@ export default function Index() {
         iconsWithModal={false}
         carousel={false}
       />
-      <About modal={true} showGallery={false} colorMode={colorMode} />
-      {/* <AboutSocial socialPrint={true} /> */}
-      <AboutWpp colorMode={colorMode} />
+      <About modal={false} showGallery={false} colorMode={colorMode} />
+      <AboutSocial socialPrint={true} />
+      {/* <AboutWpp colorMode={colorMode} /> */}
       {/* <Team /> */}
       <CtaSecondary colorMode={colorMode} />
       <Steps colorMode={colorMode} />
