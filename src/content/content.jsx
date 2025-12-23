@@ -504,11 +504,16 @@ const content = {
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
+      miniTag: 'FALE CONOSCO',
       title: (
         <h1>
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{' '}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+          Enfrentando
+          <span className="text-bgSectionDark">
+            {' '}
+            um problema jurídico??
+          </span>{' '}
+          Deixe que cuidamos disso
+          <span className="text-bgSectionDark"> para você!</span>
         </h1>
       ),
       subtitleDireita: (
